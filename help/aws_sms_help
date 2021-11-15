@@ -1,0 +1,92 @@
+SMS()									 SMS()
+
+
+
+NAME
+       sms -
+
+DESCRIPTION
+       AWS  Server  Migration Service (AWS SMS) makes it easier and faster for
+       you to migrate your on-premises workloads to AWS. To learn  more  about
+       AWS SMS, see the following resources:
+
+       o AWS Server Migration Service product page
+
+       o AWS Server Migration Service User Guide
+
+AVAILABLE COMMANDS
+       o create-app
+
+       o create-replication-job
+
+       o delete-app
+
+       o delete-app-launch-configuration
+
+       o delete-app-replication-configuration
+
+       o delete-app-validation-configuration
+
+       o delete-replication-job
+
+       o delete-server-catalog
+
+       o disassociate-connector
+
+       o generate-change-set
+
+       o generate-template
+
+       o get-app
+
+       o get-app-launch-configuration
+
+       o get-app-replication-configuration
+
+       o get-app-validation-configuration
+
+       o get-app-validation-output
+
+       o get-connectors
+
+       o get-replication-jobs
+
+       o get-replication-runs
+
+       o get-servers
+
+       o help
+
+       o import-app-catalog
+
+       o import-server-catalog
+
+       o launch-app
+
+       o list-apps
+
+       o notify-app-validation-output
+
+       o put-app-launch-configuration
+
+       o put-app-replication-configuration
+
+       o put-app-validation-configuration
+
+       o start-app-replication
+
+       o start-on-demand-app-replication
+
+       o start-on-demand-replication-run
+
+       o stop-app-replication
+
+       o terminate-app
+
+       o update-app
+
+       o update-replication-job
+
+
+
+									 SMS()

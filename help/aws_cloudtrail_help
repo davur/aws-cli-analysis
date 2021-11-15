@@ -1,0 +1,77 @@
+CLOUDTRAIL()							  CLOUDTRAIL()
+
+
+
+NAME
+       cloudtrail -
+
+DESCRIPTION
+       This  is  the  CloudTrail  API  Reference.  It provides descriptions of
+       actions, data types, common parameters, and common  errors  for	Cloud-
+       Trail.
+
+       CloudTrail  is a web service that records Amazon Web Services API calls
+       for your Amazon Web Services account and delivers log files to an  Ama-
+       zon  S3	bucket.  The recorded information includes the identity of the
+       user, the start time of the Amazon Web Services API call, the source IP
+       address,  the request parameters, and the response elements returned by
+       the service.
+
+       NOTE:
+	  As an alternative to the API, you can use one of the Amazon Web Ser-
+	  vices  SDKs,	which consist of libraries and sample code for various
+	  programming languages and platforms (Java, Ruby, .NET, iOS, Android,
+	  etc.). The SDKs provide programmatic access to CloudTrail. For exam-
+	  ple, the SDKs handle cryptographically  signing  requests,  managing
+	  errors,  and	retrying  requests automatically. For more information
+	  about the Amazon Web Services SDKs, including how  to  download  and
+	  install them, see Tools to Build on Amazon Web Services .
+
+       See  the  CloudTrail  User Guide for information about the data that is
+       included with each Amazon Web Services  API  call  listed  in  the  log
+       files.
+
+AVAILABLE COMMANDS
+       o add-tags
+
+       o create-trail
+
+       o delete-trail
+
+       o describe-trails
+
+       o get-event-selectors
+
+       o get-insight-selectors
+
+       o get-trail
+
+       o get-trail-status
+
+       o help
+
+       o list-public-keys
+
+       o list-tags
+
+       o list-trails
+
+       o lookup-events
+
+       o put-event-selectors
+
+       o put-insight-selectors
+
+       o remove-tags
+
+       o start-logging
+
+       o stop-logging
+
+       o update-trail
+
+       o validate-logs
+
+
+
+								  CLOUDTRAIL()

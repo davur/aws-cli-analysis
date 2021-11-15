@@ -1,0 +1,29 @@
+AWS(CLI)                                                              AWS(CLI)
+
+
+
+NNAAMMEE
+       AWS CLI Topic Guide -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  is  the  AWS  CLI Topic Guide. It gives access to a set of topics
+       that provide a deeper understanding of the CLI. To access the  list  of
+       topics from the command line, run aawwss hheellpp ttooppiiccss. To access a specific
+       topic from the command line, run aawwss hheellpp [[ttooppiiccnnaammee]], where  ttooppiiccnnaammee
+       is the name of the topic as it appears in the output from aawwss hheellpp ttoopp--
+       iiccss.
+
+AAVVAAIILLAABBLLEE TTOOPPIICCSS
+   GGeenneerraall
+       +o config-vars: Configuration Variables for the AWS CLI
+
+       +o return-codes: Describes the various return codes of the AWS CLI
+
+   SS33
+       +o s3-config: Advanced configuration for AWS S3 Commands
+
+       +o s3-faq: Frequented Asked Questions for Amazon S3 in the AWS CLI
+
+
+
+GUIDE                                TOPIC                            AWS(CLI)

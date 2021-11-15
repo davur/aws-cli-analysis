@@ -1,0 +1,137 @@
+LAMBDA()							      LAMBDA()
+
+
+
+NAME
+       lambda -
+
+DESCRIPTION
+	  Overview
+
+       This  is the Lambda API Reference . The Lambda Developer Guide provides
+       additional information. For the service overview, see What is Lambda  ,
+       and  for  information  about  how the service works, see Lambda: How it
+       Works in the Lambda Developer Guide .
+
+AVAILABLE COMMANDS
+       o add-layer-version-permission
+
+       o add-permission
+
+       o create-alias
+
+       o create-code-signing-config
+
+       o create-event-source-mapping
+
+       o create-function
+
+       o delete-alias
+
+       o delete-code-signing-config
+
+       o delete-event-source-mapping
+
+       o delete-function
+
+       o delete-function-code-signing-config
+
+       o delete-function-concurrency
+
+       o delete-function-event-invoke-config
+
+       o delete-layer-version
+
+       o delete-provisioned-concurrency-config
+
+       o get-account-settings
+
+       o get-alias
+
+       o get-code-signing-config
+
+       o get-event-source-mapping
+
+       o get-function
+
+       o get-function-code-signing-config
+
+       o get-function-concurrency
+
+       o get-function-configuration
+
+       o get-function-event-invoke-config
+
+       o get-layer-version
+
+       o get-layer-version-by-arn
+
+       o get-layer-version-policy
+
+       o get-policy
+
+       o get-provisioned-concurrency-config
+
+       o help
+
+       o invoke
+
+       o list-aliases
+
+       o list-code-signing-configs
+
+       o list-event-source-mappings
+
+       o list-function-event-invoke-configs
+
+       o list-functions
+
+       o list-functions-by-code-signing-config
+
+       o list-layer-versions
+
+       o list-layers
+
+       o list-provisioned-concurrency-configs
+
+       o list-tags
+
+       o list-versions-by-function
+
+       o publish-layer-version
+
+       o publish-version
+
+       o put-function-code-signing-config
+
+       o put-function-concurrency
+
+       o put-function-event-invoke-config
+
+       o put-provisioned-concurrency-config
+
+       o remove-layer-version-permission
+
+       o remove-permission
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-alias
+
+       o update-code-signing-config
+
+       o update-event-source-mapping
+
+       o update-function-code
+
+       o update-function-configuration
+
+       o update-function-event-invoke-config
+
+       o wait
+
+
+
+								      LAMBDA()

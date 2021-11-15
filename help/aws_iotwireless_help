@@ -1,0 +1,182 @@
+IOTWIRELESS()							 IOTWIRELESS()
+
+
+
+NAME
+       iotwireless -
+
+DESCRIPTION
+       AWS IoT Wireless API documentation
+
+AVAILABLE COMMANDS
+       o associate-aws-account-with-partner-account
+
+       o associate-multicast-group-with-fuota-task
+
+       o associate-wireless-device-with-fuota-task
+
+       o associate-wireless-device-with-multicast-group
+
+       o associate-wireless-device-with-thing
+
+       o associate-wireless-gateway-with-certificate
+
+       o associate-wireless-gateway-with-thing
+
+       o cancel-multicast-group-session
+
+       o create-destination
+
+       o create-device-profile
+
+       o create-fuota-task
+
+       o create-multicast-group
+
+       o create-service-profile
+
+       o create-wireless-device
+
+       o create-wireless-gateway
+
+       o create-wireless-gateway-task
+
+       o create-wireless-gateway-task-definition
+
+       o delete-destination
+
+       o delete-device-profile
+
+       o delete-fuota-task
+
+       o delete-multicast-group
+
+       o delete-service-profile
+
+       o delete-wireless-device
+
+       o delete-wireless-gateway
+
+       o delete-wireless-gateway-task
+
+       o delete-wireless-gateway-task-definition
+
+       o disassociate-aws-account-from-partner-account
+
+       o disassociate-multicast-group-from-fuota-task
+
+       o disassociate-wireless-device-from-fuota-task
+
+       o disassociate-wireless-device-from-multicast-group
+
+       o disassociate-wireless-device-from-thing
+
+       o disassociate-wireless-gateway-from-certificate
+
+       o disassociate-wireless-gateway-from-thing
+
+       o get-destination
+
+       o get-device-profile
+
+       o get-fuota-task
+
+       o get-log-levels-by-resource-types
+
+       o get-multicast-group
+
+       o get-multicast-group-session
+
+       o get-partner-account
+
+       o get-resource-event-configuration
+
+       o get-resource-log-level
+
+       o get-service-endpoint
+
+       o get-service-profile
+
+       o get-wireless-device
+
+       o get-wireless-device-statistics
+
+       o get-wireless-gateway
+
+       o get-wireless-gateway-certificate
+
+       o get-wireless-gateway-firmware-information
+
+       o get-wireless-gateway-statistics
+
+       o get-wireless-gateway-task
+
+       o get-wireless-gateway-task-definition
+
+       o help
+
+       o list-destinations
+
+       o list-device-profiles
+
+       o list-fuota-tasks
+
+       o list-multicast-groups
+
+       o list-multicast-groups-by-fuota-task
+
+       o list-partner-accounts
+
+       o list-service-profiles
+
+       o list-tags-for-resource
+
+       o list-wireless-devices
+
+       o list-wireless-gateway-task-definitions
+
+       o list-wireless-gateways
+
+       o put-resource-log-level
+
+       o reset-all-resource-log-levels
+
+       o reset-resource-log-level
+
+       o send-data-to-multicast-group
+
+       o send-data-to-wireless-device
+
+       o start-bulk-associate-wireless-device-with-multicast-group
+
+       o start-bulk-disassociate-wireless-device-from-multicast-group
+
+       o start-fuota-task
+
+       o start-multicast-group-session
+
+       o tag-resource
+
+       o test-wireless-device
+
+       o untag-resource
+
+       o update-destination
+
+       o update-fuota-task
+
+       o update-log-levels-by-resource-types
+
+       o update-multicast-group
+
+       o update-partner-account
+
+       o update-resource-event-configuration
+
+       o update-wireless-device
+
+       o update-wireless-gateway
+
+
+
+								 IOTWIRELESS()
