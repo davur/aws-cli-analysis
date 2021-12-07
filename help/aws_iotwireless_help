@@ -87,6 +87,8 @@ AVAILABLE COMMANDS
 
        o get-multicast-group-session
 
+       o get-network-analyzer-configuration
+
        o get-partner-account
 
        o get-resource-event-configuration
@@ -168,6 +170,8 @@ AVAILABLE COMMANDS
        o update-log-levels-by-resource-types
 
        o update-multicast-group
+
+       o update-network-analyzer-configuration
 
        o update-partner-account
 

@@ -10,11 +10,17 @@ DESCRIPTION
        tions and structures supported in Amazon Braket.
 
 AVAILABLE COMMANDS
+       o cancel-job
+
        o cancel-quantum-task
+
+       o create-job
 
        o create-quantum-task
 
        o get-device
+
+       o get-job
 
        o get-quantum-task
 
@@ -23,6 +29,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o search-devices
+
+       o search-jobs
 
        o search-quantum-tasks
 

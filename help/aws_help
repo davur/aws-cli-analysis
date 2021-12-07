@@ -111,6 +111,8 @@ AVAILABLE SERVICES
 
        o amplifybackend
 
+       o amplifyuibuilder
+
        o apigateway
 
        o apigatewaymanagementapi
@@ -118,6 +120,8 @@ AVAILABLE SERVICES
        o apigatewayv2
 
        o appconfig
+
+       o appconfigdata
 
        o appflow
 
@@ -146,6 +150,8 @@ AVAILABLE SERVICES
        o autoscaling-plans
 
        o backup
+
+       o backup-gateway
 
        o batch
 
@@ -257,6 +263,8 @@ AVAILABLE SERVICES
 
        o docdb
 
+       o drs
+
        o ds
 
        o dynamodb
@@ -298,6 +306,8 @@ AVAILABLE SERVICES
        o es
 
        o events
+
+       o evidently
 
        o finspace
 
@@ -355,6 +365,8 @@ AVAILABLE SERVICES
 
        o inspector
 
+       o inspector2
+
        o iot
 
        o iot-data
@@ -380,6 +392,8 @@ AVAILABLE SERVICES
        o iotsitewise
 
        o iotthingsgraph
+
+       o iottwinmaker
 
        o iotwireless
 
@@ -471,7 +485,11 @@ AVAILABLE SERVICES
 
        o mgn
 
+       o migration-hub-refactor-spaces
+
        o migrationhub-config
+
+       o migrationhubstrategy
 
        o mobile
 
@@ -529,6 +547,8 @@ AVAILABLE SERVICES
 
        o ram
 
+       o rbin
+
        o rds
 
        o rds-data
@@ -558,6 +578,8 @@ AVAILABLE SERVICES
        o route53domains
 
        o route53resolver
+
+       o rum
 
        o s3
 
@@ -672,6 +694,8 @@ AVAILABLE SERVICES
        o workmailmessageflow
 
        o workspaces
+
+       o workspaces-web
 
        o xray
 

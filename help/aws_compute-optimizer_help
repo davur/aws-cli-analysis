@@ -22,6 +22,8 @@ DESCRIPTION
        Optimizer User Guide .
 
 AVAILABLE COMMANDS
+       o delete-recommendation-preferences
+
        o describe-recommendation-export-jobs
 
        o export-auto-scaling-group-recommendations
@@ -40,15 +42,21 @@ AVAILABLE COMMANDS
 
        o get-ec2-recommendation-projected-metrics
 
+       o get-effective-recommendation-preferences
+
        o get-enrollment-status
 
        o get-enrollment-statuses-for-organization
 
        o get-lambda-function-recommendations
 
+       o get-recommendation-preferences
+
        o get-recommendation-summaries
 
        o help
+
+       o put-recommendation-preferences
 
        o update-enrollment-status
 

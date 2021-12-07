@@ -285,6 +285,8 @@ AVAILABLE COMMANDS
 
        o purchase-reserved-db-instances-offering
 
+       o reboot-db-cluster
+
        o reboot-db-instance
 
        o register-db-proxy-targets

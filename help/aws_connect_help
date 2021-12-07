@@ -48,6 +48,8 @@ AVAILABLE COMMANDS
 
        o create-contact-flow
 
+       o create-contact-flow-module
+
        o create-hours-of-operation
 
        o create-instance
@@ -67,6 +69,10 @@ AVAILABLE COMMANDS
        o create-user
 
        o create-user-hierarchy-group
+
+       o delete-contact-flow
+
+       o delete-contact-flow-module
 
        o delete-hours-of-operation
 
@@ -89,6 +95,8 @@ AVAILABLE COMMANDS
        o describe-contact
 
        o describe-contact-flow
+
+       o describe-contact-flow-module
 
        o describe-hours-of-operation
 
@@ -143,6 +151,8 @@ AVAILABLE COMMANDS
        o list-approved-origins
 
        o list-bots
+
+       o list-contact-flow-modules
 
        o list-contact-flows
 
@@ -221,6 +231,12 @@ AVAILABLE COMMANDS
        o update-contact-attributes
 
        o update-contact-flow-content
+
+       o update-contact-flow-metadata
+
+       o update-contact-flow-module-content
+
+       o update-contact-flow-module-metadata
 
        o update-contact-flow-name
 

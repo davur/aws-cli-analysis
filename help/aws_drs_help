@@ -1,39 +1,41 @@
-MGN()									 MGN()
+DRS()									 DRS()
 
 
 
 NAME
-       mgn -
+       drs -
 
 DESCRIPTION
-       The Application Migration Service service.
+       AWS Elastic Disaster Recovery Service.
 
 AVAILABLE COMMANDS
-       o change-server-life-cycle-state
-
        o create-replication-configuration-template
 
        o delete-job
+
+       o delete-recovery-instance
 
        o delete-replication-configuration-template
 
        o delete-source-server
 
-       o delete-vcenter-client
-
        o describe-job-log-items
 
        o describe-jobs
+
+       o describe-recovery-instances
+
+       o describe-recovery-snapshots
 
        o describe-replication-configuration-templates
 
        o describe-source-servers
 
-       o describe-vcenter-clients
+       o disconnect-recovery-instance
 
-       o disconnect-from-service
+       o disconnect-source-server
 
-       o finalize-cutover
+       o get-failback-replication-configuration
 
        o get-launch-configuration
 
@@ -45,21 +47,21 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
-       o mark-as-archived
-
        o retry-data-replication
 
-       o start-cutover
+       o start-failback-launch
 
-       o start-replication
+       o start-recovery
 
-       o start-test
+       o stop-failback
 
        o tag-resource
 
-       o terminate-target-instances
+       o terminate-recovery-instances
 
        o untag-resource
+
+       o update-failback-replication-configuration
 
        o update-launch-configuration
 
@@ -67,8 +69,6 @@ AVAILABLE COMMANDS
 
        o update-replication-configuration-template
 
-       o update-source-server-replication-type
 
 
-
-									 MGN()
+									 DRS()

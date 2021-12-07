@@ -67,6 +67,8 @@ AVAILABLE COMMANDS
 
        o create-image-version
 
+       o create-inference-recommendations-job
+
        o create-labeling-job
 
        o create-model
@@ -237,7 +239,11 @@ AVAILABLE COMMANDS
 
        o describe-image-version
 
+       o describe-inference-recommendations-job
+
        o describe-labeling-job
+
+       o describe-lineage-group
 
        o describe-model
 
@@ -292,6 +298,8 @@ AVAILABLE COMMANDS
        o enable-sagemaker-servicecatalog-portfolio
 
        o get-device-fleet-report
+
+       o get-lineage-group-policy
 
        o get-model-package-group-policy
 
@@ -351,13 +359,19 @@ AVAILABLE COMMANDS
 
        o list-images
 
+       o list-inference-recommendations-jobs
+
        o list-labeling-jobs
 
        o list-labeling-jobs-for-workteam
 
+       o list-lineage-groups
+
        o list-model-bias-job-definitions
 
        o list-model-explainability-job-definitions
+
+       o list-model-metadata
 
        o list-model-package-groups
 
@@ -411,6 +425,8 @@ AVAILABLE COMMANDS
 
        o put-model-package-group-policy
 
+       o query-lineage
+
        o register-devices
 
        o render-ui-template
@@ -436,6 +452,8 @@ AVAILABLE COMMANDS
        o stop-edge-packaging-job
 
        o stop-hyper-parameter-tuning-job
+
+       o stop-inference-recommendations-job
 
        o stop-labeling-job
 

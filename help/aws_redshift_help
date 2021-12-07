@@ -171,6 +171,8 @@ AVAILABLE COMMANDS
 
        o describe-partners
 
+       o describe-reserved-node-exchange-status
+
        o describe-reserved-node-offerings
 
        o describe-reserved-nodes
@@ -202,6 +204,8 @@ AVAILABLE COMMANDS
        o enable-snapshot-copy
 
        o get-cluster-credentials
+
+       o get-reserved-node-exchange-configuration-options
 
        o get-reserved-node-exchange-offerings
 

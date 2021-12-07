@@ -6,12 +6,12 @@ NAME
        appconfig -
 
 DESCRIPTION
-       Use AWS AppConfig, a capability of AWS Systems Manager, to create, man-
-       age, and quickly deploy application configurations. AppConfig  supports
-       controlled  deployments	to  applications  of  any  size  and  includes
-       built-in validation checks and monitoring. You can use  AppConfig  with
-       applications  hosted  on  Amazon EC2 instances, AWS Lambda, containers,
-       mobile applications, or IoT devices.
+       Use  AppConfig, a capability of Amazon Web Services Systems Manager, to
+       create, manage, and quickly deploy application configurations.  AppCon-
+       fig  supports  controlled  deployments  to applications of any size and
+       includes built-in validation checks and monitoring. You can use AppCon-
+       fig  with applications hosted on Amazon EC2 instances, Lambda, contain-
+       ers, mobile applications, or IoT devices.
 
        To prevent errors when deploying application configurations, especially
        for  production	systems  where a simple typo could cause an unexpected
@@ -31,7 +31,7 @@ DESCRIPTION
        ing,  if  a deployment triggers an alarm, AppConfig automatically rolls
        back to the previous version.
 
-       AppConfig supports multiple use cases. Here are some examples.
+       AppConfig supports multiple use cases. Here are some examples:
 
        o Application tuning : Use AppConfig to carefully introduce changes  to
 	 your application that can only be tested with production traffic.
@@ -45,8 +45,7 @@ DESCRIPTION
        o Operational  issues : Use AppConfig to reduce stress on your applica-
 	 tion when a dependency or other external factor impacts the system.
 
-       This reference is intended to be used with the AWS AppConfig User Guide
-       .
+       This reference is intended to be used with the AppConfig User Guide .
 
 AVAILABLE COMMANDS
        o create-application

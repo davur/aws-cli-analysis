@@ -61,6 +61,8 @@ AVAILABLE COMMANDS
 
        o describe-bot-locale
 
+       o describe-bot-recommendation
+
        o describe-bot-version
 
        o describe-export
@@ -83,6 +85,8 @@ AVAILABLE COMMANDS
 
        o list-bot-locales
 
+       o list-bot-recommendations
+
        o list-bot-versions
 
        o list-bots
@@ -97,11 +101,17 @@ AVAILABLE COMMANDS
 
        o list-intents
 
+       o list-recommended-intents
+
        o list-slot-types
 
        o list-slots
 
        o list-tags-for-resource
+
+       o search-associated-transcripts
+
+       o start-bot-recommendation
 
        o start-import
 
@@ -114,6 +124,8 @@ AVAILABLE COMMANDS
        o update-bot-alias
 
        o update-bot-locale
+
+       o update-bot-recommendation
 
        o update-export
 

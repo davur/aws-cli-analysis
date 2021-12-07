@@ -9,11 +9,17 @@ DESCRIPTION
        Provides APIs for creating and managing Amazon Forecast resources.
 
 AVAILABLE COMMANDS
+       o create-auto-predictor
+
        o create-dataset
 
        o create-dataset-group
 
        o create-dataset-import-job
+
+       o create-explainability
+
+       o create-explainability-export
 
        o create-forecast
 
@@ -29,6 +35,10 @@ AVAILABLE COMMANDS
 
        o delete-dataset-import-job
 
+       o delete-explainability
+
+       o delete-explainability-export
+
        o delete-forecast
 
        o delete-forecast-export-job
@@ -39,11 +49,17 @@ AVAILABLE COMMANDS
 
        o delete-resource-tree
 
+       o describe-auto-predictor
+
        o describe-dataset
 
        o describe-dataset-group
 
        o describe-dataset-import-job
+
+       o describe-explainability
+
+       o describe-explainability-export
 
        o describe-forecast
 
@@ -62,6 +78,10 @@ AVAILABLE COMMANDS
        o list-dataset-import-jobs
 
        o list-datasets
+
+       o list-explainabilities
+
+       o list-explainability-exports
 
        o list-forecast-export-jobs
 

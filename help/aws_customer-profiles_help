@@ -40,7 +40,11 @@ AVAILABLE COMMANDS
 
        o delete-profile-object-type
 
+       o get-auto-merging-preview
+
        o get-domain
+
+       o get-identity-resolution-job
 
        o get-integration
 
@@ -55,6 +59,8 @@ AVAILABLE COMMANDS
        o list-account-integrations
 
        o list-domains
+
+       o list-identity-resolution-jobs
 
        o list-integrations
 

@@ -15,6 +15,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o associate-assets
 
+       o associate-time-series-to-asset-property
+
        o batch-associate-project-assets
 
        o batch-disassociate-project-assets
@@ -49,6 +51,8 @@ AVAILABLE COMMANDS
 
        o delete-project
 
+       o delete-time-series
+
        o describe-access-policy
 
        o describe-asset
@@ -73,7 +77,11 @@ AVAILABLE COMMANDS
 
        o describe-storage-configuration
 
+       o describe-time-series
+
        o disassociate-assets
+
+       o disassociate-time-series-from-asset-property
 
        o get-asset-property-aggregates
 
@@ -106,6 +114,8 @@ AVAILABLE COMMANDS
        o list-projects
 
        o list-tags-for-resource
+
+       o list-time-series
 
        o put-default-encryption-configuration
 

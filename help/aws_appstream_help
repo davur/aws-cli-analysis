@@ -27,6 +27,8 @@ DESCRIPTION
        o Amazon AppStream 2.0 documentation
 
 AVAILABLE COMMANDS
+       o associate-application-fleet
+
        o associate-fleet
 
        o batch-associate-user-stack
@@ -34,6 +36,10 @@ AVAILABLE COMMANDS
        o batch-disassociate-user-stack
 
        o copy-image
+
+       o create-app-block
+
+       o create-application
 
        o create-directory-config
 
@@ -53,6 +59,10 @@ AVAILABLE COMMANDS
 
        o create-user
 
+       o delete-app-block
+
+       o delete-application
+
        o delete-directory-config
 
        o delete-fleet
@@ -68,6 +78,12 @@ AVAILABLE COMMANDS
        o delete-usage-report-subscription
 
        o delete-user
+
+       o describe-app-blocks
+
+       o describe-application-fleet-associations
+
+       o describe-applications
 
        o describe-directory-configs
 
@@ -90,6 +106,8 @@ AVAILABLE COMMANDS
        o describe-users
 
        o disable-user
+
+       o disassociate-application-fleet
 
        o disassociate-fleet
 
@@ -116,6 +134,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-application
 
        o update-directory-config
 

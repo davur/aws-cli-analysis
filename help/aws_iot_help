@@ -219,6 +219,8 @@ AVAILABLE COMMANDS
 
        o describe-job-template
 
+       o describe-managed-job-template
+
        o describe-mitigation-action
 
        o describe-provisioning-template
@@ -330,6 +332,8 @@ AVAILABLE COMMANDS
        o list-job-templates
 
        o list-jobs
+
+       o list-managed-job-templates
 
        o list-mitigation-actions
 
