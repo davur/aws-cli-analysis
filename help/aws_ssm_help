@@ -17,10 +17,10 @@ DESCRIPTION
        configured for Systems Manager.
 
        NOTE:
-	  With	support  for IoT Greengrass Version 2 devices, the phrase man-
-	  aged instance has been changed to managed node in most of  the  Sys-
-	  tems	Manager documentation. The Systems Manager console, API calls,
-	  error messages, and SSM documents still use the term instance.
+	  With	support  for  IoT  Greengrass core devices, the phrase managed
+	  instance has been changed to managed node in	most  of  the  Systems
+	  Manager documentation. The Systems Manager console, API calls, error
+	  messages, and SSM documents still use the term instance .
 
        This reference is intended to be used with the Amazon Web Services Sys-
        tems Manager User Guide .

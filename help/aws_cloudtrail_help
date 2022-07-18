@@ -34,15 +34,27 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o add-tags
 
+       o cancel-query
+
+       o create-event-data-store
+
        o create-trail
+
+       o delete-event-data-store
 
        o delete-trail
 
+       o describe-query
+
        o describe-trails
+
+       o get-event-data-store
 
        o get-event-selectors
 
        o get-insight-selectors
+
+       o get-query-results
 
        o get-trail
 
@@ -50,7 +62,11 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-event-data-stores
+
        o list-public-keys
+
+       o list-queries
 
        o list-tags
 
@@ -64,9 +80,15 @@ AVAILABLE COMMANDS
 
        o remove-tags
 
+       o restore-event-data-store
+
        o start-logging
 
+       o start-query
+
        o stop-logging
+
+       o update-event-data-store
 
        o update-trail
 

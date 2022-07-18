@@ -6,15 +6,15 @@ NAME
        codeartifact -
 
 DESCRIPTION
-       AWS CodeArtifact is a fully managed artifact repository compatible with
+       CodeArtifact  is  a  fully  managed artifact repository compatible with
        language-native package managers and build tools such  as  npm,	Apache
-       Maven,  and pip. You can use CodeArtifact to share packages with devel-
-       opment teams and pull packages. Packages can be pulled from both public
-       and  CodeArtifact  repositories.  You can also create an upstream rela-
-       tionship between a  CodeArtifact  repository  and  another  repository,
+       Maven, pip, and dotnet. You can use CodeArtifact to share packages with
+       development teams and pull packages. Packages can be pulled  from  both
+       public  and  CodeArtifact repositories. You can also create an upstream
+       relationship between a CodeArtifact repository and another  repository,
        which  effectively  merges  their  contents from the point of view of a
        package manager client.
-	  AWS CodeArtifact Components
+	  CodeArtifact Components
 
        Use the information in this guide to help you work with	the  following
        CodeArtifact components:
@@ -24,27 +24,28 @@ DESCRIPTION
 	 are polyglot, so a single repository can contain packages of any sup-
 	 ported type. Each repository exposes endpoints for fetching and  pub-
 	 lishing  packages  using  tools like the ** npm ** CLI, the Maven CLI
-	 (** mvn ** ), and ** pip ** .
+	 (** mvn ** ), Python CLIs (** pip ** and  twine  ),  and  NuGet  CLIs
+	 (nuget and dotnet ).
 
        o Domain : Repositories are aggregated into a higher-level entity known
-	 as  a	domain	.  All	package  assets and metadata are stored in the
+	 as a domain . All package assets  and	metadata  are  stored  in  the
 	 domain, but are consumed through repositories. A given package asset,
-	 such  as  a  Maven JAR file, is stored once per domain, no matter how
-	 many repositories it's present in. All of the assets and metadata  in
+	 such as a Maven JAR file, is stored once per domain,  no  matter  how
+	 many  repositories it's present in. All of the assets and metadata in
 	 a domain are encrypted with the same customer master key (CMK) stored
-	 in AWS Key Management Service (AWS KMS). Each repository is a	member
-	 of  a	single	domain	and  can't be moved to a different domain. The
-	 domain allows organizational policy to  be  applied  across  multiple
-	 repositories,	such  as which accounts can access repositories in the
-	 domain, and which public repositories can be used as sources of pack-
-	 ages.	Although  an organization can have multiple domains, we recom-
-	 mend a single production domain that contains all published artifacts
-	 so  that teams can find and share packages across their organization.
+	 in  Key  Management  Service  (KMS). Each repository is a member of a
+	 single domain and can't be moved to a different  domain.  The	domain
+	 allows  organizational policy to be applied across multiple reposito-
+	 ries, such as which accounts can access repositories in  the  domain,
+	 and  which  public  repositories  can be used as sources of packages.
+	 Although an organization can have multiple domains,  we  recommend  a
+	 single  production  domain  that  contains all published artifacts so
+	 that teams can find and share packages across their organization.
 
        o Package : A package is a bundle of software and the metadata required
 	 to  resolve  dependencies and install the software. CodeArtifact sup-
-	 ports npm , PyPI , and Maven  package	formats.  In  CodeArtifact,  a
-	 package consists of:
+	 ports npm , PyPI , Maven , and NuGet package  formats.  In  CodeArti-
+	 fact, a package consists of:
 
 	 o A name (for example, webpack is the name of a popular npm package)
 
@@ -101,13 +102,16 @@ DESCRIPTION
        o DescribeDomain : Returns a  DomainDescription	object	that  contains
 	 information about the requested domain.
 
-       o DescribePackageVersion  :  Returns a PackageVersionDescription object
+       o DescribePackage  :  Returns a PackageDescription object that contains
+	 details about a package.
+
+       o DescribePackageVersion : Returns a  PackageVersionDescription	object
 	 that contains details about a package version.
 
        o DescribeRepository : Returns a RepositoryDescription object that con-
 	 tains detailed information about the requested repository.
 
-       o DisposePackageVersions  :  Disposes  versions of a package. A package
+       o DisposePackageVersions : Disposes versions of a  package.  A  package
 	 version with the status Disposed cannot be restored because they have
 	 been permanently removed from storage.
 
@@ -115,58 +119,64 @@ DESCRIPTION
 	 tion from a repository.
 
        o GetAuthorizationToken : Generates a temporary authorization token for
-	 accessing  repositories  in  the domain. The token expires the autho-
-	 rization period has passed. The default authorization	period	is  12
+	 accessing repositories in the domain. The token  expires  the	autho-
+	 rization  period  has	passed. The default authorization period is 12
 	 hours and can be customized to any length with a maximum of 12 hours.
 
        o GetDomainPermissionsPolicy : Returns the policy of a resource that is
 	 attached to the specified domain.
 
-       o GetPackageVersionAsset  : Returns the contents of an asset that is in
+       o GetPackageVersionAsset : Returns the contents of an asset that is  in
 	 a package version.
 
-       o GetPackageVersionReadme : Gets the readme file  or  descriptive  text
+       o GetPackageVersionReadme  :  Gets  the readme file or descriptive text
 	 for a package version.
 
-       o GetRepositoryEndpoint	:  Returns  the endpoint of a repository for a
+       o GetRepositoryEndpoint : Returns the endpoint of a  repository	for  a
 	 specific package format. A repository has one endpoint for each pack-
 	 age format:
 
+	 o maven
+
 	 o npm
+
+	 o nuget
 
 	 o pypi
 
-	 o maven
-
-       o GetRepositoryPermissionsPolicy  : Returns the resource policy that is
+       o GetRepositoryPermissionsPolicy : Returns the resource policy that  is
 	 set on a repository.
 
-       o ListDomains : Returns a list of DomainSummary objects. Each  returned
+       o ListDomains  : Returns a list of DomainSummary objects. Each returned
 	 DomainSummary object contains information about a domain.
 
        o ListPackages : Lists the packages in a repository.
 
-       o ListPackageVersionAssets  : Lists the assets for a given package ver-
+       o ListPackageVersionAssets : Lists the assets for a given package  ver-
 	 sion.
 
-       o ListPackageVersionDependencies : Returns a list of the direct	depen-
+       o ListPackageVersionDependencies  : Returns a list of the direct depen-
 	 dencies for a package version.
 
        o ListPackageVersions : Returns a list of package versions for a speci-
 	 fied package in a repository.
 
-       o ListRepositories : Returns a list of repositories owned  by  the  AWS
-	 account that called this method.
+       o ListRepositories : Returns a list of repositories owned by the Amazon
+	 Web Services account that called this method.
 
-       o ListRepositoriesInDomain  :  Returns  a list of the repositories in a
+       o ListRepositoriesInDomain : Returns a list of the  repositories  in  a
 	 domain.
 
-       o PutDomainPermissionsPolicy : Attaches a resource policy to a  domain.
+       o PutDomainPermissionsPolicy  : Attaches a resource policy to a domain.
+
+       o PutPackageOriginConfiguration : Sets the package origin configuration
+	 for a package, which determine how new versions of the package can be
+	 added to a specific repository.
 
        o PutRepositoryPermissionsPolicy : Sets the resource policy on a repos-
 	 itory that specifies permissions to access it.
 
-       o UpdatePackageVersionsStatus : Updates the status of one or more  ver-
+       o UpdatePackageVersionsStatus  : Updates the status of one or more ver-
 	 sions of a package.
 
        o UpdateRepository : Updates the properties of a repository.
@@ -191,6 +201,8 @@ AVAILABLE COMMANDS
        o delete-repository-permissions-policy
 
        o describe-domain
+
+       o describe-package
 
        o describe-package-version
 
@@ -233,6 +245,8 @@ AVAILABLE COMMANDS
        o login
 
        o put-domain-permissions-policy
+
+       o put-package-origin-configuration
 
        o put-repository-permissions-policy
 

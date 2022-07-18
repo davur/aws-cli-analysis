@@ -17,6 +17,8 @@ AVAILABLE COMMANDS
 
        o create-account-customization
 
+       o create-account-subscription
+
        o create-analysis
 
        o create-dashboard
@@ -85,6 +87,8 @@ AVAILABLE COMMANDS
 
        o describe-account-settings
 
+       o describe-account-subscription
+
        o describe-analysis
 
        o describe-analysis-permissions
@@ -108,6 +112,8 @@ AVAILABLE COMMANDS
        o describe-folder-resolved-permissions
 
        o describe-group
+
+       o describe-group-membership
 
        o describe-iam-policy-assignment
 
@@ -195,6 +201,8 @@ AVAILABLE COMMANDS
 
        o search-folders
 
+       o search-groups
+
        o tag-resource
 
        o untag-resource
@@ -230,6 +238,8 @@ AVAILABLE COMMANDS
        o update-iam-policy-assignment
 
        o update-ip-restriction
+
+       o update-public-sharing-settings
 
        o update-template
 

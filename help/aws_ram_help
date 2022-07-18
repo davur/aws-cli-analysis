@@ -54,6 +54,8 @@ AVAILABLE COMMANDS
 
        o list-pending-invitation-resources
 
+       o list-permission-versions
+
        o list-permissions
 
        o list-principals

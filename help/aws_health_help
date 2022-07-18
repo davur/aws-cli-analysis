@@ -13,11 +13,11 @@ DESCRIPTION
 
        NOTE:
 
-	  o You must have a Business or Enterprise Support  plan  from	Amazon
-	    Web Services Support to use the Health API. If you call the Health
-	    API from an Amazon Web Services account that doesn't have a  Busi-
-	    ness  or  Enterprise  Support  plan, you receive a SubscriptionRe-
-	    quiredException error.
+	  o You must have a Business, Enterprise On-Ramp, or  Enterprise  Sup-
+	    port  plan from Amazon Web Services Support to use the Health API.
+	    If you call the Health API from an	Amazon	Web  Services  account
+	    that  doesn't  have  a Business, Enterprise On-Ramp, or Enterprise
+	    Support plan, you receive a SubscriptionRequiredException error.
 
 	  o You can use  the  Health  endpoint	health.us-east-1.amazonaws.com
 	    (HTTPS)  to  call  the  Health  API  operations. Health supports a

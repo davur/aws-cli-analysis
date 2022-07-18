@@ -6,13 +6,23 @@ NAME
        sms -
 
 DESCRIPTION
-       AWS  Server  Migration Service (AWS SMS) makes it easier and faster for
-       you to migrate your on-premises workloads to AWS. To learn  more  about
-       AWS SMS, see the following resources:
+       WARNING:
+	      Product update
 
-       o AWS Server Migration Service product page
+	  We recommend Amazon Web Services Application Migration Service (Ama-
+	  zon  Web  Services  MGN)  as	the  primary  migration  service   for
+	  lift-and-shift migrations. If Amazon Web Services MGN is unavailable
+	  in a specific Amazon Web Services Region, you  can  use  the	Server
+	  Migration Service APIs through March 2023.
 
-       o AWS Server Migration Service User Guide
+       Server Migration Service (Server Migration Service) makes it easier and
+       faster for you to migrate your on-premises workloads to Amazon Web Ser-
+       vices.  To learn more about Server Migration Service, see the following
+       resources:
+
+       o Server Migration Service product page
+
+       o Server Migration Service User Guide
 
 AVAILABLE COMMANDS
        o create-app

@@ -6,7 +6,124 @@ NAME
        rekognition -
 
 DESCRIPTION
-       This is the Amazon Rekognition API reference.
+       This  is the API Reference for Amazon Rekognition Image , Amazon Rekog-
+       nition Custom Labels , Amazon Rekognition Stored Video , Amazon	Rekog-
+       nition  Streaming  Video  .  It	provides descriptions of actions, data
+       types, common parameters, and common errors.
+	  Amazon Rekognition Image
+
+       o CompareFaces
+
+       o CreateCollection
+
+       o DeleteCollection
+
+       o DeleteFaces
+
+       o DescribeCollection
+
+       o DetectFaces
+
+       o DetectLabels
+
+       o DetectModerationLabels
+
+       o DetectProtectiveEquipment
+
+       o DetectText
+
+       o GetCelebrityInfo
+
+       o IndexFaces
+
+       o ListCollections
+
+       o ListFaces
+
+       o RecognizeCelebrities
+
+       o SearchFaces
+
+       o SearchFacesByImage
+	  Amazon Rekognition Custom Labels
+
+       o CreateDataset
+
+       o CreateProject
+
+       o CreateProjectVersion
+
+       o DeleteDataset
+
+       o DeleteProject
+
+       o DeleteProjectVersion
+
+       o DescribeDataset
+
+       o DescribeProjects
+
+       o DescribeProjectVersions
+
+       o DetectCustomLabels
+
+       o DistributeDatasetEntries
+
+       o ListDatasetEntries
+
+       o ListDatasetLabels
+
+       o StartProjectVersion
+
+       o StopProjectVersion
+
+       o UpdateDatasetEntries
+	  Amazon Rekognition Video Stored Video
+
+       o GetCelebrityRecognition
+
+       o GetContentModeration
+
+       o GetFaceDetection
+
+       o GetFaceSearch
+
+       o GetLabelDetection
+
+       o GetPersonTracking
+
+       o GetSegmentDetection
+
+       o GetTextDetection
+
+       o StartCelebrityRecognition
+
+       o StartContentModeration
+
+       o StartFaceDetection
+
+       o StartFaceSearch
+
+       o StartLabelDetection
+
+       o StartPersonTracking
+
+       o StartSegmentDetection
+
+       o StartTextDetection
+	  Amazon Rekognition Video Streaming Video
+
+       o CreateStreamProcessor
+
+       o DeleteStreamProcessor
+
+       o DescribeStreamProcessor
+
+       o ListStreamProcessors
+
+       o StartStreamProcessor
+
+       o StopStreamProcessor
 
 AVAILABLE COMMANDS
        o compare-faces
@@ -126,6 +243,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-dataset-entries
+
+       o update-stream-processor
 
        o wait
 

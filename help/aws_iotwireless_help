@@ -6,7 +6,23 @@ NAME
        iotwireless -
 
 DESCRIPTION
-       AWS IoT Wireless API documentation
+       AWS  IoT  Wireless provides bi-directional communication between inter-
+       net-connected wireless devices and  the	AWS  Cloud.  To  onboard  both
+       LoRaWAN	and  Sidewalk  devices	to  AWS IoT, use the IoT Wireless API.
+       These wireless devices use the Low Power Wide Area  Networking  (LPWAN)
+       communication protocol to communicate with AWS IoT.
+
+       Using  the API, you can perform create, read, update, and delete opera-
+       tions for your wireless devices, gateways, destinations, and  profiles.
+       After  onboarding  your	devices, you can use the API operations to set
+       log levels and monitor your devices with CloudWatch.
+
+       You can also use the API operations  to	create	multicast  groups  and
+       schedule  a multicast session for sending a downlink message to devices
+       in the group. By using Firmware Updates Over-The-Air (FUOTA) API opera-
+       tions, you can create a FUOTA task and schedule a session to update the
+       firmware of individual devices or an entire group of devices in a  mul-
+       ticast group.
 
 AVAILABLE COMMANDS
        o associate-aws-account-with-partner-account
@@ -33,6 +49,8 @@ AVAILABLE COMMANDS
 
        o create-multicast-group
 
+       o create-network-analyzer-configuration
+
        o create-service-profile
 
        o create-wireless-device
@@ -50,6 +68,10 @@ AVAILABLE COMMANDS
        o delete-fuota-task
 
        o delete-multicast-group
+
+       o delete-network-analyzer-configuration
+
+       o delete-queued-messages
 
        o delete-service-profile
 
@@ -79,6 +101,8 @@ AVAILABLE COMMANDS
 
        o get-device-profile
 
+       o get-event-configuration-by-resource-types
+
        o get-fuota-task
 
        o get-log-levels-by-resource-types
@@ -90,6 +114,10 @@ AVAILABLE COMMANDS
        o get-network-analyzer-configuration
 
        o get-partner-account
+
+       o get-position
+
+       o get-position-configuration
 
        o get-resource-event-configuration
 
@@ -121,13 +149,21 @@ AVAILABLE COMMANDS
 
        o list-device-profiles
 
+       o list-event-configurations
+
        o list-fuota-tasks
 
        o list-multicast-groups
 
        o list-multicast-groups-by-fuota-task
 
+       o list-network-analyzer-configurations
+
        o list-partner-accounts
+
+       o list-position-configurations
+
+       o list-queued-messages
 
        o list-service-profiles
 
@@ -138,6 +174,8 @@ AVAILABLE COMMANDS
        o list-wireless-gateway-task-definitions
 
        o list-wireless-gateways
+
+       o put-position-configuration
 
        o put-resource-log-level
 
@@ -165,6 +203,8 @@ AVAILABLE COMMANDS
 
        o update-destination
 
+       o update-event-configuration-by-resource-types
+
        o update-fuota-task
 
        o update-log-levels-by-resource-types
@@ -174,6 +214,8 @@ AVAILABLE COMMANDS
        o update-network-analyzer-configuration
 
        o update-partner-account
+
+       o update-position
 
        o update-resource-event-configuration
 

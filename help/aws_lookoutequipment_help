@@ -37,11 +37,15 @@ AVAILABLE COMMANDS
 
        o list-datasets
 
+       o list-inference-events
+
        o list-inference-executions
 
        o list-inference-schedulers
 
        o list-models
+
+       o list-sensor-statistics
 
        o list-tags-for-resource
 

@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o batch-get-crawlers
 
+       o batch-get-custom-entity-types
+
        o batch-get-dev-endpoints
 
        o batch-get-jobs
@@ -39,6 +41,8 @@ AVAILABLE COMMANDS
 
        o cancel-ml-task-run
 
+       o cancel-statement
+
        o check-schema-version-validity
 
        o create-blueprint
@@ -48,6 +52,8 @@ AVAILABLE COMMANDS
        o create-connection
 
        o create-crawler
+
+       o create-custom-entity-type
 
        o create-database
 
@@ -69,6 +75,8 @@ AVAILABLE COMMANDS
 
        o create-security-configuration
 
+       o create-session
+
        o create-table
 
        o create-trigger
@@ -88,6 +96,8 @@ AVAILABLE COMMANDS
        o delete-connection
 
        o delete-crawler
+
+       o delete-custom-entity-type
 
        o delete-database
 
@@ -110,6 +120,8 @@ AVAILABLE COMMANDS
        o delete-schema-versions
 
        o delete-security-configuration
+
+       o delete-session
 
        o delete-table
 
@@ -146,6 +158,8 @@ AVAILABLE COMMANDS
        o get-crawler-metrics
 
        o get-crawlers
+
+       o get-custom-entity-type
 
        o get-data-catalog-encryption-settings
 
@@ -205,6 +219,10 @@ AVAILABLE COMMANDS
 
        o get-security-configurations
 
+       o get-session
+
+       o get-statement
+
        o get-table
 
        o get-table-version
@@ -218,6 +236,12 @@ AVAILABLE COMMANDS
        o get-trigger
 
        o get-triggers
+
+       o get-unfiltered-partition-metadata
+
+       o get-unfiltered-partitions-metadata
+
+       o get-unfiltered-table-metadata
 
        o get-user-defined-function
 
@@ -239,6 +263,10 @@ AVAILABLE COMMANDS
 
        o list-crawlers
 
+       o list-crawls
+
+       o list-custom-entity-types
+
        o list-dev-endpoints
 
        o list-jobs
@@ -250,6 +278,10 @@ AVAILABLE COMMANDS
        o list-schema-versions
 
        o list-schemas
+
+       o list-sessions
+
+       o list-statements
 
        o list-triggers
 
@@ -272,6 +304,8 @@ AVAILABLE COMMANDS
        o reset-job-bookmark
 
        o resume-workflow-run
+
+       o run-statement
 
        o search-tables
 
@@ -298,6 +332,8 @@ AVAILABLE COMMANDS
        o stop-crawler
 
        o stop-crawler-schedule
+
+       o stop-session
 
        o stop-trigger
 

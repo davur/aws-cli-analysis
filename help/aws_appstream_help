@@ -29,6 +29,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o associate-application-fleet
 
+       o associate-application-to-entitlement
+
        o associate-fleet
 
        o batch-associate-user-stack
@@ -42,6 +44,8 @@ AVAILABLE COMMANDS
        o create-application
 
        o create-directory-config
+
+       o create-entitlement
 
        o create-fleet
 
@@ -65,6 +69,8 @@ AVAILABLE COMMANDS
 
        o delete-directory-config
 
+       o delete-entitlement
+
        o delete-fleet
 
        o delete-image
@@ -86,6 +92,8 @@ AVAILABLE COMMANDS
        o describe-applications
 
        o describe-directory-configs
+
+       o describe-entitlements
 
        o describe-fleets
 
@@ -109,6 +117,8 @@ AVAILABLE COMMANDS
 
        o disassociate-application-fleet
 
+       o disassociate-application-from-entitlement
+
        o disassociate-fleet
 
        o enable-user
@@ -120,6 +130,8 @@ AVAILABLE COMMANDS
        o list-associated-fleets
 
        o list-associated-stacks
+
+       o list-entitled-applications
 
        o list-tags-for-resource
 
@@ -138,6 +150,8 @@ AVAILABLE COMMANDS
        o update-application
 
        o update-directory-config
+
+       o update-entitlement
 
        o update-fleet
 

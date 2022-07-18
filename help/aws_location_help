@@ -26,6 +26,8 @@ AVAILABLE COMMANDS
 
        o calculate-route
 
+       o calculate-route-matrix
+
        o create-geofence-collection
 
        o create-map

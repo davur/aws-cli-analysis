@@ -18,9 +18,9 @@ DESCRIPTION
        outage, AppConfig includes validators. A validator provides a syntactic
        or  semantic  check to ensure that the configuration you want to deploy
        works as intended. To validate your application configuration data, you
-       provide	a schema or a Lambda function that runs against the configura-
-       tion. The configuration deployment or update can only proceed when  the
-       configuration data is valid.
+       provide	a  schema  or an Amazon Web Services Lambda function that runs
+       against the configuration. The configuration deployment or  update  can
+       only proceed when the configuration data is valid.
 
        During  a  configuration deployment, AppConfig monitors the application
        to ensure that the deployment is successful. If the  system  encounters
@@ -33,11 +33,11 @@ DESCRIPTION
 
        AppConfig supports multiple use cases. Here are some examples:
 
-       o Application tuning : Use AppConfig to carefully introduce changes  to
-	 your application that can only be tested with production traffic.
-
-       o Feature toggle : Use AppConfig to turn on new features that require a
+       o Feature flags : Use AppConfig to turn on new features that require  a
 	 timely deployment, such as a product launch or announcement.
+
+       o Application  tuning : Use AppConfig to carefully introduce changes to
+	 your application that can only be tested with production traffic.
 
        o Allow list : Use AppConfig to allow  premium  subscribers  to	access
 	 paid content.
@@ -56,6 +56,10 @@ AVAILABLE COMMANDS
 
        o create-environment
 
+       o create-extension
+
+       o create-extension-association
+
        o create-hosted-configuration-version
 
        o delete-application
@@ -66,11 +70,13 @@ AVAILABLE COMMANDS
 
        o delete-environment
 
+       o delete-extension
+
+       o delete-extension-association
+
        o delete-hosted-configuration-version
 
        o get-application
-
-       o get-configuration
 
        o get-configuration-profile
 
@@ -79,6 +85,10 @@ AVAILABLE COMMANDS
        o get-deployment-strategy
 
        o get-environment
+
+       o get-extension
+
+       o get-extension-association
 
        o get-hosted-configuration-version
 
@@ -93,6 +103,10 @@ AVAILABLE COMMANDS
        o list-deployments
 
        o list-environments
+
+       o list-extension-associations
+
+       o list-extensions
 
        o list-hosted-configuration-versions
 
@@ -113,6 +127,10 @@ AVAILABLE COMMANDS
        o update-deployment-strategy
 
        o update-environment
+
+       o update-extension
+
+       o update-extension-association
 
        o validate-configuration
 

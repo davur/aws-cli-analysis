@@ -60,9 +60,15 @@ AVAILABLE COMMANDS
 
        o get
 
+       o import
+
        o list
 
+       o list-profiles
+
        o set
+
+       o sso
 
 EXAMPLES
        To create a new configuration:

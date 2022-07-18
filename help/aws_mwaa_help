@@ -9,6 +9,46 @@ DESCRIPTION
        This  section  contains the Amazon Managed Workflows for Apache Airflow
        (MWAA) API reference documentation. For more information, see  What  Is
        Amazon MWAA? .
+	  Endpoints
+
+       o api.airflow.{region}.amazonaws.com  - This endpoint is used for envi-
+	 ronment management.
+
+	 o CreateEnvironment
+
+	 o DeleteEnvironment
+
+	 o GetEnvironment
+
+	 o ListEnvironments
+
+	 o ListTagsForResource
+
+	 o TagResource
+
+	 o UntagResource
+
+	 o UpdateEnvironment
+
+       o env.airflow.{region}.amazonaws.com - This endpoint is used to operate
+	 the Airflow environment.
+
+	 o
+	   `CreateCliToken <https://docs.aws.amazon.com/mwaa/latest/API/API_CreateCliToken.html >`__
+
+
+	 o CreateWebLoginToken
+
+       o ops.airflow.{region}.amazonaws.com  -	This  endpoint is used to push
+	 environment metrics that track environment health.
+
+	 o
+	   `PublishMetrics <https://docs.aws.amazon.com/mwaa/latest/API/API_PublishMetrics.html >`__
+
+	  Regions
+
+       For a list of regions that Amazon MWAA supports, see Region  availabil-
+       ity in the Amazon MWAA User Guide .
 
 AVAILABLE COMMANDS
        o create-cli-token
@@ -34,6 +74,11 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-environment
+
+DOCUTILS SYSTEM MESSAGES
+       System Message: ERROR/3 (<string>:)
+	      Anonymous  hyperlink  mismatch: 2 references but 0 targets.  See
+	      "backrefs" attribute for IDs.
 
 
 

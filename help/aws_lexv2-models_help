@@ -39,6 +39,8 @@ AVAILABLE COMMANDS
 
        o delete-bot-version
 
+       o delete-custom-vocabulary
+
        o delete-export
 
        o delete-import
@@ -64,6 +66,8 @@ AVAILABLE COMMANDS
        o describe-bot-recommendation
 
        o describe-bot-version
+
+       o describe-custom-vocabulary-metadata
 
        o describe-export
 

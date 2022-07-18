@@ -6,44 +6,63 @@ NAME
        route53-recovery-cluster -
 
 DESCRIPTION
-       Welcome to the Amazon Route 53 Application Recovery Controller API Ref-
-       erence Guide for Recovery Control Data Plane .
+       Welcome	to  the Routing Control (Recovery Cluster) API Reference Guide
+       for Amazon Route 53 Application Recovery Controller.
 
-       Recovery control in Route 53 Application Recovery  Controller  includes
-       extremely reliable routing controls that enable you to recover applica-
-       tions by rerouting traffic, for example, across Availability  Zones  or
-       AWS  Regions.  Routing  controls are simple on/off switches hosted on a
-       cluster. A cluster is  a  set  of  five	redundant  regional  endpoints
-       against	which  you can execute API calls to update or get the state of
-       routing controls. You use  routing  controls  to  failover  traffic  to
-       recover your application across Availability Zones or Regions.
+       With Route 53 ARC, you can use routing control with extreme reliability
+       to  recover applications by rerouting traffic across Availability Zones
+       or Amazon Web Services Regions.	Routing  controls  are	simple	on/off
+       switches  hosted on a highly available cluster in Route 53 ARC. A clus-
+       ter provides a set of five redundant Regional endpoints	against  which
+       you  can  run API calls to get or update the state of routing controls.
+       To implement failover, you set one routing control On and  another  one
+       Off,  to  reroute traffic from one Availability Zone or Amazon Web Ser-
+       vices Region to another.
+	  Be aware that you must specify a Regional  endpoint  for  a  cluster
+	  when	you  work with API cluster operations to get or update routing
+	  control states in Route 53 ARC. In addition, you must specify the US
+	  West	(Oregon)  Region  for Route 53 ARC API calls. For example, use
+	  the parameter --region us-west-2 with AWS  CLI  commands.  For  more
+	  information, see Get and update routing control states using the API
+	  in the Amazon Route 53  Application  Recovery  Controller  Developer
+	  Guide.
 
-       This API guide includes information about how to get and update routing
-       control states in Route 53 Application Recovery Controller.
+       This API guide includes information about the API operations for how to
+       get and update routing control states in Route 53  ARC.	To  work  with
+       routing	control  in  Route  53 ARC, you must first create the required
+       components (clusters, control panels, and routing controls)  using  the
+       recovery cluster configuration API.
 
-       For more information about Route 53  Application  Recovery  Controller,
-       see the following:
+       For  more  information  about  working with routing control in Route 53
+       ARC, see the following:
 
-       o You  can  create  clusters,  routing  controls, and control panels by
-	 using the control plane API for Recovery Control. For	more  informa-
-	 tion,	see  Amazon  Route 53 Application Recovery Controller Recovery
-	 Control API Reference .
+       o Create clusters, control panels, and routing controls	by  using  API
+	 operations. For more information, see the Recovery Control Configura-
+	 tion API Reference Guide for Amazon  Route  53  Application  Recovery
+	 Controller .
 
-       o Route 53 Application Recovery	Controller  also  provides  continuous
-	 readiness  checks to ensure that your applications are scaled to han-
-	 dle failover traffic. For more  information  about  the  related  API
-	 actions, see Amazon Route 53 Application Recovery Controller Recovery
-	 Readiness API Reference .
+       o Learn	about  the components in recovery control, including clusters,
+	 routing controls, and control panels, and how to work with  Route  53
+	 ARC  in  the  Amazon  Web Services console. For more information, see
+	 Recovery control components in the Amazon Route 53 Application Recov-
+	 ery Controller Developer Guide.
 
-       o For more information about creating resilient applications  and  pre-
-	 paring for recovery readiness with Route 53 Application Recovery Con-
-	 troller, see the Amazon  Route  53  Application  Recovery  Controller
-	 Developer Guide .
+       o Route	53  ARC  also provides readiness checks that continually audit
+	 resources to help make sure that your	applications  are  scaled  and
+	 ready	to  handle  failover  traffic.	For more information about the
+	 related API operations, see  the  Recovery  Readiness	API  Reference
+	 Guide for Amazon Route 53 Application Recovery Controller .
+
+       o For  more  information about creating resilient applications and pre-
+	 paring for recovery readiness with Route 53 ARC, see the Amazon Route
+	 53 Application Recovery Controller Developer Guide .
 
 AVAILABLE COMMANDS
        o get-routing-control-state
 
        o help
+
+       o list-routing-controls
 
        o update-routing-control-state
 

@@ -46,6 +46,10 @@ OPTIONS
 
        o table
 
+       o yaml
+
+       o yaml-stream
+
        --query (string)
 
        A JMESPath query to use in filtering the response data.
@@ -93,6 +97,34 @@ OPTIONS
        The  maximum  socket connect time in seconds. If the value is set to 0,
        the socket connect will be blocking and not timeout. The default  value
        is 60 seconds.
+
+       --cli-binary-format (string)
+
+       The formatting style to be used for binary blobs. The default format is
+       base64. The base64 format expects binary blobs  to  be  provided  as  a
+       base64  encoded string. The raw-in-base64-out format preserves compati-
+       bility with AWS CLI V1 behavior and binary values must be passed liter-
+       ally.  When  providing  contents  from a file that map to a binary blob
+       fileb:// will always be treated as binary and  use  the	file  contents
+       directly  regardless  of  the  cli-binary-format  setting.  When  using
+       file:// the file contents will need to properly formatted for the  con-
+       figured cli-binary-format.
+
+       o base64
+
+       o raw-in-base64-out
+
+       --no-cli-pager (boolean)
+
+       Disable cli pager for output.
+
+       --cli-auto-prompt (boolean)
+
+       Automatically prompt for CLI input parameters.
+
+       --no-cli-auto-prompt (boolean)
+
+       Disable automatically prompt for CLI input parameters.
 
 AVAILABLE SERVICES
        o accessanalyzer
@@ -155,6 +187,8 @@ AVAILABLE SERVICES
 
        o batch
 
+       o billingconductor
+
        o braket
 
        o budgets
@@ -165,9 +199,13 @@ AVAILABLE SERVICES
 
        o chime-sdk-identity
 
+       o chime-sdk-media-pipelines
+
        o chime-sdk-meetings
 
        o chime-sdk-messaging
+
+       o cli-dev
 
        o cloud9
 
@@ -229,6 +267,8 @@ AVAILABLE SERVICES
 
        o connect-contact-lens
 
+       o connectcampaigns
+
        o connectparticipant
 
        o cur
@@ -244,6 +284,8 @@ AVAILABLE SERVICES
        o datasync
 
        o dax
+
+       o ddb
 
        o deploy
 
@@ -303,6 +345,8 @@ AVAILABLE SERVICES
 
        o emr-containers
 
+       o emr-serverless
+
        o es
 
        o events
@@ -328,6 +372,8 @@ AVAILABLE SERVICES
        o fsx
 
        o gamelift
+
+       o gamesparks
 
        o glacier
 
@@ -399,11 +445,15 @@ AVAILABLE SERVICES
 
        o ivs
 
+       o ivschat
+
        o kafka
 
        o kafkaconnect
 
        o kendra
+
+       o keyspaces
 
        o kinesis
 
@@ -446,6 +496,8 @@ AVAILABLE SERVICES
        o lookoutmetrics
 
        o lookoutvision
+
+       o m2
 
        o machinelearning
 
@@ -533,6 +585,8 @@ AVAILABLE SERVICES
 
        o pinpoint-sms-voice
 
+       o pinpoint-sms-voice-v2
+
        o polly
 
        o pricing
@@ -557,6 +611,8 @@ AVAILABLE SERVICES
 
        o redshift-data
 
+       o redshift-serverless
+
        o rekognition
 
        o resiliencehub
@@ -566,6 +622,8 @@ AVAILABLE SERVICES
        o resourcegroupstaggingapi
 
        o robomaker
+
+       o rolesanywhere
 
        o route53
 

@@ -7,15 +7,16 @@ NAME
 
 DESCRIPTION
        Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable
-       computing capacity in the AWS Cloud. Using Amazon  EC2  eliminates  the
-       need  to  invest  in  hardware  up front, so you can develop and deploy
-       applications faster. Amazon Virtual Private Cloud (Amazon VPC)  enables
-       you  to	provision  a logically isolated section of the AWS Cloud where
-       you can launch AWS resources in a virtual network that you've  defined.
-       Amazon  Elastic	Block  Store (Amazon EBS) provides block level storage
-       volumes for use with EC2 instances. EBS volumes	are  highly  available
-       and  reliable  storage  volumes	that  can  be  attached to any running
-       instance and used like a hard drive.
+       computing capacity in the Amazon Web Services Cloud. Using  Amazon  EC2
+       eliminates  the need to invest in hardware up front, so you can develop
+       and deploy applications faster. Amazon Virtual  Private	Cloud  (Amazon
+       VPC)  enables you to provision a logically isolated section of the Ama-
+       zon Web Services  Cloud	where  you  can  launch  Amazon  Web  Services
+       resources  in  a  virtual  network  that you've defined. Amazon Elastic
+       Block Store (Amazon EBS) provides block level storage volumes  for  use
+       with EC2 instances. EBS volumes are highly available and reliable stor-
+       age volumes that can be attached to any running instance and used  like
+       a hard drive.
 
        To learn more, see the following resources:
 
@@ -25,7 +26,8 @@ DESCRIPTION
 
        o Amazon VPC: Amazon VPC product page , Amazon VPC documentation
 
-       o AWS VPN: AWS VPN product page , AWS VPN documentation
+       o Amazon  Web  Services	VPN:  Amazon  Web  Services VPN product page ,
+	 Amazon Web Services VPN documentation
 
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
@@ -71,6 +73,8 @@ AVAILABLE COMMANDS
        o associate-subnet-cidr-block
 
        o associate-transit-gateway-multicast-domain
+
+       o associate-transit-gateway-policy-table
 
        o associate-transit-gateway-route-table
 
@@ -236,11 +240,15 @@ AVAILABLE COMMANDS
 
        o create-transit-gateway-peering-attachment
 
+       o create-transit-gateway-policy-table
+
        o create-transit-gateway-prefix-list-reference
 
        o create-transit-gateway-route
 
        o create-transit-gateway-route-table
+
+       o create-transit-gateway-route-table-announcement
 
        o create-transit-gateway-vpc-attachment
 
@@ -360,11 +368,15 @@ AVAILABLE COMMANDS
 
        o delete-transit-gateway-peering-attachment
 
+       o delete-transit-gateway-policy-table
+
        o delete-transit-gateway-prefix-list-reference
 
        o delete-transit-gateway-route
 
        o delete-transit-gateway-route-table
+
+       o delete-transit-gateway-route-table-announcement
 
        o delete-transit-gateway-vpc-attachment
 
@@ -447,6 +459,8 @@ AVAILABLE COMMANDS
        o describe-export-image-tasks
 
        o describe-export-tasks
+
+       o describe-fast-launch-images
 
        o describe-fast-snapshot-restores
 
@@ -623,6 +637,10 @@ AVAILABLE COMMANDS
 
        o describe-transit-gateway-peering-attachments
 
+       o describe-transit-gateway-policy-tables
+
+       o describe-transit-gateway-route-table-announcements
+
        o describe-transit-gateway-route-tables
 
        o describe-transit-gateway-vpc-attachments
@@ -677,6 +695,8 @@ AVAILABLE COMMANDS
 
        o disable-ebs-encryption-by-default
 
+       o disable-fast-launch
+
        o disable-fast-snapshot-restores
 
        o disable-image-deprecation
@@ -709,6 +729,8 @@ AVAILABLE COMMANDS
 
        o disassociate-transit-gateway-multicast-domain
 
+       o disassociate-transit-gateway-policy-table
+
        o disassociate-transit-gateway-route-table
 
        o disassociate-trunk-interface
@@ -716,6 +738,8 @@ AVAILABLE COMMANDS
        o disassociate-vpc-cidr-block
 
        o enable-ebs-encryption-by-default
+
+       o enable-fast-launch
 
        o enable-fast-snapshot-restores
 
@@ -769,6 +793,8 @@ AVAILABLE COMMANDS
 
        o get-instance-types-from-instance-requirements
 
+       o get-instance-uefi-data
+
        o get-ipam-address-history
 
        o get-ipam-pool-allocations
@@ -801,6 +827,10 @@ AVAILABLE COMMANDS
 
        o get-transit-gateway-multicast-domain-associations
 
+       o get-transit-gateway-policy-table-associations
+
+       o get-transit-gateway-policy-table-entries
+
        o get-transit-gateway-prefix-list-references
 
        o get-transit-gateway-route-table-associations
@@ -820,6 +850,8 @@ AVAILABLE COMMANDS
        o import-key-pair
 
        o import-snapshot
+
+       o list-images-in-recycle-bin
 
        o list-snapshots-in-recycle-bin
 
@@ -858,6 +890,8 @@ AVAILABLE COMMANDS
        o modify-instance-event-start-time
 
        o modify-instance-event-window
+
+       o modify-instance-maintenance-options
 
        o modify-instance-metadata-options
 
@@ -914,6 +948,8 @@ AVAILABLE COMMANDS
        o modify-vpc-endpoint-connection-notification
 
        o modify-vpc-endpoint-service-configuration
+
+       o modify-vpc-endpoint-service-payer-responsibility
 
        o modify-vpc-endpoint-service-permissions
 
@@ -1006,6 +1042,8 @@ AVAILABLE COMMANDS
        o reset-snapshot-attribute
 
        o restore-address-to-classic
+
+       o restore-image-from-recycle-bin
 
        o restore-managed-prefix-list-version
 

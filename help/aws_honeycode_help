@@ -34,9 +34,15 @@ AVAILABLE COMMANDS
 
        o list-tables
 
+       o list-tags-for-resource
+
        o query-table-rows
 
        o start-table-data-import-job
+
+       o tag-resource
+
+       o untag-resource
 
 
 

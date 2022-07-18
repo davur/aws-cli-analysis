@@ -51,6 +51,10 @@ AVAILABLE COMMANDS
 
        o get-table-objects
 
+       o get-temporary-glue-partition-credentials
+
+       o get-temporary-glue-table-credentials
+
        o get-work-unit-results
 
        o get-work-units

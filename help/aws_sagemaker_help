@@ -6,11 +6,11 @@ NAME
        sagemaker -
 
 DESCRIPTION
-       Provides APIs for creating and managing Amazon SageMaker resources.
+       Provides APIs for creating and managing SageMaker resources.
 
        Other Resources:
 
-       o Amazon SageMaker Developer Guide
+       o SageMaker Developer Guide
 
        o Amazon Augmented AI Runtime API Reference
 
@@ -228,6 +228,8 @@ AVAILABLE COMMANDS
        o describe-experiment
 
        o describe-feature-group
+
+       o describe-feature-metadata
 
        o describe-flow-definition
 
@@ -490,6 +492,10 @@ AVAILABLE COMMANDS
        o update-endpoint-weights-and-capacities
 
        o update-experiment
+
+       o update-feature-group
+
+       o update-feature-metadata
 
        o update-image
 

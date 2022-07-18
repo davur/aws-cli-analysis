@@ -74,13 +74,23 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-cost-allocation-tags
+
        o list-cost-category-definitions
 
+       o list-tags-for-resource
+
        o provide-anomaly-feedback
+
+       o tag-resource
+
+       o untag-resource
 
        o update-anomaly-monitor
 
        o update-anomaly-subscription
+
+       o update-cost-allocation-tags-status
 
        o update-cost-category-definition
 

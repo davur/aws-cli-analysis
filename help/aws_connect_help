@@ -19,9 +19,9 @@ DESCRIPTION
        make per second. For more information, see Amazon Connect Service  Quo-
        tas in the Amazon Connect Administrator Guide .
 
-       You  can  connect  programmatically  to an AWS service by using an end-
-       point. For a list of Amazon Connect endpoints, see Amazon Connect  End-
-       points .
+       You  can  connect programmatically to an Amazon Web Services service by
+       using an endpoint. For a list of Amazon Connect endpoints,  see	Amazon
+       Connect Endpoints .
 
        NOTE:
 	  Working  with  contact flows? Check out the Amazon Connect Flow lan-
@@ -32,17 +32,23 @@ AVAILABLE COMMANDS
 
        o associate-bot
 
+       o associate-default-vocabulary
+
        o associate-instance-storage-config
 
        o associate-lambda-function
 
        o associate-lex-bot
 
+       o associate-phone-number-contact-flow
+
        o associate-queue-quick-connects
 
        o associate-routing-profile-queues
 
        o associate-security-key
+
+       o claim-phone-number
 
        o create-agent-status
 
@@ -64,11 +70,15 @@ AVAILABLE COMMANDS
 
        o create-security-profile
 
+       o create-task-template
+
        o create-use-case
 
        o create-user
 
        o create-user-hierarchy-group
+
+       o create-vocabulary
 
        o delete-contact-flow
 
@@ -84,11 +94,15 @@ AVAILABLE COMMANDS
 
        o delete-security-profile
 
+       o delete-task-template
+
        o delete-use-case
 
        o delete-user
 
        o delete-user-hierarchy-group
+
+       o delete-vocabulary
 
        o describe-agent-status
 
@@ -106,6 +120,8 @@ AVAILABLE COMMANDS
 
        o describe-instance-storage-config
 
+       o describe-phone-number
+
        o describe-queue
 
        o describe-quick-connect
@@ -120,6 +136,8 @@ AVAILABLE COMMANDS
 
        o describe-user-hierarchy-structure
 
+       o describe-vocabulary
+
        o disassociate-approved-origin
 
        o disassociate-bot
@@ -129,6 +147,8 @@ AVAILABLE COMMANDS
        o disassociate-lambda-function
 
        o disassociate-lex-bot
+
+       o disassociate-phone-number-contact-flow
 
        o disassociate-queue-quick-connects
 
@@ -140,9 +160,13 @@ AVAILABLE COMMANDS
 
        o get-current-metric-data
 
+       o get-current-user-data
+
        o get-federation-token
 
        o get-metric-data
+
+       o get-task-template
 
        o help
 
@@ -157,6 +181,8 @@ AVAILABLE COMMANDS
        o list-contact-flows
 
        o list-contact-references
+
+       o list-default-vocabularies
 
        o list-hours-of-operations
 
@@ -173,6 +199,8 @@ AVAILABLE COMMANDS
        o list-lex-bots
 
        o list-phone-numbers
+
+       o list-phone-numbers-v2
 
        o list-prompts
 
@@ -194,13 +222,25 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
+       o list-task-templates
+
        o list-use-cases
 
        o list-user-hierarchy-groups
 
        o list-users
 
+       o put-user-status
+
+       o release-phone-number
+
        o resume-contact-recording
+
+       o search-available-phone-numbers
+
+       o search-users
+
+       o search-vocabularies
 
        o start-chat-contact
 
@@ -221,6 +261,8 @@ AVAILABLE COMMANDS
        o suspend-contact-recording
 
        o tag-resource
+
+       o transfer-contact
 
        o untag-resource
 
@@ -248,6 +290,8 @@ AVAILABLE COMMANDS
 
        o update-instance-storage-config
 
+       o update-phone-number
+
        o update-queue-hours-of-operation
 
        o update-queue-max-contacts
@@ -271,6 +315,8 @@ AVAILABLE COMMANDS
        o update-routing-profile-queues
 
        o update-security-profile
+
+       o update-task-template
 
        o update-user-hierarchy
 

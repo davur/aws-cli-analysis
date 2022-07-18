@@ -21,6 +21,12 @@ AVAILABLE COMMANDS
 
        o create-location-efs
 
+       o create-location-fsx-lustre
+
+       o create-location-fsx-ontap
+
+       o create-location-fsx-open-zfs
+
        o create-location-fsx-windows
 
        o create-location-hdfs
@@ -44,6 +50,12 @@ AVAILABLE COMMANDS
        o describe-agent
 
        o describe-location-efs
+
+       o describe-location-fsx-lustre
+
+       o describe-location-fsx-ontap
+
+       o describe-location-fsx-open-zfs
 
        o describe-location-fsx-windows
 

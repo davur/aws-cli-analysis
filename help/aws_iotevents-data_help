@@ -6,16 +6,18 @@ NAME
        iotevents-data -
 
 DESCRIPTION
-       AWS IoT Events monitors your equipment or device fleets for failures or
+       IoT  Events  monitors  your  equipment or device fleets for failures or
        changes in operation, and triggers actions when such events occur.  You
-       can  use  AWS IoT Events Data API commands to send inputs to detectors,
-       list detectors, and view or update a detector's status.
+       can  use IoT Events Data API commands to send inputs to detectors, list
+       detectors, and view or update a detector's status.
 
-       For more information, see What is AWS IoT Events? in the AWS IoT Events
-       Developer Guide .
+       For more information, see What is IoT Events? in the IoT Events	Devel-
+       oper Guide .
 
 AVAILABLE COMMANDS
        o batch-acknowledge-alarm
+
+       o batch-delete-detector
 
        o batch-disable-alarm
 

@@ -6,9 +6,9 @@ NAME
        fis -
 
 DESCRIPTION
-       AWS  Fault Injection Simulator is a managed service that enables you to
-       perform fault injection experiments on your  AWS  workloads.  For  more
-       information, see the AWS Fault Injection Simulator User Guide .
+       Fault Injection Simulator is a managed service that enables you to per-
+       form fault injection experiments on your Amazon Web Services workloads.
+       For more information, see the Fault Injection Simulator User Guide .
 
 AVAILABLE COMMANDS
        o create-experiment-template
@@ -21,6 +21,8 @@ AVAILABLE COMMANDS
 
        o get-experiment-template
 
+       o get-target-resource-type
+
        o help
 
        o list-actions
@@ -30,6 +32,8 @@ AVAILABLE COMMANDS
        o list-experiments
 
        o list-tags-for-resource
+
+       o list-target-resource-types
 
        o start-experiment
 
