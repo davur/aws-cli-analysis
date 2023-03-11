@@ -146,6 +146,8 @@ AVAILABLE COMMANDS
 
        o revoke-db-security-group-ingress
 
+       o wait
+
 
 
 									 RDS()

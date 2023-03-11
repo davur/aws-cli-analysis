@@ -193,6 +193,7 @@ dynamodb query
 dynamodb scan
 dynamodb update-item
 dynamodb update-table
+dynamodb wait
 ec2 accept-vpc-peering-connection
 ec2 allocate-address
 ec2 assign-private-ip-addresses
@@ -346,6 +347,7 @@ ec2 stop-instances
 ec2 terminate-instances
 ec2 unassign-private-ip-addresses
 ec2 unmonitor-instances
+ec2 wait
 elasticache authorize-cache-security-group-ingress
 elasticache copy-snapshot
 elasticache create-cache-cluster
@@ -429,6 +431,7 @@ elastictranscoder test-role
 elastictranscoder update-pipeline
 elastictranscoder update-pipeline-notifications
 elastictranscoder update-pipeline-status
+elastictranscoder wait
 elb add-tags
 elb apply-security-groups-to-load-balancer
 elb attach-load-balancer-to-subnets
@@ -482,6 +485,7 @@ emr schedule-hbase-backup
 emr socks
 emr ssh
 emr terminate-clusters
+emr wait
 iam add-client-id-to-open-id-connect-provider
 iam add-role-to-instance-profile
 iam add-user-to-group
@@ -717,6 +721,7 @@ rds reset-db-parameter-group
 rds restore-db-instance-from-db-snapshot
 rds restore-db-instance-to-point-in-time
 rds revoke-db-security-group-ingress
+rds wait
 redshift authorize-cluster-security-group-ingress
 redshift authorize-snapshot-access
 redshift copy-cluster-snapshot
@@ -771,6 +776,7 @@ redshift restore-from-cluster-snapshot
 redshift revoke-cluster-security-group-ingress
 redshift revoke-snapshot-access
 redshift rotate-encryption-key
+redshift wait
 route53 associate-vpc-with-hosted-zone
 route53 change-resource-record-sets
 route53 change-tags-for-resource
@@ -873,6 +879,7 @@ s3api put-object-acl
 s3api restore-object
 s3api upload-part
 s3api upload-part-copy
+s3api wait
 ses delete-identity
 ses get-identity-dkim-attributes
 ses get-identity-notification-attributes
@@ -889,6 +896,7 @@ ses set-identity-notification-topic
 ses verify-domain-dkim
 ses verify-domain-identity
 ses verify-email-identity
+ses wait
 sns add-permission
 sns confirm-subscription
 sns create-platform-application

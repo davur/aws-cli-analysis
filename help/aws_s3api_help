@@ -107,6 +107,8 @@ AVAILABLE COMMANDS
 
        o upload-part-copy
 
+       o wait
+
 
 
 								       S3API()

@@ -318,6 +318,8 @@ AVAILABLE COMMANDS
 
        o unmonitor-instances
 
+       o wait
+
 
 
 									 EC2()
