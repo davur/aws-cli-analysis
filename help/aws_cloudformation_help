@@ -46,6 +46,8 @@ AVAILABLE COMMANDS
 
        o get-template
 
+       o get-template-summary
+
        o help
 
        o list-stack-resources
@@ -53,6 +55,8 @@ AVAILABLE COMMANDS
        o list-stacks
 
        o set-stack-policy
+
+       o signal-resource
 
        o update-stack
 

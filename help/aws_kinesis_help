@@ -32,9 +32,13 @@ AVAILABLE COMMANDS
 
        o put-record
 
+       o put-records
+
        o remove-tags-from-stream
 
        o split-shard
+
+       o wait
 
 
 

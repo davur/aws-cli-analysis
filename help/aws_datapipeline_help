@@ -6,18 +6,16 @@ NAME
        datapipeline -
 
 DESCRIPTION
-       This  is  the AWS Data Pipeline API Reference . This guide provides de-
-       scriptions and samples of the AWS Data Pipeline API.
-
-       AWS Data Pipeline is a  web  service  that  configures  and  manages  a
-       data-driven  workflow  called a pipeline. AWS Data Pipeline handles the
-       details of scheduling and ensuring that data dependencies  are  met  so
+       AWS  Data  Pipeline  is	a  web	service  that configures and manages a
+       data-driven workflow called a pipeline. AWS Data Pipeline  handles  the
+       details	of  scheduling	and ensuring that data dependencies are met so
        your application can focus on processing the data.
 
-       The  AWS  Data  Pipeline API implements two main sets of functionality.
-       The first set of actions configure the pipeline in the web service. You
-       call these actions to create a pipeline and define data sources, sched-
-       ules, dependencies, and the transforms to be performed on the data.
+       The AWS Data Pipeline SDKs and CLI implements two main  sets  of  func-
+       tionality.  The	first set of actions configure the pipeline in the web
+       service. You perform these actions to create a pipeline and define data
+       sources, schedules, dependencies, and the transforms to be performed on
+       the data.
 
        The second set of actions are used by a task  runner  application  that
        calls the AWS Data Pipeline API to receive the next task ready for pro-
@@ -28,19 +26,13 @@ DESCRIPTION
        web service as it does so. When the task is done, the task  runner  re-
        ports the final success or failure of the task to the web service.
 
-       AWS Data Pipeline provides an open-source implementation of a task run-
-       ner called AWS Data Pipeline Task Runner. AWS Data Pipeline Task Runner
-       provides logic for common data management scenarios, such as performing
-       database queries and running data analysis using Amazon Elastic	MapRe-
-       duce  (Amazon  EMR).  You can use AWS Data Pipeline Task Runner as your
-       task runner, or you can write your own task runner  to  provide	custom
-       data management.
-
-       The  AWS  Data  Pipeline  API uses the Signature Version 4 protocol for
-       signing requests. For more information about how to sign a request with
-       this  protocol,	see  Signature Version 4 Signing Process . In the code
-       examples in this reference, the Signature Version 4 Request  parameters
-       are represented as AuthParams.
+       AWS Data Pipeline provides a JAR implementation of a task runner called
+       AWS Data Pipeline Task Runner. AWS Data Pipeline Task  Runner  provides
+       logic for common data management scenarios, such as performing database
+       queries and running data analysis using Amazon Elastic MapReduce  (Ama-
+       zon  EMR).  You can use AWS Data Pipeline Task Runner as your task run-
+       ner, or you can write your own task runner to provide custom data  man-
+       agement.
 
 AVAILABLE COMMANDS
        o activate-pipeline

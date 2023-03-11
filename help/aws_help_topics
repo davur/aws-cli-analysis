@@ -91,9 +91,13 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
 
        +o cognito-sync
 
+       +o configservice
+
        +o configure
 
        +o datapipeline
+
+       +o deploy
 
        +o directconnect
 
@@ -118,6 +122,10 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
        +o importexport
 
        +o kinesis
+
+       +o kms
+
+       +o lambda
 
        +o logs
 

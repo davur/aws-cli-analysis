@@ -55,6 +55,8 @@ AVAILABLE COMMANDS
 
        o create-hsm-configuration
 
+       o create-tags
+
        o delete-cluster
 
        o delete-cluster-parameter-group
@@ -70,6 +72,8 @@ AVAILABLE COMMANDS
        o delete-hsm-client-certificate
 
        o delete-hsm-configuration
+
+       o delete-tags
 
        o describe-cluster-parameter-groups
 
@@ -106,6 +110,8 @@ AVAILABLE COMMANDS
        o describe-reserved-nodes
 
        o describe-resize
+
+       o describe-tags
 
        o disable-logging
 

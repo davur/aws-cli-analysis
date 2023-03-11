@@ -112,6 +112,8 @@ AVAILABLE COMMANDS
 
        o list-volumes
 
+       o reset-cache
+
        o retrieve-tape-archive
 
        o retrieve-tape-recovery-point
@@ -131,6 +133,8 @@ AVAILABLE COMMANDS
        o update-maintenance-start-time
 
        o update-snapshot-schedule
+
+       o update-vtl-device-type
 
 
 
