@@ -64,6 +64,8 @@ AVAILABLE COMMANDS
 
        o terminate-clusters
 
+       o wait
+
 
 
 									 EMR()
