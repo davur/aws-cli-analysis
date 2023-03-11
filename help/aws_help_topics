@@ -1,0 +1,139 @@
+AWS()                                                                    AWS()
+
+
+
+NNAAMMEE
+       aws -
+
+DDEESSCCRRIIPPTTIIOONN
+       The  AWS  Command  Line  Interface is a unified tool to manage your AWS
+       services.
+
+SSYYNNOOPPSSIISS
+          aws [options] <command> <subcommand> [parameters]
+
+       Use _a_w_s _c_o_m_m_a_n_d _h_e_l_p for information on a specific command.
+
+OOPPTTIIOONNSS
+       ----ddeebbuugg (boolean)
+
+       Turn on debug logging.
+
+       ----eennddppooiinntt--uurrll (string)
+
+       Override command's default URL with the given URL.
+
+       ----nnoo--vveerriiffyy--ssssll (boolean)
+
+       Override default behavior of verifying SSL certificates.
+
+       ----nnoo--ppaaggiinnaattee (boolean)
+
+       Disable automatic pagination.
+
+       ----oouuttppuutt (string)
+
+       The formatting style for command output.
+
+       +o json
+
+       +o text
+
+       +o table
+
+       ----pprrooffiillee (string)
+
+       Use a specific profile from your credential file.
+
+       ----rreeggiioonn (string)
+
+       The region to use. Overrides config/env settings.
+
+       +o us-east-1
+
+       +o ap-northeast-1
+
+       +o sa-east-1
+
+       +o ap-southeast-1
+
+       +o ap-southeast-2
+
+       +o us-west-2
+
+       +o us-gov-west-1
+
+       +o us-west-1
+
+       +o eu-west-1
+
+       ----vveerrssiioonn (string)
+
+       Display the version of this tool.
+
+       ----ccoolloorr (string)
+
+       Turn on/off color output.
+
+       +o on
+
+       +o off
+
+       +o auto
+
+AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
+       +o autoscaling
+
+       +o cloudformation
+
+       +o cloudwatch
+
+       +o directconnect
+
+       +o dynamodb
+
+       +o ec2
+
+       +o elasticache
+
+       +o elasticbeanstalk
+
+       +o elastictranscoder
+
+       +o elb
+
+       +o help
+
+       +o iam
+
+       +o importexport
+
+       +o opsworks
+
+       +o rds
+
+       +o redshift
+
+       +o route53
+
+       +o s3
+
+       +o s3api
+
+       +o ses
+
+       +o sns
+
+       +o sqs
+
+       +o storagegateway
+
+       +o sts
+
+       +o support
+
+       +o swf
+
+
+
+                                                                         AWS()

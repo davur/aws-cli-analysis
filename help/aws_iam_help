@@ -1,0 +1,167 @@
+IAM()									 IAM()
+
+
+
+NAME
+       iam -
+
+DESCRIPTION
+       This  guide provides descriptions of the Identity and Access Management
+       (IAM) API as well as links to related content in the guide, Using IAM .
+
+       IAM is a web service that enables AWS customers	to  manage  users  and
+       user  permissions  under  their AWS account. For more information about
+       this product go to AWS Identity and Access Management (IAM) .  For  in-
+       formation  about  setting  up  signatures and authorization through the
+       API, go to Signing AWS API Requests in the AWS General Reference .  For
+       general	information  about  using the Query API with IAM, go to Making
+       Query Requests in Using IAM .
+
+       If you're new to AWS and need additional technical information about  a
+       specific  AWS  product, you can find the product's technical documenta-
+       tion at http://aws.amazon.com/documentation/ .
+
+AVAILABLE COMMANDS
+       o add-role-to-instance-profile
+
+       o add-user-to-group
+
+       o change-password
+
+       o create-access-key
+
+       o create-account-alias
+
+       o create-group
+
+       o create-instance-profile
+
+       o create-login-profile
+
+       o create-role
+
+       o create-user
+
+       o create-virtual-mfa-device
+
+       o deactivate-mfa-device
+
+       o delete-access-key
+
+       o delete-account-alias
+
+       o delete-account-password-policy
+
+       o delete-group
+
+       o delete-group-policy
+
+       o delete-instance-profile
+
+       o delete-login-profile
+
+       o delete-role
+
+       o delete-role-policy
+
+       o delete-server-certificate
+
+       o delete-signing-certificate
+
+       o delete-user
+
+       o delete-user-policy
+
+       o delete-virtual-mfa-device
+
+       o enable-mfa-device
+
+       o get-account-password-policy
+
+       o get-account-summary
+
+       o get-group
+
+       o get-group-policy
+
+       o get-instance-profile
+
+       o get-login-profile
+
+       o get-role
+
+       o get-role-policy
+
+       o get-server-certificate
+
+       o get-user
+
+       o get-user-policy
+
+       o help
+
+       o list-access-keys
+
+       o list-account-aliases
+
+       o list-group-policies
+
+       o list-groups
+
+       o list-groups-for-user
+
+       o list-instance-profiles
+
+       o list-instance-profiles-for-role
+
+       o list-mfa-devices
+
+       o list-role-policies
+
+       o list-roles
+
+       o list-server-certificates
+
+       o list-signing-certificates
+
+       o list-user-policies
+
+       o list-users
+
+       o list-virtual-mfa-devices
+
+       o put-group-policy
+
+       o put-role-policy
+
+       o put-user-policy
+
+       o remove-role-from-instance-profile
+
+       o remove-user-from-group
+
+       o resync-mfa-device
+
+       o update-access-key
+
+       o update-account-password-policy
+
+       o update-assume-role-policy
+
+       o update-group
+
+       o update-login-profile
+
+       o update-server-certificate
+
+       o update-signing-certificate
+
+       o update-user
+
+       o upload-server-certificate
+
+       o upload-signing-certificate
+
+
+
+									 IAM()

@@ -1,0 +1,45 @@
+DYNAMODB()							    DYNAMODB()
+
+
+
+NAME
+       dynamodb -
+
+DESCRIPTION
+	  Overview
+
+       This is the Amazon DynamoDB API Reference. This guide provides descrip-
+       tions and samples of the Amazon DynamoDB API.
+
+AVAILABLE COMMANDS
+       o batch-get-item
+
+       o batch-write-item
+
+       o create-table
+
+       o delete-item
+
+       o delete-table
+
+       o describe-table
+
+       o get-item
+
+       o help
+
+       o list-tables
+
+       o put-item
+
+       o query
+
+       o scan
+
+       o update-item
+
+       o update-table
+
+
+
+								    DYNAMODB()

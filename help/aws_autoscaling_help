@@ -1,0 +1,102 @@
+AUTOSCALING()							 AUTOSCALING()
+
+
+
+NAME
+       autoscaling -
+
+DESCRIPTION
+       This  guide  provides  detailed information about Auto Scaling actions,
+       data types, parameters, and errors. For detailed information about Auto
+       Scaling features and their associated API calls, go to the Auto Scaling
+       Developer Guide .
+
+       Auto Scaling is a web service designed to automatically launch or  ter-
+       minate  Amazon  Elastic	Compute  Cloud (Amazon EC2) instances based on
+       user-defined policies, schedules, and health checks.  This  service  is
+       used  in  conjunction with Amazon CloudWatch and Elastic Load Balancing
+       services.
+
+       This reference is based on the current WSDL, which is available at:
+
+       http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl
+
+       Endpoints
+
+       For information about this  product's  regions  and  endpoints,	go  to
+       Regions and Endpoints in the Amazon Web Services General Reference.
+
+AVAILABLE COMMANDS
+       o create-auto-scaling-group
+
+       o create-launch-configuration
+
+       o create-or-update-tags
+
+       o delete-auto-scaling-group
+
+       o delete-launch-configuration
+
+       o delete-notification-configuration
+
+       o delete-policy
+
+       o delete-scheduled-action
+
+       o delete-tags
+
+       o describe-adjustment-types
+
+       o describe-auto-scaling-groups
+
+       o describe-auto-scaling-instances
+
+       o describe-auto-scaling-notification-types
+
+       o describe-launch-configurations
+
+       o describe-metric-collection-types
+
+       o describe-notification-configurations
+
+       o describe-policies
+
+       o describe-scaling-activities
+
+       o describe-scaling-process-types
+
+       o describe-scheduled-actions
+
+       o describe-tags
+
+       o describe-termination-policy-types
+
+       o disable-metrics-collection
+
+       o enable-metrics-collection
+
+       o execute-policy
+
+       o help
+
+       o put-notification-configuration
+
+       o put-scaling-policy
+
+       o put-scheduled-update-group-action
+
+       o resume-processes
+
+       o set-desired-capacity
+
+       o set-instance-health
+
+       o suspend-processes
+
+       o terminate-instance-in-auto-scaling-group
+
+       o update-auto-scaling-group
+
+
+
+								 AUTOSCALING()

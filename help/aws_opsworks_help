@@ -1,0 +1,122 @@
+OPSWORKS()							    OPSWORKS()
+
+
+
+NAME
+       opsworks -
+
+DESCRIPTION
+       Welcome	to  the  AWS  OpsWorks API Reference . This guide provides de-
+       scriptions, syntax, and usage examples about AWS OpsWorks  actions  and
+       data types, including common parameters and error codes.
+
+       AWS  OpsWorks is an application management service that provides an in-
+       tegrated experience for overseeing the complete application  lifecycle.
+       For  information  about	this  product,	go to the AWS OpsWorks details
+       page.
+
+       Endpoints
+
+       AWS OpsWorks supports  only  one  endpoint,  opsworks.us-east-1.amazon-
+       aws.com (HTTPS), so you must connect to that endpoint. You can then use
+       the API to direct AWS OpsWorks to create stacks in any AWS Region.
+
+       Chef Version
+
+       When you call  create-stack ,  clone-stack , or	update-stack we recom-
+       mend  you  use  the  ConfigurationManager parameter to specify the Chef
+       version, 0.9 or 11.4. The default value is currently 0.9.  However,  we
+       expect to change the default value to 11.4 in September 2013.
+
+AVAILABLE COMMANDS
+       o attach-elastic-load-balancer
+
+       o clone-stack
+
+       o create-app
+
+       o create-deployment
+
+       o create-instance
+
+       o create-layer
+
+       o create-stack
+
+       o create-user-profile
+
+       o delete-app
+
+       o delete-instance
+
+       o delete-layer
+
+       o delete-stack
+
+       o delete-user-profile
+
+       o describe-apps
+
+       o describe-commands
+
+       o describe-deployments
+
+       o describe-elastic-ips
+
+       o describe-elastic-load-balancers
+
+       o describe-instances
+
+       o describe-layers
+
+       o describe-load-based-auto-scaling
+
+       o describe-permissions
+
+       o describe-raid-arrays
+
+       o describe-service-errors
+
+       o describe-stacks
+
+       o describe-time-based-auto-scaling
+
+       o describe-user-profiles
+
+       o describe-volumes
+
+       o detach-elastic-load-balancer
+
+       o get-hostname-suggestion
+
+       o help
+
+       o reboot-instance
+
+       o set-load-based-auto-scaling
+
+       o set-permission
+
+       o set-time-based-auto-scaling
+
+       o start-instance
+
+       o start-stack
+
+       o stop-instance
+
+       o stop-stack
+
+       o update-app
+
+       o update-instance
+
+       o update-layer
+
+       o update-stack
+
+       o update-user-profile
+
+
+
+								    OPSWORKS()

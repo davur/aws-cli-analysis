@@ -1,0 +1,55 @@
+SES()									 SES()
+
+
+
+NAME
+       ses -
+
+DESCRIPTION
+       This is the API Reference for Amazon Simple Email Service (Amazon SES).
+       This documentation is intended to be used in conjunction with the  Ama-
+       zon SES Developer Guide.
+
+       For specific details on how to construct a service request, please con-
+       sult the Amazon SES Developer Guide .
+
+       NOTE:
+	  The	 endpoint    for     Amazon	SES	is     located	   at:
+	  https://email.us-east-1.amazonaws.com
+
+AVAILABLE COMMANDS
+       o delete-identity
+
+       o get-identity-dkim-attributes
+
+       o get-identity-notification-attributes
+
+       o get-identity-verification-attributes
+
+       o get-send-quota
+
+       o get-send-statistics
+
+       o help
+
+       o list-identities
+
+       o send-email
+
+       o send-raw-email
+
+       o set-identity-dkim-enabled
+
+       o set-identity-feedback-forwarding-enabled
+
+       o set-identity-notification-topic
+
+       o verify-domain-dkim
+
+       o verify-domain-identity
+
+       o verify-email-identity
+
+
+
+									 SES()

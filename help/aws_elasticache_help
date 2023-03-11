@@ -1,0 +1,87 @@
+ELASTICACHE()							 ELASTICACHE()
+
+
+
+NAME
+       elasticache -
+
+DESCRIPTION
+       Amazon ElastiCache is a web service that makes it easier to set up, op-
+       erate, and scale a distributed cache in the cloud.
+
+       With ElastiCache, customers gain all of the benefits of a  high-perfor-
+       mance,  in-memory  cache  with far less of the administrative burden of
+       launching and managing a distributed cache. The service	makes  set-up,
+       scaling,  and cluster failure handling much simpler than in a self-man-
+       aged cache deployment.
+
+       In addition, through integration with Amazon CloudWatch, customers  get
+       enhanced visibility into the key performance statistics associated with
+       their cache and can receive alarms if a part of their cache runs hot.
+
+AVAILABLE COMMANDS
+       o authorize-cache-security-group-ingress
+
+       o create-cache-cluster
+
+       o create-cache-parameter-group
+
+       o create-cache-security-group
+
+       o create-cache-subnet-group
+
+       o create-replication-group
+
+       o delete-cache-cluster
+
+       o delete-cache-parameter-group
+
+       o delete-cache-security-group
+
+       o delete-cache-subnet-group
+
+       o delete-replication-group
+
+       o describe-cache-clusters
+
+       o describe-cache-engine-versions
+
+       o describe-cache-parameter-groups
+
+       o describe-cache-parameters
+
+       o describe-cache-security-groups
+
+       o describe-cache-subnet-groups
+
+       o describe-engine-default-parameters
+
+       o describe-events
+
+       o describe-replication-groups
+
+       o describe-reserved-cache-nodes
+
+       o describe-reserved-cache-nodes-offerings
+
+       o help
+
+       o modify-cache-cluster
+
+       o modify-cache-parameter-group
+
+       o modify-cache-subnet-group
+
+       o modify-replication-group
+
+       o purchase-reserved-cache-nodes-offering
+
+       o reboot-cache-cluster
+
+       o reset-cache-parameter-group
+
+       o revoke-cache-security-group-ingress
+
+
+
+								 ELASTICACHE()

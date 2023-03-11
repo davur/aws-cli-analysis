@@ -1,0 +1,131 @@
+REDSHIFT()							    REDSHIFT()
+
+
+
+NAME
+       redshift -
+
+DESCRIPTION
+	  Overview
+
+       This is the Amazon Redshift API Reference. This guide provides descrip-
+       tions and samples of the Amazon Redshift API.
+
+       Amazon Redshift manages all the work  of  setting  up,  operating,  and
+       scaling a data warehouse: provisioning capacity, monitoring and backing
+       up the cluster, and applying patches and upgrades to  the  Amazon  Red-
+       shift  engine. You can focus on using your data to acquire new insights
+       for your business and customers.
+	  Are You a First-Time Amazon Redshift User?
+
+       If you are a first-time user of Amazon Redshift, we recommend that  you
+       begin by reading the following sections:
+
+       o Service Highlights and Pricing - The product detail page provides the
+	 Amazon Redshift value proposition, service highlights and pricing.
+
+       o Getting Started - The Getting Started Guide includes an example  that
+	 walks	you  through the process of creating a cluster, creating data-
+	 base tables, uploading data, and testing queries.
+
+       After you complete the Getting Started Guide, we recommend that you ex-
+       plore one of the following guides:
+
+       o Cluster  Management - If you are responsible for managing Amazon Red-
+	 shift clusters, the Cluster Management Guide shows you how to	create
+	 and manage Amazon Redshift clusters. If you are an application devel-
+	 oper, you can use the Amazon Redshift Query API  to  manage  clusters
+	 programmatically.  Additionally,  the AWS SDK libraries that wrap the
+	 underlying Amazon Redshift API simplify your  programming  tasks.  If
+	 you  prefer  a more interactive way of managing clusters, you can use
+	 the Amazon Redshift console and the AWS command line  interface  (AWS
+	 CLI). For information about the API and CLI, go to the following man-
+	 uals :   * API Reference (this document )
+
+       o CLI Reference
+
+       o Amazon Redshift Database Database Developer - If you are  a  database
+	 developer,  the Amazon Redshift Database Developer Guide explains how
+	 to design, build, query, and maintain the databases that make up your
+	 data warehouse.
+
+       For  a list of supported AWS regions where you can provision a cluster,
+       go to the Regions and Endpoints section	in  the  Amazon  Web  Services
+       Glossary .
+
+AVAILABLE COMMANDS
+       o authorize-cluster-security-group-ingress
+
+       o authorize-snapshot-access
+
+       o copy-cluster-snapshot
+
+       o create-cluster
+
+       o create-cluster-parameter-group
+
+       o create-cluster-security-group
+
+       o create-cluster-snapshot
+
+       o create-cluster-subnet-group
+
+       o delete-cluster
+
+       o delete-cluster-parameter-group
+
+       o delete-cluster-security-group
+
+       o delete-cluster-snapshot
+
+       o delete-cluster-subnet-group
+
+       o describe-cluster-parameter-groups
+
+       o describe-cluster-parameters
+
+       o describe-cluster-security-groups
+
+       o describe-cluster-snapshots
+
+       o describe-cluster-subnet-groups
+
+       o describe-cluster-versions
+
+       o describe-clusters
+
+       o describe-default-cluster-parameters
+
+       o describe-events
+
+       o describe-orderable-cluster-options
+
+       o describe-reserved-node-offerings
+
+       o describe-reserved-nodes
+
+       o describe-resize
+
+       o help
+
+       o modify-cluster
+
+       o modify-cluster-parameter-group
+
+       o modify-cluster-subnet-group
+
+       o purchase-reserved-node-offering
+
+       o reboot-cluster
+
+       o reset-cluster-parameter-group
+
+       o restore-from-cluster-snapshot
+
+       o revoke-cluster-security-group-ingress
+
+       o revoke-snapshot-access
+
+
+
+								    REDSHIFT()

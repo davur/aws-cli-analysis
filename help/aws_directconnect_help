@@ -1,0 +1,58 @@
+DIRECTCONNECT() 					       DIRECTCONNECT()
+
+
+
+NAME
+       directconnect -
+
+DESCRIPTION
+       AWS  Direct Connect makes it easy to establish a dedicated network con-
+       nection from your premises to Amazon Web Services (AWS). Using AWS  Di-
+       rect  Connect,  you  can establish private connectivity between AWS and
+       your data center, office, or  colocation  environment,  which  in  many
+       cases can reduce your network costs, increase bandwidth throughput, and
+       provide a more consistent network experience than  Internet-based  con-
+       nections.
+
+       The AWS Direct Connect API Reference provides descriptions, syntax, and
+       usage examples for each of the actions and data types  for  AWS	Direct
+       Connect.  Use  the  following links to get started using the AWS Direct
+       Connect API Reference :
+
+       o Actions : An alphabetical list of all AWS Direct Connect actions.
+
+       o Data Types : An alphabetical list of  all  AWS  Direct  Connect  data
+	 types.
+
+       o Common Query Parameters : Parameters that all Query actions can use.
+
+       o Common Errors : Client and server errors that all actions can return.
+
+AVAILABLE COMMANDS
+       o create-connection
+
+       o create-private-virtual-interface
+
+       o create-public-virtual-interface
+
+       o delete-connection
+
+       o delete-virtual-interface
+
+       o describe-connection-detail
+
+       o describe-connections
+
+       o describe-offering-detail
+
+       o describe-offerings
+
+       o describe-virtual-gateways
+
+       o describe-virtual-interfaces
+
+       o help
+
+
+
+							       DIRECTCONNECT()
