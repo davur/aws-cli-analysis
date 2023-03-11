@@ -23,21 +23,39 @@ DESCRIPTION
        providers,  set the Logins map with the identity provider token. get-id
        returns a unique identifier for the user.
 
-       Next, make an unsigned call to  get-open-id-token , which  returns  the
-       OpenID  token  necessary to call STS and retrieve AWS credentials. This
-       call expects the same Logins map as the get-id call,  as  well  as  the
-       IdentityID  originally  returned  by  get-id  .	The  token returned by
-       get-open-id-token   can	 be    passed	 to    the    STS    operation
-       AssumeRoleWithWebIdentity to retrieve AWS credentials.
+       Next, make an unsigned call  to	 get-credentials-for-identity  .  This
+       call  expects  the  same  Logins map as the get-id call, as well as the
+       IdentityID originally returned by get-id . Assuming your identity  pool
+       has   been   configured	via  the   set-identity-pool-roles  operation,
+       get-credentials-for-identity will return AWS credentials for your  use.
+       If  your pool has not been configured with set-identity-pool-roles , or
+       if  you	want  to  follow  legacy  flow,  make  an  unsigned  call   to
+       get-open-id-token  ,  which  returns the OpenID token necessary to call
+       STS and retrieve AWS credentials. This call expects the same Logins map
+       as  the	get-id	call, as well as the IdentityID originally returned by
+       get-id . The token returned by get-open-id-token can be passed  to  the
+       STS operation AssumeRoleWithWebIdentity to retrieve AWS credentials.
+
+       If you want to use Amazon Cognito in an Android, iOS, or Unity applica-
+       tion, you will probably want to make API calls via the AWS Mobile  SDK.
+       To learn more, see the AWS Mobile SDK Developer Guide .
 
 AVAILABLE COMMANDS
        o create-identity-pool
 
+       o delete-identities
+
        o delete-identity-pool
+
+       o describe-identity
 
        o describe-identity-pool
 
+       o get-credentials-for-identity
+
        o get-id
+
+       o get-identity-pool-roles
 
        o get-open-id-token
 
@@ -52,6 +70,8 @@ AVAILABLE COMMANDS
        o lookup-developer-identity
 
        o merge-developer-identities
+
+       o set-identity-pool-roles
 
        o unlink-developer-identity
 

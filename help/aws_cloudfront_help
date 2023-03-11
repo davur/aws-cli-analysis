@@ -1,0 +1,60 @@
+CLOUDFRONT()							  CLOUDFRONT()
+
+
+
+NAME
+       cloudfront -
+
+DESCRIPTION
+       NOTE:
+	  This	service is only available as a preview service. You can enable
+	  this service by running: aws configure set preview.cloudfront true
+
+AVAILABLE COMMANDS
+       o create-cloud-front-origin-access-identity
+
+       o create-distribution
+
+       o create-invalidation
+
+       o create-streaming-distribution
+
+       o delete-cloud-front-origin-access-identity
+
+       o delete-distribution
+
+       o delete-streaming-distribution
+
+       o get-cloud-front-origin-access-identity
+
+       o get-cloud-front-origin-access-identity-config
+
+       o get-distribution
+
+       o get-distribution-config
+
+       o get-invalidation
+
+       o get-streaming-distribution
+
+       o get-streaming-distribution-config
+
+       o help
+
+       o list-cloud-front-origin-access-identities
+
+       o list-distributions
+
+       o list-invalidations
+
+       o list-streaming-distributions
+
+       o update-cloud-front-origin-access-identity
+
+       o update-distribution
+
+       o update-streaming-distribution
+
+
+
+								  CLOUDFRONT()

@@ -6,34 +6,20 @@ NAME
        elb -
 
 DESCRIPTION
-       Elastic	Load  Balancing  is a way to automatically distribute incoming
-       web traffic across applications that run  on  multiple  Amazon  Elastic
-       Compute Cloud (Amazon EC2) instances.
+       Elastic Load Balancing distributes incoming traffic across your EC2 in-
+       stances.
 
-       You can create, access, and manage Elastic Load Balancing using the AWS
-       Management Console or the Elastic Load Balancing API. For more informa-
-       tion  about  Elastic  Load  Balancing interfaces, see Accessing Elastic
-       Load Balancing .
+       For information about the features of Elastic Load Balancing, see  What
+       Is  Elastic  Load  Balancing?  in  the Elastic Load Balancing Developer
+       Guide .
 
-       This reference guide contains documentation for the Query API  and  the
-       AWS command line interface commands, to manage Elastic Load Balancing.
+       For information about the AWS regions supported by Elastic Load Balanc-
+       ing,  see  Regions and Endpoints - Elastic Load Balancing in the Amazon
+       Web Services General Reference .
 
-       For  detailed  information  about  Elastic  Load Balancing features and
-       their associated actions or commands, go to Managing Load Balancers  in
-       the Elastic Load Balancing Developer Guide .
-
-       This  reference	guide is based on the current WSDL, which is available
-       at: http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.wsdl .
-
-       Endpoints
-
-       The examples in this guide assume that your load balancers are  created
-       in the US East (Northern Virginia) region and use us-east-1 as the end-
-       point.
-
-       You can create your load balancers in other AWS regions.  For  informa-
-       tion  about  regions and endpoints supported by Elastic Load Balancing,
-       see Regions and Endpoints in the Amazon Web Services General Reference.
+       All Elastic Load Balancing operations are idempotent , which means that
+       they complete at most one time. If you repeat an operation, it succeeds
+       with a 200 OK response code.
 
 AVAILABLE COMMANDS
        o add-tags

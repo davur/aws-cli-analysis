@@ -30,8 +30,7 @@ DESCRIPTION
        use GET for some actions and POST for others. However, GET requests are
        subject to the limitation size of a URL. Therefore, for operations that
        require larger sizes, use a POST request.
-
-       Signing Requests
+	  Signing Requests
 
        Requests must be signed using an access key ID and a secret access key.
        We strongly recommend that you do not use your AWS account  access  key
@@ -45,30 +44,20 @@ DESCRIPTION
        not have to update it to use Signature Version 4. However, some	opera-
        tions now require Signature Version 4. The documentation for operations
        that require version 4 indicate this requirement.
-
-       Recording API requests
-
-       IAM supports AWS CloudTrail, which is a service that records AWS  calls
-       for  your AWS account and delivers log files to an Amazon S3 bucket. By
-       using information collected by CloudTrail, you can determine  what  re-
-       quests were successfully made to IAM, who made the request, when it was
-       made, and so on. To learn more about CloudTrail, including how to  turn
-       it on and find your log files, see the AWS CloudTrail User Guide .
-
-       Additional Resources
+	  Additional Resources
 
        For more information, see the following:
 
-       o AWS  Security	Credentials  . This topic provides general information
+       o AWS Security Credentials . This topic	provides  general  information
 	 about the types of credentials used for accessing AWS.
 
-       o IAM Best Practices . This topic presents a list  of  suggestions  for
+       o IAM  Best  Practices  . This topic presents a list of suggestions for
 	 using the IAM service to help secure your AWS resources.
 
-       o AWS  Security	Token Service . This guide describes how to create and
+       o AWS Security Token Service . This guide describes how to  create  and
 	 use temporary security credentials.
 
-       o Signing AWS API Requests . This set of topics walk  you  through  the
+       o Signing  AWS  API  Requests . This set of topics walk you through the
 	 process of signing a request using an access key ID and secret access
 	 key.
 
@@ -78,6 +67,12 @@ AVAILABLE COMMANDS
        o add-role-to-instance-profile
 
        o add-user-to-group
+
+       o attach-group-policy
+
+       o attach-role-policy
+
+       o attach-user-policy
 
        o change-password
 
@@ -92,6 +87,10 @@ AVAILABLE COMMANDS
        o create-login-profile
 
        o create-open-id-connect-provider
+
+       o create-policy
+
+       o create-policy-version
 
        o create-role
 
@@ -119,6 +118,10 @@ AVAILABLE COMMANDS
 
        o delete-open-id-connect-provider
 
+       o delete-policy
+
+       o delete-policy-version
+
        o delete-role
 
        o delete-role-policy
@@ -129,15 +132,25 @@ AVAILABLE COMMANDS
 
        o delete-signing-certificate
 
+       o delete-ssh-public-key
+
        o delete-user
 
        o delete-user-policy
 
        o delete-virtual-mfa-device
 
+       o detach-group-policy
+
+       o detach-role-policy
+
+       o detach-user-policy
+
        o enable-mfa-device
 
        o generate-credential-report
+
+       o get-access-key-last-used
 
        o get-account-authorization-details
 
@@ -157,6 +170,10 @@ AVAILABLE COMMANDS
 
        o get-open-id-connect-provider
 
+       o get-policy
+
+       o get-policy-version
+
        o get-role
 
        o get-role-policy
@@ -164,6 +181,8 @@ AVAILABLE COMMANDS
        o get-saml-provider
 
        o get-server-certificate
+
+       o get-ssh-public-key
 
        o get-user
 
@@ -174,6 +193,14 @@ AVAILABLE COMMANDS
        o list-access-keys
 
        o list-account-aliases
+
+       o list-attached-group-policies
+
+       o list-attached-role-policies
+
+       o list-attached-user-policies
+
+       o list-entities-for-policy
 
        o list-group-policies
 
@@ -189,6 +216,10 @@ AVAILABLE COMMANDS
 
        o list-open-id-connect-providers
 
+       o list-policies
+
+       o list-policy-versions
+
        o list-role-policies
 
        o list-roles
@@ -198,6 +229,8 @@ AVAILABLE COMMANDS
        o list-server-certificates
 
        o list-signing-certificates
+
+       o list-ssh-public-keys
 
        o list-user-policies
 
@@ -219,6 +252,8 @@ AVAILABLE COMMANDS
 
        o resync-mfa-device
 
+       o set-default-policy-version
+
        o update-access-key
 
        o update-account-password-policy
@@ -237,11 +272,17 @@ AVAILABLE COMMANDS
 
        o update-signing-certificate
 
+       o update-ssh-public-key
+
        o update-user
 
        o upload-server-certificate
 
        o upload-signing-certificate
+
+       o upload-ssh-public-key
+
+       o wait
 
 
 

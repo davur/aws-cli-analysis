@@ -1,0 +1,53 @@
+SSM()									 SSM()
+
+
+
+NAME
+       ssm -
+
+DESCRIPTION
+       Amazon  EC2  Simple  Systems Manager (SSM) enables you to configure and
+       manage your EC2 instances. You can create a configuration document  and
+       then associate it with one or more running instances.
+
+       You  can  use  a configuration document to automate the following tasks
+       for your Windows instances:
+
+       o Join an AWS Directory
+
+       o Install, repair, or uninstall software using an MSI package
+
+       o Run PowerShell scripts
+
+       o Configure CloudWatch Logs to monitor applications and systems
+
+       Note that configuration documents are not supported on Linux instances.
+
+AVAILABLE COMMANDS
+       o create-association
+
+       o create-association-batch
+
+       o create-document
+
+       o delete-association
+
+       o delete-document
+
+       o describe-association
+
+       o describe-document
+
+       o get-document
+
+       o help
+
+       o list-associations
+
+       o list-documents
+
+       o update-association-status
+
+
+
+									 SSM()

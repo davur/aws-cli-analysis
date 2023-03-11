@@ -20,6 +20,8 @@ DESCRIPTION
        their cache and can receive alarms if a part of their cache runs hot.
 
 AVAILABLE COMMANDS
+       o add-tags-to-resource
+
        o authorize-cache-security-group-ingress
 
        o copy-snapshot
@@ -74,6 +76,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-tags-for-resource
+
        o modify-cache-cluster
 
        o modify-cache-parameter-group
@@ -86,9 +90,13 @@ AVAILABLE COMMANDS
 
        o reboot-cache-cluster
 
+       o remove-tags-from-resource
+
        o reset-cache-parameter-group
 
        o revoke-cache-security-group-ingress
+
+       o wait
 
 
 

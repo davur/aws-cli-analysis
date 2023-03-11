@@ -8,35 +8,47 @@ NAME
 DESCRIPTION
        Overview
 
-       This  is  the  AWS Lambda API Reference. The AWS Lambda Developer Guide
+       This  is  the AWS Lambda API Reference . The AWS Lambda Developer Guide
        provides additional information. For the service overview, go  to  What
        is  AWS Lambda , and for information about how the service works, go to
-       AWS LambdaL How it Works in the AWS Lambda Developer Guide.
+       AWS Lambda: How it Works in the AWS Lambda Developer Guide .
 
 AVAILABLE COMMANDS
-       o add-event-source
+       o add-permission
+
+       o create-event-source-mapping
+
+       o create-function
+
+       o delete-event-source-mapping
 
        o delete-function
 
-       o get-event-source
+       o get-event-source-mapping
 
        o get-function
 
        o get-function-configuration
 
+       o get-policy
+
        o help
+
+       o invoke
 
        o invoke-async
 
-       o list-event-sources
+       o list-event-source-mappings
 
        o list-functions
 
-       o remove-event-source
+       o remove-permission
+
+       o update-event-source-mapping
+
+       o update-function-code
 
        o update-function-configuration
-
-       o upload-function
 
 
 

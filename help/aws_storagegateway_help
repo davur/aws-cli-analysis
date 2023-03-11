@@ -108,6 +108,8 @@ AVAILABLE COMMANDS
 
        o list-local-disks
 
+       o list-volume-initiators
+
        o list-volume-recovery-points
 
        o list-volumes

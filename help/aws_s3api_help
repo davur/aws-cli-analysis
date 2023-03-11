@@ -25,6 +25,8 @@ AVAILABLE COMMANDS
 
        o delete-bucket-policy
 
+       o delete-bucket-replication
+
        o delete-bucket-tagging
 
        o delete-bucket-website
@@ -45,7 +47,11 @@ AVAILABLE COMMANDS
 
        o get-bucket-notification
 
+       o get-bucket-notification-configuration
+
        o get-bucket-policy
+
+       o get-bucket-replication
 
        o get-bucket-request-payment
 
@@ -87,7 +93,11 @@ AVAILABLE COMMANDS
 
        o put-bucket-notification
 
+       o put-bucket-notification-configuration
+
        o put-bucket-policy
+
+       o put-bucket-replication
 
        o put-bucket-request-payment
 

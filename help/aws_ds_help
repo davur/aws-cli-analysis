@@ -1,0 +1,52 @@
+DS()									  DS()
+
+
+
+NAME
+       ds -
+
+DESCRIPTION
+       This  is  the AWS Directory Service API Reference . This guide provides
+       detailed information  about  AWS  Directory  Service  operations,  data
+       types, parameters, and errors.
+
+AVAILABLE COMMANDS
+       o connect-directory
+
+       o create-alias
+
+       o create-computer
+
+       o create-directory
+
+       o create-snapshot
+
+       o delete-directory
+
+       o delete-snapshot
+
+       o describe-directories
+
+       o describe-snapshots
+
+       o disable-radius
+
+       o disable-sso
+
+       o enable-radius
+
+       o enable-sso
+
+       o get-directory-limits
+
+       o get-snapshot-limits
+
+       o help
+
+       o restore-from-snapshot
+
+       o update-radius
+
+
+
+									  DS()

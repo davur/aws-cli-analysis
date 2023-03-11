@@ -14,6 +14,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o attach-instances
 
+       o attach-load-balancers
+
        o complete-lifecycle-action
 
        o create-auto-scaling-group
@@ -52,6 +54,8 @@ AVAILABLE COMMANDS
 
        o describe-lifecycle-hooks
 
+       o describe-load-balancers
+
        o describe-metric-collection-types
 
        o describe-notification-configurations
@@ -69,6 +73,8 @@ AVAILABLE COMMANDS
        o describe-termination-policy-types
 
        o detach-instances
+
+       o detach-load-balancers
 
        o disable-metrics-collection
 

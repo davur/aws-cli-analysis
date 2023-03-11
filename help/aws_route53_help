@@ -43,6 +43,8 @@ AVAILABLE COMMANDS
 
        o get-hosted-zone
 
+       o get-hosted-zone-count
+
        o get-reusable-delegation-set
 
        o help
@@ -52,6 +54,8 @@ AVAILABLE COMMANDS
        o list-health-checks
 
        o list-hosted-zones
+
+       o list-hosted-zones-by-name
 
        o list-resource-record-sets
 
@@ -64,6 +68,8 @@ AVAILABLE COMMANDS
        o update-health-check
 
        o update-hosted-zone-comment
+
+       o wait
 
 
 

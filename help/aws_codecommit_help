@@ -1,0 +1,52 @@
+CODECOMMIT()							  CODECOMMIT()
+
+
+
+NAME
+       codecommit -
+
+DESCRIPTION
+       This  is the AWS CodeCommit API Reference . This reference provides de-
+       scriptions of the AWS CodeCommit API.
+
+       You can use the AWS CodeCommit API to work with the following objects:
+
+       o Repositories
+
+       o Branches
+
+       o Commits
+
+       For information about how to use AWS CodeCommit, see the AWS CodeCommit
+       User Guide .
+
+AVAILABLE COMMANDS
+       o batch-get-repositories
+
+       o create-branch
+
+       o create-repository
+
+       o credential-helper
+
+       o delete-repository
+
+       o get-branch
+
+       o get-repository
+
+       o help
+
+       o list-branches
+
+       o list-repositories
+
+       o update-default-branch
+
+       o update-repository-description
+
+       o update-repository-name
+
+
+
+								  CODECOMMIT()

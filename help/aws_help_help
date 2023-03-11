@@ -12,7 +12,8 @@ DESCRIPTION
 SYNOPSIS
 	  aws [options] <command> <subcommand> [parameters]
 
-       Use aws command help for information on a specific command.
+       Use aws command help for information on a  specific  command.  Use  aws
+       help topics to view a list of available help topics.
 
 OPTIONS
        --debug (boolean)
@@ -25,7 +26,7 @@ OPTIONS
 
        --no-verify-ssl (boolean)
 
-       By default, the AWS CLI uses SSL when communicating with AWS  services.
+       By  default, the AWS CLI uses SSL when communicating with AWS services.
        For each SSL connection, the AWS CLI will verify SSL certificates. This
        option overrides the default behavior of verifying SSL certificates.
 
@@ -71,13 +72,15 @@ OPTIONS
 
        --no-sign-request (boolean)
 
-       Do not sign requests. Credentials will not be loaded if	this  argument
+       Do  not	sign requests. Credentials will not be loaded if this argument
        is provided.
 
 AVAILABLE SERVICES
        o autoscaling
 
        o cloudformation
+
+       o cloudfront
 
        o cloudhsm
 
@@ -88,6 +91,10 @@ AVAILABLE SERVICES
        o cloudtrail
 
        o cloudwatch
+
+       o codecommit
+
+       o codepipeline
 
        o cognito-identity
 
@@ -101,13 +108,21 @@ AVAILABLE SERVICES
 
        o deploy
 
+       o devicefarm
+
        o directconnect
 
+       o ds
+
        o dynamodb
+
+       o dynamodbstreams
 
        o ec2
 
        o ecs
+
+       o efs
 
        o elasticache
 
@@ -135,6 +150,8 @@ AVAILABLE SERVICES
 
        o logs
 
+       o machinelearning
+
        o opsworks
 
        o rds
@@ -149,11 +166,15 @@ AVAILABLE SERVICES
 
        o s3api
 
+       o sdb
+
        o ses
 
        o sns
 
        o sqs
+
+       o ssm
 
        o storagegateway
 
@@ -162,6 +183,11 @@ AVAILABLE SERVICES
        o support
 
        o swf
+
+       o workspaces
+
+SEE ALSO
+       o aws help topics
 
 
 

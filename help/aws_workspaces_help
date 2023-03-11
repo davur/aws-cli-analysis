@@ -1,0 +1,32 @@
+WORKSPACES()							  WORKSPACES()
+
+
+
+NAME
+       workspaces -
+
+DESCRIPTION
+       This  is  the Amazon WorkSpaces API Reference . This guide provides de-
+       tailed information about Amazon WorkSpaces operations, data types,  pa-
+       rameters, and errors.
+
+AVAILABLE COMMANDS
+       o create-workspaces
+
+       o describe-workspace-bundles
+
+       o describe-workspace-directories
+
+       o describe-workspaces
+
+       o help
+
+       o reboot-workspaces
+
+       o rebuild-workspaces
+
+       o terminate-workspaces
+
+
+
+								  WORKSPACES()

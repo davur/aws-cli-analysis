@@ -46,7 +46,11 @@ AVAILABLE COMMANDS
 
        o cancel-export-task
 
+       o cancel-import-task
+
        o cancel-reserved-instances-listing
+
+       o cancel-spot-fleet-requests
 
        o cancel-spot-instance-requests
 
@@ -59,6 +63,8 @@ AVAILABLE COMMANDS
        o create-customer-gateway
 
        o create-dhcp-options
+
+       o create-flow-logs
 
        o create-image
 
@@ -96,6 +102,8 @@ AVAILABLE COMMANDS
 
        o create-vpc
 
+       o create-vpc-endpoint
+
        o create-vpc-peering-connection
 
        o create-vpn-connection
@@ -107,6 +115,8 @@ AVAILABLE COMMANDS
        o delete-customer-gateway
 
        o delete-dhcp-options
+
+       o delete-flow-logs
 
        o delete-internet-gateway
 
@@ -138,6 +148,8 @@ AVAILABLE COMMANDS
 
        o delete-vpc
 
+       o delete-vpc-endpoints
+
        o delete-vpc-peering-connection
 
        o delete-vpn-connection
@@ -166,9 +178,15 @@ AVAILABLE COMMANDS
 
        o describe-export-tasks
 
+       o describe-flow-logs
+
        o describe-image-attribute
 
        o describe-images
+
+       o describe-import-image-tasks
+
+       o describe-import-snapshot-tasks
 
        o describe-instance-attribute
 
@@ -180,6 +198,8 @@ AVAILABLE COMMANDS
 
        o describe-key-pairs
 
+       o describe-moving-addresses
+
        o describe-network-acls
 
        o describe-network-interface-attribute
@@ -187,6 +207,8 @@ AVAILABLE COMMANDS
        o describe-network-interfaces
 
        o describe-placement-groups
+
+       o describe-prefix-lists
 
        o describe-regions
 
@@ -208,6 +230,12 @@ AVAILABLE COMMANDS
 
        o describe-spot-datafeed-subscription
 
+       o describe-spot-fleet-instances
+
+       o describe-spot-fleet-request-history
+
+       o describe-spot-fleet-requests
+
        o describe-spot-instance-requests
 
        o describe-spot-price-history
@@ -225,6 +253,10 @@ AVAILABLE COMMANDS
        o describe-vpc-attribute
 
        o describe-vpc-classic-link
+
+       o describe-vpc-endpoint-services
+
+       o describe-vpc-endpoints
 
        o describe-vpc-peering-connections
 
@@ -264,7 +296,11 @@ AVAILABLE COMMANDS
 
        o help
 
+       o import-image
+
        o import-key-pair
+
+       o import-snapshot
 
        o modify-image-attribute
 
@@ -282,7 +318,11 @@ AVAILABLE COMMANDS
 
        o modify-vpc-attribute
 
+       o modify-vpc-endpoint
+
        o monitor-instances
+
+       o move-address-to-vpc
 
        o purchase-reserved-instances-offering
 
@@ -304,6 +344,8 @@ AVAILABLE COMMANDS
 
        o report-instance-status
 
+       o request-spot-fleet
+
        o request-spot-instances
 
        o reset-image-attribute
@@ -313,6 +355,8 @@ AVAILABLE COMMANDS
        o reset-network-interface-attribute
 
        o reset-snapshot-attribute
+
+       o restore-address-to-classic
 
        o revoke-security-group-egress
 

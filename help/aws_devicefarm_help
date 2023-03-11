@@ -1,0 +1,68 @@
+DEVICEFARM()							  DEVICEFARM()
+
+
+
+NAME
+       devicefarm -
+
+DESCRIPTION
+       AWS Device Farm is a service that enables mobile app developers to test
+       Android, iOS, and Fire OS apps on physical phones, tablets,  and  other
+       devices in the cloud.
+
+AVAILABLE COMMANDS
+       o create-device-pool
+
+       o create-project
+
+       o create-upload
+
+       o get-account-settings
+
+       o get-device
+
+       o get-device-pool
+
+       o get-device-pool-compatibility
+
+       o get-job
+
+       o get-project
+
+       o get-run
+
+       o get-suite
+
+       o get-test
+
+       o get-upload
+
+       o help
+
+       o list-artifacts
+
+       o list-device-pools
+
+       o list-devices
+
+       o list-jobs
+
+       o list-projects
+
+       o list-runs
+
+       o list-samples
+
+       o list-suites
+
+       o list-tests
+
+       o list-unique-problems
+
+       o list-uploads
+
+       o schedule-run
+
+
+
+								  DEVICEFARM()

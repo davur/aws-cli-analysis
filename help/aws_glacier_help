@@ -42,13 +42,21 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o abort-multipart-upload
 
+       o abort-vault-lock
+
+       o add-tags-to-vault
+
        o complete-multipart-upload
+
+       o complete-vault-lock
 
        o create-vault
 
        o delete-archive
 
        o delete-vault
+
+       o delete-vault-access-policy
 
        o delete-vault-notifications
 
@@ -60,6 +68,10 @@ AVAILABLE COMMANDS
 
        o get-job-output
 
+       o get-vault-access-policy
+
+       o get-vault-lock
+
        o get-vault-notifications
 
        o help
@@ -68,15 +80,23 @@ AVAILABLE COMMANDS
 
        o initiate-multipart-upload
 
+       o initiate-vault-lock
+
        o list-jobs
 
        o list-multipart-uploads
 
        o list-parts
 
+       o list-tags-for-vault
+
        o list-vaults
 
+       o remove-tags-from-vault
+
        o set-data-retrieval-policy
+
+       o set-vault-access-policy
 
        o set-vault-notifications
 
