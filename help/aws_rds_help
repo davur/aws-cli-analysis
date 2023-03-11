@@ -13,24 +13,25 @@ DESCRIPTION
        istration tasks, freeing up developers to focus on what makes their ap-
        plications and businesses unique.
 
-       Amazon RDS gives you access to the capabilities of a MySQL, PostgreSQL,
-       Microsoft SQL Server, Oracle, or Aurora database server. This means the
-       code, applications, and tools you already use today with your  existing
-       databases  work	with Amazon RDS without modification. Amazon RDS auto-
-       matically backs up your database and maintains  the  database  software
-       that  powers  your  DB  instance. Amazon RDS is flexible: you can scale
-       your database instance's compute resources and storage capacity to meet
-       your  application's  demand. As with all Amazon Web Services, there are
-       no up-front investments, and you pay only for the resources you use.
+       Amazon RDS gives you access to the capabilities of  a  MySQL,  MariaDB,
+       PostgreSQL,  Microsoft  SQL  Server, Oracle, or Aurora database server.
+       This means the code, applications, and tools you already use today with
+       your existing databases work with Amazon RDS without modification. Ama-
+       zon RDS automatically backs up your database and maintains the database
+       software  that powers your DB instance. Amazon RDS is flexible: you can
+       scale your database instance's compute resources and  storage  capacity
+       to  meet  your  application's  demand. As with all Amazon Web Services,
+       there are no up-front investments, and you pay only for	the  resources
+       you use.
 
-       This is an interface reference for Amazon RDS. It  contains  documenta-
-       tion  for a programming or command line interface you can use to manage
+       This  is  an interface reference for Amazon RDS. It contains documenta-
+       tion for a programming or command line interface you can use to	manage
        Amazon RDS. Note that Amazon RDS is asynchronous, which means that some
-       interfaces  might  require techniques such as polling or callback func-
-       tions to determine when a command has been applied. In this  reference,
-       the  parameter descriptions indicate whether a command is applied imme-
+       interfaces might require techniques such as polling or  callback  func-
+       tions  to determine when a command has been applied. In this reference,
+       the parameter descriptions indicate whether a command is applied  imme-
        diately, on the next instance reboot, or during the maintenance window.
-       For  a summary of the Amazon RDS interfaces, go to Available RDS Inter-
+       For a summary of the Amazon RDS interfaces, go to Available RDS	Inter-
        faces .
 
 AVAILABLE COMMANDS
@@ -118,6 +119,8 @@ AVAILABLE COMMANDS
 
        o describe-db-security-groups
 
+       o describe-db-snapshot-attributes
+
        o describe-db-snapshots
 
        o describe-db-subnet-groups
@@ -159,6 +162,8 @@ AVAILABLE COMMANDS
        o modify-db-instance
 
        o modify-db-parameter-group
+
+       o modify-db-snapshot-attribute
 
        o modify-db-subnet-group
 

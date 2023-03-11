@@ -6,8 +6,6 @@ NAME
        iot -
 
 DESCRIPTION
-       AWS IoT is in beta and is subject to change
-
        AWS  IoT  provides  secure, bi-directional communication between Inter-
        net-connected things (such as sensors, actuators, embedded devices,  or
        smart  appliances)  and	the  AWS  cloud.  You can discover your custom

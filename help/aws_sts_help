@@ -10,8 +10,8 @@ DESCRIPTION
        to request temporary, limited-privilege credentials  for  AWS  Identity
        and  Access  Management	(IAM) users or for users that you authenticate
        (federated users). This guide provides descriptions of the STS API. For
-       more  detailed information about using this service, go to Using Tempo-
-       rary Security Credentials .
+       more detailed information about using this service, go to Temporary Se-
+       curity Credentials .
 
        NOTE:
 	  As an alternative to using the API, you can use one of the AWS SDKs,
@@ -27,8 +27,8 @@ DESCRIPTION
        the API, go to Signing AWS API Requests in the AWS General Reference  .
        For  general  information  about  the Query API, go to Making Query Re-
        quests in Using IAM . For information about using security tokens  with
-       other  AWS  products, go to Using Temporary Security Credentials to Ac-
-       cess AWS in Using Temporary Security Credentials .
+       other  AWS products, go to AWS Services That Work with IAM in the Using
+       IAM .
 
        If you're new to AWS and need additional technical information about  a
        specific  AWS  product, you can find the product's technical documenta-
@@ -40,18 +40,17 @@ DESCRIPTION
        gion. Additional regions are available, but must first be activated  in
        the AWS Management Console before you can use a different region's end-
        point. For more information about  activating  a  region  for  STS  see
-       Activating  STS in a New Region in the Using Temporary Security Creden-
-       tials guide.
+       Activating STS in a New Region in the Using IAM .
 
-       For information about STS endpoints, see Regions and Endpoints  in  the
+       For  information  about STS endpoints, see Regions and Endpoints in the
        AWS General Reference .
 	  Recording API requests
 
-       STS  supports AWS CloudTrail, which is a service that records AWS calls
-       for your AWS account and delivers log files to an Amazon S3 bucket.  By
-       using  information  collected by CloudTrail, you can determine what re-
+       STS supports AWS CloudTrail, which is a service that records AWS  calls
+       for  your AWS account and delivers log files to an Amazon S3 bucket. By
+       using information collected by CloudTrail, you can determine  what  re-
        quests were successfully made to STS, who made the request, when it was
-       made,  and so on. To learn more about CloudTrail, including how to turn
+       made, and so on. To learn more about CloudTrail, including how to  turn
        it on and find your log files, see the AWS CloudTrail User Guide .
 
 AVAILABLE COMMANDS

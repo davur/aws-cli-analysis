@@ -7,8 +7,9 @@ NAME
 
 DESCRIPTION
        NOTE:
-	  This	service is only available as a preview service. You can enable
-	  this service by running: aws configure set preview.cloudfront true
+	  AWS  CLI  support  for  this	service is only available in a preview
+	  stage. You can enable this service by  running:  aws	configure  set
+	  preview.cloudfront true
 
 AVAILABLE COMMANDS
        o create-cloud-front-origin-access-identity
@@ -50,6 +51,8 @@ AVAILABLE COMMANDS
        o list-invalidations
 
        o list-streaming-distributions
+
+       o sign
 
        o update-cloud-front-origin-access-identity
 

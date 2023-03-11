@@ -1,0 +1,59 @@
+EVENTS()							      EVENTS()
+
+
+
+NAME
+       events -
+
+DESCRIPTION
+       Amazon  CloudWatch Events helps you to respond to state changes in your
+       AWS resources. When your resources change state they automatically send
+       events  into  an event stream. You can create rules that match selected
+       events in the stream and route them to targets to take action. You  can
+       also  use  rules to take action on a pre-determined schedule. For exam-
+       ple, you can configure rules to:
+
+       o Automatically invoke an AWS Lambda function  to  update  DNS  entries
+	 when  an  event notifies you that Amazon EC2 instance enters the run-
+	 ning state.
+
+       o Direct specific API records from  CloudTrail  to  an  Amazon  Kinesis
+	 stream  for  detailed	analysis of potential security or availability
+	 risks.
+
+       o Periodically invoke a built-in target to create a snapshot of an Ama-
+	 zon EBS volume.
+
+       For  more  information about Amazon CloudWatch Events features, see the
+       Amazon CloudWatch Developer Guide .
+
+AVAILABLE COMMANDS
+       o delete-rule
+
+       o describe-rule
+
+       o disable-rule
+
+       o enable-rule
+
+       o help
+
+       o list-rule-names-by-target
+
+       o list-rules
+
+       o list-targets-by-rule
+
+       o put-events
+
+       o put-rule
+
+       o put-targets
+
+       o remove-targets
+
+       o test-event-pattern
+
+
+
+								      EVENTS()

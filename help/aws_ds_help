@@ -19,15 +19,23 @@ AVAILABLE COMMANDS
 
        o create-directory
 
+       o create-microsoft-ad
+
        o create-snapshot
+
+       o create-trust
 
        o delete-directory
 
        o delete-snapshot
 
+       o delete-trust
+
        o describe-directories
 
        o describe-snapshots
+
+       o describe-trusts
 
        o disable-radius
 
@@ -46,6 +54,8 @@ AVAILABLE COMMANDS
        o restore-from-snapshot
 
        o update-radius
+
+       o verify-trust
 
 
 

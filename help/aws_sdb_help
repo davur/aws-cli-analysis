@@ -25,8 +25,9 @@ DESCRIPTION
        Visit http://aws.amazon.com/simpledb/ for more information.
 
        NOTE:
-	  This	service is only available as a preview service. You can enable
-	  this service by running: aws configure set preview.sdb true
+	  AWS  CLI  support  for  this	service is only available in a preview
+	  stage. You can enable this service by  running:  aws	configure  set
+	  preview.sdb true
 
 AVAILABLE COMMANDS
        o batch-delete-attributes

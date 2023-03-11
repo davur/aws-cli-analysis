@@ -16,6 +16,8 @@ AVAILABLE COMMANDS
 
        o allocate-address
 
+       o allocate-hosts
+
        o assign-private-ip-addresses
 
        o associate-address
@@ -74,6 +76,8 @@ AVAILABLE COMMANDS
 
        o create-key-pair
 
+       o create-nat-gateway
+
        o create-network-acl
 
        o create-network-acl-entry
@@ -121,6 +125,8 @@ AVAILABLE COMMANDS
        o delete-internet-gateway
 
        o delete-key-pair
+
+       o delete-nat-gateway
 
        o delete-network-acl
 
@@ -180,6 +186,10 @@ AVAILABLE COMMANDS
 
        o describe-flow-logs
 
+       o describe-hosts
+
+       o describe-id-format
+
        o describe-image-attribute
 
        o describe-images
@@ -199,6 +209,8 @@ AVAILABLE COMMANDS
        o describe-key-pairs
 
        o describe-moving-addresses
+
+       o describe-nat-gateways
 
        o describe-network-acls
 
@@ -221,6 +233,10 @@ AVAILABLE COMMANDS
        o describe-reserved-instances-offerings
 
        o describe-route-tables
+
+       o describe-scheduled-instance-availability
+
+       o describe-scheduled-instances
 
        o describe-security-groups
 
@@ -254,6 +270,8 @@ AVAILABLE COMMANDS
 
        o describe-vpc-classic-link
 
+       o describe-vpc-classic-link-dns-support
+
        o describe-vpc-endpoint-services
 
        o describe-vpc-endpoints
@@ -280,6 +298,8 @@ AVAILABLE COMMANDS
 
        o disable-vpc-classic-link
 
+       o disable-vpc-classic-link-dns-support
+
        o disassociate-address
 
        o disassociate-route-table
@@ -289,6 +309,8 @@ AVAILABLE COMMANDS
        o enable-volume-io
 
        o enable-vpc-classic-link
+
+       o enable-vpc-classic-link-dns-support
 
        o get-console-output
 
@@ -302,9 +324,15 @@ AVAILABLE COMMANDS
 
        o import-snapshot
 
+       o modify-hosts
+
+       o modify-id-format
+
        o modify-image-attribute
 
        o modify-instance-attribute
+
+       o modify-instance-placement
 
        o modify-network-interface-attribute
 
@@ -328,6 +356,8 @@ AVAILABLE COMMANDS
 
        o purchase-reserved-instances-offering
 
+       o purchase-scheduled-instances
+
        o reboot-instances
 
        o register-image
@@ -335,6 +365,8 @@ AVAILABLE COMMANDS
        o reject-vpc-peering-connection
 
        o release-address
+
+       o release-hosts
 
        o replace-network-acl-association
 
@@ -365,6 +397,8 @@ AVAILABLE COMMANDS
        o revoke-security-group-ingress
 
        o run-instances
+
+       o run-scheduled-instances
 
        o start-instances
 

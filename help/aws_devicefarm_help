@@ -17,6 +17,14 @@ AVAILABLE COMMANDS
 
        o create-upload
 
+       o delete-device-pool
+
+       o delete-project
+
+       o delete-run
+
+       o delete-upload
+
        o get-account-settings
 
        o get-device
@@ -62,6 +70,10 @@ AVAILABLE COMMANDS
        o list-uploads
 
        o schedule-run
+
+       o update-device-pool
+
+       o update-project
 
 
 
