@@ -93,6 +93,8 @@ OPTIONS
        the socket connect will be blocking and not timeout.
 
 AVAILABLE SERVICES
+       o acm
+
        o apigateway
 
        o autoscaling
