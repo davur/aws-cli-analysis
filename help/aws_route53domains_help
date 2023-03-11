@@ -1,0 +1,40 @@
+ROUTE53DOMAINS()					      ROUTE53DOMAINS()
+
+
+
+NAME
+       route53domains -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o check-domain-availability
+
+       o disable-domain-transfer-lock
+
+       o enable-domain-transfer-lock
+
+       o get-domain-detail
+
+       o get-operation-detail
+
+       o help
+
+       o list-domains
+
+       o list-operations
+
+       o register-domain
+
+       o retrieve-domain-auth-code
+
+       o transfer-domain
+
+       o update-domain-contact
+
+       o update-domain-contact-privacy
+
+       o update-domain-nameservers
+
+
+
+							      ROUTE53DOMAINS()

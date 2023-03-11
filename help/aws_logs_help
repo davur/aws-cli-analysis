@@ -1,0 +1,89 @@
+LOGS()									LOGS()
+
+
+
+NAME
+       logs -
+
+DESCRIPTION
+       This  is  the  Amazon CloudWatch Logs API Reference . Amazon CloudWatch
+       Logs is a managed service for real time monitoring and archival of  ap-
+       plication  logs.  This guide provides detailed information about Amazon
+       CloudWatch Logs actions, data types, parameters, and  errors.  For  de-
+       tailed  information about Amazon CloudWatch Logs features and their as-
+       sociated API calls, go to the Amazon CloudWatch Logs Developer Guide .
+
+       Use the following links to get started using the Amazon CloudWatch Logs
+       API Reference :
+
+       o Actions : An alphabetical list of all Amazon CloudWatch Logs actions.
+
+       o Data  Types : An alphabetical list of all Amazon CloudWatch Logs data
+	 types.
+
+       o Common Parameters : Parameters that all Query actions can use.
+
+       o Common Errors : Client and server errors that all actions can return.
+
+       o Regions and Endpoints : Itemized regions and endpoints  for  all  AWS
+	 products.
+
+       In  addition  to using the Amazon CloudWatch Logs API, you can also use
+       the following SDKs and third-party libraries to	access	Amazon	Cloud-
+       Watch Logs programmatically.
+
+       o AWS SDK for Java Documentation
+
+       o AWS SDK for .NET Documentation
+
+       o AWS SDK for PHP Documentation
+
+       o AWS SDK for Ruby Documentation
+
+       Developers  in  the  AWS developer community also provide their own li-
+       braries, which you can find at the following AWS developer centers:
+
+       o AWS Java Developer Center
+
+       o AWS PHP Developer Center
+
+       o AWS Python Developer Center
+
+       o AWS Ruby Developer Center
+
+       o AWS Windows and .NET Developer Center
+
+AVAILABLE COMMANDS
+       o create-log-group
+
+       o create-log-stream
+
+       o delete-log-group
+
+       o delete-log-stream
+
+       o delete-metric-filter
+
+       o delete-retention-policy
+
+       o describe-log-groups
+
+       o describe-log-streams
+
+       o describe-metric-filters
+
+       o get-log-events
+
+       o help
+
+       o put-log-events
+
+       o put-metric-filter
+
+       o put-retention-policy
+
+       o test-metric-filter
+
+
+
+									LOGS()

@@ -1,0 +1,32 @@
+COGNITO-IDENTITY()					    COGNITO-IDENTITY()
+
+
+
+NAME
+       cognito-identity -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o create-identity-pool
+
+       o delete-identity-pool
+
+       o describe-identity-pool
+
+       o get-id
+
+       o get-open-id-token
+
+       o help
+
+       o list-identities
+
+       o list-identity-pools
+
+       o unlink-identity
+
+       o update-identity-pool
+
+
+
+							    COGNITO-IDENTITY()

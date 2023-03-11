@@ -46,9 +46,8 @@ DESCRIPTION
 
        When you call  create-stack ,  clone-stack , or	update-stack we recom-
        mend you use the ConfigurationManager parameter	to  specify  the  Chef
-       version,  0.9  or 11.4. The default value is currently 0.9. However, we
-       expect to change the default value to 11.4 in October  2013.  For  more
-       information, see Using AWS OpsWorks with Chef 11 .
+       version,  0.9, 11.4, or 11.10. The default value is currently 11.4. For
+       more information, see Chef Versions .
 
 AVAILABLE COMMANDS
        o assign-volume
@@ -83,6 +82,8 @@ AVAILABLE COMMANDS
 
        o deregister-elastic-ip
 
+       o deregister-rds-db-instance
+
        o deregister-volume
 
        o describe-apps
@@ -107,6 +108,8 @@ AVAILABLE COMMANDS
 
        o describe-raid-arrays
 
+       o describe-rds-db-instances
+
        o describe-service-errors
 
        o describe-stack-summary
@@ -130,6 +133,8 @@ AVAILABLE COMMANDS
        o reboot-instance
 
        o register-elastic-ip
+
+       o register-rds-db-instance
 
        o register-volume
 
@@ -158,6 +163,8 @@ AVAILABLE COMMANDS
        o update-layer
 
        o update-my-user-profile
+
+       o update-rds-db-instance
 
        o update-stack
 

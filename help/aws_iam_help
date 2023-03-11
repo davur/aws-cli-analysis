@@ -25,25 +25,37 @@ DESCRIPTION
        Using the IAM Query API, you make direct calls to the IAM web  service.
        IAM  supports  GET  and POST requests for all actions. That is, the API
        does not require you to use GET for some actions and POST  for  others.
-       However,  GET requests are subject to the limitation size of a URL; al-
-       though this limit is browser dependent, a typical limit is 2048	bytes.
-       Therefore,  for	operations  that  require larger sizes, you must use a
-       POST request.
+       However,  GET  requests	are  subject  to the limitation size of a URL.
+       Therefore, for operations that require larger sizes,  use  a  POST  re-
+       quest.
 
-       Signing Requests Requests must be signed using an access key ID	and  a
-       secret  access  key. We strongly recommend that you do not use your AWS
-       account access key ID and secret access key for everyday work with IAM.
-       You  can use the access key ID and secret access key for an IAM user or
-       you can use the AWS Security Token Service to generate temporary  secu-
-       rity credentials and use those to sign requests.
+       Signing Requests
 
-       To  sign  requests,  we recommend that you use Signature Version 4 . If
-       you have an existing application that uses Signature Version 2, you  do
-       not  have to update it to use Signature Version 4. However, some opera-
+       Requests must be signed using an access key ID and a secret access key.
+       We strongly recommend that you do not use your AWS account  access  key
+       ID  and	secret	access key for everyday work with IAM. You can use the
+       access key ID and secret access key for an IAM user or you can use  the
+       AWS  Security  Token Service to generate temporary security credentials
+       and use those to sign requests.
+
+       To sign requests, we recommend that you use Signature Version  4  .  If
+       you  have an existing application that uses Signature Version 2, you do
+       not have to update it to use Signature Version 4. However, some	opera-
        tions now require Signature Version 4. The documentation for operations
        that require version 4 indicate this requirement.
 
-       Additional Resources For more information, see the following:
+       Recording API requests
+
+       IAM supports AWS CloudTrail, which is a service that records AWS  calls
+       for  your AWS account and delivers log files to an Amazon S3 bucket. By
+       using information collected by CloudTrail, you can determine  what  re-
+       quests were successfully made to IAM, who made the request, when it was
+       made, and so on. To learn more about CloudTrail, including how to  turn
+       it on and find your log files, see the AWS CloudTrail User Guide .
+
+       Additional Resources
+
+       For more information, see the following:
 
        o AWS  Security	Credentials  . This topic provides general information
 	 about the types of credentials used for accessing AWS.
@@ -117,9 +129,13 @@ AVAILABLE COMMANDS
 
        o enable-mfa-device
 
+       o generate-credential-report
+
        o get-account-password-policy
 
        o get-account-summary
+
+       o get-credential-report
 
        o get-group
 

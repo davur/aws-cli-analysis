@@ -7,39 +7,41 @@ NAME
 
 DESCRIPTION
        The  AWS Support API reference is intended for programmers who need de-
-       tailed information about the AWS Support actions and data  types.  This
-       service	enables you to manage your AWS Support cases programmatically.
-       It uses HTTP methods that return results in JSON format.
+       tailed information about the AWS Support  operations  and  data	types.
+       This  service enables you to manage your AWS Support cases programmati-
+       cally. It uses HTTP methods that return results in JSON format.
 
        The AWS Support service also exposes a set of Trusted Advisor features.
        You can retrieve a list of checks and their descriptions, get check re-
        sults, specify checks to refresh, and get the refresh status of checks.
 
-       The following list describes the AWS Support case management actions:
+       The following list describes the AWS  Support  case  management	opera-
+       tions:
 
-       o Service names, issue categories, and available severity  levels.  The
-	 actions   describe-services  and  describe-severity-levels enable you
-	 to obtain AWS service names, service codes, service  categories,  and
-	 problem severity levels. You use these values when you call the  cre-
-	 ate-case action.
+       o Service  names,  issue categories, and available severity levels. The
+	 describe-services and	describe-severity-levels operations return AWS
+	 service  names, service codes, service categories, and problem sever-
+	 ity levels. You use these values when you call the  create-case oper-
+	 ation.
 
-       o Case creation, case details, and case resolution. The	actions   cre-
-	 ate-case  ,   describe-cases , and  resolve-case enable you to create
-	 AWS Support cases, retrieve them, and resolve them.
+       o Case  creation, case details, and case resolution. The  create-case ,
+	 describe-cases ,  describe-attachment , and  resolve-case  operations
+	 create  AWS  Support cases, retrieve information about cases, and re-
+	 solve cases.
 
-       o Case  communication.	The   actions	 describe-communications   and
-	 add-communication-to-case  enable  you to retrieve and add communica-
-	 tion to AWS Support cases.
+       o Case communication. The   describe-communications  ,	add-communica-
+	 tion-to-case  ,  and	add-attachments-to-set operations retrieve and
+	 add communications and attachments to AWS Support cases.
 
-       The following list describes the actions available from the AWS Support
-       service for Trusted Advisor:
+       The following list describes the operations available from the AWS Sup-
+       port service for Trusted Advisor:
 
        o describe-trusted-advisor-checks  returns  the list of checks that run
 	 against your AWS resources.
 
-       o Using the CheckId for a specific check returned by DescribeTrustedAd-
-	 visorChecks,  you  can call  describe-trusted-advisor-check-result to
-	 obtain the results for the check you specified.
+       o Using	the  CheckId  for  a   specific   check   returned   by    de-
+	 scribe-trusted-advisor-checks	, you can call	describe-trusted-advi-
+	 sor-check-result to obtain the results for the check you specified.
 
        o describe-trusted-advisor-check-summaries returns  summarized  results
 	 for one or more Trusted Advisor checks.
@@ -53,14 +55,19 @@ DESCRIPTION
        For  authentication  of	requests, AWS Support uses Signature Version 4
        Signing Process .
 
-       See the AWS Support User Guide for information about how  to  use  this
-       service	to  create  and  manage  your  support	cases, and how to call
-       Trusted Advisor for results of checks on your resources.
+       See About the AWS Support API in the AWS Support User Guide for	infor-
+       mation  about how to use this service to create and manage your support
+       cases, and how to call Trusted Advisor for results of  checks  on  your
+       resources.
 
 AVAILABLE COMMANDS
+       o add-attachments-to-set
+
        o add-communication-to-case
 
        o create-case
+
+       o describe-attachment
 
        o describe-cases
 

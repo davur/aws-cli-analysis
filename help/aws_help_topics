@@ -53,28 +53,6 @@ OOPPTTIIOONNSS
 
        The region to use. Overrides config/env settings.
 
-       +o us-east-1
-
-       +o ap-northeast-1
-
-       +o sa-east-1
-
-       +o ap-southeast-1
-
-       +o ap-southeast-2
-
-       +o us-west-2
-
-       +o us-gov-west-1
-
-       +o us-west-1
-
-       +o cn-north-1
-
-       +o eu-west-1
-
-       +o fips-us-gov-west-1
-
        ----vveerrssiioonn (string)
 
        Display the version of this tool.
@@ -94,9 +72,17 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
 
        +o cloudformation
 
+       +o cloudsearch
+
+       +o cloudsearchdomain
+
        +o cloudtrail
 
        +o cloudwatch
+
+       +o cognito-identity
+
+       +o cognito-sync
 
        +o configure
 
@@ -124,6 +110,8 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
 
        +o kinesis
 
+       +o logs
+
        +o opsworks
 
        +o rds
@@ -131,6 +119,8 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
        +o redshift
 
        +o route53
+
+       +o route53domains
 
        +o s3
 

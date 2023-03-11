@@ -25,6 +25,8 @@ DESCRIPTION
 
        o Amazon SQS product page
 
+       o Using Amazon SQS Dead Letter Queues
+
        o Regions and Endpoints
 
        We also provide SDKs that enable you to access  Amazon  SQS  from  your
