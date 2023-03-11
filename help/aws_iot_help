@@ -57,6 +57,10 @@ AVAILABLE COMMANDS
 
        o detach-thing-principal
 
+       o disable-topic-rule
+
+       o enable-topic-rule
+
        o get-logging-options
 
        o get-policy

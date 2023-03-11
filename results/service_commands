@@ -1,3 +1,10 @@
+acm delete-certificate
+acm describe-certificate
+acm get-certificate
+acm help
+acm list-certificates
+acm request-certificate
+acm resend-validation-email
 apigateway create-api-key
 apigateway create-base-path-mapping
 apigateway create-deployment
@@ -117,6 +124,7 @@ autoscaling suspend-processes
 autoscaling terminate-instance-in-auto-scaling-group
 autoscaling update-auto-scaling-group
 cloudformation cancel-update-stack
+cloudformation continue-update-rollback
 cloudformation create-stack
 cloudformation delete-stack
 cloudformation describe-account-limits
@@ -1142,6 +1150,8 @@ iot describe-endpoint
 iot describe-thing
 iot detach-principal-policy
 iot detach-thing-principal
+iot disable-topic-rule
+iot enable-topic-rule
 iot get-logging-options
 iot get-policy
 iot get-policy-version
