@@ -12,6 +12,8 @@ DESCRIPTION
        deploy applications faster.
 
 AVAILABLE COMMANDS
+       o accept-reserved-instances-exchange-quote
+
        o accept-vpc-peering-connection
 
        o allocate-address
@@ -329,6 +331,8 @@ AVAILABLE COMMANDS
        o get-host-reservation-purchase-preview
 
        o get-password-data
+
+       o get-reserved-instances-exchange-quote
 
        o help
 
