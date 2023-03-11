@@ -6,16 +6,31 @@ NAME
        autoscaling -
 
 DESCRIPTION
-       This  guide  provides  detailed information about Auto Scaling actions,
-       data types, parameters, and errors. For detailed information about Auto
-       Scaling features and their associated API calls, go to the Auto Scaling
-       Developer Guide .
-
-       Auto Scaling is a web service designed to automatically launch or  ter-
-       minate  Amazon  Elastic	Compute  Cloud (Amazon EC2) instances based on
-       user-defined policies, schedules, and health checks.  This  service  is
-       used  in  conjunction with Amazon CloudWatch and Elastic Load Balancing
+       Auto  Scaling is a web service designed to automatically launch or ter-
+       minate Amazon Elastic Compute Cloud (Amazon  EC2)  instances  based  on
+       user-defined  policies,	schedules,  and health checks. This service is
+       used in conjunction with Amazon CloudWatch and Elastic  Load  Balancing
        services.
+
+       Auto  Scaling provides APIs that you can call by submitting a Query Re-
+       quest. Query requests are HTTP or HTTPS	requests  that	use  the  HTTP
+       verbs  GET or POST and a Query parameter named Action or Operation that
+       specifies the API you are calling. Action is used throughout this docu-
+       mentation,  although  Operation is also supported for backward compati-
+       bility with other Amazon Web Services (AWS) Query APIs.
+
+       Calling the API using a Query request is the most direct way to	access
+       the  web  service,  but requires that your application handle low-level
+       details such as generating the hash to sign the request and error  han-
+       dling. The benefit of calling the service using a Query request is that
+       you are assured of having access to the complete functionality  of  the
+       API. For information about signing a a query request, see Use Query Re-
+       quests to Call Auto Scaling APIs
+
+       This guide provides detailed information about  Auto  Scaling  actions,
+       data types, parameters, and errors. For detailed information about Auto
+       Scaling features and their associated API actions, go to the Auto Scal-
+       ing Developer Guide .
 
        This reference is based on the current WSDL, which is available at:
 
@@ -23,10 +38,17 @@ DESCRIPTION
 
        Endpoints
 
-       For information about this  product's  regions  and  endpoints,	go  to
-       Regions and Endpoints in the Amazon Web Services General Reference.
+       The  examples  in this guide assume that your instances are launched in
+       the US East (Northern Virginia) region and use us-east-1  as  the  end-
+       point.
+
+       You  can  set up your Auto Scaling infrastructure in other AWS regions.
+       For information about this product's regions and endpoints, see Regions
+       and Endpoints in the Amazon Web Services General Reference.
 
 AVAILABLE COMMANDS
+       o attach-instances
+
        o create-auto-scaling-group
 
        o create-launch-configuration
@@ -44,6 +66,8 @@ AVAILABLE COMMANDS
        o delete-scheduled-action
 
        o delete-tags
+
+       o describe-account-limits
 
        o describe-adjustment-types
 

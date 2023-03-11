@@ -8,64 +8,54 @@ NAME
 DESCRIPTION
        The  AWS Support API reference is intended for programmers who need de-
        tailed information about the AWS Support actions and data  types.  This
-       service	enables you to manage with your AWS Support cases programmati-
-       cally. It is built on the AWS Query API programming model and  provides
-       HTTP methods that take parameters and return results in JSON format.
+       service	enables you to manage your AWS Support cases programmatically.
+       It uses HTTP methods that return results in JSON format.
 
        The AWS Support service also exposes a set of Trusted Advisor features.
-       You can retrieve a list of checks you can run on your resources,  spec-
-       ify  checks to run and refresh, and check the status of checks you have
-       submitted.
+       You can retrieve a list of checks and their descriptions, get check re-
+       sults, specify checks to refresh, and get the refresh status of checks.
 
        The following list describes the AWS Support case management actions:
 
        o Service names, issue categories, and available severity  levels.  The
-	 actions  describe-services and describe-severity-levels enable you to
-	 obtain AWS service names,  service  codes,  service  categories,  and
-	 problem  severity  levels.  You  use  these  values when you call the
-	 create-case action.
+	 actions   describe-services  and  describe-severity-levels enable you
+	 to obtain AWS service names, service codes, service  categories,  and
+	 problem severity levels. You use these values when you call the  cre-
+	 ate-case action.
 
-       o Case Creation, case  details,	and  case  resolution  .  The  actions
-	 create-case  , describe-cases , and resolve-case enable you to create
+       o Case creation, case details, and case resolution. The	actions   cre-
+	 ate-case  ,   describe-cases , and  resolve-case enable you to create
 	 AWS Support cases, retrieve them, and resolve them.
 
-       o Case  communication  .  The  actions  DescribeCaseCommunications  and
+       o Case  communication.	The   actions	 describe-communications   and
 	 add-communication-to-case  enable  you to retrieve and add communica-
 	 tion to AWS Support cases.
 
        The following list describes the actions available from the AWS Support
        service for Trusted Advisor:
 
-       o DescribeTrustedAdviserChecks
+       o describe-trusted-advisor-checks  returns  the list of checks that run
+	 against your AWS resources.
 
-       System Message: WARNING/2 (<string>:, line 43)
-	      Bullet list ends without a blank line; unexpected unindent.
+       o Using the CheckId for a specific check returned by DescribeTrustedAd-
+	 visorChecks,  you  can call  describe-trusted-advisor-check-result to
+	 obtain the results for the check you specified.
 
-	      returns the list of checks that you can run against your AWS re-
-	      sources.	* Using the CheckId for a specific check  returned  by
-	      DescribeTrustedAdviserChecks,	    you        can	  call
-	      describe-trusted-advisor-check-result and obtain	a  new	result
-	      for      the	check	   you	   specified.	   *	 Using
-	      describe-trusted-advisor-check-summaries , you can get summaries
-	      for a set of Trusted Advisor checks.
+       o describe-trusted-advisor-check-summaries returns  summarized  results
+	 for one or more Trusted Advisor checks.
 
-       o refresh-trusted-advisor-check enables you to request that Trusted Ad-
-	 visor run the check again.
+       o refresh-trusted-advisor-check	requests  that Trusted Advisor rerun a
+	 specified check.
 
-       o
+       o describe-trusted-advisor-check-refresh-statuses reports  the  refresh
+	 status of one or more checks.
 
-	 ``
-	 _ gets statuses on the checks you are running.
+       For  authentication  of	requests, AWS Support uses Signature Version 4
+       Signing Process .
 
-       System Message: WARNING/2 (<string>:, line 50)
-	 Inline literal start-string without end-string.
-
-       For authentication of requests, the AWS Support uses Signature  Version
-       4 Signing Process .
-
-       See  the  AWS  Support Developer Guide for information about how to use
-       this service to manage create and manage your support cases, and how to
-       call Trusted Advisor for results of checks on your resources.
+       See the AWS Support User Guide for information about how  to  use  this
+       service	to  create  and  manage  your  support	cases, and how to call
+       Trusted Advisor for results of checks on your resources.
 
 AVAILABLE COMMANDS
        o add-communication-to-case
@@ -93,9 +83,6 @@ AVAILABLE COMMANDS
        o refresh-trusted-advisor-check
 
        o resolve-case
-
-       System Message: WARNING/2 (<string>:, line 110)
-	      malformed hyperlink target.
 
 
 

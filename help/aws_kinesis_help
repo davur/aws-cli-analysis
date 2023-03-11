@@ -1,0 +1,35 @@
+KINESIS()							     KINESIS()
+
+
+
+NAME
+       kinesis -
+
+DESCRIPTION
+       Amazon  Kinesis	is  a managed service that scales elastically for real
+       time processing of streaming big data.
+
+AVAILABLE COMMANDS
+       o create-stream
+
+       o delete-stream
+
+       o describe-stream
+
+       o get-records
+
+       o get-shard-iterator
+
+       o help
+
+       o list-streams
+
+       o merge-shards
+
+       o put-record
+
+       o split-shard
+
+
+
+								     KINESIS()

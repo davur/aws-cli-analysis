@@ -29,7 +29,21 @@ DESCRIPTION
        o Common Errors : Client and server errors that all actions can return.
 
 AVAILABLE COMMANDS
+       o allocate-connection-on-interconnect
+
+       o allocate-private-virtual-interface
+
+       o allocate-public-virtual-interface
+
+       o confirm-connection
+
+       o confirm-private-virtual-interface
+
+       o confirm-public-virtual-interface
+
        o create-connection
+
+       o create-interconnect
 
        o create-private-virtual-interface
 
@@ -37,15 +51,17 @@ AVAILABLE COMMANDS
 
        o delete-connection
 
-       o delete-virtual-interface
+       o delete-interconnect
 
-       o describe-connection-detail
+       o delete-virtual-interface
 
        o describe-connections
 
-       o describe-offering-detail
+       o describe-connections-on-interconnect
 
-       o describe-offerings
+       o describe-interconnects
+
+       o describe-locations
 
        o describe-virtual-gateways
 

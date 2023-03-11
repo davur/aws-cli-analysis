@@ -11,7 +11,7 @@ DESCRIPTION
        leverage  AWS  products	such  as Amazon EC2, EBS, Amazon SNS, ELB, and
        Auto Scaling to build highly-reliable, highly scalable, cost  effective
        applications without worrying about creating and configuring the under-
-       lying the AWS infrastructure.
+       lying AWS infrastructure.
 
        With AWS CloudFormation, you declare all of your resources  and	depen-
        dencies	in  a  template file. The template defines a collection of re-
@@ -42,6 +42,8 @@ AVAILABLE COMMANDS
 
        o describe-stacks
 
+       o get-stack-policy
+
        o get-template
 
        o help
@@ -49,6 +51,8 @@ AVAILABLE COMMANDS
        o list-stack-resources
 
        o list-stacks
+
+       o set-stack-policy
 
        o update-stack
 

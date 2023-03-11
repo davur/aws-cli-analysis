@@ -69,6 +69,8 @@ OOPPTTIIOONNSS
 
        +o us-west-1
 
+       +o cn-north-1
+
        +o eu-west-1
 
        +o fips-us-gov-west-1
@@ -92,7 +94,11 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
 
        +o cloudformation
 
+       +o cloudtrail
+
        +o cloudwatch
+
+       +o configure
 
        +o directconnect
 
@@ -113,6 +119,8 @@ AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
        +o iam
 
        +o importexport
+
+       +o kinesis
 
        +o opsworks
 
