@@ -1,0 +1,66 @@
+EMR()									 EMR()
+
+
+
+NAME
+       emr -
+
+DESCRIPTION
+       Amazon  Elastic	MapReduce  (Amazon EMR) is a web service that makes it
+       easy to process large amounts of  data  efficiently.  Amazon  EMR  uses
+       Hadoop  processing  combined with several AWS products to do tasks such
+       as web indexing, data mining, log file analysis, machine learning, sci-
+       entific simulation, and data warehousing.
+
+AVAILABLE COMMANDS
+       o add-instance-groups
+
+       o add-steps
+
+       o add-tags
+
+       o create-cluster
+
+       o create-default-roles
+
+       o create-hbase-backup
+
+       o describe-cluster
+
+       o describe-step
+
+       o disable-hbase-backups
+
+       o get
+
+       o help
+
+       o install-applications
+
+       o list-clusters
+
+       o list-instances
+
+       o list-steps
+
+       o modify-cluster-attributes
+
+       o modify-instance-groups
+
+       o put
+
+       o remove-tags
+
+       o restore-from-hbase-backup
+
+       o schedule-hbase-backup
+
+       o socks
+
+       o ssh
+
+       o terminate-clusters
+
+
+
+									 EMR()
