@@ -9,6 +9,8 @@ DESCRIPTION
        Definition of the public APIs exposed by Amazon Machine Learning
 
 AVAILABLE COMMANDS
+       o add-tags
+
        o create-batch-prediction
 
        o create-data-source-from-rds
@@ -33,6 +35,8 @@ AVAILABLE COMMANDS
 
        o delete-realtime-endpoint
 
+       o delete-tags
+
        o describe-batch-predictions
 
        o describe-data-sources
@@ -40,6 +44,8 @@ AVAILABLE COMMANDS
        o describe-evaluations
 
        o describe-ml-models
+
+       o describe-tags
 
        o get-batch-prediction
 

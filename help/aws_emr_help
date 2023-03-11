@@ -25,7 +25,13 @@ AVAILABLE COMMANDS
 
        o create-hbase-backup
 
+       o create-security-configuration
+
+       o delete-security-configuration
+
        o describe-cluster
+
+       o describe-security-configuration
 
        o describe-step
 
@@ -40,6 +46,8 @@ AVAILABLE COMMANDS
        o list-clusters
 
        o list-instances
+
+       o list-security-configurations
 
        o list-steps
 

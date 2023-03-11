@@ -7,15 +7,61 @@ NAME
 
 DESCRIPTION
        This  is the AWS CodeCommit API Reference . This reference provides de-
-       scriptions of the AWS CodeCommit API.
+       scriptions of the operations and data types for AWS CodeCommit API.
 
        You can use the AWS CodeCommit API to work with the following objects:
 
-       o Repositories
+       o Repositories, by calling the following:
 
-       o Branches
+	 o batch-get-repositories , which returns  information	about  one  or
+	   more repositories associated with your AWS account
 
-       o Commits
+	 o create-repository , which creates an AWS CodeCommit repository
+
+	 o delete-repository , which deletes an AWS CodeCommit repository
+
+	 o get-repository , which returns information about a specified repos-
+	   itory
+
+	 o list-repositories , which lists all AWS CodeCommit repositories as-
+	   sociated with your AWS account
+
+	 o update-repository-description  , which sets or updates the descrip-
+	   tion of the repository
+
+	 o update-repository-name , which changes the name of the  repository.
+	   If  you  change  the  name  of a repository, no other users of that
+	   repository will be able to access it until you send	them  the  new
+	   HTTPS or SSH URL to use.
+
+       o Branches, by calling the following:
+
+	 o create-branch  ,  which creates a new branch in a specified reposi-
+	   tory
+
+	 o get-branch , which returns information about a specified branch
+
+	 o list-branches , which lists all branches for a specified repository
+
+	 o update-default-branch , which changes  the  default	branch	for  a
+	   repository
+
+       o Information about committed code in a repository, by calling the fol-
+	 lowing:
+
+	 o get-commit , which returns information about  a  commit,  including
+	   commit messages and committer information.
+
+       o Triggers, by calling the following:
+
+	 o get-repository-triggers  , which returns information about triggers
+	   configured for a repository
+
+	 o put-repository-triggers , which replaces all triggers for a reposi-
+	   tory and can be used to create or delete triggers
+
+	 o test-repository-triggers  ,	which  tests  the  functionality  of a
+	   repository trigger by sending data to the trigger target
 
        For information about how to use AWS CodeCommit, see the AWS CodeCommit
        User Guide .
@@ -33,13 +79,21 @@ AVAILABLE COMMANDS
 
        o get-branch
 
+       o get-commit
+
        o get-repository
+
+       o get-repository-triggers
 
        o help
 
        o list-branches
 
        o list-repositories
+
+       o put-repository-triggers
+
+       o test-repository-triggers
 
        o update-default-branch
 

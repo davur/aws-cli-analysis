@@ -27,8 +27,8 @@ DESCRIPTION
        the API, go to Signing AWS API Requests in the AWS General Reference  .
        For  general  information  about  the Query API, go to Making Query Re-
        quests in Using IAM . For information about using security tokens  with
-       other  AWS products, go to AWS Services That Work with IAM in the Using
-       IAM .
+       other  AWS  products,  go to AWS Services That Work with IAM in the IAM
+       User Guide .
 
        If you're new to AWS and need additional technical information about  a
        specific  AWS  product, you can find the product's technical documenta-
@@ -37,20 +37,19 @@ DESCRIPTION
 
        The AWS	Security  Token  Service  (STS)  has  a  default  endpoint  of
        https://sts.amazonaws.com  that	maps  to the US East (N. Virginia) re-
-       gion. Additional regions are available, but must first be activated  in
-       the AWS Management Console before you can use a different region's end-
-       point. For more information about  activating  a  region  for  STS  see
-       Activating STS in a New Region in the Using IAM .
+       gion. Additional regions are available and are  activated  by  default.
+       For more information, see Activating and Deactivating AWS STS in an AWS
+       Region in the IAM User Guide .
 
-       For  information  about STS endpoints, see Regions and Endpoints in the
+       For information about STS endpoints, see Regions and Endpoints  in  the
        AWS General Reference .
 	  Recording API requests
 
-       STS supports AWS CloudTrail, which is a service that records AWS  calls
-       for  your AWS account and delivers log files to an Amazon S3 bucket. By
-       using information collected by CloudTrail, you can determine  what  re-
+       STS  supports AWS CloudTrail, which is a service that records AWS calls
+       for your AWS account and delivers log files to an Amazon S3 bucket.  By
+       using  information  collected by CloudTrail, you can determine what re-
        quests were successfully made to STS, who made the request, when it was
-       made, and so on. To learn more about CloudTrail, including how to  turn
+       made,  and so on. To learn more about CloudTrail, including how to turn
        it on and find your log files, see the AWS CloudTrail User Guide .
 
 AVAILABLE COMMANDS
@@ -61,6 +60,8 @@ AVAILABLE COMMANDS
        o assume-role-with-web-identity
 
        o decode-authorization-message
+
+       o get-caller-identity
 
        o get-federation-token
 

@@ -1,0 +1,40 @@
+KINESISANALYTICS()					    KINESISANALYTICS()
+
+
+
+NAME
+       kinesisanalytics -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o add-application-input
+
+       o add-application-output
+
+       o add-application-reference-data-source
+
+       o create-application
+
+       o delete-application
+
+       o delete-application-output
+
+       o delete-application-reference-data-source
+
+       o describe-application
+
+       o discover-input-schema
+
+       o help
+
+       o list-applications
+
+       o start-application
+
+       o stop-application
+
+       o update-application
+
+
+
+							    KINESISANALYTICS()

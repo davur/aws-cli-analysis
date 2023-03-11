@@ -6,14 +6,16 @@ NAME
        apigateway -
 
 DESCRIPTION
-       Amazon API Gateway helps developers deliver robust, secure and scalable
-       mobile and web application backends. Amazon API Gateway allows develop-
-       ers to securely connect mobile and web applications to APIs that run on
-       AWS Lambda, Amazon EC2, or other publicly addressable web services that
-       are hosted outside of AWS.
+       Amazon  API  Gateway helps developers deliver robust, secure, and scal-
+       able mobile and web application back ends. Amazon  API  Gateway	allows
+       developers to securely connect mobile and web applications to APIs that
+       run on AWS Lambda, Amazon EC2, or other publicly addressable  web  ser-
+       vices that are hosted outside of AWS.
 
 AVAILABLE COMMANDS
        o create-api-key
+
+       o create-authorizer
 
        o create-base-path-mapping
 
@@ -29,7 +31,13 @@ AVAILABLE COMMANDS
 
        o create-stage
 
+       o create-usage-plan
+
+       o create-usage-plan-key
+
        o delete-api-key
+
+       o delete-authorizer
 
        o delete-base-path-mapping
 
@@ -55,6 +63,12 @@ AVAILABLE COMMANDS
 
        o delete-stage
 
+       o delete-usage-plan
+
+       o delete-usage-plan-key
+
+       o flush-stage-authorizers-cache
+
        o flush-stage-cache
 
        o generate-client-certificate
@@ -64,6 +78,10 @@ AVAILABLE COMMANDS
        o get-api-key
 
        o get-api-keys
+
+       o get-authorizer
+
+       o get-authorizers
 
        o get-base-path-mapping
 
@@ -80,6 +98,8 @@ AVAILABLE COMMANDS
        o get-domain-name
 
        o get-domain-names
+
+       o get-export
 
        o get-integration
 
@@ -109,7 +129,21 @@ AVAILABLE COMMANDS
 
        o get-stages
 
+       o get-usage
+
+       o get-usage-plan
+
+       o get-usage-plan-key
+
+       o get-usage-plan-keys
+
+       o get-usage-plans
+
        o help
+
+       o import-api-keys
+
+       o import-rest-api
 
        o put-integration
 
@@ -119,11 +153,17 @@ AVAILABLE COMMANDS
 
        o put-method-response
 
+       o put-rest-api
+
+       o test-invoke-authorizer
+
        o test-invoke-method
 
        o update-account
 
        o update-api-key
+
+       o update-authorizer
 
        o update-base-path-mapping
 
@@ -148,6 +188,10 @@ AVAILABLE COMMANDS
        o update-rest-api
 
        o update-stage
+
+       o update-usage
+
+       o update-usage-plan
 
 
 

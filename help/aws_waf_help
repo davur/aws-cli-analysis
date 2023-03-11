@@ -19,9 +19,13 @@ AVAILABLE COMMANDS
 
        o create-rule
 
+       o create-size-constraint-set
+
        o create-sql-injection-match-set
 
        o create-web-acl
+
+       o create-xss-match-set
 
        o delete-byte-match-set
 
@@ -29,9 +33,13 @@ AVAILABLE COMMANDS
 
        o delete-rule
 
+       o delete-size-constraint-set
+
        o delete-sql-injection-match-set
 
        o delete-web-acl
+
+       o delete-xss-match-set
 
        o get-byte-match-set
 
@@ -45,9 +53,13 @@ AVAILABLE COMMANDS
 
        o get-sampled-requests
 
+       o get-size-constraint-set
+
        o get-sql-injection-match-set
 
        o get-web-acl
+
+       o get-xss-match-set
 
        o help
 
@@ -57,9 +69,13 @@ AVAILABLE COMMANDS
 
        o list-rules
 
+       o list-size-constraint-sets
+
        o list-sql-injection-match-sets
 
        o list-web-acls
+
+       o list-xss-match-sets
 
        o update-byte-match-set
 
@@ -67,9 +83,13 @@ AVAILABLE COMMANDS
 
        o update-rule
 
+       o update-size-constraint-set
+
        o update-sql-injection-match-set
 
        o update-web-acl
+
+       o update-xss-match-set
 
 
 

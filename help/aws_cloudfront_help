@@ -6,6 +6,12 @@ NAME
        cloudfront -
 
 DESCRIPTION
+       Amazon  CloudFront  is  a global content delivery network (CDN) service
+       that accelerates delivery of your  websites,  APIs,  video  content  or
+       other web assets. It integrates with other Amazon Web Services products
+       to give developers and businesses an easy way to accelerate content  to
+       end users with no minimum usage commitments.
+
        NOTE:
 	  AWS  CLI  support  for  this	service is only available in a preview
 	  stage. You can enable this service by  running:  aws	configure  set
@@ -16,9 +22,13 @@ AVAILABLE COMMANDS
 
        o create-distribution
 
+       o create-distribution-with-tags
+
        o create-invalidation
 
        o create-streaming-distribution
+
+       o create-streaming-distribution-with-tags
 
        o delete-cloud-front-origin-access-identity
 
@@ -52,7 +62,13 @@ AVAILABLE COMMANDS
 
        o list-streaming-distributions
 
+       o list-tags-for-resource
+
        o sign
+
+       o tag-resource
+
+       o untag-resource
 
        o update-cloud-front-origin-access-identity
 

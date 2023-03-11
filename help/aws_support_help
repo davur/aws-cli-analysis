@@ -39,7 +39,7 @@ DESCRIPTION
        o describe-trusted-advisor-checks  returns  the list of checks that run
 	 against your AWS resources.
 
-       o Using	the  CheckId  for  a   specific   check   returned   by    de-
+       o Using	the  checkId  for  a   specific   check   returned   by    de-
 	 scribe-trusted-advisor-checks	, you can call	describe-trusted-advi-
 	 sor-check-result to obtain the results for the check you specified.
 

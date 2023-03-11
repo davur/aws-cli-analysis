@@ -6,10 +6,11 @@ NAME
        efs -
 
 DESCRIPTION
-       NOTE:
-	  AWS  CLI  support  for  this	service is only available in a preview
-	  stage. You can enable this service by  running:  aws	configure  set
-	  preview.efs true
+       Amazon  Elastic File System (Amazon EFS) provides simple, scalable file
+       storage for use with Amazon EC2 instances in the AWS Cloud. With Amazon
+       EFS,  storage  capacity is elastic, growing and shrinking automatically
+       as you add and remove files, so your applications have the storage they
+       need, when they need it. For more information, see the User Guide .
 
 AVAILABLE COMMANDS
        o create-file-system

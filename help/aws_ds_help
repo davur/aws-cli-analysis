@@ -11,11 +11,17 @@ DESCRIPTION
        types, parameters, and errors.
 
 AVAILABLE COMMANDS
+       o add-ip-routes
+
+       o add-tags-to-resource
+
        o connect-directory
 
        o create-alias
 
        o create-computer
+
+       o create-conditional-forwarder
 
        o create-directory
 
@@ -25,13 +31,21 @@ AVAILABLE COMMANDS
 
        o create-trust
 
+       o delete-conditional-forwarder
+
        o delete-directory
 
        o delete-snapshot
 
        o delete-trust
 
+       o deregister-event-topic
+
+       o describe-conditional-forwarders
+
        o describe-directories
+
+       o describe-event-topics
 
        o describe-snapshots
 
@@ -51,7 +65,19 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-ip-routes
+
+       o list-tags-for-resource
+
+       o register-event-topic
+
+       o remove-ip-routes
+
+       o remove-tags-from-resource
+
        o restore-from-snapshot
+
+       o update-conditional-forwarder
 
        o update-radius
 

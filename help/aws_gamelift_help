@@ -1,0 +1,229 @@
+GAMELIFT()							    GAMELIFT()
+
+
+
+NAME
+       gamelift -
+
+DESCRIPTION
+       Welcome	to  the  Amazon  GameLift API Reference . Amazon GameLift is a
+       managed Amazon Web Services (AWS) service for  developers  who  need  a
+       scalable,  server-based solution for multiplayer games. Amazon GameLift
+       provides setup and deployment of game servers, and handles  infrastruc-
+       ture scaling and session management.
+
+       This  reference	describes  the low-level service API for GameLift. You
+       can call this API directly or use the AWS SDK for your  preferred  lan-
+       guage. The AWS SDK includes a set of high-level GameLift actions multi-
+       player game sessions. Alternatively, you can use the  AWS  command-line
+       interface  (CLI) tool, which includes commands for GameLift. For admin-
+       istrative actions, you can also use the Amazon GameLift console.
+
+       More Resources
+
+       o Amazon GameLift Developer Guide : Learn more about GameLift  features
+	 and how to use them
+
+       o Lumberyard  and  GameLift  Tutorials  :  Get  started fast with walk-
+	 throughs and sample projects
+
+       o GameDev Blog : Stay up to date with new features and techniques
+
+       o GameDev Forums : Connect with the GameDev community
+
+       Manage Games and Players Through GameLift
+
+       Call these actions from your game clients and/or services to create and
+       manage multiplayer game sessions and player sessions.
+
+       o Game sessions
+
+	 o create-game-session
+
+	 o describe-game-sessions
+
+	 o describe-game-session-details
+
+	 o update-game-session
+
+	 o search-game-sessions
+
+       o Player sessions
+
+	 o create-player-session
+
+	 o create-player-sessions
+
+	 o describe-player-sessions
+
+       o Other actions:
+
+	 o get-game-session-log-url
+
+       Set Up and Manage Game Servers
+
+       Use  these  administrative  actions  to configure GameLift to host your
+       game servers. When setting up GameLift, you'll need to (1) configure  a
+       build  for your game and upload build files, and (2) set up one or more
+       fleets to host game sessions.  Once  you've  created  and  activated  a
+       fleet,  you can assign aliases to it, scale capacity, track performance
+       and utilization, etc.
+
+       o Manage your builds:
+
+	 o list-builds
+
+	 o create-build
+
+	 o describe-build
+
+	 o update-build
+
+	 o delete-build
+
+	 o request-upload-credentials
+
+       o Manage your fleets:
+
+	 o list-fleets
+
+	 o create-fleet
+
+	 o Describe fleets:
+
+	   o describe-fleet-attributes
+
+	   o describe-fleet-capacity
+
+	   o describe-fleet-port-settings
+
+	   o describe-fleet-utilization
+
+	   o describe-ec2-instance-limits
+
+	   o describe-fleet-events
+
+	   o describe-runtime-configuration
+
+	 o Update fleets:
+
+	   o update-fleet-attributes
+
+	   o update-fleet-capacity
+
+	   o update-fleet-port-settings
+
+	   o update-runtime-configuration
+
+	 o delete-fleet
+
+       o Manage fleet aliases:
+
+	 o list-aliases
+
+	 o create-alias
+
+	 o describe-alias
+
+	 o update-alias
+
+	 o delete-alias
+
+	 o resolve-alias
+
+       o Manage autoscaling:
+
+	 o put-scaling-policy
+
+	 o describe-scaling-policies
+
+	 o delete-scaling-policy
+
+       To view changes to the API, see the GameLift Document History page.
+
+AVAILABLE COMMANDS
+       o create-alias
+
+       o create-build
+
+       o create-fleet
+
+       o create-game-session
+
+       o create-player-session
+
+       o create-player-sessions
+
+       o delete-alias
+
+       o delete-build
+
+       o delete-fleet
+
+       o delete-scaling-policy
+
+       o describe-alias
+
+       o describe-build
+
+       o describe-ec2-instance-limits
+
+       o describe-fleet-attributes
+
+       o describe-fleet-capacity
+
+       o describe-fleet-events
+
+       o describe-fleet-port-settings
+
+       o describe-fleet-utilization
+
+       o describe-game-session-details
+
+       o describe-game-sessions
+
+       o describe-player-sessions
+
+       o describe-runtime-configuration
+
+       o describe-scaling-policies
+
+       o get-game-session-log
+
+       o get-game-session-log-url
+
+       o help
+
+       o list-aliases
+
+       o list-builds
+
+       o list-fleets
+
+       o put-scaling-policy
+
+       o request-upload-credentials
+
+       o resolve-alias
+
+       o search-game-sessions
+
+       o update-alias
+
+       o update-build
+
+       o update-fleet-attributes
+
+       o update-fleet-capacity
+
+       o update-fleet-port-settings
+
+       o update-game-session
+
+       o update-runtime-configuration
+
+       o upload-build
+
+
+
+								    GAMELIFT()
