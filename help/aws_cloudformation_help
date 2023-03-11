@@ -1,0 +1,59 @@
+CLOUDFORMATION()					      CLOUDFORMATION()
+
+
+
+NAME
+       cloudformation -
+
+DESCRIPTION
+       AWS  CloudFormation enables you to create and manage AWS infrastructure
+       deployments predictably and repeatedly. AWS  CloudFormation  helps  you
+       leverage  AWS  products	such  as Amazon EC2, EBS, Amazon SNS, ELB, and
+       Auto Scaling to build highly-reliable, highly scalable, cost  effective
+       applications without worrying about creating and configuring the under-
+       lying the AWS infrastructure.
+
+       With AWS CloudFormation, you declare all of your resources  and	depen-
+       dencies	in  a  template file. The template defines a collection of re-
+       sources as a single unit called a stack. AWS CloudFormation creates and
+       deletes	all member resources of the stack together and manages all de-
+       pendencies between the resources for you.
+
+       For more information about this product, go to the CloudFormation Prod-
+       uct Page .
+
+       Amazon  CloudFormation makes use of other AWS products. If you need ad-
+       ditional technical information about a specific AWS  product,  you  can
+       find	  the	   product's	  technical	 documentation	    at
+       http://aws.amazon.com/documentation/ .
+
+AVAILABLE COMMANDS
+       o cancel-update-stack
+
+       o create-stack
+
+       o delete-stack
+
+       o describe-stack-events
+
+       o describe-stack-resource
+
+       o describe-stack-resources
+
+       o describe-stacks
+
+       o get-template
+
+       o help
+
+       o list-stack-resources
+
+       o list-stacks
+
+       o update-stack
+
+       o validate-template
+
+
+
+							      CLOUDFORMATION()

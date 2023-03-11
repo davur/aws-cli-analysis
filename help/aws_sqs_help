@@ -1,0 +1,62 @@
+SQS()									 SQS()
+
+
+
+NAME
+       sqs -
+
+DESCRIPTION
+       Amazon  Simple  Queue  Service  (Amazon	SQS) offers a reliable, highly
+       scalable, hosted queue for storing messages as they travel between com-
+       puters.	By  using  Amazon SQS, developers can simply move data between
+       distributed components of their	applications  that  perform  different
+       tasks, without losing messages or requiring each component to be always
+       available. Amazon SQS makes it easy to  build  an  automated  workflow,
+       working	in  close  conjunction	with  the Amazon Elastic Compute Cloud
+       (Amazon EC2) and the other AWS infrastructure web services.
+
+       Amazon SQS works by exposing Amazon's web-scale	messaging  infrastruc-
+       ture  as  a  web  service. Any computer on the Internet can add or read
+       messages without any installed software or special firewall  configura-
+       tions.  Components  of  applications  using Amazon SQS can run indepen-
+       dently, and do not need to be on the same network, developed  with  the
+       same technologies, or running at the same time.
+
+       Visit http://aws.amazon.com/sqs/ for more information.
+
+AVAILABLE COMMANDS
+       o add-permission
+
+       o change-message-visibility
+
+       o change-message-visibility-batch
+
+       o create-queue
+
+       o delete-message
+
+       o delete-message-batch
+
+       o delete-queue
+
+       o get-queue-attributes
+
+       o get-queue-url
+
+       o help
+
+       o list-queues
+
+       o receive-message
+
+       o remove-permission
+
+       o send-message
+
+       o send-message-batch
+
+       o set-queue-attributes
+
+
+
+									 SQS()

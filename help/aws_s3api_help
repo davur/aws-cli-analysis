@@ -1,0 +1,112 @@
+S3API() 							       S3API()
+
+
+
+NAME
+       s3api -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o abort-multipart-upload
+
+       o complete-multipart-upload
+
+       o copy-object
+
+       o create-bucket
+
+       o create-multipart-upload
+
+       o delete-bucket
+
+       o delete-bucket-cors
+
+       o delete-bucket-lifecycle
+
+       o delete-bucket-policy
+
+       o delete-bucket-tagging
+
+       o delete-bucket-website
+
+       o delete-object
+
+       o delete-objects
+
+       o get-bucket-acl
+
+       o get-bucket-cors
+
+       o get-bucket-lifecycle
+
+       o get-bucket-location
+
+       o get-bucket-logging
+
+       o get-bucket-notification
+
+       o get-bucket-policy
+
+       o get-bucket-request-payment
+
+       o get-bucket-tagging
+
+       o get-bucket-versioning
+
+       o get-bucket-website
+
+       o get-object
+
+       o get-object-acl
+
+       o get-object-torrent
+
+       o head-bucket
+
+       o head-object
+
+       o help
+
+       o list-buckets
+
+       o list-multipart-uploads
+
+       o list-object-versions
+
+       o list-objects
+
+       o list-parts
+
+       o put-bucket-acl
+
+       o put-bucket-cors
+
+       o put-bucket-lifecycle
+
+       o put-bucket-logging
+
+       o put-bucket-notification
+
+       o put-bucket-policy
+
+       o put-bucket-request-payment
+
+       o put-bucket-tagging
+
+       o put-bucket-versioning
+
+       o put-bucket-website
+
+       o put-object
+
+       o put-object-acl
+
+       o restore-object
+
+       o upload-part
+
+       o upload-part-copy
+
+
+
+								       S3API()

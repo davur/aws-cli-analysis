@@ -1,0 +1,36 @@
+ROUTE53()							     ROUTE53()
+
+
+
+NAME
+       route53 -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o change-resource-record-sets
+
+       o create-health-check
+
+       o create-hosted-zone
+
+       o delete-health-check
+
+       o delete-hosted-zone
+
+       o get-change
+
+       o get-health-check
+
+       o get-hosted-zone
+
+       o help
+
+       o list-health-checks
+
+       o list-hosted-zones
+
+       o list-resource-record-sets
+
+
+
+								     ROUTE53()

@@ -1,0 +1,93 @@
+ELB()									 ELB()
+
+
+
+NAME
+       elb -
+
+DESCRIPTION
+       Elastic	Load Balancing is a cost-effective and easy to use web service
+       to help you improve the availability and scalability of	your  applica-
+       tion  running on Amazon Elastic Cloud Compute (Amazon EC2). It makes it
+       easy for you to distribute application loads between two  or  more  EC2
+       instances.  Elastic  Load  Balancing  supports the growth in traffic of
+       your application by enabling availability through redundancy.
+
+       This guide provides detailed information about Elastic  Load  Balancing
+       actions,  data  types,  and  parameters	that can be used for sending a
+       query request. Query requests are HTTP or HTTPS requests that  use  the
+       HTTP  verb GET or POST and a query parameter named Action or Operation.
+       Action is used throughout this  documentation,  although  Operation  is
+       supported for backward compatibility with other AWS Query APIs.
+
+       For  detailed information on constructing a query request using the ac-
+       tions, data types, and parameters mentioned in this guide, go to  Using
+       the Query API in the Elastic Load Balancing Developer Guide .
+
+       For  detailed  information  about  Elastic  Load Balancing features and
+       their associated actions, go to Using Elastic  Load  Balancing  in  the
+       Elastic Load Balancing Developer Guide .
+
+       This  reference	guide is based on the current WSDL, which is available
+       at:
+       ``
+       _
+
+       System Message: WARNING/2 (<string>:, line 31)
+	      Inline literal start-string without end-string.
+
+AVAILABLE COMMANDS
+       o apply-security-groups-to-load-balancer
+
+       o attach-load-balancer-to-subnets
+
+       o configure-health-check
+
+       o create-app-cookie-stickiness-policy
+
+       o create-lb-cookie-stickiness-policy
+
+       o create-load-balancer
+
+       o create-load-balancer-listeners
+
+       o create-load-balancer-policy
+
+       o delete-load-balancer
+
+       o delete-load-balancer-listeners
+
+       o delete-load-balancer-policy
+
+       o deregister-instances-from-load-balancer
+
+       o describe-instance-health
+
+       o describe-load-balancer-policies
+
+       o describe-load-balancer-policy-types
+
+       o describe-load-balancers
+
+       o detach-load-balancer-from-subnets
+
+       o disable-availability-zones-for-load-balancer
+
+       o enable-availability-zones-for-load-balancer
+
+       o help
+
+       o register-instances-with-load-balancer
+
+       o set-load-balancer-listener-ssl-certificate
+
+       o set-load-balancer-policies-for-backend-server
+
+       o set-load-balancer-policies-of-listener
+
+       System Message: WARNING/2 (<string>:, line 115)
+	      malformed hyperlink target.
+
+
+
+									 ELB()

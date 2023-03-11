@@ -1,0 +1,329 @@
+EC2()									 EC2()
+
+
+
+NAME
+       ec2 -
+
+DESCRIPTION
+       Amazon  Elastic	Compute  Cloud (Amazon EC2) is a web service that pro-
+       vides resizable compute capacity in the cloud. It is designed  to  make
+       web-scale computing easier for developers.
+
+       Amazon EC2's simple web service interface allows you to obtain and con-
+       figure capacity with minimal friction. It provides  you	with  complete
+       control of your computing resources and lets you run on Amazon's proven
+       computing environment. Amazon EC2 reduces the time required  to	obtain
+       and boot new server instances to minutes, allowing you to quickly scale
+       capacity, both up and down, as your computing requirements change. Ama-
+       zon  EC2 changes the economics of computing by allowing you to pay only
+       for capacity that you actually use. Amazon EC2 provides developers  the
+       tools  to  build  failure resilient applications and isolate themselves
+       from common failure scenarios.
+
+       Visit http://aws.amazon.com/ec2/ for more information.
+
+AVAILABLE COMMANDS
+       o activate-license
+
+       o allocate-address
+
+       o assign-private-ip-addresses
+
+       o associate-address
+
+       o associate-dhcp-options
+
+       o associate-route-table
+
+       o attach-internet-gateway
+
+       o attach-network-interface
+
+       o attach-volume
+
+       o attach-vpn-gateway
+
+       o authorize-security-group-egress
+
+       o authorize-security-group-ingress
+
+       o bundle-instance
+
+       o cancel-bundle-task
+
+       o cancel-conversion-task
+
+       o cancel-export-task
+
+       o cancel-reserved-instances-listing
+
+       o cancel-spot-instance-requests
+
+       o confirm-product-instance
+
+       o copy-image
+
+       o copy-snapshot
+
+       o create-customer-gateway
+
+       o create-dhcp-options
+
+       o create-image
+
+       o create-instance-export-task
+
+       o create-internet-gateway
+
+       o create-key-pair
+
+       o create-network-acl
+
+       o create-network-acl-entry
+
+       o create-network-interface
+
+       o create-placement-group
+
+       o create-reserved-instances-listing
+
+       o create-route
+
+       o create-route-table
+
+       o create-security-group
+
+       o create-snapshot
+
+       o create-spot-datafeed-subscription
+
+       o create-subnet
+
+       o create-tags
+
+       o create-volume
+
+       o create-vpc
+
+       o create-vpn-connection
+
+       o create-vpn-connection-route
+
+       o create-vpn-gateway
+
+       o deactivate-license
+
+       o delete-customer-gateway
+
+       o delete-dhcp-options
+
+       o delete-internet-gateway
+
+       o delete-key-pair
+
+       o delete-network-acl
+
+       o delete-network-acl-entry
+
+       o delete-network-interface
+
+       o delete-placement-group
+
+       o delete-route
+
+       o delete-route-table
+
+       o delete-security-group
+
+       o delete-snapshot
+
+       o delete-spot-datafeed-subscription
+
+       o delete-subnet
+
+       o delete-tags
+
+       o delete-volume
+
+       o delete-vpc
+
+       o delete-vpn-connection
+
+       o delete-vpn-connection-route
+
+       o delete-vpn-gateway
+
+       o deregister-image
+
+       o describe-account-attributes
+
+       o describe-addresses
+
+       o describe-availability-zones
+
+       o describe-bundle-tasks
+
+       o describe-conversion-tasks
+
+       o describe-customer-gateways
+
+       o describe-dhcp-options
+
+       o describe-export-tasks
+
+       o describe-image-attribute
+
+       o describe-images
+
+       o describe-instance-attribute
+
+       o describe-instance-status
+
+       o describe-instances
+
+       o describe-internet-gateways
+
+       o describe-key-pairs
+
+       o describe-licenses
+
+       o describe-network-acls
+
+       o describe-network-interface-attribute
+
+       o describe-network-interfaces
+
+       o describe-placement-groups
+
+       o describe-regions
+
+       o describe-reserved-instances
+
+       o describe-reserved-instances-listings
+
+       o describe-reserved-instances-modifications
+
+       o describe-reserved-instances-offerings
+
+       o describe-route-tables
+
+       o describe-security-groups
+
+       o describe-snapshot-attribute
+
+       o describe-snapshots
+
+       o describe-spot-datafeed-subscription
+
+       o describe-spot-instance-requests
+
+       o describe-spot-price-history
+
+       o describe-subnets
+
+       o describe-tags
+
+       o describe-volume-attribute
+
+       o describe-volume-status
+
+       o describe-volumes
+
+       o describe-vpc-attribute
+
+       o describe-vpcs
+
+       o describe-vpn-connections
+
+       o describe-vpn-gateways
+
+       o detach-internet-gateway
+
+       o detach-network-interface
+
+       o detach-volume
+
+       o detach-vpn-gateway
+
+       o disable-vgw-route-propagation
+
+       o disassociate-address
+
+       o disassociate-route-table
+
+       o enable-vgw-route-propagation
+
+       o enable-volume-io
+
+       o get-console-output
+
+       o get-password-data
+
+       o help
+
+       o import-key-pair
+
+       o modify-image-attribute
+
+       o modify-instance-attribute
+
+       o modify-network-interface-attribute
+
+       o modify-reserved-instances
+
+       o modify-snapshot-attribute
+
+       o modify-volume-attribute
+
+       o modify-vpc-attribute
+
+       o monitor-instances
+
+       o purchase-reserved-instances-offering
+
+       o reboot-instances
+
+       o register-image
+
+       o release-address
+
+       o replace-network-acl-association
+
+       o replace-network-acl-entry
+
+       o replace-route
+
+       o replace-route-table-association
+
+       o report-instance-status
+
+       o request-spot-instances
+
+       o reset-image-attribute
+
+       o reset-instance-attribute
+
+       o reset-network-interface-attribute
+
+       o reset-snapshot-attribute
+
+       o revoke-security-group-egress
+
+       o revoke-security-group-ingress
+
+       o run-instances
+
+       o start-instances
+
+       o stop-instances
+
+       o terminate-instances
+
+       o unassign-private-ip-addresses
+
+       o unmonitor-instances
+
+
+
+									 EC2()

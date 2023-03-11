@@ -1,0 +1,47 @@
+STS()									 STS()
+
+
+
+NAME
+       sts -
+
+DESCRIPTION
+       The AWS Security Token Service is a web service that enables you to re-
+       quest temporary, limited-privilege credentials for AWS Identity and Ac-
+       cess  Management (IAM) users or for users that you authenticate (feder-
+       ated users). This guide provides descriptions of the AWS Security Token
+       Service API.
+
+       For  more  detailed  information  about using this service, go to Using
+       Temporary Security Credentials .
+
+       For information about setting up signatures and	authorization  through
+       the  API, go to Signing AWS API Requests in the AWS General Reference .
+       For general information about the Query API, go	to  Making  Query  Re-
+       quests  in Using IAM . For information about using security tokens with
+       other AWS products, go to Using Temporary Security Credentials  to  Ac-
+       cess AWS in Using Temporary Security Credentials .
+
+       If  you're new to AWS and need additional technical information about a
+       specific AWS product, you can find the product's  technical  documenta-
+       tion at http://aws.amazon.com/documentation/ .
+
+       We will refer to Amazon Identity and Access Management using the abbre-
+       viated form IAM. All copyrights and legal protections still apply.
+
+AVAILABLE COMMANDS
+       o assume-role
+
+       o assume-role-with-web-identity
+
+       o decode-authorization-message
+
+       o get-federation-token
+
+       o get-session-token
+
+       o help
+
+
+
+									 STS()

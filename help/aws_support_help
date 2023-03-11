@@ -1,0 +1,102 @@
+SUPPORT()							     SUPPORT()
+
+
+
+NAME
+       support -
+
+DESCRIPTION
+       The  AWS Support API reference is intended for programmers who need de-
+       tailed information about the AWS Support actions and data  types.  This
+       service	enables you to manage with your AWS Support cases programmati-
+       cally. It is built on the AWS Query API programming model and  provides
+       HTTP methods that take parameters and return results in JSON format.
+
+       The AWS Support service also exposes a set of Trusted Advisor features.
+       You can retrieve a list of checks you can run on your resources,  spec-
+       ify  checks to run and refresh, and check the status of checks you have
+       submitted.
+
+       The following list describes the AWS Support case management actions:
+
+       o Service names, issue categories, and available severity  levels.  The
+	 actions  describe-services and describe-severity-levels enable you to
+	 obtain AWS service names,  service  codes,  service  categories,  and
+	 problem  severity  levels.  You  use  these  values when you call the
+	 create-case action.
+
+       o Case Creation, case  details,	and  case  resolution  .  The  actions
+	 create-case  , describe-cases , and resolve-case enable you to create
+	 AWS Support cases, retrieve them, and resolve them.
+
+       o Case  communication  .  The  actions  DescribeCaseCommunications  and
+	 add-communication-to-case  enable  you to retrieve and add communica-
+	 tion to AWS Support cases.
+
+       The following list describes the actions available from the AWS Support
+       service for Trusted Advisor:
+
+       o DescribeTrustedAdviserChecks
+
+       System Message: WARNING/2 (<string>:, line 43)
+	      Bullet list ends without a blank line; unexpected unindent.
+
+	      returns the list of checks that you can run against your AWS re-
+	      sources.	* Using the CheckId for a specific check  returned  by
+	      DescribeTrustedAdviserChecks,	    you        can	  call
+	      describe-trusted-advisor-check-result and obtain	a  new	result
+	      for      the	check	   you	   specified.	   *	 Using
+	      describe-trusted-advisor-check-summaries , you can get summaries
+	      for a set of Trusted Advisor checks.
+
+       o refresh-trusted-advisor-check enables you to request that Trusted Ad-
+	 visor run the check again.
+
+       o
+
+	 ``
+	 _ gets statuses on the checks you are running.
+
+       System Message: WARNING/2 (<string>:, line 50)
+	 Inline literal start-string without end-string.
+
+       For authentication of requests, the AWS Support uses Signature  Version
+       4 Signing Process .
+
+       See  the  AWS  Support Developer Guide for information about how to use
+       this service to manage create and manage your support cases, and how to
+       call Trusted Advisor for results of checks on your resources.
+
+AVAILABLE COMMANDS
+       o add-communication-to-case
+
+       o create-case
+
+       o describe-cases
+
+       o describe-communications
+
+       o describe-services
+
+       o describe-severity-levels
+
+       o describe-trusted-advisor-check-refresh-statuses
+
+       o describe-trusted-advisor-check-result
+
+       o describe-trusted-advisor-check-summaries
+
+       o describe-trusted-advisor-checks
+
+       o help
+
+       o refresh-trusted-advisor-check
+
+       o resolve-case
+
+       System Message: WARNING/2 (<string>:, line 110)
+	      malformed hyperlink target.
+
+
+
+								     SUPPORT()

@@ -1,0 +1,65 @@
+CLOUDWATCH()							  CLOUDWATCH()
+
+
+
+NAME
+       cloudwatch -
+
+DESCRIPTION
+       This  is  the Amazon CloudWatch API Reference . This guide provides de-
+       tailed information about Amazon CloudWatch actions, data types, parame-
+       ters, and errors. For detailed information about Amazon CloudWatch fea-
+       tures and their associated API calls, go to the Amazon  CloudWatch  De-
+       veloper Guide .
+
+       Amazon  CloudWatch  is a web service that enables you to publish, moni-
+       tor, and manage various metrics, as well  as  configure	alarm  actions
+       based  on data from metrics. For more information about this product go
+       to http://aws.amazon.com/cloudwatch .
+
+       Use the following links to get started using the Amazon CloudWatch  API
+       Reference :
+
+       o Actions : An alphabetical list of all Amazon CloudWatch actions.
+
+       o Data  Types  :  An  alphabetical  list  of all Amazon CloudWatch data
+	 types.
+
+       o Common Parameters : Parameters that all Query actions can use.
+
+       o Common Errors : Client and server errors that all actions can return.
+
+       o Regions and Endpoints : Itemized regions and endpoints  for  all  AWS
+	 products.
+
+       o WSDL				 Location			     :
+	 http://monitoring.amazonaws.com/doc/2010-08-01/CloudWatch.wsdl
+
+AVAILABLE COMMANDS
+       o delete-alarms
+
+       o describe-alarm-history
+
+       o describe-alarms
+
+       o describe-alarms-for-metric
+
+       o disable-alarm-actions
+
+       o enable-alarm-actions
+
+       o get-metric-statistics
+
+       o help
+
+       o list-metrics
+
+       o put-metric-alarm
+
+       o put-metric-data
+
+       o set-alarm-state
+
+
+
+								  CLOUDWATCH()
