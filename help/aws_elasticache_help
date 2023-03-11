@@ -22,6 +22,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o authorize-cache-security-group-ingress
 
+       o copy-snapshot
+
        o create-cache-cluster
 
        o create-cache-parameter-group
@@ -32,6 +34,8 @@ AVAILABLE COMMANDS
 
        o create-replication-group
 
+       o create-snapshot
+
        o delete-cache-cluster
 
        o delete-cache-parameter-group
@@ -41,6 +45,8 @@ AVAILABLE COMMANDS
        o delete-cache-subnet-group
 
        o delete-replication-group
+
+       o delete-snapshot
 
        o describe-cache-clusters
 
@@ -63,6 +69,8 @@ AVAILABLE COMMANDS
        o describe-reserved-cache-nodes
 
        o describe-reserved-cache-nodes-offerings
+
+       o describe-snapshots
 
        o help
 

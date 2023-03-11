@@ -1,0 +1,40 @@
+COGNITO-SYNC()							COGNITO-SYNC()
+
+
+
+NAME
+       cognito-sync -
+
+DESCRIPTION
+       Amazon Cognito Sync provides an AWS service and client library that en-
+       able cross-device syncing of application-related user data.  High-level
+       client  libraries  are  available for both iOS and Android. You can use
+       these libraries to persist data locally so that it's available even  if
+       the device is offline. Developer credentials don't need to be stored on
+       the mobile device to access the service. You can use Amazon Cognito  to
+       obtain  a normalized user ID and credentials. User data is persisted in
+       a dataset that can store up to 1 MB of key-value  pairs,  and  you  can
+       have up to 20 datasets per user identity.
+
+AVAILABLE COMMANDS
+       o delete-dataset
+
+       o describe-dataset
+
+       o describe-identity-pool-usage
+
+       o describe-identity-usage
+
+       o help
+
+       o list-datasets
+
+       o list-identity-pool-usage
+
+       o list-records
+
+       o update-records
+
+
+
+								COGNITO-SYNC()

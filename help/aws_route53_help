@@ -9,6 +9,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o change-resource-record-sets
 
+       o change-tags-for-resource
+
        o create-health-check
 
        o create-hosted-zone
@@ -19,17 +21,31 @@ AVAILABLE COMMANDS
 
        o get-change
 
+       o get-checker-ip-ranges
+
+       o get-geo-location
+
        o get-health-check
+
+       o get-health-check-count
 
        o get-hosted-zone
 
        o help
+
+       o list-geo-locations
 
        o list-health-checks
 
        o list-hosted-zones
 
        o list-resource-record-sets
+
+       o list-tags-for-resource
+
+       o list-tags-for-resources
+
+       o update-health-check
 
 
 

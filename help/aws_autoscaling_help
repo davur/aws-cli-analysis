@@ -49,6 +49,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o attach-instances
 
+       o complete-lifecycle-action
+
        o create-auto-scaling-group
 
        o create-launch-configuration
@@ -58,6 +60,8 @@ AVAILABLE COMMANDS
        o delete-auto-scaling-group
 
        o delete-launch-configuration
+
+       o delete-lifecycle-hook
 
        o delete-notification-configuration
 
@@ -79,6 +83,10 @@ AVAILABLE COMMANDS
 
        o describe-launch-configurations
 
+       o describe-lifecycle-hook-types
+
+       o describe-lifecycle-hooks
+
        o describe-metric-collection-types
 
        o describe-notification-configurations
@@ -95,19 +103,29 @@ AVAILABLE COMMANDS
 
        o describe-termination-policy-types
 
+       o detach-instances
+
        o disable-metrics-collection
 
        o enable-metrics-collection
 
+       o enter-standby
+
        o execute-policy
 
+       o exit-standby
+
        o help
+
+       o put-lifecycle-hook
 
        o put-notification-configuration
 
        o put-scaling-policy
 
        o put-scheduled-update-group-action
+
+       o record-lifecycle-action-heartbeat
 
        o resume-processes
 

@@ -29,8 +29,7 @@ DESCRIPTION
        Elastic Load Balancing Developer Guide .
 
        This  reference	guide is based on the current WSDL, which is available
-       at:
-       http://elasticloadbalancing.amazonaws.com/doc/2012-06-01/ElasticLoadBalancing.wsdl
+       at: http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.wsdl
 
        Endpoints
 

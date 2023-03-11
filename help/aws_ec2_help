@@ -12,6 +12,8 @@ DESCRIPTION
        deploy applications faster.
 
 AVAILABLE COMMANDS
+       o accept-vpc-peering-connection
+
        o allocate-address
 
        o assign-private-ip-addresses
@@ -92,6 +94,8 @@ AVAILABLE COMMANDS
 
        o create-vpc
 
+       o create-vpc-peering-connection
+
        o create-vpn-connection
 
        o create-vpn-connection-route
@@ -131,6 +135,8 @@ AVAILABLE COMMANDS
        o delete-volume
 
        o delete-vpc
+
+       o delete-vpc-peering-connection
 
        o delete-vpn-connection
 
@@ -214,6 +220,8 @@ AVAILABLE COMMANDS
 
        o describe-vpc-attribute
 
+       o describe-vpc-peering-connections
+
        o describe-vpcs
 
        o describe-vpn-connections
@@ -256,6 +264,8 @@ AVAILABLE COMMANDS
 
        o modify-snapshot-attribute
 
+       o modify-subnet-attribute
+
        o modify-volume-attribute
 
        o modify-vpc-attribute
@@ -267,6 +277,8 @@ AVAILABLE COMMANDS
        o reboot-instances
 
        o register-image
+
+       o reject-vpc-peering-connection
 
        o release-address
 

@@ -6,20 +6,20 @@ NAME
        sts -
 
 DESCRIPTION
-       The  AWS Security Token Service (AWS STS) is a web service that enables
-       you to request temporary, limited-privilege credentials for  AWS  Iden-
-       tity  and  Access  Management (AWS IAM) users or for users that you au-
-       thenticate (federated users). This guide provides descriptions  of  the
-       AWS STS API. For more detailed information about using this service, go
-       to Using Temporary Security Credentials .
+       The  AWS Security Token Service (STS) is a web service that enables you
+       to request temporary, limited-privilege credentials  for  AWS  Identity
+       and  Access  Management	(IAM) users or for users that you authenticate
+       (federated users). This guide provides descriptions of the STS API. For
+       more  detailed information about using this service, go to Using Tempo-
+       rary Security Credentials .
 
        NOTE:
 	  As an alternative to using the API, you can use one of the AWS SDKs,
 	  which  consist  of libraries and sample code for various programming
 	  languages and platforms (Java, Ruby, .NET, iOS, Android, etc.).  The
-	  SDKs	provide  a convenient way to create programmatic access to AWS
-	  STS. For example, the SDKs take care	of  cryptographically  signing
-	  requests,  managing errors, and retrying requests automatically. For
+	  SDKs	provide a convenient way to create programmatic access to STS.
+	  For example, the SDKs take care  of  cryptographically  signing  re-
+	  quests,  managing  errors,  and retrying requests automatically. For
 	  information about the AWS SDKs, including how to  download  and  in-
 	  stall them, see the Tools for Amazon Web Services page .
 
@@ -33,21 +33,18 @@ DESCRIPTION
        If you're new to AWS and need additional technical information about  a
        specific  AWS  product, you can find the product's technical documenta-
        tion at http://aws.amazon.com/documentation/ .
+	  Endpoints
 
-       Endpoints
+       For information about STS endpoints, see Regions and Endpoints  in  the
+       AWS General Reference .
+	  Recording API requests
 
-       For information about AWS STS endpoints, see Regions and  Endpoints  in
-       the AWS General Reference .
-
-       Recording API requests
-
-       AWS  STS  supports  AWS CloudTrail, which is a service that records AWS
-       calls for your AWS account and delivers	log  files  to	an  Amazon  S3
-       bucket. By using information collected by CloudTrail, you can determine
-       what requests were successfully made to AWS STS, who made the  request,
-       when  it was made, and so on. To learn more about CloudTrail, including
-       how to turn it on and find your log files, see the AWS CloudTrail  User
-       Guide .
+       STS  supports AWS CloudTrail, which is a service that records AWS calls
+       for your AWS account and delivers log files to an Amazon S3 bucket.  By
+       using  information  collected by CloudTrail, you can determine what re-
+       quests were successfully made to STS, who made the request, when it was
+       made,  and so on. To learn more about CloudTrail, including how to turn
+       it on and find your log files, see the AWS CloudTrail User Guide .
 
 AVAILABLE COMMANDS
        o assume-role
