@@ -556,7 +556,6 @@ importexport get-status
 importexport help
 importexport list-jobs
 importexport update-job
-kinesis add-tags-to-stream
 kinesis create-stream
 kinesis delete-stream
 kinesis describe-stream
@@ -564,10 +563,8 @@ kinesis get-records
 kinesis get-shard-iterator
 kinesis help
 kinesis list-streams
-kinesis list-tags-for-stream
 kinesis merge-shards
 kinesis put-record
-kinesis remove-tags-from-stream
 kinesis split-shard
 logs create-log-group
 logs create-log-stream

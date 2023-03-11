@@ -6,19 +6,148 @@ NAME
        swf -
 
 DESCRIPTION
-       The  Amazon Simple Workflow Service (Amazon SWF) makes it easy to build
-       applications that use Amazon's cloud to coordinate work across distrib-
-       uted components. In Amazon SWF, a taskrepresents a logical unit of work
-       that is performed by a component of your workflow.  Coordinating  tasks
-       in a workflow involves managing intertask dependencies, scheduling, and
-       concurrency in accordance with the logical flow of the application.
+       The  Amazon  Simple Workflow Service API Reference is intended for pro-
+       grammers who need detailed information about the Amazon SWF actions and
+       data types.
 
-       Amazon SWF gives you full control over implementing tasks  and  coordi-
-       nating  them  without  worrying	about  underlying complexities such as
-       tracking their progress and maintaining their state.
+       For  an broader overview of the Amazon SWF programming model, please go
+       to the Amazon SWF Developer Guide .
 
-       This documentation serves as reference only. For a broader overview  of
-       the Amazon SWF programming model, see the Amazon SWF Developer Guide .
+       This section provides an overview of Amazon SWF actions.
+
+       Action Categories
+
+       The Amazon SWF actions can be grouped into the  following  major  cate-
+       gories.
+
+       o Actions related to Activities
+
+       o Actions related to Deciders
+
+       o Actions related to Workflow Executions
+
+       o Actions related to Administration
+
+       o Actions related to Visibility
+
+       Actions related to Activities
+
+       The following are actions that are performed by activity workers:
+
+       o poll-for-activity-task
+
+       o respond-activity-task-completed
+
+       o respond-activity-task-failed
+
+       o respond-activity-task-canceled
+
+       o record-activity-task-heartbeat
+
+       Activity  workers  use  the  poll-for-activity-task to get new activity
+       tasks. After a worker receives an activity task	from  Amazon  SWF,  it
+       performs the task and responds using respond-activity-task-completed if
+       successful or respond-activity-task-failed if unsuccessful.
+
+       Actions related to Deciders
+
+       The following are actions that are performed by deciders:
+
+       o poll-for-decision-task
+
+       o respond-decision-task-completed
+
+       Deciders use poll-for-decision-task to get decision tasks. After a  de-
+       cider  receives	a decision task from Amazon SWF, it examines its work-
+       flow  execution	history  and  decides  what  to  do  next.  It	 calls
+       respond-decision-task-completed	to complete the decision task and pro-
+       vide zero or more next decisions.
+
+       Actions related to Workflow Executions
+
+       The following actions operate on a workflow execution:
+
+       o request-cancel-workflow-execution
+
+       o start-workflow-execution
+
+       o signal-workflow-execution
+
+       o terminate-workflow-execution
+
+       Actions related to Administration
+
+       Although you can perform administrative tasks from the Amazon SWF  con-
+       sole,  you can use the actions in this section to automate functions or
+       build your own administrative tools.
+
+       Activity Management
+
+       o register-activity-type
+
+       o deprecate-activity-type
+
+       Workflow Management
+
+       o register-workflow-type
+
+       o deprecate-workflow-type
+
+       Domain Management
+
+       o register-domain
+
+       o deprecate-domain
+
+       Workflow Execution Management
+
+       o request-cancel-workflow-execution
+
+       o terminate-workflow-execution
+
+       Visibility Actions
+
+       Although you can perform visibility actions from the  Amazon  SWF  con-
+       sole, you can use the actions in this section to build your own console
+       or administrative tools.
+
+       Activity Visibility
+
+       o list-activity-types
+
+       o DescribeActivity
+
+       Workflow Visibility
+
+       o list-workflow-types
+
+       o describe-workflow-type
+
+       Workflow Execution Visibility
+
+       o describe-workflow-execution
+
+       o list-open-workflow-executions
+
+       o list-closed-workflow-executions
+
+       o count-open-workflow-executions
+
+       o count-closed-workflow-executions
+
+       o get-workflow-execution-history
+
+       Domain Visibility
+
+       o list-domains
+
+       o describe-domain
+
+       Task List Visibility
+
+       o count-pending-activity-tasks
+
+       o count-pending-decision-tasks
 
 AVAILABLE COMMANDS
        o count-closed-workflow-executions
