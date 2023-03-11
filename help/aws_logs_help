@@ -7,29 +7,30 @@ NAME
 
 DESCRIPTION
        This  is  the  Amazon CloudWatch Logs API Reference . Amazon CloudWatch
-       Logs is a managed service for real time monitoring and archival of  ap-
-       plication  logs.  This guide provides detailed information about Amazon
-       CloudWatch Logs actions, data types, parameters, and  errors.  For  de-
-       tailed  information about Amazon CloudWatch Logs features and their as-
-       sociated API calls, go to the Amazon CloudWatch Logs Developer Guide .
+       Logs enables you to monitor, store, and access  your  system,  applica-
+       tion,  and  custom  log files. This guide provides detailed information
+       about Amazon CloudWatch Logs actions, data types, parameters,  and  er-
+       rors.  For  detailed  information about Amazon CloudWatch Logs features
+       and their associated API calls, go to the Amazon  CloudWatch  Developer
+       Guide .
 
        Use the following links to get started using the Amazon CloudWatch Logs
        API Reference :
 
        o Actions : An alphabetical list of all Amazon CloudWatch Logs actions.
 
-       o Data  Types : An alphabetical list of all Amazon CloudWatch Logs data
+       o Data Types : An alphabetical list of all Amazon CloudWatch Logs  data
 	 types.
 
        o Common Parameters : Parameters that all Query actions can use.
 
        o Common Errors : Client and server errors that all actions can return.
 
-       o Regions and Endpoints : Itemized regions and endpoints  for  all  AWS
+       o Regions  and  Endpoints  : Itemized regions and endpoints for all AWS
 	 products.
 
-       In  addition  to using the Amazon CloudWatch Logs API, you can also use
-       the following SDKs and third-party libraries to	access	Amazon	Cloud-
+       In addition to using the Amazon CloudWatch Logs API, you can  also  use
+       the  following  SDKs  and third-party libraries to access Amazon Cloud-
        Watch Logs programmatically.
 
        o AWS SDK for Java Documentation
@@ -40,7 +41,7 @@ DESCRIPTION
 
        o AWS SDK for Ruby Documentation
 
-       Developers  in  the  AWS developer community also provide their own li-
+       Developers in the AWS developer community also provide  their  own  li-
        braries, which you can find at the following AWS developer centers:
 
        o AWS Java Developer Center

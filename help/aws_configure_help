@@ -18,6 +18,10 @@ DESCRIPTION
        only work with values from the config file.  It does not use  any  con-
        figuration values from environment variables or the IAM role.
 
+       Note:  the values you provide for the AWS Access Key ID and the AWS Se-
+       cret Access  Key  will  be  written  to	the  shared  credentials  file
+       (~/.aws/credentials).
+
 CONFIGURATION VARIABLES
        The following configuration variables are supported in the config file:
 
