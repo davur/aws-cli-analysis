@@ -33,10 +33,21 @@ DESCRIPTION
        If you're new to AWS and need additional technical information about  a
        specific  AWS  product, you can find the product's technical documenta-
        tion at http://aws.amazon.com/documentation/ .
-	  Endpoints
+
+       Endpoints
 
        For information about AWS STS endpoints, see Regions and  Endpoints  in
        the AWS General Reference .
+
+       Recording API requests
+
+       AWS  STS  supports  AWS CloudTrail, which is a service that records AWS
+       calls for your AWS account and delivers	log  files  to	an  Amazon  S3
+       bucket. By using information collected by CloudTrail, you can determine
+       what requests were successfully made to AWS STS, who made the  request,
+       when  it was made, and so on. To learn more about CloudTrail, including
+       how to turn it on and find your log files, see the AWS CloudTrail  User
+       Guide .
 
 AVAILABLE COMMANDS
        o assume-role
