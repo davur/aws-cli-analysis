@@ -47,10 +47,6 @@ OPTIONS
 
        A JMESPath query to use in filtering the response data.
 
-       --page-size (string)
-
-       Specifies the page size when paginating.
-
        --profile (string)
 
        Use a specific profile from your credential file.

@@ -9,7 +9,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o check-domain-availability
 
+       o disable-domain-auto-renew
+
        o disable-domain-transfer-lock
+
+       o enable-domain-auto-renew
 
        o enable-domain-transfer-lock
 

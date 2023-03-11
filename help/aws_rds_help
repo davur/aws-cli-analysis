@@ -13,15 +13,15 @@ DESCRIPTION
        tration	tasks,	freeing up developers to focus on what makes their ap-
        plications and businesses unique.
 
-       Amazon RDS gives you access to the capabilities of a familiar MySQL  or
-       Oracle  database  server.  This means the code, applications, and tools
-       you already use today with your existing MySQL or Oracle databases work
-       with Amazon RDS without modification. Amazon RDS automatically backs up
-       your database and maintains the database software that powers  your  DB
-       instance.  Amazon  RDS  is  flexible:  you  can scale your database in-
-       stance's compute resources and storage capacity to meet	your  applica-
-       tion's  demand.	As with all Amazon Web Services, there are no up-front
-       investments, and you pay only for the resources you use.
+       Amazon RDS gives you access to the capabilities of a MySQL, PostgreSQL,
+       Microsoft  SQL  Server, or Oracle database server. This means the code,
+       applications, and tools you already use today with your existing  data-
+       bases  work  with Amazon RDS without modification. Amazon RDS automati-
+       cally backs up your database and maintains the database	software  that
+       powers  your  DB  instance.  Amazon RDS is flexible: you can scale your
+       database instance's compute resources and storage capacity to meet your
+       application's  demand.  As  with  all Amazon Web Services, there are no
+       up-front investments, and you pay only for the resources you use.
 
        This is an interface reference for Amazon RDS. It  contains  documenta-
        tion  for a programming or command line interface you can use to manage
@@ -42,7 +42,11 @@ AVAILABLE COMMANDS
 
        o authorize-db-security-group-ingress
 
+       o copy-db-parameter-group
+
        o copy-db-snapshot
+
+       o copy-option-group
 
        o create-db-instance
 
