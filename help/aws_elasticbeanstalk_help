@@ -18,7 +18,9 @@ DESCRIPTION
        Beanstalk  details  page.  The  location  of  the  latest  AWS  Elastic
        Beanstalk			    WSDL			    is
        http://elasticbeanstalk.s3.amazonaws.com/doc/2010-12-01/AWSElasticBeanstalk.wsdl
-       .
+       .  To install the Software Development Kits (SDKs), Integrated Develop-
+       ment Environment (IDE) Toolkits, and command line tools that enable you
+       to access the API, go to Tools for Amazon Web Services .
 
        Endpoints
 
@@ -27,6 +29,8 @@ DESCRIPTION
        .
 
 AVAILABLE COMMANDS
+       o abort-environment-update
+
        o check-dns-availability
 
        o create-application
@@ -55,11 +59,15 @@ AVAILABLE COMMANDS
 
        o describe-configuration-settings
 
+       o describe-environment-health
+
        o describe-environment-resources
 
        o describe-environments
 
        o describe-events
+
+       o describe-instances-health
 
        o help
 

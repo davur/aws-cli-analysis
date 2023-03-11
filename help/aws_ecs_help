@@ -24,7 +24,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-cluster
 
+       o create-service
+
        o delete-cluster
+
+       o delete-service
 
        o deregister-container-instance
 
@@ -33,6 +37,8 @@ AVAILABLE COMMANDS
        o describe-clusters
 
        o describe-container-instances
+
+       o describe-services
 
        o describe-task-definition
 
@@ -45,6 +51,10 @@ AVAILABLE COMMANDS
        o list-clusters
 
        o list-container-instances
+
+       o list-services
+
+       o list-task-definition-families
 
        o list-task-definitions
 
@@ -63,6 +73,12 @@ AVAILABLE COMMANDS
        o submit-container-state-change
 
        o submit-task-state-change
+
+       o update-container-agent
+
+       o update-service
+
+       o wait
 
 
 

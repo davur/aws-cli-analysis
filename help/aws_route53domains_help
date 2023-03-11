@@ -9,6 +9,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o check-domain-availability
 
+       o delete-tags-for-domain
+
        o disable-domain-auto-renew
 
        o disable-domain-transfer-lock
@@ -27,6 +29,8 @@ AVAILABLE COMMANDS
 
        o list-operations
 
+       o list-tags-for-domain
+
        o register-domain
 
        o retrieve-domain-auth-code
@@ -38,6 +42,8 @@ AVAILABLE COMMANDS
        o update-domain-contact-privacy
 
        o update-domain-nameservers
+
+       o update-tags-for-domain
 
 
 

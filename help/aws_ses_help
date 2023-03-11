@@ -10,12 +10,20 @@ DESCRIPTION
        This documentation is intended to  be  used  in	conjunction  with  the
        Amazon SES Developer Guide .
 
+       NOTE:
+	  For  a  list of Amazon SES endpoints to use in service requests, see
+	  Regions and Amazon SES in the Amazon SES Developer Guide.
+
 AVAILABLE COMMANDS
        o delete-identity
+
+       o delete-identity-policy
 
        o get-identity-dkim-attributes
 
        o get-identity-notification-attributes
+
+       o get-identity-policies
 
        o get-identity-verification-attributes
 
@@ -26,6 +34,10 @@ AVAILABLE COMMANDS
        o help
 
        o list-identities
+
+       o list-identity-policies
+
+       o put-identity-policy
 
        o send-email
 

@@ -55,6 +55,8 @@ AVAILABLE COMMANDS
 
        o create-hsm-configuration
 
+       o create-snapshot-copy-grant
+
        o create-tags
 
        o delete-cluster
@@ -72,6 +74,8 @@ AVAILABLE COMMANDS
        o delete-hsm-client-certificate
 
        o delete-hsm-configuration
+
+       o delete-snapshot-copy-grant
 
        o delete-tags
 
@@ -110,6 +114,8 @@ AVAILABLE COMMANDS
        o describe-reserved-nodes
 
        o describe-resize
+
+       o describe-snapshot-copy-grants
 
        o describe-tags
 

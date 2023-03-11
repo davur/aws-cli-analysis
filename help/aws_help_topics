@@ -1,168 +1,27 @@
-AWS()                                                                    AWS()
+AWS CLI TOPIC GUIDE()                                    AWS CLI TOPIC GUIDE()
 
 
 
 NNAAMMEE
-       aws -
+       AWS CLI Topic Guide -
 
 DDEESSCCRRIIPPTTIIOONN
-       The  AWS  Command  Line  Interface is a unified tool to manage your AWS
-       services.
+       This  is  the  AWS  CLI Topic Guide. It gives access to a set of topics
+       that provide a deeper understanding of the CLI. To access the  list  of
+       topics from the command line, run aawwss hheellpp ttooppiiccss. To access a specific
+       topic from the command line, run aawwss hheellpp [[ttooppiiccnnaammee]], where  ttooppiiccnnaammee
+       is the name of the topic as it appears in the output from aawwss hheellpp ttoopp--
+       iiccss.
 
-SSYYNNOOPPSSIISS
-          aws [options] <command> <subcommand> [parameters]
+AAVVAAIILLAABBLLEE TTOOPPIICCSS
+   GGeenneerraall
+       +o config-vars: Configuration Variables for the AWS CLI
 
-       Use _a_w_s _c_o_m_m_a_n_d _h_e_l_p for information on a specific command.
+       +o return-codes: Describes the various return codes of the AWS CLI
 
-OOPPTTIIOONNSS
-       ----ddeebbuugg (boolean)
+   SS33
+       +o s3-config: Advanced configuration for AWS S3 Commands
 
-       Turn on debug logging.
 
-       ----eennddppooiinntt--uurrll (string)
 
-       Override command's default URL with the given URL.
-
-       ----nnoo--vveerriiffyy--ssssll (boolean)
-
-       By default, the AWS CLI uses SSL when communicating with AWS  services.
-       For each SSL connection, the AWS CLI will verify SSL certificates. This
-       option overrides the default behavior of verifying SSL certificates.
-
-       ----nnoo--ppaaggiinnaattee (boolean)
-
-       Disable automatic pagination.
-
-       ----oouuttppuutt (string)
-
-       The formatting style for command output.
-
-       +o json
-
-       +o text
-
-       +o table
-
-       ----qquueerryy (string)
-
-       A JMESPath query to use in filtering the response data.
-
-       ----pprrooffiillee (string)
-
-       Use a specific profile from your credential file.
-
-       ----rreeggiioonn (string)
-
-       The region to use. Overrides config/env settings.
-
-       ----vveerrssiioonn (string)
-
-       Display the version of this tool.
-
-       ----ccoolloorr (string)
-
-       Turn on/off color output.
-
-       +o on
-
-       +o off
-
-       +o auto
-
-       ----nnoo--ssiiggnn--rreeqquueesstt (boolean)
-
-       Do not sign requests. Credentials will not be loaded if  this  argument
-       is provided.
-
-AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
-       +o autoscaling
-
-       +o cloudformation
-
-       +o cloudhsm
-
-       +o cloudsearch
-
-       +o cloudsearchdomain
-
-       +o cloudtrail
-
-       +o cloudwatch
-
-       +o cognito-identity
-
-       +o cognito-sync
-
-       +o configservice
-
-       +o configure
-
-       +o datapipeline
-
-       +o deploy
-
-       +o directconnect
-
-       +o dynamodb
-
-       +o ec2
-
-       +o ecs
-
-       +o elasticache
-
-       +o elasticbeanstalk
-
-       +o elastictranscoder
-
-       +o elb
-
-       +o emr
-
-       +o glacier
-
-       +o help
-
-       +o iam
-
-       +o importexport
-
-       +o kinesis
-
-       +o kms
-
-       +o lambda
-
-       +o logs
-
-       +o opsworks
-
-       +o rds
-
-       +o redshift
-
-       +o route53
-
-       +o route53domains
-
-       +o s3
-
-       +o s3api
-
-       +o ses
-
-       +o sns
-
-       +o sqs
-
-       +o storagegateway
-
-       +o sts
-
-       +o support
-
-       +o swf
-
-
-
-                                                                         AWS()
+                                                         AWS CLI TOPIC GUIDE()

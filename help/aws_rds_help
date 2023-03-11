@@ -8,28 +8,28 @@ NAME
 DESCRIPTION
        Amazon  Relational  Database Service (Amazon RDS) is a web service that
        makes it easier to set up, operate, and scale a relational database  in
-       the cloud. It provides cost-efficient, resizable capacity for an indus-
-       try-standard relational database and manages common  database  adminis-
-       tration	tasks,	freeing up developers to focus on what makes their ap-
+       the  cloud.  It provides cost-efficient, resizeable capacity for an in-
+       dustry-standard relational database and manages common database	admin-
+       istration tasks, freeing up developers to focus on what makes their ap-
        plications and businesses unique.
 
        Amazon RDS gives you access to the capabilities of a MySQL, PostgreSQL,
-       Microsoft  SQL  Server, or Oracle database server. This means the code,
-       applications, and tools you already use today with your existing  data-
-       bases  work  with Amazon RDS without modification. Amazon RDS automati-
-       cally backs up your database and maintains the database	software  that
-       powers  your  DB  instance.  Amazon RDS is flexible: you can scale your
-       database instance's compute resources and storage capacity to meet your
-       application's  demand.  As  with  all Amazon Web Services, there are no
-       up-front investments, and you pay only for the resources you use.
+       Microsoft SQL Server, Oracle, or Aurora database server. This means the
+       code, applications, and tools you already use today with your  existing
+       databases  work	with Amazon RDS without modification. Amazon RDS auto-
+       matically backs up your database and maintains  the  database  software
+       that  powers  your  DB  instance. Amazon RDS is flexible: you can scale
+       your database instance's compute resources and storage capacity to meet
+       your  application's  demand. As with all Amazon Web Services, there are
+       no up-front investments, and you pay only for the resources you use.
 
        This is an interface reference for Amazon RDS. It  contains  documenta-
        tion  for a programming or command line interface you can use to manage
        Amazon RDS. Note that Amazon RDS is asynchronous, which means that some
-       interfaces may require techniques such as polling or callback functions
-       to determine when a command has been applied. In  this  reference,  the
-       parameter  descriptions	indicate  whether a command is applied immedi-
-       ately, on the next instance reboot, or during the  maintenance  window.
+       interfaces  might  require techniques such as polling or callback func-
+       tions to determine when a command has been applied. In this  reference,
+       the  parameter descriptions indicate whether a command is applied imme-
+       diately, on the next instance reboot, or during the maintenance window.
        For  a summary of the Amazon RDS interfaces, go to Available RDS Inter-
        faces .
 
@@ -44,11 +44,19 @@ AVAILABLE COMMANDS
 
        o authorize-db-security-group-ingress
 
+       o copy-db-cluster-snapshot
+
        o copy-db-parameter-group
 
        o copy-db-snapshot
 
        o copy-option-group
+
+       o create-db-cluster
+
+       o create-db-cluster-parameter-group
+
+       o create-db-cluster-snapshot
 
        o create-db-instance
 
@@ -66,6 +74,12 @@ AVAILABLE COMMANDS
 
        o create-option-group
 
+       o delete-db-cluster
+
+       o delete-db-cluster-parameter-group
+
+       o delete-db-cluster-snapshot
+
        o delete-db-instance
 
        o delete-db-parameter-group
@@ -79,6 +93,18 @@ AVAILABLE COMMANDS
        o delete-event-subscription
 
        o delete-option-group
+
+       o describe-account-attributes
+
+       o describe-certificates
+
+       o describe-db-cluster-parameter-groups
+
+       o describe-db-cluster-parameters
+
+       o describe-db-cluster-snapshots
+
+       o describe-db-clusters
 
        o describe-db-engine-versions
 
@@ -95,6 +121,8 @@ AVAILABLE COMMANDS
        o describe-db-snapshots
 
        o describe-db-subnet-groups
+
+       o describe-engine-default-cluster-parameters
 
        o describe-engine-default-parameters
 
@@ -118,9 +146,15 @@ AVAILABLE COMMANDS
 
        o download-db-log-file-portion
 
+       o failover-db-cluster
+
        o help
 
        o list-tags-for-resource
+
+       o modify-db-cluster
+
+       o modify-db-cluster-parameter-group
 
        o modify-db-instance
 
@@ -142,7 +176,13 @@ AVAILABLE COMMANDS
 
        o remove-tags-from-resource
 
+       o reset-db-cluster-parameter-group
+
        o reset-db-parameter-group
+
+       o restore-db-cluster-from-snapshot
+
+       o restore-db-cluster-to-point-in-time
 
        o restore-db-instance-from-db-snapshot
 

@@ -1,0 +1,40 @@
+EFS()									 EFS()
+
+
+
+NAME
+       efs -
+
+DESCRIPTION
+       NOTE:
+	  This	service is only available as a preview service. You can enable
+	  this service by running: aws configure set preview.efs true
+
+AVAILABLE COMMANDS
+       o create-file-system
+
+       o create-mount-target
+
+       o create-tags
+
+       o delete-file-system
+
+       o delete-mount-target
+
+       o delete-tags
+
+       o describe-file-systems
+
+       o describe-mount-target-security-groups
+
+       o describe-mount-targets
+
+       o describe-tags
+
+       o help
+
+       o modify-mount-target-security-groups
+
+
+
+									 EFS()

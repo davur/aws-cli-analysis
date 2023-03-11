@@ -21,7 +21,14 @@ DESCRIPTION
        Cognito	Sync service, you need to make API calls using credentials re-
        trieved with Amazon Cognito Identity service .
 
+       If you want to use Cognito Sync in an Android or iOS  application,  you
+       will  probably  want to make API calls via the AWS Mobile SDK. To learn
+       more, see the Developer Guide for Android and the Developer  Guide  for
+       iOS .
+
 AVAILABLE COMMANDS
+       o bulk-publish
+
        o delete-dataset
 
        o describe-dataset
@@ -29,6 +36,10 @@ AVAILABLE COMMANDS
        o describe-identity-pool-usage
 
        o describe-identity-usage
+
+       o get-bulk-publish-details
+
+       o get-cognito-events
 
        o get-identity-pool-configuration
 
@@ -41,6 +52,8 @@ AVAILABLE COMMANDS
        o list-records
 
        o register-device
+
+       o set-cognito-events
 
        o set-identity-pool-configuration
 
