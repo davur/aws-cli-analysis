@@ -25,7 +25,9 @@ OOPPTTIIOONNSS
 
        ----nnoo--vveerriiffyy--ssssll (boolean)
 
-       Override default behavior of verifying SSL certificates.
+       By default, the AWS CLI uses SSL when communicating with AWS  services.
+       For each SSL connection, the AWS CLI will verify SSL certificates. This
+       option overrides the default behavior of verifying SSL certificates.
 
        ----nnoo--ppaaggiinnaattee (boolean)
 
@@ -44,6 +46,10 @@ OOPPTTIIOONNSS
        ----qquueerryy (string)
 
        A JMESPath query to use in filtering the response data.
+
+       ----ppaaggee--ssiizzee (string)
+
+       Specifies the page size when paginating.
 
        ----pprrooffiillee (string)
 
@@ -66,6 +72,11 @@ OOPPTTIIOONNSS
        +o off
 
        +o auto
+
+       ----nnoo--ssiiggnn--rreeqquueesstt (boolean)
+
+       Do not sign requests. Credentials will not be loaded if  this  argument
+       is provided.
 
 AAVVAAIILLAABBLLEE SSEERRVVIICCEESS
        +o autoscaling

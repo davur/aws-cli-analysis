@@ -44,6 +44,13 @@ SYNOPSIS
 OPTIONS
        None
 
+AVAILABLE COMMANDS
+       o get
+
+       o list
+
+       o set
+
 EXAMPLES
        To create a new configuration:
 

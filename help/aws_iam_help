@@ -22,12 +22,14 @@ DESCRIPTION
 	  about  the AWS SDKs, including how to download and install them, see
 	  the Tools for Amazon Web Services page.
 
-       Using the IAM Query API, you make direct calls to the IAM web  service.
-       IAM  supports  GET  and POST requests for all actions. That is, the API
-       does not require you to use GET for some actions and POST  for  others.
-       However,  GET  requests	are  subject  to the limitation size of a URL.
-       Therefore, for operations that require larger sizes,  use  a  POST  re-
-       quest.
+       We recommend that you use the AWS SDKs to make programmatic  API  calls
+       to  IAM.  However,  you	can  also use the IAM Query API to make direct
+       calls to the IAM web service. To learn more about the  IAM  Query  API,
+       see  Making Query Requests in the Using IAM guide. IAM supports GET and
+       POST requests for all actions. That is, the API does not require you to
+       use GET for some actions and POST for others. However, GET requests are
+       subject to the limitation size of a URL. Therefore, for operations that
+       require larger sizes, use a POST request.
 
        Signing Requests
 

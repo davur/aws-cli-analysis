@@ -16,6 +16,11 @@ DESCRIPTION
        a dataset that can store up to 1 MB of key-value  pairs,  and  you  can
        have up to 20 datasets per user identity.
 
+       With Amazon Cognito Sync, the data stored for each identity is accessi-
+       ble only to credentials assigned to that identity. In order to use  the
+       Cognito	Sync service, you need to make API calls using credentials re-
+       trieved with Amazon Cognito Identity service .
+
 AVAILABLE COMMANDS
        o delete-dataset
 

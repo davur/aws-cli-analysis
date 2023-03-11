@@ -129,6 +129,9 @@ cognito-sync list-datasets
 cognito-sync list-identity-pool-usage
 cognito-sync list-records
 cognito-sync update-records
+configure get
+configure list
+configure set
 datapipeline activate-pipeline
 datapipeline create-pipeline
 datapipeline delete-pipeline
@@ -417,6 +420,7 @@ elastictranscoder test-role
 elastictranscoder update-pipeline
 elastictranscoder update-pipeline-notifications
 elastictranscoder update-pipeline-status
+elb add-tags
 elb apply-security-groups-to-load-balancer
 elb attach-load-balancer-to-subnets
 elb configure-health-check
@@ -434,12 +438,14 @@ elb describe-load-balancer-attributes
 elb describe-load-balancer-policies
 elb describe-load-balancer-policy-types
 elb describe-load-balancers
+elb describe-tags
 elb detach-load-balancer-from-subnets
 elb disable-availability-zones-for-load-balancer
 elb enable-availability-zones-for-load-balancer
 elb help
 elb modify-load-balancer-attributes
 elb register-instances-with-load-balancer
+elb remove-tags
 elb set-load-balancer-listener-ssl-certificate
 elb set-load-balancer-policies-for-backend-server
 elb set-load-balancer-policies-of-listener
@@ -550,6 +556,7 @@ importexport get-status
 importexport help
 importexport list-jobs
 importexport update-job
+kinesis add-tags-to-stream
 kinesis create-stream
 kinesis delete-stream
 kinesis describe-stream
@@ -557,8 +564,10 @@ kinesis get-records
 kinesis get-shard-iterator
 kinesis help
 kinesis list-streams
+kinesis list-tags-for-stream
 kinesis merge-shards
 kinesis put-record
+kinesis remove-tags-from-stream
 kinesis split-shard
 logs create-log-group
 logs create-log-stream
@@ -779,7 +788,6 @@ route53domains update-domain-contact
 route53domains update-domain-contact-privacy
 route53domains update-domain-nameservers
 s3 cp
-s3 help
 s3 ls
 s3 mb
 s3 mv

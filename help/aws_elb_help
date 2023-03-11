@@ -6,30 +6,24 @@ NAME
        elb -
 
 DESCRIPTION
-       Elastic	Load Balancing is a cost-effective and easy to use web service
-       to help you improve the availability and scalability of	your  applica-
-       tion  running on Amazon Elastic Cloud Compute (Amazon EC2). It makes it
-       easy for you to distribute application loads between two  or  more  EC2
-       instances.  Elastic  Load  Balancing  supports the growth in traffic of
-       your application by enabling availability through redundancy.
+       Elastic	Load  Balancing  is a way to automatically distribute incoming
+       web traffic across applications that run  on  multiple  Amazon  Elastic
+       Compute Cloud (Amazon EC2) instances.
 
-       This guide provides detailed information about Elastic  Load  Balancing
-       actions,  data  types,  and  parameters	that can be used for sending a
-       query request. Query requests are HTTP or HTTPS requests that  use  the
-       HTTP  verb GET or POST and a query parameter named Action or Operation.
-       Action is used throughout this  documentation,  although  Operation  is
-       supported for backward compatibility with other AWS Query APIs.
+       You can create, access, and manage Elastic Load Balancing using the AWS
+       Management Console or the Elastic Load Balancing API. For more informa-
+       tion  about  Elastic  Load  Balancing interfaces, see Accessing Elastic
+       Load Balancing .
 
-       For  detailed information on constructing a query request using the ac-
-       tions, data types, and parameters mentioned in this guide, go to  Using
-       the Query API in the Elastic Load Balancing Developer Guide .
+       This reference guide contains documentation for the Query API  and  the
+       AWS command line interface commands, to manage Elastic Load Balancing.
 
        For  detailed  information  about  Elastic  Load Balancing features and
-       their associated actions, go to Using Elastic  Load  Balancing  in  the
-       Elastic Load Balancing Developer Guide .
+       their associated actions or commands, go to Managing Load Balancers  in
+       the Elastic Load Balancing Developer Guide .
 
        This  reference	guide is based on the current WSDL, which is available
-       at: http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.wsdl
+       at: http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.wsdl .
 
        Endpoints
 
@@ -42,6 +36,8 @@ DESCRIPTION
        see Regions and Endpoints in the Amazon Web Services General Reference.
 
 AVAILABLE COMMANDS
+       o add-tags
+
        o apply-security-groups-to-load-balancer
 
        o attach-load-balancer-to-subnets
@@ -76,6 +72,8 @@ AVAILABLE COMMANDS
 
        o describe-load-balancers
 
+       o describe-tags
+
        o detach-load-balancer-from-subnets
 
        o disable-availability-zones-for-load-balancer
@@ -87,6 +85,8 @@ AVAILABLE COMMANDS
        o modify-load-balancer-attributes
 
        o register-instances-with-load-balancer
+
+       o remove-tags
 
        o set-load-balancer-listener-ssl-certificate
 
