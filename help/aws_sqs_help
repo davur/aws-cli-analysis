@@ -6,23 +6,38 @@ NAME
        sqs -
 
 DESCRIPTION
-       Amazon  Simple  Queue  Service  (Amazon	SQS) offers a reliable, highly
-       scalable, hosted queue for storing messages as they travel between com-
-       puters.	By  using  Amazon SQS, developers can simply move data between
-       distributed components of their	applications  that  perform  different
-       tasks, without losing messages or requiring each component to be always
-       available. Amazon SQS makes it easy to  build  an  automated  workflow,
-       working	in  close  conjunction	with  the Amazon Elastic Compute Cloud
-       (Amazon EC2) and the other AWS infrastructure web services.
+       Welcome to the Amazon Simple Queue Service API Reference . This section
+       describes who should read this guide, how the guide is  organized,  and
+       other  resources  related  to  the  Amazon Simple Queue Service (Amazon
+       SQS).
 
-       Amazon SQS works by exposing Amazon's web-scale	messaging  infrastruc-
-       ture  as  a  web  service. Any computer on the Internet can add or read
-       messages without any installed software or special firewall  configura-
-       tions.  Components  of  applications  using Amazon SQS can run indepen-
-       dently, and do not need to be on the same network, developed  with  the
-       same technologies, or running at the same time.
+       Amazon SQS offers reliable and scalable hosted queues for storing  mes-
+       sages  as  they	travel between computers. By using Amazon SQS, you can
+       move data between distributed components of your applications that per-
+       form  different	tasks without losing messages or requiring each compo-
+       nent to be always available.
 
-       Visit http://aws.amazon.com/sqs/ for more information.
+       Helpful Links:
+
+       o Current WSDL (2012-11-05)
+
+       o Making API Requests
+
+       o Amazon SQS product page
+
+       o Regions and Endpoints
+
+       We also provide SDKs that enable you to access  Amazon  SQS  from  your
+       preferred programming language. The SDKs contain functionality that au-
+       tomatically takes care of tasks such as:
+
+       o Cryptographically signing your service requests
+
+       o Retrying requests
+
+       o Handling error responses
+
+       For a list of available SDKs, go to Tools for Amazon Web Services .
 
 AVAILABLE COMMANDS
        o add-permission
@@ -44,6 +59,8 @@ AVAILABLE COMMANDS
        o get-queue-url
 
        o help
+
+       o list-dead-letter-source-queues
 
        o list-queues
 

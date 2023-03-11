@@ -69,6 +69,8 @@ OPTIONS
 
        o us-west-1
 
+       o cn-north-1
+
        o eu-west-1
 
        o fips-us-gov-west-1
@@ -92,7 +94,11 @@ AVAILABLE SERVICES
 
        o cloudformation
 
+       o cloudtrail
+
        o cloudwatch
+
+       o configure
 
        o directconnect
 
@@ -113,6 +119,8 @@ AVAILABLE SERVICES
        o iam
 
        o importexport
+
+       o kinesis
 
        o opsworks
 

@@ -7,15 +7,12 @@ NAME
 
 DESCRIPTION
        This is the API Reference for Amazon Simple Email Service (Amazon SES).
-       This documentation is intended to be used in conjunction with the  Ama-
-       zon SES Developer Guide.
-
-       For specific details on how to construct a service request, please con-
-       sult the Amazon SES Developer Guide .
+       This documentation is intended to  be  used  in	conjunction  with  the
+       Amazon SES Developer Guide .
 
        NOTE:
-	  The	 endpoint    for     Amazon	SES	is     located	   at:
-	  https://email.us-east-1.amazonaws.com
+	  For  a  list of Amazon SES endpoints to use in service requests, see
+	  Regions and Amazon SES in the Amazon SES Developer Guide.
 
 AVAILABLE COMMANDS
        o delete-identity

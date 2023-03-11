@@ -6,26 +6,12 @@ NAME
        ec2 -
 
 DESCRIPTION
-       Amazon  Elastic	Compute  Cloud (Amazon EC2) is a web service that pro-
-       vides resizable compute capacity in the cloud. It is designed  to  make
-       web-scale computing easier for developers.
-
-       Amazon EC2's simple web service interface allows you to obtain and con-
-       figure capacity with minimal friction. It provides  you	with  complete
-       control of your computing resources and lets you run on Amazon's proven
-       computing environment. Amazon EC2 reduces the time required  to	obtain
-       and boot new server instances to minutes, allowing you to quickly scale
-       capacity, both up and down, as your computing requirements change. Ama-
-       zon  EC2 changes the economics of computing by allowing you to pay only
-       for capacity that you actually use. Amazon EC2 provides developers  the
-       tools  to  build  failure resilient applications and isolate themselves
-       from common failure scenarios.
-
-       Visit http://aws.amazon.com/ec2/ for more information.
+       Amazon  Elastic Compute Cloud (Amazon EC2) provides resizable computing
+       capacity in the Amazon Web Services (AWS) cloud. Using Amazon EC2 elim-
+       inates your need to invest in hardware up front, so you can develop and
+       deploy applications faster.
 
 AVAILABLE COMMANDS
-       o activate-license
-
        o allocate-address
 
        o assign-private-ip-addresses
@@ -112,8 +98,6 @@ AVAILABLE COMMANDS
 
        o create-vpn-gateway
 
-       o deactivate-license
-
        o delete-customer-gateway
 
        o delete-dhcp-options
@@ -185,8 +169,6 @@ AVAILABLE COMMANDS
        o describe-internet-gateways
 
        o describe-key-pairs
-
-       o describe-licenses
 
        o describe-network-acls
 

@@ -6,31 +6,42 @@ NAME
        sts -
 
 DESCRIPTION
-       The AWS Security Token Service is a web service that enables you to re-
-       quest temporary, limited-privilege credentials for AWS Identity and Ac-
-       cess  Management (IAM) users or for users that you authenticate (feder-
-       ated users). This guide provides descriptions of the AWS Security Token
-       Service API.
+       The  AWS Security Token Service (AWS STS) is a web service that enables
+       you to request temporary, limited-privilege credentials for  AWS  Iden-
+       tity  and  Access  Management (AWS IAM) users or for users that you au-
+       thenticate (federated users). This guide provides descriptions  of  the
+       AWS STS API. For more detailed information about using this service, go
+       to Using Temporary Security Credentials .
 
-       For  more  detailed  information  about using this service, go to Using
-       Temporary Security Credentials .
+       NOTE:
+	  As an alternative to using the API, you can use one of the AWS SDKs,
+	  which  consist  of libraries and sample code for various programming
+	  languages and platforms (Java, Ruby, .NET, iOS, Android, etc.).  The
+	  SDKs	provide  a convenient way to create programmatic access to AWS
+	  STS. For example, the SDKs take care	of  cryptographically  signing
+	  requests,  managing errors, and retrying requests automatically. For
+	  information about the AWS SDKs, including how to  download  and  in-
+	  stall them, see the Tools for Amazon Web Services page .
 
-       For information about setting up signatures and	authorization  through
-       the  API, go to Signing AWS API Requests in the AWS General Reference .
-       For general information about the Query API, go	to  Making  Query  Re-
-       quests  in Using IAM . For information about using security tokens with
-       other AWS products, go to Using Temporary Security Credentials  to  Ac-
+       For  information  about setting up signatures and authorization through
+       the API, go to Signing AWS API Requests in the AWS General Reference  .
+       For  general  information  about  the Query API, go to Making Query Re-
+       quests in Using IAM . For information about using security tokens  with
+       other  AWS  products, go to Using Temporary Security Credentials to Ac-
        cess AWS in Using Temporary Security Credentials .
 
-       If  you're new to AWS and need additional technical information about a
-       specific AWS product, you can find the product's  technical  documenta-
+       If you're new to AWS and need additional technical information about  a
+       specific  AWS  product, you can find the product's technical documenta-
        tion at http://aws.amazon.com/documentation/ .
+	  Endpoints
 
-       We will refer to Amazon Identity and Access Management using the abbre-
-       viated form IAM. All copyrights and legal protections still apply.
+       For information about AWS STS endpoints, see Regions and  Endpoints  in
+       the AWS General Reference .
 
 AVAILABLE COMMANDS
        o assume-role
+
+       o assume-role-with-saml
 
        o assume-role-with-web-identity
 

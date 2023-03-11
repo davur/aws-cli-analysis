@@ -30,11 +30,17 @@ DESCRIPTION
 
        This  reference	guide is based on the current WSDL, which is available
        at:
-       ``
-       _
+       http://elasticloadbalancing.amazonaws.com/doc/2012-06-01/ElasticLoadBalancing.wsdl
 
-       System Message: WARNING/2 (<string>:, line 31)
-	      Inline literal start-string without end-string.
+       Endpoints
+
+       The examples in this guide assume that your load balancers are  created
+       in the US East (Northern Virginia) region and use us-east-1 as the end-
+       point.
+
+       You can create your load balancers in other AWS regions.  For  informa-
+       tion  about  regions and endpoints supported by Elastic Load Balancing,
+       see Regions and Endpoints in the Amazon Web Services General Reference.
 
 AVAILABLE COMMANDS
        o apply-security-groups-to-load-balancer
@@ -63,6 +69,8 @@ AVAILABLE COMMANDS
 
        o describe-instance-health
 
+       o describe-load-balancer-attributes
+
        o describe-load-balancer-policies
 
        o describe-load-balancer-policy-types
@@ -77,6 +85,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o modify-load-balancer-attributes
+
        o register-instances-with-load-balancer
 
        o set-load-balancer-listener-ssl-certificate
@@ -84,9 +94,6 @@ AVAILABLE COMMANDS
        o set-load-balancer-policies-for-backend-server
 
        o set-load-balancer-policies-of-listener
-
-       System Message: WARNING/2 (<string>:, line 115)
-	      malformed hyperlink target.
 
 
 

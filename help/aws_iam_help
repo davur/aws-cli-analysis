@@ -6,20 +6,57 @@ NAME
        iam -
 
 DESCRIPTION
-       This  guide provides descriptions of the Identity and Access Management
-       (IAM) API as well as links to related content in the guide, Using IAM .
+       AWS  Identity and Access Management (IAM) is a web service that you can
+       use to manage users and user permissions under your AWS	account.  This
+       guide  provides	descriptions  of  the IAM API. For general information
+       about IAM, see AWS Identity and Access Management (IAM) . For the  user
+       guide for IAM, see Using IAM .
 
-       IAM is a web service that enables AWS customers	to  manage  users  and
-       user  permissions  under  their AWS account. For more information about
-       this product go to AWS Identity and Access Management (IAM) .  For  in-
-       formation  about  setting  up  signatures and authorization through the
-       API, go to Signing AWS API Requests in the AWS General Reference .  For
-       general	information  about  using the Query API with IAM, go to Making
-       Query Requests in Using IAM .
+       NOTE:
+	  AWS provides SDKs that consist of libraries and sample code for var-
+	  ious programming languages and platforms (Java, Ruby, .NET, iOS, An-
+	  droid,  etc.).  The SDKs provide a convenient way to create program-
+	  matic access to IAM and AWS. For example,  the  SDKs	take  care  of
+	  tasks such as cryptographically signing requests (see below), manag-
+	  ing errors, and retrying  requests  automatically.  For  information
+	  about  the AWS SDKs, including how to download and install them, see
+	  the Tools for Amazon Web Services page.
 
-       If you're new to AWS and need additional technical information about  a
-       specific  AWS  product, you can find the product's technical documenta-
-       tion at http://aws.amazon.com/documentation/ .
+       Using the IAM Query API, you make direct calls to the IAM web  service.
+       IAM  supports  GET  and POST requests for all actions. That is, the API
+       does not require you to use GET for some actions and POST  for  others.
+       However,  GET requests are subject to the limitation size of a URL; al-
+       though this limit is browser dependent, a typical limit is 2048	bytes.
+       Therefore,  for	operations  that  require larger sizes, you must use a
+       POST request.
+
+       Signing Requests Requests must be signed using an access key ID	and  a
+       secret  access  key. We strongly recommend that you do not use your AWS
+       account access key ID and secret access key for everyday work with IAM.
+       You  can use the access key ID and secret access key for an IAM user or
+       you can use the AWS Security Token Service to generate temporary  secu-
+       rity credentials and use those to sign requests.
+
+       To  sign  requests,  we recommend that you use Signature Version 4 . If
+       you have an existing application that uses Signature Version 2, you  do
+       not  have to update it to use Signature Version 4. However, some opera-
+       tions now require Signature Version 4. The documentation for operations
+       that require version 4 indicate this requirement.
+
+       Additional Resources For more information, see the following:
+
+       o AWS  Security	Credentials  . This topic provides general information
+	 about the types of credentials used for accessing AWS.
+
+       o IAM Best Practices . This topic presents a list  of  suggestions  for
+	 using the IAM service to help secure your AWS resources.
+
+       o AWS  Security	Token Service . This guide describes how to create and
+	 use temporary security credentials.
+
+       o Signing AWS API Requests . This set of topics walk  you  through  the
+	 process of signing a request using an access key ID and secret access
+	 key.
 
 AVAILABLE COMMANDS
        o add-role-to-instance-profile
@@ -39,6 +76,8 @@ AVAILABLE COMMANDS
        o create-login-profile
 
        o create-role
+
+       o create-saml-provider
 
        o create-user
 
@@ -63,6 +102,8 @@ AVAILABLE COMMANDS
        o delete-role
 
        o delete-role-policy
+
+       o delete-saml-provider
 
        o delete-server-certificate
 
@@ -92,6 +133,8 @@ AVAILABLE COMMANDS
 
        o get-role-policy
 
+       o get-saml-provider
+
        o get-server-certificate
 
        o get-user
@@ -119,6 +162,8 @@ AVAILABLE COMMANDS
        o list-role-policies
 
        o list-roles
+
+       o list-saml-providers
 
        o list-server-certificates
 
@@ -151,6 +196,8 @@ AVAILABLE COMMANDS
        o update-group
 
        o update-login-profile
+
+       o update-saml-provider
 
        o update-server-certificate
 

@@ -23,13 +23,15 @@ DESCRIPTION
        tion's  demand.	As with all Amazon Web Services, there are no up-front
        investments, and you pay only for the resources you use.
 
-       This is the Amazon RDS API Reference . It contains a comprehensive  de-
-       scription  of  all Amazon RDS Query APIs and data types. Note that this
-       API is asynchronous and some actions may require polling  to  determine
-       when  an  action has been applied. See the parameter description to de-
-       termine if a change is applied immediately or on the next instance  re-
-       boot  or  during the maintenance window. For more information on Amazon
-       RDS concepts and usage scenarios, go to the Amazon RDS User Guide .
+       This is an interface reference for Amazon RDS. It  contains  documenta-
+       tion  for a programming or command line interface you can use to manage
+       Amazon RDS. Note that Amazon RDS is asynchronous, which means that some
+       interfaces may require techniques such as polling or callback functions
+       to determine when a command has been applied. In  this  reference,  the
+       parameter  descriptions	indicate  whether a command is applied immedi-
+       ately, on the next instance reboot, or during the  maintenance  window.
+       For  a summary of the Amazon RDS interfaces, go to Available RDS Inter-
+       faces .
 
 AVAILABLE COMMANDS
        o add-option-to-option-group
