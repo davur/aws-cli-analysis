@@ -1,0 +1,129 @@
+DEPLOY()							      DEPLOY()
+
+
+
+NAME
+       deploy -
+
+DESCRIPTION
+	  Overview
+
+       This  is the AWS CodeDeploy API Reference. This guide provides descrip-
+       tions of the AWS CodeDeploy APIs. For additional information,  see  the
+       AWS CodeDeploy User Guide .
+	  Using the APIs
+
+       You can use the AWS CodeDeploy APIs to work with the following items:
+
+       o Applications  , which are unique identifiers that AWS CodeDeploy uses
+	 to ensure that the correct combinations of revisions, deployment con-
+	 figurations,  and  deployment	groups are being referenced during de-
+	 ployments. You can work with applications by calling  create-applica-
+	 tion  ,  delete-application ,	get-application ,  list-applications ,
+	 batch-get-applications , and  update-application to  create,  delete,
+	 and  get  information	about  applications, and to change information
+	 about an application, respectively.
+
+       o Deployment configurations , which are sets of	deployment  rules  and
+	 deployment  success  and  failure conditions that AWS CodeDeploy uses
+	 during deployments. You can work with	deployment  configurations  by
+	 calling    create-deployment-config   ,   delete-deployment-config  ,
+	 get-deployment-config	,  and	 list-deployment-configs  to   create,
+	 delete,  and get information about deployment configurations, respec-
+	 tively.
+
+       o Deployment groups , which represent groups of Amazon EC2 instances to
+	 which	application  revisions	can be deployed. You can work with de-
+	 ployment groups by calling  create-deployment-group ,	delete-deploy-
+	 ment-group  ,	 get-deployment-group  ,  list-deployment-groups , and
+	 update-deployment-group to create, delete, and get information  about
+	 single  and  multiple	deployment  groups,  and to change information
+	 about a deployment group, respectively.
+
+       o Deployment instances (also known simply as instances ), which	repre-
+	 sent  Amazon  EC2  instances  to  which application revisions are de-
+	 ployed. Deployment instances are identified by their Amazon EC2  tags
+	 or  Auto  Scaling group names. Deployment instances belong to deploy-
+	 ment groups. You  can	work  with  deployment	instances  by  calling
+	 get-deployment-instance  and  list-deployment-instances to get infor-
+	 mation about single and multiple deployment instances, respectively.
+
+       o Deployments , which represent the process of deploying  revisions  to
+	 deployment  groups.  You  can	work with deployments by calling  cre-
+	 ate-deployment ,  get-deployment ,  list-deployments ,  batch-get-de-
+	 ployments  , and  stop-deployment to create and get information about
+	 deployments, and to stop a deployment, respectively.
+
+       o Application revisions (also known simply as revisions	),  which  are
+	 archive  files that are stored in Amazon S3 buckets or GitHub reposi-
+	 tories. These revisions contain source content (such as source  code,
+	 web  pages,  executable  files,  any deployment scripts, and similar)
+	 along with an Application Specification  file	(AppSpec  file).  (The
+	 AppSpec  file is unique to AWS CodeDeploy; it defines a series of de-
+	 ployment actions that you want AWS CodeDeploy to execute.) An	appli-
+	 cation  revision  is  uniquely identified by its Amazon S3 object key
+	 and its ETag, version, or both. Application revisions are deployed to
+	 deployment groups. You can work with application revisions by calling
+	 get-application-revision ,  list-application-revisions , and	regis-
+	 ter-application-revision  to  get information about application revi-
+	 sions and to inform AWS CodeDeploy about an application revision, re-
+	 spectively.
+
+AVAILABLE COMMANDS
+       o batch-get-applications
+
+       o batch-get-deployments
+
+       o create-application
+
+       o create-deployment
+
+       o create-deployment-config
+
+       o create-deployment-group
+
+       o delete-application
+
+       o delete-deployment-config
+
+       o delete-deployment-group
+
+       o get-application
+
+       o get-application-revision
+
+       o get-deployment
+
+       o get-deployment-config
+
+       o get-deployment-group
+
+       o get-deployment-instance
+
+       o help
+
+       o list-application-revisions
+
+       o list-applications
+
+       o list-deployment-configs
+
+       o list-deployment-groups
+
+       o list-deployment-instances
+
+       o list-deployments
+
+       o push
+
+       o register-application-revision
+
+       o stop-deployment
+
+       o update-application
+
+       o update-deployment-group
+
+
+
+								      DEPLOY()

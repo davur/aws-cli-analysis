@@ -1,0 +1,43 @@
+LAMBDA()							      LAMBDA()
+
+
+
+NAME
+       lambda -
+
+DESCRIPTION
+       Overview
+
+       This  is  the  AWS Lambda API Reference. The AWS Lambda Developer Guide
+       provides additional information. For the service overview, go  to  What
+       is  AWS Lambda , and for information about how the service works, go to
+       AWS LambdaL How it Works in the AWS Lambda Developer Guide.
+
+AVAILABLE COMMANDS
+       o add-event-source
+
+       o delete-function
+
+       o get-event-source
+
+       o get-function
+
+       o get-function-configuration
+
+       o help
+
+       o invoke-async
+
+       o list-event-sources
+
+       o list-functions
+
+       o remove-event-source
+
+       o update-function-configuration
+
+       o upload-function
+
+
+
+								      LAMBDA()

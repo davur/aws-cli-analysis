@@ -12,10 +12,20 @@ DESCRIPTION
        matically. For general information about IAM, see AWS Identity and  Ac-
        cess Management (IAM) . For the user guide for IAM, see Using IAM .
 
-       We  recommend  that you use the AWS SDKs to make programmatic API calls
-       to IAM. However, you can also use the IAM  Query  API  to  make	direct
-       calls  to  the  IAM web service. To learn more about the IAM Query API,
-       see Making Query Requests in the Using IAM guide. IAM supports GET  and
+       NOTE:
+	  AWS provides SDKs that consist of libraries and sample code for var-
+	  ious programming languages and platforms (Java, Ruby, .NET, iOS, An-
+	  droid,  etc.).  The SDKs provide a convenient way to create program-
+	  matic access to IAM and AWS. For example,  the  SDKs	take  care  of
+	  tasks such as cryptographically signing requests (see below), manag-
+	  ing errors, and retrying  requests  automatically.  For  information
+	  about  the AWS SDKs, including how to download and install them, see
+	  the Tools for Amazon Web Services page.
+
+       We recommend that you use the AWS SDKs to make programmatic  API  calls
+       to  IAM.  However,  you	can  also use the IAM Query API to make direct
+       calls to the IAM web service. To learn more about the  IAM  Query  API,
+       see  Making Query Requests in the Using IAM guide. IAM supports GET and
        POST requests for all actions. That is, the API does not require you to
        use GET for some actions and POST for others. However, GET requests are
        subject to the limitation size of a URL. Therefore, for operations that
@@ -24,41 +34,41 @@ DESCRIPTION
        Signing Requests
 
        Requests must be signed using an access key ID and a secret access key.
-       We  strongly  recommend that you do not use your AWS account access key
-       ID and secret access key for everyday work with IAM. You  can  use  the
-       access  key ID and secret access key for an IAM user or you can use the
-       AWS Security Token Service to generate temporary  security  credentials
+       We strongly recommend that you do not use your AWS account  access  key
+       ID  and	secret	access key for everyday work with IAM. You can use the
+       access key ID and secret access key for an IAM user or you can use  the
+       AWS  Security  Token Service to generate temporary security credentials
        and use those to sign requests.
 
-       To  sign  requests,  we recommend that you use Signature Version 4 . If
-       you have an existing application that uses Signature Version 2, you  do
-       not  have to update it to use Signature Version 4. However, some opera-
+       To sign requests, we recommend that you use Signature Version  4  .  If
+       you  have an existing application that uses Signature Version 2, you do
+       not have to update it to use Signature Version 4. However, some	opera-
        tions now require Signature Version 4. The documentation for operations
        that require version 4 indicate this requirement.
 
        Recording API requests
 
-       IAM  supports AWS CloudTrail, which is a service that records AWS calls
-       for your AWS account and delivers log files to an Amazon S3 bucket.  By
-       using  information  collected by CloudTrail, you can determine what re-
+       IAM supports AWS CloudTrail, which is a service that records AWS  calls
+       for  your AWS account and delivers log files to an Amazon S3 bucket. By
+       using information collected by CloudTrail, you can determine  what  re-
        quests were successfully made to IAM, who made the request, when it was
-       made,  and so on. To learn more about CloudTrail, including how to turn
+       made, and so on. To learn more about CloudTrail, including how to  turn
        it on and find your log files, see the AWS CloudTrail User Guide .
 
        Additional Resources
 
        For more information, see the following:
 
-       o AWS Security Credentials . This topic	provides  general  information
+       o AWS  Security	Credentials  . This topic provides general information
 	 about the types of credentials used for accessing AWS.
 
-       o IAM  Best  Practices  . This topic presents a list of suggestions for
+       o IAM Best Practices . This topic presents a list  of  suggestions  for
 	 using the IAM service to help secure your AWS resources.
 
-       o AWS Security Token Service . This guide describes how to  create  and
+       o AWS  Security	Token Service . This guide describes how to create and
 	 use temporary security credentials.
 
-       o Signing  AWS  API  Requests . This set of topics walk you through the
+       o Signing AWS API Requests . This set of topics walk  you  through  the
 	 process of signing a request using an access key ID and secret access
 	 key.
 
@@ -128,6 +138,8 @@ AVAILABLE COMMANDS
        o enable-mfa-device
 
        o generate-credential-report
+
+       o get-account-authorization-details
 
        o get-account-password-policy
 

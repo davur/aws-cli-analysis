@@ -91,9 +91,13 @@ AVAILABLE SERVICES
 
        o cognito-sync
 
+       o configservice
+
        o configure
 
        o datapipeline
+
+       o deploy
 
        o directconnect
 
@@ -118,6 +122,10 @@ AVAILABLE SERVICES
        o importexport
 
        o kinesis
+
+       o kms
+
+       o lambda
 
        o logs
 

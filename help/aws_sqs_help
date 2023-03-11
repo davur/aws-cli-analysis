@@ -25,6 +25,8 @@ DESCRIPTION
 
        o Amazon SQS product page
 
+       o Using Amazon SQS Message Attributes
+
        o Using Amazon SQS Dead Letter Queues
 
        o Regions and Endpoints
@@ -65,6 +67,8 @@ AVAILABLE COMMANDS
        o list-dead-letter-source-queues
 
        o list-queues
+
+       o purge-queue
 
        o receive-message
 
