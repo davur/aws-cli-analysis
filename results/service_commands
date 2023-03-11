@@ -694,6 +694,7 @@ dynamodbstreams get-records
 dynamodbstreams get-shard-iterator
 dynamodbstreams help
 dynamodbstreams list-streams
+ec2 accept-reserved-instances-exchange-quote
 ec2 accept-vpc-peering-connection
 ec2 allocate-address
 ec2 allocate-hosts
@@ -853,6 +854,7 @@ ec2 get-console-output
 ec2 get-console-screenshot
 ec2 get-host-reservation-purchase-preview
 ec2 get-password-data
+ec2 get-reserved-instances-exchange-quote
 ec2 help
 ec2 import-image
 ec2 import-key-pair
