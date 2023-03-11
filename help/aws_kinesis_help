@@ -14,6 +14,8 @@ AVAILABLE COMMANDS
 
        o create-stream
 
+       o decrease-stream-retention-period
+
        o delete-stream
 
        o describe-stream
@@ -23,6 +25,8 @@ AVAILABLE COMMANDS
        o get-shard-iterator
 
        o help
+
+       o increase-stream-retention-period
 
        o list-streams
 

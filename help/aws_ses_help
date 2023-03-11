@@ -15,9 +15,29 @@ DESCRIPTION
 	  Regions and Amazon SES in the Amazon SES Developer Guide.
 
 AVAILABLE COMMANDS
+       o clone-receipt-rule-set
+
+       o create-receipt-filter
+
+       o create-receipt-rule
+
+       o create-receipt-rule-set
+
        o delete-identity
 
        o delete-identity-policy
+
+       o delete-receipt-filter
+
+       o delete-receipt-rule
+
+       o delete-receipt-rule-set
+
+       o describe-active-receipt-rule-set
+
+       o describe-receipt-rule
+
+       o describe-receipt-rule-set
 
        o get-identity-dkim-attributes
 
@@ -37,17 +57,31 @@ AVAILABLE COMMANDS
 
        o list-identity-policies
 
+       o list-receipt-filters
+
+       o list-receipt-rule-sets
+
        o put-identity-policy
+
+       o reorder-receipt-rule-set
+
+       o send-bounce
 
        o send-email
 
        o send-raw-email
+
+       o set-active-receipt-rule-set
 
        o set-identity-dkim-enabled
 
        o set-identity-feedback-forwarding-enabled
 
        o set-identity-notification-topic
+
+       o set-receipt-rule-position
+
+       o update-receipt-rule
 
        o verify-domain-dkim
 

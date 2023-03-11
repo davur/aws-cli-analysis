@@ -45,6 +45,8 @@ AVAILABLE COMMANDS
 
        o list-distributions
 
+       o list-distributions-by-web-acl-id
+
        o list-invalidations
 
        o list-streaming-distributions
@@ -54,6 +56,8 @@ AVAILABLE COMMANDS
        o update-distribution
 
        o update-streaming-distribution
+
+       o wait
 
 
 

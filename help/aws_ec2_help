@@ -312,6 +312,8 @@ AVAILABLE COMMANDS
 
        o modify-snapshot-attribute
 
+       o modify-spot-fleet-request
+
        o modify-subnet-attribute
 
        o modify-volume-attribute

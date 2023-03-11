@@ -6,23 +6,23 @@ NAME
        kms -
 
 DESCRIPTION
-       AWS  Key  Management  Service (KMS) is an encryption and key management
-       web service. This guide describes the KMS actions  that	you  can  call
-       programmatically.  For  general	information about KMS, see the AWS Key
-       Management Service Developer Guide
+       AWS  Key  Management Service (AWS KMS) is an encryption and key manage-
+       ment web service. This guide describes the AWS KMS operations that  you
+       can  call  programmatically. For general information about AWS KMS, see
+       the AWS Key Management Service Developer Guide .
 
        NOTE:
 	  AWS provides SDKs that consist of libraries and sample code for var-
 	  ious programming languages and platforms (Java, Ruby, .Net, iOS, An-
 	  droid, etc.). The SDKs provide a convenient way to  create  program-
-	  matic  access  to  KMS  and  AWS. For example, the SDKs take care of
-	  tasks such as signing requests (see  below),	managing  errors,  and
-	  retrying  requests automatically. For more information about the AWS
-	  SDKs, including how to download and install them, see Tools for Ama-
-	  zon Web Services .
+	  matic  access  to  AWS  KMS and other AWS services. For example, the
+	  SDKs take care of tasks such as signing requests (see below), manag-
+	  ing  errors,	and retrying requests automatically. For more informa-
+	  tion about the AWS SDKs, including how to download and install them,
+	  see Tools for Amazon Web Services .
 
        We  recommend  that you use the AWS SDKs to make programmatic API calls
-       to KMS.
+       to AWS KMS.
 
        Clients must support TLS (Transport Layer Security) 1.0.  We  recommend
        TLS  1.2.  Clients must also support cipher suites with Perfect Forward
@@ -34,35 +34,35 @@ DESCRIPTION
 
        Requests must be signed by using an access key ID and a	secret	access
        key.  We strongly recommend that you do not use your AWS account access
-       key ID and secret key for everyday work with KMS. Instead, use the  ac-
-       cess  key  ID and secret access key for an IAM user, or you can use the
+       key ID and secret key for everyday work with AWS KMS. Instead, use  the
+       access key ID and secret access key for an IAM user, or you can use the
        AWS Security Token Service to generate temporary  security  credentials
        that you can use to sign requests.
 
-       All KMS operations require Signature Version 4 .
+       All AWS KMS operations require Signature Version 4 .
 
-       Recording API Requests
+       Logging API Requests
 
-       KMS  supports  AWS CloudTrail, a service that records AWS API calls and
+       AWS  KMS supports AWS CloudTrail, a service that logs AWS API calls and
        related events for your AWS account and delivers them to an  Amazon  S3
        bucket  that  you specify. By using the information collected by Cloud-
-       Trail, you can determine what requests were made to KMS, who  made  the
-       request,  when  it was made, and so on. To learn more about CloudTrail,
-       including how to turn it on and find your log files, see the AWS Cloud-
-       Trail User Guide
+       Trail, you can determine what requests were made to AWS KMS,  who  made
+       the  request,  when  it was made, and so on. To learn more about Cloud-
+       Trail, including how to turn it on and find your log files, see the AWS
+       CloudTrail User Guide .
 
        Additional Resources
 
        For  more  information  about  credentials and request signing, see the
        following:
 
-       o AWS Security Credentials . This topic	provides  general  information
+       o AWS Security Credentials - This topic	provides  general  information
 	 about the types of credentials used for accessing AWS.
 
-       o AWS  Security	Token Service . This guide describes how to create and
+       o AWS  Security	Token Service - This guide describes how to create and
 	 use temporary security credentials.
 
-       o Signing AWS API Requests . This set of topics walks you  through  the
+       o Signing AWS API Requests - This set of topics walks you  through  the
 	 process  of signing a request using an access key ID and a secret ac-
 	 cess key.
 
@@ -82,6 +82,8 @@ DESCRIPTION
        o generate-data-key-without-plaintext
 
 AVAILABLE COMMANDS
+       o cancel-key-deletion
+
        o create-alias
 
        o create-grant
@@ -124,6 +126,8 @@ AVAILABLE COMMANDS
 
        o list-keys
 
+       o list-retirable-grants
+
        o put-key-policy
 
        o re-encrypt
@@ -131,6 +135,8 @@ AVAILABLE COMMANDS
        o retire-grant
 
        o revoke-grant
+
+       o schedule-key-deletion
 
        o update-alias
 

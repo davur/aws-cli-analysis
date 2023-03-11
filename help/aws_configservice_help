@@ -31,9 +31,19 @@ DESCRIPTION
        sole, see What Is AWS Config? in the AWS Config Developer Guide .
 
 AVAILABLE COMMANDS
+       o delete-config-rule
+
        o delete-delivery-channel
 
        o deliver-config-snapshot
+
+       o describe-compliance-by-config-rule
+
+       o describe-compliance-by-resource
+
+       o describe-config-rule-evaluation-status
+
+       o describe-config-rules
 
        o describe-configuration-recorder-status
 
@@ -43,6 +53,14 @@ AVAILABLE COMMANDS
 
        o describe-delivery-channels
 
+       o get-compliance-details-by-config-rule
+
+       o get-compliance-details-by-resource
+
+       o get-compliance-summary-by-config-rule
+
+       o get-compliance-summary-by-resource-type
+
        o get-resource-config-history
 
        o get-status
@@ -51,9 +69,13 @@ AVAILABLE COMMANDS
 
        o list-discovered-resources
 
+       o put-config-rule
+
        o put-configuration-recorder
 
        o put-delivery-channel
+
+       o put-evaluations
 
        o start-configuration-recorder
 

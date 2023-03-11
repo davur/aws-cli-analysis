@@ -1,0 +1,42 @@
+ES()									  ES()
+
+
+
+NAME
+       es -
+
+DESCRIPTION
+       Use  the  Amazon  Elasticsearch configuration API to create, configure,
+       and manage Elasticsearch domains.
+
+       The endpoint for configuration  service	requests  is  region-specific:
+       es.*region*  .amazonaws.com.  For  example, es.us-east-1.amazonaws.com.
+       For a current list of supported regions and endpoints, see Regions  and
+       Endpoints .
+
+AVAILABLE COMMANDS
+       o add-tags
+
+       o create-elasticsearch-domain
+
+       o delete-elasticsearch-domain
+
+       o describe-elasticsearch-domain
+
+       o describe-elasticsearch-domain-config
+
+       o describe-elasticsearch-domains
+
+       o help
+
+       o list-domain-names
+
+       o list-tags
+
+       o remove-tags
+
+       o update-elasticsearch-domain-config
+
+
+
+									  ES()
