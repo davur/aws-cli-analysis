@@ -18,7 +18,7 @@ DESCRIPTION
        you already use today with your existing MySQL or Oracle databases work
        with Amazon RDS without modification. Amazon RDS automatically backs up
        your database and maintains the database software that powers  your  DB
-       Instance.  Amazon  RDS  is  flexible:  you  can scale your database in-
+       instance.  Amazon  RDS  is  flexible:  you  can scale your database in-
        stance's compute resources and storage capacity to meet	your  applica-
        tion's  demand.	As with all Amazon Web Services, there are no up-front
        investments, and you pay only for the resources you use.
