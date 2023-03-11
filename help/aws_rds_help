@@ -14,25 +14,41 @@ DESCRIPTION
        plications and businesses unique.
 
        Amazon RDS gives you access to the capabilities of  a  MySQL,  MariaDB,
-       PostgreSQL,  Microsoft  SQL  Server, Oracle, or Aurora database server.
-       This means the code, applications, and tools you already use today with
-       your existing databases work with Amazon RDS without modification. Ama-
-       zon RDS automatically backs up your database and maintains the database
-       software  that powers your DB instance. Amazon RDS is flexible: you can
-       scale your database instance's compute resources and  storage  capacity
-       to  meet  your  application's  demand. As with all Amazon Web Services,
-       there are no up-front investments, and you pay only for	the  resources
-       you use.
+       PostgreSQL,  Microsoft  SQL  Server,  Oracle, or Amazon Aurora database
+       server. These capabilities mean that the code, applications, and  tools
+       you already use today with your existing databases work with Amazon RDS
+       without modification. Amazon RDS automatically backs up	your  database
+       and  maintains the database software that powers your DB instance. Ama-
+       zon RDS is flexible: you can scale your database instance's compute re-
+       sources and storage capacity to meet your application's demand. As with
+       all Amazon Web Services, there are no up-front investments, and you pay
+       only for the resources you use.
 
-       This  is  an interface reference for Amazon RDS. It contains documenta-
-       tion for a programming or command line interface you can use to	manage
-       Amazon RDS. Note that Amazon RDS is asynchronous, which means that some
-       interfaces might require techniques such as polling or  callback  func-
-       tions  to determine when a command has been applied. In this reference,
-       the parameter descriptions indicate whether a command is applied  imme-
-       diately, on the next instance reboot, or during the maintenance window.
-       For a summary of the Amazon RDS interfaces, go to Available RDS	Inter-
-       faces .
+       This  interface	reference  for Amazon RDS contains documentation for a
+       programming or command line interface you can use to manage Amazon RDS.
+       Note  that Amazon RDS is asynchronous, which means that some interfaces
+       might require techniques such as polling or callback functions  to  de-
+       termine when a command has been applied. In this reference, the parame-
+       ter descriptions indicate whether a command is applied immediately,  on
+       the  next instance reboot, or during the maintenance window. The refer-
+       ence structure is as follows, and we list following some related topics
+       from the user guide.
+	  Amazon RDS API Reference
+
+       o For the alphabetical list of API actions, see API Actions .
+
+       o For the alphabetical list of data types, see Data Types .
+
+       o For a list of common query parameters, see Common Parameters .
+
+       o For descriptions of the error codes, see Common Errors .
+	  Amazon RDS User Guide
+
+       o For  a summary of the Amazon RDS interfaces, see Available RDS Inter-
+	 faces .
+
+       o For more information about how to use the Query API,  see  Using  the
+	 Query API .
 
 AVAILABLE COMMANDS
        o add-option-to-option-group
@@ -44,6 +60,8 @@ AVAILABLE COMMANDS
        o apply-pending-maintenance-action
 
        o authorize-db-security-group-ingress
+
+       o copy-db-cluster-parameter-group
 
        o copy-db-cluster-snapshot
 
@@ -103,6 +121,8 @@ AVAILABLE COMMANDS
 
        o describe-db-cluster-parameters
 
+       o describe-db-cluster-snapshot-attributes
+
        o describe-db-cluster-snapshots
 
        o describe-db-clusters
@@ -147,6 +167,8 @@ AVAILABLE COMMANDS
 
        o describe-reserved-db-instances-offerings
 
+       o describe-source-regions
+
        o download-db-log-file-portion
 
        o failover-db-cluster
@@ -159,6 +181,8 @@ AVAILABLE COMMANDS
 
        o modify-db-cluster-parameter-group
 
+       o modify-db-cluster-snapshot-attribute
+
        o modify-db-instance
 
        o modify-db-parameter-group
@@ -170,6 +194,8 @@ AVAILABLE COMMANDS
        o modify-event-subscription
 
        o promote-read-replica
+
+       o promote-read-replica-db-cluster
 
        o purchase-reserved-db-instances-offering
 
@@ -184,6 +210,8 @@ AVAILABLE COMMANDS
        o reset-db-cluster-parameter-group
 
        o reset-db-parameter-group
+
+       o restore-db-cluster-from-s3
 
        o restore-db-cluster-from-snapshot
 

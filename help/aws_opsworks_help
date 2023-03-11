@@ -7,7 +7,7 @@ NAME
 
 DESCRIPTION
        Welcome	to  the  AWS  OpsWorks API Reference . This guide provides de-
-       scriptions, syntax, and usage examples about AWS OpsWorks  actions  and
+       scriptions, syntax, and usage examples for  AWS	OpsWorks  actions  and
        data types, including common parameters and error codes.
 
        AWS  OpsWorks is an application management service that provides an in-
@@ -36,16 +36,38 @@ DESCRIPTION
        o AWS SDK for Python(Boto)
 	  Endpoints
 
-       AWS  OpsWorks  supports	only  one endpoint, opsworks.us-east-1.amazon-
-       aws.com (HTTPS), so you must connect to that endpoint. You can then use
-       the API to direct AWS OpsWorks to create stacks in any AWS Region.
+       AWS OpsWorks supports the following endpoints, all HTTPS. You must con-
+       nect to one of the following endpoints. Stacks can only be accessed  or
+       managed within the endpoint in which they are created.
+
+       o opsworks.us-east-1.amazonaws.com
+
+       o opsworks.us-west-1.amazonaws.com
+
+       o opsworks.us-west-2.amazonaws.com
+
+       o opsworks.eu-west-1.amazonaws.com
+
+       o opsworks.eu-central-1.amazonaws.com
+
+       o opsworks.ap-northeast-1.amazonaws.com
+
+       o opsworks.ap-northeast-2.amazonaws.com
+
+       o opsworks.ap-south-1.amazonaws.com
+
+       o opsworks.ap-southeast-1.amazonaws.com
+
+       o opsworks.ap-southeast-2.amazonaws.com
+
+       o opsworks.sa-east-1.amazonaws.com
 	  Chef Versions
 
        When you call  create-stack ,  clone-stack , or	update-stack we recom-
        mend you use the ConfigurationManager parameter	to  specify  the  Chef
-       version.  The  recommended  value for Linux stacks is currently 12 (the
-       default is 11.4). Windows stacks use Chef 12.2. For  more  information,
-       see Chef Versions .
+       version.  The  recommended  and	default value for Linux stacks is cur-
+       rently 12. Windows stacks use Chef 12.2. For more information, see Chef
+       Versions .
 
        NOTE:
 	  You  can  specify  Chef  12, 11.10, or 11.4 for your Linux stack. We
@@ -196,6 +218,8 @@ AVAILABLE COMMANDS
        o update-user-profile
 
        o update-volume
+
+       o wait
 
 
 

@@ -97,6 +97,8 @@ AVAILABLE SERVICES
 
        o apigateway
 
+       o application-autoscaling
+
        o autoscaling
 
        o cloudformation
@@ -119,6 +121,8 @@ AVAILABLE SERVICES
 
        o cognito-identity
 
+       o cognito-idp
+
        o cognito-sync
 
        o configservice
@@ -132,6 +136,10 @@ AVAILABLE SERVICES
        o devicefarm
 
        o directconnect
+
+       o discovery
+
+       o dms
 
        o ds
 
@@ -155,6 +163,8 @@ AVAILABLE SERVICES
 
        o elb
 
+       o elbv2
+
        o emr
 
        o es
@@ -162,6 +172,8 @@ AVAILABLE SERVICES
        o events
 
        o firehose
+
+       o gamelift
 
        o glacier
 
@@ -179,6 +191,8 @@ AVAILABLE SERVICES
 
        o kinesis
 
+       o kinesisanalytics
+
        o kms
 
        o lambda
@@ -188,6 +202,8 @@ AVAILABLE SERVICES
        o machinelearning
 
        o marketplacecommerceanalytics
+
+       o meteringmarketplace
 
        o opsworks
 
@@ -205,7 +221,11 @@ AVAILABLE SERVICES
 
        o sdb
 
+       o servicecatalog
+
        o ses
+
+       o snowball
 
        o sns
 

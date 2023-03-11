@@ -29,19 +29,17 @@ DESCRIPTION
        Secrecy (PFS) such as Ephemeral Diffie-Hellman (DHE) or Elliptic  Curve
        Ephemeral  Diffie-Hellman  (ECDHE).  Most modern systems such as Java 7
        and later support these modes.
-
-       Signing Requests
+	  Signing Requests
 
        Requests must be signed by using an access key ID and a	secret	access
-       key.  We strongly recommend that you do not use your AWS account access
-       key ID and secret key for everyday work with AWS KMS. Instead, use  the
-       access key ID and secret access key for an IAM user, or you can use the
-       AWS Security Token Service to generate temporary  security  credentials
-       that you can use to sign requests.
+       key.  We strongly recommend that you do not use your AWS account (root)
+       access key ID and secret key for everyday work with AWS	KMS.  Instead,
+       use the access key ID and secret access key for an IAM user, or you can
+       use the AWS Security Token Service to generate temporary security  cre-
+       dentials that you can use to sign requests.
 
        All AWS KMS operations require Signature Version 4 .
-
-       Logging API Requests
+	  Logging API Requests
 
        AWS  KMS supports AWS CloudTrail, a service that logs AWS API calls and
        related events for your AWS account and delivers them to an  Amazon  S3
@@ -50,8 +48,7 @@ DESCRIPTION
        the  request,  when  it was made, and so on. To learn more about Cloud-
        Trail, including how to turn it on and find your log files, see the AWS
        CloudTrail User Guide .
-
-       Additional Resources
+	  Additional Resources
 
        For  more  information  about  credentials and request signing, see the
        following:
@@ -59,14 +56,13 @@ DESCRIPTION
        o AWS Security Credentials - This topic	provides  general  information
 	 about the types of credentials used for accessing AWS.
 
-       o AWS  Security	Token Service - This guide describes how to create and
-	 use temporary security credentials.
+       o Temporary  Security  Credentials - This section of the IAM User Guide
+	 describes how to create and use temporary security credentials.
 
-       o Signing AWS API Requests - This set of topics walks you  through  the
-	 process  of signing a request using an access key ID and a secret ac-
-	 cess key.
-
-       Commonly Used APIs
+       o Signature Version 4 Signing Process - This set of  topics  walks  you
+	 through the process of signing a request using an access key ID and a
+	 secret access key.
+	  Commonly Used APIs
 
        Of the APIs discussed in this guide, the following will prove the  most
        useful  for  most  applications.  You will likely perform actions other
@@ -94,6 +90,8 @@ AVAILABLE COMMANDS
 
        o delete-alias
 
+       o delete-imported-key-material
+
        o describe-key
 
        o disable-key
@@ -116,7 +114,11 @@ AVAILABLE COMMANDS
 
        o get-key-rotation-status
 
+       o get-parameters-for-import
+
        o help
+
+       o import-key-material
 
        o list-aliases
 

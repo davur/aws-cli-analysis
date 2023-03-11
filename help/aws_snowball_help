@@ -1,0 +1,38 @@
+SNOWBALL()							    SNOWBALL()
+
+
+
+NAME
+       snowball -
+
+DESCRIPTION
+       This is a test of the welcome page front matter.
+
+AVAILABLE COMMANDS
+       o cancel-job
+
+       o create-address
+
+       o create-job
+
+       o describe-address
+
+       o describe-addresses
+
+       o describe-job
+
+       o get-job-manifest
+
+       o get-job-unlock-code
+
+       o get-snowball-usage
+
+       o help
+
+       o list-jobs
+
+       o update-job
+
+
+
+								    SNOWBALL()

@@ -1,0 +1,51 @@
+SERVICECATALOG()					      SERVICECATALOG()
+
+
+
+NAME
+       servicecatalog -
+
+DESCRIPTION
+	  Overview
+
+	  AWS  Service Catalog allows organizations to create and manage cata-
+	  logs of IT services that are approved for use on AWS. This  documen-
+	  tation  provides  reference material for the AWS Service Catalog end
+	  user API. To get the most out of this documentation, you need to  be
+	  familiar  with the terminology discussed in AWS Service Catalog Con-
+	  cepts .
+
+	  Additional Resources
+
+       o AWS Service Catalog Administrator Guide
+
+       o AWS Service Catalog User Guide
+
+AVAILABLE COMMANDS
+       o describe-product
+
+       o describe-product-view
+
+       o describe-provisioning-parameters
+
+       o describe-record
+
+       o help
+
+       o list-launch-paths
+
+       o list-record-history
+
+       o provision-product
+
+       o scan-provisioned-products
+
+       o search-products
+
+       o terminate-provisioned-product
+
+       o update-provisioned-product
+
+
+
+							      SERVICECATALOG()

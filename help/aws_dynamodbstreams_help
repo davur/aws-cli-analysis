@@ -6,30 +6,23 @@ NAME
        dynamodbstreams -
 
 DESCRIPTION
-       This is the Amazon DynamoDB Streams API Reference. This guide describes
-       the low-level API actions for accessing streams and  processing	stream
-       records.  For  information  about application development with DynamoDB
-       Streams, see the Amazon DynamoDB Developer Guide .
-
-       Note that this document is intended for use with the following DynamoDB
-       documentation:
-
-       o Amazon DynamoDB Developer Guide
-
-       o Amazon DynamoDB API Reference
+       Amazon  DynamoDB Streams provides API actions for accessing streams and
+       processing stream records. To learn more about application  development
+       with Streams, see Capturing Table Activity with DynamoDB Streams in the
+       Amazon DynamoDB Developer Guide.
 
        The following are short descriptions of each low-level DynamoDB Streams
-       API action, organized by function.
+       action:
 
-       o describe-stream - Returns detailed  information  about  a  particular
+       o describe-stream  -  Returns  detailed	information about a particular
 	 stream.
 
        o get-records - Retrieves the stream records from within a shard.
 
-       o get-shard-iterator  -	Returns  information  on  how  to retrieve the
+       o get-shard-iterator - Returns  information  on	how  to  retrieve  the
 	 streams record from a shard with a given shard ID.
 
-       o list-streams - Returns a list of all the streams associated with  the
+       o list-streams  - Returns a list of all the streams associated with the
 	 current AWS account and endpoint.
 
 AVAILABLE COMMANDS

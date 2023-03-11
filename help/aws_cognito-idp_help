@@ -1,0 +1,133 @@
+COGNITO-IDP()							 COGNITO-IDP()
+
+
+
+NAME
+       cognito-idp -
+
+DESCRIPTION
+       You  can create a user pool in Amazon Cognito Identity to manage direc-
+       tories and users. You can authenticate a user to obtain tokens  related
+       to user identity and access policies.
+
+       This API reference provides information about user pools in Amazon Cog-
+       nito Identity.
+
+       For more information, see Amazon Cognito .
+
+AVAILABLE COMMANDS
+       o add-custom-attributes
+
+       o admin-confirm-sign-up
+
+       o admin-delete-user
+
+       o admin-delete-user-attributes
+
+       o admin-disable-user
+
+       o admin-enable-user
+
+       o admin-forget-device
+
+       o admin-get-device
+
+       o admin-get-user
+
+       o admin-initiate-auth
+
+       o admin-list-devices
+
+       o admin-reset-user-password
+
+       o admin-respond-to-auth-challenge
+
+       o admin-set-user-settings
+
+       o admin-update-device-status
+
+       o admin-update-user-attributes
+
+       o admin-user-global-sign-out
+
+       o change-password
+
+       o confirm-device
+
+       o confirm-forgot-password
+
+       o confirm-sign-up
+
+       o create-user-import-job
+
+       o create-user-pool
+
+       o create-user-pool-client
+
+       o delete-user
+
+       o delete-user-attributes
+
+       o delete-user-pool
+
+       o delete-user-pool-client
+
+       o describe-user-import-job
+
+       o describe-user-pool
+
+       o describe-user-pool-client
+
+       o forget-device
+
+       o forgot-password
+
+       o get-csv-header
+
+       o get-device
+
+       o get-user
+
+       o get-user-attribute-verification-code
+
+       o global-sign-out
+
+       o help
+
+       o initiate-auth
+
+       o list-devices
+
+       o list-user-import-jobs
+
+       o list-user-pool-clients
+
+       o list-user-pools
+
+       o list-users
+
+       o resend-confirmation-code
+
+       o respond-to-auth-challenge
+
+       o set-user-settings
+
+       o sign-up
+
+       o start-user-import-job
+
+       o stop-user-import-job
+
+       o update-device-status
+
+       o update-user-attributes
+
+       o update-user-pool
+
+       o update-user-pool-client
+
+       o verify-user-attribute
+
+
+
+								 COGNITO-IDP()

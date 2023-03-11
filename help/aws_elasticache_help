@@ -76,6 +76,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-allowed-node-type-modifications
+
        o list-tags-for-resource
 
        o modify-cache-cluster

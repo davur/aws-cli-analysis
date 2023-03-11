@@ -41,6 +41,8 @@ AVAILABLE COMMANDS
 
        o get-identity-dkim-attributes
 
+       o get-identity-mail-from-domain-attributes
+
        o get-identity-notification-attributes
 
        o get-identity-policies
@@ -76,6 +78,10 @@ AVAILABLE COMMANDS
        o set-identity-dkim-enabled
 
        o set-identity-feedback-forwarding-enabled
+
+       o set-identity-headers-in-notifications-enabled
+
+       o set-identity-mail-from-domain
 
        o set-identity-notification-topic
 

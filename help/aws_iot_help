@@ -35,7 +35,11 @@ AVAILABLE COMMANDS
 
        o create-thing
 
+       o create-thing-type
+
        o create-topic-rule
+
+       o delete-ca-certificate
 
        o delete-certificate
 
@@ -43,15 +47,25 @@ AVAILABLE COMMANDS
 
        o delete-policy-version
 
+       o delete-registration-code
+
        o delete-thing
 
+       o delete-thing-type
+
        o delete-topic-rule
+
+       o deprecate-thing-type
+
+       o describe-ca-certificate
 
        o describe-certificate
 
        o describe-endpoint
 
        o describe-thing
+
+       o describe-thing-type
 
        o detach-principal-policy
 
@@ -67,13 +81,23 @@ AVAILABLE COMMANDS
 
        o get-policy-version
 
+       o get-registration-code
+
        o get-topic-rule
 
        o help
 
+       o list-ca-certificates
+
        o list-certificates
 
+       o list-certificates-by-ca
+
+       o list-outgoing-certificates
+
        o list-policies
+
+       o list-policy-principals
 
        o list-policy-versions
 
@@ -83,9 +107,15 @@ AVAILABLE COMMANDS
 
        o list-thing-principals
 
+       o list-thing-types
+
        o list-things
 
        o list-topic-rules
+
+       o register-ca-certificate
+
+       o register-certificate
 
        o reject-certificate-transfer
 
@@ -96,6 +126,8 @@ AVAILABLE COMMANDS
        o set-logging-options
 
        o transfer-certificate
+
+       o update-ca-certificate
 
        o update-certificate
 

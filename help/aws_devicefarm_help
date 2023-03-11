@@ -15,11 +15,15 @@ AVAILABLE COMMANDS
 
        o create-project
 
+       o create-remote-access-session
+
        o create-upload
 
        o delete-device-pool
 
        o delete-project
+
+       o delete-remote-access-session
 
        o delete-run
 
@@ -35,7 +39,11 @@ AVAILABLE COMMANDS
 
        o get-job
 
+       o get-offering-status
+
        o get-project
+
+       o get-remote-access-session
 
        o get-run
 
@@ -47,6 +55,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o install-to-remote-access-session
+
        o list-artifacts
 
        o list-device-pools
@@ -55,7 +65,13 @@ AVAILABLE COMMANDS
 
        o list-jobs
 
+       o list-offering-transactions
+
+       o list-offerings
+
        o list-projects
+
+       o list-remote-access-sessions
 
        o list-runs
 
@@ -69,7 +85,15 @@ AVAILABLE COMMANDS
 
        o list-uploads
 
+       o purchase-offering
+
+       o renew-offering
+
        o schedule-run
+
+       o stop-remote-access-session
+
+       o stop-run
 
        o update-device-pool
 

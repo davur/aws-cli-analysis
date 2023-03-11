@@ -6,12 +6,24 @@ NAME
        dynamodb -
 
 DESCRIPTION
-	  Overview
-
        This is the Amazon DynamoDB API Reference. This guide provides descrip-
-       tions and samples of the low-level DynamoDB API. For information  about
-       DynamoDB  application  development,  see  the Amazon DynamoDB Developer
-       Guide .
+       tions of the low-level DynamoDB API.
+
+       This guide is intended for use with the following  DynamoDB  documenta-
+       tion:
+
+       o Amazon  DynamoDB  Getting Started Guide - provides hands-on exercises
+	 that help you learn the basics of working with DynamoDB. If  you  are
+	 new to DynamoDB, we recommend that you begin with the Getting Started
+	 Guide.
+
+       o Amazon DynamoDB Developer Guide - contains detailed information about
+	 DynamoDB concepts, usage, and best practices.
+
+       o Amazon  DynamoDB  Streams  API  Reference - provides descriptions and
+	 samples of the DynamoDB  Streams  API.  (For  more  information,  see
+	 Capturing Table Activity with DynamoDB Streams in the Amazon DynamoDB
+	 Developer Guide.)
 
        Instead of making the requests to the low-level DynamoDB  API  directly
        from  your  application, we recommend that you use the AWS Software De-
@@ -19,7 +31,7 @@ DESCRIPTION
        it  unnecessary	to  call the low-level DynamoDB API directly from your
        application. The libraries take care of request authentication, serial-
        ization, and connection management. For more information, see Using the
-       AWS SDKs with DynamoDB in the Amazon DynamoDB Developer Guide .
+       AWS SDKs with DynamoDB in the Amazon DynamoDB Developer Guide.
 
        If you decide to code against the low-level DynamoDB API directly,  you
        will  need  to  write the necessary code to authenticate your requests.
@@ -31,78 +43,77 @@ DESCRIPTION
 	  Managing Tables
 
        o create-table  -  Creates  a  table  with  user-specified  provisioned
-	 throughput  settings.	You  must  designate one attribute as the hash
-	 primary key for the table; you can optionally designate a second  at-
-	 tribute  as  the range primary key. DynamoDB creates indexes on these
-	 key attributes for fast data access. Optionally, you can  create  one
-	 or  more  secondary  indexes,	which  provide	fast data access using
-	 non-key attributes.
+	 throughput  settings.	You  must define a primary key for the table -
+	 either a simple primary key (partition key), or a  composite  primary
+	 key  (partition  key and sort key). Optionally, you can create one or
+	 more secondary indexes, which provide fast data access using  non-key
+	 attributes.
 
-       o describe-table - Returns metadata for a table, such  as  table  size,
+       o describe-table  -  Returns  metadata for a table, such as table size,
 	 status, and index information.
 
        o update-table - Modifies the provisioned throughput settings for a ta-
-	 ble. Optionally, you can modify the provisioned  throughput  settings
+	 ble.  Optionally,  you can modify the provisioned throughput settings
 	 for global secondary indexes on the table.
 
-       o list-tables  -  Returns a list of all tables associated with the cur-
+       o list-tables - Returns a list of all tables associated with  the  cur-
 	 rent AWS account and endpoint.
 
        o delete-table - Deletes a table and all of its indexes.
 
-       For conceptual information about managing tables, see Working with  Ta-
+       For  conceptual information about managing tables, see Working with Ta-
        bles in the Amazon DynamoDB Developer Guide .
 	  Reading Data
 
-       o get-item  - Returns a set of attributes for the item that has a given
-	 primary key. By default, get-item performs an	eventually  consistent
-	 read;	however,  applications	can request a strongly consistent read
+       o get-item - Returns a set of attributes for the item that has a  given
+	 primary  key.	By default, get-item performs an eventually consistent
+	 read; however, applications can request a  strongly  consistent  read
 	 instead.
 
-       o batch-get-item - Performs multiple get-item requests for  data  items
-	 using	their primary keys, from one table or multiple tables. The re-
-	 sponse from batch-get-item has a size limit of 16 MB  and  returns  a
+       o batch-get-item  -  Performs multiple get-item requests for data items
+	 using their primary keys, from one table or multiple tables. The  re-
+	 sponse  from  batch-get-item  has a size limit of 16 MB and returns a
 	 maximum of 100 items. Both eventually consistent and strongly consis-
 	 tent reads can be used.
 
-       o query - Returns one or more items from a table or a secondary	index.
-	 You  must provide a specific hash key value. You can narrow the scope
-	 of the query using comparison operators against a range key value, or
-	 on  the  index  key. query supports either eventual or strong consis-
-	 tency. A single response has a size limit of 1 MB.
+       o query	- Returns one or more items from a table or a secondary index.
+	 You must provide a specific value for the partition key. You can nar-
+	 row  the scope of the query using comparison operators against a sort
+	 key value, or on the index key. query	supports  either  eventual  or
+	 strong consistency. A single response has a size limit of 1 MB.
 
        o scan - Reads every item in a table; the result set is eventually con-
-	 sistent.  You can limit the number of items returned by filtering the
-	 data attributes, using conditional expressions. scan can be  used  to
-	 enable  ad-hoc  querying  of a table against non-key attributes; how-
-	 ever, since this is a full table scan without using  an  index,  scan
-	 should  not  be used for any application query use case that requires
+	 sistent. You can limit the number of items returned by filtering  the
+	 data  attributes,  using conditional expressions. scan can be used to
+	 enable ad-hoc querying of a table against  non-key  attributes;  how-
+	 ever,	since  this  is a full table scan without using an index, scan
+	 should not be used for any application query use case	that  requires
 	 predictable performance.
 
-       For conceptual information about reading data, see Working  with  Items
+       For  conceptual	information about reading data, see Working with Items
        and query and scan Operations in the Amazon DynamoDB Developer Guide .
 	  Modifying Data
 
-       o put-item  -  Creates  a new item, or replaces an existing item with a
-	 new item (including all the attributes). By default, if  an  item  in
+       o put-item - Creates a new item, or replaces an existing  item  with  a
+	 new  item  (including	all the attributes). By default, if an item in
 	 the table already exists with the same primary key, the new item com-
 	 pletely replaces the existing item. You can use conditional operators
-	 to  replace an item only if its attribute values match certain condi-
-	 tions, or to insert a new item only if that item doesn't already  ex-
+	 to replace an item only if its attribute values match certain	condi-
+	 tions,  or to insert a new item only if that item doesn't already ex-
 	 ist.
 
-       o update-item  -  Modifies  the attributes of an existing item. You can
-	 also use conditional operators to  perform  an  update  only  if  the
+       o update-item - Modifies the attributes of an existing  item.  You  can
+	 also  use  conditional  operators  to	perform  an update only if the
 	 item's attribute values match certain conditions.
 
-       o delete-item  - Deletes an item in a table by primary key. You can use
-	 conditional operators to perform a delete an item only if the	item's
+       o delete-item - Deletes an item in a table by primary key. You can  use
+	 conditional  operators to perform a delete an item only if the item's
 	 attribute values match certain conditions.
 
-       o batch-write-item  -  Performs	multiple  put-item and delete-item re-
-	 quests across multiple tables in a single request. A failure  of  any
-	 request(s)  in  the  batch will not cause the entire batch-write-item
-	 operation to fail. Supports batches of up  to	25  items  to  put  or
+       o batch-write-item - Performs multiple  put-item  and  delete-item  re-
+	 quests  across  multiple tables in a single request. A failure of any
+	 request(s) in the batch will not cause  the  entire  batch-write-item
+	 operation  to	fail.  Supports  batches  of  up to 25 items to put or
 	 delete, with a maximum total request size of 16 MB.
 
        For conceptual information about modifying data, see Working with Items
@@ -118,6 +129,8 @@ AVAILABLE COMMANDS
        o delete-item
 
        o delete-table
+
+       o describe-limits
 
        o describe-table
 

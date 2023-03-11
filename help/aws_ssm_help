@@ -6,18 +6,34 @@ NAME
        ssm -
 
 DESCRIPTION
-       Simple Systems Manager (SSM) enables you to remotely manage the config-
-       uration of your Amazon EC2 instance. Using SSM, you can run scripts  or
-       commands  using	either	EC2  Run Command or SSM Config. (SSM Config is
-       currently available only for Windows instances.)
+       Amazon  EC2 Simple Systems Manager (SSM) enables you to remotely manage
+       the configuration of your Amazon EC2 instances, virtual machines (VMs),
+       or  servers  in	your on-premises environment or in an environment pro-
+       vided by other cloud providers using scripts, commands, or  the	Amazon
+       EC2  console.  SSM includes an on-demand solution called Amazon EC2 Run
+       Command and a lightweight instance configuration  solution  called  SSM
+       Config .
+
+       This  references  is  intended to be used with the EC2 Run Command User
+       Guide for Linux or Windows .
+
+       NOTE:
+	      You must register your on-premises servers and  VMs  through  an
+	      activation  process before you can configure them using Run Com-
+	      mand. Registered servers and VMs are called managed instances  .
+	      For  more information, see Setting Up Run Command On Managed In-
+	      stances (On-Premises Servers and VMs) on Linux or Setting Up Run
+	      Command  On  Managed  Instances (On-Premises Servers and VMs) on
+	      Windows .
+
 	  Run Command
 
        Run Command provides an on-demand experience  for  executing  commands.
-       You  can  use  pre-defined  Amazon SSM documents to perform the actions
-       listed later in this section, or you can  create  your  own  documents.
-       With  these  documents,	you  can  remotely configure your instances by
-       sending commands using the Commands page in the Amazon  EC2  console  ,
-       AWS Tools for Windows PowerShell , or the AWS CLI .
+       You  can  use  pre-defined  SSM documents to perform the actions listed
+       later in this section, or you can create your own documents. With these
+       documents,  you	can  remotely configure your instances by sending com-
+       mands using the Commands page in the Amazon EC2 console , AWS Tools for
+       Windows PowerShell , the AWS CLI , or AWS SDKs.
 
        Run  Command  reports  the status of the command execution for each in-
        stance targeted by a command. You can also audit the command  execution
@@ -47,61 +63,40 @@ DESCRIPTION
        stance Configuration .
 
        SSM Config and Run Command include the following pre-defined documents.
-	  Amazon Pre-defined SSM Documents	 Name Description Platform
+	  Linux
 
-       AWS-RunShellScript
+       o AWS-RunShellScript to run shell scripts
 
-       Run shell scripts
+       o AWS-UpdateSSMAgent to update the Amazon SSM agent
+	  Windows
 
-       Linux
+       o AWS-JoinDirectoryServiceDomain to join an AWS Directory
 
-       AWS-UpdateSSMAgent
+       o AWS-RunPowerShellScript to run PowerShell commands or scripts
 
-       Update the Amazon SSM agent
+       o AWS-UpdateEC2Config to update the EC2Config service
 
-       Linux
+       o AWS-ConfigureWindowsUpdate to configure Windows Update settings
 
-       AWS-JoinDirectoryServiceDomain
+       o AWS-InstallApplication  to install, repair, or uninstall software us-
+	 ing an MSI package
 
-       Join an AWS Directory
+       o AWS-InstallPowerShellModule to install PowerShell modules
 
-       Windows
+       o AWS-ConfigureCloudWatch to configure Amazon CloudWatch Logs to  moni-
+	 tor applications and systems
 
-       AWS-RunPowerShellScript
+       o AWS-ListWindowsInventory to collect information about an EC2 instance
+	 running in Windows.
 
-       Run PowerShell commands or scripts
+       o AWS-FindWindowsUpdates to scan an instance and determines  which  up-
+	 dates are missing.
 
-       Windows
+       o AWS-InstallMissingWindowsUpdates  to  install missing updates on your
+	 EC2 instance.
 
-       AWS-UpdateEC2Config
-
-       Update the EC2Config service
-
-       Windows
-
-       AWS-ConfigureWindowsUpdate
-
-       Configure Windows Update settings
-
-       Windows
-
-       AWS-InstallApplication
-
-       Install, repair, or uninstall software using an MSI package
-
-       Windows
-
-       AWS-InstallPowerShellModule
-
-       Install PowerShell modules
-
-       Windows
-
-       AWS-ConfigureCloudWatch
-
-       Configure Amazon CloudWatch Logs to monitor applications and systems
-
-       Windows
+       o AWS-InstallSpecificWindowsUpdates to install one or more specific up-
+	 dates.
 
        WARNING:
 	  The commands or scripts specified in SSM documents run with adminis-
@@ -110,19 +105,30 @@ DESCRIPTION
 	  System account on Windows. If a user has permission to  execute  any
 	  of  the  pre-defined	SSM  documents	(any document that begins with
 	  AWS-) then that user also has administrator access to the  instance.
-	  Delegate access to SSM and Run Command judiciously. This becomes ex-
-	  tremely important if you create your own SSM documents.  Amazon  Web
-	  Services  does  not  provide guidance about how to create secure SSM
-	  documents. You create SSM documents and delegate access to Run  Com-
-	  mand	at  your  own  risk. As a security best practice, we recommend
-	  that you assign access to "AWS-" documents, especially the  AWS-Run-
-	  ShellScript  document on Linux and the AWS-RunPowerShellScript docu-
-	  ment on Windows, to trusted administrators only. You can create  SSM
-	  documents  for specific tasks and delegate access to non-administra-
-	  tors.
+	  Delegate  access to Run Command and SSM Config judiciously. This be-
+	  comes extremely important if you create your own SSM documents. Ama-
+	  zon  Web  Services does not provide guidance about how to create se-
+	  cure SSM documents. You create SSM documents and delegate access  to
+	  Run Command at your own risk. As a security best practice, we recom-
+	  mend that you assign access  to  "AWS-"  documents,  especially  the
+	  AWS-RunShellScript document on Linux and the AWS-RunPowerShellScript
+	  document on Windows, to trusted administrators only. You can	create
+	  SSM documents for specific tasks and delegate access to non-adminis-
+	  trators.
+
+       For information about creating and sharing SSM documents, see the  fol-
+       lowing topics in the SSM User Guide:
+
+       o Creating SSM Documents and Sharing SSM Documents (Linux)
+
+       o Creating SSM Documents and Sharing SSM Documents (Windows)
 
 AVAILABLE COMMANDS
+       o add-tags-to-resource
+
        o cancel-command
+
+       o create-activation
 
        o create-association
 
@@ -130,13 +136,21 @@ AVAILABLE COMMANDS
 
        o create-document
 
+       o delete-activation
+
        o delete-association
 
        o delete-document
 
+       o deregister-managed-instance
+
+       o describe-activations
+
        o describe-association
 
        o describe-document
+
+       o describe-document-permission
 
        o describe-instance-information
 
@@ -152,9 +166,17 @@ AVAILABLE COMMANDS
 
        o list-documents
 
+       o list-tags-for-resource
+
+       o modify-document-permission
+
+       o remove-tags-from-resource
+
        o send-command
 
        o update-association-status
+
+       o update-managed-instance-role
 
 
 

@@ -150,10 +150,10 @@ DESCRIPTION
        Note that, by default, all files are included.  This means that provid-
        ing only an --include filter will not  change  what  files  are	trans-
        ferred.	 --include  will only re-include files that have been excluded
-       from an --exclude filter.  If you want only want to upload files with a
-       particular  extension, you need to first exclude all files, then re-in-
-       clude the files with the particular extension.  This command  will  up-
-       load only files ending with .jpg:
+       from an --exclude filter.  If you only want to upload files with a par-
+       ticular extension, you need to first exclude all files, then re-include
+       the files with the particular extension.  This command will upload only
+       files ending with .jpg:
 
 	  aws s3 cp /tmp/foo/ s3://bucket/ --recursive --exclude "*" --include "*.jpg"
 
@@ -177,6 +177,8 @@ AVAILABLE COMMANDS
        o mb
 
        o mv
+
+       o presign
 
        o rb
 

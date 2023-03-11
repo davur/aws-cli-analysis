@@ -6,84 +6,76 @@ NAME
        inspector -
 
 DESCRIPTION
-       Amazon  Inspector  enables  you to analyze the behavior of the applica-
-       tions you run in AWS and to identify  potential	security  issues.  For
-       more information, see Amazon Inspector User Guide .
+       Amazon  Inspector  enables  you to analyze the behavior of your AWS re-
+       sources and to identify potential security issues.  For	more  informa-
+       tion, see Amazon Inspector User Guide .
 
 AVAILABLE COMMANDS
        o add-attributes-to-findings
 
-       o attach-assessment-and-rules-package
+       o create-assessment-target
 
-       o create-application
-
-       o create-assessment
+       o create-assessment-template
 
        o create-resource-group
 
-       o delete-application
+       o delete-assessment-run
 
-       o delete-assessment
+       o delete-assessment-target
 
-       o delete-run
+       o delete-assessment-template
 
-       o describe-application
+       o describe-assessment-runs
 
-       o describe-assessment
+       o describe-assessment-targets
+
+       o describe-assessment-templates
 
        o describe-cross-account-access-role
 
-       o describe-finding
+       o describe-findings
 
-       o describe-resource-group
+       o describe-resource-groups
 
-       o describe-rules-package
+       o describe-rules-packages
 
-       o describe-run
-
-       o detach-assessment-and-rules-package
-
-       o get-assessment-telemetry
+       o get-telemetry-metadata
 
        o help
 
-       o list-applications
+       o list-assessment-run-agents
 
-       o list-assessment-agents
+       o list-assessment-runs
 
-       o list-assessments
+       o list-assessment-targets
 
-       o list-attached-assessments
+       o list-assessment-templates
 
-       o list-attached-rules-packages
+       o list-event-subscriptions
 
        o list-findings
 
        o list-rules-packages
 
-       o list-runs
-
        o list-tags-for-resource
 
-       o localize-text
-
-       o preview-agents-for-resource-group
+       o preview-agents
 
        o register-cross-account-access-role
 
        o remove-attributes-from-findings
 
-       o run-assessment
-
        o set-tags-for-resource
 
-       o start-data-collection
+       o start-assessment-run
 
-       o stop-data-collection
+       o stop-assessment-run
 
-       o update-application
+       o subscribe-to-event
 
-       o update-assessment
+       o unsubscribe-from-event
+
+       o update-assessment-target
 
 
 

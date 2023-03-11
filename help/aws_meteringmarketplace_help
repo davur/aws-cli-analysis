@@ -1,0 +1,26 @@
+METERINGMARKETPLACE()					 METERINGMARKETPLACE()
+
+
+
+NAME
+       meteringmarketplace -
+
+DESCRIPTION
+       This  reference	provides descriptions of the low-level AWS Marketplace
+       Metering Service API.
+
+       AWS Marketplace sellers can use this API to submit usage data for  cus-
+       tom usage dimensions.
+
+       Submitting Metering Records
+
+       o meter-usage - Submits the metering record for a Marketplace product.
+
+AVAILABLE COMMANDS
+       o help
+
+       o meter-usage
+
+
+
+							 METERINGMARKETPLACE()

@@ -19,7 +19,11 @@ AVAILABLE COMMANDS
 
        o enable-domain-transfer-lock
 
+       o get-contact-reachability-status
+
        o get-domain-detail
+
+       o get-domain-suggestions
 
        o get-operation-detail
 
@@ -33,6 +37,10 @@ AVAILABLE COMMANDS
 
        o register-domain
 
+       o renew-domain
+
+       o resend-contact-reachability-email
+
        o retrieve-domain-auth-code
 
        o transfer-domain
@@ -44,6 +52,8 @@ AVAILABLE COMMANDS
        o update-domain-nameservers
 
        o update-tags-for-domain
+
+       o view-billing
 
 
 

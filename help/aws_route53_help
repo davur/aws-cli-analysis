@@ -97,6 +97,8 @@ AVAILABLE COMMANDS
 
        o list-traffic-policy-versions
 
+       o test-dns-answer
+
        o update-health-check
 
        o update-hosted-zone-comment

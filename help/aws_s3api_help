@@ -35,6 +35,8 @@ AVAILABLE COMMANDS
 
        o delete-objects
 
+       o get-bucket-accelerate-configuration
+
        o get-bucket-acl
 
        o get-bucket-cors
@@ -83,7 +85,11 @@ AVAILABLE COMMANDS
 
        o list-objects
 
+       o list-objects-v2
+
        o list-parts
+
+       o put-bucket-accelerate-configuration
 
        o put-bucket-acl
 

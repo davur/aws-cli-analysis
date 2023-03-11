@@ -23,6 +23,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o add-permission
 
+       o check-if-phone-number-is-opted-out
+
        o confirm-subscription
 
        o create-platform-application
@@ -41,6 +43,8 @@ AVAILABLE COMMANDS
 
        o get-platform-application-attributes
 
+       o get-sms-attributes
+
        o get-subscription-attributes
 
        o get-topic-attributes
@@ -48,6 +52,8 @@ AVAILABLE COMMANDS
        o help
 
        o list-endpoints-by-platform-application
+
+       o list-phone-numbers-opted-out
 
        o list-platform-applications
 
@@ -57,6 +63,8 @@ AVAILABLE COMMANDS
 
        o list-topics
 
+       o opt-in-phone-number
+
        o publish
 
        o remove-permission
@@ -64,6 +72,8 @@ AVAILABLE COMMANDS
        o set-endpoint-attributes
 
        o set-platform-application-attributes
+
+       o set-sms-attributes
 
        o set-subscription-attributes
 

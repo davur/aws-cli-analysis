@@ -1,0 +1,86 @@
+DMS()									 DMS()
+
+
+
+NAME
+       dms -
+
+DESCRIPTION
+       AWS  Database  Migration Service (AWS DMS) can migrate your data to and
+       from the most widely used commercial and open-source databases such  as
+       Oracle,	PostgreSQL,  Microsoft	SQL  Server, Amazon Redshift, MariaDB,
+       Amazon Aurora, and MySQL. The service supports  homogeneous  migrations
+       such  as  Oracle to Oracle, as well as heterogeneous migrations between
+       different database platforms, such as Oracle to MySQL or SQL Server  to
+       PostgreSQL.
+
+AVAILABLE COMMANDS
+       o add-tags-to-resource
+
+       o create-endpoint
+
+       o create-replication-instance
+
+       o create-replication-subnet-group
+
+       o create-replication-task
+
+       o delete-certificate
+
+       o delete-endpoint
+
+       o delete-replication-instance
+
+       o delete-replication-subnet-group
+
+       o delete-replication-task
+
+       o describe-account-attributes
+
+       o describe-certificates
+
+       o describe-connections
+
+       o describe-endpoint-types
+
+       o describe-endpoints
+
+       o describe-orderable-replication-instances
+
+       o describe-refresh-schemas-status
+
+       o describe-replication-instances
+
+       o describe-replication-subnet-groups
+
+       o describe-replication-tasks
+
+       o describe-schemas
+
+       o describe-table-statistics
+
+       o help
+
+       o import-certificate
+
+       o list-tags-for-resource
+
+       o modify-endpoint
+
+       o modify-replication-instance
+
+       o modify-replication-subnet-group
+
+       o refresh-schemas
+
+       o remove-tags-from-resource
+
+       o start-replication-task
+
+       o stop-replication-task
+
+       o test-connection
+
+
+
+									 DMS()

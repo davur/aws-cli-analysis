@@ -14,6 +14,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o attach-instances
 
+       o attach-load-balancer-target-groups
+
        o attach-load-balancers
 
        o complete-lifecycle-action
@@ -54,6 +56,8 @@ AVAILABLE COMMANDS
 
        o describe-lifecycle-hooks
 
+       o describe-load-balancer-target-groups
+
        o describe-load-balancers
 
        o describe-metric-collection-types
@@ -73,6 +77,8 @@ AVAILABLE COMMANDS
        o describe-termination-policy-types
 
        o detach-instances
+
+       o detach-load-balancer-target-groups
 
        o detach-load-balancers
 

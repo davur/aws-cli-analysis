@@ -6,16 +6,18 @@ NAME
        acm -
 
 DESCRIPTION
-       Welcome	to  the  AWS  Certificate Manager (ACM) CLI Command Reference.
-       This guide provides descriptions, syntax, and usage examples  for  each
-       ACM  CLI  command.  You	can use AWS Certificate Manager to request ACM
-       Certificates for your AWS-based websites and applications. For  general
-       information  about  using  ACM and for more information about using the
-       console, see the AWS Certificate Manager User Guide . For more informa-
-       tion  about using the ACM API, see the AWS Certificate Manager API Ref-
-       erence .
+       Welcome	to  the  AWS Certificate Manager (ACM) Command Reference. This
+       guide provides descriptions, syntax, and usage examples	for  each  ACM
+       command.  You  can  use AWS Certificate Manager to request ACM Certifi-
+       cates for your AWS-based websites and applications. For general	infor-
+       mation  about  using  ACM and for more information about using the con-
+       sole, see the AWS Certificate Manager User Guide . For more information
+       about  using the ACM API, see the AWS Certificate Manager API Reference
+       .
 
 AVAILABLE COMMANDS
+       o add-tags-to-certificate
+
        o delete-certificate
 
        o describe-certificate
@@ -25,6 +27,10 @@ AVAILABLE COMMANDS
        o help
 
        o list-certificates
+
+       o list-tags-for-certificate
+
+       o remove-tags-from-certificate
 
        o request-certificate
 

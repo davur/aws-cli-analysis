@@ -33,7 +33,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o delete-config-rule
 
+       o delete-configuration-recorder
+
        o delete-delivery-channel
+
+       o delete-evaluation-results
 
        o deliver-config-snapshot
 
@@ -76,6 +80,8 @@ AVAILABLE COMMANDS
        o put-delivery-channel
 
        o put-evaluations
+
+       o start-config-rules-evaluation
 
        o start-configuration-recorder
 

@@ -25,18 +25,24 @@ DESCRIPTION
        Amazon  CloudFormation makes use of other AWS products. If you need ad-
        ditional technical information about a specific AWS  product,  you  can
        find	  the	   product's	  technical	 documentation	    at
-       http://docs.aws.amazon.com/documentation/ .
+       http://docs.aws.amazon.com/ .
 
 AVAILABLE COMMANDS
        o cancel-update-stack
 
        o continue-update-rollback
 
+       o create-change-set
+
        o create-stack
+
+       o delete-change-set
 
        o delete-stack
 
        o describe-account-limits
+
+       o describe-change-set
 
        o describe-stack-events
 
@@ -48,6 +54,8 @@ AVAILABLE COMMANDS
 
        o estimate-template-cost
 
+       o execute-change-set
+
        o get-stack-policy
 
        o get-template
@@ -55,6 +63,8 @@ AVAILABLE COMMANDS
        o get-template-summary
 
        o help
+
+       o list-change-sets
 
        o list-stack-resources
 
@@ -67,6 +77,8 @@ AVAILABLE COMMANDS
        o update-stack
 
        o validate-template
+
+       o wait
 
 
 
