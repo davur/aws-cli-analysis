@@ -239,6 +239,7 @@ configservice describe-delivery-channels
 configservice get-resource-config-history
 configservice get-status
 configservice help
+configservice list-discovered-resources
 configservice put-configuration-recorder
 configservice put-delivery-channel
 configservice start-configuration-recorder

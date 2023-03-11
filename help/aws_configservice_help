@@ -49,6 +49,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-discovered-resources
+
        o put-configuration-recorder
 
        o put-delivery-channel
