@@ -11,7 +11,7 @@ DESCRIPTION
 
        With ElastiCache, customers gain all of the benefits of a  high-perfor-
        mance,  in-memory  cache  with far less of the administrative burden of
-       launching and managing a distributed cache. The service	makes  set-up,
+       launching and managing a distributed cache. The	service  makes	setup,
        scaling,  and cluster failure handling much simpler than in a self-man-
        aged cache deployment.
 

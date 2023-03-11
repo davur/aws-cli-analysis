@@ -7,6 +7,8 @@ NAME
 
 DESCRIPTION
 AVAILABLE COMMANDS
+       o associate-vpc-with-hosted-zone
+
        o change-resource-record-sets
 
        o change-tags-for-resource
@@ -15,9 +17,15 @@ AVAILABLE COMMANDS
 
        o create-hosted-zone
 
+       o create-reusable-delegation-set
+
        o delete-health-check
 
        o delete-hosted-zone
+
+       o delete-reusable-delegation-set
+
+       o disassociate-vpc-from-hosted-zone
 
        o get-change
 
@@ -29,7 +37,13 @@ AVAILABLE COMMANDS
 
        o get-health-check-count
 
+       o get-health-check-last-failure-reason
+
+       o get-health-check-status
+
        o get-hosted-zone
+
+       o get-reusable-delegation-set
 
        o help
 
@@ -40,6 +54,8 @@ AVAILABLE COMMANDS
        o list-hosted-zones
 
        o list-resource-record-sets
+
+       o list-reusable-delegation-sets
 
        o list-tags-for-resource
 

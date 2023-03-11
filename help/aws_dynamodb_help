@@ -61,7 +61,7 @@ DESCRIPTION
 
        o batch-get-item - Performs multiple get-item requests for  data  items
 	 using	their primary keys, from one table or multiple tables. The re-
-	 sponse from batch-get-item has a size limit of 1  MB  and  returns  a
+	 sponse from batch-get-item has a size limit of 16 MB  and  returns  a
 	 maximum of 100 items. Both eventually consistent and strongly consis-
 	 tent reads can be used.
 
@@ -103,7 +103,7 @@ DESCRIPTION
 	 quests across multiple tables in a single request. A failure  of  any
 	 request(s)  in  the  batch will not cause the entire batch-write-item
 	 operation to fail. Supports batches of up  to	25  items  to  put  or
-	 delete, with a maximum total request size of 1 MB.
+	 delete, with a maximum total request size of 16 MB.
 
        For  conceptual	information  about  modifying data, go to Working with
        Items and query and scan Operations in the  Amazon  DynamoDB  Developer

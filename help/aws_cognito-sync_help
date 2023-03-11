@@ -30,6 +30,8 @@ AVAILABLE COMMANDS
 
        o describe-identity-usage
 
+       o get-identity-pool-configuration
+
        o help
 
        o list-datasets
@@ -37,6 +39,14 @@ AVAILABLE COMMANDS
        o list-identity-pool-usage
 
        o list-records
+
+       o register-device
+
+       o set-identity-pool-configuration
+
+       o subscribe-to-dataset
+
+       o unsubscribe-from-dataset
 
        o update-records
 

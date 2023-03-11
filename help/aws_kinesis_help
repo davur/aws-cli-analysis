@@ -10,6 +10,8 @@ DESCRIPTION
        time processing of streaming big data.
 
 AVAILABLE COMMANDS
+       o add-tags-to-stream
+
        o create-stream
 
        o delete-stream
@@ -24,9 +26,13 @@ AVAILABLE COMMANDS
 
        o list-streams
 
+       o list-tags-for-stream
+
        o merge-shards
 
        o put-record
+
+       o remove-tags-from-stream
 
        o split-shard
 

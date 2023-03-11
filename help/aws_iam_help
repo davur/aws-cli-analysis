@@ -8,16 +8,18 @@ NAME
 DESCRIPTION
        AWS  Identity and Access Management (IAM) is a web service that you can
        use to manage users and user permissions under your AWS	account.  This
-       guide  provides	descriptions  of  the IAM API. For general information
-       about IAM, see AWS Identity and Access Management (IAM) . For the  user
-       guide for IAM, see Using IAM .
+       guide  provides	descriptions of IAM actions that you can call program-
+       matically. For general information about IAM, see AWS Identity and  Ac-
+       cess Management (IAM) . For the user guide for IAM, see Using IAM .
 
-       Using  the IAM Query API, you make direct calls to the IAM web service.
-       IAM supports GET and POST requests for all actions. That  is,  the  API
-       does  not  require you to use GET for some actions and POST for others.
-       However, GET requests are subject to the  limitation  size  of  a  URL.
-       Therefore,  for	operations  that  require larger sizes, use a POST re-
-       quest.
+       We  recommend  that you use the AWS SDKs to make programmatic API calls
+       to IAM. However, you can also use the IAM  Query  API  to  make	direct
+       calls  to  the  IAM web service. To learn more about the IAM Query API,
+       see Making Query Requests in the Using IAM guide. IAM supports GET  and
+       POST requests for all actions. That is, the API does not require you to
+       use GET for some actions and POST for others. However, GET requests are
+       subject to the limitation size of a URL. Therefore, for operations that
+       require larger sizes, use a POST request.
 
        Signing Requests
 
@@ -61,6 +63,8 @@ DESCRIPTION
 	 key.
 
 AVAILABLE COMMANDS
+       o add-client-id-to-open-id-connect-provider
+
        o add-role-to-instance-profile
 
        o add-user-to-group
@@ -76,6 +80,8 @@ AVAILABLE COMMANDS
        o create-instance-profile
 
        o create-login-profile
+
+       o create-open-id-connect-provider
 
        o create-role
 
@@ -100,6 +106,8 @@ AVAILABLE COMMANDS
        o delete-instance-profile
 
        o delete-login-profile
+
+       o delete-open-id-connect-provider
 
        o delete-role
 
@@ -135,6 +143,8 @@ AVAILABLE COMMANDS
 
        o get-login-profile
 
+       o get-open-id-connect-provider
+
        o get-role
 
        o get-role-policy
@@ -165,6 +175,8 @@ AVAILABLE COMMANDS
 
        o list-mfa-devices
 
+       o list-open-id-connect-providers
+
        o list-role-policies
 
        o list-roles
@@ -187,6 +199,8 @@ AVAILABLE COMMANDS
 
        o put-user-policy
 
+       o remove-client-id-from-open-id-connect-provider
+
        o remove-role-from-instance-profile
 
        o remove-user-from-group
@@ -202,6 +216,8 @@ AVAILABLE COMMANDS
        o update-group
 
        o update-login-profile
+
+       o update-open-id-connect-provider-thumbprint
 
        o update-saml-provider
 

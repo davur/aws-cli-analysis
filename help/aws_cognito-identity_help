@@ -41,11 +41,19 @@ AVAILABLE COMMANDS
 
        o get-open-id-token
 
+       o get-open-id-token-for-developer-identity
+
        o help
 
        o list-identities
 
        o list-identity-pools
+
+       o lookup-developer-identity
+
+       o merge-developer-identities
+
+       o unlink-developer-identity
 
        o unlink-identity
 
