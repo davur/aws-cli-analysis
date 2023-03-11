@@ -55,6 +55,7 @@ cloudformation describe-stack-events
 cloudformation describe-stack-resource
 cloudformation describe-stack-resources
 cloudformation describe-stacks
+cloudformation estimate-template-cost
 cloudformation get-stack-policy
 cloudformation get-template
 cloudformation get-template-summary
