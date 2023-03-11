@@ -41,6 +41,10 @@ OOPPTTIIOONNSS
 
        +o table
 
+       ----qquueerryy (string)
+
+       A JMESPath query to use in filtering the response data.
+
        ----pprrooffiillee (string)
 
        Use a specific profile from your credential file.
@@ -66,6 +70,8 @@ OOPPTTIIOONNSS
        +o us-west-1
 
        +o eu-west-1
+
+       +o fips-us-gov-west-1
 
        ----vveerrssiioonn (string)
 
