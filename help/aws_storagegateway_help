@@ -48,13 +48,13 @@ AVAILABLE COMMANDS
 
        o cancel-retrieval
 
-       o create-cachedi-scsi-volume
+       o create-cached-iscsi-volume
 
        o create-snapshot
 
        o create-snapshot-from-volume-recovery-point
 
-       o create-storedi-scsi-volume
+       o create-stored-iscsi-volume
 
        o create-tapes
 
@@ -76,7 +76,7 @@ AVAILABLE COMMANDS
 
        o describe-cache
 
-       o describe-cachedi-scsi-volumes
+       o describe-cached-iscsi-volumes
 
        o describe-chap-credentials
 
@@ -86,7 +86,7 @@ AVAILABLE COMMANDS
 
        o describe-snapshot-schedule
 
-       o describe-storedi-scsi-volumes
+       o describe-stored-iscsi-volumes
 
        o describe-tape-archives
 
