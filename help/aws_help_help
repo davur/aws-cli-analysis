@@ -41,6 +41,10 @@ OPTIONS
 
        o table
 
+       --query (string)
+
+       A JMESPath query to use in filtering the response data.
+
        --profile (string)
 
        Use a specific profile from your credential file.
@@ -66,6 +70,8 @@ OPTIONS
        o us-west-1
 
        o eu-west-1
+
+       o fips-us-gov-west-1
 
        --version (string)
 
