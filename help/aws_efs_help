@@ -7,8 +7,9 @@ NAME
 
 DESCRIPTION
        NOTE:
-	  This	service is only available as a preview service. You can enable
-	  this service by running: aws configure set preview.efs true
+	  AWS  CLI  support  for  this	service is only available in a preview
+	  stage. You can enable this service by  running:  aws	configure  set
+	  preview.efs true
 
 AVAILABLE COMMANDS
        o create-file-system

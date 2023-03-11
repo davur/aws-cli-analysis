@@ -1,0 +1,154 @@
+APIGATEWAY()							  APIGATEWAY()
+
+
+
+NAME
+       apigateway -
+
+DESCRIPTION
+       Amazon API Gateway helps developers deliver robust, secure and scalable
+       mobile and web application backends. Amazon API Gateway allows develop-
+       ers to securely connect mobile and web applications to APIs that run on
+       AWS Lambda, Amazon EC2, or other publicly addressable web services that
+       are hosted outside of AWS.
+
+AVAILABLE COMMANDS
+       o create-api-key
+
+       o create-base-path-mapping
+
+       o create-deployment
+
+       o create-domain-name
+
+       o create-model
+
+       o create-resource
+
+       o create-rest-api
+
+       o create-stage
+
+       o delete-api-key
+
+       o delete-base-path-mapping
+
+       o delete-client-certificate
+
+       o delete-deployment
+
+       o delete-domain-name
+
+       o delete-integration
+
+       o delete-integration-response
+
+       o delete-method
+
+       o delete-method-response
+
+       o delete-model
+
+       o delete-resource
+
+       o delete-rest-api
+
+       o delete-stage
+
+       o flush-stage-cache
+
+       o generate-client-certificate
+
+       o get-account
+
+       o get-api-key
+
+       o get-api-keys
+
+       o get-base-path-mapping
+
+       o get-base-path-mappings
+
+       o get-client-certificate
+
+       o get-client-certificates
+
+       o get-deployment
+
+       o get-deployments
+
+       o get-domain-name
+
+       o get-domain-names
+
+       o get-integration
+
+       o get-integration-response
+
+       o get-method
+
+       o get-method-response
+
+       o get-model
+
+       o get-model-template
+
+       o get-models
+
+       o get-resource
+
+       o get-resources
+
+       o get-rest-api
+
+       o get-rest-apis
+
+       o get-sdk
+
+       o get-stage
+
+       o get-stages
+
+       o help
+
+       o put-integration
+
+       o put-integration-response
+
+       o put-method
+
+       o put-method-response
+
+       o test-invoke-method
+
+       o update-account
+
+       o update-api-key
+
+       o update-base-path-mapping
+
+       o update-client-certificate
+
+       o update-deployment
+
+       o update-domain-name
+
+       o update-integration
+
+       o update-integration-response
+
+       o update-method
+
+       o update-method-response
+
+       o update-model
+
+       o update-resource
+
+       o update-rest-api
+
+       o update-stage
+
+
+
+								  APIGATEWAY()

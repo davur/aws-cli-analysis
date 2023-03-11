@@ -21,8 +21,7 @@ DESCRIPTION
        .  To install the Software Development Kits (SDKs), Integrated Develop-
        ment Environment (IDE) Toolkits, and command line tools that enable you
        to access the API, go to Tools for Amazon Web Services .
-
-       Endpoints
+	  Endpoints
 
        For a list of region-specific endpoints that AWS Elastic Beanstalk sup-
        ports, go to Regions and Endpoints in the Amazon Web Services  Glossary
@@ -32,6 +31,8 @@ AVAILABLE COMMANDS
        o abort-environment-update
 
        o check-dns-availability
+
+       o compose-environments
 
        o create-application
 

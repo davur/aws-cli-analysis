@@ -19,15 +19,27 @@ AVAILABLE COMMANDS
 
        o create-reusable-delegation-set
 
+       o create-traffic-policy
+
+       o create-traffic-policy-instance
+
+       o create-traffic-policy-version
+
        o delete-health-check
 
        o delete-hosted-zone
 
        o delete-reusable-delegation-set
 
+       o delete-traffic-policy
+
+       o delete-traffic-policy-instance
+
        o disassociate-vpc-from-hosted-zone
 
        o get-change
+
+       o get-change-details
 
        o get-checker-ip-ranges
 
@@ -47,7 +59,17 @@ AVAILABLE COMMANDS
 
        o get-reusable-delegation-set
 
+       o get-traffic-policy
+
+       o get-traffic-policy-instance
+
+       o get-traffic-policy-instance-count
+
        o help
+
+       o list-change-batches-by-hosted-zone
+
+       o list-change-batches-by-rr-set
 
        o list-geo-locations
 
@@ -65,9 +87,23 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resources
 
+       o list-traffic-policies
+
+       o list-traffic-policy-instances
+
+       o list-traffic-policy-instances-by-hosted-zone
+
+       o list-traffic-policy-instances-by-policy
+
+       o list-traffic-policy-versions
+
        o update-health-check
 
        o update-hosted-zone-comment
+
+       o update-traffic-policy-comment
+
+       o update-traffic-policy-instance
 
        o wait
 
