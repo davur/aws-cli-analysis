@@ -413,6 +413,8 @@ importexport get-status
 importexport help
 importexport list-jobs
 importexport update-job
+opsworks assign-volume
+opsworks associate-elastic-ip
 opsworks attach-elastic-load-balancer
 opsworks clone-stack
 opsworks create-app
@@ -426,6 +428,8 @@ opsworks delete-instance
 opsworks delete-layer
 opsworks delete-stack
 opsworks delete-user-profile
+opsworks deregister-elastic-ip
+opsworks deregister-volume
 opsworks describe-apps
 opsworks describe-commands
 opsworks describe-deployments
@@ -442,9 +446,12 @@ opsworks describe-time-based-auto-scaling
 opsworks describe-user-profiles
 opsworks describe-volumes
 opsworks detach-elastic-load-balancer
+opsworks disassociate-elastic-ip
 opsworks get-hostname-suggestion
 opsworks help
 opsworks reboot-instance
+opsworks register-elastic-ip
+opsworks register-volume
 opsworks set-load-based-auto-scaling
 opsworks set-permission
 opsworks set-time-based-auto-scaling
@@ -452,11 +459,14 @@ opsworks start-instance
 opsworks start-stack
 opsworks stop-instance
 opsworks stop-stack
+opsworks unassign-volume
 opsworks update-app
+opsworks update-elastic-ip
 opsworks update-instance
 opsworks update-layer
 opsworks update-stack
 opsworks update-user-profile
+opsworks update-volume
 rds add-option-to-option-group
 rds add-source-identifier-to-subscription
 rds add-tags-to-resource

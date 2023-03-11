@@ -29,6 +29,10 @@ DESCRIPTION
        expect to change the default value to 11.4 in September 2013.
 
 AVAILABLE COMMANDS
+       o assign-volume
+
+       o associate-elastic-ip
+
        o attach-elastic-load-balancer
 
        o clone-stack
@@ -54,6 +58,10 @@ AVAILABLE COMMANDS
        o delete-stack
 
        o delete-user-profile
+
+       o deregister-elastic-ip
+
+       o deregister-volume
 
        o describe-apps
 
@@ -87,11 +95,17 @@ AVAILABLE COMMANDS
 
        o detach-elastic-load-balancer
 
+       o disassociate-elastic-ip
+
        o get-hostname-suggestion
 
        o help
 
        o reboot-instance
+
+       o register-elastic-ip
+
+       o register-volume
 
        o set-load-based-auto-scaling
 
@@ -107,7 +121,11 @@ AVAILABLE COMMANDS
 
        o stop-stack
 
+       o unassign-volume
+
        o update-app
+
+       o update-elastic-ip
 
        o update-instance
 
@@ -116,6 +134,8 @@ AVAILABLE COMMANDS
        o update-stack
 
        o update-user-profile
+
+       o update-volume
 
 
 
