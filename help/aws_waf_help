@@ -1,0 +1,76 @@
+WAF()									 WAF()
+
+
+
+NAME
+       waf -
+
+DESCRIPTION
+       This  is  the  AWS WAF API Reference . This guide is for developers who
+       need detailed information about the AWS WAF API	actions,  data	types,
+       and  errors.  For  detailed  information  about AWS WAF features and an
+       overview of how to use the AWS WAF API, see the AWS WAF Developer Guide
+       .
+
+AVAILABLE COMMANDS
+       o create-byte-match-set
+
+       o create-ip-set
+
+       o create-rule
+
+       o create-sql-injection-match-set
+
+       o create-web-acl
+
+       o delete-byte-match-set
+
+       o delete-ip-set
+
+       o delete-rule
+
+       o delete-sql-injection-match-set
+
+       o delete-web-acl
+
+       o get-byte-match-set
+
+       o get-change-token
+
+       o get-change-token-status
+
+       o get-ip-set
+
+       o get-rule
+
+       o get-sampled-requests
+
+       o get-sql-injection-match-set
+
+       o get-web-acl
+
+       o help
+
+       o list-byte-match-sets
+
+       o list-ip-sets
+
+       o list-rules
+
+       o list-sql-injection-match-sets
+
+       o list-web-acls
+
+       o update-byte-match-set
+
+       o update-ip-set
+
+       o update-rule
+
+       o update-sql-injection-match-set
+
+       o update-web-acl
+
+
+
+									 WAF()

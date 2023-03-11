@@ -1,0 +1,38 @@
+IOT-DATA()							    IOT-DATA()
+
+
+
+NAME
+       iot-data -
+
+DESCRIPTION
+       AWS IoT is considered a beta service as defined in the Service Terms
+
+       AWS  IoT-Data  enables secure, bi-directional communication between In-
+       ternet-connected things (such as sensors, actuators, embedded  devices,
+       or  smart appliances) and the AWS cloud. It implements a broker for ap-
+       plications and things to publish messages over HTTP (Publish)  and  re-
+       trieve,	update,  and delete thing shadows. A thing shadow is a persis-
+       tent representation of your things and their state in the AWS cloud.
+
+       NOTE:
+	  The default endpoint data.iot.[region].amazonaws.com is intended for
+	  testing  purposes  only.  For  production code it is strongly recom-
+	  mended to use the custom endpoint for your account  (retrievable via
+	  the  iot  describe-endpoint command) to ensure best availability and
+	  reachability of the service.
+
+AVAILABLE COMMANDS
+       o delete-thing-shadow
+
+       o get-thing-shadow
+
+       o help
+
+       o publish
+
+       o update-thing-shadow
+
+
+
+								    IOT-DATA()

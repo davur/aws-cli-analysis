@@ -41,6 +41,8 @@ AVAILABLE COMMANDS
 
        o get-bucket-lifecycle
 
+       o get-bucket-lifecycle-configuration
+
        o get-bucket-location
 
        o get-bucket-logging
@@ -88,6 +90,8 @@ AVAILABLE COMMANDS
        o put-bucket-cors
 
        o put-bucket-lifecycle
+
+       o put-bucket-lifecycle-configuration
 
        o put-bucket-logging
 

@@ -1,0 +1,90 @@
+INSPECTOR()							   INSPECTOR()
+
+
+
+NAME
+       inspector -
+
+DESCRIPTION
+       Amazon  Inspector  enables  you to analyze the behavior of the applica-
+       tions you run in AWS and to identify  potential	security  issues.  For
+       more information, see Amazon Inspector User Guide .
+
+AVAILABLE COMMANDS
+       o add-attributes-to-findings
+
+       o attach-assessment-and-rules-package
+
+       o create-application
+
+       o create-assessment
+
+       o create-resource-group
+
+       o delete-application
+
+       o delete-assessment
+
+       o delete-run
+
+       o describe-application
+
+       o describe-assessment
+
+       o describe-cross-account-access-role
+
+       o describe-finding
+
+       o describe-resource-group
+
+       o describe-rules-package
+
+       o describe-run
+
+       o detach-assessment-and-rules-package
+
+       o get-assessment-telemetry
+
+       o help
+
+       o list-applications
+
+       o list-assessment-agents
+
+       o list-assessments
+
+       o list-attached-assessments
+
+       o list-attached-rules-packages
+
+       o list-findings
+
+       o list-rules-packages
+
+       o list-runs
+
+       o list-tags-for-resource
+
+       o localize-text
+
+       o preview-agents-for-resource-group
+
+       o register-cross-account-access-role
+
+       o remove-attributes-from-findings
+
+       o run-assessment
+
+       o set-tags-for-resource
+
+       o start-data-collection
+
+       o stop-data-collection
+
+       o update-application
+
+       o update-assessment
+
+
+
+								   INSPECTOR()

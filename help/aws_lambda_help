@@ -16,13 +16,19 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o add-permission
 
+       o create-alias
+
        o create-event-source-mapping
 
        o create-function
 
+       o delete-alias
+
        o delete-event-source-mapping
 
        o delete-function
+
+       o get-alias
 
        o get-event-source-mapping
 
@@ -38,11 +44,19 @@ AVAILABLE COMMANDS
 
        o invoke-async
 
+       o list-aliases
+
        o list-event-source-mappings
 
        o list-functions
 
+       o list-versions-by-function
+
+       o publish-version
+
        o remove-permission
+
+       o update-alias
 
        o update-event-source-mapping
 

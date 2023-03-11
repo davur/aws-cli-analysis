@@ -29,6 +29,8 @@ DESCRIPTION
        included with each AWS API call listed in the log files.
 
 AVAILABLE COMMANDS
+       o add-tags
+
        o create-subscription
 
        o create-trail
@@ -41,7 +43,13 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-public-keys
+
+       o list-tags
+
        o lookup-events
+
+       o remove-tags
 
        o start-logging
 
@@ -50,6 +58,8 @@ AVAILABLE COMMANDS
        o update-subscription
 
        o update-trail
+
+       o validate-logs
 
 
 

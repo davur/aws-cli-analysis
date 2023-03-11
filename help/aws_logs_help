@@ -55,6 +55,10 @@ DESCRIPTION
        o AWS Windows and .NET Developer Center
 
 AVAILABLE COMMANDS
+       o cancel-export-task
+
+       o create-export-task
+
        o create-log-group
 
        o create-log-stream
@@ -72,6 +76,8 @@ AVAILABLE COMMANDS
        o delete-subscription-filter
 
        o describe-destinations
+
+       o describe-export-tasks
 
        o describe-log-groups
 

@@ -40,6 +40,8 @@ AVAILABLE COMMANDS
 
        o add-cache
 
+       o add-tags-to-resource
+
        o add-upload-buffer
 
        o add-working-storage
@@ -108,11 +110,15 @@ AVAILABLE COMMANDS
 
        o list-local-disks
 
+       o list-tags-for-resource
+
        o list-volume-initiators
 
        o list-volume-recovery-points
 
        o list-volumes
+
+       o remove-tags-from-resource
 
        o reset-cache
 

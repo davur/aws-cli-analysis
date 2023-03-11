@@ -1,0 +1,32 @@
+FIREHOSE()							    FIREHOSE()
+
+
+
+NAME
+       firehose -
+
+DESCRIPTION
+       Amazon  Kinesis	Firehose  is  a  fully-managed	service  that delivers
+       real-time streaming data to destinations such as Amazon S3  and	Amazon
+       Redshift.
+
+AVAILABLE COMMANDS
+       o create-delivery-stream
+
+       o delete-delivery-stream
+
+       o describe-delivery-stream
+
+       o help
+
+       o list-delivery-streams
+
+       o put-record
+
+       o put-record-batch
+
+       o update-destination
+
+
+
+								    FIREHOSE()

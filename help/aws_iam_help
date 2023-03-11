@@ -54,10 +54,7 @@ DESCRIPTION
        o IAM  Best  Practices  . This topic presents a list of suggestions for
 	 using the IAM service to help secure your AWS resources.
 
-       o AWS Security Token Service . This guide describes how to  create  and
-	 use temporary security credentials.
-
-       o Signing  AWS  API  Requests . This set of topics walk you through the
+       o Signing AWS API Requests . This set of topics walk  you  through  the
 	 process of signing a request using an access key ID and secret access
 	 key.
 
@@ -158,6 +155,10 @@ AVAILABLE COMMANDS
 
        o get-account-summary
 
+       o get-context-keys-for-custom-policy
+
+       o get-context-keys-for-principal-policy
+
        o get-credential-report
 
        o get-group
@@ -253,6 +254,10 @@ AVAILABLE COMMANDS
        o resync-mfa-device
 
        o set-default-policy-version
+
+       o simulate-custom-policy
+
+       o simulate-principal-policy
 
        o update-access-key
 

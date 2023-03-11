@@ -1,0 +1,104 @@
+IOT()									 IOT()
+
+
+
+NAME
+       iot -
+
+DESCRIPTION
+       AWS IoT is in beta and is subject to change
+
+       AWS  IoT  provides  secure, bi-directional communication between Inter-
+       net-connected things (such as sensors, actuators, embedded devices,  or
+       smart  appliances)  and	the  AWS  cloud.  You can discover your custom
+       IoT-Data endpoint to communicate with, configure rules  for  data  pro-
+       cessing and integration with other services, organize resources associ-
+       ated with each thing (Thing Registry), configure  logging,  and	create
+       and manage policies and credentials to authenticate things.
+
+       For more information about how AWS IoT works, see the Developer Guide .
+
+AVAILABLE COMMANDS
+       o accept-certificate-transfer
+
+       o attach-principal-policy
+
+       o attach-thing-principal
+
+       o cancel-certificate-transfer
+
+       o create-certificate-from-csr
+
+       o create-keys-and-certificate
+
+       o create-policy
+
+       o create-policy-version
+
+       o create-thing
+
+       o create-topic-rule
+
+       o delete-certificate
+
+       o delete-policy
+
+       o delete-policy-version
+
+       o delete-thing
+
+       o delete-topic-rule
+
+       o describe-certificate
+
+       o describe-endpoint
+
+       o describe-thing
+
+       o detach-principal-policy
+
+       o detach-thing-principal
+
+       o get-logging-options
+
+       o get-policy
+
+       o get-policy-version
+
+       o get-topic-rule
+
+       o help
+
+       o list-certificates
+
+       o list-policies
+
+       o list-policy-versions
+
+       o list-principal-policies
+
+       o list-principal-things
+
+       o list-thing-principals
+
+       o list-things
+
+       o list-topic-rules
+
+       o reject-certificate-transfer
+
+       o replace-topic-rule
+
+       o set-default-policy-version
+
+       o set-logging-options
+
+       o transfer-certificate
+
+       o update-certificate
+
+       o update-thing
+
+
+
+									 IOT()
