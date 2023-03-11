@@ -6,11 +6,8 @@ NAME
        s3 -
 
 DESCRIPTION
-       This provides higher level S3 commands for the AWS CLI.
-
-IMPORTANT CONCEPTS
-       This  section explains concepts and notations that are prominent in the
-       set of commands provided.
+       This  section  explains	prominent concepts and notations in the set of
+       high-level S3 commands provided.
 
    Path Argument Type
        Whenever using a command, at least one path argument must be specified.
@@ -167,10 +164,14 @@ IMPORTANT CONCEPTS
 	  aws s3 cp /tmp/foo/ s3://bucket/ --recursive \
 	      --exclude "*" --include "*.jpg" --include "*.txt"
 
+SYNOPSIS
+	  aws s3 <Command> [<Arg> ...]
+
+OPTIONS
+       None
+
 AVAILABLE COMMANDS
        o cp
-
-       o help
 
        o ls
 

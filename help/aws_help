@@ -25,7 +25,9 @@ OPTIONS
 
        --no-verify-ssl (boolean)
 
-       Override default behavior of verifying SSL certificates.
+       By default, the AWS CLI uses SSL when communicating with AWS  services.
+       For each SSL connection, the AWS CLI will verify SSL certificates. This
+       option overrides the default behavior of verifying SSL certificates.
 
        --no-paginate (boolean)
 
@@ -44,6 +46,10 @@ OPTIONS
        --query (string)
 
        A JMESPath query to use in filtering the response data.
+
+       --page-size (string)
+
+       Specifies the page size when paginating.
 
        --profile (string)
 
@@ -66,6 +72,11 @@ OPTIONS
        o off
 
        o auto
+
+       --no-sign-request (boolean)
+
+       Do not sign requests. Credentials will not be loaded if	this  argument
+       is provided.
 
 AVAILABLE SERVICES
        o autoscaling
