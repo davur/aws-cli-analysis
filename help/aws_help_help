@@ -79,6 +79,8 @@ AVAILABLE SERVICES
 
        o cloudformation
 
+       o cloudhsm
+
        o cloudsearch
 
        o cloudsearchdomain
@@ -105,6 +107,8 @@ AVAILABLE SERVICES
 
        o ec2
 
+       o ecs
+
        o elasticache
 
        o elasticbeanstalk
@@ -114,6 +118,8 @@ AVAILABLE SERVICES
        o elb
 
        o emr
+
+       o glacier
 
        o help
 

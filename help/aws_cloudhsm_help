@@ -1,0 +1,48 @@
+CLOUDHSM()							    CLOUDHSM()
+
+
+
+NAME
+       cloudhsm -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o create-hapg
+
+       o create-hsm
+
+       o create-luna-client
+
+       o delete-hapg
+
+       o delete-hsm
+
+       o delete-luna-client
+
+       o describe-hapg
+
+       o describe-hsm
+
+       o describe-luna-client
+
+       o get-config
+
+       o help
+
+       o list-available-zones
+
+       o list-hapgs
+
+       o list-hsms
+
+       o list-luna-clients
+
+       o modify-hapg
+
+       o modify-hsm
+
+       o modify-luna-client
+
+
+
+								    CLOUDHSM()

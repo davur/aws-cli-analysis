@@ -40,6 +40,8 @@ AVAILABLE COMMANDS
 
        o add-tags-to-resource
 
+       o apply-pending-maintenance-action
+
        o authorize-db-security-group-ingress
 
        o copy-db-parameter-group
@@ -107,6 +109,8 @@ AVAILABLE COMMANDS
        o describe-option-groups
 
        o describe-orderable-db-instance-options
+
+       o describe-pending-maintenance-actions
 
        o describe-reserved-db-instances
 

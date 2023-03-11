@@ -24,6 +24,8 @@ AVAILABLE COMMANDS
 
        o associate-route-table
 
+       o attach-classic-link-vpc
+
        o attach-internet-gateway
 
        o attach-network-interface
@@ -154,6 +156,8 @@ AVAILABLE COMMANDS
 
        o describe-bundle-tasks
 
+       o describe-classic-link-instances
+
        o describe-conversion-tasks
 
        o describe-customer-gateways
@@ -220,6 +224,8 @@ AVAILABLE COMMANDS
 
        o describe-vpc-attribute
 
+       o describe-vpc-classic-link
+
        o describe-vpc-peering-connections
 
        o describe-vpcs
@@ -227,6 +233,8 @@ AVAILABLE COMMANDS
        o describe-vpn-connections
 
        o describe-vpn-gateways
+
+       o detach-classic-link-vpc
 
        o detach-internet-gateway
 
@@ -238,6 +246,8 @@ AVAILABLE COMMANDS
 
        o disable-vgw-route-propagation
 
+       o disable-vpc-classic-link
+
        o disassociate-address
 
        o disassociate-route-table
@@ -245,6 +255,8 @@ AVAILABLE COMMANDS
        o enable-vgw-route-propagation
 
        o enable-volume-io
+
+       o enable-vpc-classic-link
 
        o get-console-output
 
