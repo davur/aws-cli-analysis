@@ -95,6 +95,8 @@ OPTIONS
 AVAILABLE SERVICES
        o acm
 
+       o alexaforbusiness
+
        o apigateway
 
        o application-autoscaling
@@ -107,11 +109,15 @@ AVAILABLE SERVICES
 
        o autoscaling
 
+       o autoscaling-plans
+
        o batch
 
        o budgets
 
        o ce
+
+       o cloud9
 
        o clouddirectory
 
@@ -150,6 +156,8 @@ AVAILABLE SERVICES
        o configservice
 
        o configure
+
+       o connect
 
        o cur
 
@@ -293,13 +301,13 @@ AVAILABLE SERVICES
 
        o rekognition
 
+       o resource-groups
+
        o resourcegroupstaggingapi
 
        o route53
 
        o route53domains
-
-       o runtime.sagemaker
 
        o s3
 
@@ -307,9 +315,15 @@ AVAILABLE SERVICES
 
        o sagemaker
 
+       o sagemaker-runtime
+
        o sdb
 
+       o serverlessrepo
+
        o servicecatalog
+
+       o servicediscovery
 
        o ses
 
@@ -335,6 +349,8 @@ AVAILABLE SERVICES
 
        o swf
 
+       o transcribe
+
        o translate
 
        o waf
@@ -342,6 +358,8 @@ AVAILABLE SERVICES
        o waf-regional
 
        o workdocs
+
+       o workmail
 
        o workspaces
 

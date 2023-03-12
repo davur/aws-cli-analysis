@@ -42,6 +42,8 @@ AVAILABLE COMMANDS
 
        o resend-validation-email
 
+       o update-certificate-options
+
 
 
 									 ACM()

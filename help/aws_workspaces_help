@@ -6,8 +6,8 @@ NAME
        workspaces -
 
 DESCRIPTION
-       This   reference   provides   detailed  information  about  the	Amazon
-       WorkSpaces operations.
+       Amazon  WorkSpaces enables you to provision virtual, cloud-based Micro-
+       soft Windows desktops for your users.
 
 AVAILABLE COMMANDS
        o create-tags

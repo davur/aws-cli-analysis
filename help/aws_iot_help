@@ -41,11 +41,15 @@ AVAILABLE COMMANDS
 
        o create-keys-and-certificate
 
+       o create-ota-update
+
        o create-policy
 
        o create-policy-version
 
        o create-role-alias
+
+       o create-stream
 
        o create-thing
 
@@ -61,6 +65,8 @@ AVAILABLE COMMANDS
 
        o delete-certificate
 
+       o delete-ota-update
+
        o delete-policy
 
        o delete-policy-version
@@ -68,6 +74,8 @@ AVAILABLE COMMANDS
        o delete-registration-code
 
        o delete-role-alias
+
+       o delete-stream
 
        o delete-thing
 
@@ -101,6 +109,8 @@ AVAILABLE COMMANDS
 
        o describe-role-alias
 
+       o describe-stream
+
        o describe-thing
 
        o describe-thing-group
@@ -124,6 +134,8 @@ AVAILABLE COMMANDS
        o get-job-document
 
        o get-logging-options
+
+       o get-ota-update
 
        o get-policy
 
@@ -155,6 +167,8 @@ AVAILABLE COMMANDS
 
        o list-jobs
 
+       o list-ota-updates
+
        o list-outgoing-certificates
 
        o list-policies
@@ -164,6 +178,8 @@ AVAILABLE COMMANDS
        o list-principal-things
 
        o list-role-aliases
+
+       o list-streams
 
        o list-targets-for-policy
 
@@ -232,6 +248,8 @@ AVAILABLE COMMANDS
        o update-indexing-configuration
 
        o update-role-alias
+
+       o update-stream
 
        o update-thing
 

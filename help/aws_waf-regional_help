@@ -33,6 +33,8 @@ AVAILABLE COMMANDS
 
        o create-rule
 
+       o create-rule-group
+
        o create-size-constraint-set
 
        o create-sql-injection-match-set
@@ -47,6 +49,8 @@ AVAILABLE COMMANDS
 
        o delete-ip-set
 
+       o delete-permission-policy
+
        o delete-rate-based-rule
 
        o delete-regex-match-set
@@ -54,6 +58,8 @@ AVAILABLE COMMANDS
        o delete-regex-pattern-set
 
        o delete-rule
+
+       o delete-rule-group
 
        o delete-size-constraint-set
 
@@ -75,6 +81,8 @@ AVAILABLE COMMANDS
 
        o get-ip-set
 
+       o get-permission-policy
+
        o get-rate-based-rule
 
        o get-rate-based-rule-managed-keys
@@ -84,6 +92,8 @@ AVAILABLE COMMANDS
        o get-regex-pattern-set
 
        o get-rule
+
+       o get-rule-group
 
        o get-sampled-requests
 
@@ -99,6 +109,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-activated-rules-in-rule-group
+
        o list-byte-match-sets
 
        o list-geo-match-sets
@@ -113,15 +125,21 @@ AVAILABLE COMMANDS
 
        o list-resources-for-web-acl
 
+       o list-rule-groups
+
        o list-rules
 
        o list-size-constraint-sets
 
        o list-sql-injection-match-sets
 
+       o list-subscribed-rule-groups
+
        o list-web-acls
 
        o list-xss-match-sets
+
+       o put-permission-policy
 
        o update-byte-match-set
 
@@ -136,6 +154,8 @@ AVAILABLE COMMANDS
        o update-regex-pattern-set
 
        o update-rule
+
+       o update-rule-group
 
        o update-size-constraint-set
 

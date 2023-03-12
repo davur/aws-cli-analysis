@@ -31,6 +31,8 @@ DESCRIPTION
        sole, see What Is AWS Config? in the AWS Config Developer Guide .
 
 AVAILABLE COMMANDS
+       o batch-get-resource-config
+
        o delete-config-rule
 
        o delete-configuration-recorder

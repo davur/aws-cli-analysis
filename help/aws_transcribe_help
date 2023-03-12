@@ -1,0 +1,22 @@
+TRANSCRIBE()							  TRANSCRIBE()
+
+
+
+NAME
+       transcribe -
+
+DESCRIPTION
+       Operations and objects for transcribing speech to text.
+
+AVAILABLE COMMANDS
+       o get-transcription-job
+
+       o help
+
+       o list-transcription-jobs
+
+       o start-transcription-job
+
+
+
+								  TRANSCRIBE()

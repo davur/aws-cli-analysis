@@ -12,6 +12,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o associate-fleet
 
+       o copy-image
+
        o create-directory-config
 
        o create-fleet
@@ -56,6 +58,8 @@ AVAILABLE COMMANDS
 
        o list-associated-stacks
 
+       o list-tags-for-resource
+
        o start-fleet
 
        o start-image-builder
@@ -64,11 +68,17 @@ AVAILABLE COMMANDS
 
        o stop-image-builder
 
+       o tag-resource
+
+       o untag-resource
+
        o update-directory-config
 
        o update-fleet
 
        o update-stack
+
+       o wait
 
 
 

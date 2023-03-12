@@ -12,12 +12,12 @@ DESCRIPTION
        centers. Application Discovery Service also collects  application  per-
        formance data, which can help you assess the outcome of your migration.
        The data collected by Application Discovery  Service  is  securely  re-
-       tained  in  an Amazon-hosted and managed database in the cloud. You can
-       export the data as a CSV or XML file into your preferred  visualization
+       tained  in an AWS-hosted and managed database in the cloud. You can ex-
+       port the data as a CSV or XML file into	your  preferred  visualization
        tool  or  cloud-migration solution to plan your migration. For more in-
-       formation, see the Application Discovery Service FAQ .
+       formation, see AWS Application Discovery Service FAQ .
 
-       Application Discovery Service offers two modes of operation.
+       Application Discovery Service offers two modes of operation:
 
        o Agentless discovery mode is recommended  for  environments  that  use
 	 VMware  vCenter  Server.  This mode doesn't require you to install an
@@ -25,56 +25,55 @@ DESCRIPTION
 	 regardless  of  the  operating  systems, which minimizes the time re-
 	 quired for initial on-premises infrastructure	assessment.  Agentless
 	 discovery doesn't collect information about software and software de-
-	 pendencies. It also doesn't work in non-VMware environments. We  rec-
-	 ommend that you use agent-based discovery for non-VMware environments
-	 and if you want to collect information about  software  and  software
-	 dependencies.	You  can  also run agent-based and agentless discovery
-	 simultaneously. Use agentless discovery to quickly complete the  ini-
-	 tial  infrastructure  assessment  and	then  install agents on select
-	 hosts to gather information about software and software dependencies.
+	 pendencies. It also doesn't work in non-VMware environments.
 
        o Agent-based discovery mode collects a richer set of data than	agent-
-	 less  discovery by using Amazon software, the AWS Application Discov-
-	 ery Agent, which you install on one or more hosts in your  data  cen-
-	 ter.  The  agent captures infrastructure and application information,
-	 including an inventory of installed software applications, system and
-	 process  performance,	resource utilization, and network dependencies
-	 between workloads. The information collected by agents is secured  at
-	 rest  and in transit to the Application Discovery Service database in
-	 the cloud.
+	 less  discovery  by  using the AWS Application Discovery Agent, which
+	 you install on one or more hosts in your data center. The agent  cap-
+	 tures infrastructure and application information, including an inven-
+	 tory of installed software applications, system and  process  perfor-
+	 mance,  resource  utilization, and network dependencies between work-
+	 loads. The information collected by agents is secured at rest and  in
+	 transit to the Application Discovery Service database in the cloud.
+
+       We recommend that you use agent-based discovery for non-VMware environ-
+       ments and to collect information about software and software  dependen-
+       cies.  You  can also run agent-based and agentless discovery simultane-
+       ously. Use agentless discovery to quickly complete the  initial	infra-
+       structure assessment and then install agents on select hosts.
 
        Application Discovery Service integrates with application discovery so-
-       lutions	from  AWS Partner Network (APN) partners. Third-party applica-
-       tion discovery tools can query Application Discovery Service and  write
-       to  the	Application Discovery Service database using a public API. You
-       can then import the data into either a visualization tool or  cloud-mi-
+       lutions from AWS Partner Network (APN) partners.  Third-party  applica-
+       tion  discovery tools can query Application Discovery Service and write
+       to the Application Discovery Service database using a public  API.  You
+       can  then import the data into either a visualization tool or cloud-mi-
        gration solution.
 
        WARNING:
-	  Application  Discovery Service doesn't gather sensitive information.
-	  All data is handled according to the AWS Privacy Policy  .  You  can
-	  operate  Application Discovery Service using offline mode to inspect
-	  collected data before it is shared with the service.
+	  Application Discovery Service doesn't gather sensitive  information.
+	  All  data  is  handled according to the AWS Privacy Policy . You can
+	  operate Application Discovery Service offline to  inspect  collected
+	  data before it is shared with the service.
 
-       Your AWS account must be granted access to Application  Discovery  Ser-
+       Your  AWS  account must be granted access to Application Discovery Ser-
        vice, a process called whitelisting . This is true for AWS partners and
-       customers alike. To request access, sign up for AWS Application Discov-
-       ery Service here . We send you information about how to get started.
+       customers  alike.  To request access, sign up for Application Discovery
+       Service .
 
-       This  API  reference  provides descriptions, syntax, and usage examples
-       for each of the actions and data types for Application  Discovery  Ser-
-       vice.  The  topic  for each action shows the API request parameters and
-       the response. Alternatively, you can use one of the AWS SDKs to	access
-       an  API	that  is tailored to the programming language or platform that
+       This API reference provides descriptions, syntax,  and  usage  examples
+       for  each  of the actions and data types for Application Discovery Ser-
+       vice. The topic for each action shows the API  request  parameters  and
+       the  response. Alternatively, you can use one of the AWS SDKs to access
+       an API that is tailored to the programming language  or	platform  that
        you're using. For more information, see AWS SDKs .
 
-       This guide is intended for use with the	`  AWS	Application  Discovery
-       Service				  User				 Guide
+       This  guide  is	intended  for use with the ` AWS Application Discovery
+       Service				 User				 Guide
        http://docs.aws.amazon.com/application-discovery/latest/userguide/
        `
        __ .
 
-       System Message: WARNING/2 (<string>:, line 56)
+       System Message: WARNING/2 (<string>:, line 60)
 	      Inline interpreted text or phrase reference start-string without
 	      end-string.
 

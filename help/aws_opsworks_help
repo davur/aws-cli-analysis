@@ -48,9 +48,14 @@ DESCRIPTION
 
        o opsworks.us-west-2.amazonaws.com
 
+       o opsworks.ca-central-1.amazonaws.com  (API  only; not available in the
+	 AWS console)
+
        o opsworks.eu-west-1.amazonaws.com
 
        o opsworks.eu-west-2.amazonaws.com
+
+       o opsworks.eu-west-3.amazonaws.com
 
        o opsworks.eu-central-1.amazonaws.com
 
@@ -68,13 +73,13 @@ DESCRIPTION
 	  Chef Versions
 
        When you call  create-stack ,  clone-stack , or	update-stack we recom-
-       mend you use the ConfigurationManager parameter	to  specify  the  Chef
-       version.  The  recommended  and	default value for Linux stacks is cur-
+       mend  you  use  the  ConfigurationManager parameter to specify the Chef
+       version. The recommended and default value for  Linux  stacks  is  cur-
        rently 12. Windows stacks use Chef 12.2. For more information, see Chef
        Versions .
 
        NOTE:
-	  You  can  specify  Chef  12, 11.10, or 11.4 for your Linux stack. We
+	  You can specify Chef 12, 11.10, or 11.4 for  your  Linux  stack.  We
 	  recommend migrating your existing Linux stacks to Chef 12 as soon as
 	  possible.
 
@@ -142,6 +147,8 @@ AVAILABLE COMMANDS
        o describe-load-based-auto-scaling
 
        o describe-my-user-profile
+
+       o describe-operating-systems
 
        o describe-permissions
 

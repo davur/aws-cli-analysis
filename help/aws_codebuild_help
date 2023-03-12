@@ -37,6 +37,8 @@ DESCRIPTION
 	 to  begin  automatically rebuilding the source code every time a code
 	 change is pushed to the repository.
 
+       o update-webhook : Changes the settings of an existing webhook.
+
        o delete-project : Deletes a build project.
 
        o delete-webhook : For an existing AWS CodeBuild build project that has
@@ -96,6 +98,8 @@ AVAILABLE COMMANDS
        o stop-build
 
        o update-project
+
+       o update-webhook
 
 
 

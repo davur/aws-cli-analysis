@@ -1,9 +1,9 @@
-RUNTIME.SAGEMAKER()					   RUNTIME.SAGEMAKER()
+SAGEMAKER-RUNTIME()					   SAGEMAKER-RUNTIME()
 
 
 
 NAME
-       runtime.sagemaker -
+       sagemaker-runtime -
 
 DESCRIPTION
        Amazon SageMaker runtime API.
@@ -15,4 +15,4 @@ AVAILABLE COMMANDS
 
 
 
-							   RUNTIME.SAGEMAKER()
+							   SAGEMAKER-RUNTIME()

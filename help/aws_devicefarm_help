@@ -13,6 +13,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-device-pool
 
+       o create-instance-profile
+
        o create-network-profile
 
        o create-project
@@ -22,6 +24,8 @@ AVAILABLE COMMANDS
        o create-upload
 
        o delete-device-pool
+
+       o delete-instance-profile
 
        o delete-network-profile
 
@@ -37,9 +41,13 @@ AVAILABLE COMMANDS
 
        o get-device
 
+       o get-device-instance
+
        o get-device-pool
 
        o get-device-pool-compatibility
+
+       o get-instance-profile
 
        o get-job
 
@@ -65,9 +73,13 @@ AVAILABLE COMMANDS
 
        o list-artifacts
 
+       o list-device-instances
+
        o list-device-pools
 
        o list-devices
+
+       o list-instance-profiles
 
        o list-jobs
 
@@ -105,7 +117,11 @@ AVAILABLE COMMANDS
 
        o stop-run
 
+       o update-device-instance
+
        o update-device-pool
+
+       o update-instance-profile
 
        o update-network-profile
 

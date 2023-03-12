@@ -18,7 +18,13 @@ AVAILABLE COMMANDS
 
        o create-distribution-with-tags
 
+       o create-field-level-encryption-config
+
+       o create-field-level-encryption-profile
+
        o create-invalidation
+
+       o create-public-key
 
        o create-streaming-distribution
 
@@ -27,6 +33,12 @@ AVAILABLE COMMANDS
        o delete-cloud-front-origin-access-identity
 
        o delete-distribution
+
+       o delete-field-level-encryption-config
+
+       o delete-field-level-encryption-profile
+
+       o delete-public-key
 
        o delete-service-linked-role
 
@@ -40,7 +52,19 @@ AVAILABLE COMMANDS
 
        o get-distribution-config
 
+       o get-field-level-encryption
+
+       o get-field-level-encryption-config
+
+       o get-field-level-encryption-profile
+
+       o get-field-level-encryption-profile-config
+
        o get-invalidation
+
+       o get-public-key
+
+       o get-public-key-config
 
        o get-streaming-distribution
 
@@ -54,7 +78,13 @@ AVAILABLE COMMANDS
 
        o list-distributions-by-web-acl-id
 
+       o list-field-level-encryption-configs
+
+       o list-field-level-encryption-profiles
+
        o list-invalidations
+
+       o list-public-keys
 
        o list-streaming-distributions
 
@@ -69,6 +99,12 @@ AVAILABLE COMMANDS
        o update-cloud-front-origin-access-identity
 
        o update-distribution
+
+       o update-field-level-encryption-config
+
+       o update-field-level-encryption-profile
+
+       o update-public-key
 
        o update-streaming-distribution
 

@@ -6,8 +6,8 @@ NAME
        kinesis -
 
 DESCRIPTION
-       Amazon Kinesis Streams is a managed service that scales elastically for
-       real time processing of streaming big data.
+       Amazon  Kinesis	Data  Streams is a managed service that scales elasti-
+       cally for real-time processing of streaming big data.
 
 AVAILABLE COMMANDS
        o add-tags-to-stream
@@ -35,6 +35,8 @@ AVAILABLE COMMANDS
        o help
 
        o increase-stream-retention-period
+
+       o list-shards
 
        o list-streams
 

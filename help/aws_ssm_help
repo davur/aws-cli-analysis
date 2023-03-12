@@ -6,17 +6,17 @@ NAME
        ssm -
 
 DESCRIPTION
-       Amazon  EC2  Systems Manager is a collection of capabilities that helps
-       you automate management tasks such as collecting system inventory,  ap-
-       plying operating system (OS) patches, automating the creation of Amazon
-       Machine Images (AMIs), and configuring operating systems (OSs) and  ap-
-       plications  at  scale.  Systems	Manager lets you remotely and securely
-       manage the configuration of your managed instances. A managed  instance
-       is  any Amazon EC2 instance or on-premises machine in your hybrid envi-
-       ronment that has been configured for Systems Manager.
+       AWS  Systems Manager is a collection of capabilities that helps you au-
+       tomate management tasks such as collecting system  inventory,  applying
+       operating  system  (OS)	patches, automating the creation of Amazon Ma-
+       chine Images (AMIs), and configuring operating systems (OSs) and appli-
+       cations at scale. Systems Manager lets you remotely and securely manage
+       the configuration of your managed instances. A managed instance is  any
+       Amazon  EC2  instance or on-premises machine in your hybrid environment
+       that has been configured for Systems Manager.
 
-       This reference is intended to be used with the Amazon EC2 Systems  Man-
-       ager User Guide .
+       This reference is intended to be used with the AWS Systems Manager User
+       Guide .
 
        To  get	started, verify prerequisites and configure managed instances.
        For more information, see Systems Manager Prerequisites .
@@ -73,6 +73,8 @@ AVAILABLE COMMANDS
        o describe-association
 
        o describe-automation-executions
+
+       o describe-automation-step-executions
 
        o describe-available-patches
 

@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o create-configuration-set-tracking-options
 
+       o create-custom-verification-email-template
+
        o create-receipt-filter
 
        o create-receipt-rule
@@ -36,6 +38,8 @@ AVAILABLE COMMANDS
        o delete-configuration-set-event-destination
 
        o delete-configuration-set-tracking-options
+
+       o delete-custom-verification-email-template
 
        o delete-identity
 
@@ -59,6 +63,8 @@ AVAILABLE COMMANDS
 
        o get-account-sending-enabled
 
+       o get-custom-verification-email-template
+
        o get-identity-dkim-attributes
 
        o get-identity-mail-from-domain-attributes
@@ -79,6 +85,8 @@ AVAILABLE COMMANDS
 
        o list-configuration-sets
 
+       o list-custom-verification-email-templates
+
        o list-identities
 
        o list-identity-policies
@@ -96,6 +104,8 @@ AVAILABLE COMMANDS
        o send-bounce
 
        o send-bulk-templated-email
+
+       o send-custom-verification-email
 
        o send-email
 
@@ -128,6 +138,8 @@ AVAILABLE COMMANDS
        o update-configuration-set-sending-enabled
 
        o update-configuration-set-tracking-options
+
+       o update-custom-verification-email-template
 
        o update-receipt-rule
 

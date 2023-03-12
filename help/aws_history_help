@@ -12,11 +12,15 @@ DESCRIPTION
 
        $ aws configure set cli_history enabled
 
+       See 'aws help' for descriptions of global parameters.
+
 SYNOPSIS
 	  history
 
 OPTIONS
        None
+
+       See 'aws help' for descriptions of global parameters.
 
 AVAILABLE COMMANDS
        o list

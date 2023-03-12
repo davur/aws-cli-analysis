@@ -285,6 +285,8 @@ AVAILABLE COMMANDS
 
        o update-open-id-connect-provider-thumbprint
 
+       o update-role
+
        o update-role-description
 
        o update-saml-provider

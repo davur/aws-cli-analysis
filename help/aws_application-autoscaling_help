@@ -6,20 +6,22 @@ NAME
        application-autoscaling -
 
 DESCRIPTION
-       With Application Auto Scaling, you can automatically scale your AWS re-
-       sources. The experience is similar to that of Auto Scaling  .  You  can
-       use Application Auto Scaling to accomplish the following tasks:
+       With  Application Auto Scaling, you can configure automatic scaling for
+       your scalable AWS resources. You can use Application  Auto  Scaling  to
+       accomplish the following tasks:
 
        o Define scaling policies to automatically scale your AWS resources
 
        o Scale your resources in response to CloudWatch alarms
+
+       o Schedule one-time or recurring scaling actions
 
        o View the history of your scaling events
 
        Application Auto Scaling can scale the following AWS resources:
 
        o Amazon  ECS  services. For more information, see Service Auto Scaling
-	 in the Amazon EC2 Container Service Developer Guide .
+	 in the Amazon Elastic Container Service Developer Guide .
 
        o Amazon EC2 Spot fleets. For more information, see  Automatic  Scaling
 	 for Spot Fleet in the Amazon EC2 User Guide .
@@ -36,10 +38,17 @@ DESCRIPTION
 	 put Capacity Automatically with DynamoDB Auto Scaling in  the	Amazon
 	 DynamoDB Developer Guide .
 
-       o Amazon  Aurora  Replicas. For more information, see Using Application
-	 Auto Scaling with an Amazon Aurora DB Cluster .
+       o Amazon Aurora Replicas. For more information, see Using Amazon Aurora
+	 Auto Scaling with Aurora Replicas .
 
-       For a list of supported regions, see AWS Regions and Endpoints:	Appli-
+       o Amazon SageMaker endpoints. For more information,  see  Automatically
+	 Scaling Amazon SageMaker Models .
+
+       To  configure  automatic scaling for multiple resources across multiple
+       services, use AWS Auto Scaling to create a scaling plan for your appli-
+       cation. For more information, see AWS Auto Scaling .
+
+       For  a list of supported regions, see AWS Regions and Endpoints: Appli-
        cation Auto Scaling in the AWS General Reference .
 
 AVAILABLE COMMANDS

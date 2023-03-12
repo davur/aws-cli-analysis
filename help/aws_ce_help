@@ -23,6 +23,10 @@ AVAILABLE COMMANDS
 
        o get-dimension-values
 
+       o get-reservation-coverage
+
+       o get-reservation-purchase-recommendation
+
        o get-reservation-utilization
 
        o get-tags
