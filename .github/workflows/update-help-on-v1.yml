@@ -1,0 +1,35 @@
+name: Run get-help.sh against v1 PRs
+
+on:
+  pull_request:
+    branches: [ v1 ]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version: ["2.7"]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # pip install flake8
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Get help
+        run: |
+          ./hack/get-help.sh
+          VERSION="$(aws --version)"
+          git config user.name get-help-automation
+          git config user.email github-actions@github.com
+          git add help/ results/
+          git commit -m "$VERSION"
+          git push
