@@ -40,8 +40,6 @@ AVAILABLE COMMANDS
 
        o delete-public-key
 
-       o delete-service-linked-role
-
        o delete-streaming-distribution
 
        o get-cloud-front-origin-access-identity

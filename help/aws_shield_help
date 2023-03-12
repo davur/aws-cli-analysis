@@ -14,19 +14,29 @@ DESCRIPTION
        Developer Guide .
 
 AVAILABLE COMMANDS
+       o associate-drt-log-bucket
+
+       o associate-drt-role
+
        o create-protection
 
        o create-subscription
 
        o delete-protection
 
-       o delete-subscription
-
        o describe-attack
+
+       o describe-drt-access
+
+       o describe-emergency-contact-settings
 
        o describe-protection
 
        o describe-subscription
+
+       o disassociate-drt-log-bucket
+
+       o disassociate-drt-role
 
        o get-subscription-state
 
@@ -35,6 +45,10 @@ AVAILABLE COMMANDS
        o list-attacks
 
        o list-protections
+
+       o update-emergency-contact-settings
+
+       o update-subscription
 
 
 

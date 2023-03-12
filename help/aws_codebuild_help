@@ -19,52 +19,52 @@ DESCRIPTION
 
        AWS CodeBuild supports these operations:
 
-       o batch-delete-builds : Deletes one or more builds.
+       o BatchDeleteBuilds : Deletes one or more builds.
 
-       o batch-get-projects  :	Gets  information  about  one  or  more  build
-	 projects. A build project defines how AWS CodeBuild will run a build.
-	 This includes information such as where to get  the  source  code  to
-	 build,  the  build environment to use, the build commands to run, and
-	 where to store the build output. A  build  environment  represents  a
-	 combination  of  operating  system, programming language runtime, and
-	 tools that AWS CodeBuild will use to run a build. Also, you  can  add
-	 tags to build projects to help manage your resources and costs.
+       o BatchGetProjects : Gets information about one or more build projects.
+	 A  build project defines how AWS CodeBuild will run a build. This in-
+	 cludes information such as where to get the source code to build, the
+	 build	environment  to  use,  the build commands to run, and where to
+	 store the build output. A build environment represents a  combination
+	 of operating system, programming language runtime, and tools that AWS
+	 CodeBuild will use to run a build. Also, you can add  tags  to  build
+	 projects to help manage your resources and costs.
 
-       o create-project : Creates a build project.
+       o CreateProject : Creates a build project.
 
-       o create-webhook : For an existing AWS CodeBuild build project that has
+       o CreateWebhook	: For an existing AWS CodeBuild build project that has
 	 its source code stored in a GitHub repository, enables AWS  CodeBuild
 	 to  begin  automatically rebuilding the source code every time a code
 	 change is pushed to the repository.
 
-       o update-webhook : Changes the settings of an existing webhook.
+       o UpdateWebhook : Changes the settings of an existing webhook.
 
-       o delete-project : Deletes a build project.
+       o DeleteProject : Deletes a build project.
 
-       o delete-webhook : For an existing AWS CodeBuild build project that has
+       o DeleteWebhook : For an existing AWS CodeBuild build project that  has
 	 its  source  code  stored in a GitHub repository, stops AWS CodeBuild
 	 from automatically rebuilding the  source  code  every  time  a  code
 	 change is pushed to the repository.
 
-       o list-projects	:  Gets a list of build project names, with each build
+       o ListProjects  :  Gets	a list of build project names, with each build
 	 project name representing a single build project.
 
-       o update-project : Changes the settings of an existing build project.
+       o UpdateProject : Changes the settings of an existing build project.
 
-       o batch-get-builds : Gets information about one or more builds.
+       o BatchGetBuilds : Gets information about one or more builds.
 
-       o list-builds : Gets a list of build IDs, with each build ID represent-
+       o ListBuilds : Gets a list of build IDs, with each build ID  represent-
 	 ing a single build.
 
-       o list-builds-for-project  : Gets a list of build IDs for the specified
+       o ListBuildsForProject  :  Gets	a  list of build IDs for the specified
 	 build project, with each build ID representing a single build.
 
-       o start-build : Starts running a build.
+       o StartBuild : Starts running a build.
 
-       o stop-build : Attempts to stop running a build.
+       o StopBuild : Attempts to stop running a build.
 
-       o list-curated-environment-images : Gets information about  Docker  im-
-	 ages that are managed by AWS CodeBuild.
+       o ListCuratedEnvironmentImages : Gets information about	Docker	images
+	 that are managed by AWS CodeBuild.
 
 AVAILABLE COMMANDS
        o batch-delete-builds

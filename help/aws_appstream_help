@@ -34,6 +34,8 @@ AVAILABLE COMMANDS
 
        o delete-image-builder
 
+       o delete-image-permissions
+
        o delete-stack
 
        o describe-directory-configs
@@ -41,6 +43,8 @@ AVAILABLE COMMANDS
        o describe-fleets
 
        o describe-image-builders
+
+       o describe-image-permissions
 
        o describe-images
 
@@ -75,6 +79,8 @@ AVAILABLE COMMANDS
        o update-directory-config
 
        o update-fleet
+
+       o update-image-permissions
 
        o update-stack
 

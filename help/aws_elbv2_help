@@ -39,21 +39,21 @@ DESCRIPTION
 
        To get started, complete the following tasks:
 
-       o Create a load balancer using  create-load-balancer .
+       o Create a load balancer using  CreateLoadBalancer .
 
-       o Create a target group using  create-target-group .
+       o Create a target group using  CreateTargetGroup .
 
-       o Register targets for the target group using  register-targets .
+       o Register targets for the target group using  RegisterTargets .
 
-       o Create one or more listeners  for  your  load	balancer  using   cre-
-	 ate-listener .
+       o Create one or more listeners for your load balancer using  CreateLis-
+	 tener .
 
        To  delete a load balancer and its related resources, complete the fol-
        lowing tasks:
 
-       o Delete the load balancer using  delete-load-balancer .
+       o Delete the load balancer using  DeleteLoadBalancer .
 
-       o Delete the target group using	delete-target-group .
+       o Delete the target group using	DeleteTargetGroup .
 
        All Elastic Load Balancing operations are idempotent, which means  that
        they  complete  at  most  one time. If you repeat an operation, it suc-

@@ -10,11 +10,21 @@ DESCRIPTION
        soft Windows desktops for your users.
 
 AVAILABLE COMMANDS
+       o associate-ip-groups
+
+       o authorize-ip-rules
+
+       o create-ip-group
+
        o create-tags
 
        o create-workspaces
 
+       o delete-ip-group
+
        o delete-tags
+
+       o describe-ip-groups
 
        o describe-tags
 
@@ -26,19 +36,27 @@ AVAILABLE COMMANDS
 
        o describe-workspaces-connection-status
 
+       o disassociate-ip-groups
+
        o help
 
        o modify-workspace-properties
 
+       o modify-workspace-state
+
        o reboot-workspaces
 
        o rebuild-workspaces
+
+       o revoke-ip-rules
 
        o start-workspaces
 
        o stop-workspaces
 
        o terminate-workspaces
+
+       o update-rules-of-ip-group
 
 
 

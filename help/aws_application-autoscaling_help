@@ -7,10 +7,11 @@ NAME
 
 DESCRIPTION
        With  Application Auto Scaling, you can configure automatic scaling for
-       your scalable AWS resources. You can use Application  Auto  Scaling  to
-       accomplish the following tasks:
+       your scalable resources. You can use Application Auto Scaling to accom-
+       plish the following tasks:
 
-       o Define scaling policies to automatically scale your AWS resources
+       o Define scaling policies to automatically scale your AWS or custom re-
+	 sources
 
        o Scale your resources in response to CloudWatch alarms
 
@@ -18,38 +19,41 @@ DESCRIPTION
 
        o View the history of your scaling events
 
-       Application Auto Scaling can scale the following AWS resources:
+       Application Auto Scaling can scale the following resources:
 
-       o Amazon  ECS  services. For more information, see Service Auto Scaling
+       o Amazon ECS services. For more information, see Service  Auto  Scaling
 	 in the Amazon Elastic Container Service Developer Guide .
 
-       o Amazon EC2 Spot fleets. For more information, see  Automatic  Scaling
+       o Amazon  EC2  Spot fleets. For more information, see Automatic Scaling
 	 for Spot Fleet in the Amazon EC2 User Guide .
 
-       o Amazon  EMR clusters. For more information, see Using Automatic Scal-
+       o Amazon EMR clusters. For more information, see Using Automatic  Scal-
 	 ing in Amazon EMR in the Amazon EMR Management Guide .
 
-       o AppStream 2.0 fleets. For more information, see  Fleet  Auto  Scaling
-	 for  Amazon AppStream 2.0 in the Amazon AppStream 2.0 Developer Guide
+       o AppStream  2.0  fleets.  For more information, see Fleet Auto Scaling
+	 for Amazon AppStream 2.0 in the Amazon AppStream 2.0 Developer  Guide
 	 .
 
-       o Provisioned read and write capacity for Amazon  DynamoDB  tables  and
+       o Provisioned  read  and  write capacity for Amazon DynamoDB tables and
 	 global secondary indexes. For more information, see Managing Through-
-	 put Capacity Automatically with DynamoDB Auto Scaling in  the	Amazon
+	 put  Capacity	Automatically with DynamoDB Auto Scaling in the Amazon
 	 DynamoDB Developer Guide .
 
        o Amazon Aurora Replicas. For more information, see Using Amazon Aurora
 	 Auto Scaling with Aurora Replicas .
 
-       o Amazon SageMaker endpoints. For more information,  see  Automatically
-	 Scaling Amazon SageMaker Models .
+       o Amazon   SageMaker  endpoint  variants.  For  more  information,  see
+	 Automatically Scaling Amazon SageMaker Models .
 
-       To  configure  automatic scaling for multiple resources across multiple
+       o Custom resources provided by your own applications or services.  More
+	 information is available in our GitHub repository .
+
+       To  learn more about Application Auto Scaling, see the Application Auto
+       Scaling User Guide .
+
+       To configure automatic scaling for multiple resources  across  multiple
        services, use AWS Auto Scaling to create a scaling plan for your appli-
-       cation. For more information, see AWS Auto Scaling .
-
-       For  a list of supported regions, see AWS Regions and Endpoints: Appli-
-       cation Auto Scaling in the AWS General Reference .
+       cation. For more information, see the AWS Auto Scaling User Guide .
 
 AVAILABLE COMMANDS
        o delete-scaling-policy

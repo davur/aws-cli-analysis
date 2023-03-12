@@ -12,6 +12,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o batch-get-traces
 
+       o get-encryption-config
+
        o get-service-graph
 
        o get-trace-graph
@@ -19,6 +21,8 @@ AVAILABLE COMMANDS
        o get-trace-summaries
 
        o help
+
+       o put-encryption-config
 
        o put-telemetry-records
 

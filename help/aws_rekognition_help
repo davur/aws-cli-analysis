@@ -21,6 +21,8 @@ AVAILABLE COMMANDS
 
        o delete-stream-processor
 
+       o describe-collection
+
        o describe-stream-processor
 
        o detect-faces

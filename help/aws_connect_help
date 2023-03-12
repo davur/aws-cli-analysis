@@ -13,11 +13,41 @@ DESCRIPTION
        and provide reliable customer engagement at any scale.
 
 AVAILABLE COMMANDS
+       o create-user
+
+       o delete-user
+
+       o describe-user
+
+       o describe-user-hierarchy-group
+
+       o describe-user-hierarchy-structure
+
+       o get-federation-token
+
        o help
+
+       o list-routing-profiles
+
+       o list-security-profiles
+
+       o list-user-hierarchy-groups
+
+       o list-users
 
        o start-outbound-voice-contact
 
        o stop-contact
+
+       o update-user-hierarchy
+
+       o update-user-identity-info
+
+       o update-user-phone-config
+
+       o update-user-routing-profile
+
+       o update-user-security-profiles
 
 
 

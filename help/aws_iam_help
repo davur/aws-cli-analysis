@@ -125,6 +125,8 @@ AVAILABLE COMMANDS
 
        o delete-role
 
+       o delete-role-permissions-boundary
+
        o delete-role-policy
 
        o delete-saml-provider
@@ -140,6 +142,8 @@ AVAILABLE COMMANDS
        o delete-ssh-public-key
 
        o delete-user
+
+       o delete-user-permissions-boundary
 
        o delete-user-policy
 
@@ -253,7 +257,11 @@ AVAILABLE COMMANDS
 
        o put-group-policy
 
+       o put-role-permissions-boundary
+
        o put-role-policy
+
+       o put-user-permissions-boundary
 
        o put-user-policy
 

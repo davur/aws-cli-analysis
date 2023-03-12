@@ -14,122 +14,120 @@ DESCRIPTION
 
        Repositories, by calling the following:
 
-       o batch-get-repositories  , which returns information about one or more
+       o BatchGetRepositories  ,  which  returns information about one or more
 	 repositories associated with your AWS account.
 
-       o create-repository , which creates an AWS CodeCommit repository.
+       o CreateRepository , which creates an AWS CodeCommit repository.
 
-       o delete-repository , which deletes an AWS CodeCommit repository.
+       o DeleteRepository , which deletes an AWS CodeCommit repository.
 
-       o get-repository , which returns information about a specified  reposi-
+       o GetRepository , which returns information about a  specified  reposi-
 	 tory.
 
-       o list-repositories , which lists all AWS CodeCommit repositories asso-
+       o ListRepositories  , which lists all AWS CodeCommit repositories asso-
 	 ciated with your AWS account.
 
-       o update-repository-description , which sets or updates the description
+       o UpdateRepositoryDescription , which sets or updates  the  description
 	 of the repository.
 
-       o update-repository-name , which changes the name of the repository. If
+       o UpdateRepositoryName  ,  which changes the name of the repository. If
 	 you change the name of a repository, no other users of  that  reposi-
 	 tory  will  be able to access it until you send them the new HTTPS or
 	 SSH URL to use.
 
        Branches, by calling the following:
 
-       o create-branch , which creates a new branch in a specified repository.
+       o CreateBranch , which creates a new branch in a specified repository.
 
-       o delete-branch , which deletes the specified branch  in  a  repository
-	 unless it is the default branch.
+       o DeleteBranch , which deletes the specified branch in a repository un-
+	 less it is the default branch.
 
-       o get-branch , which returns information about a specified branch.
+       o GetBranch , which returns information about a specified branch.
 
-       o list-branches , which lists all branches for a specified repository.
+       o ListBranches , which lists all branches for a specified repository.
 
-       o update-default-branch , which changes the default branch for a repos-
-	 itory.
+       o UpdateDefaultBranch  , which changes the default branch for a reposi-
+	 tory.
 
        Files, by calling the following:
 
-       o put-file , which adds or modifies a file in  a  specified  repository
-	 and branch.
+       o PutFile , which adds or modifies a file in a specified repository and
+	 branch.
 
        Information  about  committed code in a repository, by calling the fol-
        lowing:
 
-       o get-blob , which returns the base-64 encoded content of an individual
+       o GetBlob , which returns the base-64 encoded content of an  individual
 	 Git blob object within a repository.
 
-       o get-commit , which returns information about a commit, including com-
+       o GetCommit  , which returns information about a commit, including com-
 	 mit messages and author and committer information.
 
-       o get-differences , which returns information about the differences  in
-	 a  valid  commit specifier (such as a branch, tag, HEAD, commit ID or
+       o GetDifferences , which returns information about the differences in a
+	 valid	commit	specifier  (such  as a branch, tag, HEAD, commit ID or
 	 other fully qualified reference).
 
        Pull requests, by calling the following:
 
-       o create-pull-request , which creates a pull  request  in  a  specified
+       o CreatePullRequest , which creates  a  pull  request  in  a  specified
 	 repository.
 
-       o describe-pull-request-events , which returns information about one or
+       o DescribePullRequestEvents  ,  which  returns information about one or
 	 more pull request events.
 
-       o get-comments-for-pull-request , which returns information about  com-
-	 ments on a specified pull request.
+       o GetCommentsForPullRequest , which returns information about  comments
+	 on a specified pull request.
 
-       o get-merge-conflicts , which returns information about merge conflicts
+       o GetMergeConflicts  ,  which returns information about merge conflicts
 	 between the source and destination branch in a pull request.
 
-       o get-pull-request , which returns information about a  specified  pull
-	 request.
+       o GetPullRequest , which returns information about a specified pull re-
+	 quest.
 
-       o list-pull-requests , which lists all pull requests for a repository.
+       o ListPullRequests , which lists all pull requests for a repository.
 
-       o merge-pull-request-by-fast-forward , which merges the source destina-
-	 tion branch of a pull request into the specified  destination	branch
-	 for that pull request using the fast-forward merge option.
+       o MergePullRequestByFastForward	,  which merges the source destination
+	 branch of a pull request into the specified  destination  branch  for
+	 that pull request using the fast-forward merge option.
 
-       o post-comment-for-pull-request	,  which posts a comment to a pull re-
-	 quest at the specified line, file, or request.
+       o PostCommentForPullRequest  ,  which posts a comment to a pull request
+	 at the specified line, file, or request.
 
-       o update-pull-request-description , which updates the description of  a
+       o UpdatePullRequestDescription , which updates  the  description  of  a
 	 pull request.
 
-       o update-pull-request-status  ,	which updates the status of a pull re-
-	 quest.
+       o UpdatePullRequestStatus , which updates the status of a pull request.
 
-       o update-pull-request-title , which updates the title  of  a  pull  re-
-	 quest.
+       o UpdatePullRequestTitle , which updates the title of a pull request.
 
        Information about comments in a repository, by calling the following:
 
-       o delete-comment-content  , which deletes the content of a comment on a
+       o DeleteCommentContent  ,  which  deletes the content of a comment on a
 	 commit in a repository.
 
-       o get-comment , which returns information about a comment on a commit.
+       o GetComment , which returns information about a comment on a commit.
 
-       o get-comments-for-compared-commit , which  returns  information  about
-	 comments on the comparison between two commit specifiers in a reposi-
+       o GetCommentsForComparedCommit , which returns information  about  com-
+	 ments	on  the  comparison between two commit specifiers in a reposi-
 	 tory.
 
-       o post-comment-for-compared-commit , which creates  a  comment  on  the
-	 comparison between two commit specifiers in a repository.
+       o PostCommentForComparedCommit , which creates a comment on the compar-
+	 ison between two commit specifiers in a repository.
 
-       o post-comment-reply , which creates a reply to a comment.
+       o PostCommentReply , which creates a reply to a comment.
 
-       o update-comment  ,  which updates the content of a comment on a commit
-	 in a repository.
+       o UpdateComment , which updates the content of a comment on a commit in
+	 a repository.
 
        Triggers, by calling the following:
 
-       o get-repository-triggers , which returns  information  about  triggers
-	 configured for a repository.
+       o GetRepositoryTriggers , which returns information about triggers con-
+	 figured for a repository.
 
-       o put-repository-triggers  ,  which replaces all triggers for a reposi-
-	 tory and can be used to create or delete triggers.
+       o PutRepositoryTriggers	, which replaces all triggers for a repository
+	 and can be used to create or delete triggers.
 
-       o test-repository-triggers , which tests the functionality of a reposi-
+       o TestRepositoryTriggers , which tests the functionality of  a  reposi-
 	 tory trigger by sending data to the trigger target.
 
        For information about how to use AWS CodeCommit, see the AWS CodeCommit

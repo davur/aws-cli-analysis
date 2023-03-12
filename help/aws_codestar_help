@@ -14,51 +14,50 @@ DESCRIPTION
 
        Projects and their resources, by calling the following:
 
-       o delete-project , which deletes a project.
+       o DeleteProject , which deletes a project.
 
-       o describe-project , which lists the attributes of a project.
+       o DescribeProject , which lists the attributes of a project.
 
-       o list-projects , which lists all projects associated with your AWS ac-
+       o ListProjects  , which lists all projects associated with your AWS ac-
 	 count.
 
-       o list-resources , which lists the resources associated with a project.
+       o ListResources , which lists the resources associated with a project.
 
-       o list-tags-for-project ,  which  lists	the  tags  associated  with  a
-	 project.
+       o ListTagsForProject , which lists the tags associated with a project.
 
-       o tag-project , which adds tags to a project.
+       o TagProject , which adds tags to a project.
 
-       o untag-project , which removes tags from a project.
+       o UntagProject , which removes tags from a project.
 
-       o update-project , which updates the attributes of a project.
+       o UpdateProject , which updates the attributes of a project.
 
        Teams and team members, by calling the following:
 
-       o associate-team-member	,  which  adds	an  IAM user to the team for a
+       o AssociateTeamMember , which adds an  IAM  user  to  the  team	for  a
 	 project.
 
-       o disassociate-team-member , which removes an IAM user  from  the  team
-	 for a project.
+       o DisassociateTeamMember  , which removes an IAM user from the team for
+	 a project.
 
-       o list-team-members  ,  which lists all the IAM users in the team for a
+       o ListTeamMembers , which lists all the IAM users in  the  team	for  a
 	 project, including their roles and attributes.
 
-       o update-team-member , which updates a team member's  attributes  in  a
+       o UpdateTeamMember  ,  which  updates  a  team member's attributes in a
 	 project.
 
        Users, by calling the following:
 
-       o create-user-profile , which creates a user profile that contains data
+       o CreateUserProfile , which creates a user profile that	contains  data
 	 associated with the user across all projects.
 
-       o delete-user-profile , which  deletes  all  user  profile  information
-	 across all projects.
+       o DeleteUserProfile , which deletes all user profile information across
+	 all projects.
 
-       o describe-user-profile , which describes the profile of a user.
+       o DescribeUserProfile , which describes the profile of a user.
 
-       o list-user-profiles , which lists all user profiles.
+       o ListUserProfiles , which lists all user profiles.
 
-       o update-user-profile , which updates the profile for a user.
+       o UpdateUserProfile , which updates the profile for a user.
 
 AVAILABLE COMMANDS
        o associate-team-member

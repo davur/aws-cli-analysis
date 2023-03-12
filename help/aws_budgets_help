@@ -39,7 +39,10 @@ DESCRIPTION
 
        The AWS Budgets API provides the following endpoint:
 
-       o https://budgets.us-east-1.amazonaws.com
+       o https://budgets.amazonaws.com
+
+       For information about costs associated with the AWS  Budgets  API,  see
+       AWS Cost Management Pricing .
 
 AVAILABLE COMMANDS
        o create-budget

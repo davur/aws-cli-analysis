@@ -1,0 +1,36 @@
+IOT1CLICK-DEVICES()					   IOT1CLICK-DEVICES()
+
+
+
+NAME
+       iot1click-devices -
+
+DESCRIPTION
+       Stub description
+
+AVAILABLE COMMANDS
+       o claim-devices-by-claim-code
+
+       o describe-device
+
+       o finalize-device-claim
+
+       o get-device-methods
+
+       o help
+
+       o initiate-device-claim
+
+       o invoke-device-method
+
+       o list-device-events
+
+       o list-devices
+
+       o unclaim-device
+
+       o update-device-state
+
+
+
+							   IOT1CLICK-DEVICES()

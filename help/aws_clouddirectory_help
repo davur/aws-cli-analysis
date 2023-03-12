@@ -71,6 +71,10 @@ AVAILABLE COMMANDS
 
        o get-facet
 
+       o get-link-attributes
+
+       o get-object-attributes
+
        o get-object-information
 
        o get-schema-as-json
@@ -94,6 +98,8 @@ AVAILABLE COMMANDS
        o list-incoming-typed-links
 
        o list-index
+
+       o list-managed-schema-arns
 
        o list-object-attributes
 
@@ -130,6 +136,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-facet
+
+       o update-link-attributes
 
        o update-object-attributes
 

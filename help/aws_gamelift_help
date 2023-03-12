@@ -21,8 +21,8 @@ DESCRIPTION
 	 quests to join a game session.
 
        o Configure  and manage game server resources -- Manage builds, fleets,
-	 queues, and aliases; set autoscaling policies; retrieve logs and met-
-	 rics.
+	 queues, and aliases; set auto-scaling	policies;  retrieve  logs  and
+	 metrics.
 
        This  reference	guide  describes  the low-level service API for Amazon
        GameLift. You can use the API functionality with these tools:
@@ -72,7 +72,7 @@ DESCRIPTION
 
        o Discover existing game sessions
 
-	 o search-game-sessions -- Retrieve all  available  game  sessions  or
+	 o SearchGameSessions --  Retrieve  all  available  game  sessions  or
 	   search for game sessions that match a set of criteria.
 
        o Start new game sessions
@@ -81,59 +81,59 @@ DESCRIPTION
 	   sources across multiple regions, minimize player latency, and  bal-
 	   ance game session activity for efficiency and cost effectiveness.
 
-	   o start-game-session-placement -- Request a new game session place-
-	     ment and add one or more players to it.
+	   o StartGameSessionPlacement -- Request a new game session placement
+	     and add one or more players to it.
 
-	   o describe-game-session-placement -- Get details on a placement re-
+	   o DescribeGameSessionPlacement -- Get details on  a	placement  re-
 	     quest, including status.
 
-	   o stop-game-session-placement -- Cancel a placement request.
+	   o StopGameSessionPlacement -- Cancel a placement request.
 
-	 o create-game-session	--  Start  a  new  game  session on a specific
-	   fleet. Available in Amazon GameLift Local.
+	 o CreateGameSession  -- Start a new game session on a specific fleet.
+	   Available in Amazon GameLift Local.
 
        o Match players to game sessions with FlexMatch matchmaking
 
-	 o start-matchmaking -- Request matchmaking for one players or a group
+	 o StartMatchmaking -- Request matchmaking for one players or a  group
 	   who want to play together.
 
-	 o start-match-backfill  -  Request  additional player matches to fill
+	 o StartMatchBackfill  -  Request  additional  player  matches to fill
 	   empty slots in an existing game session.
 
-	 o describe-matchmaking -- Get details on a matchmaking  request,  in-
+	 o DescribeMatchmaking -- Get details on a  matchmaking  request,  in-
 	   cluding status.
 
-	 o accept-match  --  Register  that a player accepts a proposed match,
-	   for matches that require player acceptance.
+	 o AcceptMatch -- Register that a player accepts a proposed match, for
+	   matches that require player acceptance.
 
-	 o stop-matchmaking -- Cancel a matchmaking request.
+	 o StopMatchmaking -- Cancel a matchmaking request.
 
        o Manage game session data
 
-	 o describe-game-sessions -- Retrieve metadata for one	or  more  game
-	   sessions, including length of time active and current player count.
+	 o DescribeGameSessions -- Retrieve metadata for one or more game ses-
+	   sions,  including  length  of time active and current player count.
 	   Available in Amazon GameLift Local.
 
-	 o describe-game-session-details -- Retrieve  metadata	and  the  game
-	   session protection setting for one or more game sessions.
+	 o DescribeGameSessionDetails -- Retrieve metadata and the  game  ses-
+	   sion protection setting for one or more game sessions.
 
-	 o update-game-session	-- Change game session settings, such as maxi-
-	   mum player count and join policy.
+	 o UpdateGameSession  -- Change game session settings, such as maximum
+	   player count and join policy.
 
-	 o get-game-session-log-url -- Get the location of saved  logs	for  a
-	   game session.
+	 o GetGameSessionLogUrl -- Get the location of saved logs for  a  game
+	   session.
 
        o Manage player sessions
 
-	 o create-player-session -- Send a request for a player to join a game
+	 o CreatePlayerSession	--  Send a request for a player to join a game
 	   session. Available in Amazon GameLift Local.
 
-	 o create-player-sessions -- Send a request for  multiple  players  to
-	   join a game session. Available in Amazon GameLift Local.
+	 o CreatePlayerSessions -- Send a request for multiple players to join
+	   a game session. Available in Amazon GameLift Local.
 
-	 o describe-player-sessions -- Get details on player activity, includ-
-	   ing status, playing time, and  player  data.  Available  in	Amazon
-	   GameLift Local.
+	 o DescribePlayerSessions -- Get details on player activity, including
+	   status, playing time, and player data. Available in Amazon GameLift
+	   Local.
 	  Setting Up and Managing Game Servers
 
        When  setting  up  Amazon  GameLift  resources for your game, you first
@@ -144,161 +144,164 @@ DESCRIPTION
 
        o Manage game builds
 
-	 o create-build  -- Create a new build using files stored in an Amazon
+	 o CreateBuild	--  Create a new build using files stored in an Amazon
 	   S3 bucket. To create a build and upload files from  a  local  path,
 	   use the AWS CLI command upload-build .
 
-	 o list-builds	--  Get  a  list  of  all  builds uploaded to a Amazon
+	 o ListBuilds  --  Get	a  list  of  all  builds  uploaded to a Amazon
 	   GameLift region.
 
-	 o describe-build -- Retrieve information associated with a build.
+	 o DescribeBuild -- Retrieve information associated with a build.
 
-	 o update-build -- Change build metadata,  including  build  name  and
-	   version.
+	 o UpdateBuild -- Change build metadata, including build name and ver-
+	   sion.
 
-	 o delete-build -- Remove a build from Amazon GameLift.
+	 o DeleteBuild -- Remove a build from Amazon GameLift.
 
        o Manage fleets
 
-	 o create-fleet -- Configure and activate a new fleet to run a build's
+	 o CreateFleet	-- Configure and activate a new fleet to run a build's
 	   game servers.
 
-	 o list-fleets -- Get a list of all fleet IDs in a Amazon GameLift re-
+	 o ListFleets -- Get a list of all fleet IDs in a Amazon GameLift  re-
 	   gion (all statuses).
 
-	 o delete-fleet  --  Terminate	a fleet that is no longer running game
+	 o DeleteFleet	--  Terminate  a  fleet that is no longer running game
 	   servers or hosting players.
 
 	 o View / update fleet configurations.
 
-	   o describe-fleet-attributes /  update-fleet-attributes --  View  or
+	   o DescribeFleetAttributes  /   UpdateFleetAttributes  --  View   or
 	     change  a	fleet's metadata and settings for game session protec-
 	     tion and resource creation limits.
 
-	   o describe-fleet-port-settings  /   update-fleet-port-settings   --
-	     View  or change the inbound permissions (IP address and port set-
-	     ting ranges) allowed for a fleet.
+	   o DescribeFleetPortSettings /  UpdateFleetPortSettings --  View  or
+	     change  the  inbound  permissions	(IP  address  and port setting
+	     ranges) allowed for a fleet.
 
-	   o describe-runtime-configuration /  update-runtime-configuration --
+	   o DescribeRuntimeConfiguration  /   UpdateRuntimeConfiguration   --
 	     View  or  change  what  server processes (and how many) to run on
 	     each instance in a fleet.
 
        o Control fleet capacity
 
-	 o describe-ec2-instance-limits --  Retrieve  maximum  number  of  in-
-	   stances  allowed  for the current AWS account and the current usage
-	   level.
+	 o DescribeEC2InstanceLimits -- Retrieve maximum number  of  instances
+	   allowed for the current AWS account and the current usage level.
 
-	 o describe-fleet-capacity /  update-fleet-capacity  --  Retrieve  the
-	   capacity  settings  and the current number of instances in a fleet;
-	   adjust fleet capacity settings to scale up or down.
+	 o DescribeFleetCapacity /  UpdateFleetCapacity -- Retrieve the capac-
+	   ity settings and the current number of instances in a fleet; adjust
+	   fleet capacity settings to scale up or down.
 
-	 o Autoscale -- Manage autoscaling rules and apply them to a fleet.
+	 o Autoscale -- Manage auto-scaling rules and apply them to a fleet.
 
-	   o put-scaling-policy -- Create a new autoscaling policy, or	update
+	   o PutScalingPolicy  --  Create a new auto-scaling policy, or update
 	     an existing one.
 
-	   o describe-scaling-policies	--  Retrieve  an  existing autoscaling
-	     policy.
+	   o DescribeScalingPolicies -- Retrieve an existing auto-scaling pol-
+	     icy.
 
-	   o delete-scaling-policy -- Delete an autoscaling policy and stop it
+	   o DeleteScalingPolicy  -- Delete an auto-scaling policy and stop it
 	     from affecting a fleet's capacity.
+
+	   o StartFleetActions -- Restart a fleet's auto-scaling policies.
+
+	   o StopFleetActions -- Suspend a fleet's auto-scaling policies.
 
        o Manage VPC peering connections for fleets
 
-	 o create-vpc-peering-authorization  -- Authorize a peering connection
-	   to one of your VPCs.
+	 o CreateVpcPeeringAuthorization -- Authorize a peering connection  to
+	   one of your VPCs.
 
-	 o describe-vpc-peering-authorizations -- Retrieve valid peering  con-
-	   nection authorizations.
+	 o DescribeVpcPeeringAuthorizations  -- Retrieve valid peering connec-
+	   tion authorizations.
 
-	 o delete-vpc-peering-authorization -- Delete a peering connection au-
-	   thorization.
+	 o DeleteVpcPeeringAuthorization -- Delete a peering connection autho-
+	   rization.
 
-	 o create-vpc-peering-connection -- Establish a peering connection be-
+	 o CreateVpcPeeringConnection  --  Establish  a peering connection be-
 	   tween the VPC for a Amazon GameLift fleet and one of your VPCs.
 
-	 o describe-vpc-peering-connections  -- Retrieve information on active
-	   or pending VPC peering connections with a Amazon GameLift fleet.
+	 o DescribeVpcPeeringConnections -- Retrieve information on active  or
+	   pending VPC peering connections with a Amazon GameLift fleet.
 
-	 o delete-vpc-peering-connection -- Delete a  VPC  peering  connection
-	   with a Amazon GameLift fleet.
+	 o DeleteVpcPeeringConnection  -- Delete a VPC peering connection with
+	   a Amazon GameLift fleet.
 
        o Access fleet activity statistics
 
-	 o describe-fleet-utilization  --  Get	current  data on the number of
-	   server processes, game sessions, and players currently active on  a
+	 o DescribeFleetUtilization -- Get  current  data  on  the  number  of
+	   server  processes, game sessions, and players currently active on a
 	   fleet.
 
-	 o describe-fleet-events  --  Get a fleet's logged events for a speci-
-	   fied time span.
+	 o DescribeFleetEvents -- Get a fleet's logged events for a  specified
+	   time span.
 
-	 o describe-game-sessions -- Retrieve metadata associated with one  or
-	   more  game  sessions,  including  length of time active and current
+	 o DescribeGameSessions  --  Retrieve  metadata associated with one or
+	   more game sessions, including length of  time  active  and  current
 	   player count.
 
        o Remotely access an instance
 
-	 o describe-instances -- Get information on each instance in a	fleet,
+	 o DescribeInstances  --  Get information on each instance in a fleet,
 	   including instance ID, IP address, and status.
 
-	 o get-instance-access	--  Request  access  credentials needed to re-
-	   motely connect to a specified instance in a fleet.
+	 o GetInstanceAccess -- Request access credentials needed to  remotely
+	   connect to a specified instance in a fleet.
 
        o Manage fleet aliases
 
-	 o create-alias -- Define a new alias and optionally assign  it  to  a
+	 o CreateAlias	--  Define  a  new alias and optionally assign it to a
 	   fleet.
 
-	 o list-aliases  -- Get all fleet aliases defined in a Amazon GameLift
+	 o ListAliases -- Get all fleet aliases defined in a  Amazon  GameLift
 	   region.
 
-	 o describe-alias -- Retrieve information on an existing alias.
+	 o DescribeAlias -- Retrieve information on an existing alias.
 
-	 o update-alias -- Change settings for a alias, such as redirecting it
+	 o UpdateAlias	-- Change settings for a alias, such as redirecting it
 	   from one fleet to another.
 
-	 o delete-alias -- Remove an alias from the region.
+	 o DeleteAlias -- Remove an alias from the region.
 
-	 o resolve-alias -- Get the fleet ID that a specified alias points to.
+	 o ResolveAlias -- Get the fleet ID that a specified alias points to.
 
        o Manage game session queues
 
-	 o create-game-session-queue -- Create a queue for processing requests
+	 o CreateGameSessionQueue -- Create a queue  for  processing  requests
 	   for new game sessions.
 
-	 o describe-game-session-queues -- Retrieve game  session  queues  de-
-	   fined in a Amazon GameLift region.
+	 o DescribeGameSessionQueues  --  Retrieve game session queues defined
+	   in a Amazon GameLift region.
 
-	 o update-game-session-queue  --  Change  the  configuration of a game
-	   session queue.
+	 o UpdateGameSessionQueue -- Change the configuration of a  game  ses-
+	   sion queue.
 
-	 o delete-game-session-queue -- Remove a game session queue  from  the
-	   region.
+	 o DeleteGameSessionQueue  -- Remove a game session queue from the re-
+	   gion.
 
        o Manage FlexMatch resources
 
-	 o create-matchmaking-configuration -- Create a matchmaking configura-
+	 o CreateMatchmakingConfiguration -- Create a  matchmaking  configura-
 	   tion with instructions for building a player group and placing in a
 	   new game session.
 
-	 o describe-matchmaking-configurations -- Retrieve matchmaking config-
-	   urations defined a Amazon GameLift region.
+	 o DescribeMatchmakingConfigurations -- Retrieve matchmaking  configu-
+	   rations defined a Amazon GameLift region.
 
-	 o update-matchmaking-configuration -- Change settings for matchmaking
+	 o UpdateMatchmakingConfiguration  --  Change settings for matchmaking
 	   configuration. queue.
 
-	 o delete-matchmaking-configuration -- Remove a matchmaking configura-
+	 o DeleteMatchmakingConfiguration -- Remove a  matchmaking  configura-
 	   tion from the region.
 
-	 o create-matchmaking-rule-set -- Create a set of rules  to  use  when
+	 o CreateMatchmakingRuleSet  --  Create  a  set  of  rules to use when
 	   searching for player matches.
 
-	 o describe-matchmaking-rule-sets  --  Retrieve  matchmaking rule sets
-	   defined in a Amazon GameLift region.
+	 o DescribeMatchmakingRuleSets -- Retrieve matchmaking rule  sets  de-
+	   fined in a Amazon GameLift region.
 
-	 o validate-matchmaking-rule-set -- Verify syntax for a set of	match-
-	   making rules.
+	 o ValidateMatchmakingRuleSet  -- Verify syntax for a set of matchmak-
+	   ing rules.
 
 AVAILABLE COMMANDS
        o accept-match
@@ -405,11 +408,15 @@ AVAILABLE COMMANDS
 
        o search-game-sessions
 
+       o start-fleet-actions
+
        o start-game-session-placement
 
        o start-match-backfill
 
        o start-matchmaking
+
+       o stop-fleet-actions
 
        o stop-game-session-placement
 

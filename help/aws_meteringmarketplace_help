@@ -13,15 +13,15 @@ DESCRIPTION
        tom usage dimensions.
 	  Submitting Metering Records
 
-       o meter-usage  - Submits the metering record for a Marketplace product.
-	 meter-usage is called from an EC2 instance.
+       o MeterUsage  -	Submits the metering record for a Marketplace product.
+	 MeterUsage is called from an EC2 instance.
 
-       o batch-meter-usage - Submits the metering record for  a  set  of  cus-
-	 tomers.  batch-meter-usage  is  called  from  a software-as-a-service
-	 (SaaS) application.
+       o BatchMeterUsage - Submits the metering record for a set of customers.
+	 BatchMeterUsage  is called from a software-as-a-service (SaaS) appli-
+	 cation.
 	  Accepting New Customers
 
-       o resolve-customer - Called by a SaaS application during the  registra-
+       o ResolveCustomer - Called by a SaaS application during	the  registra-
 	 tion  process.  When a buyer visits your website during the registra-
 	 tion process, the buyer submits  a  Registration  Token  through  the
 	 browser.  The	Registration Token is resolved through this API to ob-

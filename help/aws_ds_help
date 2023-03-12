@@ -93,6 +93,8 @@ AVAILABLE COMMANDS
 
        o remove-tags-from-resource
 
+       o reset-user-password
+
        o restore-from-snapshot
 
        o start-schema-extension

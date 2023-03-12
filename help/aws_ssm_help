@@ -19,9 +19,10 @@ DESCRIPTION
        Guide .
 
        To  get	started, verify prerequisites and configure managed instances.
-       For more information, see Systems Manager Prerequisites .
+       For more information, see Systems Manager Prerequisites in the AWS Sys-
+       tems Manager User Guide .
 
-       For information about other API actions you can perform on  Amazon  EC2
+       For  information  about other API actions you can perform on Amazon EC2
        instances, see the Amazon EC2 API Reference . For information about how
        to use a Query API, see Making API Requests .
 
@@ -50,6 +51,8 @@ AVAILABLE COMMANDS
 
        o delete-document
 
+       o delete-inventory
+
        o delete-maintenance-window
 
        o delete-parameter
@@ -71,6 +74,10 @@ AVAILABLE COMMANDS
        o describe-activations
 
        o describe-association
+
+       o describe-association-execution-targets
+
+       o describe-association-executions
 
        o describe-automation-executions
 
@@ -95,6 +102,8 @@ AVAILABLE COMMANDS
        o describe-instance-patch-states-for-patch-group
 
        o describe-instance-patches
+
+       o describe-inventory-deletions
 
        o describe-maintenance-window-execution-task-invocations
 
@@ -154,6 +163,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o label-parameter-version
+
        o list-association-versions
 
        o list-associations
@@ -199,6 +210,8 @@ AVAILABLE COMMANDS
        o send-automation-signal
 
        o send-command
+
+       o start-associations-once
 
        o start-automation-execution
 

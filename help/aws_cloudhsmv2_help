@@ -10,6 +10,8 @@ DESCRIPTION
        CloudHSM User Guide .
 
 AVAILABLE COMMANDS
+       o copy-backup-to-region
+
        o create-cluster
 
        o create-hsm

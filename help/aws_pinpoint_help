@@ -6,6 +6,8 @@ NAME
        pinpoint -
 
 DESCRIPTION
+       Amazon Pinpoint
+
 AVAILABLE COMMANDS
        o create-app
 
@@ -45,6 +47,8 @@ AVAILABLE COMMANDS
 
        o delete-sms-channel
 
+       o delete-user-endpoints
+
        o get-adm-channel
 
        o get-apns-channel
@@ -72,6 +76,8 @@ AVAILABLE COMMANDS
        o get-campaign-versions
 
        o get-campaigns
+
+       o get-channels
 
        o get-email-channel
 
@@ -103,9 +109,17 @@ AVAILABLE COMMANDS
 
        o get-sms-channel
 
+       o get-user-endpoints
+
        o help
 
+       o phone-number-validate
+
        o put-event-stream
+
+       o put-events
+
+       o remove-attributes
 
        o send-messages
 

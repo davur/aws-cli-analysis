@@ -9,6 +9,8 @@ DESCRIPTION
        API for AWS Elemental MediaLive
 
 AVAILABLE COMMANDS
+       o batch-update-schedule
+
        o create-channel
 
        o create-input
@@ -21,11 +23,19 @@ AVAILABLE COMMANDS
 
        o delete-input-security-group
 
+       o delete-reservation
+
        o describe-channel
 
        o describe-input
 
        o describe-input-security-group
+
+       o describe-offering
+
+       o describe-reservation
+
+       o describe-schedule
 
        o help
 
@@ -34,6 +44,12 @@ AVAILABLE COMMANDS
        o list-input-security-groups
 
        o list-inputs
+
+       o list-offerings
+
+       o list-reservations
+
+       o purchase-offering
 
        o start-channel
 

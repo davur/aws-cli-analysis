@@ -16,7 +16,7 @@ DESCRIPTION
        of data capacity in a multi-tenant database.
 	  Getting Entitlement Records
 
-       o get-entitlements - Gets the entitlements for a Marketplace product.
+       o GetEntitlements - Gets the entitlements for a Marketplace product.
 
 AVAILABLE COMMANDS
        o get-entitlements

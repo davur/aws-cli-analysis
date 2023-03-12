@@ -18,9 +18,13 @@ AVAILABLE COMMANDS
 
        o delete-stream
 
+       o deregister-stream-consumer
+
        o describe-limits
 
        o describe-stream
+
+       o describe-stream-consumer
 
        o describe-stream-summary
 
@@ -38,6 +42,8 @@ AVAILABLE COMMANDS
 
        o list-shards
 
+       o list-stream-consumers
+
        o list-streams
 
        o list-tags-for-stream
@@ -47,6 +53,8 @@ AVAILABLE COMMANDS
        o put-record
 
        o put-records
+
+       o register-stream-consumer
 
        o remove-tags-from-stream
 

@@ -175,6 +175,8 @@ AVAILABLE SERVICES
 
        o discovery
 
+       o dlm
+
        o dms
 
        o ds
@@ -190,6 +192,8 @@ AVAILABLE SERVICES
        o ecs
 
        o efs
+
+       o eks
 
        o elasticache
 
@@ -239,6 +243,12 @@ AVAILABLE SERVICES
 
        o iot-jobs-data
 
+       o iot1click-devices
+
+       o iot1click-projects
+
+       o iotanalytics
+
        o kinesis
 
        o kinesis-video-archived-media
@@ -263,6 +273,8 @@ AVAILABLE SERVICES
 
        o machinelearning
 
+       o macie
+
        o marketplace-entitlement
 
        o marketplacecommerceanalytics
@@ -277,6 +289,8 @@ AVAILABLE SERVICES
 
        o mediastore-data
 
+       o mediatailor
+
        o meteringmarketplace
 
        o mgh
@@ -287,11 +301,15 @@ AVAILABLE SERVICES
 
        o mturk
 
+       o neptune
+
        o opsworks
 
        o opsworks-cm
 
        o organizations
+
+       o pi
 
        o pinpoint
 

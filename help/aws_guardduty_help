@@ -16,6 +16,8 @@ AVAILABLE COMMANDS
 
        o create-detector
 
+       o create-filter
+
        o create-ip-set
 
        o create-members
@@ -27,6 +29,8 @@ AVAILABLE COMMANDS
        o decline-invitations
 
        o delete-detector
+
+       o delete-filter
 
        o delete-invitations
 
@@ -41,6 +45,8 @@ AVAILABLE COMMANDS
        o disassociate-members
 
        o get-detector
+
+       o get-filter
 
        o get-findings
 
@@ -62,6 +68,8 @@ AVAILABLE COMMANDS
 
        o list-detectors
 
+       o list-filters
+
        o list-findings
 
        o list-invitations
@@ -79,6 +87,8 @@ AVAILABLE COMMANDS
        o unarchive-findings
 
        o update-detector
+
+       o update-filter
 
        o update-findings-feedback
 

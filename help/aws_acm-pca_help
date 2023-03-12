@@ -7,20 +7,20 @@ NAME
 
 DESCRIPTION
        You  can  use the ACM PCA API to create a private certificate authority
-       (CA). You must first call the   create-certificate-authority  function.
-       If  successful,	the function returns an Amazon Resource Name (ARN) for
-       your private CA. Use this ARN as input to the   get-certificate-author-
-       ity-csr	function to retrieve the certificate signing request (CSR) for
+       (CA). You must first call the  CreateCertificateAuthority operation. If
+       successful,  the  operation  returns  an Amazon Resource Name (ARN) for
+       your private CA. Use this ARN as input to  the	GetCertificateAuthori-
+       tyCsr  operation  to retrieve the certificate signing request (CSR) for
        your private CA certificate. Sign the CSR using the root or an interme-
-       diate  CA  in your on-premises PKI hierarchy, and call the  import-cer-
-       tificate-authority-certificate to import your signed  private  CA  cer-
-       tificate into ACM PCA.
+       diate  CA  in  your on-premises PKI hierarchy, and call the  ImportCer-
+       tificateAuthorityCertificate to import your signed private CA  certifi-
+       cate into ACM PCA.
 
        Use your private CA to issue and revoke certificates. These are private
        certificates that identify and secure client computers, servers, appli-
        cations,  services, devices, and users over SSLS/TLS connections within
-       your organization. Call the  issue-certificate function to issue a cer-
-       tificate.  Call	the   revoke-certificate function to revoke a certifi-
+       your organization. Call the  IssueCertificate operation to issue a cer-
+       tificate.  Call	the   RevokeCertificate operation to revoke a certifi-
        cate.
 
        NOTE:
@@ -29,15 +29,15 @@ DESCRIPTION
 
        Your  private  CA  can  optionally create a certificate revocation list
        (CRL) to track the certificates you revoke. To create a CRL,  you  must
-       specify	a   RevocationConfiguration  object  when  you	call the  cre-
-       ate-certificate-authority function. ACM PCA writes the  CRL  to	an  S3
-       bucket  that  you specify. You must specify a bucket policy that grants
-       ACM PCA write permission.
+       specify a  RevocationConfiguration object when you call the  CreateCer-
+       tificateAuthority operation. ACM PCA writes the CRL  to	an  S3	bucket
+       that  you specify. You must specify a bucket policy that grants ACM PCA
+       write permission.
 
-       You can also  call  the	 create-certificate-authority-audit-report  to
-       create  an  optional  audit report that lists every time the CA private
-       key is used. The private key is used for signing  when  the  issue-cer-
-       tificate or revoke-certificate function is called.
+       You can also call the  CreateCertificateAuthorityAuditReport to	create
+       an  optional  audit  report that lists every time the CA private key is
+       used. The private key is used for signing when the IssueCertificate  or
+       RevokeCertificate operation is called.
 
 AVAILABLE COMMANDS
        o create-certificate-authority
@@ -65,6 +65,8 @@ AVAILABLE COMMANDS
        o list-certificate-authorities
 
        o list-tags
+
+       o restore-certificate-authority
 
        o revoke-certificate
 

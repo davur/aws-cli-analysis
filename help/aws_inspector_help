@@ -17,6 +17,8 @@ AVAILABLE COMMANDS
 
        o create-assessment-template
 
+       o create-exclusions-preview
+
        o create-resource-group
 
        o delete-assessment-run
@@ -33,6 +35,8 @@ AVAILABLE COMMANDS
 
        o describe-cross-account-access-role
 
+       o describe-exclusions
+
        o describe-findings
 
        o describe-resource-groups
@@ -40,6 +44,8 @@ AVAILABLE COMMANDS
        o describe-rules-packages
 
        o get-assessment-report
+
+       o get-exclusions-preview
 
        o get-telemetry-metadata
 
@@ -54,6 +60,8 @@ AVAILABLE COMMANDS
        o list-assessment-templates
 
        o list-event-subscriptions
+
+       o list-exclusions
 
        o list-findings
 
