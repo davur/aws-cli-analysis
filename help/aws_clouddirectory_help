@@ -65,6 +65,8 @@ AVAILABLE COMMANDS
 
        o enable-directory
 
+       o get-applied-schema-version
+
        o get-directory
 
        o get-facet
@@ -134,6 +136,10 @@ AVAILABLE COMMANDS
        o update-schema
 
        o update-typed-link-facet
+
+       o upgrade-applied-schema
+
+       o upgrade-published-schema
 
 
 

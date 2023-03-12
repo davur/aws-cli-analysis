@@ -1,0 +1,58 @@
+SERVICEDISCOVERY()					    SERVICEDISCOVERY()
+
+
+
+NAME
+       servicediscovery -
+
+DESCRIPTION
+       Amazon  Route 53 auto naming lets you configure public or private name-
+       spaces that your microservice applications run in.  When  instances  of
+       the  service become available, you can call the auto naming API to reg-
+       ister the instance, and Route 53 automatically creates up to  five  DNS
+       records	and  an optional health check. Clients that submit DNS queries
+       for the service receive an answer that contains	up  to	eight  healthy
+       records.
+
+AVAILABLE COMMANDS
+       o create-private-dns-namespace
+
+       o create-public-dns-namespace
+
+       o create-service
+
+       o delete-namespace
+
+       o delete-service
+
+       o deregister-instance
+
+       o get-instance
+
+       o get-instances-health-status
+
+       o get-namespace
+
+       o get-operation
+
+       o get-service
+
+       o help
+
+       o list-instances
+
+       o list-namespaces
+
+       o list-operations
+
+       o list-services
+
+       o register-instance
+
+       o update-instance-custom-health-status
+
+       o update-service
+
+
+
+							    SERVICEDISCOVERY()

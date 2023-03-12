@@ -7,9 +7,9 @@ NAME
 
 DESCRIPTION
        Amazon  Elastic Compute Cloud (Amazon EC2) provides resizable computing
-       capacity in the Amazon Web Services (AWS) cloud. Using Amazon EC2 elim-
-       inates your need to invest in hardware up front, so you can develop and
-       deploy applications faster.
+       capacity in the AWS Cloud. Using Amazon EC2 eliminates the need to  in-
+       vest  in  hardware up front, so you can develop and deploy applications
+       faster.
 
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
@@ -216,6 +216,8 @@ AVAILABLE COMMANDS
 
        o describe-addresses
 
+       o describe-aggregate-id-format
+
        o describe-availability-zones
 
        o describe-bundle-tasks
@@ -262,6 +264,8 @@ AVAILABLE COMMANDS
 
        o describe-instance-attribute
 
+       o describe-instance-credit-specifications
+
        o describe-instance-status
 
        o describe-instances
@@ -289,6 +293,8 @@ AVAILABLE COMMANDS
        o describe-placement-groups
 
        o describe-prefix-lists
+
+       o describe-principal-id-format
 
        o describe-regions
 
@@ -431,6 +437,8 @@ AVAILABLE COMMANDS
        o modify-image-attribute
 
        o modify-instance-attribute
+
+       o modify-instance-credit-specification
 
        o modify-instance-placement
 

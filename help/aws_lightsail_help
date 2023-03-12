@@ -26,6 +26,10 @@ AVAILABLE COMMANDS
 
        o attach-disk
 
+       o attach-instances-to-load-balancer
+
+       o attach-load-balancer-tls-certificate
+
        o attach-static-ip
 
        o close-instance-public-ports
@@ -48,6 +52,10 @@ AVAILABLE COMMANDS
 
        o create-key-pair
 
+       o create-load-balancer
+
+       o create-load-balancer-tls-certificate
+
        o delete-disk
 
        o delete-disk-snapshot
@@ -62,7 +70,13 @@ AVAILABLE COMMANDS
 
        o delete-key-pair
 
+       o delete-load-balancer
+
+       o delete-load-balancer-tls-certificate
+
        o detach-disk
+
+       o detach-instances-from-load-balancer
 
        o detach-static-ip
 
@@ -106,6 +120,14 @@ AVAILABLE COMMANDS
 
        o get-key-pairs
 
+       o get-load-balancer
+
+       o get-load-balancer-metric-data
+
+       o get-load-balancer-tls-certificates
+
+       o get-load-balancers
+
        o get-operation
 
        o get-operations
@@ -141,6 +163,8 @@ AVAILABLE COMMANDS
        o unpeer-vpc
 
        o update-domain-entry
+
+       o update-load-balancer-attribute
 
 
 

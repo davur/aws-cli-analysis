@@ -49,7 +49,12 @@ DESCRIPTION
        o update-default-branch , which changes the default branch for a repos-
 	 itory.
 
-       Information about committed code in a repository, by calling  the  fol-
+       Files, by calling the following:
+
+       o put-file , which adds or modifies a file in  a  specified  repository
+	 and branch.
+
+       Information  about  committed code in a repository, by calling the fol-
        lowing:
 
        o get-blob , which returns the base-64 encoded content of an individual
@@ -58,70 +63,70 @@ DESCRIPTION
        o get-commit , which returns information about a commit, including com-
 	 mit messages and author and committer information.
 
-       o get-differences  , which returns information about the differences in
-	 a valid commit specifier (such as a branch, tag, HEAD, commit	ID  or
+       o get-differences , which returns information about the differences  in
+	 a  valid  commit specifier (such as a branch, tag, HEAD, commit ID or
 	 other fully qualified reference).
 
        Pull requests, by calling the following:
 
-       o create-pull-request  ,  which	creates  a pull request in a specified
+       o create-pull-request , which creates a pull  request  in  a  specified
 	 repository.
 
        o describe-pull-request-events , which returns information about one or
 	 more pull request events.
 
-       o get-comments-for-pull-request	, which returns information about com-
+       o get-comments-for-pull-request , which returns information about  com-
 	 ments on a specified pull request.
 
        o get-merge-conflicts , which returns information about merge conflicts
 	 between the source and destination branch in a pull request.
 
-       o get-pull-request  ,  which returns information about a specified pull
+       o get-pull-request , which returns information about a  specified  pull
 	 request.
 
        o list-pull-requests , which lists all pull requests for a repository.
 
        o merge-pull-request-by-fast-forward , which merges the source destina-
-	 tion  branch  of a pull request into the specified destination branch
+	 tion branch of a pull request into the specified  destination	branch
 	 for that pull request using the fast-forward merge option.
 
-       o post-comment-for-pull-request , which posts a comment to a  pull  re-
+       o post-comment-for-pull-request	,  which posts a comment to a pull re-
 	 quest at the specified line, file, or request.
 
-       o update-pull-request-description  , which updates the description of a
+       o update-pull-request-description , which updates the description of  a
 	 pull request.
 
-       o update-pull-request-status , which updates the status of a  pull  re-
+       o update-pull-request-status  ,	which updates the status of a pull re-
 	 quest.
 
-       o update-pull-request-title  ,  which  updates  the title of a pull re-
+       o update-pull-request-title , which updates the title  of  a  pull  re-
 	 quest.
 
        Information about comments in a repository, by calling the following:
 
-       o delete-comment-content , which deletes the content of a comment on  a
+       o delete-comment-content  , which deletes the content of a comment on a
 	 commit in a repository.
 
        o get-comment , which returns information about a comment on a commit.
 
-       o get-comments-for-compared-commit  ,  which  returns information about
+       o get-comments-for-compared-commit , which  returns  information  about
 	 comments on the comparison between two commit specifiers in a reposi-
 	 tory.
 
-       o post-comment-for-compared-commit  ,  which  creates  a comment on the
+       o post-comment-for-compared-commit , which creates  a  comment  on  the
 	 comparison between two commit specifiers in a repository.
 
        o post-comment-reply , which creates a reply to a comment.
 
-       o update-comment , which updates the content of a comment on  a	commit
+       o update-comment  ,  which updates the content of a comment on a commit
 	 in a repository.
 
        Triggers, by calling the following:
 
-       o get-repository-triggers  ,  which  returns information about triggers
+       o get-repository-triggers , which returns  information  about  triggers
 	 configured for a repository.
 
-       o put-repository-triggers , which replaces all triggers for  a  reposi-
+       o put-repository-triggers  ,  which replaces all triggers for a reposi-
 	 tory and can be used to create or delete triggers.
 
        o test-repository-triggers , which tests the functionality of a reposi-
@@ -186,6 +191,8 @@ AVAILABLE COMMANDS
        o post-comment-for-pull-request
 
        o post-comment-reply
+
+       o put-file
 
        o put-repository-triggers
 

@@ -28,6 +28,8 @@ AVAILABLE COMMANDS
 
        o delete-function
 
+       o delete-function-concurrency
+
        o get-account-settings
 
        o get-alias
@@ -55,6 +57,8 @@ AVAILABLE COMMANDS
        o list-versions-by-function
 
        o publish-version
+
+       o put-function-concurrency
 
        o remove-permission
 

@@ -11,6 +11,8 @@ AVAILABLE COMMANDS
 
        o create-campaign
 
+       o create-export-job
+
        o create-import-job
 
        o create-segment
@@ -32,6 +34,8 @@ AVAILABLE COMMANDS
        o delete-campaign
 
        o delete-email-channel
+
+       o delete-endpoint
 
        o delete-event-stream
 
@@ -75,6 +79,10 @@ AVAILABLE COMMANDS
 
        o get-event-stream
 
+       o get-export-job
+
+       o get-export-jobs
+
        o get-gcm-channel
 
        o get-import-job
@@ -82,6 +90,8 @@ AVAILABLE COMMANDS
        o get-import-jobs
 
        o get-segment
+
+       o get-segment-export-jobs
 
        o get-segment-import-jobs
 

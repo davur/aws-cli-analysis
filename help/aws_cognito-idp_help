@@ -134,6 +134,8 @@ AVAILABLE COMMANDS
 
        o get-identity-provider-by-identifier
 
+       o get-signing-certificate
+
        o get-ui-customization
 
        o get-user

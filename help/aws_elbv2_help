@@ -130,6 +130,8 @@ AVAILABLE COMMANDS
 
        o set-subnets
 
+       o wait
+
 
 
 								       ELBV2()

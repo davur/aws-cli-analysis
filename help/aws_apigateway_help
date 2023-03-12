@@ -7,10 +7,10 @@ NAME
 
 DESCRIPTION
        Amazon  API  Gateway helps developers deliver robust, secure, and scal-
-       able mobile and web application back ends. Amazon  API  Gateway	allows
-       developers to securely connect mobile and web applications to APIs that
-       run on AWS Lambda, Amazon EC2, or other publicly addressable  web  ser-
-       vices that are hosted outside of AWS.
+       able mobile and web application back ends. API Gateway allows  develop-
+       ers to securely connect mobile and web applications to APIs that run on
+       AWS Lambda, Amazon EC2, or other publicly addressable web services that
+       are hosted outside of AWS.
 
 AVAILABLE COMMANDS
        o create-api-key
@@ -40,6 +40,8 @@ AVAILABLE COMMANDS
        o create-usage-plan
 
        o create-usage-plan-key
+
+       o create-vpc-link
 
        o delete-api-key
 
@@ -80,6 +82,8 @@ AVAILABLE COMMANDS
        o delete-usage-plan
 
        o delete-usage-plan-key
+
+       o delete-vpc-link
 
        o flush-stage-authorizers-cache
 
@@ -163,6 +167,8 @@ AVAILABLE COMMANDS
 
        o get-stages
 
+       o get-tags
+
        o get-usage
 
        o get-usage-plan
@@ -172,6 +178,10 @@ AVAILABLE COMMANDS
        o get-usage-plan-keys
 
        o get-usage-plans
+
+       o get-vpc-link
+
+       o get-vpc-links
 
        o help
 
@@ -193,9 +203,13 @@ AVAILABLE COMMANDS
 
        o put-rest-api
 
+       o tag-resource
+
        o test-invoke-authorizer
 
        o test-invoke-method
+
+       o untag-resource
 
        o update-account
 
@@ -238,6 +252,8 @@ AVAILABLE COMMANDS
        o update-usage
 
        o update-usage-plan
+
+       o update-vpc-link
 
 
 

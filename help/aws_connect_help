@@ -1,0 +1,24 @@
+CONNECT()							     CONNECT()
+
+
+
+NAME
+       connect -
+
+DESCRIPTION
+       The Amazon Connect API Reference provides descriptions, syntax, and us-
+       age examples for each of the Amazon Connect actions, data types, param-
+       eters, and errors. Amazon Connect is a cloud-based contact center solu-
+       tion that makes it easy to set up and manage a customer contact	center
+       and provide reliable customer engagement at any scale.
+
+AVAILABLE COMMANDS
+       o help
+
+       o start-outbound-voice-contact
+
+       o stop-contact
+
+
+
+								     CONNECT()

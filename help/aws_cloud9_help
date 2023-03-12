@@ -1,0 +1,69 @@
+CLOUD9()							      CLOUD9()
+
+
+
+NAME
+       cloud9 -
+
+DESCRIPTION
+       AWS  Cloud9  is	a collection of tools that you can use to code, build,
+       run, test, debug, and release software in the cloud.
+
+       For more information about AWS Cloud9, see the AWS Cloud9 User Guide .
+
+       AWS Cloud9 supports these operations:
+
+       o create-environment-ec2 : Creates an AWS Cloud9  development  environ-
+	 ment, launches an Amazon EC2 instance, and then connects from the in-
+	 stance to the environment.
+
+       o create-environment-membership : Adds an environment member to an  en-
+	 vironment.
+
+       o delete-environment  :	Deletes  an  environment. If an Amazon EC2 in-
+	 stance is connected to the environment, also terminates the instance.
+
+       o delete-environment-membership : Deletes an environment member from an
+	 environment.
+
+       o describe-environment-memberships : Gets information about environment
+	 members for an environment.
+
+       o describe-environments : Gets information about environments.
+
+       o describe-environment-status : Gets status information for an environ-
+	 ment.
+
+       o list-environments : Gets a list of environment identifiers.
+
+       o update-environment : Changes the settings of an existing environment.
+
+       o update-environment-membership	:  Changes the settings of an existing
+	 environment member for an environment.
+
+AVAILABLE COMMANDS
+       o create-environment-ec2
+
+       o create-environment-membership
+
+       o delete-environment
+
+       o delete-environment-membership
+
+       o describe-environment-memberships
+
+       o describe-environment-status
+
+       o describe-environments
+
+       o help
+
+       o list-environments
+
+       o update-environment
+
+       o update-environment-membership
+
+
+
+								      CLOUD9()

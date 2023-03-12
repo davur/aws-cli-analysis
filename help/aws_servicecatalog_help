@@ -6,19 +6,10 @@ NAME
        servicecatalog -
 
 DESCRIPTION
-	  Overview
-
-	  AWS  Service Catalog allows organizations to create and manage cata-
-	  logs of IT services that are approved for use on AWS. This  documen-
-	  tation  provides  reference material for the AWS Service Catalog end
-	  user API. To get the most out of  this  documentation,  be  familiar
-	  with the terminology discussed in AWS Service Catalog Concepts .
-
-	  Additional Resources
-
-       o AWS Service Catalog Administrator Guide
-
-       o AWS Service Catalog User Guide
+	  AWS Service Catalog enables organizations to create and manage cata-
+	  logs of IT services that are approved for use on  AWS.  To  get  the
+	  most out of this documentation, you should be familiar with the ter-
+	  minology discussed in AWS Service Catalog Concepts .
 
 AVAILABLE COMMANDS
        o accept-portfolio-share
@@ -39,6 +30,8 @@ AVAILABLE COMMANDS
 
        o create-product
 
+       o create-provisioned-product-plan
+
        o create-provisioning-artifact
 
        o create-tag-option
@@ -51,7 +44,11 @@ AVAILABLE COMMANDS
 
        o delete-product
 
+       o delete-provisioned-product-plan
+
        o delete-provisioning-artifact
+
+       o delete-tag-option
 
        o describe-constraint
 
@@ -67,6 +64,8 @@ AVAILABLE COMMANDS
 
        o describe-provisioned-product
 
+       o describe-provisioned-product-plan
+
        o describe-provisioning-artifact
 
        o describe-provisioning-parameters
@@ -80,6 +79,8 @@ AVAILABLE COMMANDS
        o disassociate-product-from-portfolio
 
        o disassociate-tag-option-from-resource
+
+       o execute-provisioned-product-plan
 
        o generate
 
@@ -99,6 +100,8 @@ AVAILABLE COMMANDS
 
        o list-principals-for-portfolio
 
+       o list-provisioned-product-plans
+
        o list-provisioning-artifacts
 
        o list-record-history
@@ -116,6 +119,8 @@ AVAILABLE COMMANDS
        o search-products
 
        o search-products-as-admin
+
+       o search-provisioned-products
 
        o terminate-provisioned-product
 

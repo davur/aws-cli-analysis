@@ -17,15 +17,21 @@ AVAILABLE COMMANDS
 
        o delete-container-policy
 
+       o delete-cors-policy
+
        o describe-container
 
        o get-container-policy
+
+       o get-cors-policy
 
        o help
 
        o list-containers
 
        o put-container-policy
+
+       o put-cors-policy
 
 
 

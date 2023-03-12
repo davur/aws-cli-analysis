@@ -73,11 +73,15 @@ AVAILABLE COMMANDS
 
        o restore-table-from-backup
 
+       o restore-table-to-point-in-time
+
        o scan
 
        o tag-resource
 
        o untag-resource
+
+       o update-continuous-backups
 
        o update-global-table
 

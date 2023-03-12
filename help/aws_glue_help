@@ -17,6 +17,8 @@ AVAILABLE COMMANDS
 
        o batch-delete-table
 
+       o batch-delete-table-version
+
        o batch-get-partition
 
        o batch-stop-job-run
@@ -58,6 +60,8 @@ AVAILABLE COMMANDS
        o delete-partition
 
        o delete-table
+
+       o delete-table-version
 
        o delete-trigger
 
@@ -106,6 +110,8 @@ AVAILABLE COMMANDS
        o get-plan
 
        o get-table
+
+       o get-table-version
 
        o get-table-versions
 

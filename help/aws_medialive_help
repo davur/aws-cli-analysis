@@ -39,6 +39,12 @@ AVAILABLE COMMANDS
 
        o stop-channel
 
+       o update-channel
+
+       o update-input
+
+       o update-input-security-group
+
 
 
 								   MEDIALIVE()
