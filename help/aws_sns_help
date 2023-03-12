@@ -35,11 +35,15 @@ AVAILABLE COMMANDS
 
        o create-platform-endpoint
 
+       o create-sms-sandbox-phone-number
+
        o create-topic
 
        o delete-endpoint
 
        o delete-platform-application
+
+       o delete-sms-sandbox-phone-number
 
        o delete-topic
 
@@ -49,6 +53,8 @@ AVAILABLE COMMANDS
 
        o get-sms-attributes
 
+       o get-sms-sandbox-account-status
+
        o get-subscription-attributes
 
        o get-topic-attributes
@@ -57,9 +63,13 @@ AVAILABLE COMMANDS
 
        o list-endpoints-by-platform-application
 
+       o list-origination-numbers
+
        o list-phone-numbers-opted-out
 
        o list-platform-applications
+
+       o list-sms-sandbox-phone-numbers
 
        o list-subscriptions
 
@@ -92,6 +102,8 @@ AVAILABLE COMMANDS
        o unsubscribe
 
        o untag-resource
+
+       o verify-sms-sandbox-phone-number
 
 
 

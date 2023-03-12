@@ -31,6 +31,8 @@ AVAILABLE COMMANDS
 
        o create-multiplex-program
 
+       o create-partner-input
+
        o create-tags
 
        o delete-channel

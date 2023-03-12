@@ -32,7 +32,11 @@ AVAILABLE COMMANDS
 
        o cancel-replay
 
+       o create-api-destination
+
        o create-archive
+
+       o create-connection
 
        o create-event-bus
 
@@ -40,7 +44,13 @@ AVAILABLE COMMANDS
 
        o deactivate-event-source
 
+       o deauthorize-connection
+
+       o delete-api-destination
+
        o delete-archive
+
+       o delete-connection
 
        o delete-event-bus
 
@@ -48,7 +58,11 @@ AVAILABLE COMMANDS
 
        o delete-rule
 
+       o describe-api-destination
+
        o describe-archive
+
+       o describe-connection
 
        o describe-event-bus
 
@@ -66,7 +80,11 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-api-destinations
+
        o list-archives
+
+       o list-connections
 
        o list-event-buses
 
@@ -108,7 +126,11 @@ AVAILABLE COMMANDS
 
        o untag-resource
 
+       o update-api-destination
+
        o update-archive
+
+       o update-connection
 
 
 

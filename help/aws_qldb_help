@@ -49,6 +49,8 @@ AVAILABLE COMMANDS
 
        o update-ledger
 
+       o update-ledger-permissions-mode
+
 
 
 									QLDB()

@@ -10,7 +10,9 @@ DESCRIPTION
        storage for use with Amazon EC2 instances in the AWS Cloud. With Amazon
        EFS,  storage  capacity is elastic, growing and shrinking automatically
        as you add and remove files, so your applications have the storage they
-       need, when they need it. For more information, see the User Guide .
+       need,  when  they need it. For more information, see the Amazon Elastic
+       File System API Reference and the Amazon Elastic File System User Guide
+       .
 
 AVAILABLE COMMANDS
        o create-access-point
@@ -29,6 +31,8 @@ AVAILABLE COMMANDS
 
        o describe-access-points
 
+       o describe-account-preferences
+
        o describe-backup-policy
 
        o describe-file-system-policy
@@ -46,6 +50,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o modify-mount-target-security-groups
+
+       o put-account-preferences
 
        o put-backup-policy
 

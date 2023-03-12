@@ -75,6 +75,8 @@ AVAILABLE COMMANDS
 
        o create-job
 
+       o create-job-template
+
        o create-keys-and-certificate
 
        o create-mitigation-action
@@ -132,6 +134,8 @@ AVAILABLE COMMANDS
        o delete-job
 
        o delete-job-execution
+
+       o delete-job-template
 
        o delete-mitigation-action
 
@@ -206,6 +210,8 @@ AVAILABLE COMMANDS
        o describe-job
 
        o describe-job-execution
+
+       o describe-job-template
 
        o describe-mitigation-action
 
@@ -310,6 +316,8 @@ AVAILABLE COMMANDS
        o list-job-executions-for-job
 
        o list-job-executions-for-thing
+
+       o list-job-templates
 
        o list-jobs
 

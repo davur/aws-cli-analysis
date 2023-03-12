@@ -46,6 +46,8 @@ AVAILABLE COMMANDS
 
        o describe-restore-job
 
+       o disassociate-recovery-point
+
        o export-backup-plan-template
 
        o get-backup-plan

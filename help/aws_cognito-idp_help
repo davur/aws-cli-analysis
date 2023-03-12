@@ -13,7 +13,7 @@ DESCRIPTION
        This API reference provides information about user pools in Amazon Cog-
        nito User Pools.
 
-       For more information, see the Amazon Cognito Documentation.
+       For more information, see the Amazon Cognito Documentation .
 
 AVAILABLE COMMANDS
        o add-custom-attributes
@@ -175,6 +175,8 @@ AVAILABLE COMMANDS
        o resend-confirmation-code
 
        o respond-to-auth-challenge
+
+       o revoke-token
 
        o set-risk-configuration
 

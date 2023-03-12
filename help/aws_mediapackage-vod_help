@@ -9,6 +9,8 @@ DESCRIPTION
        AWS Elemental MediaPackage VOD
 
 AVAILABLE COMMANDS
+       o configure-logs
+
        o create-asset
 
        o create-packaging-configuration

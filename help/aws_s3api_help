@@ -193,6 +193,8 @@ AVAILABLE COMMANDS
 
        o wait
 
+       o write-get-object-response
+
 
 
 								       S3API()

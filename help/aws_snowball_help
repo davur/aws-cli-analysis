@@ -27,6 +27,8 @@ AVAILABLE COMMANDS
 
        o create-job
 
+       o create-long-term-pricing
+
        o create-return-shipping-label
 
        o describe-address
@@ -57,11 +59,15 @@ AVAILABLE COMMANDS
 
        o list-jobs
 
+       o list-long-term-pricing
+
        o update-cluster
 
        o update-job
 
        o update-job-shipment-state
+
+       o update-long-term-pricing
 
 
 

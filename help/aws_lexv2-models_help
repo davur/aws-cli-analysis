@@ -17,11 +17,19 @@ AVAILABLE COMMANDS
 
        o create-bot-version
 
+       o create-export
+
        o create-intent
+
+       o create-resource-policy
+
+       o create-resource-policy-statement
 
        o create-slot
 
        o create-slot-type
+
+       o create-upload-url
 
        o delete-bot
 
@@ -31,7 +39,15 @@ AVAILABLE COMMANDS
 
        o delete-bot-version
 
+       o delete-export
+
+       o delete-import
+
        o delete-intent
+
+       o delete-resource-policy
+
+       o delete-resource-policy-statement
 
        o delete-slot
 
@@ -45,7 +61,13 @@ AVAILABLE COMMANDS
 
        o describe-bot-version
 
+       o describe-export
+
+       o describe-import
+
        o describe-intent
+
+       o describe-resource-policy
 
        o describe-slot
 
@@ -65,6 +87,10 @@ AVAILABLE COMMANDS
 
        o list-built-in-slot-types
 
+       o list-exports
+
+       o list-imports
+
        o list-intents
 
        o list-slot-types
@@ -72,6 +98,8 @@ AVAILABLE COMMANDS
        o list-slots
 
        o list-tags-for-resource
+
+       o start-import
 
        o tag-resource
 
@@ -83,7 +111,11 @@ AVAILABLE COMMANDS
 
        o update-bot-locale
 
+       o update-export
+
        o update-intent
+
+       o update-resource-policy
 
        o update-slot
 

@@ -11,13 +11,19 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o batch-delete-document
 
+       o batch-get-document-status
+
        o batch-put-document
+
+       o clear-query-suggestions
 
        o create-data-source
 
        o create-faq
 
        o create-index
+
+       o create-query-suggestions-block-list
 
        o create-thesaurus
 
@@ -27,6 +33,10 @@ AVAILABLE COMMANDS
 
        o delete-index
 
+       o delete-principal-mapping
+
+       o delete-query-suggestions-block-list
+
        o delete-thesaurus
 
        o describe-data-source
@@ -35,7 +45,15 @@ AVAILABLE COMMANDS
 
        o describe-index
 
+       o describe-principal-mapping
+
+       o describe-query-suggestions-block-list
+
+       o describe-query-suggestions-config
+
        o describe-thesaurus
+
+       o get-query-suggestions
 
        o help
 
@@ -45,11 +63,17 @@ AVAILABLE COMMANDS
 
        o list-faqs
 
+       o list-groups-older-than-ordering-id
+
        o list-indices
+
+       o list-query-suggestions-block-lists
 
        o list-tags-for-resource
 
        o list-thesauri
+
+       o put-principal-mapping
 
        o query
 
@@ -66,6 +90,10 @@ AVAILABLE COMMANDS
        o update-data-source
 
        o update-index
+
+       o update-query-suggestions-block-list
+
+       o update-query-suggestions-config
 
        o update-thesaurus
 

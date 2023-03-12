@@ -6,18 +6,18 @@ NAME
        support -
 
 DESCRIPTION
-       The  AWS Support API reference is intended for programmers who need de-
-       tailed information about the AWS Support  operations  and  data	types.
-       This  service enables you to manage your AWS Support cases programmati-
-       cally. It uses HTTP methods that return results in JSON format.
+       The  AWS Support API Reference is intended for programmers who need de-
+       tailed information about the AWS Support operations and data types. You
+       can  use the API to manage your support cases programmatically. The AWS
+       Support API uses HTTP methods that return results in JSON format.
 
        NOTE:
 
-	  o You must have a Business or Enterprise support plan to use the AWS
+	  o You must have a Business or Enterprise Support plan to use the AWS
 	    Support API.
 
 	  o If you call the AWS Support API from an account that does not have
-	    a Business or Enterprise support plan, the SubscriptionRequiredEx-
+	    a Business or Enterprise Support plan, the SubscriptionRequiredEx-
 	    ception error message appears. For information about changing your
 	    support plan, see AWS Support .
 
@@ -29,18 +29,18 @@ DESCRIPTION
        The  following  list  describes	the AWS Support case management opera-
        tions:
 
-       o Service names, issue categories, and available severity  levels.  The
+       o Service names, issue categories, and available severity levels -  The
 	 DescribeServices  and	 DescribeSeverityLevels  operations return AWS
 	 service names, service codes, service categories, and problem	sever-
 	 ity levels. You use these values when you call the  CreateCase opera-
 	 tion.
 
-       o Case creation, case details, and case resolution. The	 CreateCase  ,
+       o Case creation, case details, and case resolution - The  CreateCase  ,
 	 DescribeCases	,   DescribeAttachment	,  and	ResolveCase operations
 	 create AWS Support cases, retrieve information about cases,  and  re-
 	 solve cases.
 
-       o Case  communication. The  DescribeCommunications ,  AddCommunication-
+       o Case communication - The  DescribeCommunications ,  AddCommunication-
 	 ToCase , and  AddAttachmentsToSet operations retrieve and add	commu-
 	 nications and attachments to AWS Support cases.
 

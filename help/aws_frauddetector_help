@@ -16,6 +16,10 @@ AVAILABLE COMMANDS
 
        o batch-get-variable
 
+       o cancel-batch-prediction-job
+
+       o create-batch-prediction-job
+
        o create-detector-version
 
        o create-model
@@ -25,6 +29,8 @@ AVAILABLE COMMANDS
        o create-rule
 
        o create-variable
+
+       o delete-batch-prediction-job
 
        o delete-detector
 
@@ -53,6 +59,8 @@ AVAILABLE COMMANDS
        o describe-detector
 
        o describe-model-versions
+
+       o get-batch-prediction-jobs
 
        o get-detector-version
 

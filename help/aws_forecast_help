@@ -37,6 +37,8 @@ AVAILABLE COMMANDS
 
        o delete-predictor-backtest-export-job
 
+       o delete-resource-tree
+
        o describe-dataset
 
        o describe-dataset-group
@@ -70,6 +72,8 @@ AVAILABLE COMMANDS
        o list-predictors
 
        o list-tags-for-resource
+
+       o stop-resource
 
        o tag-resource
 

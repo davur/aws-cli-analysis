@@ -1,0 +1,68 @@
+SSM-CONTACTS()							SSM-CONTACTS()
+
+
+
+NAME
+       ssm-contacts -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o accept-page
+
+       o activate-contact-channel
+
+       o create-contact
+
+       o create-contact-channel
+
+       o deactivate-contact-channel
+
+       o delete-contact
+
+       o delete-contact-channel
+
+       o describe-engagement
+
+       o describe-page
+
+       o get-contact
+
+       o get-contact-channel
+
+       o get-contact-policy
+
+       o help
+
+       o list-contact-channels
+
+       o list-contacts
+
+       o list-engagements
+
+       o list-page-receipts
+
+       o list-pages-by-contact
+
+       o list-pages-by-engagement
+
+       o list-tags-for-resource
+
+       o put-contact-policy
+
+       o send-activation-code
+
+       o start-engagement
+
+       o stop-engagement
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-contact
+
+       o update-contact-channel
+
+
+
+								SSM-CONTACTS()

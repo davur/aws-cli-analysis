@@ -28,6 +28,10 @@ DESCRIPTION
        find the product's technical documentation at docs.aws.amazon.com .
 
 AVAILABLE COMMANDS
+       o activate-type
+
+       o batch-describe-type-configurations
+
        o cancel-update-stack
 
        o continue-update-rollback
@@ -39,6 +43,8 @@ AVAILABLE COMMANDS
        o create-stack-instances
 
        o create-stack-set
+
+       o deactivate-type
 
        o delete-change-set
 
@@ -55,6 +61,8 @@ AVAILABLE COMMANDS
        o describe-account-limits
 
        o describe-change-set
+
+       o describe-publisher
 
        o describe-stack-drift-detection-status
 
@@ -122,17 +130,25 @@ AVAILABLE COMMANDS
 
        o package
 
+       o publish-type
+
        o record-handler-progress
+
+       o register-publisher
 
        o register-type
 
        o set-stack-policy
+
+       o set-type-configuration
 
        o set-type-default-version
 
        o signal-resource
 
        o stop-stack-set-operation
+
+       o test-type
 
        o update-stack
 

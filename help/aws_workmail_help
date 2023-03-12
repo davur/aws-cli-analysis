@@ -47,6 +47,8 @@ AVAILABLE COMMANDS
 
        o create-group
 
+       o create-mobile-device-access-rule
+
        o create-organization
 
        o create-resource
@@ -60,6 +62,8 @@ AVAILABLE COMMANDS
        o delete-group
 
        o delete-mailbox-permissions
+
+       o delete-mobile-device-access-rule
 
        o delete-organization
 
@@ -91,6 +95,8 @@ AVAILABLE COMMANDS
 
        o get-mailbox-details
 
+       o get-mobile-device-access-effect
+
        o help
 
        o list-access-control-rules
@@ -104,6 +110,8 @@ AVAILABLE COMMANDS
        o list-mailbox-export-jobs
 
        o list-mailbox-permissions
+
+       o list-mobile-device-access-rules
 
        o list-organizations
 
@@ -132,6 +140,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-mailbox-quota
+
+       o update-mobile-device-access-rule
 
        o update-primary-email-address
 

@@ -33,6 +33,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o describe-dimension-keys
 
+       o get-dimension-key-details
+
        o get-resource-metrics
 
        o help

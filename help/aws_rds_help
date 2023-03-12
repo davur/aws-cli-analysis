@@ -97,6 +97,8 @@ AVAILABLE COMMANDS
 
        o create-db-proxy
 
+       o create-db-proxy-endpoint
+
        o create-db-security-group
 
        o create-db-snapshot
@@ -126,6 +128,8 @@ AVAILABLE COMMANDS
        o delete-db-parameter-group
 
        o delete-db-proxy
+
+       o delete-db-proxy-endpoint
 
        o delete-db-security-group
 
@@ -177,6 +181,8 @@ AVAILABLE COMMANDS
 
        o describe-db-proxies
 
+       o describe-db-proxy-endpoints
+
        o describe-db-proxy-target-groups
 
        o describe-db-proxy-targets
@@ -225,6 +231,8 @@ AVAILABLE COMMANDS
 
        o failover-db-cluster
 
+       o failover-global-cluster
+
        o generate-db-auth-token
 
        o help
@@ -250,6 +258,8 @@ AVAILABLE COMMANDS
        o modify-db-parameter-group
 
        o modify-db-proxy
+
+       o modify-db-proxy-endpoint
 
        o modify-db-proxy-target-group
 

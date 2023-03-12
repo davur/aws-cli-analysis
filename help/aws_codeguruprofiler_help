@@ -8,23 +8,28 @@ NAME
 DESCRIPTION
        This  section  provides	documentation for the Amazon CodeGuru Profiler
        API operations.
-	  `` pAmazon CodeGuru Profiler collects runtime performance data  from
-	  your	live  applications, and provides recommendations that can help
-	  you fine-tune your application performance. Using  machine  learning
-	  algorithms,  CodeGuru Profiler can help you find your most expensive
-	  lines of code and suggest ways you can improve efficiency and remove
-	  CPU bottlenecks. /p pAmazon CodeGuru Profiler provides different vi-
-	  sualizations of profiling data to help you  identify	what  code  is
-	  running  on the CPU, see how much time is consumed, and suggest ways
-	  to reduce CPU utilization. /p note pAmazon  CodeGuru	Profiler  cur-
-	  rently  supports  applications  written  in all Java virtual machine
-	  (JVM) languages. While CodeGuru Profiler  supports  both  visualiza-
-	  tions  and  recommendations for applications written in Java, it can
-	  also generate visualizations and a subset of recommendations for ap-
-	  plications  written in other JVM languages./p /note pFor more infor-
-	  mation, see a  href=https://docs.aws.amazon.com/codeguru/latest/pro-
-	  filer-ug/what-is-codeguru-profiler.htmlWhat  is Amazon CodeGuru Pro-
-	  filer/ain the iAmazon CodeGuru Profiler User Guide/i. /p``
+
+       Amazon CodeGuru Profiler collects runtime performance  data  from  your
+       live  applications,  and  provides  recommendations  that  can help you
+       fine-tune your application performance. Using  machine  learning  algo-
+       rithms,	CodeGuru  Profiler can help you find your most expensive lines
+       of code and suggest ways you can improve efficiency and remove CPU bot-
+       tlenecks.
+
+       Amazon CodeGuru Profiler provides different visualizations of profiling
+       data to help you identify what code is running on the CPU, see how much
+       time is consumed, and suggest ways to reduce CPU utilization.
+
+       NOTE:
+	  Amazon  CodeGuru Profiler currently supports applications written in
+	  all Java virtual machine (JVM) languages and Python. While  CodeGuru
+	  Profiler supports both visualizations and recommendations for appli-
+	  cations written in Java, it can also generate visualizations	and  a
+	  subset of recommendations for applications written in other JVM lan-
+	  guages and Python.
+
+       For more information, see What is Amazon CodeGuru Profiler in the  Ama-
+       zon CodeGuru Profiler User Guide .
 
 AVAILABLE COMMANDS
        o add-notification-channels

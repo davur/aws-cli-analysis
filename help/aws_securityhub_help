@@ -24,9 +24,9 @@ DESCRIPTION
 
        For example, if your Region is set to us-west-2 , when you use ``  Cre-
        ateMembers `` to add a member account to Security Hub, the  association
-       of  the	member	account with the master account is created only in the
-       us-west-2 Region. Security Hub must be enabled for the  member  account
-       in the same Region that the invitation was sent from.
+       of the member account with the administrator account is created only in
+       the us-west-2 Region. Security Hub must be enabled for the  member  ac-
+       count in the same Region that the invitation was sent from.
 
        The  following throttling limits apply to using Security Hub API opera-
        tions.
@@ -47,7 +47,7 @@ DESCRIPTION
 	 BurstLimit of 30 requests per second.
 
 AVAILABLE COMMANDS
-       o accept-invitation
+       o accept-administrator-invitation
 
        o batch-disable-standards
 
@@ -91,7 +91,7 @@ AVAILABLE COMMANDS
 
        o disable-security-hub
 
-       o disassociate-from-master-account
+       o disassociate-from-administrator-account
 
        o disassociate-members
 
@@ -100,6 +100,8 @@ AVAILABLE COMMANDS
        o enable-organization-admin-account
 
        o enable-security-hub
+
+       o get-administrator-account
 
        o get-enabled-standards
 
@@ -110,8 +112,6 @@ AVAILABLE COMMANDS
        o get-insights
 
        o get-invitations-count
-
-       o get-master-account
 
        o get-members
 

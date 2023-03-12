@@ -161,6 +161,8 @@ AVAILABLE COMMANDS
 
        o enable-stage-transition
 
+       o get-action-type
+
        o get-job-details
 
        o get-pipeline
@@ -214,6 +216,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-action-type
 
        o update-pipeline
 

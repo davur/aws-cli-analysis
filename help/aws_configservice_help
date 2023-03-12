@@ -65,6 +65,8 @@ AVAILABLE COMMANDS
 
        o describe-aggregate-compliance-by-config-rules
 
+       o describe-aggregate-compliance-by-conformance-packs
+
        o describe-aggregation-authorizations
 
        o describe-compliance-by-config-rule
@@ -114,6 +116,8 @@ AVAILABLE COMMANDS
        o get-aggregate-compliance-details-by-config-rule
 
        o get-aggregate-config-rule-compliance-summary
+
+       o get-aggregate-conformance-pack-compliance-summary
 
        o get-aggregate-discovered-resource-counts
 

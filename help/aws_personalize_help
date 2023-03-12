@@ -16,6 +16,8 @@ AVAILABLE COMMANDS
 
        o create-dataset
 
+       o create-dataset-export-job
+
        o create-dataset-group
 
        o create-dataset-import-job
@@ -52,6 +54,8 @@ AVAILABLE COMMANDS
 
        o describe-dataset
 
+       o describe-dataset-export-job
+
        o describe-dataset-group
 
        o describe-dataset-import-job
@@ -78,6 +82,8 @@ AVAILABLE COMMANDS
 
        o list-campaigns
 
+       o list-dataset-export-jobs
+
        o list-dataset-groups
 
        o list-dataset-import-jobs
@@ -95,6 +101,8 @@ AVAILABLE COMMANDS
        o list-solution-versions
 
        o list-solutions
+
+       o stop-solution-version-creation
 
        o update-campaign
 

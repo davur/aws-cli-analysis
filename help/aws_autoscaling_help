@@ -8,12 +8,13 @@ NAME
 DESCRIPTION
        Amazon  EC2  Auto Scaling is designed to automatically launch or termi-
        nate EC2 instances based on user-defined  scaling  policies,  scheduled
-       actions,  and  health  checks.  Use this service with AWS Auto Scaling,
-       Amazon CloudWatch, and Elastic Load Balancing.
+       actions, and health checks.
 
-       For more information, including information about  granting  IAM  users
-       required  permissions  for  Amazon  EC2	Auto  Scaling actions, see the
-       Amazon EC2 Auto Scaling User Guide .
+       For  more information about Amazon EC2 Auto Scaling, see the Amazon EC2
+       Auto Scaling User Guide . For information about granting IAM users  re-
+       quired  permissions  for calls to Amazon EC2 Auto Scaling, see Granting
+       IAM users required permissions for Amazon EC2 Auto Scaling resources in
+       the Amazon EC2 Auto Scaling API Reference .
 
 AVAILABLE COMMANDS
        o attach-instances
@@ -49,6 +50,8 @@ AVAILABLE COMMANDS
        o delete-scheduled-action
 
        o delete-tags
+
+       o delete-warm-pool
 
        o describe-account-limits
 
@@ -88,6 +91,8 @@ AVAILABLE COMMANDS
 
        o describe-termination-policy-types
 
+       o describe-warm-pool
+
        o detach-instances
 
        o detach-load-balancer-target-groups
@@ -104,6 +109,8 @@ AVAILABLE COMMANDS
 
        o exit-standby
 
+       o get-predictive-scaling-forecast
+
        o help
 
        o put-lifecycle-hook
@@ -113,6 +120,8 @@ AVAILABLE COMMANDS
        o put-scaling-policy
 
        o put-scheduled-update-group-action
+
+       o put-warm-pool
 
        o record-lifecycle-action-heartbeat
 

@@ -117,6 +117,8 @@ AVAILABLE COMMANDS
 
        o terminate-clusters
 
+       o update-studio
+
        o update-studio-session-mapping
 
        o wait

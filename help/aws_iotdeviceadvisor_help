@@ -37,9 +37,9 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
-       o list-test-cases
-
        o start-suite-run
+
+       o stop-suite-run
 
        o tag-resource
 

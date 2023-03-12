@@ -6,8 +6,8 @@ NAME
        sts -
 
 DESCRIPTION
-       AWS Security Token Service (STS) enables you to request temporary, lim-
-       ited-privilege credentials for AWS Identity and Access Management (IAM)
+       Security  Token	Service  (STS)	enables you to request temporary, lim-
+       ited-privilege credentials for Identity	and  Access  Management  (IAM)
        users  or for users that you authenticate (federated users). This guide
        provides descriptions of the STS API. For more information about  using
        this service, see Temporary Security Credentials .

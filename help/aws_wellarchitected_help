@@ -55,9 +55,15 @@ AVAILABLE COMMANDS
 
        o list-share-invitations
 
+       o list-tags-for-resource
+
        o list-workload-shares
 
        o list-workloads
+
+       o tag-resource
+
+       o untag-resource
 
        o update-answer
 

@@ -30,6 +30,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o associate-approved-origin
 
+       o associate-bot
+
        o associate-instance-storage-config
 
        o associate-lambda-function
@@ -96,6 +98,8 @@ AVAILABLE COMMANDS
 
        o disassociate-approved-origin
 
+       o disassociate-bot
+
        o disassociate-instance-storage-config
 
        o disassociate-lambda-function
@@ -119,6 +123,8 @@ AVAILABLE COMMANDS
        o help
 
        o list-approved-origins
+
+       o list-bots
 
        o list-contact-flows
 

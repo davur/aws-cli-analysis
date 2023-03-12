@@ -6,14 +6,13 @@ NAME
        fms -
 
 DESCRIPTION
-       This  is the AWS Firewall Manager API Reference . This guide is for de-
-       velopers who need detailed information about the AWS  Firewall  Manager
-       API actions, data types, and errors. For detailed information about AWS
-       Firewall Manager features, see the AWS Firewall Manager Developer Guide
-       .
+       This is the Firewall Manager API Reference . This guide is for develop-
+       ers who need detailed information about the Firewall  Manager  API  ac-
+       tions,  data types, and errors. For detailed information about Firewall
+       Manager features, see the Firewall Manager Developer Guide .
 
-       Some  API  actions  require explicit resource permissions. For informa-
-       tion, see the developer guide topic Firewall Manager  required  permis-
+       Some API actions require explicit resource  permissions.  For  informa-
+       tion,  see  the developer guide topic Firewall Manager required permis-
        sions for API actions .
 
 AVAILABLE COMMANDS

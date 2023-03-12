@@ -6,31 +6,30 @@ NAME
        sqs -
 
 DESCRIPTION
-       Welcome to the Amazon Simple Queue Service API Reference .
+       Welcome to the Amazon SQS API Reference .
 
-       Amazon Simple Queue Service (Amazon SQS) is a reliable, highly-scalable
-       hosted queue for storing messages as they travel  between  applications
-       or microservices. Amazon SQS moves data between distributed application
-       components and helps you decouple these components.
+       Amazon SQS is a reliable, highly-scalable hosted queue for storing mes-
+       sages as they travel between applications or microservices. Amazon  SQS
+       moves data between distributed application components and helps you de-
+       couple these components.
 
        For information on the permissions  you	need  to  use  this  API,  see
-       Identity  and  access management in the Amazon Simple Queue Service De-
-       veloper Guide.
+       Identity and access management in the Amazon SQS Developer Guide.
 
-       You can use AWS SDKs to access Amazon SQS using your favorite  program-
-       ming  language.	The SDKs perform tasks such as the following automati-
-       cally:
+       You  can  use  Amazon Web Services SDKs to access Amazon SQS using your
+       favorite programming language. The SDKs perform tasks such as the  fol-
+       lowing automatically:
 
        o Cryptographically sign your service requests
 
        o Retry requests
 
        o Handle error responses
-	  Additional Information
+	  Additional information
 
        o Amazon SQS Product Page
 
-       o Amazon Simple Queue Service Developer Guide
+       o Amazon SQS Developer Guide
 
 	 o Making API Requests
 
@@ -40,7 +39,7 @@ DESCRIPTION
 
        o
 
-	 `Amazon SQS in the *AWS CLI Command Reference* http://docs.aws.amazon.com/cli/latest/reference/sqs/index.html`__
+	 `Amazon SQS in the *Command Line Interface* http://docs.aws.amazon.com/cli/latest/reference/sqs/index.html`__
 
 
        o Amazon Web Services General Reference
@@ -92,7 +91,7 @@ AVAILABLE COMMANDS
 
 DOCUTILS SYSTEM MESSAGES
        System Message: ERROR/3 (<string>:)
-	      Anonymous hyperlink mismatch: 1 references but 0	targets.   See
+	      Anonymous  hyperlink  mismatch: 1 references but 0 targets.  See
 	      "backrefs" attribute for IDs.
 
 

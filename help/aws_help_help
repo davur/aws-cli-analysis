@@ -123,7 +123,11 @@ AVAILABLE SERVICES
 
        o application-insights
 
+       o applicationcostprofiler
+
        o appmesh
+
+       o apprunner
 
        o appstream
 
@@ -283,7 +287,13 @@ AVAILABLE SERVICES
 
        o events
 
+       o finspace
+
+       o finspace-data
+
        o firehose
+
+       o fis
 
        o fms
 
@@ -401,6 +411,10 @@ AVAILABLE SERVICES
 
        o logs
 
+       o lookoutequipment
+
+       o lookoutmetrics
+
        o lookoutvision
 
        o machinelearning
@@ -437,6 +451,8 @@ AVAILABLE SERVICES
 
        o mgh
 
+       o mgn
+
        o migrationhub-config
 
        o mobile
@@ -452,6 +468,8 @@ AVAILABLE SERVICES
        o network-firewall
 
        o networkmanager
+
+       o nimble
 
        o opsworks
 
@@ -478,6 +496,8 @@ AVAILABLE SERVICES
        o polly
 
        o pricing
+
+       o proton
 
        o qldb
 
@@ -564,6 +584,10 @@ AVAILABLE SERVICES
        o sqs
 
        o ssm
+
+       o ssm-contacts
+
+       o ssm-incidents
 
        o sso
 

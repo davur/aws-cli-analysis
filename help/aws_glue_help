@@ -6,7 +6,7 @@ NAME
        glue -
 
 DESCRIPTION
-       Defines the public endpoint for the AWS Glue service.
+       Defines the public endpoint for the Glue service.
 
 AVAILABLE COMMANDS
        o batch-create-partition

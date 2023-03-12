@@ -14,12 +14,6 @@ DESCRIPTION
        cessed or moved. For more information, see  the	Amazon	Macie  Classic
        User Guide .
 
-       A  new  Amazon  Macie is now available with significant design improve-
-       ments and additional features, at a lower price and  in	most  AWS  Re-
-       gions.  We  encourage  you to explore and use the new and improved fea-
-       tures, and benefit from the reduced cost. To learn about  features  and
-       pricing for the new Amazon Macie, see Amazon Macie .
-
 AVAILABLE COMMANDS
        o associate-member-account
 

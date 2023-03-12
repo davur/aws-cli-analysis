@@ -24,6 +24,8 @@ AVAILABLE COMMANDS
 
        o create-tags
 
+       o create-workspace-bundle
+
        o create-workspaces
 
        o delete-connection-alias
@@ -31,6 +33,8 @@ AVAILABLE COMMANDS
        o delete-ip-group
 
        o delete-tags
+
+       o delete-workspace-bundle
 
        o delete-workspace-image
 
@@ -109,6 +113,8 @@ AVAILABLE COMMANDS
        o update-connection-alias-permission
 
        o update-rules-of-ip-group
+
+       o update-workspace-bundle
 
        o update-workspace-image-permission
 

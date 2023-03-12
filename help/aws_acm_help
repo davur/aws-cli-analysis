@@ -6,18 +6,10 @@ NAME
        acm -
 
 DESCRIPTION
-       Welcome to the AWS Certificate Manager (ACM) API documentation.
-
-       You  can use ACM to manage SSL/TLS certificates for your AWS-based web-
-       sites and applications. For general information about  using  ACM,  see
-       the	 `	AWS	 Certificate	  Manager      User	 Guide
-       https://docs.aws.amazon.com/acm/latest/userguide/
-       `
-       __ .
-
-       System Message: WARNING/2 (<string>:, line 22)
-	      Inline interpreted text or phrase reference start-string without
-	      end-string.
+       You  can  use  Amazon  Web Services Certificate Manager (ACM) to manage
+       SSL/TLS certificates for your Amazon Web  Services-based  websites  and
+       applications.  For more information about using ACM, see the Amazon Web
+       Services Certificate Manager User Guide .
 
 AVAILABLE COMMANDS
        o add-tags-to-certificate
@@ -28,6 +20,8 @@ AVAILABLE COMMANDS
 
        o export-certificate
 
+       o get-account-configuration
+
        o get-certificate
 
        o help
@@ -37,6 +31,8 @@ AVAILABLE COMMANDS
        o list-certificates
 
        o list-tags-for-certificate
+
+       o put-account-configuration
 
        o remove-tags-from-certificate
 

@@ -57,6 +57,8 @@ AVAILABLE COMMANDS
 
        o batch-create-attendee
 
+       o batch-create-channel-membership
+
        o batch-create-room-membership
 
        o batch-delete-phone-number
@@ -88,6 +90,8 @@ AVAILABLE COMMANDS
        o create-channel-membership
 
        o create-channel-moderator
+
+       o create-media-capture-pipeline
 
        o create-meeting
 
@@ -138,6 +142,8 @@ AVAILABLE COMMANDS
        o delete-channel-moderator
 
        o delete-events-configuration
+
+       o delete-media-capture-pipeline
 
        o delete-meeting
 
@@ -212,6 +218,8 @@ AVAILABLE COMMANDS
        o get-events-configuration
 
        o get-global-settings
+
+       o get-media-capture-pipeline
 
        o get-meeting
 
@@ -289,6 +297,8 @@ AVAILABLE COMMANDS
 
        o list-channels-moderated-by-app-instance-user
 
+       o list-media-capture-pipelines
+
        o list-meeting-tags
 
        o list-meetings
@@ -306,6 +316,8 @@ AVAILABLE COMMANDS
        o list-sip-media-applications
 
        o list-sip-rules
+
+       o list-supported-phone-number-countries
 
        o list-tags-for-resource
 
@@ -400,6 +412,8 @@ AVAILABLE COMMANDS
        o update-room-membership
 
        o update-sip-media-application
+
+       o update-sip-media-application-call
 
        o update-sip-rule
 

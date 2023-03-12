@@ -51,6 +51,8 @@ AVAILABLE COMMANDS
 
        o initiate-layer-upload
 
+       o list-tags-for-resource
+
        o put-image
 
        o put-registry-catalog-data
@@ -58,6 +60,10 @@ AVAILABLE COMMANDS
        o put-repository-catalog-data
 
        o set-repository-policy
+
+       o tag-resource
+
+       o untag-resource
 
        o upload-layer-part
 

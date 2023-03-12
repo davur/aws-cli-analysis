@@ -6,11 +6,11 @@ NAME
        iotsitewise -
 
 DESCRIPTION
-       Welcome	to  the AWS IoT SiteWise API Reference. AWS IoT SiteWise is an
-       AWS service that connects Industrial Internet of Things (IIoT)  devices
-       to  the	power  of the AWS Cloud. For more information, see the AWS IoT
-       SiteWise User Guide . For information about AWS	IoT  SiteWise  quotas,
-       see Quotas in the AWS IoT SiteWise User Guide .
+       Welcome	to  the  IoT SiteWise API Reference. IoT SiteWise is an Amazon
+       Web Services service that connects Industrial Internet of Things (IIoT)
+       devices	to the power of the Amazon Web Services Cloud. For more infor-
+       mation, see the IoT SiteWise User Guide .  For  information  about  IoT
+       SiteWise quotas, see Quotas in the IoT SiteWise User Guide .
 
 AVAILABLE COMMANDS
        o associate-assets
@@ -71,6 +71,8 @@ AVAILABLE COMMANDS
 
        o describe-project
 
+       o describe-storage-configuration
+
        o disassociate-assets
 
        o get-asset-property-aggregates
@@ -78,6 +80,8 @@ AVAILABLE COMMANDS
        o get-asset-property-value
 
        o get-asset-property-value-history
+
+       o get-interpolated-asset-property-values
 
        o help
 
@@ -106,6 +110,8 @@ AVAILABLE COMMANDS
        o put-default-encryption-configuration
 
        o put-logging-options
+
+       o put-storage-configuration
 
        o tag-resource
 

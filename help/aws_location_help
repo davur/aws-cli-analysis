@@ -6,11 +6,13 @@ NAME
        location -
 
 DESCRIPTION
-       Suite  of geospatial services including Maps, Places, Tracking, and Ge-
-       ofencing
+       Suite  of geospatial services including Maps, Places, Routes, Tracking,
+       and Geofencing
 
 AVAILABLE COMMANDS
        o associate-tracker-consumer
+
+       o batch-delete-device-position-history
 
        o batch-delete-geofence
 
@@ -22,11 +24,15 @@ AVAILABLE COMMANDS
 
        o batch-update-device-position
 
+       o calculate-route
+
        o create-geofence-collection
 
        o create-map
 
        o create-place-index
+
+       o create-route-calculator
 
        o create-tracker
 
@@ -36,6 +42,8 @@ AVAILABLE COMMANDS
 
        o delete-place-index
 
+       o delete-route-calculator
+
        o delete-tracker
 
        o describe-geofence-collection
@@ -43,6 +51,8 @@ AVAILABLE COMMANDS
        o describe-map
 
        o describe-place-index
+
+       o describe-route-calculator
 
        o describe-tracker
 
@@ -64,6 +74,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-device-positions
+
        o list-geofence-collections
 
        o list-geofences
@@ -71,6 +83,10 @@ AVAILABLE COMMANDS
        o list-maps
 
        o list-place-indexes
+
+       o list-route-calculators
+
+       o list-tags-for-resource
 
        o list-tracker-consumers
 
@@ -81,6 +97,10 @@ AVAILABLE COMMANDS
        o search-place-index-for-position
 
        o search-place-index-for-text
+
+       o tag-resource
+
+       o untag-resource
 
 
 

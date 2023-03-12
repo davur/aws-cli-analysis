@@ -7,9 +7,15 @@ NAME
 
 DESCRIPTION
        Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable
-       computing capacity in the AWS cloud. Using Amazon  EC2  eliminates  the
+       computing capacity in the AWS Cloud. Using Amazon  EC2  eliminates  the
        need  to invest in hardware up front, so you can develop and deploy ap-
-       plications faster.
+       plications faster. Amazon Virtual Private Cloud	(Amazon  VPC)  enables
+       you  to	provision  a logically isolated section of the AWS Cloud where
+       you can launch AWS resources in a virtual network that you've  defined.
+       Amazon  Elastic	Block  Store (Amazon EBS) provides block level storage
+       volumes for use with EC2 instances. EBS volumes	are  highly  available
+       and  reliable  storage  volumes that can be attached to any running in-
+       stance and used like a hard drive.
 
        To learn more, see the following resources:
 
@@ -63,6 +69,8 @@ AVAILABLE COMMANDS
        o associate-transit-gateway-multicast-domain
 
        o associate-transit-gateway-route-table
+
+       o associate-trunk-interface
 
        o associate-vpc-cidr-block
 
@@ -164,7 +172,11 @@ AVAILABLE COMMANDS
 
        o create-placement-group
 
+       o create-replace-root-volume-task
+
        o create-reserved-instances-listing
+
+       o create-restore-image-task
 
        o create-route
 
@@ -177,6 +189,8 @@ AVAILABLE COMMANDS
        o create-snapshots
 
        o create-spot-datafeed-subscription
+
+       o create-store-image-task
 
        o create-subnet
 
@@ -348,6 +362,8 @@ AVAILABLE COMMANDS
 
        o describe-addresses
 
+       o describe-addresses-attribute
+
        o describe-aggregate-id-format
 
        o describe-availability-zones
@@ -487,6 +503,8 @@ AVAILABLE COMMANDS
 
        o describe-regions
 
+       o describe-replace-root-volume-tasks
+
        o describe-reserved-instances
 
        o describe-reserved-instances-listings
@@ -502,6 +520,8 @@ AVAILABLE COMMANDS
        o describe-scheduled-instances
 
        o describe-security-group-references
+
+       o describe-security-group-rules
 
        o describe-security-groups
 
@@ -522,6 +542,8 @@ AVAILABLE COMMANDS
        o describe-spot-price-history
 
        o describe-stale-security-groups
+
+       o describe-store-image-tasks
 
        o describe-subnets
 
@@ -548,6 +570,8 @@ AVAILABLE COMMANDS
        o describe-transit-gateway-vpc-attachments
 
        o describe-transit-gateways
+
+       o describe-trunk-interface-associations
 
        o describe-volume-attribute
 
@@ -597,6 +621,10 @@ AVAILABLE COMMANDS
 
        o disable-fast-snapshot-restores
 
+       o disable-image-deprecation
+
+       o disable-serial-console-access
+
        o disable-transit-gateway-route-table-propagation
 
        o disable-vgw-route-propagation
@@ -621,11 +649,17 @@ AVAILABLE COMMANDS
 
        o disassociate-transit-gateway-route-table
 
+       o disassociate-trunk-interface
+
        o disassociate-vpc-cidr-block
 
        o enable-ebs-encryption-by-default
 
        o enable-fast-snapshot-restores
+
+       o enable-image-deprecation
+
+       o enable-serial-console-access
 
        o enable-transit-gateway-route-table-propagation
 
@@ -663,6 +697,8 @@ AVAILABLE COMMANDS
 
        o get-ebs-encryption-by-default
 
+       o get-flow-logs-integration-template
+
        o get-groups-for-capacity-reservation
 
        o get-host-reservation-purchase-preview
@@ -676,6 +712,8 @@ AVAILABLE COMMANDS
        o get-password-data
 
        o get-reserved-instances-exchange-quote
+
+       o get-serial-console-access-status
 
        o get-transit-gateway-attachment-propagations
 
@@ -696,6 +734,8 @@ AVAILABLE COMMANDS
        o import-key-pair
 
        o import-snapshot
+
+       o modify-address-attribute
 
        o modify-availability-zone-group
 
@@ -738,6 +778,8 @@ AVAILABLE COMMANDS
        o modify-network-interface-attribute
 
        o modify-reserved-instances
+
+       o modify-security-group-rules
 
        o modify-snapshot-attribute
 
@@ -836,6 +878,8 @@ AVAILABLE COMMANDS
        o request-spot-fleet
 
        o request-spot-instances
+
+       o reset-address-attribute
 
        o reset-ebs-default-kms-key-id
 

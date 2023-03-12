@@ -45,8 +45,6 @@ DESCRIPTION
        o Perform  deep	packet	inspection on traffic entering or leaving your
 	 VPC.
 
-       o Rate limit traffic going from AWS to on-premises IP destinations.
-
        o Use stateful protocol detection to filter protocols like  HTTPS,  re-
 	 gardless of the port used.
 
