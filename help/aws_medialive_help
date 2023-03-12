@@ -1,0 +1,44 @@
+MEDIALIVE()							   MEDIALIVE()
+
+
+
+NAME
+       medialive -
+
+DESCRIPTION
+       API for AWS Elemental MediaLive
+
+AVAILABLE COMMANDS
+       o create-channel
+
+       o create-input
+
+       o create-input-security-group
+
+       o delete-channel
+
+       o delete-input
+
+       o delete-input-security-group
+
+       o describe-channel
+
+       o describe-input
+
+       o describe-input-security-group
+
+       o help
+
+       o list-channels
+
+       o list-input-security-groups
+
+       o list-inputs
+
+       o start-channel
+
+       o stop-channel
+
+
+
+								   MEDIALIVE()

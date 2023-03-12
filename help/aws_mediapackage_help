@@ -1,0 +1,38 @@
+MEDIAPACKAGE()							MEDIAPACKAGE()
+
+
+
+NAME
+       mediapackage -
+
+DESCRIPTION
+       AWS Elemental MediaPackage
+
+AVAILABLE COMMANDS
+       o create-channel
+
+       o create-origin-endpoint
+
+       o delete-channel
+
+       o delete-origin-endpoint
+
+       o describe-channel
+
+       o describe-origin-endpoint
+
+       o help
+
+       o list-channels
+
+       o list-origin-endpoints
+
+       o rotate-channel-credentials
+
+       o update-channel
+
+       o update-origin-endpoint
+
+
+
+								MEDIAPACKAGE()
