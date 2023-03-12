@@ -7,15 +7,16 @@ NAME
 
 DESCRIPTION
        Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable
-       computing capacity in the AWS Cloud. Using Amazon  EC2  eliminates  the
-       need  to invest in hardware up front, so you can develop and deploy ap-
-       plications faster. Amazon Virtual Private Cloud	(Amazon  VPC)  enables
-       you  to	provision  a logically isolated section of the AWS Cloud where
-       you can launch AWS resources in a virtual network that you've  defined.
-       Amazon  Elastic	Block  Store (Amazon EBS) provides block level storage
-       volumes for use with EC2 instances. EBS volumes	are  highly  available
-       and  reliable  storage  volumes that can be attached to any running in-
-       stance and used like a hard drive.
+       computing capacity in the Amazon Web Services Cloud. Using  Amazon  EC2
+       eliminates  the need to invest in hardware up front, so you can develop
+       and deploy applications faster. Amazon Virtual  Private	Cloud  (Amazon
+       VPC)  enables you to provision a logically isolated section of the Ama-
+       zon Web Services Cloud where you can launch  Amazon  Web  Services  re-
+       sources	in a virtual network that you've defined. Amazon Elastic Block
+       Store (Amazon EBS) provides block level storage volumes	for  use  with
+       EC2  instances.	EBS  volumes are highly available and reliable storage
+       volumes that can be attached to any running instance and  used  like  a
+       hard drive.
 
        To learn more, see the following resources:
 
@@ -25,7 +26,8 @@ DESCRIPTION
 
        o Amazon VPC: Amazon VPC product page , Amazon VPC documentation
 
-       o AWS VPN: AWS VPN product page , AWS VPN documentation
+       o Amazon  Web  Services	VPN:  Amazon  Web  Services VPN product page ,
+	 Amazon Web Services VPN documentation
 
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
@@ -45,6 +47,8 @@ AVAILABLE COMMANDS
        o allocate-address
 
        o allocate-hosts
+
+       o allocate-ipam-pool-cidr
 
        o apply-security-groups-to-client-vpn-target-network
 
@@ -154,6 +158,12 @@ AVAILABLE COMMANDS
 
        o create-internet-gateway
 
+       o create-ipam
+
+       o create-ipam-pool
+
+       o create-ipam-scope
+
        o create-key-pair
 
        o create-launch-template
@@ -172,6 +182,8 @@ AVAILABLE COMMANDS
 
        o create-network-acl-entry
 
+       o create-network-insights-access-scope
+
        o create-network-insights-path
 
        o create-network-interface
@@ -179,6 +191,8 @@ AVAILABLE COMMANDS
        o create-network-interface-permission
 
        o create-placement-group
+
+       o create-public-ipv4-pool
 
        o create-replace-root-volume-task
 
@@ -272,6 +286,12 @@ AVAILABLE COMMANDS
 
        o delete-internet-gateway
 
+       o delete-ipam
+
+       o delete-ipam-pool
+
+       o delete-ipam-scope
+
        o delete-key-pair
 
        o delete-launch-template
@@ -290,6 +310,10 @@ AVAILABLE COMMANDS
 
        o delete-network-acl-entry
 
+       o delete-network-insights-access-scope
+
+       o delete-network-insights-access-scope-analysis
+
        o delete-network-insights-analysis
 
        o delete-network-insights-path
@@ -299,6 +323,8 @@ AVAILABLE COMMANDS
        o delete-network-interface-permission
 
        o delete-placement-group
+
+       o delete-public-ipv4-pool
 
        o delete-queued-reserved-instances
 
@@ -364,6 +390,10 @@ AVAILABLE COMMANDS
 
        o deprovision-byoip-cidr
 
+       o deprovision-ipam-pool-cidr
+
+       o deprovision-public-ipv4-pool-cidr
+
        o deregister-image
 
        o deregister-instance-event-notification-attributes
@@ -420,6 +450,8 @@ AVAILABLE COMMANDS
 
        o describe-export-tasks
 
+       o describe-fast-launch-images
+
        o describe-fast-snapshot-restores
 
        o describe-fleet-history
@@ -472,6 +504,12 @@ AVAILABLE COMMANDS
 
        o describe-internet-gateways
 
+       o describe-ipam-pools
+
+       o describe-ipam-scopes
+
+       o describe-ipams
+
        o describe-ipv6-pools
 
        o describe-key-pairs
@@ -500,6 +538,10 @@ AVAILABLE COMMANDS
        o describe-nat-gateways
 
        o describe-network-acls
+
+       o describe-network-insights-access-scope-analyses
+
+       o describe-network-insights-access-scopes
 
        o describe-network-insights-analyses
 
@@ -544,6 +586,8 @@ AVAILABLE COMMANDS
        o describe-security-groups
 
        o describe-snapshot-attribute
+
+       o describe-snapshot-tier-status
 
        o describe-snapshots
 
@@ -637,9 +681,13 @@ AVAILABLE COMMANDS
 
        o disable-ebs-encryption-by-default
 
+       o disable-fast-launch
+
        o disable-fast-snapshot-restores
 
        o disable-image-deprecation
+
+       o disable-ipam-organization-admin-account
 
        o disable-serial-console-access
 
@@ -675,9 +723,13 @@ AVAILABLE COMMANDS
 
        o enable-ebs-encryption-by-default
 
+       o enable-fast-launch
+
        o enable-fast-snapshot-restores
 
        o enable-image-deprecation
+
+       o enable-ipam-organization-admin-account
 
        o enable-serial-console-access
 
@@ -725,11 +777,23 @@ AVAILABLE COMMANDS
 
        o get-instance-types-from-instance-requirements
 
+       o get-ipam-address-history
+
+       o get-ipam-pool-allocations
+
+       o get-ipam-pool-cidrs
+
+       o get-ipam-resource-cidrs
+
        o get-launch-template-data
 
        o get-managed-prefix-list-associations
 
        o get-managed-prefix-list-entries
+
+       o get-network-insights-access-scope-analysis-findings
+
+       o get-network-insights-access-scope-content
 
        o get-password-data
 
@@ -764,6 +828,10 @@ AVAILABLE COMMANDS
        o import-key-pair
 
        o import-snapshot
+
+       o list-images-in-recycle-bin
+
+       o list-snapshots-in-recycle-bin
 
        o modify-address-attribute
 
@@ -801,9 +869,19 @@ AVAILABLE COMMANDS
 
        o modify-instance-event-window
 
+       o modify-instance-maintenance-options
+
        o modify-instance-metadata-options
 
        o modify-instance-placement
+
+       o modify-ipam
+
+       o modify-ipam-pool
+
+       o modify-ipam-resource-cidr
+
+       o modify-ipam-scope
 
        o modify-launch-template
 
@@ -811,11 +889,15 @@ AVAILABLE COMMANDS
 
        o modify-network-interface-attribute
 
+       o modify-private-dns-name-options
+
        o modify-reserved-instances
 
        o modify-security-group-rules
 
        o modify-snapshot-attribute
+
+       o modify-snapshot-tier
 
        o modify-spot-fleet-request
 
@@ -845,6 +927,8 @@ AVAILABLE COMMANDS
 
        o modify-vpc-endpoint-service-configuration
 
+       o modify-vpc-endpoint-service-payer-responsibility
+
        o modify-vpc-endpoint-service-permissions
 
        o modify-vpc-peering-connection-options
@@ -863,7 +947,13 @@ AVAILABLE COMMANDS
 
        o move-address-to-vpc
 
+       o move-byoip-cidr-to-ipam
+
        o provision-byoip-cidr
+
+       o provision-ipam-pool-cidr
+
+       o provision-public-ipv4-pool-cidr
 
        o purchase-host-reservation
 
@@ -894,6 +984,8 @@ AVAILABLE COMMANDS
        o release-address
 
        o release-hosts
+
+       o release-ipam-pool-allocation
 
        o replace-iam-instance-profile-association
 
@@ -929,7 +1021,13 @@ AVAILABLE COMMANDS
 
        o restore-address-to-classic
 
+       o restore-image-from-recycle-bin
+
        o restore-managed-prefix-list-version
+
+       o restore-snapshot-from-recycle-bin
+
+       o restore-snapshot-tier
 
        o revoke-client-vpn-ingress
 
@@ -950,6 +1048,8 @@ AVAILABLE COMMANDS
        o send-diagnostic-interrupt
 
        o start-instances
+
+       o start-network-insights-access-scope-analysis
 
        o start-network-insights-analysis
 

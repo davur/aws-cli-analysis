@@ -26,6 +26,8 @@ AVAILABLE COMMANDS
 
        o calculate-route
 
+       o calculate-route-matrix
+
        o create-geofence-collection
 
        o create-map
@@ -95,6 +97,8 @@ AVAILABLE COMMANDS
        o put-geofence
 
        o search-place-index-for-position
+
+       o search-place-index-for-suggestions
 
        o search-place-index-for-text
 

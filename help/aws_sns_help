@@ -83,6 +83,8 @@ AVAILABLE COMMANDS
 
        o publish
 
+       o publish-batch
+
        o remove-permission
 
        o set-endpoint-attributes

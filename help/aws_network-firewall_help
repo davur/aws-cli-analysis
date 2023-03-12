@@ -106,6 +106,8 @@ AVAILABLE COMMANDS
 
        o describe-rule-group
 
+       o describe-rule-group-metadata
+
        o disassociate-subnets
 
        o help

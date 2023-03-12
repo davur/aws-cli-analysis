@@ -66,6 +66,8 @@ AVAILABLE COMMANDS
 
        o update-shard-count
 
+       o update-stream-mode
+
        o wait
 
 

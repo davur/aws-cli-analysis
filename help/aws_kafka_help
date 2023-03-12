@@ -15,6 +15,8 @@ AVAILABLE COMMANDS
 
        o create-cluster
 
+       o create-cluster-v2
+
        o create-configuration
 
        o delete-cluster
@@ -24,6 +26,8 @@ AVAILABLE COMMANDS
        o describe-cluster
 
        o describe-cluster-operation
+
+       o describe-cluster-v2
 
        o describe-configuration
 
@@ -38,6 +42,8 @@ AVAILABLE COMMANDS
        o list-cluster-operations
 
        o list-clusters
+
+       o list-clusters-v2
 
        o list-configuration-revisions
 
@@ -68,6 +74,8 @@ AVAILABLE COMMANDS
        o update-cluster-kafka-version
 
        o update-configuration
+
+       o update-connectivity
 
        o update-monitoring
 

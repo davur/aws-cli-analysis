@@ -6,16 +6,60 @@ NAME
        finspace-data -
 
 DESCRIPTION
-       The FinSpace APIs let you take actions inside the FinSpace environment.
+       The FinSpace APIs let you take actions inside the FinSpace.
 
 AVAILABLE COMMANDS
        o create-changeset
 
+       o create-data-view
+
+       o create-dataset
+
+       o create-permission-group
+
+       o create-user
+
+       o delete-dataset
+
+       o delete-permission-group
+
+       o disable-user
+
+       o enable-user
+
+       o get-changeset
+
+       o get-data-view
+
+       o get-dataset
+
        o get-programmatic-access-credentials
+
+       o get-user
 
        o get-working-location
 
        o help
+
+       o list-changesets
+
+       o list-data-views
+
+       o list-datasets
+
+       o list-permission-groups
+
+       o list-users
+
+       o reset-user-password
+
+       o update-changeset
+
+       o update-dataset
+
+       o update-permission-group
+
+       o update-user
 
 
 

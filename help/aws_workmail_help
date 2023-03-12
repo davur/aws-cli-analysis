@@ -59,6 +59,8 @@ AVAILABLE COMMANDS
 
        o delete-alias
 
+       o delete-email-monitoring-configuration
+
        o delete-group
 
        o delete-mailbox-permissions
@@ -78,6 +80,8 @@ AVAILABLE COMMANDS
        o deregister-from-work-mail
 
        o deregister-mail-domain
+
+       o describe-email-monitoring-configuration
 
        o describe-group
 
@@ -138,6 +142,8 @@ AVAILABLE COMMANDS
        o list-users
 
        o put-access-control-rule
+
+       o put-email-monitoring-configuration
 
        o put-inbound-dmarc-settings
 

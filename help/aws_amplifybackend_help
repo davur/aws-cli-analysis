@@ -19,6 +19,8 @@ AVAILABLE COMMANDS
 
        o create-backend-config
 
+       o create-backend-storage
+
        o create-token
 
        o delete-backend
@@ -26,6 +28,8 @@ AVAILABLE COMMANDS
        o delete-backend-api
 
        o delete-backend-auth
+
+       o delete-backend-storage
 
        o delete-token
 
@@ -41,13 +45,19 @@ AVAILABLE COMMANDS
 
        o get-backend-job
 
+       o get-backend-storage
+
        o get-token
 
        o help
 
        o import-backend-auth
 
+       o import-backend-storage
+
        o list-backend-jobs
+
+       o list-s3-buckets
 
        o remove-all-backends
 
@@ -60,6 +70,8 @@ AVAILABLE COMMANDS
        o update-backend-config
 
        o update-backend-job
+
+       o update-backend-storage
 
 
 

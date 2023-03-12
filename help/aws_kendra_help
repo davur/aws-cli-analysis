@@ -9,6 +9,10 @@ DESCRIPTION
        Amazon Kendra is a service for indexing large document sets.
 
 AVAILABLE COMMANDS
+       o associate-entities-to-experience
+
+       o associate-personas-to-entities
+
        o batch-delete-document
 
        o batch-get-document-status
@@ -19,6 +23,8 @@ AVAILABLE COMMANDS
 
        o create-data-source
 
+       o create-experience
+
        o create-faq
 
        o create-index
@@ -28,6 +34,8 @@ AVAILABLE COMMANDS
        o create-thesaurus
 
        o delete-data-source
+
+       o delete-experience
 
        o delete-faq
 
@@ -41,6 +49,8 @@ AVAILABLE COMMANDS
 
        o describe-data-source
 
+       o describe-experience
+
        o describe-faq
 
        o describe-index
@@ -53,13 +63,25 @@ AVAILABLE COMMANDS
 
        o describe-thesaurus
 
+       o disassociate-entities-from-experience
+
+       o disassociate-personas-from-entities
+
        o get-query-suggestions
+
+       o get-snapshots
 
        o help
 
        o list-data-source-sync-jobs
 
        o list-data-sources
+
+       o list-entity-personas
+
+       o list-experience-entities
+
+       o list-experiences
 
        o list-faqs
 
@@ -88,6 +110,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-data-source
+
+       o update-experience
 
        o update-index
 

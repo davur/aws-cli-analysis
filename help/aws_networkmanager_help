@@ -11,13 +11,23 @@ DESCRIPTION
        on-premises networks that are built around transit gateways.
 
 AVAILABLE COMMANDS
+       o accept-attachment
+
+       o associate-connect-peer
+
        o associate-customer-gateway
 
        o associate-link
 
        o associate-transit-gateway-connect-peer
 
+       o create-connect-attachment
+
+       o create-connect-peer
+
        o create-connection
+
+       o create-core-network
 
        o create-device
 
@@ -27,7 +37,19 @@ AVAILABLE COMMANDS
 
        o create-site
 
+       o create-site-to-site-vpn-attachment
+
+       o create-vpc-attachment
+
+       o delete-attachment
+
+       o delete-connect-peer
+
        o delete-connection
+
+       o delete-core-network
+
+       o delete-core-network-policy-version
 
        o delete-device
 
@@ -35,11 +57,15 @@ AVAILABLE COMMANDS
 
        o delete-link
 
+       o delete-resource-policy
+
        o delete-site
 
        o deregister-transit-gateway
 
        o describe-global-networks
+
+       o disassociate-connect-peer
 
        o disassociate-customer-gateway
 
@@ -47,7 +73,21 @@ AVAILABLE COMMANDS
 
        o disassociate-transit-gateway-connect-peer
 
+       o execute-core-network-change-set
+
+       o get-connect-attachment
+
+       o get-connect-peer
+
+       o get-connect-peer-associations
+
        o get-connections
+
+       o get-core-network
+
+       o get-core-network-change-set
+
+       o get-core-network-policy
 
        o get-customer-gateway-associations
 
@@ -67,7 +107,11 @@ AVAILABLE COMMANDS
 
        o get-network-telemetry
 
+       o get-resource-policy
+
        o get-route-analysis
+
+       o get-site-to-site-vpn-attachment
 
        o get-sites
 
@@ -75,11 +119,29 @@ AVAILABLE COMMANDS
 
        o get-transit-gateway-registrations
 
+       o get-vpc-attachment
+
        o help
+
+       o list-attachments
+
+       o list-connect-peers
+
+       o list-core-network-policy-versions
+
+       o list-core-networks
 
        o list-tags-for-resource
 
+       o put-core-network-policy
+
+       o put-resource-policy
+
        o register-transit-gateway
+
+       o reject-attachment
+
+       o restore-core-network-policy-version
 
        o start-route-analysis
 
@@ -88,6 +150,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-connection
+
+       o update-core-network
 
        o update-device
 
@@ -98,6 +162,8 @@ AVAILABLE COMMANDS
        o update-network-resource-metadata
 
        o update-site
+
+       o update-vpc-attachment
 
 
 

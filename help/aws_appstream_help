@@ -27,6 +27,10 @@ DESCRIPTION
        o Amazon AppStream 2.0 documentation
 
 AVAILABLE COMMANDS
+       o associate-application-fleet
+
+       o associate-application-to-entitlement
+
        o associate-fleet
 
        o batch-associate-user-stack
@@ -35,7 +39,13 @@ AVAILABLE COMMANDS
 
        o copy-image
 
+       o create-app-block
+
+       o create-application
+
        o create-directory-config
+
+       o create-entitlement
 
        o create-fleet
 
@@ -53,7 +63,13 @@ AVAILABLE COMMANDS
 
        o create-user
 
+       o delete-app-block
+
+       o delete-application
+
        o delete-directory-config
+
+       o delete-entitlement
 
        o delete-fleet
 
@@ -69,7 +85,15 @@ AVAILABLE COMMANDS
 
        o delete-user
 
+       o describe-app-blocks
+
+       o describe-application-fleet-associations
+
+       o describe-applications
+
        o describe-directory-configs
+
+       o describe-entitlements
 
        o describe-fleets
 
@@ -91,6 +115,10 @@ AVAILABLE COMMANDS
 
        o disable-user
 
+       o disassociate-application-fleet
+
+       o disassociate-application-from-entitlement
+
        o disassociate-fleet
 
        o enable-user
@@ -102,6 +130,8 @@ AVAILABLE COMMANDS
        o list-associated-fleets
 
        o list-associated-stacks
+
+       o list-entitled-applications
 
        o list-tags-for-resource
 
@@ -117,7 +147,11 @@ AVAILABLE COMMANDS
 
        o untag-resource
 
+       o update-application
+
        o update-directory-config
+
+       o update-entitlement
 
        o update-fleet
 

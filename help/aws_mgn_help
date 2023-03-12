@@ -19,6 +19,8 @@ AVAILABLE COMMANDS
 
        o delete-source-server
 
+       o delete-vcenter-client
+
        o describe-job-log-items
 
        o describe-jobs
@@ -26,6 +28,8 @@ AVAILABLE COMMANDS
        o describe-replication-configuration-templates
 
        o describe-source-servers
+
+       o describe-vcenter-clients
 
        o disconnect-from-service
 
@@ -47,6 +51,8 @@ AVAILABLE COMMANDS
 
        o start-cutover
 
+       o start-replication
+
        o start-test
 
        o tag-resource
@@ -60,6 +66,8 @@ AVAILABLE COMMANDS
        o update-replication-configuration
 
        o update-replication-configuration-template
+
+       o update-source-server-replication-type
 
 
 

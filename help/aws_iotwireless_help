@@ -6,7 +6,23 @@ NAME
        iotwireless -
 
 DESCRIPTION
-       AWS IoT Wireless API documentation
+       AWS  IoT  Wireless provides bi-directional communication between inter-
+       net-connected wireless devices and the AWS Cloud. To onboard  both  Lo-
+       RaWAN  and Sidewalk devices to AWS IoT, use the IoT Wireless API. These
+       wireless devices use the Low Power Wide Area Networking (LPWAN)	commu-
+       nication protocol to communicate with AWS IoT.
+
+       Using  the API, you can perform create, read, update, and delete opera-
+       tions for your wireless devices, gateways, destinations, and  profiles.
+       After  onboarding  your	devices, you can use the API operations to set
+       log levels and monitor your devices with CloudWatch.
+
+       You can also use the API operations  to	create	multicast  groups  and
+       schedule  a multicast session for sending a downlink message to devices
+       in the group. By using Firmware Updates Over-The-Air (FUOTA) API opera-
+       tions, you can create a FUOTA task and schedule a session to update the
+       firmware of individual devices or an entire group of devices in a  mul-
+       ticast group.
 
 AVAILABLE COMMANDS
        o associate-aws-account-with-partner-account
@@ -51,6 +67,8 @@ AVAILABLE COMMANDS
 
        o delete-multicast-group
 
+       o delete-queued-messages
+
        o delete-service-profile
 
        o delete-wireless-device
@@ -86,6 +104,8 @@ AVAILABLE COMMANDS
        o get-multicast-group
 
        o get-multicast-group-session
+
+       o get-network-analyzer-configuration
 
        o get-partner-account
 
@@ -126,6 +146,8 @@ AVAILABLE COMMANDS
        o list-multicast-groups-by-fuota-task
 
        o list-partner-accounts
+
+       o list-queued-messages
 
        o list-service-profiles
 
@@ -168,6 +190,8 @@ AVAILABLE COMMANDS
        o update-log-levels-by-resource-types
 
        o update-multicast-group
+
+       o update-network-analyzer-configuration
 
        o update-partner-account
 

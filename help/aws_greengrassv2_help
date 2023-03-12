@@ -25,6 +25,8 @@ DESCRIPTION
        V2 Developer Guide .
 
 AVAILABLE COMMANDS
+       o associate-service-role-to-account
+
        o batch-associate-client-device-with-core-device
 
        o batch-disassociate-client-device-from-core-device
@@ -41,13 +43,19 @@ AVAILABLE COMMANDS
 
        o describe-component
 
+       o disassociate-service-role-from-account
+
        o get-component
 
        o get-component-version-artifact
 
+       o get-connectivity-info
+
        o get-core-device
 
        o get-deployment
+
+       o get-service-role-for-account
 
        o help
 
@@ -72,6 +80,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-connectivity-info
 
 
 

@@ -21,6 +21,8 @@ AVAILABLE COMMANDS
 
        o create-metric-set
 
+       o deactivate-anomaly-detector
+
        o delete-alert
 
        o delete-anomaly-detector
@@ -33,6 +35,8 @@ AVAILABLE COMMANDS
 
        o describe-metric-set
 
+       o detect-metric-set-config
+
        o get-anomaly-group
 
        o get-feedback
@@ -44,6 +48,8 @@ AVAILABLE COMMANDS
        o list-alerts
 
        o list-anomaly-detectors
+
+       o list-anomaly-group-related-metrics
 
        o list-anomaly-group-summaries
 

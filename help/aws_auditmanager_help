@@ -98,6 +98,10 @@ AVAILABLE COMMANDS
 
        o get-evidence-folders-by-assessment-control
 
+       o get-insights
+
+       o get-insights-by-assessment
+
        o get-organization-admin-account
 
        o get-services-in-scope
@@ -106,6 +110,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-assessment-control-insights-by-control-domain
+
        o list-assessment-framework-share-requests
 
        o list-assessment-frameworks
@@ -113,6 +119,12 @@ AVAILABLE COMMANDS
        o list-assessment-reports
 
        o list-assessments
+
+       o list-control-domain-insights
+
+       o list-control-domain-insights-by-assessment
+
+       o list-control-insights-by-control-domain
 
        o list-controls
 
