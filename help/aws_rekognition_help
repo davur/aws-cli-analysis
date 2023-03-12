@@ -13,6 +13,8 @@ AVAILABLE COMMANDS
 
        o create-collection
 
+       o create-dataset
+
        o create-project
 
        o create-project-version
@@ -20,6 +22,8 @@ AVAILABLE COMMANDS
        o create-stream-processor
 
        o delete-collection
+
+       o delete-dataset
 
        o delete-faces
 
@@ -30,6 +34,8 @@ AVAILABLE COMMANDS
        o delete-stream-processor
 
        o describe-collection
+
+       o describe-dataset
 
        o describe-project-versions
 
@@ -48,6 +54,8 @@ AVAILABLE COMMANDS
        o detect-protective-equipment
 
        o detect-text
+
+       o distribute-dataset-entries
 
        o get-celebrity-info
 
@@ -72,6 +80,10 @@ AVAILABLE COMMANDS
        o index-faces
 
        o list-collections
+
+       o list-dataset-entries
+
+       o list-dataset-labels
 
        o list-faces
 
@@ -112,6 +124,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-dataset-entries
 
        o wait
 

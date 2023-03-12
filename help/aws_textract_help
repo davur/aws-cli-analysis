@@ -21,11 +21,15 @@ AVAILABLE COMMANDS
 
        o get-document-text-detection
 
+       o get-expense-analysis
+
        o help
 
        o start-document-analysis
 
        o start-document-text-detection
+
+       o start-expense-analysis
 
 
 

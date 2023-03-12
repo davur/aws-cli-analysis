@@ -6,8 +6,8 @@ NAME
        finspace -
 
 DESCRIPTION
-       The  FinSpace  management  service  provides  the APIs for managing the
-       FinSpace environments.
+       The FinSpace management service provides the APIs for managing FinSpace
+       environments.
 
 AVAILABLE COMMANDS
        o create-environment

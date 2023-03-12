@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o create-location-fsx-windows
 
+       o create-location-hdfs
+
        o create-location-nfs
 
        o create-location-object-storage
@@ -44,6 +46,8 @@ AVAILABLE COMMANDS
        o describe-location-efs
 
        o describe-location-fsx-windows
+
+       o describe-location-hdfs
 
        o describe-location-nfs
 
@@ -76,6 +80,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-agent
+
+       o update-location-hdfs
 
        o update-location-nfs
 

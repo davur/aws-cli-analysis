@@ -723,6 +723,8 @@ AVAILABLE COMMANDS
 
        o get-host-reservation-purchase-preview
 
+       o get-instance-types-from-instance-requirements
+
        o get-launch-template-data
 
        o get-managed-prefix-list-associations
@@ -734,6 +736,8 @@ AVAILABLE COMMANDS
        o get-reserved-instances-exchange-quote
 
        o get-serial-console-access-status
+
+       o get-spot-placement-scores
 
        o get-subnet-cidr-reservations
 

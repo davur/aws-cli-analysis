@@ -94,6 +94,8 @@ AVAILABLE COMMANDS
 
        o get-firewall-rule-group-policy
 
+       o get-resolver-config
+
        o get-resolver-dnssec-config
 
        o get-resolver-endpoint
@@ -125,6 +127,8 @@ AVAILABLE COMMANDS
        o list-firewall-rule-groups
 
        o list-firewall-rules
+
+       o list-resolver-configs
 
        o list-resolver-dnssec-configs
 
@@ -159,6 +163,8 @@ AVAILABLE COMMANDS
        o update-firewall-rule
 
        o update-firewall-rule-group-association
+
+       o update-resolver-config
 
        o update-resolver-dnssec-config
 
