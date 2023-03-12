@@ -20,6 +20,16 @@ AVAILABLE COMMANDS
 
        o batch-detect-sentiment
 
+       o batch-detect-syntax
+
+       o describe-dominant-language-detection-job
+
+       o describe-entities-detection-job
+
+       o describe-key-phrases-detection-job
+
+       o describe-sentiment-detection-job
+
        o describe-topics-detection-job
 
        o detect-dominant-language
@@ -30,11 +40,37 @@ AVAILABLE COMMANDS
 
        o detect-sentiment
 
+       o detect-syntax
+
        o help
+
+       o list-dominant-language-detection-jobs
+
+       o list-entities-detection-jobs
+
+       o list-key-phrases-detection-jobs
+
+       o list-sentiment-detection-jobs
 
        o list-topics-detection-jobs
 
+       o start-dominant-language-detection-job
+
+       o start-entities-detection-job
+
+       o start-key-phrases-detection-job
+
+       o start-sentiment-detection-job
+
        o start-topics-detection-job
+
+       o stop-dominant-language-detection-job
+
+       o stop-entities-detection-job
+
+       o stop-key-phrases-detection-job
+
+       o stop-sentiment-detection-job
 
 
 

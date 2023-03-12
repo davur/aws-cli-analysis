@@ -21,11 +21,17 @@ AVAILABLE COMMANDS
 
        o get-lexicon
 
+       o get-speech-synthesis-task
+
        o help
 
        o list-lexicons
 
+       o list-speech-synthesis-tasks
+
        o put-lexicon
+
+       o start-speech-synthesis-task
 
        o synthesize-speech
 

@@ -26,8 +26,8 @@ DESCRIPTION
        Network Load Balancers.
 
        To get started, create a load balancer with one or more listeners using
-       create-load-balancer  .	Register your instances with the load balancer
-       using  register-instances-with-load-balancer .
+       CreateLoadBalancer . Register your instances with the load balancer us-
+       ing  RegisterInstancesWithLoadBalancer .
 
        All Elastic Load Balancing operations are idempotent , which means that
        they complete at most one time. If you repeat an operation, it succeeds

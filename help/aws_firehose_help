@@ -6,10 +6,10 @@ NAME
        firehose -
 
 DESCRIPTION
-       Amazon  Kinesis	Firehose  is  a  fully	managed  service that delivers
+       Amazon  Kinesis	Data Firehose is a fully managed service that delivers
        real-time streaming data to destinations such as Amazon Simple  Storage
-       Service (Amazon S3), Amazon Elasticsearch Service (Amazon ES), and Ama-
-       zon Redshift.
+       Service	(Amazon  S3), Amazon Elasticsearch Service (Amazon ES), Amazon
+       Redshift, and Splunk.
 
 AVAILABLE COMMANDS
        o create-delivery-stream
@@ -22,9 +22,15 @@ AVAILABLE COMMANDS
 
        o list-delivery-streams
 
+       o list-tags-for-delivery-stream
+
        o put-record
 
        o put-record-batch
+
+       o tag-delivery-stream
+
+       o untag-delivery-stream
 
        o update-destination
 

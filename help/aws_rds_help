@@ -63,6 +63,8 @@ AVAILABLE COMMANDS
 
        o authorize-db-security-group-ingress
 
+       o backtrack-db-cluster
+
        o copy-db-cluster-parameter-group
 
        o copy-db-cluster-snapshot
@@ -118,6 +120,8 @@ AVAILABLE COMMANDS
        o describe-account-attributes
 
        o describe-certificates
+
+       o describe-db-cluster-backtracks
 
        o describe-db-cluster-parameter-groups
 
@@ -182,6 +186,8 @@ AVAILABLE COMMANDS
        o help
 
        o list-tags-for-resource
+
+       o modify-current-db-cluster-capacity
 
        o modify-db-cluster
 

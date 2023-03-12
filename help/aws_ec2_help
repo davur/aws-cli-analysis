@@ -6,10 +6,23 @@ NAME
        ec2 -
 
 DESCRIPTION
-       Amazon  Elastic Compute Cloud (Amazon EC2) provides resizable computing
-       capacity in the AWS Cloud. Using Amazon EC2 eliminates the need to  in-
-       vest  in  hardware up front, so you can develop and deploy applications
-       faster.
+       Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable
+       computing capacity in the AWS cloud. Using Amazon  EC2  eliminates  the
+       need  to invest in hardware up front, so you can develop and deploy ap-
+       plications faster.
+
+       To learn more about Amazon EC2, Amazon EBS, and	Amazon	VPC,  see  the
+       following resources:
+
+       o Amazon EC2 product page
+
+       o Amazon EC2 documentation
+
+       o Amazon EBS product page
+
+       o Amazon VPC product page
+
+       o Amazon VPC documentation
 
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
@@ -86,6 +99,8 @@ AVAILABLE COMMANDS
 
        o create-egress-only-internet-gateway
 
+       o create-fleet
+
        o create-flow-logs
 
        o create-fpga-image
@@ -153,6 +168,8 @@ AVAILABLE COMMANDS
        o delete-dhcp-options
 
        o delete-egress-only-internet-gateway
+
+       o delete-fleets
 
        o delete-flow-logs
 
@@ -235,6 +252,12 @@ AVAILABLE COMMANDS
        o describe-elastic-gpus
 
        o describe-export-tasks
+
+       o describe-fleet-history
+
+       o describe-fleet-instances
+
+       o describe-fleets
 
        o describe-flow-logs
 
@@ -425,6 +448,8 @@ AVAILABLE COMMANDS
        o import-key-pair
 
        o import-snapshot
+
+       o modify-fleet
 
        o modify-fpga-image-attribute
 

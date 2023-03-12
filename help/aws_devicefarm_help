@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o create-upload
 
+       o create-vpce-configuration
+
        o delete-device-pool
 
        o delete-instance-profile
@@ -36,6 +38,8 @@ AVAILABLE COMMANDS
        o delete-run
 
        o delete-upload
+
+       o delete-vpce-configuration
 
        o get-account-settings
 
@@ -66,6 +70,8 @@ AVAILABLE COMMANDS
        o get-test
 
        o get-upload
+
+       o get-vpce-configuration
 
        o help
 
@@ -107,11 +113,15 @@ AVAILABLE COMMANDS
 
        o list-uploads
 
+       o list-vpce-configurations
+
        o purchase-offering
 
        o renew-offering
 
        o schedule-run
+
+       o stop-job
 
        o stop-remote-access-session
 
@@ -126,6 +136,10 @@ AVAILABLE COMMANDS
        o update-network-profile
 
        o update-project
+
+       o update-upload
+
+       o update-vpce-configuration
 
 
 

@@ -1,0 +1,34 @@
+MEDIATAILOR()							 MEDIATAILOR()
+
+
+
+NAME
+       mediatailor -
+
+DESCRIPTION
+       Use  the  AWS Elemental MediaTailor SDK to configure scalable ad inser-
+       tion for your live and VOD content. With AWS Elemental MediaTailor, you
+       can  serve  targeted ads to viewers while maintaining broadcast quality
+       in over-the-top (OTT) video applications. For information  about  using
+       the  service, including detailed information about the settings covered
+       in this guide, see the AWS Elemental MediaTailor User Guide.
+
+       Through the SDK, you manage AWS	Elemental  MediaTailor	configurations
+       the same as you do through the console. For example, you specify ad in-
+       sertion behavior and mapping information for the origin server and  the
+       ad decision server (ADS).
+
+AVAILABLE COMMANDS
+       o delete-playback-configuration
+
+       o get-playback-configuration
+
+       o help
+
+       o list-playback-configurations
+
+       o put-playback-configuration
+
+
+
+								 MEDIATAILOR()

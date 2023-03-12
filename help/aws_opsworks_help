@@ -72,14 +72,13 @@ DESCRIPTION
        o opsworks.sa-east-1.amazonaws.com
 	  Chef Versions
 
-       When you call  create-stack ,  clone-stack , or	update-stack we recom-
-       mend  you  use  the  ConfigurationManager parameter to specify the Chef
-       version. The recommended and default value for  Linux  stacks  is  cur-
-       rently 12. Windows stacks use Chef 12.2. For more information, see Chef
-       Versions .
+       When you call  CreateStack ,  CloneStack , or  UpdateStack we recommend
+       you use the ConfigurationManager parameter to specify the Chef version.
+       The recommended and default value for Linux  stacks  is	currently  12.
+       Windows stacks use Chef 12.2. For more information, see Chef Versions .
 
        NOTE:
-	  You can specify Chef 12, 11.10, or 11.4 for  your  Linux  stack.  We
+	  You  can  specify  Chef  12, 11.10, or 11.4 for your Linux stack. We
 	  recommend migrating your existing Linux stacks to Chef 12 as soon as
 	  possible.
 

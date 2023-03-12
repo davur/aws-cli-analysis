@@ -10,28 +10,27 @@ DESCRIPTION
        formation that is presented in the AWS Personal Health Dashboard .  You
        can get information about events that affect your AWS resources:
 
-       o describe-events : Summary information about events.
+       o DescribeEvents : Summary information about events.
 
-       o describe-event-details  :  Detailed  information  about  one  or more
-	 events.
+       o DescribeEventDetails : Detailed information about one or more events.
 
-       o describe-affected-entities : Information about AWS resources that are
+       o DescribeAffectedEntities  :  Information about AWS resources that are
 	 affected by one or more events.
 
        In addition, these operations provide information about event types and
        summary counts of events or affected entities:
 
-       o describe-event-types : Information about the kinds of events that AWS
+       o DescribeEventTypes  :	Information about the kinds of events that AWS
 	 Health tracks.
 
-       o describe-event-aggregates : A count of the number of events that meet
+       o DescribeEventAggregates : A count of the number of events  that  meet
 	 specified criteria.
 
-       o describe-entity-aggregates : A count of the number of affected  enti-
-	 ties that meet specified criteria.
+       o DescribeEntityAggregates : A count of the number of affected entities
+	 that meet specified criteria.
 
-       The  Health API requires a Business or Enterprise support plan from AWS
-       Support . Calling the Health API from an account that does not  have  a
+       The Health API requires a Business or Enterprise support plan from  AWS
+       Support	.  Calling the Health API from an account that does not have a
        Business or Enterprise support plan causes a SubscriptionRequiredExcep-
        tion .
 

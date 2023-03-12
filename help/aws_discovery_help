@@ -92,6 +92,8 @@ AVAILABLE COMMANDS
 
        o describe-configurations
 
+       o describe-continuous-exports
+
        o describe-export-tasks
 
        o describe-tags
@@ -106,9 +108,13 @@ AVAILABLE COMMANDS
 
        o list-server-neighbors
 
+       o start-continuous-export
+
        o start-data-collection-by-agent-ids
 
        o start-export-task
+
+       o stop-continuous-export
 
        o stop-data-collection-by-agent-ids
 

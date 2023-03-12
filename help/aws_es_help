@@ -31,6 +31,16 @@ AVAILABLE COMMANDS
 
        o describe-elasticsearch-instance-type-limits
 
+       o describe-reserved-elasticsearch-instance-offerings
+
+       o describe-reserved-elasticsearch-instances
+
+       o get-compatible-elasticsearch-versions
+
+       o get-upgrade-history
+
+       o get-upgrade-status
+
        o help
 
        o list-domain-names
@@ -41,9 +51,13 @@ AVAILABLE COMMANDS
 
        o list-tags
 
+       o purchase-reserved-elasticsearch-instance-offering
+
        o remove-tags
 
        o update-elasticsearch-domain-config
+
+       o upgrade-elasticsearch-domain
 
 
 

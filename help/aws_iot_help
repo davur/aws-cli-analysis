@@ -7,14 +7,17 @@ NAME
 
 DESCRIPTION
        AWS  IoT  provides  secure, bi-directional communication between Inter-
-       net-connected things (such as sensors, actuators, embedded devices,  or
+       net-connected devices (such as sensors, actuators, embedded devices, or
        smart  appliances)  and	the  AWS  cloud.  You can discover your custom
        IoT-Data endpoint to communicate with, configure rules  for  data  pro-
        cessing and integration with other services, organize resources associ-
-       ated with each thing (Thing Registry), configure  logging,  and	create
-       and manage policies and credentials to authenticate things.
+       ated with each device (Registry), configure  logging,  and  create  and
+       manage policies and credentials to authenticate devices.
 
        For more information about how AWS IoT works, see the Developer Guide .
+
+       For  information about how to use the credentials provider for AWS IoT,
+       see Authorizing Direct Calls to AWS Services .
 
 AVAILABLE COMMANDS
        o accept-certificate-transfer
@@ -25,11 +28,17 @@ AVAILABLE COMMANDS
 
        o attach-policy
 
+       o attach-security-profile
+
        o attach-thing-principal
+
+       o cancel-audit-task
 
        o cancel-certificate-transfer
 
        o cancel-job
+
+       o cancel-job-execution
 
        o clear-default-authorizer
 
@@ -49,6 +58,10 @@ AVAILABLE COMMANDS
 
        o create-role-alias
 
+       o create-scheduled-audit
+
+       o create-security-profile
+
        o create-stream
 
        o create-thing
@@ -59,11 +72,17 @@ AVAILABLE COMMANDS
 
        o create-topic-rule
 
+       o delete-account-audit-configuration
+
        o delete-authorizer
 
        o delete-ca-certificate
 
        o delete-certificate
+
+       o delete-job
+
+       o delete-job-execution
 
        o delete-ota-update
 
@@ -74,6 +93,10 @@ AVAILABLE COMMANDS
        o delete-registration-code
 
        o delete-role-alias
+
+       o delete-scheduled-audit
+
+       o delete-security-profile
 
        o delete-stream
 
@@ -88,6 +111,10 @@ AVAILABLE COMMANDS
        o delete-v2-logging-level
 
        o deprecate-thing-type
+
+       o describe-account-audit-configuration
+
+       o describe-audit-task
 
        o describe-authorizer
 
@@ -109,6 +136,10 @@ AVAILABLE COMMANDS
 
        o describe-role-alias
 
+       o describe-scheduled-audit
+
+       o describe-security-profile
+
        o describe-stream
 
        o describe-thing
@@ -120,6 +151,8 @@ AVAILABLE COMMANDS
        o describe-thing-type
 
        o detach-policy
+
+       o detach-security-profile
 
        o detach-thing-principal
 
@@ -149,7 +182,13 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-active-violations
+
        o list-attached-policies
+
+       o list-audit-findings
+
+       o list-audit-tasks
 
        o list-authorizers
 
@@ -179,9 +218,17 @@ AVAILABLE COMMANDS
 
        o list-role-aliases
 
+       o list-scheduled-audits
+
+       o list-security-profiles
+
+       o list-security-profiles-for-target
+
        o list-streams
 
        o list-targets-for-policy
+
+       o list-targets-for-security-profile
 
        o list-thing-groups
 
@@ -202,6 +249,8 @@ AVAILABLE COMMANDS
        o list-topic-rules
 
        o list-v2-logging-levels
+
+       o list-violation-events
 
        o register-ca-certificate
 
@@ -227,6 +276,8 @@ AVAILABLE COMMANDS
 
        o set-v2-logging-options
 
+       o start-on-demand-audit-task
+
        o start-thing-registration-task
 
        o stop-thing-registration-task
@@ -236,6 +287,8 @@ AVAILABLE COMMANDS
        o test-invoke-authorizer
 
        o transfer-certificate
+
+       o update-account-audit-configuration
 
        o update-authorizer
 
@@ -249,6 +302,10 @@ AVAILABLE COMMANDS
 
        o update-role-alias
 
+       o update-scheduled-audit
+
+       o update-security-profile
+
        o update-stream
 
        o update-thing
@@ -256,6 +313,8 @@ AVAILABLE COMMANDS
        o update-thing-group
 
        o update-thing-groups-for-thing
+
+       o validate-security-profile-behaviors
 
 
 

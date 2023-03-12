@@ -45,6 +45,12 @@ AVAILABLE COMMANDS
 
        o list-queues
 
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
        o update-job-template
 
        o update-preset

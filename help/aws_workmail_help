@@ -53,6 +53,8 @@ AVAILABLE COMMANDS
 
        o delete-group
 
+       o delete-mailbox-permissions
+
        o delete-resource
 
        o delete-user
@@ -79,6 +81,8 @@ AVAILABLE COMMANDS
 
        o list-groups
 
+       o list-mailbox-permissions
+
        o list-organizations
 
        o list-resource-delegates
@@ -86,6 +90,8 @@ AVAILABLE COMMANDS
        o list-resources
 
        o list-users
+
+       o put-mailbox-permissions
 
        o register-to-work-mail
 

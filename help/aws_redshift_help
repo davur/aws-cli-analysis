@@ -33,6 +33,8 @@ DESCRIPTION
        that make up your data warehouse.
 
 AVAILABLE COMMANDS
+       o accept-reserved-node-exchange
+
        o authorize-cluster-security-group-ingress
 
        o authorize-snapshot-access
@@ -79,6 +81,8 @@ AVAILABLE COMMANDS
 
        o delete-tags
 
+       o describe-cluster-db-revisions
+
        o describe-cluster-parameter-groups
 
        o describe-cluster-parameters
@@ -88,6 +92,8 @@ AVAILABLE COMMANDS
        o describe-cluster-snapshots
 
        o describe-cluster-subnet-groups
+
+       o describe-cluster-tracks
 
        o describe-cluster-versions
 
@@ -131,9 +137,13 @@ AVAILABLE COMMANDS
 
        o get-cluster-credentials
 
+       o get-reserved-node-exchange-offerings
+
        o help
 
        o modify-cluster
+
+       o modify-cluster-db-revision
 
        o modify-cluster-iam-roles
 
@@ -150,6 +160,8 @@ AVAILABLE COMMANDS
        o reboot-cluster
 
        o reset-cluster-parameter-group
+
+       o resize-cluster
 
        o restore-from-cluster-snapshot
 

@@ -18,6 +18,10 @@ AVAILABLE COMMANDS
 
        o attach-load-balancers
 
+       o batch-delete-scheduled-action
+
+       o batch-put-scheduled-update-group-action
+
        o complete-lifecycle-action
 
        o create-auto-scaling-group

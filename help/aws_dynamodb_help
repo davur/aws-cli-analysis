@@ -49,6 +49,8 @@ AVAILABLE COMMANDS
 
        o describe-global-table
 
+       o describe-global-table-settings
+
        o describe-limits
 
        o describe-table
@@ -84,6 +86,8 @@ AVAILABLE COMMANDS
        o update-continuous-backups
 
        o update-global-table
+
+       o update-global-table-settings
 
        o update-item
 
