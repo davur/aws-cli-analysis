@@ -21,8 +21,6 @@ DESCRIPTION
        AWS GovCloud (US).
 
 AVAILABLE COMMANDS
-       o allocate-connection-on-interconnect
-
        o allocate-hosted-connection
 
        o allocate-private-virtual-interface
@@ -71,11 +69,7 @@ AVAILABLE COMMANDS
 
        o delete-virtual-interface
 
-       o describe-connection-loa
-
        o describe-connections
-
-       o describe-connections-on-interconnect
 
        o describe-direct-connect-gateway-associations
 
@@ -84,8 +78,6 @@ AVAILABLE COMMANDS
        o describe-direct-connect-gateways
 
        o describe-hosted-connections
-
-       o describe-interconnect-loa
 
        o describe-interconnects
 

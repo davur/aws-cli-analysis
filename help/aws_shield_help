@@ -28,6 +28,8 @@ AVAILABLE COMMANDS
 
        o describe-subscription
 
+       o get-subscription-state
+
        o help
 
        o list-attacks

@@ -93,15 +93,11 @@ AVAILABLE COMMANDS
 
        o describe-configurations
 
-       o describe-export-configurations
-
        o describe-export-tasks
 
        o describe-tags
 
        o disassociate-configuration-items-from-application
-
-       o export-configurations
 
        o get-discovery-summary
 

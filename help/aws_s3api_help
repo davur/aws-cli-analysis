@@ -57,8 +57,6 @@ AVAILABLE COMMANDS
 
        o get-bucket-inventory-configuration
 
-       o get-bucket-lifecycle
-
        o get-bucket-lifecycle-configuration
 
        o get-bucket-location
@@ -66,8 +64,6 @@ AVAILABLE COMMANDS
        o get-bucket-logging
 
        o get-bucket-metrics-configuration
-
-       o get-bucket-notification
 
        o get-bucket-notification-configuration
 
@@ -127,15 +123,11 @@ AVAILABLE COMMANDS
 
        o put-bucket-inventory-configuration
 
-       o put-bucket-lifecycle
-
        o put-bucket-lifecycle-configuration
 
        o put-bucket-logging
 
        o put-bucket-metrics-configuration
-
-       o put-bucket-notification
 
        o put-bucket-notification-configuration
 

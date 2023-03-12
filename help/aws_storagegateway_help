@@ -157,6 +157,8 @@ AVAILABLE COMMANDS
 
        o list-volumes
 
+       o notify-when-uploaded
+
        o refresh-cache
 
        o remove-tags-from-resource
