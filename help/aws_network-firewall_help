@@ -14,7 +14,7 @@ DESCRIPTION
 	 culating signatures, handling request retries,  and  error  handling.
 	 For general information about using the AWS REST APIs, see AWS APIs .
 	 To access Network Firewall using the REST API endpoint:  https://net-
-	 work-firewall.region.amazonaws.com
+	 work-firewall.<region>.amazonaws.com
 
        o Alternatively,  you  can  use	one  of  the AWS SDKs to access an API
 	 that's tailored to the programming language or platform  that	you're
