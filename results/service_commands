@@ -744,6 +744,7 @@ ce update-cost-category-definition
 chime associate-phone-number-with-user
 chime associate-phone-numbers-with-voice-connector
 chime associate-phone-numbers-with-voice-connector-group
+chime associate-signin-delegate-groups-with-account
 chime batch-create-attendee
 chime batch-create-room-membership
 chime batch-delete-phone-number
@@ -758,6 +759,7 @@ chime create-meeting
 chime create-phone-number-order
 chime create-room
 chime create-room-membership
+chime create-user
 chime create-voice-connector
 chime create-voice-connector-group
 chime delete-account
@@ -776,6 +778,7 @@ chime delete-voice-connector-termination-credentials
 chime disassociate-phone-number-from-user
 chime disassociate-phone-numbers-from-voice-connector
 chime disassociate-phone-numbers-from-voice-connector-group
+chime disassociate-signin-delegate-groups-from-account
 chime get-account
 chime get-account-settings
 chime get-attendee
@@ -5559,6 +5562,7 @@ rds generate-db-auth-token
 rds help
 rds import-installation-media
 rds list-tags-for-resource
+rds modify-certificates
 rds modify-current-db-cluster-capacity
 rds modify-db-cluster
 rds modify-db-cluster-endpoint
@@ -7330,6 +7334,7 @@ workspaces disassociate-ip-groups
 workspaces help
 workspaces import-workspace-image
 workspaces list-available-management-cidr-ranges
+workspaces migrate-workspace
 workspaces modify-account
 workspaces modify-client-properties
 workspaces modify-selfservice-permissions

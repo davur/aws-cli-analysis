@@ -229,6 +229,8 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
+       o modify-certificates
+
        o modify-current-db-cluster-capacity
 
        o modify-db-cluster

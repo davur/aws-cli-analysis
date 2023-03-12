@@ -60,6 +60,8 @@ AVAILABLE COMMANDS
 
        o list-available-management-cidr-ranges
 
+       o migrate-workspace
+
        o modify-account
 
        o modify-client-properties
