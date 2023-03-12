@@ -25,11 +25,15 @@ AVAILABLE COMMANDS
 
        o delete-app-instance-user
 
+       o deregister-app-instance-user-endpoint
+
        o describe-app-instance
 
        o describe-app-instance-admin
 
        o describe-app-instance-user
+
+       o describe-app-instance-user-endpoint
 
        o get-app-instance-retention-settings
 
@@ -37,15 +41,27 @@ AVAILABLE COMMANDS
 
        o list-app-instance-admins
 
+       o list-app-instance-user-endpoints
+
        o list-app-instance-users
 
        o list-app-instances
 
+       o list-tags-for-resource
+
        o put-app-instance-retention-settings
+
+       o register-app-instance-user-endpoint
+
+       o tag-resource
+
+       o untag-resource
 
        o update-app-instance
 
        o update-app-instance-user
+
+       o update-app-instance-user-endpoint
 
 
 

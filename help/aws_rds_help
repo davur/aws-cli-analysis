@@ -81,6 +81,8 @@ AVAILABLE COMMANDS
 
        o create-custom-availability-zone
 
+       o create-custom-db-engine-version
+
        o create-db-cluster
 
        o create-db-cluster-endpoint
@@ -112,6 +114,8 @@ AVAILABLE COMMANDS
        o create-option-group
 
        o delete-custom-availability-zone
+
+       o delete-custom-db-engine-version
 
        o delete-db-cluster
 
@@ -244,6 +248,8 @@ AVAILABLE COMMANDS
        o modify-certificates
 
        o modify-current-db-cluster-capacity
+
+       o modify-custom-db-engine-version
 
        o modify-db-cluster
 

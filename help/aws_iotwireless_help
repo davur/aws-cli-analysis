@@ -11,15 +11,27 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o associate-aws-account-with-partner-account
 
+       o associate-multicast-group-with-fuota-task
+
+       o associate-wireless-device-with-fuota-task
+
+       o associate-wireless-device-with-multicast-group
+
        o associate-wireless-device-with-thing
 
        o associate-wireless-gateway-with-certificate
 
        o associate-wireless-gateway-with-thing
 
+       o cancel-multicast-group-session
+
        o create-destination
 
        o create-device-profile
+
+       o create-fuota-task
+
+       o create-multicast-group
 
        o create-service-profile
 
@@ -35,6 +47,10 @@ AVAILABLE COMMANDS
 
        o delete-device-profile
 
+       o delete-fuota-task
+
+       o delete-multicast-group
+
        o delete-service-profile
 
        o delete-wireless-device
@@ -47,6 +63,12 @@ AVAILABLE COMMANDS
 
        o disassociate-aws-account-from-partner-account
 
+       o disassociate-multicast-group-from-fuota-task
+
+       o disassociate-wireless-device-from-fuota-task
+
+       o disassociate-wireless-device-from-multicast-group
+
        o disassociate-wireless-device-from-thing
 
        o disassociate-wireless-gateway-from-certificate
@@ -57,9 +79,17 @@ AVAILABLE COMMANDS
 
        o get-device-profile
 
+       o get-fuota-task
+
        o get-log-levels-by-resource-types
 
+       o get-multicast-group
+
+       o get-multicast-group-session
+
        o get-partner-account
+
+       o get-resource-event-configuration
 
        o get-resource-log-level
 
@@ -89,6 +119,12 @@ AVAILABLE COMMANDS
 
        o list-device-profiles
 
+       o list-fuota-tasks
+
+       o list-multicast-groups
+
+       o list-multicast-groups-by-fuota-task
+
        o list-partner-accounts
 
        o list-service-profiles
@@ -107,7 +143,17 @@ AVAILABLE COMMANDS
 
        o reset-resource-log-level
 
+       o send-data-to-multicast-group
+
        o send-data-to-wireless-device
+
+       o start-bulk-associate-wireless-device-with-multicast-group
+
+       o start-bulk-disassociate-wireless-device-from-multicast-group
+
+       o start-fuota-task
+
+       o start-multicast-group-session
 
        o tag-resource
 
@@ -117,9 +163,15 @@ AVAILABLE COMMANDS
 
        o update-destination
 
+       o update-fuota-task
+
        o update-log-levels-by-resource-types
 
+       o update-multicast-group
+
        o update-partner-account
+
+       o update-resource-event-configuration
 
        o update-wireless-device
 

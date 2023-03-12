@@ -57,6 +57,8 @@ AVAILABLE COMMANDS
 
        o disassociate-channel-flow
 
+       o get-channel-membership-preferences
+
        o get-channel-message
 
        o get-channel-message-status
@@ -84,6 +86,8 @@ AVAILABLE COMMANDS
        o list-channels-moderated-by-app-instance-user
 
        o list-tags-for-resource
+
+       o put-channel-membership-preferences
 
        o redact-channel-message
 

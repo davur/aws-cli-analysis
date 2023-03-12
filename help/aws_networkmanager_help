@@ -7,12 +7,8 @@ NAME
 
 DESCRIPTION
        Transit Gateway Network Manager (Network Manager) enables you to create
-       a global network, in which you can monitor  your  AWS  and  on-premises
-       networks that are built around transit gateways.
-
-       The  Network  Manager APIs are supported in the US West (Oregon) Region
-       only. You must specify the us-west-2 Region in  all  requests  made  to
-       Network Manager.
+       a global network, in which you can monitor your Amazon Web Services and
+       on-premises networks that are built around transit gateways.
 
 AVAILABLE COMMANDS
        o associate-customer-gateway
@@ -61,6 +57,18 @@ AVAILABLE COMMANDS
 
        o get-links
 
+       o get-network-resource-counts
+
+       o get-network-resource-relationships
+
+       o get-network-resources
+
+       o get-network-routes
+
+       o get-network-telemetry
+
+       o get-route-analysis
+
        o get-sites
 
        o get-transit-gateway-connect-peer-associations
@@ -73,6 +81,8 @@ AVAILABLE COMMANDS
 
        o register-transit-gateway
 
+       o start-route-analysis
+
        o tag-resource
 
        o untag-resource
@@ -84,6 +94,8 @@ AVAILABLE COMMANDS
        o update-global-network
 
        o update-link
+
+       o update-network-resource-metadata
 
        o update-site
 

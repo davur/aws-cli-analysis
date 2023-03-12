@@ -40,6 +40,8 @@ AVAILABLE COMMANDS
 
        o create-realtime-log-config
 
+       o create-response-headers-policy
+
        o create-streaming-distribution
 
        o create-streaming-distribution-with-tags
@@ -65,6 +67,8 @@ AVAILABLE COMMANDS
        o delete-public-key
 
        o delete-realtime-log-config
+
+       o delete-response-headers-policy
 
        o delete-streaming-distribution
 
@@ -110,6 +114,10 @@ AVAILABLE COMMANDS
 
        o get-realtime-log-config
 
+       o get-response-headers-policy
+
+       o get-response-headers-policy-config
+
        o get-streaming-distribution
 
        o get-streaming-distribution-config
@@ -132,6 +140,8 @@ AVAILABLE COMMANDS
 
        o list-distributions-by-realtime-log-config
 
+       o list-distributions-by-response-headers-policy-id
+
        o list-distributions-by-web-acl-id
 
        o list-field-level-encryption-configs
@@ -149,6 +159,8 @@ AVAILABLE COMMANDS
        o list-public-keys
 
        o list-realtime-log-configs
+
+       o list-response-headers-policies
 
        o list-streaming-distributions
 
@@ -183,6 +195,8 @@ AVAILABLE COMMANDS
        o update-public-key
 
        o update-realtime-log-config
+
+       o update-response-headers-policy
 
        o update-streaming-distribution
 

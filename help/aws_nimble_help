@@ -6,6 +6,14 @@ NAME
        nimble -
 
 DESCRIPTION
+       Welcome	to  the Amazon Nimble Studio API reference. This API reference
+       provides methods, schema, resources, parameters, and more to  help  you
+       get the most out of Nimble Studio.
+
+       Nimble  Studio is a virtual studio that empowers visual effects, anima-
+       tion, and interactive content teams to create content securely within a
+       scalable, private cloud service.
+
 AVAILABLE COMMANDS
        o accept-eulas
 
@@ -83,7 +91,11 @@ AVAILABLE COMMANDS
 
        o put-studio-members
 
+       o start-streaming-session
+
        o start-studio-sso-configuration-repair
+
+       o stop-streaming-session
 
        o tag-resource
 
@@ -98,6 +110,8 @@ AVAILABLE COMMANDS
        o update-studio
 
        o update-studio-component
+
+       o wait
 
 
 

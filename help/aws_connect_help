@@ -19,9 +19,9 @@ DESCRIPTION
        make  per second. For more information, see Amazon Connect Service Quo-
        tas in the Amazon Connect Administrator Guide .
 
-       You can connect programmatically to an AWS service  by  using  an  end-
-       point.  For a list of Amazon Connect endpoints, see Amazon Connect End-
-       points .
+       You can connect programmatically to an Amazon Web Services  service  by
+       using  an  endpoint. For a list of Amazon Connect endpoints, see Amazon
+       Connect Endpoints .
 
        NOTE:
 	  Working with contact flows? Check out the Amazon Connect  Flow  lan-
@@ -60,6 +60,8 @@ AVAILABLE COMMANDS
 
        o create-routing-profile
 
+       o create-security-profile
+
        o create-use-case
 
        o create-user
@@ -73,6 +75,8 @@ AVAILABLE COMMANDS
        o delete-integration-association
 
        o delete-quick-connect
+
+       o delete-security-profile
 
        o delete-use-case
 
@@ -97,6 +101,8 @@ AVAILABLE COMMANDS
        o describe-quick-connect
 
        o describe-routing-profile
+
+       o describe-security-profile
 
        o describe-user
 
@@ -168,6 +174,8 @@ AVAILABLE COMMANDS
 
        o list-security-keys
 
+       o list-security-profile-permissions
+
        o list-security-profiles
 
        o list-tags-for-resource
@@ -184,6 +192,8 @@ AVAILABLE COMMANDS
 
        o start-contact-recording
 
+       o start-contact-streaming
+
        o start-outbound-voice-contact
 
        o start-task-contact
@@ -191,6 +201,8 @@ AVAILABLE COMMANDS
        o stop-contact
 
        o stop-contact-recording
+
+       o stop-contact-streaming
 
        o suspend-contact-recording
 
@@ -233,6 +245,8 @@ AVAILABLE COMMANDS
        o update-routing-profile-name
 
        o update-routing-profile-queues
+
+       o update-security-profile
 
        o update-user-hierarchy
 
