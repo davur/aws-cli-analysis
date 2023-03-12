@@ -2,7 +2,7 @@ name: Python package
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         python-version: ["2.7"]
@@ -26,9 +26,10 @@ jobs:
       - name: Git status
         run: |
           git status
-      - name: Print versions
+      - name: Get help
         run: |
           ./hack/get-help.sh
-      - name: Git status
+      - name: Show changes
         run: |
           git status
+          git diff --ignore-all-space
