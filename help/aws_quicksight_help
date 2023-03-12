@@ -15,6 +15,10 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o cancel-ingestion
 
+       o create-account-customization
+
+       o create-analysis
+
        o create-dashboard
 
        o create-data-set
@@ -29,9 +33,19 @@ AVAILABLE COMMANDS
 
        o create-ingestion
 
+       o create-namespace
+
        o create-template
 
        o create-template-alias
+
+       o create-theme
+
+       o create-theme-alias
+
+       o delete-account-customization
+
+       o delete-analysis
 
        o delete-dashboard
 
@@ -45,13 +59,27 @@ AVAILABLE COMMANDS
 
        o delete-iam-policy-assignment
 
+       o delete-namespace
+
        o delete-template
 
        o delete-template-alias
 
+       o delete-theme
+
+       o delete-theme-alias
+
        o delete-user
 
        o delete-user-by-principal-id
+
+       o describe-account-customization
+
+       o describe-account-settings
+
+       o describe-analysis
+
+       o describe-analysis-permissions
 
        o describe-dashboard
 
@@ -71,17 +99,29 @@ AVAILABLE COMMANDS
 
        o describe-ingestion
 
+       o describe-namespace
+
        o describe-template
 
        o describe-template-alias
 
        o describe-template-permissions
 
+       o describe-theme
+
+       o describe-theme-alias
+
+       o describe-theme-permissions
+
        o describe-user
 
        o get-dashboard-embed-url
 
+       o get-session-embed-url
+
        o help
+
+       o list-analyses
 
        o list-dashboard-versions
 
@@ -101,6 +141,8 @@ AVAILABLE COMMANDS
 
        o list-ingestions
 
+       o list-namespaces
+
        o list-tags-for-resource
 
        o list-template-aliases
@@ -109,15 +151,35 @@ AVAILABLE COMMANDS
 
        o list-templates
 
+       o list-theme-aliases
+
+       o list-theme-versions
+
+       o list-themes
+
        o list-user-groups
 
        o list-users
 
        o register-user
 
+       o restore-analysis
+
+       o search-analyses
+
+       o search-dashboards
+
        o tag-resource
 
        o untag-resource
+
+       o update-account-customization
+
+       o update-account-settings
+
+       o update-analysis
+
+       o update-analysis-permissions
 
        o update-dashboard
 
@@ -142,6 +204,12 @@ AVAILABLE COMMANDS
        o update-template-alias
 
        o update-template-permissions
+
+       o update-theme
+
+       o update-theme-alias
+
+       o update-theme-permissions
 
        o update-user
 

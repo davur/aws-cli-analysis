@@ -10,6 +10,10 @@ DESCRIPTION
        related operations.
 
 AVAILABLE COMMANDS
+       o accept-domain-transfer-from-another-aws-account
+
+       o cancel-domain-transfer-to-another-aws-account
+
        o check-domain-availability
 
        o check-domain-transferability
@@ -42,6 +46,8 @@ AVAILABLE COMMANDS
 
        o register-domain
 
+       o reject-domain-transfer-from-another-aws-account
+
        o renew-domain
 
        o resend-contact-reachability-email
@@ -49,6 +55,8 @@ AVAILABLE COMMANDS
        o retrieve-domain-auth-code
 
        o transfer-domain
+
+       o transfer-domain-to-another-aws-account
 
        o update-domain-contact
 

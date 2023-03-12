@@ -14,9 +14,16 @@ DESCRIPTION
        ated with each device (Registry), configure  logging,  and  create  and
        manage policies and credentials to authenticate devices.
 
+       The  service  endpoints that expose this API are listed in AWS IoT Core
+       Endpoints and Quotas . You must use the endpoint for  the  region  that
+       has the resources you want to access.
+
+       The  service  name  used by AWS Signature Version 4 to sign the request
+       is: execute-api .
+
        For more information about how AWS IoT works, see the Developer Guide .
 
-       For  information about how to use the credentials provider for AWS IoT,
+       For information about how to use the credentials provider for AWS  IoT,
        see Authorizing Direct Calls to AWS Services .
 
 AVAILABLE COMMANDS
@@ -40,6 +47,8 @@ AVAILABLE COMMANDS
 
        o cancel-certificate-transfer
 
+       o cancel-detect-mitigation-actions-task
+
        o cancel-job
 
        o cancel-job-execution
@@ -48,11 +57,17 @@ AVAILABLE COMMANDS
 
        o confirm-topic-rule-destination
 
+       o create-audit-suppression
+
        o create-authorizer
 
        o create-billing-group
 
        o create-certificate-from-csr
+
+       o create-custom-metric
+
+       o create-dimension
 
        o create-domain-configuration
 
@@ -96,6 +111,8 @@ AVAILABLE COMMANDS
 
        o delete-account-audit-configuration
 
+       o delete-audit-suppression
+
        o delete-authorizer
 
        o delete-billing-group
@@ -103,6 +120,10 @@ AVAILABLE COMMANDS
        o delete-ca-certificate
 
        o delete-certificate
+
+       o delete-custom-metric
+
+       o delete-dimension
 
        o delete-domain-configuration
 
@@ -154,6 +175,8 @@ AVAILABLE COMMANDS
 
        o describe-audit-mitigation-actions-task
 
+       o describe-audit-suppression
+
        o describe-audit-task
 
        o describe-authorizer
@@ -164,7 +187,13 @@ AVAILABLE COMMANDS
 
        o describe-certificate
 
+       o describe-custom-metric
+
        o describe-default-authorizer
+
+       o describe-detect-mitigation-actions-task
+
+       o describe-dimension
 
        o describe-domain-configuration
 
@@ -210,6 +239,8 @@ AVAILABLE COMMANDS
 
        o enable-topic-rule
 
+       o get-behavior-model-training-summaries
+
        o get-cardinality
 
        o get-effective-policies
@@ -250,6 +281,8 @@ AVAILABLE COMMANDS
 
        o list-audit-mitigation-actions-tasks
 
+       o list-audit-suppressions
+
        o list-audit-tasks
 
        o list-authorizers
@@ -261,6 +294,14 @@ AVAILABLE COMMANDS
        o list-certificates
 
        o list-certificates-by-ca
+
+       o list-custom-metrics
+
+       o list-detect-mitigation-actions-executions
+
+       o list-detect-mitigation-actions-tasks
+
+       o list-dimensions
 
        o list-domain-configurations
 
@@ -334,6 +375,8 @@ AVAILABLE COMMANDS
 
        o register-certificate
 
+       o register-certificate-without-ca
+
        o register-thing
 
        o reject-certificate-transfer
@@ -358,6 +401,8 @@ AVAILABLE COMMANDS
 
        o start-audit-mitigation-actions-task
 
+       o start-detect-mitigation-actions-task
+
        o start-on-demand-audit-task
 
        o start-thing-registration-task
@@ -376,6 +421,8 @@ AVAILABLE COMMANDS
 
        o update-account-audit-configuration
 
+       o update-audit-suppression
+
        o update-authorizer
 
        o update-billing-group
@@ -383,6 +430,10 @@ AVAILABLE COMMANDS
        o update-ca-certificate
 
        o update-certificate
+
+       o update-custom-metric
+
+       o update-dimension
 
        o update-domain-configuration
 

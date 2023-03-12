@@ -123,6 +123,8 @@ AVAILABLE COMMANDS
 
        o get-subscription-definition-version
 
+       o get-thing-runtime-configuration
+
        o help
 
        o list-bulk-deployment-detailed-reports
@@ -196,6 +198,8 @@ AVAILABLE COMMANDS
        o update-resource-definition
 
        o update-subscription-definition
+
+       o update-thing-runtime-configuration
 
 
 

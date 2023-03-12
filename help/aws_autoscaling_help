@@ -26,6 +26,8 @@ AVAILABLE COMMANDS
 
        o batch-put-scheduled-update-group-action
 
+       o cancel-instance-refresh
+
        o complete-lifecycle-action
 
        o create-auto-scaling-group
@@ -57,6 +59,8 @@ AVAILABLE COMMANDS
        o describe-auto-scaling-instances
 
        o describe-auto-scaling-notification-types
+
+       o describe-instance-refreshes
 
        o describe-launch-configurations
 
@@ -119,6 +123,8 @@ AVAILABLE COMMANDS
        o set-instance-health
 
        o set-instance-protection
+
+       o start-instance-refresh
 
        o suspend-processes
 

@@ -9,6 +9,8 @@ DESCRIPTION
        AWS Elemental MediaPackage
 
 AVAILABLE COMMANDS
+       o configure-logs
+
        o create-channel
 
        o create-harvest-job

@@ -10,15 +10,23 @@ DESCRIPTION
        same set of languages.
 
 AVAILABLE COMMANDS
+       o create-parallel-data
+
+       o delete-parallel-data
+
        o delete-terminology
 
        o describe-text-translation-job
+
+       o get-parallel-data
 
        o get-terminology
 
        o help
 
        o import-terminology
+
+       o list-parallel-data
 
        o list-terminologies
 
@@ -29,6 +37,8 @@ AVAILABLE COMMANDS
        o stop-text-translation-job
 
        o translate-text
+
+       o update-parallel-data
 
 
 

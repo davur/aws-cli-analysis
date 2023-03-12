@@ -45,6 +45,8 @@ AVAILABLE COMMANDS
 
        o create-db-cluster
 
+       o create-db-cluster-endpoint
+
        o create-db-cluster-parameter-group
 
        o create-db-cluster-snapshot
@@ -59,6 +61,8 @@ AVAILABLE COMMANDS
 
        o delete-db-cluster
 
+       o delete-db-cluster-endpoint
+
        o delete-db-cluster-parameter-group
 
        o delete-db-cluster-snapshot
@@ -70,6 +74,8 @@ AVAILABLE COMMANDS
        o delete-db-subnet-group
 
        o delete-event-subscription
+
+       o describe-db-cluster-endpoints
 
        o describe-db-cluster-parameter-groups
 
@@ -114,6 +120,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o modify-db-cluster
+
+       o modify-db-cluster-endpoint
 
        o modify-db-cluster-parameter-group
 

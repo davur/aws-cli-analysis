@@ -26,6 +26,14 @@ AVAILABLE COMMANDS
 
        o get-groups
 
+       o get-insight
+
+       o get-insight-events
+
+       o get-insight-impact-graph
+
+       o get-insight-summaries
+
        o get-sampling-rules
 
        o get-sampling-statistic-summaries
@@ -42,11 +50,17 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-tags-for-resource
+
        o put-encryption-config
 
        o put-telemetry-records
 
        o put-trace-segments
+
+       o tag-resource
+
+       o untag-resource
 
        o update-group
 

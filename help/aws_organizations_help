@@ -31,6 +31,8 @@ AVAILABLE COMMANDS
 
        o delete-policy
 
+       o deregister-delegated-administrator
+
        o describe-account
 
        o describe-create-account-status
@@ -73,6 +75,10 @@ AVAILABLE COMMANDS
 
        o list-create-account-status
 
+       o list-delegated-administrators
+
+       o list-delegated-services-for-account
+
        o list-handshakes-for-account
 
        o list-handshakes-for-organization
@@ -92,6 +98,8 @@ AVAILABLE COMMANDS
        o list-targets-for-policy
 
        o move-account
+
+       o register-delegated-administrator
 
        o remove-account-from-organization
 

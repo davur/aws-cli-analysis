@@ -59,6 +59,8 @@ AVAILABLE COMMANDS
 
        o delete-retention-configuration
 
+       o delete-stored-query
+
        o deliver-config-snapshot
 
        o describe-aggregate-compliance-by-config-rules
@@ -139,11 +141,15 @@ AVAILABLE COMMANDS
 
        o get-status
 
+       o get-stored-query
+
        o help
 
        o list-aggregate-discovered-resources
 
        o list-discovered-resources
+
+       o list-stored-queries
 
        o list-tags-for-resource
 
@@ -161,6 +167,8 @@ AVAILABLE COMMANDS
 
        o put-evaluations
 
+       o put-external-evaluation
+
        o put-organization-config-rule
 
        o put-organization-conformance-pack
@@ -172,6 +180,10 @@ AVAILABLE COMMANDS
        o put-resource-config
 
        o put-retention-configuration
+
+       o put-stored-query
+
+       o select-aggregate-resource-config
 
        o select-resource-config
 

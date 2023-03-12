@@ -11,6 +11,10 @@ DESCRIPTION
 
        AWS Marketplace sellers can use this API to submit usage data for  cus-
        tom usage dimensions.
+
+       For  information  on  the permissions you need to use this API, see AWS
+       Marketing metering and entitlement API permissions in the  AWS  Market-
+       place Seller Guide.
 	  Submitting Metering Records
 
        o MeterUsage  -	Submits the metering record for a Marketplace product.

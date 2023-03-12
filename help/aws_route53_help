@@ -10,6 +10,8 @@ DESCRIPTION
        (DNS) web service.
 
 AVAILABLE COMMANDS
+       o activate-key-signing-key
+
        o associate-vpc-with-hosted-zone
 
        o change-resource-record-sets
@@ -19,6 +21,8 @@ AVAILABLE COMMANDS
        o create-health-check
 
        o create-hosted-zone
+
+       o create-key-signing-key
 
        o create-query-logging-config
 
@@ -32,9 +36,13 @@ AVAILABLE COMMANDS
 
        o create-vpc-association-authorization
 
+       o deactivate-key-signing-key
+
        o delete-health-check
 
        o delete-hosted-zone
+
+       o delete-key-signing-key
 
        o delete-query-logging-config
 
@@ -46,13 +54,19 @@ AVAILABLE COMMANDS
 
        o delete-vpc-association-authorization
 
+       o disable-hosted-zone-dnssec
+
        o disassociate-vpc-from-hosted-zone
+
+       o enable-hosted-zone-dnssec
 
        o get-account-limit
 
        o get-change
 
        o get-checker-ip-ranges
+
+       o get-dnssec
 
        o get-geo-location
 
@@ -91,6 +105,8 @@ AVAILABLE COMMANDS
        o list-hosted-zones
 
        o list-hosted-zones-by-name
+
+       o list-hosted-zones-by-vpc
 
        o list-query-logging-configs
 

@@ -6,20 +6,10 @@ NAME
        service-quotas -
 
 DESCRIPTION
-       Service Quotas is a web service that you can use to manage many of your
-       AWS service quotas. Quotas, also referred to as limits, are the maximum
-       values  for a resource, item, or operation. This guide provide descrip-
-       tions of the Service Quotas actions that you can call from an API.  For
-       the Service Quotas user guide, which explains how to use Service Quotas
-       from the console, see What is Service Quotas .
-
-       NOTE:
-	  AWS provides SDKs that consist of libraries and sample code for pro-
-	  gramming  languages  and  platforms (Java, Ruby, .NET, iOS, Android,
-	  etc...,). The SDKs provide a convenient way to  create  programmatic
-	  access  to  Service  Quotas  and  AWS. For information about the AWS
-	  SDKs, including how to download and install them, see the Tools  for
-	  Amazon Web Services page.
+       With Service Quotas, you can view and manage your quotas easily as your
+       AWS workloads grow. Quotas, also referred to as limits, are the maximum
+       number  of  resources that you can create in your AWS account. For more
+       information, see the Service Quotas User Guide .
 
 AVAILABLE COMMANDS
        o associate-service-quota-template
@@ -52,9 +42,15 @@ AVAILABLE COMMANDS
 
        o list-services
 
+       o list-tags-for-resource
+
        o put-service-quota-increase-request-into-template
 
        o request-service-quota-increase
+
+       o tag-resource
+
+       o untag-resource
 
 
 

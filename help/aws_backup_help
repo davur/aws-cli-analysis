@@ -36,9 +36,13 @@ AVAILABLE COMMANDS
 
        o describe-copy-job
 
+       o describe-global-settings
+
        o describe-protected-resource
 
        o describe-recovery-point
+
+       o describe-region-settings
 
        o describe-restore-job
 
@@ -104,7 +108,11 @@ AVAILABLE COMMANDS
 
        o update-backup-plan
 
+       o update-global-settings
+
        o update-recovery-point-lifecycle
+
+       o update-region-settings
 
 
 

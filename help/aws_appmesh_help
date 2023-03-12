@@ -24,9 +24,13 @@ DESCRIPTION
 	  in the Kubernetes documentation.
 
 AVAILABLE COMMANDS
+       o create-gateway-route
+
        o create-mesh
 
        o create-route
+
+       o create-virtual-gateway
 
        o create-virtual-node
 
@@ -34,9 +38,13 @@ AVAILABLE COMMANDS
 
        o create-virtual-service
 
+       o delete-gateway-route
+
        o delete-mesh
 
        o delete-route
+
+       o delete-virtual-gateway
 
        o delete-virtual-node
 
@@ -44,9 +52,13 @@ AVAILABLE COMMANDS
 
        o delete-virtual-service
 
+       o describe-gateway-route
+
        o describe-mesh
 
        o describe-route
+
+       o describe-virtual-gateway
 
        o describe-virtual-node
 
@@ -56,11 +68,15 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-gateway-routes
+
        o list-meshes
 
        o list-routes
 
        o list-tags-for-resource
+
+       o list-virtual-gateways
 
        o list-virtual-nodes
 
@@ -72,9 +88,13 @@ AVAILABLE COMMANDS
 
        o untag-resource
 
+       o update-gateway-route
+
        o update-mesh
 
        o update-route
+
+       o update-virtual-gateway
 
        o update-virtual-node
 

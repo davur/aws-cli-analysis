@@ -25,6 +25,8 @@ AVAILABLE COMMANDS
 
        o create-location-nfs
 
+       o create-location-object-storage
+
        o create-location-s3
 
        o create-location-smb
@@ -44,6 +46,8 @@ AVAILABLE COMMANDS
        o describe-location-fsx-windows
 
        o describe-location-nfs
+
+       o describe-location-object-storage
 
        o describe-location-s3
 
@@ -74,6 +78,8 @@ AVAILABLE COMMANDS
        o update-agent
 
        o update-task
+
+       o update-task-execution
 
 
 

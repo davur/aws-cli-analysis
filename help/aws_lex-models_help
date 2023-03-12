@@ -75,6 +75,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-tags-for-resource
+
        o put-bot
 
        o put-bot-alias
@@ -84,6 +86,10 @@ AVAILABLE COMMANDS
        o put-slot-type
 
        o start-import
+
+       o tag-resource
+
+       o untag-resource
 
 
 

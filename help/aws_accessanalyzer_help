@@ -13,12 +13,14 @@ DESCRIPTION
        can  be another AWS account, a root user, an IAM user or role, a feder-
        ated user, an AWS service, or an anonymous user. This  guide  describes
        the  AWS  IAM Access Analyzer operations that you can call programmati-
-       cally. For general information about Access Analyzer, see the  AWS  IAM
-       Access Analyzer section of the IAM User Guide .
+       cally. For general information about Access Analyzer, see AWS  IAM  Ac-
+       cess Analyzer in the IAM User Guide .
 
        To start using Access Analyzer, you first need to create an analyzer.
 
 AVAILABLE COMMANDS
+       o apply-archive-rule
+
        o create-analyzer
 
        o create-archive-rule

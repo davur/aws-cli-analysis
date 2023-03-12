@@ -40,9 +40,17 @@ AVAILABLE COMMANDS
 
        o create-cache-subnet-group
 
+       o create-global-replication-group
+
        o create-replication-group
 
        o create-snapshot
+
+       o create-user
+
+       o create-user-group
+
+       o decrease-node-groups-in-global-replication-group
 
        o decrease-replica-count
 
@@ -54,9 +62,15 @@ AVAILABLE COMMANDS
 
        o delete-cache-subnet-group
 
+       o delete-global-replication-group
+
        o delete-replication-group
 
        o delete-snapshot
+
+       o delete-user
+
+       o delete-user-group
 
        o describe-cache-clusters
 
@@ -74,6 +88,8 @@ AVAILABLE COMMANDS
 
        o describe-events
 
+       o describe-global-replication-groups
+
        o describe-replication-groups
 
        o describe-reserved-cache-nodes
@@ -86,7 +102,17 @@ AVAILABLE COMMANDS
 
        o describe-update-actions
 
+       o describe-user-groups
+
+       o describe-users
+
+       o disassociate-global-replication-group
+
+       o failover-global-replication-group
+
        o help
+
+       o increase-node-groups-in-global-replication-group
 
        o increase-replica-count
 
@@ -100,11 +126,19 @@ AVAILABLE COMMANDS
 
        o modify-cache-subnet-group
 
+       o modify-global-replication-group
+
        o modify-replication-group
 
        o modify-replication-group-shard-configuration
 
+       o modify-user
+
+       o modify-user-group
+
        o purchase-reserved-cache-nodes-offering
+
+       o rebalance-slots-in-global-replication-group
 
        o reboot-cache-cluster
 

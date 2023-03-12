@@ -9,7 +9,17 @@ DESCRIPTION
        API for AWS Elemental MediaLive
 
 AVAILABLE COMMANDS
+       o accept-input-device-transfer
+
+       o batch-delete
+
+       o batch-start
+
+       o batch-stop
+
        o batch-update-schedule
+
+       o cancel-input-device-transfer
 
        o create-channel
 
@@ -43,6 +53,10 @@ AVAILABLE COMMANDS
 
        o describe-input
 
+       o describe-input-device
+
+       o describe-input-device-thumbnail
+
        o describe-input-security-group
 
        o describe-multiplex
@@ -58,6 +72,10 @@ AVAILABLE COMMANDS
        o help
 
        o list-channels
+
+       o list-input-device-transfers
+
+       o list-input-devices
 
        o list-input-security-groups
 
@@ -75,6 +93,8 @@ AVAILABLE COMMANDS
 
        o purchase-offering
 
+       o reject-input-device-transfer
+
        o start-channel
 
        o start-multiplex
@@ -83,11 +103,15 @@ AVAILABLE COMMANDS
 
        o stop-multiplex
 
+       o transfer-input-device
+
        o update-channel
 
        o update-channel-class
 
        o update-input
+
+       o update-input-device
 
        o update-input-security-group
 

@@ -24,6 +24,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
 
+       o accept-transit-gateway-multicast-domain-associations
+
        o accept-transit-gateway-peering-attachment
 
        o accept-transit-gateway-vpc-attachment
@@ -49,6 +51,8 @@ AVAILABLE COMMANDS
        o associate-client-vpn-target-network
 
        o associate-dhcp-options
+
+       o associate-enclave-certificate-iam-role
 
        o associate-iam-instance-profile
 
@@ -106,6 +110,8 @@ AVAILABLE COMMANDS
 
        o create-capacity-reservation
 
+       o create-carrier-gateway
+
        o create-client-vpn-endpoint
 
        o create-client-vpn-route
@@ -142,11 +148,15 @@ AVAILABLE COMMANDS
 
        o create-local-gateway-route-table-vpc-association
 
+       o create-managed-prefix-list
+
        o create-nat-gateway
 
        o create-network-acl
 
        o create-network-acl-entry
+
+       o create-network-insights-path
 
        o create-network-interface
 
@@ -182,9 +192,15 @@ AVAILABLE COMMANDS
 
        o create-transit-gateway
 
+       o create-transit-gateway-connect
+
+       o create-transit-gateway-connect-peer
+
        o create-transit-gateway-multicast-domain
 
        o create-transit-gateway-peering-attachment
+
+       o create-transit-gateway-prefix-list-reference
 
        o create-transit-gateway-route
 
@@ -209,6 +225,8 @@ AVAILABLE COMMANDS
        o create-vpn-connection-route
 
        o create-vpn-gateway
+
+       o delete-carrier-gateway
 
        o delete-client-vpn-endpoint
 
@@ -238,11 +256,17 @@ AVAILABLE COMMANDS
 
        o delete-local-gateway-route-table-vpc-association
 
+       o delete-managed-prefix-list
+
        o delete-nat-gateway
 
        o delete-network-acl
 
        o delete-network-acl-entry
+
+       o delete-network-insights-analysis
+
+       o delete-network-insights-path
 
        o delete-network-interface
 
@@ -276,9 +300,15 @@ AVAILABLE COMMANDS
 
        o delete-transit-gateway
 
+       o delete-transit-gateway-connect
+
+       o delete-transit-gateway-connect-peer
+
        o delete-transit-gateway-multicast-domain
 
        o delete-transit-gateway-peering-attachment
+
+       o delete-transit-gateway-prefix-list-reference
 
        o delete-transit-gateway-route
 
@@ -308,6 +338,8 @@ AVAILABLE COMMANDS
 
        o deregister-image
 
+       o deregister-instance-event-notification-attributes
+
        o deregister-transit-gateway-multicast-group-members
 
        o deregister-transit-gateway-multicast-group-sources
@@ -325,6 +357,8 @@ AVAILABLE COMMANDS
        o describe-byoip-cidrs
 
        o describe-capacity-reservations
+
+       o describe-carrier-gateways
 
        o describe-classic-link-instances
 
@@ -392,6 +426,8 @@ AVAILABLE COMMANDS
 
        o describe-instance-credit-specifications
 
+       o describe-instance-event-notification-attributes
+
        o describe-instance-status
 
        o describe-instance-type-offerings
@@ -423,11 +459,17 @@ AVAILABLE COMMANDS
 
        o describe-local-gateways
 
+       o describe-managed-prefix-lists
+
        o describe-moving-addresses
 
        o describe-nat-gateways
 
        o describe-network-acls
+
+       o describe-network-insights-analyses
+
+       o describe-network-insights-paths
 
        o describe-network-interface-attribute
 
@@ -492,6 +534,10 @@ AVAILABLE COMMANDS
        o describe-traffic-mirror-targets
 
        o describe-transit-gateway-attachments
+
+       o describe-transit-gateway-connect-peers
+
+       o describe-transit-gateway-connects
 
        o describe-transit-gateway-multicast-domains
 
@@ -563,6 +609,8 @@ AVAILABLE COMMANDS
 
        o disassociate-client-vpn-target-network
 
+       o disassociate-enclave-certificate-iam-role
+
        o disassociate-iam-instance-profile
 
        o disassociate-route-table
@@ -597,6 +645,8 @@ AVAILABLE COMMANDS
 
        o export-transit-gateway-routes
 
+       o get-associated-enclave-certificate-iam-roles
+
        o get-associated-ipv6-pool-cidrs
 
        o get-capacity-reservation-usage
@@ -613,9 +663,15 @@ AVAILABLE COMMANDS
 
        o get-ebs-encryption-by-default
 
+       o get-groups-for-capacity-reservation
+
        o get-host-reservation-purchase-preview
 
        o get-launch-template-data
+
+       o get-managed-prefix-list-associations
+
+       o get-managed-prefix-list-entries
 
        o get-password-data
 
@@ -624,6 +680,8 @@ AVAILABLE COMMANDS
        o get-transit-gateway-attachment-propagations
 
        o get-transit-gateway-multicast-domain-associations
+
+       o get-transit-gateway-prefix-list-references
 
        o get-transit-gateway-route-table-associations
 
@@ -638,6 +696,8 @@ AVAILABLE COMMANDS
        o import-key-pair
 
        o import-snapshot
+
+       o modify-availability-zone-group
 
        o modify-capacity-reservation
 
@@ -673,6 +733,8 @@ AVAILABLE COMMANDS
 
        o modify-launch-template
 
+       o modify-managed-prefix-list
+
        o modify-network-interface-attribute
 
        o modify-reserved-instances
@@ -688,6 +750,10 @@ AVAILABLE COMMANDS
        o modify-traffic-mirror-filter-rule
 
        o modify-traffic-mirror-session
+
+       o modify-transit-gateway
+
+       o modify-transit-gateway-prefix-list-reference
 
        o modify-transit-gateway-vpc-attachment
 
@@ -711,6 +777,8 @@ AVAILABLE COMMANDS
 
        o modify-vpn-connection
 
+       o modify-vpn-connection-options
+
        o modify-vpn-tunnel-certificate
 
        o modify-vpn-tunnel-options
@@ -731,9 +799,13 @@ AVAILABLE COMMANDS
 
        o register-image
 
+       o register-instance-event-notification-attributes
+
        o register-transit-gateway-multicast-group-members
 
        o register-transit-gateway-multicast-group-sources
+
+       o reject-transit-gateway-multicast-domain-associations
 
        o reject-transit-gateway-peering-attachment
 
@@ -779,6 +851,8 @@ AVAILABLE COMMANDS
 
        o restore-address-to-classic
 
+       o restore-managed-prefix-list-version
+
        o revoke-client-vpn-ingress
 
        o revoke-security-group-egress
@@ -798,6 +872,8 @@ AVAILABLE COMMANDS
        o send-diagnostic-interrupt
 
        o start-instances
+
+       o start-network-insights-analysis
 
        o start-vpc-endpoint-service-private-dns-verification
 

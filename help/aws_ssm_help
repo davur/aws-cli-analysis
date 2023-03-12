@@ -12,19 +12,20 @@ DESCRIPTION
        chine Images (AMIs), and configuring operating systems (OSs) and appli-
        cations at scale. Systems Manager lets you remotely and securely manage
        the configuration of your managed instances. A managed instance is  any
-       Amazon  EC2  instance or on-premises machine in your hybrid environment
+       Amazon	Elastic   Compute   Cloud  instance  (EC2  instance),  or  any
+       on-premises server or virtual machine (VM) in your  hybrid  environment
        that has been configured for Systems Manager.
 
        This reference is intended to be used with the AWS Systems Manager User
        Guide .
 
-       To  get	started, verify prerequisites and configure managed instances.
-       For more information, see Setting Up AWS Systems  Manager  in  the  AWS
+       To get started, verify prerequisites and configure  managed  instances.
+       For  more  information,	see  Setting up AWS Systems Manager in the AWS
        Systems Manager User Guide .
 
-       For  information  about other API actions you can perform on Amazon EC2
-       instances, see the Amazon EC2 API Reference . For information about how
-       to use a Query API, see Making API Requests .
+       For information about other API actions you  can  perform  on  EC2  in-
+       stances,  see  the Amazon EC2 API Reference . For information about how
+       to use a Query API, see Making API requests .
 
 AVAILABLE COMMANDS
        o add-tags-to-resource
@@ -45,6 +46,8 @@ AVAILABLE COMMANDS
 
        o create-ops-item
 
+       o create-ops-metadata
+
        o create-patch-baseline
 
        o create-resource-data-sync
@@ -58,6 +61,8 @@ AVAILABLE COMMANDS
        o delete-inventory
 
        o delete-maintenance-window
+
+       o delete-ops-metadata
 
        o delete-parameter
 
@@ -169,6 +174,8 @@ AVAILABLE COMMANDS
 
        o get-ops-item
 
+       o get-ops-metadata
+
        o get-ops-summary
 
        o get-parameter
@@ -201,11 +208,17 @@ AVAILABLE COMMANDS
 
        o list-compliance-summaries
 
+       o list-document-metadata-history
+
        o list-document-versions
 
        o list-documents
 
        o list-inventory-entries
+
+       o list-ops-item-events
+
+       o list-ops-metadata
 
        o list-resource-compliance-summaries
 
@@ -243,6 +256,8 @@ AVAILABLE COMMANDS
 
        o start-automation-execution
 
+       o start-change-request-execution
+
        o start-session
 
        o stop-automation-execution
@@ -257,6 +272,8 @@ AVAILABLE COMMANDS
 
        o update-document-default-version
 
+       o update-document-metadata
+
        o update-maintenance-window
 
        o update-maintenance-window-target
@@ -267,11 +284,15 @@ AVAILABLE COMMANDS
 
        o update-ops-item
 
+       o update-ops-metadata
+
        o update-patch-baseline
 
        o update-resource-data-sync
 
        o update-service-setting
+
+       o wait
 
 
 

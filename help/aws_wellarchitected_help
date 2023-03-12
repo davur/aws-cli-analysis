@@ -1,0 +1,76 @@
+WELLARCHITECTED()					     WELLARCHITECTED()
+
+
+
+NAME
+       wellarchitected -
+
+DESCRIPTION
+       This  is the AWS Well-Architected Tool API Reference . The AWS Well-Ar-
+       chitected Tool API provides programmatic access to the AWS  Well-Archi-
+       tected  Tool  in the AWS Management Console . For information about the
+       AWS Well-Architected Tool, see the AWS Well-Architected Tool User Guide
+       .
+
+AVAILABLE COMMANDS
+       o associate-lenses
+
+       o create-milestone
+
+       o create-workload
+
+       o create-workload-share
+
+       o delete-workload
+
+       o delete-workload-share
+
+       o disassociate-lenses
+
+       o get-answer
+
+       o get-lens-review
+
+       o get-lens-review-report
+
+       o get-lens-version-difference
+
+       o get-milestone
+
+       o get-workload
+
+       o help
+
+       o list-answers
+
+       o list-lens-review-improvements
+
+       o list-lens-reviews
+
+       o list-lenses
+
+       o list-milestones
+
+       o list-notifications
+
+       o list-share-invitations
+
+       o list-workload-shares
+
+       o list-workloads
+
+       o update-answer
+
+       o update-lens-review
+
+       o update-share-invitation
+
+       o update-workload
+
+       o update-workload-share
+
+       o upgrade-lens-review
+
+
+
+							     WELLARCHITECTED()

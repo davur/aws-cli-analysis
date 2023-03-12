@@ -20,15 +20,21 @@ AVAILABLE COMMANDS
 
        o create-alias
 
+       o create-code-signing-config
+
        o create-event-source-mapping
 
        o create-function
 
        o delete-alias
 
+       o delete-code-signing-config
+
        o delete-event-source-mapping
 
        o delete-function
+
+       o delete-function-code-signing-config
 
        o delete-function-concurrency
 
@@ -42,9 +48,13 @@ AVAILABLE COMMANDS
 
        o get-alias
 
+       o get-code-signing-config
+
        o get-event-source-mapping
 
        o get-function
+
+       o get-function-code-signing-config
 
        o get-function-concurrency
 
@@ -68,11 +78,15 @@ AVAILABLE COMMANDS
 
        o list-aliases
 
+       o list-code-signing-configs
+
        o list-event-source-mappings
 
        o list-function-event-invoke-configs
 
        o list-functions
+
+       o list-functions-by-code-signing-config
 
        o list-layer-versions
 
@@ -87,6 +101,8 @@ AVAILABLE COMMANDS
        o publish-layer-version
 
        o publish-version
+
+       o put-function-code-signing-config
 
        o put-function-concurrency
 
@@ -103,6 +119,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-alias
+
+       o update-code-signing-config
 
        o update-event-source-mapping
 

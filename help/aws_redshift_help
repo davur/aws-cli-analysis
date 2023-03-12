@@ -71,6 +71,8 @@ AVAILABLE COMMANDS
 
        o create-tags
 
+       o create-usage-limit
+
        o delete-cluster
 
        o delete-cluster-parameter-group
@@ -94,6 +96,8 @@ AVAILABLE COMMANDS
        o delete-snapshot-schedule
 
        o delete-tags
+
+       o delete-usage-limit
 
        o describe-account-attributes
 
@@ -151,6 +155,8 @@ AVAILABLE COMMANDS
 
        o describe-tags
 
+       o describe-usage-limits
+
        o disable-logging
 
        o disable-snapshot-copy
@@ -189,6 +195,10 @@ AVAILABLE COMMANDS
 
        o modify-snapshot-schedule
 
+       o modify-usage-limit
+
+       o pause-cluster
+
        o purchase-reserved-node-offering
 
        o reboot-cluster
@@ -200,6 +210,8 @@ AVAILABLE COMMANDS
        o restore-from-cluster-snapshot
 
        o restore-table-from-cluster-snapshot
+
+       o resume-cluster
 
        o revoke-cluster-security-group-ingress
 

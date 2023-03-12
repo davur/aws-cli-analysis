@@ -21,6 +21,8 @@ AVAILABLE COMMANDS
 
        o delete-lifecycle-policy
 
+       o delete-metric-policy
+
        o describe-container
 
        o get-container-policy
@@ -28,6 +30,8 @@ AVAILABLE COMMANDS
        o get-cors-policy
 
        o get-lifecycle-policy
+
+       o get-metric-policy
 
        o help
 
@@ -40,6 +44,8 @@ AVAILABLE COMMANDS
        o put-cors-policy
 
        o put-lifecycle-policy
+
+       o put-metric-policy
 
        o start-access-logging
 

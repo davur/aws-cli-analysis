@@ -1,0 +1,22 @@
+IDENTITYSTORE() 					       IDENTITYSTORE()
+
+
+
+NAME
+       identitystore -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o describe-group
+
+       o describe-user
+
+       o help
+
+       o list-groups
+
+       o list-users
+
+
+
+							       IDENTITYSTORE()

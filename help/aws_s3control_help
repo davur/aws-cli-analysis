@@ -11,13 +11,29 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-access-point
 
+       o create-bucket
+
        o create-job
 
        o delete-access-point
 
        o delete-access-point-policy
 
+       o delete-bucket
+
+       o delete-bucket-lifecycle-configuration
+
+       o delete-bucket-policy
+
+       o delete-bucket-tagging
+
+       o delete-job-tagging
+
        o delete-public-access-block
+
+       o delete-storage-lens-configuration
+
+       o delete-storage-lens-configuration-tagging
 
        o describe-job
 
@@ -27,7 +43,21 @@ AVAILABLE COMMANDS
 
        o get-access-point-policy-status
 
+       o get-bucket
+
+       o get-bucket-lifecycle-configuration
+
+       o get-bucket-policy
+
+       o get-bucket-tagging
+
+       o get-job-tagging
+
        o get-public-access-block
+
+       o get-storage-lens-configuration
+
+       o get-storage-lens-configuration-tagging
 
        o help
 
@@ -35,9 +65,25 @@ AVAILABLE COMMANDS
 
        o list-jobs
 
+       o list-regional-buckets
+
+       o list-storage-lens-configurations
+
        o put-access-point-policy
 
+       o put-bucket-lifecycle-configuration
+
+       o put-bucket-policy
+
+       o put-bucket-tagging
+
+       o put-job-tagging
+
        o put-public-access-block
+
+       o put-storage-lens-configuration
+
+       o put-storage-lens-configuration-tagging
 
        o update-job-priority
 

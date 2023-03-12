@@ -237,14 +237,20 @@ DESCRIPTION
 
        o GetComment , which returns information about a comment on a commit.
 
-       o GetCommentsForComparedCommit , which returns information  about  com-
-	 ments	on  the  comparison between two commit specifiers in a reposi-
+       o GetCommentReactions , which returns information about emoji reactions
+	 to comments.
+
+       o GetCommentsForComparedCommit  ,  which returns information about com-
+	 ments on the comparison between two commit specifiers	in  a  reposi-
 	 tory.
 
        o PostCommentForComparedCommit , which creates a comment on the compar-
 	 ison between two commit specifiers in a repository.
 
        o PostCommentReply , which creates a reply to a comment.
+
+       o PutCommentReaction , which creates or updates an emoji reaction to  a
+	 comment.
 
        o UpdateComment , which updates the content of a comment on a commit in
 	 a repository.
@@ -331,6 +337,8 @@ AVAILABLE COMMANDS
 
        o get-comment
 
+       o get-comment-reactions
+
        o get-comments-for-compared-commit
 
        o get-comments-for-pull-request
@@ -394,6 +402,8 @@ AVAILABLE COMMANDS
        o post-comment-for-pull-request
 
        o post-comment-reply
+
+       o put-comment-reaction
 
        o put-file
 

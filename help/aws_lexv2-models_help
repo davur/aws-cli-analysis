@@ -1,0 +1,94 @@
+LEXV2-MODELS()							LEXV2-MODELS()
+
+
+
+NAME
+       lexv2-models -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o build-bot-locale
+
+       o create-bot
+
+       o create-bot-alias
+
+       o create-bot-locale
+
+       o create-bot-version
+
+       o create-intent
+
+       o create-slot
+
+       o create-slot-type
+
+       o delete-bot
+
+       o delete-bot-alias
+
+       o delete-bot-locale
+
+       o delete-bot-version
+
+       o delete-intent
+
+       o delete-slot
+
+       o delete-slot-type
+
+       o describe-bot
+
+       o describe-bot-alias
+
+       o describe-bot-locale
+
+       o describe-bot-version
+
+       o describe-intent
+
+       o describe-slot
+
+       o describe-slot-type
+
+       o help
+
+       o list-bot-aliases
+
+       o list-bot-locales
+
+       o list-bot-versions
+
+       o list-bots
+
+       o list-built-in-intents
+
+       o list-built-in-slot-types
+
+       o list-intents
+
+       o list-slot-types
+
+       o list-slots
+
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-bot
+
+       o update-bot-alias
+
+       o update-bot-locale
+
+       o update-intent
+
+       o update-slot
+
+       o update-slot-type
+
+
+
+								LEXV2-MODELS()

@@ -1,0 +1,136 @@
+IOTSITEWISE()							 IOTSITEWISE()
+
+
+
+NAME
+       iotsitewise -
+
+DESCRIPTION
+       Welcome	to  the AWS IoT SiteWise API Reference. AWS IoT SiteWise is an
+       AWS service that connects Industrial Internet of Things (IIoT)  devices
+       to  the	power  of the AWS Cloud. For more information, see the AWS IoT
+       SiteWise User Guide . For information about AWS	IoT  SiteWise  quotas,
+       see Quotas in the AWS IoT SiteWise User Guide .
+
+AVAILABLE COMMANDS
+       o associate-assets
+
+       o batch-associate-project-assets
+
+       o batch-disassociate-project-assets
+
+       o batch-put-asset-property-value
+
+       o create-access-policy
+
+       o create-asset
+
+       o create-asset-model
+
+       o create-dashboard
+
+       o create-gateway
+
+       o create-portal
+
+       o create-project
+
+       o delete-access-policy
+
+       o delete-asset
+
+       o delete-asset-model
+
+       o delete-dashboard
+
+       o delete-gateway
+
+       o delete-portal
+
+       o delete-project
+
+       o describe-access-policy
+
+       o describe-asset
+
+       o describe-asset-model
+
+       o describe-asset-property
+
+       o describe-dashboard
+
+       o describe-default-encryption-configuration
+
+       o describe-gateway
+
+       o describe-gateway-capability-configuration
+
+       o describe-logging-options
+
+       o describe-portal
+
+       o describe-project
+
+       o disassociate-assets
+
+       o get-asset-property-aggregates
+
+       o get-asset-property-value
+
+       o get-asset-property-value-history
+
+       o help
+
+       o list-access-policies
+
+       o list-asset-models
+
+       o list-asset-relationships
+
+       o list-assets
+
+       o list-associated-assets
+
+       o list-dashboards
+
+       o list-gateways
+
+       o list-portals
+
+       o list-project-assets
+
+       o list-projects
+
+       o list-tags-for-resource
+
+       o put-default-encryption-configuration
+
+       o put-logging-options
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-access-policy
+
+       o update-asset
+
+       o update-asset-model
+
+       o update-asset-property
+
+       o update-dashboard
+
+       o update-gateway
+
+       o update-gateway-capability-configuration
+
+       o update-portal
+
+       o update-project
+
+       o wait
+
+
+
+								 IOTSITEWISE()

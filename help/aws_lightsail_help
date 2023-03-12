@@ -6,23 +6,30 @@ NAME
        lightsail -
 
 DESCRIPTION
-       Amazon  Lightsail is the easiest way to get started with AWS for devel-
-       opers who just need virtual private servers. Lightsail includes	every-
-       thing  you  need  to launch your project quickly - a virtual machine, a
-       managed database, SSD-based storage, data transfer, DNS management, and
-       a  static IP - for a low, predictable price. You manage those Lightsail
-       servers through the Lightsail console or  by  using  the  API  or  com-
-       mand-line interface (CLI).
+       Amazon Lightsail is the easiest way to get started with Amazon Web Ser-
+       vices (AWS) for developers who need to build websites or  web  applica-
+       tions. It includes everything you need to launch your project quickly -
+       instances (virtual private servers), container services, managed  data-
+       bases,  SSD-based  block  storage, static IP addresses, load balancers,
+       content delivery network (CDN) distributions, DNS management of	regis-
+       tered  domains,	and resource snapshots (backups) - for a low, predict-
+       able monthly price.
 
-       For  more  information  about  Lightsail  concepts  and	tasks, see the
-       Lightsail Dev Guide .
+       You can manage your Lightsail resources using  the  Lightsail  console,
+       Lightsail  API, AWS Command Line Interface (AWS CLI), or SDKs. For more
+       information about Lightsail concepts and tasks, see the	Lightsail  Dev
+       Guide .
 
-       To use the Lightsail API or the CLI, you will need to use AWS  Identity
-       and  Access Management (IAM) to generate access keys. For details about
-       how to set this up, see the Lightsail Dev Guide .
+       This  API  Reference  provides  detailed information about the actions,
+       data types, parameters, and errors of the Lightsail service.  For  more
+       information  about  the	supported  AWS Regions, endpoints, and service
+       quotas of the Lightsail service, see  Amazon  Lightsail	Endpoints  and
+       Quotas in the AWS General Reference .
 
 AVAILABLE COMMANDS
        o allocate-static-ip
+
+       o attach-certificate-to-distribution
 
        o attach-disk
 
@@ -36,13 +43,25 @@ AVAILABLE COMMANDS
 
        o copy-snapshot
 
+       o create-certificate
+
        o create-cloud-formation-stack
+
+       o create-contact-method
+
+       o create-container-service
+
+       o create-container-service-deployment
+
+       o create-container-service-registry-login
 
        o create-disk
 
        o create-disk-from-snapshot
 
        o create-disk-snapshot
+
+       o create-distribution
 
        o create-domain
 
@@ -66,11 +85,23 @@ AVAILABLE COMMANDS
 
        o create-relational-database-snapshot
 
+       o delete-alarm
+
        o delete-auto-snapshot
+
+       o delete-certificate
+
+       o delete-contact-method
+
+       o delete-container-image
+
+       o delete-container-service
 
        o delete-disk
 
        o delete-disk-snapshot
+
+       o delete-distribution
 
        o delete-domain
 
@@ -92,6 +123,8 @@ AVAILABLE COMMANDS
 
        o delete-relational-database-snapshot
 
+       o detach-certificate-from-distribution
+
        o detach-disk
 
        o detach-instances-from-load-balancer
@@ -108,13 +141,33 @@ AVAILABLE COMMANDS
 
        o get-active-names
 
+       o get-alarms
+
        o get-auto-snapshots
 
        o get-blueprints
 
        o get-bundles
 
+       o get-certificates
+
        o get-cloud-formation-stack-records
+
+       o get-contact-methods
+
+       o get-container-api-metadata
+
+       o get-container-images
+
+       o get-container-log
+
+       o get-container-service-deployments
+
+       o get-container-service-metric-data
+
+       o get-container-service-powers
+
+       o get-container-services
 
        o get-disk
 
@@ -123,6 +176,14 @@ AVAILABLE COMMANDS
        o get-disk-snapshots
 
        o get-disks
+
+       o get-distribution-bundles
+
+       o get-distribution-latest-cache-reset
+
+       o get-distribution-metric-data
+
+       o get-distributions
 
        o get-domain
 
@@ -204,13 +265,23 @@ AVAILABLE COMMANDS
 
        o peer-vpc
 
+       o put-alarm
+
        o put-instance-public-ports
 
        o reboot-instance
 
        o reboot-relational-database
 
+       o register-container-image
+
        o release-static-ip
+
+       o reset-distribution-cache
+
+       o send-contact-method-verification
+
+       o set-ip-address-type
 
        o start-instance
 
@@ -222,9 +293,17 @@ AVAILABLE COMMANDS
 
        o tag-resource
 
+       o test-alarm
+
        o unpeer-vpc
 
        o untag-resource
+
+       o update-container-service
+
+       o update-distribution
+
+       o update-distribution-bundle
 
        o update-domain-entry
 

@@ -10,8 +10,15 @@ DESCRIPTION
        ternet-connected things (such as sensors, actuators, embedded  devices,
        or  smart appliances) and the AWS cloud. It implements a broker for ap-
        plications and things to publish messages over HTTP (Publish)  and  re-
-       trieve,	update,  and delete thing shadows. A thing shadow is a persis-
-       tent representation of your things and their state in the AWS cloud.
+       trieve,	update, and delete shadows. A shadow is a persistent represen-
+       tation of your things and their state in the AWS cloud.
+
+       Find the endpoint address for actions in the AWS IoT data plane by run-
+       ning this CLI command:
+	  aws iot describe-endpoint --endpoint-type iot:Data-ATS
+
+       The  service  name used by AWS Signature Version 4 to sign requests is:
+       iotdevicegateway .
 
        NOTE:
 	  The default endpoint data.iot.[region].amazonaws.com is intended for
@@ -26,6 +33,8 @@ AVAILABLE COMMANDS
        o get-thing-shadow
 
        o help
+
+       o list-named-shadows-for-thing
 
        o publish
 

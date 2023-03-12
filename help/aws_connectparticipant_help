@@ -16,9 +16,13 @@ DESCRIPTION
        and customers.
 
 AVAILABLE COMMANDS
+       o complete-attachment-upload
+
        o create-participant-connection
 
        o disconnect-participant
+
+       o get-attachment
 
        o get-transcript
 
@@ -27,6 +31,8 @@ AVAILABLE COMMANDS
        o send-event
 
        o send-message
+
+       o start-attachment-upload
 
 
 

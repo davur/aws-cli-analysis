@@ -10,6 +10,8 @@ DESCRIPTION
        and application administrators to launch and use shared file storage.
 
 AVAILABLE COMMANDS
+       o associate-file-system-aliases
+
        o cancel-data-repository-task
 
        o create-backup
@@ -28,7 +30,11 @@ AVAILABLE COMMANDS
 
        o describe-data-repository-tasks
 
+       o describe-file-system-aliases
+
        o describe-file-systems
+
+       o disassociate-file-system-aliases
 
        o help
 

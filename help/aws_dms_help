@@ -22,6 +22,8 @@ AVAILABLE COMMANDS
 
        o apply-pending-maintenance-action
 
+       o cancel-replication-task-assessment-run
+
        o create-endpoint
 
        o create-event-subscription
@@ -46,7 +48,11 @@ AVAILABLE COMMANDS
 
        o delete-replication-task
 
+       o delete-replication-task-assessment-run
+
        o describe-account-attributes
+
+       o describe-applicable-individual-assessments
 
        o describe-certificates
 
@@ -76,6 +82,10 @@ AVAILABLE COMMANDS
 
        o describe-replication-task-assessment-results
 
+       o describe-replication-task-assessment-runs
+
+       o describe-replication-task-individual-assessments
+
        o describe-replication-tasks
 
        o describe-schemas
@@ -98,6 +108,8 @@ AVAILABLE COMMANDS
 
        o modify-replication-task
 
+       o move-replication-task
+
        o reboot-replication-instance
 
        o refresh-schemas
@@ -109,6 +121,8 @@ AVAILABLE COMMANDS
        o start-replication-task
 
        o start-replication-task-assessment
+
+       o start-replication-task-assessment-run
 
        o stop-replication-task
 

@@ -8,12 +8,12 @@ NAME
 DESCRIPTION
        Security  Hub  provides	you  with a comprehensive view of the security
        state of your AWS environment and resources. It also provides you  with
-       the  compliance	status of your environment based on controls from sup-
-       ported standards. Security Hub collects	security  data	from  AWS  ac-
-       counts, services, and integrated third-party products and helps you an-
-       alyze security trends in your environment to identify the highest  pri-
-       ority security issues. For more information about Security Hub, see the
-       * AWS Security Hub User Guide * .
+       the  readiness  status  of your environment based on controls from sup-
+       ported security standards. Security Hub collects security data from AWS
+       accounts,  services,  and integrated third-party products and helps you
+       analyze security trends in your environment  to	identify  the  highest
+       priority  security issues. For more information about Security Hub, see
+       the * AWS Security Hub User Guide * .
 
        When you use operations in the Security Hub API, the requests are  exe-
        cuted  only  in	the AWS Region that is currently active or in the spe-
@@ -31,11 +31,17 @@ DESCRIPTION
        The  following throttling limits apply to using Security Hub API opera-
        tions.
 
+       o `` BatchEnableStandards `` -  RateLimit  of  1  request  per  second,
+	 BurstLimit of 1 request per second.
+
        o `` GetFindings `` - RateLimit of 3 requests per second. BurstLimit of
 	 6 requests per second.
 
-       o ``  UpdateFindings `` - RateLimit of 1 request per second. BurstLimit
+       o `` UpdateFindings `` - RateLimit of 1 request per second.  BurstLimit
 	 of 5 requests per second.
+
+       o ``  UpdateStandardsControl  ``  -  RateLimit of 1 request per second,
+	 BurstLimit of 5 requests per second.
 
        o All  other  operations  -  RateLimit  of  10  requests  per   second.
 	 BurstLimit of 30 requests per second.
@@ -48,6 +54,8 @@ AVAILABLE COMMANDS
        o batch-enable-standards
 
        o batch-import-findings
+
+       o batch-update-findings
 
        o create-action-target
 
@@ -69,6 +77,8 @@ AVAILABLE COMMANDS
 
        o describe-hub
 
+       o describe-organization-configuration
+
        o describe-products
 
        o describe-standards
@@ -77,6 +87,8 @@ AVAILABLE COMMANDS
 
        o disable-import-findings-for-product
 
+       o disable-organization-admin-account
+
        o disable-security-hub
 
        o disassociate-from-master-account
@@ -84,6 +96,8 @@ AVAILABLE COMMANDS
        o disassociate-members
 
        o enable-import-findings-for-product
+
+       o enable-organization-admin-account
 
        o enable-security-hub
 
@@ -111,6 +125,8 @@ AVAILABLE COMMANDS
 
        o list-members
 
+       o list-organization-admin-accounts
+
        o list-tags-for-resource
 
        o tag-resource
@@ -122,6 +138,10 @@ AVAILABLE COMMANDS
        o update-findings
 
        o update-insight
+
+       o update-organization-configuration
+
+       o update-security-hub-configuration
 
        o update-standards-control
 

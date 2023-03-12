@@ -36,6 +36,12 @@ DESCRIPTION
 
        o ListEnvironments : Gets a list of environment identifiers.
 
+       o ListTagsForResource : Gets the tags for an environment.
+
+       o TagResource : Adds tags to an environment.
+
+       o UntagResource : Removes tags from an environment.
+
        o UpdateEnvironment : Changes the settings of an existing environment.
 
        o UpdateEnvironmentMembership : Changes the settings of an existing en-
@@ -59,6 +65,12 @@ AVAILABLE COMMANDS
        o help
 
        o list-environments
+
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
 
        o update-environment
 

@@ -15,14 +15,14 @@ DESCRIPTION
 
        o Automatically invoke an AWS Lambda function  to  update  DNS  entries
 	 when  an  event notifies you that Amazon EC2 instance enters the run-
-	 ning state
+	 ning state.
 
        o Direct specific API records from AWS CloudTrail to an Amazon  Kinesis
 	 data stream for detailed analysis of potential security or availabil-
-	 ity risks
+	 ity risks.
 
        o Periodically invoke a built-in target to create a snapshot of an Ama-
-	 zon EBS volume
+	 zon EBS volume.
 
        For  more information about the features of Amazon EventBridge, see the
        Amazon EventBridge User Guide .
@@ -30,11 +30,17 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o activate-event-source
 
+       o cancel-replay
+
+       o create-archive
+
        o create-event-bus
 
        o create-partner-event-source
 
        o deactivate-event-source
+
+       o delete-archive
 
        o delete-event-bus
 
@@ -42,11 +48,15 @@ AVAILABLE COMMANDS
 
        o delete-rule
 
+       o describe-archive
+
        o describe-event-bus
 
        o describe-event-source
 
        o describe-partner-event-source
+
+       o describe-replay
 
        o describe-rule
 
@@ -56,6 +66,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-archives
+
        o list-event-buses
 
        o list-event-sources
@@ -63,6 +75,8 @@ AVAILABLE COMMANDS
        o list-partner-event-source-accounts
 
        o list-partner-event-sources
+
+       o list-replays
 
        o list-rule-names-by-target
 
@@ -86,11 +100,15 @@ AVAILABLE COMMANDS
 
        o remove-targets
 
+       o start-replay
+
        o tag-resource
 
        o test-event-pattern
 
        o untag-resource
+
+       o update-archive
 
 
 

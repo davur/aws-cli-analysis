@@ -12,16 +12,26 @@ DESCRIPTION
        Firewall Manager features, see the AWS Firewall Manager Developer Guide
        .
 
+       Some  API  actions  require explicit resource permissions. For informa-
+       tion, see the developer guide topic Firewall Manager  required  permis-
+       sions for API actions .
+
 AVAILABLE COMMANDS
        o associate-admin-account
+
+       o delete-apps-list
 
        o delete-notification-channel
 
        o delete-policy
 
+       o delete-protocols-list
+
        o disassociate-admin-account
 
        o get-admin-account
+
+       o get-apps-list
 
        o get-compliance-detail
 
@@ -31,7 +41,13 @@ AVAILABLE COMMANDS
 
        o get-protection-status
 
+       o get-protocols-list
+
+       o get-violation-details
+
        o help
+
+       o list-apps-lists
 
        o list-compliance-status
 
@@ -39,11 +55,17 @@ AVAILABLE COMMANDS
 
        o list-policies
 
+       o list-protocols-lists
+
        o list-tags-for-resource
+
+       o put-apps-list
 
        o put-notification-channel
 
        o put-policy
+
+       o put-protocols-list
 
        o tag-resource
 

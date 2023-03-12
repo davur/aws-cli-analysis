@@ -6,46 +6,57 @@ NAME
        gamelift -
 
 DESCRIPTION
-       Amazon  GameLift  is  a managed service for developers who need a scal-
-       able, dedicated server solution for their multiplayer games. Use Amazon
-       GameLift  for  these  tasks:  (1) set up computing resources and deploy
-       your game servers, (2) run game sessions and get  players  into	games,
-       (3) automatically scale your resources to meet player demand and manage
-       costs, and (4) track in-depth metrics on game  server  performance  and
-       player usage.
+       GameLift  provides solutions for hosting session-based multiplayer game
+       servers in the cloud, including tools  for  deploying,  operating,  and
+       scaling	game  servers.	Built  on AWS global computing infrastructure,
+       GameLift helps you deliver high-performance, high-reliability, low-cost
+       game  servers  while  dynamically  scaling  your resource usage to meet
+       player demand.
+	  About GameLift solutions
 
-       When  setting  up  hosting  resources,  you can deploy your custom game
-       server or use the Amazon GameLift Realtime  Servers.  Realtime  Servers
-       gives  you  the ability to quickly stand up lightweight, efficient game
-       servers with the core Amazon GameLift infrastructure already built in.
-	  Get Amazon GameLift Tools and Resources
+       Get more information on these GameLift solutions in the Amazon GameLift
+       Developer Guide .
 
-       This reference guide describes the low-level  service  API  for	Amazon
-       GameLift  and provides links to language-specific SDK reference topics.
-       See also Amazon GameLift Tools and Resources .
-	  API Summary
+       o Managed GameLift -- GameLift offers a fully managed service to set up
+	 and maintain computing machines for hosting, manage game session  and
+	 player  session life cycle, and handle security, storage, and perfor-
+	 mance tracking. You can use automatic scaling tools to balance  host-
+	 ing costs against meeting player demand., configure your game session
+	 management to minimize player latency, or add FlexMatch for matchmak-
+	 ing.
 
-       The Amazon GameLift service API includes two key sets of actions:
+       o Managed  GameLift  with  Realtime  Servers   With  GameLift  Realtime
+	 Servers, you can quickly configure and set up game servers  for  your
+	 game.	Realtime  Servers  provides  a game server framework with core
+	 Amazon GameLift infrastructure already built in.
 
-       o Manage game sessions and player access -- Integrate this  functional-
-	 ity  into  game client services in order to create new game sessions,
-	 retrieve information on existing game sessions; reserve a player slot
-	 in a game session, request matchmaking, etc.
+       o GameLift FleetIQ  Use GameLift FleetIQ as a standalone feature  while
+	 managing  your  own  EC2  instances  and Auto Scaling groups for game
+	 hosting. GameLift FleetIQ provides optimizations that	make  low-cost
+	 Spot Instances viable for game hosting.
+	  About this API Reference
 
-       o Configure  and  manage  game  server  resources -- Manage your Amazon
-	 GameLift  hosting  resources,	including  builds,  scripts,   fleets,
-	 queues,  and aliases. Set up matchmakers, configure auto-scaling, re-
-	 trieve game logs, and get hosting and game metrics.
-	  ** Task-based list of API actions **
+       This  reference	guide  describes  the low-level service API for Amazon
+       GameLift. You can find links to language-specific SDK  guides  and  the
+       AWS  CLI  reference  with  each	operation  and data type topic. Useful
+       links:
+
+       o GameLift API operations listed by tasks
+
+       o GameLift tools and resources
 
 AVAILABLE COMMANDS
        o accept-match
+
+       o claim-game-server
 
        o create-alias
 
        o create-build
 
        o create-fleet
+
+       o create-game-server-group
 
        o create-game-session
 
@@ -71,6 +82,8 @@ AVAILABLE COMMANDS
 
        o delete-fleet
 
+       o delete-game-server-group
+
        o delete-game-session-queue
 
        o delete-matchmaking-configuration
@@ -84,6 +97,8 @@ AVAILABLE COMMANDS
        o delete-vpc-peering-authorization
 
        o delete-vpc-peering-connection
+
+       o deregister-game-server
 
        o describe-alias
 
@@ -100,6 +115,12 @@ AVAILABLE COMMANDS
        o describe-fleet-port-settings
 
        o describe-fleet-utilization
+
+       o describe-game-server
+
+       o describe-game-server-group
+
+       o describe-game-server-instances
 
        o describe-game-session-details
 
@@ -143,15 +164,23 @@ AVAILABLE COMMANDS
 
        o list-fleets
 
+       o list-game-server-groups
+
+       o list-game-servers
+
        o list-scripts
 
        o list-tags-for-resource
 
        o put-scaling-policy
 
+       o register-game-server
+
        o request-upload-credentials
 
        o resolve-alias
+
+       o resume-game-server-group
 
        o search-game-sessions
 
@@ -169,6 +198,8 @@ AVAILABLE COMMANDS
 
        o stop-matchmaking
 
+       o suspend-game-server-group
+
        o tag-resource
 
        o untag-resource
@@ -182,6 +213,10 @@ AVAILABLE COMMANDS
        o update-fleet-capacity
 
        o update-fleet-port-settings
+
+       o update-game-server
+
+       o update-game-server-group
 
        o update-game-session
 

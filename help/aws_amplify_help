@@ -6,8 +6,12 @@ NAME
        amplify -
 
 DESCRIPTION
-       Amplify	is  a  fully managed continuous deployment and hosting service
-       for modern web apps.
+       Amplify	enables  developers to develop and deploy cloud-powered mobile
+       and web apps. The Amplify Console provides a  continuous  delivery  and
+       hosting	service  for  web  applications. For more information, see the
+       Amplify Console User Guide . The Amplify Framework is  a  comprehensive
+       set  of SDKs, libraries, tools, and documentation for client app devel-
+       opment. For more information, see the Amplify Framework.
 
 AVAILABLE COMMANDS
        o create-app

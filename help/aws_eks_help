@@ -21,17 +21,25 @@ DESCRIPTION
        tion to Amazon EKS without any code modification required.
 
 AVAILABLE COMMANDS
+       o create-addon
+
        o create-cluster
 
        o create-fargate-profile
 
        o create-nodegroup
 
+       o delete-addon
+
        o delete-cluster
 
        o delete-fargate-profile
 
        o delete-nodegroup
+
+       o describe-addon
+
+       o describe-addon-versions
 
        o describe-cluster
 
@@ -44,6 +52,8 @@ AVAILABLE COMMANDS
        o get-token
 
        o help
+
+       o list-addons
 
        o list-clusters
 
@@ -58,6 +68,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-addon
 
        o update-cluster-config
 

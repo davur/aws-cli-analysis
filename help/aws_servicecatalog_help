@@ -7,9 +7,9 @@ NAME
 
 DESCRIPTION
 	  AWS Service Catalog enables organizations to create and manage cata-
-	  logs of IT services that are approved for use on  AWS.  To  get  the
-	  most out of this documentation, you should be familiar with the ter-
-	  minology discussed in AWS Service Catalog Concepts .
+	  logs of IT services that are approved for AWS. To get the  most  out
+	  of  this  documentation, you should be familiar with the terminology
+	  discussed in AWS Service Catalog Concepts .
 
 AVAILABLE COMMANDS
        o accept-portfolio-share
@@ -70,6 +70,8 @@ AVAILABLE COMMANDS
 
        o describe-portfolio-share-status
 
+       o describe-portfolio-shares
+
        o describe-product
 
        o describe-product-as-admin
@@ -114,7 +116,11 @@ AVAILABLE COMMANDS
 
        o get-aws-organizations-access-status
 
+       o get-provisioned-product-outputs
+
        o help
+
+       o import-as-provisioned-product
 
        o list-accepted-portfolio-shares
 
@@ -169,6 +175,8 @@ AVAILABLE COMMANDS
        o update-constraint
 
        o update-portfolio
+
+       o update-portfolio-share
 
        o update-product
 

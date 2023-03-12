@@ -101,7 +101,11 @@ AVAILABLE SERVICES
 
        o alexaforbusiness
 
+       o amp
+
        o amplify
+
+       o amplifybackend
 
        o apigateway
 
@@ -110,6 +114,10 @@ AVAILABLE SERVICES
        o apigatewayv2
 
        o appconfig
+
+       o appflow
+
+       o appintegrations
 
        o application-autoscaling
 
@@ -123,6 +131,8 @@ AVAILABLE SERVICES
 
        o athena
 
+       o auditmanager
+
        o autoscaling
 
        o autoscaling-plans
@@ -130,6 +140,8 @@ AVAILABLE SERVICES
        o backup
 
        o batch
+
+       o braket
 
        o budgets
 
@@ -156,6 +168,8 @@ AVAILABLE SERVICES
        o cloudtrail
 
        o cloudwatch
+
+       o codeartifact
 
        o codebuild
 
@@ -191,9 +205,15 @@ AVAILABLE SERVICES
 
        o connect
 
+       o connect-contact-lens
+
        o connectparticipant
 
        o cur
+
+       o customer-profiles
+
+       o databrew
 
        o dataexchange
 
@@ -208,6 +228,8 @@ AVAILABLE SERVICES
        o detective
 
        o devicefarm
+
+       o devops-guru
 
        o directconnect
 
@@ -233,6 +255,8 @@ AVAILABLE SERVICES
 
        o ecr
 
+       o ecr-public
+
        o ecs
 
        o efs
@@ -252,6 +276,8 @@ AVAILABLE SERVICES
        o elbv2
 
        o emr
+
+       o emr-containers
 
        o es
 
@@ -279,17 +305,25 @@ AVAILABLE SERVICES
 
        o greengrass
 
+       o greengrassv2
+
        o groundstation
 
        o guardduty
 
        o health
 
+       o healthlake
+
        o help
 
        o history
 
+       o honeycode
+
        o iam
+
+       o identitystore
 
        o imagebuilder
 
@@ -309,13 +343,23 @@ AVAILABLE SERVICES
 
        o iotanalytics
 
+       o iotdeviceadvisor
+
        o iotevents
 
        o iotevents-data
 
+       o iotfleethub
+
        o iotsecuretunneling
 
+       o iotsitewise
+
        o iotthingsgraph
+
+       o iotwireless
+
+       o ivs
 
        o kafka
 
@@ -345,15 +389,25 @@ AVAILABLE SERVICES
 
        o lex-runtime
 
+       o lexv2-models
+
+       o lexv2-runtime
+
        o license-manager
 
        o lightsail
 
+       o location
+
        o logs
+
+       o lookoutvision
 
        o machinelearning
 
        o macie
+
+       o macie2
 
        o managedblockchain
 
@@ -391,7 +445,11 @@ AVAILABLE SERVICES
 
        o mturk
 
+       o mwaa
+
        o neptune
+
+       o network-firewall
 
        o networkmanager
 
@@ -435,6 +493,8 @@ AVAILABLE SERVICES
 
        o redshift
 
+       o redshift-data
+
        o rekognition
 
        o resource-groups
@@ -455,9 +515,15 @@ AVAILABLE SERVICES
 
        o s3control
 
+       o s3outposts
+
        o sagemaker
 
        o sagemaker-a2i-runtime
+
+       o sagemaker-edge
+
+       o sagemaker-featurestore-runtime
 
        o sagemaker-runtime
 
@@ -476,6 +542,8 @@ AVAILABLE SERVICES
        o service-quotas
 
        o servicecatalog
+
+       o servicecatalog-appregistry
 
        o servicediscovery
 
@@ -499,6 +567,8 @@ AVAILABLE SERVICES
 
        o sso
 
+       o sso-admin
+
        o sso-oidc
 
        o stepfunctions
@@ -511,7 +581,13 @@ AVAILABLE SERVICES
 
        o swf
 
+       o synthetics
+
        o textract
+
+       o timestream-query
+
+       o timestream-write
 
        o transcribe
 
@@ -524,6 +600,8 @@ AVAILABLE SERVICES
        o waf-regional
 
        o wafv2
+
+       o wellarchitected
 
        o workdocs
 
