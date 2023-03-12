@@ -44,8 +44,6 @@ AVAILABLE COMMANDS
 
        o invoke
 
-       o invoke-async
-
        o list-aliases
 
        o list-event-source-mappings

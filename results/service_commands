@@ -364,6 +364,7 @@ cloudformation set-stack-policy
 cloudformation signal-resource
 cloudformation stop-stack-set-operation
 cloudformation update-stack
+cloudformation update-stack-instances
 cloudformation update-stack-set
 cloudformation update-termination-protection
 cloudformation validate-template
@@ -503,6 +504,7 @@ codebuild create-webhook
 codebuild delete-project
 codebuild delete-webhook
 codebuild help
+codebuild invalidate-project-cache
 codebuild list-builds
 codebuild list-builds-for-project
 codebuild list-curated-environment-images
@@ -892,7 +894,6 @@ devicefarm stop-run
 devicefarm update-device-pool
 devicefarm update-network-profile
 devicefarm update-project
-directconnect allocate-connection-on-interconnect
 directconnect allocate-hosted-connection
 directconnect allocate-private-virtual-interface
 directconnect allocate-public-virtual-interface
@@ -917,14 +918,11 @@ directconnect delete-direct-connect-gateway-association
 directconnect delete-interconnect
 directconnect delete-lag
 directconnect delete-virtual-interface
-directconnect describe-connection-loa
 directconnect describe-connections
-directconnect describe-connections-on-interconnect
 directconnect describe-direct-connect-gateway-associations
 directconnect describe-direct-connect-gateway-attachments
 directconnect describe-direct-connect-gateways
 directconnect describe-hosted-connections
-directconnect describe-interconnect-loa
 directconnect describe-interconnects
 directconnect describe-lags
 directconnect describe-loa
@@ -944,11 +942,9 @@ discovery delete-applications
 discovery delete-tags
 discovery describe-agents
 discovery describe-configurations
-discovery describe-export-configurations
 discovery describe-export-tasks
 discovery describe-tags
 discovery disassociate-configuration-items-from-application
-discovery export-configurations
 discovery get-discovery-summary
 discovery help
 discovery list-configurations
@@ -1479,7 +1475,6 @@ elastictranscoder list-presets
 elastictranscoder read-job
 elastictranscoder read-pipeline
 elastictranscoder read-preset
-elastictranscoder test-role
 elastictranscoder update-pipeline
 elastictranscoder update-pipeline-notifications
 elastictranscoder update-pipeline-status
@@ -2196,7 +2191,6 @@ lambda get-function-configuration
 lambda get-policy
 lambda help
 lambda invoke
-lambda invoke-async
 lambda list-aliases
 lambda list-event-source-mappings
 lambda list-functions
@@ -2823,6 +2817,7 @@ rekognition delete-faces
 rekognition detect-faces
 rekognition detect-labels
 rekognition detect-moderation-labels
+rekognition detect-text
 rekognition get-celebrity-info
 rekognition help
 rekognition index-faces
@@ -2954,12 +2949,10 @@ s3api get-bucket-analytics-configuration
 s3api get-bucket-cors
 s3api get-bucket-encryption
 s3api get-bucket-inventory-configuration
-s3api get-bucket-lifecycle
 s3api get-bucket-lifecycle-configuration
 s3api get-bucket-location
 s3api get-bucket-logging
 s3api get-bucket-metrics-configuration
-s3api get-bucket-notification
 s3api get-bucket-notification-configuration
 s3api get-bucket-policy
 s3api get-bucket-replication
@@ -2989,11 +2982,9 @@ s3api put-bucket-analytics-configuration
 s3api put-bucket-cors
 s3api put-bucket-encryption
 s3api put-bucket-inventory-configuration
-s3api put-bucket-lifecycle
 s3api put-bucket-lifecycle-configuration
 s3api put-bucket-logging
 s3api put-bucket-metrics-configuration
-s3api put-bucket-notification
 s3api put-bucket-notification-configuration
 s3api put-bucket-policy
 s3api put-bucket-replication
@@ -3144,6 +3135,7 @@ shield delete-subscription
 shield describe-attack
 shield describe-protection
 shield describe-subscription
+shield get-subscription-state
 shield help
 shield list-attacks
 shield list-protections
@@ -3393,6 +3385,7 @@ storagegateway list-tapes
 storagegateway list-volume-initiators
 storagegateway list-volume-recovery-points
 storagegateway list-volumes
+storagegateway notify-when-uploaded
 storagegateway refresh-cache
 storagegateway remove-tags-from-resource
 storagegateway reset-cache

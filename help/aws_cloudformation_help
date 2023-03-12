@@ -108,6 +108,8 @@ AVAILABLE COMMANDS
 
        o update-stack
 
+       o update-stack-instances
+
        o update-stack-set
 
        o update-termination-protection

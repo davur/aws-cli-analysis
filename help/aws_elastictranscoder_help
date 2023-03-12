@@ -37,8 +37,6 @@ AVAILABLE COMMANDS
 
        o read-preset
 
-       o test-role
-
        o update-pipeline
 
        o update-pipeline-notifications

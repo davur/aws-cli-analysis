@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o detect-moderation-labels
 
+       o detect-text
+
        o get-celebrity-info
 
        o help
