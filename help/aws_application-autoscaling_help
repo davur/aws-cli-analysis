@@ -9,40 +9,44 @@ DESCRIPTION
        With  Application Auto Scaling, you can configure automatic scaling for
        the following resources:
 
-       o Amazon ECS services
-
-       o Amazon EC2 Spot Fleet requests
-
-       o Amazon EMR clusters
-
        o Amazon AppStream 2.0 fleets
+
+       o Amazon Aurora Replicas
+
+       o Amazon Comprehend document classification and entity recognizer  end-
+	 points
 
        o Amazon DynamoDB tables and global secondary indexes throughput capac-
 	 ity
 
-       o Amazon Aurora Replicas
+       o Amazon ECS services
 
-       o Amazon SageMaker endpoint variants
+       o Amazon ElastiCache for Redis clusters (replication groups)
 
-       o Custom resources provided by your own applications or services
-
-       o Amazon  Comprehend document classification and entity recognizer end-
-	 points
-
-       o AWS Lambda function provisioned concurrency
+       o Amazon EMR clusters
 
        o Amazon Keyspaces (for Apache Cassandra) tables
 
+       o Lambda function provisioned concurrency
+
        o Amazon Managed Streaming for Apache Kafka broker storage
+
+       o Amazon Neptune clusters
+
+       o Amazon SageMaker endpoint variants
+
+       o Spot Fleets (Amazon EC2)
+
+       o Custom resources provided by your own applications or services
 	  API Summary
 
        The Application Auto Scaling service API includes three key sets of ac-
        tions:
 
-       o Register  and	manage	scalable  targets - Register AWS or custom re-
-	 sources as scalable targets (a resource that Application Auto Scaling
-	 can scale), set minimum and maximum capacity limits, and retrieve in-
-	 formation on existing scalable targets.
+       o Register  and	manage scalable targets - Register Amazon Web Services
+	 or custom resources as scalable targets (a resource that  Application
+	 Auto Scaling can scale), set minimum and maximum capacity limits, and
+	 retrieve information on existing scalable targets.
 
        o Configure and manage automatic scaling - Define scaling  policies  to
 	 dynamically  scale  your  resources in response to CloudWatch alarms,

@@ -30,50 +30,51 @@ DESCRIPTION
        ter of your VPC. This includes filtering traffic going  to  and	coming
        from  an  internet gateway, NAT gateway, or over VPN or AWS Direct Con-
        nect. Network Firewall uses rules that are compatible with Suricata,  a
-       free, open source intrusion detection system (IDS) engine. For informa-
-       tion about Suricata, see the Suricata website .
+       free,  open source intrusion detection system (IDS) engine. AWS Network
+       Firewall supports Suricata version 5.0.2. For information  about  Suri-
+       cata, see the Suricata website .
 
        You can use Network Firewall to monitor and protect your VPC traffic in
        a number of ways. The following are just a few examples:
 
-       o Allow	domains  or IP addresses for known AWS service endpoints, such
+       o Allow domains or IP addresses for known AWS service  endpoints,  such
 	 as Amazon S3, and block all other forms of traffic.
 
-       o Use custom lists of known bad domains to limit the  types  of	domain
+       o Use  custom  lists  of known bad domains to limit the types of domain
 	 names that your applications can access.
 
-       o Perform  deep	packet	inspection on traffic entering or leaving your
+       o Perform deep packet inspection on traffic entering  or  leaving  your
 	 VPC.
 
-       o Use stateful protocol detection to filter protocols like  HTTPS,  re-
+       o Use  stateful	protocol detection to filter protocols like HTTPS, re-
 	 gardless of the port used.
 
-       To  enable  Network  Firewall  for your VPCs, you perform steps in both
-       Amazon VPC and in Network Firewall. For information about using	Amazon
+       To enable Network Firewall for your VPCs, you  perform  steps  in  both
+       Amazon  VPC and in Network Firewall. For information about using Amazon
        VPC, see Amazon VPC User Guide .
 
        To start using Network Firewall, do the following:
 
-       o (Optional)  If you don't already have a VPC that you want to protect,
+       o (Optional) If you don't already have a VPC that you want to  protect,
 	 create it in Amazon VPC.
 
-       o In Amazon VPC, in each Availability Zone where you  want  to  have  a
-	 firewall  endpoint, create a subnet for the sole use of Network Fire-
+       o In  Amazon  VPC,  in  each Availability Zone where you want to have a
+	 firewall endpoint, create a subnet for the sole use of Network  Fire-
 	 wall.
 
-       o In Network Firewall, create stateless and stateful  rule  groups,  to
-	 define  the components of the network traffic filtering behavior that
+       o In  Network  Firewall,  create stateless and stateful rule groups, to
+	 define the components of the network traffic filtering behavior  that
 	 you want your firewall to have.
 
-       o In Network Firewall, create a firewall policy	that  uses  your  rule
+       o In  Network  Firewall,  create  a firewall policy that uses your rule
 	 groups and specifies additional default traffic filtering behavior.
 
-       o In  Network Firewall, create a firewall and specify your new firewall
-	 policy and VPC subnets. Network Firewall creates a firewall  endpoint
-	 in  each subnet that you specify, with the behavior that's defined in
+       o In Network Firewall, create a firewall and specify your new  firewall
+	 policy  and VPC subnets. Network Firewall creates a firewall endpoint
+	 in each subnet that you specify, with the behavior that's defined  in
 	 the firewall policy.
 
-       o In Amazon VPC, use ingress  routing  enhancements  to	route  traffic
+       o In  Amazon  VPC,  use	ingress  routing enhancements to route traffic
 	 through the new firewall endpoints.
 
 AVAILABLE COMMANDS

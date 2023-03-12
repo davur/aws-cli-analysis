@@ -95,6 +95,8 @@ AVAILABLE COMMANDS
 
        o create-project
 
+       o create-studio-lifecycle-config
+
        o create-training-job
 
        o create-transform-job
@@ -170,6 +172,8 @@ AVAILABLE COMMANDS
        o delete-pipeline
 
        o delete-project
+
+       o delete-studio-lifecycle-config
 
        o delete-tags
 
@@ -260,6 +264,8 @@ AVAILABLE COMMANDS
        o describe-processing-job
 
        o describe-project
+
+       o describe-studio-lifecycle-config
 
        o describe-subscribed-workteam
 
@@ -379,6 +385,8 @@ AVAILABLE COMMANDS
 
        o list-projects
 
+       o list-studio-lifecycle-configs
+
        o list-subscribed-workteams
 
        o list-tags
@@ -404,6 +412,8 @@ AVAILABLE COMMANDS
        o register-devices
 
        o render-ui-template
+
+       o retry-pipeline-execution
 
        o search
 

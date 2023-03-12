@@ -9,6 +9,8 @@ DESCRIPTION
        Operations and objects for transcribing speech to text.
 
 AVAILABLE COMMANDS
+       o create-call-analytics-category
+
        o create-language-model
 
        o create-medical-vocabulary
@@ -16,6 +18,10 @@ AVAILABLE COMMANDS
        o create-vocabulary
 
        o create-vocabulary-filter
+
+       o delete-call-analytics-category
+
+       o delete-call-analytics-job
 
        o delete-language-model
 
@@ -31,6 +37,10 @@ AVAILABLE COMMANDS
 
        o describe-language-model
 
+       o get-call-analytics-category
+
+       o get-call-analytics-job
+
        o get-medical-transcription-job
 
        o get-medical-vocabulary
@@ -43,11 +53,17 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-call-analytics-categories
+
+       o list-call-analytics-jobs
+
        o list-language-models
 
        o list-medical-transcription-jobs
 
        o list-medical-vocabularies
+
+       o list-tags-for-resource
 
        o list-transcription-jobs
 
@@ -55,9 +71,17 @@ AVAILABLE COMMANDS
 
        o list-vocabulary-filters
 
+       o start-call-analytics-job
+
        o start-medical-transcription-job
 
        o start-transcription-job
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-call-analytics-category
 
        o update-medical-vocabulary
 

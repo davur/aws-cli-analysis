@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o delete-job-template
 
+       o delete-policy
+
        o delete-preset
 
        o delete-queue
@@ -34,6 +36,8 @@ AVAILABLE COMMANDS
        o get-job
 
        o get-job-template
+
+       o get-policy
 
        o get-preset
 
@@ -50,6 +54,8 @@ AVAILABLE COMMANDS
        o list-queues
 
        o list-tags-for-resource
+
+       o put-policy
 
        o tag-resource
 

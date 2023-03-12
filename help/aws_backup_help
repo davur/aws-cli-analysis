@@ -6,10 +6,10 @@ NAME
        backup -
 
 DESCRIPTION
-       AWS Backup is a unified backup service designed to protect AWS services
-       and their associated data. AWS Backup simplifies the  creation,	migra-
-       tion,  restoration,  and  deletion of backups, while also providing re-
-       porting and auditing.
+       Backup  is a unified backup service designed to protect Amazon Web Ser-
+       vices services and their associated data. Backup  simplifies  the  cre-
+       ation, migration, restoration, and deletion of backups, while also pro-
+       viding reporting and auditing.
 
 AVAILABLE COMMANDS
        o create-backup-plan
@@ -17,6 +17,10 @@ AVAILABLE COMMANDS
        o create-backup-selection
 
        o create-backup-vault
+
+       o create-framework
+
+       o create-report-plan
 
        o delete-backup-plan
 
@@ -26,15 +30,23 @@ AVAILABLE COMMANDS
 
        o delete-backup-vault-access-policy
 
+       o delete-backup-vault-lock-configuration
+
        o delete-backup-vault-notifications
 
+       o delete-framework
+
        o delete-recovery-point
+
+       o delete-report-plan
 
        o describe-backup-job
 
        o describe-backup-vault
 
        o describe-copy-job
+
+       o describe-framework
 
        o describe-global-settings
 
@@ -43,6 +55,10 @@ AVAILABLE COMMANDS
        o describe-recovery-point
 
        o describe-region-settings
+
+       o describe-report-job
+
+       o describe-report-plan
 
        o describe-restore-job
 
@@ -82,11 +98,17 @@ AVAILABLE COMMANDS
 
        o list-copy-jobs
 
+       o list-frameworks
+
        o list-protected-resources
 
        o list-recovery-points-by-backup-vault
 
        o list-recovery-points-by-resource
+
+       o list-report-jobs
+
+       o list-report-plans
 
        o list-restore-jobs
 
@@ -94,11 +116,15 @@ AVAILABLE COMMANDS
 
        o put-backup-vault-access-policy
 
+       o put-backup-vault-lock-configuration
+
        o put-backup-vault-notifications
 
        o start-backup-job
 
        o start-copy-job
+
+       o start-report-job
 
        o start-restore-job
 
@@ -110,11 +136,15 @@ AVAILABLE COMMANDS
 
        o update-backup-plan
 
+       o update-framework
+
        o update-global-settings
 
        o update-recovery-point-lifecycle
 
        o update-region-settings
+
+       o update-report-plan
 
 
 

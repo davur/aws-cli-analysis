@@ -6,12 +6,11 @@ NAME
        shield -
 
 DESCRIPTION
-       This  is  the AWS Shield Advanced API Reference . This guide is for de-
-       velopers who need detailed information about the  AWS  Shield  Advanced
-       API actions, data types, and errors. For detailed information about AWS
-       WAF and AWS Shield Advanced features and an overview of how to use  the
-       AWS  WAF  and  AWS Shield Advanced APIs, see the AWS WAF and AWS Shield
-       Developer Guide .
+       This  is the Shield Advanced API Reference . This guide is for develop-
+       ers who need detailed information about the  Shield  Advanced  API  ac-
+       tions,  data  types, and errors. For detailed information about WAF and
+       Shield Advanced features and an overview of how	to  use  the  WAF  and
+       Shield Advanced APIs, see the WAF and Shield Developer Guide .
 
 AVAILABLE COMMANDS
        o associate-drt-log-bucket

@@ -7,10 +7,10 @@ NAME
 
 DESCRIPTION
        You  can  use Amazon CloudWatch Logs to monitor, store, and access your
-       log files from EC2 instances, AWS CloudTrail, and  other  sources.  You
-       can  then  retrieve  the associated log data from CloudWatch Logs using
-       the CloudWatch console, CloudWatch Logs commands in the AWS CLI, Cloud-
-       Watch Logs API, or CloudWatch Logs SDK.
+       log files from EC2 instances, CloudTrail, and other  sources.  You  can
+       then  retrieve  the  associated log data from CloudWatch Logs using the
+       CloudWatch console, CloudWatch Logs commands in the Amazon Web Services
+       CLI, CloudWatch Logs API, or CloudWatch Logs SDK.
 
        You can use CloudWatch Logs to:
 
@@ -27,9 +27,9 @@ DESCRIPTION
 	 for is found, CloudWatch Logs reports the data to a CloudWatch metric
 	 that you specify.
 
-       o Monitor AWS CloudTrail logged events  :  You  can  create  alarms  in
-	 CloudWatch  and  receive  notifications of particular API activity as
-	 captured by CloudTrail. You can use the notification to perform trou-
+       o Monitor CloudTrail logged events : You can create  alarms  in	Cloud-
+	 Watch	and  receive  notifications of particular API activity as cap-
+	 tured by CloudTrail. You can use the notification  to	perform  trou-
 	 bleshooting.
 
        o Archive log data : You can use CloudWatch Logs to store your log data

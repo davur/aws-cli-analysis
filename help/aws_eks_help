@@ -41,6 +41,8 @@ AVAILABLE COMMANDS
 
        o delete-nodegroup
 
+       o deregister-cluster
+
        o describe-addon
 
        o describe-addon-versions
@@ -74,6 +76,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o list-updates
+
+       o register-cluster
 
        o tag-resource
 

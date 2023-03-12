@@ -19,6 +19,8 @@ AVAILABLE COMMANDS
 
        o batch-delete-table-version
 
+       o batch-get-blueprints
+
        o batch-get-crawlers
 
        o batch-get-dev-endpoints
@@ -38,6 +40,8 @@ AVAILABLE COMMANDS
        o cancel-ml-task-run
 
        o check-schema-version-validity
+
+       o create-blueprint
 
        o create-classifier
 
@@ -72,6 +76,8 @@ AVAILABLE COMMANDS
        o create-user-defined-function
 
        o create-workflow
+
+       o delete-blueprint
 
        o delete-classifier
 
@@ -114,6 +120,12 @@ AVAILABLE COMMANDS
        o delete-user-defined-function
 
        o delete-workflow
+
+       o get-blueprint
+
+       o get-blueprint-run
+
+       o get-blueprint-runs
 
        o get-catalog-import-status
 
@@ -223,6 +235,8 @@ AVAILABLE COMMANDS
 
        o import-catalog-to-glue
 
+       o list-blueprints
+
        o list-crawlers
 
        o list-dev-endpoints
@@ -261,6 +275,8 @@ AVAILABLE COMMANDS
 
        o search-tables
 
+       o start-blueprint-run
+
        o start-crawler
 
        o start-crawler-schedule
@@ -290,6 +306,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-blueprint
 
        o update-classifier
 

@@ -85,15 +85,19 @@ OPTIONS
        --cli-read-timeout (int)
 
        The  maximum socket read time in seconds. If the value is set to 0, the
-       socket read will be blocking and not timeout.
+       socket read will be blocking and not timeout. The default value	is  60
+       seconds.
 
        --cli-connect-timeout (int)
 
-       The maximum socket connect time in seconds. If the value is set	to  0,
-       the socket connect will be blocking and not timeout.
+       The  maximum  socket connect time in seconds. If the value is set to 0,
+       the socket connect will be blocking and not timeout. The default  value
+       is 60 seconds.
 
 AVAILABLE SERVICES
        o accessanalyzer
+
+       o account
 
        o acm
 
@@ -153,7 +157,13 @@ AVAILABLE SERVICES
 
        o chime
 
+       o chime-sdk-identity
+
+       o chime-sdk-messaging
+
        o cloud9
+
+       o cloudcontrol
 
        o clouddirectory
 
@@ -313,6 +323,8 @@ AVAILABLE SERVICES
 
        o glue
 
+       o grafana
+
        o greengrass
 
        o greengrassv2
@@ -372,6 +384,8 @@ AVAILABLE SERVICES
        o ivs
 
        o kafka
+
+       o kafkaconnect
 
        o kendra
 
@@ -447,6 +461,8 @@ AVAILABLE SERVICES
 
        o mediatailor
 
+       o memorydb
+
        o meteringmarketplace
 
        o mgh
@@ -470,6 +486,8 @@ AVAILABLE SERVICES
        o networkmanager
 
        o nimble
+
+       o opensearch
 
        o opsworks
 
@@ -525,6 +543,12 @@ AVAILABLE SERVICES
 
        o route53
 
+       o route53-recovery-cluster
+
+       o route53-recovery-control-config
+
+       o route53-recovery-readiness
+
        o route53domains
 
        o route53resolver
@@ -577,6 +601,8 @@ AVAILABLE SERVICES
 
        o sms
 
+       o snow-device-management
+
        o snowball
 
        o sns
@@ -619,6 +645,8 @@ AVAILABLE SERVICES
 
        o translate
 
+       o voice-id
+
        o waf
 
        o waf-regional
@@ -626,6 +654,8 @@ AVAILABLE SERVICES
        o wafv2
 
        o wellarchitected
+
+       o wisdom
 
        o workdocs
 

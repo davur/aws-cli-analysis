@@ -98,6 +98,8 @@ AVAILABLE COMMANDS
 
        o cancel-capacity-reservation
 
+       o cancel-capacity-reservation-fleets
+
        o cancel-conversion-task
 
        o cancel-export-task
@@ -119,6 +121,8 @@ AVAILABLE COMMANDS
        o copy-snapshot
 
        o create-capacity-reservation
+
+       o create-capacity-reservation-fleet
 
        o create-carrier-gateway
 
@@ -197,6 +201,8 @@ AVAILABLE COMMANDS
        o create-store-image-task
 
        o create-subnet
+
+       o create-subnet-cidr-reservation
 
        o create-tags
 
@@ -308,6 +314,8 @@ AVAILABLE COMMANDS
 
        o delete-subnet
 
+       o delete-subnet-cidr-reservation
+
        o delete-tags
 
        o delete-traffic-mirror-filter
@@ -377,6 +385,8 @@ AVAILABLE COMMANDS
        o describe-bundle-tasks
 
        o describe-byoip-cidrs
+
+       o describe-capacity-reservation-fleets
 
        o describe-capacity-reservations
 
@@ -725,6 +735,8 @@ AVAILABLE COMMANDS
 
        o get-serial-console-access-status
 
+       o get-subnet-cidr-reservations
+
        o get-transit-gateway-attachment-propagations
 
        o get-transit-gateway-multicast-domain-associations
@@ -734,6 +746,10 @@ AVAILABLE COMMANDS
        o get-transit-gateway-route-table-associations
 
        o get-transit-gateway-route-table-propagations
+
+       o get-vpn-connection-device-sample-configuration
+
+       o get-vpn-connection-device-types
 
        o help
 
@@ -750,6 +766,8 @@ AVAILABLE COMMANDS
        o modify-availability-zone-group
 
        o modify-capacity-reservation
+
+       o modify-capacity-reservation-fleet
 
        o modify-client-vpn-endpoint
 

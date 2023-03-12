@@ -14,6 +14,10 @@ DESCRIPTION
        repositories with resource-based permissions using IAM so that specific
        users or Amazon EC2 instances can access repositories and images.
 
+       Amazon ECR has service endpoints in each supported Region. For more in-
+       formation, see Amazon ECR endpoints in the Amazon Web Services  General
+       Reference .
+
 AVAILABLE COMMANDS
        o batch-check-layer-availability
 
@@ -32,6 +36,8 @@ AVAILABLE COMMANDS
        o delete-repository
 
        o delete-repository-policy
+
+       o describe-image-replication-status
 
        o describe-image-scan-findings
 

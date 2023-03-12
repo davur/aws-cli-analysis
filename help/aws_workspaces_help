@@ -24,6 +24,8 @@ AVAILABLE COMMANDS
 
        o create-tags
 
+       o create-updated-workspace-image
+
        o create-workspace-bundle
 
        o create-workspaces

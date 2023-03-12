@@ -20,7 +20,11 @@ DESCRIPTION
        the origin server and the ad decision server (ADS).
 
 AVAILABLE COMMANDS
+       o configure-logs-for-playback-configuration
+
        o create-channel
+
+       o create-prefetch-schedule
 
        o create-program
 
@@ -33,6 +37,8 @@ AVAILABLE COMMANDS
        o delete-channel-policy
 
        o delete-playback-configuration
+
+       o delete-prefetch-schedule
 
        o delete-program
 
@@ -54,6 +60,8 @@ AVAILABLE COMMANDS
 
        o get-playback-configuration
 
+       o get-prefetch-schedule
+
        o help
 
        o list-alerts
@@ -61,6 +69,8 @@ AVAILABLE COMMANDS
        o list-channels
 
        o list-playback-configurations
+
+       o list-prefetch-schedules
 
        o list-source-locations
 

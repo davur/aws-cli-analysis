@@ -13,6 +13,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o analyze-document
 
+       o analyze-expense
+
        o detect-document-text
 
        o get-document-analysis

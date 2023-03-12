@@ -8,9 +8,9 @@ NAME
 DESCRIPTION
        Amazon  EMR  is	a  web	service  that makes it easier to process large
        amounts of data efficiently. Amazon EMR uses Hadoop processing combined
-       with  several  AWS services to do tasks such as web indexing, data min-
-       ing, log file analysis, machine learning,  scientific  simulation,  and
-       data warehouse management.
+       with  several  Amazon Web Services services to do tasks such as web in-
+       dexing, data mining, log file analysis,	machine  learning,  scientific
+       simulation, and data warehouse management.
 
 AVAILABLE COMMANDS
        o add-instance-fleet
@@ -45,6 +45,8 @@ AVAILABLE COMMANDS
 
        o describe-notebook-execution
 
+       o describe-release-label
+
        o describe-security-configuration
 
        o describe-step
@@ -54,6 +56,8 @@ AVAILABLE COMMANDS
        o disable-hbase-backups
 
        o get
+
+       o get-auto-termination-policy
 
        o get-block-public-access-configuration
 
@@ -72,6 +76,8 @@ AVAILABLE COMMANDS
        o list-instances
 
        o list-notebook-executions
+
+       o list-release-labels
 
        o list-security-configurations
 
@@ -93,11 +99,15 @@ AVAILABLE COMMANDS
 
        o put-auto-scaling-policy
 
+       o put-auto-termination-policy
+
        o put-block-public-access-configuration
 
        o put-managed-scaling-policy
 
        o remove-auto-scaling-policy
+
+       o remove-auto-termination-policy
 
        o remove-managed-scaling-policy
 

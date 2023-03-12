@@ -21,8 +21,8 @@ DESCRIPTION
        To  improve  the  security of your CodeGuru Reviewer API calls, you can
        establish a private connection between your VPC and  CodeGuru  Reviewer
        by  creating  an  interface  VPC  endpoint  . For more information, see
-       CodeGuru Reviewer and interface VPC endpoints (AWS PrivateLink) in  the
-       Amazon CodeGuru Reviewer User Guide .
+       CodeGuru Reviewer and interface VPC endpoints (Amazon Web Services Pri-
+       vateLink) in the Amazon CodeGuru Reviewer User Guide .
 
 AVAILABLE COMMANDS
        o associate-repository

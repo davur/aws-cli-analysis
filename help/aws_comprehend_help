@@ -76,6 +76,8 @@ AVAILABLE COMMANDS
 
        o list-document-classification-jobs
 
+       o list-document-classifier-summaries
+
        o list-document-classifiers
 
        o list-dominant-language-detection-jobs
@@ -83,6 +85,8 @@ AVAILABLE COMMANDS
        o list-endpoints
 
        o list-entities-detection-jobs
+
+       o list-entity-recognizer-summaries
 
        o list-entity-recognizers
 

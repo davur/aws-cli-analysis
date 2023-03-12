@@ -27,6 +27,8 @@ AVAILABLE COMMANDS
 
        o create-user
 
+       o create-workflow
+
        o delete-access
 
        o delete-server
@@ -35,7 +37,11 @@ AVAILABLE COMMANDS
 
        o delete-user
 
+       o delete-workflow
+
        o describe-access
+
+       o describe-execution
 
        o describe-security-policy
 
@@ -43,11 +49,15 @@ AVAILABLE COMMANDS
 
        o describe-user
 
+       o describe-workflow
+
        o help
 
        o import-ssh-public-key
 
        o list-accesses
+
+       o list-executions
 
        o list-security-policies
 
@@ -56,6 +66,10 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o list-users
+
+       o list-workflows
+
+       o send-workflow-step-state
 
        o start-server
 

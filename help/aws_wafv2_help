@@ -39,8 +39,8 @@ DESCRIPTION
        WAF features and an overview of how to use WAF, see the	WAF  Developer
        Guide .
 
-       You  can  make  calls using the endpoints listed in Amazon Web Services
-       Service Endpoints for WAF .
+       You can make calls using the endpoints listed in WAF endpoints and quo-
+       tas .
 
        o For regional applications, you can use any of the  endpoints  in  the
 	 list.	A  regional  application  can  be an Application Load Balancer
@@ -105,6 +105,8 @@ AVAILABLE COMMANDS
 
        o get-logging-configuration
 
+       o get-managed-rule-set
+
        o get-permission-policy
 
        o get-rate-based-statement-managed-keys
@@ -121,11 +123,15 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-available-managed-rule-group-versions
+
        o list-available-managed-rule-groups
 
        o list-ip-sets
 
        o list-logging-configurations
+
+       o list-managed-rule-sets
 
        o list-regex-pattern-sets
 
@@ -139,6 +145,8 @@ AVAILABLE COMMANDS
 
        o put-logging-configuration
 
+       o put-managed-rule-set-versions
+
        o put-permission-policy
 
        o tag-resource
@@ -146,6 +154,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-ip-set
+
+       o update-managed-rule-set-version-expiry-date
 
        o update-regex-pattern-set
 

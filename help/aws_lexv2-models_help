@@ -53,6 +53,8 @@ AVAILABLE COMMANDS
 
        o delete-slot-type
 
+       o delete-utterances
+
        o describe-bot
 
        o describe-bot-alias
@@ -74,6 +76,8 @@ AVAILABLE COMMANDS
        o describe-slot-type
 
        o help
+
+       o list-aggregated-utterances
 
        o list-bot-aliases
 
@@ -120,6 +124,8 @@ AVAILABLE COMMANDS
        o update-slot
 
        o update-slot-type
+
+       o wait
 
 
 

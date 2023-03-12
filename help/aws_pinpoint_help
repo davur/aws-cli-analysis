@@ -19,6 +19,8 @@ AVAILABLE COMMANDS
 
        o create-import-job
 
+       o create-in-app-template
+
        o create-journey
 
        o create-push-template
@@ -56,6 +58,8 @@ AVAILABLE COMMANDS
        o delete-event-stream
 
        o delete-gcm-channel
+
+       o delete-in-app-template
 
        o delete-journey
 
@@ -126,6 +130,10 @@ AVAILABLE COMMANDS
        o get-import-job
 
        o get-import-jobs
+
+       o get-in-app-messages
+
+       o get-in-app-template
 
        o get-journey
 
@@ -214,6 +222,8 @@ AVAILABLE COMMANDS
        o update-endpoints-batch
 
        o update-gcm-channel
+
+       o update-in-app-template
 
        o update-journey
 

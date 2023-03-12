@@ -102,6 +102,16 @@ AVAILABLE COMMANDS
 
        o untag-resource
 
+       o update-geofence-collection
+
+       o update-map
+
+       o update-place-index
+
+       o update-route-calculator
+
+       o update-tracker
+
 
 
 								    LOCATION()

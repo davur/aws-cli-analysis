@@ -34,6 +34,8 @@ AVAILABLE COMMANDS
 
        o create-data-set
 
+       o create-event-action
+
        o create-job
 
        o create-revision
@@ -42,11 +44,15 @@ AVAILABLE COMMANDS
 
        o delete-data-set
 
+       o delete-event-action
+
        o delete-revision
 
        o get-asset
 
        o get-data-set
+
+       o get-event-action
 
        o get-job
 
@@ -57,6 +63,8 @@ AVAILABLE COMMANDS
        o list-data-set-revisions
 
        o list-data-sets
+
+       o list-event-actions
 
        o list-jobs
 
@@ -73,6 +81,8 @@ AVAILABLE COMMANDS
        o update-asset
 
        o update-data-set
+
+       o update-event-action
 
        o update-revision
 
