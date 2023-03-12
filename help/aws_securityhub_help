@@ -68,6 +68,8 @@ AVAILABLE COMMANDS
 
        o create-action-target
 
+       o create-finding-aggregator
+
        o create-insight
 
        o create-members
@@ -75,6 +77,8 @@ AVAILABLE COMMANDS
        o decline-invitations
 
        o delete-action-target
+
+       o delete-finding-aggregator
 
        o delete-insight
 
@@ -114,6 +118,8 @@ AVAILABLE COMMANDS
 
        o get-enabled-standards
 
+       o get-finding-aggregator
+
        o get-findings
 
        o get-insight-results
@@ -130,6 +136,8 @@ AVAILABLE COMMANDS
 
        o list-enabled-products-for-import
 
+       o list-finding-aggregators
+
        o list-invitations
 
        o list-members
@@ -143,6 +151,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-action-target
+
+       o update-finding-aggregator
 
        o update-findings
 
