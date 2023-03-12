@@ -23,6 +23,8 @@ DESCRIPTION
 	  install them, see Tools for Amazon Web Services .
 
 AVAILABLE COMMANDS
+       o accept-shared-directory
+
        o add-ip-routes
 
        o add-tags-to-resource
@@ -39,6 +41,8 @@ AVAILABLE COMMANDS
 
        o create-directory
 
+       o create-log-subscription
+
        o create-microsoft-ad
 
        o create-snapshot
@@ -49,11 +53,17 @@ AVAILABLE COMMANDS
 
        o delete-directory
 
+       o delete-log-subscription
+
        o delete-snapshot
 
        o delete-trust
 
+       o deregister-certificate
+
        o deregister-event-topic
+
+       o describe-certificate
 
        o describe-conditional-forwarders
 
@@ -63,13 +73,21 @@ AVAILABLE COMMANDS
 
        o describe-event-topics
 
+       o describe-ldaps-settings
+
+       o describe-shared-directories
+
        o describe-snapshots
 
        o describe-trusts
 
+       o disable-ldaps
+
        o disable-radius
 
        o disable-sso
+
+       o enable-ldaps
 
        o enable-radius
 
@@ -81,13 +99,21 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-certificates
+
        o list-ip-routes
+
+       o list-log-subscriptions
 
        o list-schema-extensions
 
        o list-tags-for-resource
 
+       o register-certificate
+
        o register-event-topic
+
+       o reject-shared-directory
 
        o remove-ip-routes
 
@@ -97,13 +123,19 @@ AVAILABLE COMMANDS
 
        o restore-from-snapshot
 
+       o share-directory
+
        o start-schema-extension
+
+       o unshare-directory
 
        o update-conditional-forwarder
 
        o update-number-of-domain-controllers
 
        o update-radius
+
+       o update-trust
 
        o verify-trust
 

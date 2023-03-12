@@ -1,0 +1,40 @@
+EBS()									 EBS()
+
+
+
+NAME
+       ebs -
+
+DESCRIPTION
+       You  can  use  the  Amazon Elastic Block Store (EBS) direct APIs to di-
+       rectly read the data on your EBS snapshots, and identify the difference
+       between	two  snapshots.  You  can view the details of blocks in an EBS
+       snapshot, compare the block difference between two snapshots,  and  di-
+       rectly  access the data in a snapshot. If youre an independent software
+       vendor (ISV) who offers backup services for EBS, the  EBS  direct  APIs
+       makes it easier and more cost-effective to track incremental changes on
+       your EBS volumes via EBS snapshots. This can be done without having  to
+       create  new  volumes  from EBS snapshots, and then use EC2 instances to
+       compare the differences.
+
+       This API reference provides detailed  information  about  the  actions,
+       data types, parameters, and errors of the EBS direct APIs. For more in-
+       formation about the elements that make up the EBS direct APIs, and  ex-
+       amples of how to use them effectively, see Accessing the Contents of an
+       EBS Snapshot . For more information about how to  use  the  EBS	direct
+       APIs,  see  the EBS direct APIs User Guide . To view the currently sup-
+       ported AWS Regions and endpoints for the EBS direct APIs, see AWS  Ser-
+       vice Endpoints in the AWS General Reference .
+
+AVAILABLE COMMANDS
+       o get-snapshot-block
+
+       o help
+
+       o list-changed-blocks
+
+       o list-snapshot-blocks
+
+
+
+									 EBS()

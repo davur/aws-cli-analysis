@@ -1,0 +1,22 @@
+ELASTIC-INFERENCE()					   ELASTIC-INFERENCE()
+
+
+
+NAME
+       elastic-inference -
+
+DESCRIPTION
+       Elastic Inference public APIs.
+
+AVAILABLE COMMANDS
+       o help
+
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
+
+
+							   ELASTIC-INFERENCE()

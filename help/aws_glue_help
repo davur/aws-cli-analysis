@@ -19,9 +19,21 @@ AVAILABLE COMMANDS
 
        o batch-delete-table-version
 
+       o batch-get-crawlers
+
+       o batch-get-dev-endpoints
+
+       o batch-get-jobs
+
        o batch-get-partition
 
+       o batch-get-triggers
+
+       o batch-get-workflows
+
        o batch-stop-job-run
+
+       o cancel-ml-task-run
 
        o create-classifier
 
@@ -35,15 +47,21 @@ AVAILABLE COMMANDS
 
        o create-job
 
+       o create-ml-transform
+
        o create-partition
 
        o create-script
+
+       o create-security-configuration
 
        o create-table
 
        o create-trigger
 
        o create-user-defined-function
+
+       o create-workflow
 
        o delete-classifier
 
@@ -57,7 +75,13 @@ AVAILABLE COMMANDS
 
        o delete-job
 
+       o delete-ml-transform
+
        o delete-partition
+
+       o delete-resource-policy
+
+       o delete-security-configuration
 
        o delete-table
 
@@ -66,6 +90,8 @@ AVAILABLE COMMANDS
        o delete-trigger
 
        o delete-user-defined-function
+
+       o delete-workflow
 
        o get-catalog-import-status
 
@@ -83,6 +109,8 @@ AVAILABLE COMMANDS
 
        o get-crawlers
 
+       o get-data-catalog-encryption-settings
+
        o get-database
 
        o get-databases
@@ -95,6 +123,8 @@ AVAILABLE COMMANDS
 
        o get-job
 
+       o get-job-bookmark
+
        o get-job-run
 
        o get-job-runs
@@ -103,11 +133,25 @@ AVAILABLE COMMANDS
 
        o get-mapping
 
+       o get-ml-task-run
+
+       o get-ml-task-runs
+
+       o get-ml-transform
+
+       o get-ml-transforms
+
        o get-partition
 
        o get-partitions
 
        o get-plan
+
+       o get-resource-policy
+
+       o get-security-configuration
+
+       o get-security-configurations
 
        o get-table
 
@@ -117,6 +161,8 @@ AVAILABLE COMMANDS
 
        o get-tables
 
+       o get-tags
+
        o get-trigger
 
        o get-triggers
@@ -125,25 +171,65 @@ AVAILABLE COMMANDS
 
        o get-user-defined-functions
 
+       o get-workflow
+
+       o get-workflow-run
+
+       o get-workflow-run-properties
+
+       o get-workflow-runs
+
        o help
 
        o import-catalog-to-glue
 
+       o list-crawlers
+
+       o list-dev-endpoints
+
+       o list-jobs
+
+       o list-triggers
+
+       o list-workflows
+
+       o put-data-catalog-encryption-settings
+
+       o put-resource-policy
+
+       o put-workflow-run-properties
+
        o reset-job-bookmark
+
+       o search-tables
 
        o start-crawler
 
        o start-crawler-schedule
 
+       o start-export-labels-task-run
+
+       o start-import-labels-task-run
+
        o start-job-run
 
+       o start-ml-evaluation-task-run
+
+       o start-ml-labeling-set-generation-task-run
+
        o start-trigger
+
+       o start-workflow-run
 
        o stop-crawler
 
        o stop-crawler-schedule
 
        o stop-trigger
+
+       o tag-resource
+
+       o untag-resource
 
        o update-classifier
 
@@ -159,6 +245,8 @@ AVAILABLE COMMANDS
 
        o update-job
 
+       o update-ml-transform
+
        o update-partition
 
        o update-table
@@ -166,6 +254,8 @@ AVAILABLE COMMANDS
        o update-trigger
 
        o update-user-defined-function
+
+       o update-workflow
 
 
 

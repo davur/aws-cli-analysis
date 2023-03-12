@@ -1,0 +1,45 @@
+FSX()									 FSX()
+
+
+
+NAME
+       fsx -
+
+DESCRIPTION
+       Amazon  FSx  is	a fully managed service that makes it easy for storage
+       and application administrators to launch and use shared file storage.
+
+AVAILABLE COMMANDS
+       o cancel-data-repository-task
+
+       o create-backup
+
+       o create-data-repository-task
+
+       o create-file-system
+
+       o create-file-system-from-backup
+
+       o delete-backup
+
+       o delete-file-system
+
+       o describe-backups
+
+       o describe-data-repository-tasks
+
+       o describe-file-systems
+
+       o help
+
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-file-system
+
+
+
+									 FSX()

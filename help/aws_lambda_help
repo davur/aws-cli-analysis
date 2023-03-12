@@ -14,6 +14,8 @@ DESCRIPTION
        Lambda: How it Works in the AWS Lambda Developer Guide .
 
 AVAILABLE COMMANDS
+       o add-layer-version-permission
+
        o add-permission
 
        o create-alias
@@ -30,6 +32,12 @@ AVAILABLE COMMANDS
 
        o delete-function-concurrency
 
+       o delete-function-event-invoke-config
+
+       o delete-layer-version
+
+       o delete-provisioned-concurrency-config
+
        o get-account-settings
 
        o get-alias
@@ -38,9 +46,21 @@ AVAILABLE COMMANDS
 
        o get-function
 
+       o get-function-concurrency
+
        o get-function-configuration
 
+       o get-function-event-invoke-config
+
+       o get-layer-version
+
+       o get-layer-version-by-arn
+
+       o get-layer-version-policy
+
        o get-policy
+
+       o get-provisioned-concurrency-config
 
        o help
 
@@ -50,15 +70,31 @@ AVAILABLE COMMANDS
 
        o list-event-source-mappings
 
+       o list-function-event-invoke-configs
+
        o list-functions
+
+       o list-layer-versions
+
+       o list-layers
+
+       o list-provisioned-concurrency-configs
 
        o list-tags
 
        o list-versions-by-function
 
+       o publish-layer-version
+
        o publish-version
 
        o put-function-concurrency
+
+       o put-function-event-invoke-config
+
+       o put-provisioned-concurrency-config
+
+       o remove-layer-version-permission
 
        o remove-permission
 
@@ -73,6 +109,10 @@ AVAILABLE COMMANDS
        o update-function-code
 
        o update-function-configuration
+
+       o update-function-event-invoke-config
+
+       o wait
 
 
 

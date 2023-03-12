@@ -24,6 +24,12 @@ AVAILABLE COMMANDS
 
        o authorize-cache-security-group-ingress
 
+       o batch-apply-update-action
+
+       o batch-stop-update-action
+
+       o complete-migration
+
        o copy-snapshot
 
        o create-cache-cluster
@@ -37,6 +43,8 @@ AVAILABLE COMMANDS
        o create-replication-group
 
        o create-snapshot
+
+       o decrease-replica-count
 
        o delete-cache-cluster
 
@@ -72,9 +80,15 @@ AVAILABLE COMMANDS
 
        o describe-reserved-cache-nodes-offerings
 
+       o describe-service-updates
+
        o describe-snapshots
 
+       o describe-update-actions
+
        o help
+
+       o increase-replica-count
 
        o list-allowed-node-type-modifications
 
@@ -99,6 +113,8 @@ AVAILABLE COMMANDS
        o reset-cache-parameter-group
 
        o revoke-cache-security-group-ingress
+
+       o start-migration
 
        o test-failover
 

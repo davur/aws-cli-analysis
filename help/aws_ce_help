@@ -6,7 +6,7 @@ NAME
        ce -
 
 DESCRIPTION
-       The  Cost  Explorer  API allows you to programmatically query your cost
+       The  Cost  Explorer API enables you to programmatically query your cost
        and usage data. You can query for aggregated data such as total monthly
        costs  or total daily usage. You can also query for granular data, such
        as the number of daily write operations for  Amazon  DynamoDB  database
@@ -22,7 +22,17 @@ DESCRIPTION
        AWS Cost Management Pricing .
 
 AVAILABLE COMMANDS
+       o create-cost-category-definition
+
+       o delete-cost-category-definition
+
+       o describe-cost-category-definition
+
        o get-cost-and-usage
+
+       o get-cost-and-usage-with-resources
+
+       o get-cost-forecast
 
        o get-dimension-values
 
@@ -32,9 +42,25 @@ AVAILABLE COMMANDS
 
        o get-reservation-utilization
 
+       o get-rightsizing-recommendation
+
+       o get-savings-plans-coverage
+
+       o get-savings-plans-purchase-recommendation
+
+       o get-savings-plans-utilization
+
+       o get-savings-plans-utilization-details
+
        o get-tags
 
+       o get-usage-forecast
+
        o help
+
+       o list-cost-category-definitions
+
+       o update-cost-category-definition
 
 
 

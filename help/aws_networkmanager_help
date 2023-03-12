@@ -1,0 +1,74 @@
+NETWORKMANAGER()					      NETWORKMANAGER()
+
+
+
+NAME
+       networkmanager -
+
+DESCRIPTION
+       Transit Gateway Network Manager (Network Manager) enables you to create
+       a global network, in which you can monitor  your  AWS  and  on-premises
+       networks that are built around transit gateways.
+
+AVAILABLE COMMANDS
+       o associate-customer-gateway
+
+       o associate-link
+
+       o create-device
+
+       o create-global-network
+
+       o create-link
+
+       o create-site
+
+       o delete-device
+
+       o delete-global-network
+
+       o delete-link
+
+       o delete-site
+
+       o deregister-transit-gateway
+
+       o describe-global-networks
+
+       o disassociate-customer-gateway
+
+       o disassociate-link
+
+       o get-customer-gateway-associations
+
+       o get-devices
+
+       o get-link-associations
+
+       o get-links
+
+       o get-sites
+
+       o get-transit-gateway-registrations
+
+       o help
+
+       o list-tags-for-resource
+
+       o register-transit-gateway
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-device
+
+       o update-global-network
+
+       o update-link
+
+       o update-site
+
+
+
+							      NETWORKMANAGER()

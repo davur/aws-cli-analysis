@@ -1,0 +1,34 @@
+CODEGURUPROFILER()					    CODEGURUPROFILER()
+
+
+
+NAME
+       codeguruprofiler -
+
+DESCRIPTION
+       Example service documentation.
+
+AVAILABLE COMMANDS
+       o configure-agent
+
+       o create-profiling-group
+
+       o delete-profiling-group
+
+       o describe-profiling-group
+
+       o get-profile
+
+       o help
+
+       o list-profile-times
+
+       o list-profiling-groups
+
+       o post-agent-profile
+
+       o update-profiling-group
+
+
+
+							    CODEGURUPROFILER()

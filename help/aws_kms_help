@@ -9,9 +9,16 @@ DESCRIPTION
        AWS  Key  Management Service (AWS KMS) is an encryption and key manage-
        ment web service. This guide describes the AWS KMS operations that  you
        can  call  programmatically. For general information about AWS KMS, see
-       the AWS Key Management Service Developer Guide .
+       the    `    AWS	  Key	 Management    Service	   Developer	 Guide
+       https://docs.aws.amazon.com/kms/latest/developerguide/
+       `
+       __ .
 
-       NOTE:
+       System Message: WARNING/2 (<string>:, line 18)
+	      Inline interpreted text or phrase reference start-string without
+	      end-string.
+
+	      NOTE:
 	  AWS provides SDKs that consist of libraries and sample code for var-
 	  ious	programming  languages and platforms (Java, Ruby, .Net, macOS,
 	  Android, etc.). The SDKs provide a convenient way to create program-
@@ -80,7 +87,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o cancel-key-deletion
 
+       o connect-custom-key-store
+
        o create-alias
+
+       o create-custom-key-store
 
        o create-grant
 
@@ -90,13 +101,19 @@ AVAILABLE COMMANDS
 
        o delete-alias
 
+       o delete-custom-key-store
+
        o delete-imported-key-material
+
+       o describe-custom-key-stores
 
        o describe-key
 
        o disable-key
 
        o disable-key-rotation
+
+       o disconnect-custom-key-store
 
        o enable-key
 
@@ -105,6 +122,10 @@ AVAILABLE COMMANDS
        o encrypt
 
        o generate-data-key
+
+       o generate-data-key-pair
+
+       o generate-data-key-pair-without-plaintext
 
        o generate-data-key-without-plaintext
 
@@ -115,6 +136,8 @@ AVAILABLE COMMANDS
        o get-key-rotation-status
 
        o get-parameters-for-import
+
+       o get-public-key
 
        o help
 
@@ -142,13 +165,19 @@ AVAILABLE COMMANDS
 
        o schedule-key-deletion
 
+       o sign
+
        o tag-resource
 
        o untag-resource
 
        o update-alias
 
+       o update-custom-key-store
+
        o update-key-description
+
+       o verify
 
 
 

@@ -1,0 +1,89 @@
+ROBOMAKER()							   ROBOMAKER()
+
+
+
+NAME
+       robomaker -
+
+DESCRIPTION
+       This  section  provides	documentation for the AWS RoboMaker API opera-
+       tions.
+
+AVAILABLE COMMANDS
+       o batch-describe-simulation-job
+
+       o cancel-deployment-job
+
+       o cancel-simulation-job
+
+       o create-deployment-job
+
+       o create-fleet
+
+       o create-robot
+
+       o create-robot-application
+
+       o create-robot-application-version
+
+       o create-simulation-application
+
+       o create-simulation-application-version
+
+       o create-simulation-job
+
+       o delete-fleet
+
+       o delete-robot
+
+       o delete-robot-application
+
+       o delete-simulation-application
+
+       o deregister-robot
+
+       o describe-deployment-job
+
+       o describe-fleet
+
+       o describe-robot
+
+       o describe-robot-application
+
+       o describe-simulation-application
+
+       o describe-simulation-job
+
+       o help
+
+       o list-deployment-jobs
+
+       o list-fleets
+
+       o list-robot-applications
+
+       o list-robots
+
+       o list-simulation-applications
+
+       o list-simulation-jobs
+
+       o list-tags-for-resource
+
+       o register-robot
+
+       o restart-simulation-job
+
+       o sync-deployment-job
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-robot-application
+
+       o update-simulation-application
+
+
+
+								   ROBOMAKER()

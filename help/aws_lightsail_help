@@ -8,11 +8,11 @@ NAME
 DESCRIPTION
        Amazon  Lightsail is the easiest way to get started with AWS for devel-
        opers who just need virtual private servers. Lightsail includes	every-
-       thing  you  need  to  launch  your project quickly - a virtual machine,
-       SSD-based storage, data transfer, DNS management, and a static IP - for
-       a  low,	predictable  price. You manage those Lightsail servers through
-       the Lightsail console or by using the  API  or  command-line  interface
-       (CLI).
+       thing  you  need  to launch your project quickly - a virtual machine, a
+       managed database, SSD-based storage, data transfer, DNS management, and
+       a  static IP - for a low, predictable price. You manage those Lightsail
+       servers through the Lightsail console or  by  using  the  API  or  com-
+       mand-line interface (CLI).
 
        For  more  information  about  Lightsail  concepts  and	tasks, see the
        Lightsail Dev Guide .
@@ -33,6 +33,10 @@ AVAILABLE COMMANDS
        o attach-static-ip
 
        o close-instance-public-ports
+
+       o copy-snapshot
+
+       o create-cloud-formation-stack
 
        o create-disk
 
@@ -56,6 +60,14 @@ AVAILABLE COMMANDS
 
        o create-load-balancer-tls-certificate
 
+       o create-relational-database
+
+       o create-relational-database-from-snapshot
+
+       o create-relational-database-snapshot
+
+       o delete-auto-snapshot
+
        o delete-disk
 
        o delete-disk-snapshot
@@ -70,9 +82,15 @@ AVAILABLE COMMANDS
 
        o delete-key-pair
 
+       o delete-known-host-keys
+
        o delete-load-balancer
 
        o delete-load-balancer-tls-certificate
+
+       o delete-relational-database
+
+       o delete-relational-database-snapshot
 
        o detach-disk
 
@@ -80,13 +98,23 @@ AVAILABLE COMMANDS
 
        o detach-static-ip
 
+       o disable-add-on
+
        o download-default-key-pair
 
+       o enable-add-on
+
+       o export-snapshot
+
        o get-active-names
+
+       o get-auto-snapshots
 
        o get-blueprints
 
        o get-bundles
+
+       o get-cloud-formation-stack-records
 
        o get-disk
 
@@ -99,6 +127,8 @@ AVAILABLE COMMANDS
        o get-domain
 
        o get-domains
+
+       o get-export-snapshot-records
 
        o get-instance
 
@@ -136,6 +166,30 @@ AVAILABLE COMMANDS
 
        o get-regions
 
+       o get-relational-database
+
+       o get-relational-database-blueprints
+
+       o get-relational-database-bundles
+
+       o get-relational-database-events
+
+       o get-relational-database-log-events
+
+       o get-relational-database-log-streams
+
+       o get-relational-database-master-user-password
+
+       o get-relational-database-metric-data
+
+       o get-relational-database-parameters
+
+       o get-relational-database-snapshot
+
+       o get-relational-database-snapshots
+
+       o get-relational-databases
+
        o get-static-ip
 
        o get-static-ips
@@ -154,17 +208,31 @@ AVAILABLE COMMANDS
 
        o reboot-instance
 
+       o reboot-relational-database
+
        o release-static-ip
 
        o start-instance
 
+       o start-relational-database
+
        o stop-instance
 
+       o stop-relational-database
+
+       o tag-resource
+
        o unpeer-vpc
+
+       o untag-resource
 
        o update-domain-entry
 
        o update-load-balancer-attribute
+
+       o update-relational-database
+
+       o update-relational-database-parameters
 
 
 

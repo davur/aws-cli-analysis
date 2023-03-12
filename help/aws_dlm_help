@@ -27,6 +27,12 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
        o update-lifecycle-policy
 
 

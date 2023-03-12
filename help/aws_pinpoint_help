@@ -6,18 +6,28 @@ NAME
        pinpoint -
 
 DESCRIPTION
-       Amazon Pinpoint
+       Doc Engage API - Amazon Pinpoint API
 
 AVAILABLE COMMANDS
        o create-app
 
        o create-campaign
 
+       o create-email-template
+
        o create-export-job
 
        o create-import-job
 
+       o create-journey
+
+       o create-push-template
+
        o create-segment
+
+       o create-sms-template
+
+       o create-voice-template
 
        o delete-adm-channel
 
@@ -37,17 +47,29 @@ AVAILABLE COMMANDS
 
        o delete-email-channel
 
+       o delete-email-template
+
        o delete-endpoint
 
        o delete-event-stream
 
        o delete-gcm-channel
 
+       o delete-journey
+
+       o delete-push-template
+
        o delete-segment
 
        o delete-sms-channel
 
+       o delete-sms-template
+
        o delete-user-endpoints
+
+       o delete-voice-channel
+
+       o delete-voice-template
 
        o get-adm-channel
 
@@ -61,6 +83,8 @@ AVAILABLE COMMANDS
 
        o get-app
 
+       o get-application-date-range-kpi
+
        o get-application-settings
 
        o get-apps
@@ -71,6 +95,8 @@ AVAILABLE COMMANDS
 
        o get-campaign-activities
 
+       o get-campaign-date-range-kpi
+
        o get-campaign-version
 
        o get-campaign-versions
@@ -80,6 +106,8 @@ AVAILABLE COMMANDS
        o get-channels
 
        o get-email-channel
+
+       o get-email-template
 
        o get-endpoint
 
@@ -95,6 +123,16 @@ AVAILABLE COMMANDS
 
        o get-import-jobs
 
+       o get-journey
+
+       o get-journey-date-range-kpi
+
+       o get-journey-execution-activity-metrics
+
+       o get-journey-execution-metrics
+
+       o get-push-template
+
        o get-segment
 
        o get-segment-export-jobs
@@ -109,9 +147,23 @@ AVAILABLE COMMANDS
 
        o get-sms-channel
 
+       o get-sms-template
+
        o get-user-endpoints
 
+       o get-voice-channel
+
+       o get-voice-template
+
        o help
+
+       o list-journeys
+
+       o list-tags-for-resource
+
+       o list-template-versions
+
+       o list-templates
 
        o phone-number-validate
 
@@ -124,6 +176,10 @@ AVAILABLE COMMANDS
        o send-messages
 
        o send-users-messages
+
+       o tag-resource
+
+       o untag-resource
 
        o update-adm-channel
 
@@ -143,15 +199,31 @@ AVAILABLE COMMANDS
 
        o update-email-channel
 
+       o update-email-template
+
        o update-endpoint
 
        o update-endpoints-batch
 
        o update-gcm-channel
 
+       o update-journey
+
+       o update-journey-state
+
+       o update-push-template
+
        o update-segment
 
        o update-sms-channel
+
+       o update-sms-template
+
+       o update-template-active-version
+
+       o update-voice-channel
+
+       o update-voice-template
 
 
 

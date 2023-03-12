@@ -6,11 +6,18 @@ NAME
        connect -
 
 DESCRIPTION
-       The Amazon Connect API Reference provides descriptions, syntax, and us-
-       age examples for each of the Amazon Connect actions, data types, param-
-       eters, and errors. Amazon Connect is a cloud-based contact center solu-
-       tion that makes it easy to set up and manage a customer contact	center
-       and provide reliable customer engagement at any scale.
+       Amazon  Connect	is a cloud-based contact center solution that makes it
+       easy to set up and manage a customer contact center and	provide  reli-
+       able customer engagement at any scale.
+
+       Amazon Connect provides rich metrics and real-time reporting that allow
+       you to optimize contact routing. You can also resolve  customer	issues
+       more efficiently by putting customers in touch with the right agents.
+
+       There are limits to the number of Amazon Connect resources that you can
+       create and limits to the number of requests that you can make per  sec-
+       ond.  For  more	information,  see Amazon Connect Service Limits in the
+       Amazon Connect Administrator Guide .
 
 AVAILABLE COMMANDS
        o create-user
@@ -23,21 +30,45 @@ AVAILABLE COMMANDS
 
        o describe-user-hierarchy-structure
 
+       o get-contact-attributes
+
+       o get-current-metric-data
+
        o get-federation-token
 
+       o get-metric-data
+
        o help
+
+       o list-contact-flows
+
+       o list-hours-of-operations
+
+       o list-phone-numbers
+
+       o list-queues
 
        o list-routing-profiles
 
        o list-security-profiles
 
+       o list-tags-for-resource
+
        o list-user-hierarchy-groups
 
        o list-users
 
+       o start-chat-contact
+
        o start-outbound-voice-contact
 
        o stop-contact
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-contact-attributes
 
        o update-user-hierarchy
 

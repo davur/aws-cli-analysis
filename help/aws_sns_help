@@ -10,7 +10,7 @@ DESCRIPTION
        enables you to build distributed web-enabled applications. Applications
        can  use  Amazon  SNS to easily push real-time notification messages to
        interested subscribers over multiple delivery protocols. For  more  in-
-       formation  about  this  product see http://aws.amazon.com/sns . For de-
+       formation  about  this product see https://aws.amazon.com/sns . For de-
        tailed information about Amazon SNS features and their  associated  API
        calls, see the Amazon SNS Developer Guide .
 
@@ -61,6 +61,8 @@ AVAILABLE COMMANDS
 
        o list-subscriptions-by-topic
 
+       o list-tags-for-resource
+
        o list-topics
 
        o opt-in-phone-number
@@ -81,7 +83,11 @@ AVAILABLE COMMANDS
 
        o subscribe
 
+       o tag-resource
+
        o unsubscribe
+
+       o untag-resource
 
 
 

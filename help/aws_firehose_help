@@ -28,6 +28,10 @@ AVAILABLE COMMANDS
 
        o put-record-batch
 
+       o start-delivery-stream-encryption
+
+       o stop-delivery-stream-encryption
+
        o tag-delivery-stream
 
        o untag-delivery-stream

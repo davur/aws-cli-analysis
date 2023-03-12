@@ -8,9 +8,9 @@ NAME
 DESCRIPTION
        Amazon  Relational  Database Service (Amazon RDS) is a web service that
        makes it easier to set up, operate, and scale a relational database  in
-       the cloud. It provides cost-efficient, resizable capacity for an indus-
-       try-standard relational database and manages common  database  adminis-
-       tration	tasks,	freeing up developers to focus on what makes their ap-
+       the  cloud.  It provides cost-efficient, resizeable capacity for an in-
+       dustry-standard relational database and manages common database	admin-
+       istration tasks, freeing up developers to focus on what makes their ap-
        plications and businesses unique.
 
        Amazon RDS gives you access to the capabilities of  a  MySQL,  MariaDB,
@@ -55,6 +55,8 @@ AVAILABLE COMMANDS
 
        o add-role-to-db-cluster
 
+       o add-role-to-db-instance
+
        o add-source-identifier-to-subscription
 
        o add-tags-to-resource
@@ -75,7 +77,11 @@ AVAILABLE COMMANDS
 
        o copy-option-group
 
+       o create-custom-availability-zone
+
        o create-db-cluster
+
+       o create-db-cluster-endpoint
 
        o create-db-cluster-parameter-group
 
@@ -87,6 +93,8 @@ AVAILABLE COMMANDS
 
        o create-db-parameter-group
 
+       o create-db-proxy
+
        o create-db-security-group
 
        o create-db-snapshot
@@ -95,9 +103,15 @@ AVAILABLE COMMANDS
 
        o create-event-subscription
 
+       o create-global-cluster
+
        o create-option-group
 
+       o delete-custom-availability-zone
+
        o delete-db-cluster
+
+       o delete-db-cluster-endpoint
 
        o delete-db-cluster-parameter-group
 
@@ -105,7 +119,11 @@ AVAILABLE COMMANDS
 
        o delete-db-instance
 
+       o delete-db-instance-automated-backup
+
        o delete-db-parameter-group
+
+       o delete-db-proxy
 
        o delete-db-security-group
 
@@ -115,13 +133,23 @@ AVAILABLE COMMANDS
 
        o delete-event-subscription
 
+       o delete-global-cluster
+
+       o delete-installation-media
+
        o delete-option-group
+
+       o deregister-db-proxy-targets
 
        o describe-account-attributes
 
        o describe-certificates
 
+       o describe-custom-availability-zones
+
        o describe-db-cluster-backtracks
+
+       o describe-db-cluster-endpoints
 
        o describe-db-cluster-parameter-groups
 
@@ -135,6 +163,8 @@ AVAILABLE COMMANDS
 
        o describe-db-engine-versions
 
+       o describe-db-instance-automated-backups
+
        o describe-db-instances
 
        o describe-db-log-files
@@ -142,6 +172,12 @@ AVAILABLE COMMANDS
        o describe-db-parameter-groups
 
        o describe-db-parameters
+
+       o describe-db-proxies
+
+       o describe-db-proxy-target-groups
+
+       o describe-db-proxy-targets
 
        o describe-db-security-groups
 
@@ -160,6 +196,10 @@ AVAILABLE COMMANDS
        o describe-event-subscriptions
 
        o describe-events
+
+       o describe-global-clusters
+
+       o describe-installation-media
 
        o describe-option-group-options
 
@@ -185,11 +225,15 @@ AVAILABLE COMMANDS
 
        o help
 
+       o import-installation-media
+
        o list-tags-for-resource
 
        o modify-current-db-cluster-capacity
 
        o modify-db-cluster
+
+       o modify-db-cluster-endpoint
 
        o modify-db-cluster-parameter-group
 
@@ -199,6 +243,10 @@ AVAILABLE COMMANDS
 
        o modify-db-parameter-group
 
+       o modify-db-proxy
+
+       o modify-db-proxy-target-group
+
        o modify-db-snapshot
 
        o modify-db-snapshot-attribute
@@ -206,6 +254,8 @@ AVAILABLE COMMANDS
        o modify-db-subnet-group
 
        o modify-event-subscription
+
+       o modify-global-cluster
 
        o promote-read-replica
 
@@ -215,9 +265,15 @@ AVAILABLE COMMANDS
 
        o reboot-db-instance
 
+       o register-db-proxy-targets
+
+       o remove-from-global-cluster
+
        o remove-option-from-option-group
 
        o remove-role-from-db-cluster
+
+       o remove-role-from-db-instance
 
        o remove-source-identifier-from-subscription
 
@@ -241,7 +297,15 @@ AVAILABLE COMMANDS
 
        o revoke-db-security-group-ingress
 
+       o start-activity-stream
+
+       o start-db-cluster
+
        o start-db-instance
+
+       o stop-activity-stream
+
+       o stop-db-cluster
 
        o stop-db-instance
 

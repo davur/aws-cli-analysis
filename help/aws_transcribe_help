@@ -11,11 +11,19 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-vocabulary
 
+       o create-vocabulary-filter
+
+       o delete-transcription-job
+
        o delete-vocabulary
+
+       o delete-vocabulary-filter
 
        o get-transcription-job
 
        o get-vocabulary
+
+       o get-vocabulary-filter
 
        o help
 
@@ -23,9 +31,13 @@ AVAILABLE COMMANDS
 
        o list-vocabularies
 
+       o list-vocabulary-filters
+
        o start-transcription-job
 
        o update-vocabulary
+
+       o update-vocabulary-filter
 
 
 

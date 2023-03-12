@@ -55,6 +55,8 @@ AVAILABLE COMMANDS
 
        o list-state-machines
 
+       o list-tags-for-resource
+
        o send-task-failure
 
        o send-task-heartbeat
@@ -64,6 +66,10 @@ AVAILABLE COMMANDS
        o start-execution
 
        o stop-execution
+
+       o tag-resource
+
+       o untag-resource
 
        o update-state-machine
 

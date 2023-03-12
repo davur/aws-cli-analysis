@@ -7,12 +7,14 @@ NAME
 
 DESCRIPTION
        Amazon  WorkSpaces enables you to provision virtual, cloud-based Micro-
-       soft Windows desktops for your users.
+       soft Windows and Amazon Linux desktops for your users.
 
 AVAILABLE COMMANDS
        o associate-ip-groups
 
        o authorize-ip-rules
+
+       o copy-workspace-image
 
        o create-ip-group
 
@@ -24,6 +26,16 @@ AVAILABLE COMMANDS
 
        o delete-tags
 
+       o delete-workspace-image
+
+       o deregister-workspace-directory
+
+       o describe-account
+
+       o describe-account-modifications
+
+       o describe-client-properties
+
        o describe-ip-groups
 
        o describe-tags
@@ -31,6 +43,10 @@ AVAILABLE COMMANDS
        o describe-workspace-bundles
 
        o describe-workspace-directories
+
+       o describe-workspace-images
+
+       o describe-workspace-snapshots
 
        o describe-workspaces
 
@@ -40,6 +56,20 @@ AVAILABLE COMMANDS
 
        o help
 
+       o import-workspace-image
+
+       o list-available-management-cidr-ranges
+
+       o modify-account
+
+       o modify-client-properties
+
+       o modify-selfservice-permissions
+
+       o modify-workspace-access-properties
+
+       o modify-workspace-creation-properties
+
        o modify-workspace-properties
 
        o modify-workspace-state
@@ -47,6 +77,10 @@ AVAILABLE COMMANDS
        o reboot-workspaces
 
        o rebuild-workspaces
+
+       o register-workspace-directory
+
+       o restore-workspace
 
        o revoke-ip-rules
 

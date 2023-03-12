@@ -39,6 +39,12 @@ AVAILABLE COMMANDS
 
        o authorize-snapshot-access
 
+       o batch-delete-cluster-snapshots
+
+       o batch-modify-cluster-snapshots
+
+       o cancel-resize
+
        o copy-cluster-snapshot
 
        o create-cluster
@@ -57,7 +63,11 @@ AVAILABLE COMMANDS
 
        o create-hsm-configuration
 
+       o create-scheduled-action
+
        o create-snapshot-copy-grant
+
+       o create-snapshot-schedule
 
        o create-tags
 
@@ -77,9 +87,15 @@ AVAILABLE COMMANDS
 
        o delete-hsm-configuration
 
+       o delete-scheduled-action
+
        o delete-snapshot-copy-grant
 
+       o delete-snapshot-schedule
+
        o delete-tags
+
+       o describe-account-attributes
 
        o describe-cluster-db-revisions
 
@@ -113,6 +129,8 @@ AVAILABLE COMMANDS
 
        o describe-logging-status
 
+       o describe-node-configuration-options
+
        o describe-orderable-cluster-options
 
        o describe-reserved-node-offerings
@@ -121,7 +139,13 @@ AVAILABLE COMMANDS
 
        o describe-resize
 
+       o describe-scheduled-actions
+
        o describe-snapshot-copy-grants
+
+       o describe-snapshot-schedules
+
+       o describe-storage
 
        o describe-table-restore-status
 
@@ -147,13 +171,23 @@ AVAILABLE COMMANDS
 
        o modify-cluster-iam-roles
 
+       o modify-cluster-maintenance
+
        o modify-cluster-parameter-group
+
+       o modify-cluster-snapshot
+
+       o modify-cluster-snapshot-schedule
 
        o modify-cluster-subnet-group
 
        o modify-event-subscription
 
+       o modify-scheduled-action
+
        o modify-snapshot-copy-retention-period
+
+       o modify-snapshot-schedule
 
        o purchase-reserved-node-offering
 

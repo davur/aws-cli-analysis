@@ -6,7 +6,7 @@ NAME
        iot1click-projects -
 
 DESCRIPTION
-       The AWS IoT 1-Click Project API Reference
+       The AWS IoT 1-Click Projects API Reference
 
 AVAILABLE COMMANDS
        o associate-device-with-placement
@@ -32,6 +32,12 @@ AVAILABLE COMMANDS
        o list-placements
 
        o list-projects
+
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
 
        o update-placement
 

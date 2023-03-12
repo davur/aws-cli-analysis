@@ -1,0 +1,57 @@
+CODESTAR-CONNECTIONS()					CODESTAR-CONNECTIONS()
+
+
+
+NAME
+       codestar-connections -
+
+DESCRIPTION
+       This  AWS  CodeStar Connections API Reference provides descriptions and
+       usage examples of the operations and data types for  the  AWS  CodeStar
+       Connections  API.  You can use the Connections API to work with connec-
+       tions and installations.
+	  Connections are configurations that you use to connect AWS resources
+	  to  external	code  repositories. Each connection is a resource that
+	  can be given to services  such  as  CodePipeline  to	connect  to  a
+	  third-party  repository  such as Bitbucket. For example, you can add
+	  the connection in CodePipeline so that  it  triggers	your  pipeline
+	  when a code change is made to your third-party code repository. Each
+	  connection is named and associated with a unique ARN that is used to
+	  reference the connection.
+
+       When  you create a connection, the console initiates a third-party con-
+       nection handshake. Installations are the apps that are used to  conduct
+       this  handshake.  For  example,	the  installation  for	the  Bitbucket
+       provider type is the Bitbucket Cloud app. When you create a connection,
+       you can choose an existing installation or create one.
+
+       You can work with connections by calling:
+
+       o CreateConnection , which creates a uniquely named connection that can
+	 be referenced by services such as CodePipeline.
+
+       o DeleteConnection , which deletes the specified connection.
+
+       o GetConnection , which returns information about the  connection,  in-
+	 cluding the connection status.
+
+       o ListConnections  ,  which  lists the connections associated with your
+	 account.
+
+       For information about how to use AWS CodeStar Connections, see the  AWS
+       CodePipeline User Guide .
+
+AVAILABLE COMMANDS
+       o create-connection
+
+       o delete-connection
+
+       o get-connection
+
+       o help
+
+       o list-connections
+
+
+
+							CODESTAR-CONNECTIONS()

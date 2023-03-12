@@ -26,7 +26,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o delete-alarms
 
+       o delete-anomaly-detector
+
        o delete-dashboards
+
+       o delete-insight-rules
 
        o describe-alarm-history
 
@@ -34,15 +38,27 @@ AVAILABLE COMMANDS
 
        o describe-alarms-for-metric
 
+       o describe-anomaly-detectors
+
+       o describe-insight-rules
+
        o disable-alarm-actions
+
+       o disable-insight-rules
 
        o enable-alarm-actions
 
+       o enable-insight-rules
+
        o get-dashboard
+
+       o get-insight-rule-report
 
        o get-metric-data
 
        o get-metric-statistics
+
+       o get-metric-widget-image
 
        o help
 
@@ -50,13 +66,23 @@ AVAILABLE COMMANDS
 
        o list-metrics
 
+       o list-tags-for-resource
+
+       o put-anomaly-detector
+
        o put-dashboard
+
+       o put-insight-rule
 
        o put-metric-alarm
 
        o put-metric-data
 
        o set-alarm-state
+
+       o tag-resource
+
+       o untag-resource
 
        o wait
 

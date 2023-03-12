@@ -9,6 +9,8 @@ DESCRIPTION
        AWS Elemental MediaConvert
 
 AVAILABLE COMMANDS
+       o associate-certificate
+
        o cancel-job
 
        o create-job
@@ -26,6 +28,8 @@ AVAILABLE COMMANDS
        o delete-queue
 
        o describe-endpoints
+
+       o disassociate-certificate
 
        o get-job
 

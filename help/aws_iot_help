@@ -22,6 +22,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-certificate-transfer
 
+       o add-thing-to-billing-group
+
        o add-thing-to-thing-group
 
        o associate-targets-with-job
@@ -31,6 +33,8 @@ AVAILABLE COMMANDS
        o attach-security-profile
 
        o attach-thing-principal
+
+       o cancel-audit-mitigation-actions-task
 
        o cancel-audit-task
 
@@ -42,19 +46,35 @@ AVAILABLE COMMANDS
 
        o clear-default-authorizer
 
+       o confirm-topic-rule-destination
+
        o create-authorizer
 
+       o create-billing-group
+
        o create-certificate-from-csr
+
+       o create-domain-configuration
+
+       o create-dynamic-thing-group
 
        o create-job
 
        o create-keys-and-certificate
+
+       o create-mitigation-action
 
        o create-ota-update
 
        o create-policy
 
        o create-policy-version
+
+       o create-provisioning-claim
+
+       o create-provisioning-template
+
+       o create-provisioning-template-version
 
        o create-role-alias
 
@@ -72,23 +92,37 @@ AVAILABLE COMMANDS
 
        o create-topic-rule
 
+       o create-topic-rule-destination
+
        o delete-account-audit-configuration
 
        o delete-authorizer
+
+       o delete-billing-group
 
        o delete-ca-certificate
 
        o delete-certificate
 
+       o delete-domain-configuration
+
+       o delete-dynamic-thing-group
+
        o delete-job
 
        o delete-job-execution
+
+       o delete-mitigation-action
 
        o delete-ota-update
 
        o delete-policy
 
        o delete-policy-version
+
+       o delete-provisioning-template
+
+       o delete-provisioning-template-version
 
        o delete-registration-code
 
@@ -108,21 +142,31 @@ AVAILABLE COMMANDS
 
        o delete-topic-rule
 
+       o delete-topic-rule-destination
+
        o delete-v2-logging-level
 
        o deprecate-thing-type
 
        o describe-account-audit-configuration
 
+       o describe-audit-finding
+
+       o describe-audit-mitigation-actions-task
+
        o describe-audit-task
 
        o describe-authorizer
+
+       o describe-billing-group
 
        o describe-ca-certificate
 
        o describe-certificate
 
        o describe-default-authorizer
+
+       o describe-domain-configuration
 
        o describe-endpoint
 
@@ -133,6 +177,12 @@ AVAILABLE COMMANDS
        o describe-job
 
        o describe-job-execution
+
+       o describe-mitigation-action
+
+       o describe-provisioning-template
+
+       o describe-provisioning-template-version
 
        o describe-role-alias
 
@@ -160,6 +210,8 @@ AVAILABLE COMMANDS
 
        o enable-topic-rule
 
+       o get-cardinality
+
        o get-effective-policies
 
        o get-indexing-configuration
@@ -170,13 +222,19 @@ AVAILABLE COMMANDS
 
        o get-ota-update
 
+       o get-percentiles
+
        o get-policy
 
        o get-policy-version
 
        o get-registration-code
 
+       o get-statistics
+
        o get-topic-rule
+
+       o get-topic-rule-destination
 
        o get-v2-logging-options
 
@@ -188,15 +246,23 @@ AVAILABLE COMMANDS
 
        o list-audit-findings
 
+       o list-audit-mitigation-actions-executions
+
+       o list-audit-mitigation-actions-tasks
+
        o list-audit-tasks
 
        o list-authorizers
+
+       o list-billing-groups
 
        o list-ca-certificates
 
        o list-certificates
 
        o list-certificates-by-ca
+
+       o list-domain-configurations
 
        o list-indices
 
@@ -205,6 +271,8 @@ AVAILABLE COMMANDS
        o list-job-executions-for-thing
 
        o list-jobs
+
+       o list-mitigation-actions
 
        o list-ota-updates
 
@@ -216,6 +284,10 @@ AVAILABLE COMMANDS
 
        o list-principal-things
 
+       o list-provisioning-template-versions
+
+       o list-provisioning-templates
+
        o list-role-aliases
 
        o list-scheduled-audits
@@ -225,6 +297,8 @@ AVAILABLE COMMANDS
        o list-security-profiles-for-target
 
        o list-streams
+
+       o list-tags-for-resource
 
        o list-targets-for-policy
 
@@ -244,7 +318,11 @@ AVAILABLE COMMANDS
 
        o list-things
 
+       o list-things-in-billing-group
+
        o list-things-in-thing-group
+
+       o list-topic-rule-destinations
 
        o list-topic-rules
 
@@ -259,6 +337,8 @@ AVAILABLE COMMANDS
        o register-thing
 
        o reject-certificate-transfer
+
+       o remove-thing-from-billing-group
 
        o remove-thing-from-thing-group
 
@@ -276,11 +356,15 @@ AVAILABLE COMMANDS
 
        o set-v2-logging-options
 
+       o start-audit-mitigation-actions-task
+
        o start-on-demand-audit-task
 
        o start-thing-registration-task
 
        o stop-thing-registration-task
+
+       o tag-resource
 
        o test-authorization
 
@@ -288,17 +372,31 @@ AVAILABLE COMMANDS
 
        o transfer-certificate
 
+       o untag-resource
+
        o update-account-audit-configuration
 
        o update-authorizer
+
+       o update-billing-group
 
        o update-ca-certificate
 
        o update-certificate
 
+       o update-domain-configuration
+
+       o update-dynamic-thing-group
+
        o update-event-configurations
 
        o update-indexing-configuration
+
+       o update-job
+
+       o update-mitigation-action
+
+       o update-provisioning-template
 
        o update-role-alias
 
@@ -313,6 +411,8 @@ AVAILABLE COMMANDS
        o update-thing-group
 
        o update-thing-groups-for-thing
+
+       o update-topic-rule-destination
 
        o validate-security-profile-behaviors
 

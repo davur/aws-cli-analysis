@@ -159,6 +159,10 @@ AVAILABLE COMMANDS
 
        o generate-credential-report
 
+       o generate-organizations-access-report
+
+       o generate-service-last-accessed-details
+
        o get-access-key-last-used
 
        o get-account-authorization-details
@@ -183,6 +187,8 @@ AVAILABLE COMMANDS
 
        o get-open-id-connect-provider
 
+       o get-organizations-access-report
+
        o get-policy
 
        o get-policy-version
@@ -194,6 +200,10 @@ AVAILABLE COMMANDS
        o get-saml-provider
 
        o get-server-certificate
+
+       o get-service-last-accessed-details
+
+       o get-service-last-accessed-details-with-entities
 
        o get-service-linked-role-deletion-status
 
@@ -233,9 +243,13 @@ AVAILABLE COMMANDS
 
        o list-policies
 
+       o list-policies-granting-service-access
+
        o list-policy-versions
 
        o list-role-policies
+
+       o list-role-tags
 
        o list-roles
 
@@ -250,6 +264,8 @@ AVAILABLE COMMANDS
        o list-ssh-public-keys
 
        o list-user-policies
+
+       o list-user-tags
 
        o list-users
 
@@ -277,9 +293,19 @@ AVAILABLE COMMANDS
 
        o set-default-policy-version
 
+       o set-security-token-service-preferences
+
        o simulate-custom-policy
 
        o simulate-principal-policy
+
+       o tag-role
+
+       o tag-user
+
+       o untag-role
+
+       o untag-user
 
        o update-access-key
 

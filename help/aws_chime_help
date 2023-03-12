@@ -1,0 +1,236 @@
+CHIME() 							       CHIME()
+
+
+
+NAME
+       chime -
+
+DESCRIPTION
+       The  Amazon  Chime  API (application programming interface) is designed
+       for developers to perform key tasks, such as creating and managing Ama-
+       zon  Chime  accounts,  users, and Voice Connectors. This guide provides
+       detailed information about the Amazon Chime API, including  operations,
+       types,  inputs  and  outputs,  and  error  codes. It also includes some
+       server-side API actions to use with the Amazon Chime SDK. For more  in-
+       formation about the Amazon Chime SDK, see Using the Amazon Chime SDK in
+       the Amazon Chime Developer Guide .
+
+       You can use an AWS SDK, the AWS Command Line Interface  (AWS  CLI),  or
+       the  REST  API  to make API calls. We recommend using an AWS SDK or the
+       AWS CLI. Each API operation includes links to information  about  using
+       it with a language-specific AWS SDK or the AWS CLI.
+	  Using an AWS SDK
+
+       You  don't  need to write code to calculate a signature for request au-
+       thentication. The SDK clients authenticate your requests by  using  ac-
+       cess  keys  that  you provide. For more information about AWS SDKs, see
+       the AWS Developer Center .
+	  Using the AWS CLI
+
+       Use your access keys with the AWS CLI to make API calls.  For  informa-
+       tion  about setting up the AWS CLI, see Installing the AWS Command Line
+       Interface in the AWS Command Line Interface User Guide . For a list  of
+       available  Amazon  Chime commands, see the Amazon Chime commands in the
+       AWS CLI Command Reference .
+	  Using REST API
+
+       If you use REST to make API calls, you must authenticate  your  request
+       by  providing  a  signature. Amazon Chime supports signature version 4.
+       For more information, see Signature Version 4 Signing  Process  in  the
+       Amazon Web Services General Reference .
+
+       When  making  REST  API calls, use the service name chime and REST end-
+       point https://service.chime.aws.amazon.com .
+
+       Administrative permissions are controlled using AWS Identity and Access
+       Management (IAM). For more information, see Identity and Access Manage-
+       ment for Amazon Chime in the Amazon Chime Administration Guide .
+
+AVAILABLE COMMANDS
+       o associate-phone-number-with-user
+
+       o associate-phone-numbers-with-voice-connector
+
+       o associate-phone-numbers-with-voice-connector-group
+
+       o batch-create-attendee
+
+       o batch-create-room-membership
+
+       o batch-delete-phone-number
+
+       o batch-suspend-user
+
+       o batch-unsuspend-user
+
+       o batch-update-phone-number
+
+       o batch-update-user
+
+       o create-account
+
+       o create-attendee
+
+       o create-bot
+
+       o create-meeting
+
+       o create-phone-number-order
+
+       o create-room
+
+       o create-room-membership
+
+       o create-voice-connector
+
+       o create-voice-connector-group
+
+       o delete-account
+
+       o delete-attendee
+
+       o delete-events-configuration
+
+       o delete-meeting
+
+       o delete-phone-number
+
+       o delete-room
+
+       o delete-room-membership
+
+       o delete-voice-connector
+
+       o delete-voice-connector-group
+
+       o delete-voice-connector-origination
+
+       o delete-voice-connector-streaming-configuration
+
+       o delete-voice-connector-termination
+
+       o delete-voice-connector-termination-credentials
+
+       o disassociate-phone-number-from-user
+
+       o disassociate-phone-numbers-from-voice-connector
+
+       o disassociate-phone-numbers-from-voice-connector-group
+
+       o get-account
+
+       o get-account-settings
+
+       o get-attendee
+
+       o get-bot
+
+       o get-events-configuration
+
+       o get-global-settings
+
+       o get-meeting
+
+       o get-phone-number
+
+       o get-phone-number-order
+
+       o get-phone-number-settings
+
+       o get-room
+
+       o get-user
+
+       o get-user-settings
+
+       o get-voice-connector
+
+       o get-voice-connector-group
+
+       o get-voice-connector-logging-configuration
+
+       o get-voice-connector-origination
+
+       o get-voice-connector-streaming-configuration
+
+       o get-voice-connector-termination
+
+       o get-voice-connector-termination-health
+
+       o help
+
+       o invite-users
+
+       o list-accounts
+
+       o list-attendees
+
+       o list-bots
+
+       o list-meetings
+
+       o list-phone-number-orders
+
+       o list-phone-numbers
+
+       o list-room-memberships
+
+       o list-rooms
+
+       o list-users
+
+       o list-voice-connector-groups
+
+       o list-voice-connector-termination-credentials
+
+       o list-voice-connectors
+
+       o logout-user
+
+       o put-events-configuration
+
+       o put-voice-connector-logging-configuration
+
+       o put-voice-connector-origination
+
+       o put-voice-connector-streaming-configuration
+
+       o put-voice-connector-termination
+
+       o put-voice-connector-termination-credentials
+
+       o regenerate-security-token
+
+       o reset-personal-pin
+
+       o restore-phone-number
+
+       o search-available-phone-numbers
+
+       o update-account
+
+       o update-account-settings
+
+       o update-bot
+
+       o update-global-settings
+
+       o update-phone-number
+
+       o update-phone-number-settings
+
+       o update-room
+
+       o update-room-membership
+
+       o update-user
+
+       o update-user-settings
+
+       o update-voice-connector
+
+       o update-voice-connector-group
+
+
+
+								       CHIME()

@@ -6,7 +6,7 @@ NAME
        sagemaker-runtime -
 
 DESCRIPTION
-       Amazon SageMaker runtime API.
+       The Amazon SageMaker runtime API.
 
 AVAILABLE COMMANDS
        o help

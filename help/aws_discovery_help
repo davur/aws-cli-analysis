@@ -55,30 +55,33 @@ DESCRIPTION
 	  operate Application Discovery Service offline to  inspect  collected
 	  data before it is shared with the service.
 
-       Your  AWS  account must be granted access to Application Discovery Ser-
-       vice, a process called whitelisting . This is true for AWS partners and
-       customers  alike.  To request access, sign up for Application Discovery
-       Service .
-
-       This API reference provides descriptions, syntax,  and  usage  examples
-       for  each  of the actions and data types for Application Discovery Ser-
-       vice. The topic for each action shows the API  request  parameters  and
-       the  response. Alternatively, you can use one of the AWS SDKs to access
-       an API that is tailored to the programming language  or	platform  that
+       This  API  reference  provides descriptions, syntax, and usage examples
+       for each of the actions and data types for Application  Discovery  Ser-
+       vice.  The  topic  for each action shows the API request parameters and
+       the response. Alternatively, you can use one of the AWS SDKs to	access
+       an  API	that  is tailored to the programming language or platform that
        you're using. For more information, see AWS SDKs .
 
-       This  guide  is	intended  for use with the ` AWS Application Discovery
-       Service				 User				 Guide
+       This guide is intended for use with the	`  AWS	Application  Discovery
+       Service				  User				 Guide
        http://docs.aws.amazon.com/application-discovery/latest/userguide/
        `
        __ .
 
-       System Message: WARNING/2 (<string>:, line 60)
+       System Message: WARNING/2 (<string>:, line 56)
 	      Inline interpreted text or phrase reference start-string without
 	      end-string.
 
+	      NOTE:
+	  Remember that you must set your AWS Migration Hub home region before
+	  you call any of these APIs,  or  a  HomeRegionNotSetException  error
+	  will	be  returned.  Also, you must make the API calls while in your
+	  home region.
+
 AVAILABLE COMMANDS
        o associate-configuration-items-to-application
+
+       o batch-delete-import-data
 
        o create-application
 
@@ -95,6 +98,8 @@ AVAILABLE COMMANDS
        o describe-continuous-exports
 
        o describe-export-tasks
+
+       o describe-import-tasks
 
        o describe-tags
 
@@ -113,6 +118,8 @@ AVAILABLE COMMANDS
        o start-data-collection-by-agent-ids
 
        o start-export-task
+
+       o start-import-task
 
        o stop-continuous-export
 

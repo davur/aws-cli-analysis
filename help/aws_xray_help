@@ -12,9 +12,29 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o batch-get-traces
 
+       o create-group
+
+       o create-sampling-rule
+
+       o delete-group
+
+       o delete-sampling-rule
+
        o get-encryption-config
 
+       o get-group
+
+       o get-groups
+
+       o get-sampling-rules
+
+       o get-sampling-statistic-summaries
+
+       o get-sampling-targets
+
        o get-service-graph
+
+       o get-time-series-service-statistics
 
        o get-trace-graph
 
@@ -27,6 +47,10 @@ AVAILABLE COMMANDS
        o put-telemetry-records
 
        o put-trace-segments
+
+       o update-group
+
+       o update-sampling-rule
 
 
 

@@ -1,0 +1,30 @@
+TEXTRACT()							    TEXTRACT()
+
+
+
+NAME
+       textract -
+
+DESCRIPTION
+       Amazon  Textract detects and analyzes text in documents and converts it
+       into machine-readable text. This is the API reference documentation for
+       Amazon Textract.
+
+AVAILABLE COMMANDS
+       o analyze-document
+
+       o detect-document-text
+
+       o get-document-analysis
+
+       o get-document-text-detection
+
+       o help
+
+       o start-document-analysis
+
+       o start-document-text-detection
+
+
+
+								    TEXTRACT()

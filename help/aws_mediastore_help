@@ -19,19 +19,35 @@ AVAILABLE COMMANDS
 
        o delete-cors-policy
 
+       o delete-lifecycle-policy
+
        o describe-container
 
        o get-container-policy
 
        o get-cors-policy
 
+       o get-lifecycle-policy
+
        o help
 
        o list-containers
 
+       o list-tags-for-resource
+
        o put-container-policy
 
        o put-cors-policy
+
+       o put-lifecycle-policy
+
+       o start-access-logging
+
+       o stop-access-logging
+
+       o tag-resource
+
+       o untag-resource
 
 
 

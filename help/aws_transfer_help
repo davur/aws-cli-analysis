@@ -1,0 +1,62 @@
+TRANSFER()							    TRANSFER()
+
+
+
+NAME
+       transfer -
+
+DESCRIPTION
+       AWS  Transfer  for  SFTP  is  a	fully managed service that enables the
+       transfer of files directly into and out of Amazon S3 using  the	Secure
+       File  Transfer  Protocol  (SFTP)also  known  as Secure Shell (SSH) File
+       Transfer Protocol. AWS helps you seamlessly migrate your file  transfer
+       workflows  to AWS Transfer for SFTPby integrating with existing authen-
+       tication systems, and providing DNS  routing  with  Amazon  Route  53so
+       nothing changes for your customers and partners, or their applications.
+       With your data in S3, you can use it with AWS services for  processing,
+       analytics,  machine  learning,  and archiving. Getting started with AWS
+       Transfer for SFTP (AWS SFTP) is easy; there is no infrastructure to buy
+       and set up.
+
+AVAILABLE COMMANDS
+       o create-server
+
+       o create-user
+
+       o delete-server
+
+       o delete-ssh-public-key
+
+       o delete-user
+
+       o describe-server
+
+       o describe-user
+
+       o help
+
+       o import-ssh-public-key
+
+       o list-servers
+
+       o list-tags-for-resource
+
+       o list-users
+
+       o start-server
+
+       o stop-server
+
+       o tag-resource
+
+       o test-identity-provider
+
+       o untag-resource
+
+       o update-server
+
+       o update-user
+
+
+
+								    TRANSFER()

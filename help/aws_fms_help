@@ -29,15 +29,25 @@ AVAILABLE COMMANDS
 
        o get-policy
 
+       o get-protection-status
+
        o help
 
        o list-compliance-status
 
+       o list-member-accounts
+
        o list-policies
+
+       o list-tags-for-resource
 
        o put-notification-channel
 
        o put-policy
+
+       o tag-resource
+
+       o untag-resource
 
 
 

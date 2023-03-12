@@ -1,0 +1,111 @@
+IMAGEBUILDER()							IMAGEBUILDER()
+
+
+
+NAME
+       imagebuilder -
+
+DESCRIPTION
+       Amazon  Elastic Compute Cloud Image Builder provides a one-stop-shop to
+       automate the image management processes.  You  configure  an  automated
+       pipeline that creates images for use on AWS. As software updates become
+       available, Image Builder automatically produces a new image based on  a
+       customizable  schedule and distributes it to stipulated AWS Regions af-
+       ter running tests on it. With the Image Builder, organizations can cap-
+       ture  their internal or industry-specific compliance policies as a vet-
+       ted template that can be  consistently  applied	to  every  new	image.
+       Built-in  integration  with AWS Organizations provides customers with a
+       centralized way to  enforce  image  distribution  and  access  policies
+       across  their AWS accounts and Regions. Image Builder supports multiple
+       image format AMIs on AWS.
+
+AVAILABLE COMMANDS
+       o cancel-image-creation
+
+       o create-component
+
+       o create-distribution-configuration
+
+       o create-image
+
+       o create-image-pipeline
+
+       o create-image-recipe
+
+       o create-infrastructure-configuration
+
+       o delete-component
+
+       o delete-distribution-configuration
+
+       o delete-image
+
+       o delete-image-pipeline
+
+       o delete-image-recipe
+
+       o delete-infrastructure-configuration
+
+       o get-component
+
+       o get-component-policy
+
+       o get-distribution-configuration
+
+       o get-image
+
+       o get-image-pipeline
+
+       o get-image-policy
+
+       o get-image-recipe
+
+       o get-image-recipe-policy
+
+       o get-infrastructure-configuration
+
+       o help
+
+       o import-component
+
+       o list-component-build-versions
+
+       o list-components
+
+       o list-distribution-configurations
+
+       o list-image-build-versions
+
+       o list-image-pipeline-images
+
+       o list-image-pipelines
+
+       o list-image-recipes
+
+       o list-images
+
+       o list-infrastructure-configurations
+
+       o list-tags-for-resource
+
+       o put-component-policy
+
+       o put-image-policy
+
+       o put-image-recipe-policy
+
+       o start-image-pipeline-execution
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-distribution-configuration
+
+       o update-image-pipeline
+
+       o update-infrastructure-configuration
+
+
+
+								IMAGEBUILDER()

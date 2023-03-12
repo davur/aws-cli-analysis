@@ -15,6 +15,11 @@ DESCRIPTION
        datasets  and complex queries. For more information, see What is Amazon
        Athena in the Amazon Athena User Guide .
 
+       If you connect to Athena using the JDBC driver, use  version  1.1.0  of
+       the driver or later with the Amazon Athena API. Earlier version drivers
+       do not support the API.	For  more  information	and  to  download  the
+       driver, see Accessing Amazon Athena with JDBC .
+
        For code samples using the AWS SDK for Java, see Examples and Code Sam-
        ples in the Amazon Athena User Guide .
 
@@ -25,7 +30,11 @@ AVAILABLE COMMANDS
 
        o create-named-query
 
+       o create-work-group
+
        o delete-named-query
+
+       o delete-work-group
 
        o get-named-query
 
@@ -33,15 +42,27 @@ AVAILABLE COMMANDS
 
        o get-query-results
 
+       o get-work-group
+
        o help
 
        o list-named-queries
 
        o list-query-executions
 
+       o list-tags-for-resource
+
+       o list-work-groups
+
        o start-query-execution
 
        o stop-query-execution
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-work-group
 
 
 

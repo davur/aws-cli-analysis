@@ -1,0 +1,105 @@
+BACKUP()							      BACKUP()
+
+
+
+NAME
+       backup -
+
+DESCRIPTION
+       AWS Backup is a unified backup service designed to protect AWS services
+       and their associated data. AWS Backup simplifies the  creation,	migra-
+       tion,  restoration,  and  deletion of backups, while also providing re-
+       porting and auditing.
+
+AVAILABLE COMMANDS
+       o create-backup-plan
+
+       o create-backup-selection
+
+       o create-backup-vault
+
+       o delete-backup-plan
+
+       o delete-backup-selection
+
+       o delete-backup-vault
+
+       o delete-backup-vault-access-policy
+
+       o delete-backup-vault-notifications
+
+       o delete-recovery-point
+
+       o describe-backup-job
+
+       o describe-backup-vault
+
+       o describe-protected-resource
+
+       o describe-recovery-point
+
+       o describe-restore-job
+
+       o export-backup-plan-template
+
+       o get-backup-plan
+
+       o get-backup-plan-from-json
+
+       o get-backup-plan-from-template
+
+       o get-backup-selection
+
+       o get-backup-vault-access-policy
+
+       o get-backup-vault-notifications
+
+       o get-recovery-point-restore-metadata
+
+       o get-supported-resource-types
+
+       o help
+
+       o list-backup-jobs
+
+       o list-backup-plan-templates
+
+       o list-backup-plan-versions
+
+       o list-backup-plans
+
+       o list-backup-selections
+
+       o list-backup-vaults
+
+       o list-protected-resources
+
+       o list-recovery-points-by-backup-vault
+
+       o list-recovery-points-by-resource
+
+       o list-restore-jobs
+
+       o list-tags
+
+       o put-backup-vault-access-policy
+
+       o put-backup-vault-notifications
+
+       o start-backup-job
+
+       o start-restore-job
+
+       o stop-backup-job
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-backup-plan
+
+       o update-recovery-point-lifecycle
+
+
+
+								      BACKUP()

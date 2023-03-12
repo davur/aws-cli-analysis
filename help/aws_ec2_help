@@ -11,35 +11,42 @@ DESCRIPTION
        need  to invest in hardware up front, so you can develop and deploy ap-
        plications faster.
 
-       To learn more about Amazon EC2, Amazon EBS, and	Amazon	VPC,  see  the
-       following resources:
+       To learn more, see the following resources:
 
-       o Amazon EC2 product page
+       o Amazon EC2: AmazonEC2 product page , Amazon EC2 documentation
 
-       o Amazon EC2 documentation
+       o Amazon EBS: Amazon EBS product page , Amazon EBS documentation
 
-       o Amazon EBS product page
+       o Amazon VPC: Amazon VPC product page , Amazon VPC documentation
 
-       o Amazon VPC product page
-
-       o Amazon VPC documentation
+       o AWS VPN: AWS VPN product page , AWS VPN documentation
 
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
+
+       o accept-transit-gateway-peering-attachment
+
+       o accept-transit-gateway-vpc-attachment
 
        o accept-vpc-endpoint-connections
 
        o accept-vpc-peering-connection
 
+       o advertise-byoip-cidr
+
        o allocate-address
 
        o allocate-hosts
+
+       o apply-security-groups-to-client-vpn-target-network
 
        o assign-ipv6-addresses
 
        o assign-private-ip-addresses
 
        o associate-address
+
+       o associate-client-vpn-target-network
 
        o associate-dhcp-options
 
@@ -48,6 +55,10 @@ AVAILABLE COMMANDS
        o associate-route-table
 
        o associate-subnet-cidr-block
+
+       o associate-transit-gateway-multicast-domain
+
+       o associate-transit-gateway-route-table
 
        o associate-vpc-cidr-block
 
@@ -61,6 +72,8 @@ AVAILABLE COMMANDS
 
        o attach-vpn-gateway
 
+       o authorize-client-vpn-ingress
+
        o authorize-security-group-egress
 
        o authorize-security-group-ingress
@@ -68,6 +81,8 @@ AVAILABLE COMMANDS
        o bundle-instance
 
        o cancel-bundle-task
+
+       o cancel-capacity-reservation
 
        o cancel-conversion-task
 
@@ -88,6 +103,12 @@ AVAILABLE COMMANDS
        o copy-image
 
        o copy-snapshot
+
+       o create-capacity-reservation
+
+       o create-client-vpn-endpoint
+
+       o create-client-vpn-route
 
        o create-customer-gateway
 
@@ -117,6 +138,10 @@ AVAILABLE COMMANDS
 
        o create-launch-template-version
 
+       o create-local-gateway-route
+
+       o create-local-gateway-route-table-vpc-association
+
        o create-nat-gateway
 
        o create-network-acl
@@ -139,11 +164,33 @@ AVAILABLE COMMANDS
 
        o create-snapshot
 
+       o create-snapshots
+
        o create-spot-datafeed-subscription
 
        o create-subnet
 
        o create-tags
+
+       o create-traffic-mirror-filter
+
+       o create-traffic-mirror-filter-rule
+
+       o create-traffic-mirror-session
+
+       o create-traffic-mirror-target
+
+       o create-transit-gateway
+
+       o create-transit-gateway-multicast-domain
+
+       o create-transit-gateway-peering-attachment
+
+       o create-transit-gateway-route
+
+       o create-transit-gateway-route-table
+
+       o create-transit-gateway-vpc-attachment
 
        o create-volume
 
@@ -162,6 +209,10 @@ AVAILABLE COMMANDS
        o create-vpn-connection-route
 
        o create-vpn-gateway
+
+       o delete-client-vpn-endpoint
+
+       o delete-client-vpn-route
 
        o delete-customer-gateway
 
@@ -183,6 +234,10 @@ AVAILABLE COMMANDS
 
        o delete-launch-template-versions
 
+       o delete-local-gateway-route
+
+       o delete-local-gateway-route-table-vpc-association
+
        o delete-nat-gateway
 
        o delete-network-acl
@@ -194,6 +249,8 @@ AVAILABLE COMMANDS
        o delete-network-interface-permission
 
        o delete-placement-group
+
+       o delete-queued-reserved-instances
 
        o delete-route
 
@@ -208,6 +265,26 @@ AVAILABLE COMMANDS
        o delete-subnet
 
        o delete-tags
+
+       o delete-traffic-mirror-filter
+
+       o delete-traffic-mirror-filter-rule
+
+       o delete-traffic-mirror-session
+
+       o delete-traffic-mirror-target
+
+       o delete-transit-gateway
+
+       o delete-transit-gateway-multicast-domain
+
+       o delete-transit-gateway-peering-attachment
+
+       o delete-transit-gateway-route
+
+       o delete-transit-gateway-route-table
+
+       o delete-transit-gateway-vpc-attachment
 
        o delete-volume
 
@@ -227,7 +304,13 @@ AVAILABLE COMMANDS
 
        o delete-vpn-gateway
 
+       o deprovision-byoip-cidr
+
        o deregister-image
+
+       o deregister-transit-gateway-multicast-group-members
+
+       o deregister-transit-gateway-multicast-group-sources
 
        o describe-account-attributes
 
@@ -239,7 +322,23 @@ AVAILABLE COMMANDS
 
        o describe-bundle-tasks
 
+       o describe-byoip-cidrs
+
+       o describe-capacity-reservations
+
        o describe-classic-link-instances
+
+       o describe-client-vpn-authorization-rules
+
+       o describe-client-vpn-connections
+
+       o describe-client-vpn-endpoints
+
+       o describe-client-vpn-routes
+
+       o describe-client-vpn-target-networks
+
+       o describe-coip-pools
 
        o describe-conversion-tasks
 
@@ -251,7 +350,11 @@ AVAILABLE COMMANDS
 
        o describe-elastic-gpus
 
+       o describe-export-image-tasks
+
        o describe-export-tasks
+
+       o describe-fast-snapshot-restores
 
        o describe-fleet-history
 
@@ -291,6 +394,10 @@ AVAILABLE COMMANDS
 
        o describe-instance-status
 
+       o describe-instance-type-offerings
+
+       o describe-instance-types
+
        o describe-instances
 
        o describe-internet-gateways
@@ -300,6 +407,19 @@ AVAILABLE COMMANDS
        o describe-launch-template-versions
 
        o describe-launch-templates
+
+       o describe-local-gateway-route-table-virtual-interface-group-associa-
+	 tions
+
+       o describe-local-gateway-route-table-vpc-associations
+
+       o describe-local-gateway-route-tables
+
+       o describe-local-gateway-virtual-interface-groups
+
+       o describe-local-gateway-virtual-interfaces
+
+       o describe-local-gateways
 
        o describe-moving-addresses
 
@@ -318,6 +438,8 @@ AVAILABLE COMMANDS
        o describe-prefix-lists
 
        o describe-principal-id-format
+
+       o describe-public-ipv4-pools
 
        o describe-regions
 
@@ -360,6 +482,24 @@ AVAILABLE COMMANDS
        o describe-subnets
 
        o describe-tags
+
+       o describe-traffic-mirror-filters
+
+       o describe-traffic-mirror-sessions
+
+       o describe-traffic-mirror-targets
+
+       o describe-transit-gateway-attachments
+
+       o describe-transit-gateway-multicast-domains
+
+       o describe-transit-gateway-peering-attachments
+
+       o describe-transit-gateway-route-tables
+
+       o describe-transit-gateway-vpc-attachments
+
+       o describe-transit-gateways
 
        o describe-volume-attribute
 
@@ -405,6 +545,12 @@ AVAILABLE COMMANDS
 
        o detach-vpn-gateway
 
+       o disable-ebs-encryption-by-default
+
+       o disable-fast-snapshot-restores
+
+       o disable-transit-gateway-route-table-propagation
+
        o disable-vgw-route-propagation
 
        o disable-vpc-classic-link
@@ -413,13 +559,25 @@ AVAILABLE COMMANDS
 
        o disassociate-address
 
+       o disassociate-client-vpn-target-network
+
        o disassociate-iam-instance-profile
 
        o disassociate-route-table
 
        o disassociate-subnet-cidr-block
 
+       o disassociate-transit-gateway-multicast-domain
+
+       o disassociate-transit-gateway-route-table
+
        o disassociate-vpc-cidr-block
+
+       o enable-ebs-encryption-by-default
+
+       o enable-fast-snapshot-restores
+
+       o enable-transit-gateway-route-table-propagation
 
        o enable-vgw-route-propagation
 
@@ -429,9 +587,27 @@ AVAILABLE COMMANDS
 
        o enable-vpc-classic-link-dns-support
 
+       o export-client-vpn-client-certificate-revocation-list
+
+       o export-client-vpn-client-configuration
+
+       o export-image
+
+       o export-transit-gateway-routes
+
+       o get-capacity-reservation-usage
+
+       o get-coip-pool-usage
+
        o get-console-output
 
        o get-console-screenshot
+
+       o get-default-credit-specification
+
+       o get-ebs-default-kms-key-id
+
+       o get-ebs-encryption-by-default
 
        o get-host-reservation-purchase-preview
 
@@ -441,13 +617,31 @@ AVAILABLE COMMANDS
 
        o get-reserved-instances-exchange-quote
 
+       o get-transit-gateway-attachment-propagations
+
+       o get-transit-gateway-multicast-domain-associations
+
+       o get-transit-gateway-route-table-associations
+
+       o get-transit-gateway-route-table-propagations
+
        o help
+
+       o import-client-vpn-client-certificate-revocation-list
 
        o import-image
 
        o import-key-pair
 
        o import-snapshot
+
+       o modify-capacity-reservation
+
+       o modify-client-vpn-endpoint
+
+       o modify-default-credit-specification
+
+       o modify-ebs-default-kms-key-id
 
        o modify-fleet
 
@@ -463,7 +657,13 @@ AVAILABLE COMMANDS
 
        o modify-instance-attribute
 
+       o modify-instance-capacity-reservation-attributes
+
        o modify-instance-credit-specification
+
+       o modify-instance-event-start-time
+
+       o modify-instance-metadata-options
 
        o modify-instance-placement
 
@@ -478,6 +678,14 @@ AVAILABLE COMMANDS
        o modify-spot-fleet-request
 
        o modify-subnet-attribute
+
+       o modify-traffic-mirror-filter-network-services
+
+       o modify-traffic-mirror-filter-rule
+
+       o modify-traffic-mirror-session
+
+       o modify-transit-gateway-vpc-attachment
 
        o modify-volume
 
@@ -497,9 +705,17 @@ AVAILABLE COMMANDS
 
        o modify-vpc-tenancy
 
+       o modify-vpn-connection
+
+       o modify-vpn-tunnel-certificate
+
+       o modify-vpn-tunnel-options
+
        o monitor-instances
 
        o move-address-to-vpc
+
+       o provision-byoip-cidr
 
        o purchase-host-reservation
 
@@ -510,6 +726,14 @@ AVAILABLE COMMANDS
        o reboot-instances
 
        o register-image
+
+       o register-transit-gateway-multicast-group-members
+
+       o register-transit-gateway-multicast-group-sources
+
+       o reject-transit-gateway-peering-attachment
+
+       o reject-transit-gateway-vpc-attachment
 
        o reject-vpc-endpoint-connections
 
@@ -529,11 +753,15 @@ AVAILABLE COMMANDS
 
        o replace-route-table-association
 
+       o replace-transit-gateway-route
+
        o report-instance-status
 
        o request-spot-fleet
 
        o request-spot-instances
+
+       o reset-ebs-default-kms-key-id
 
        o reset-fpga-image-attribute
 
@@ -547,6 +775,8 @@ AVAILABLE COMMANDS
 
        o restore-address-to-classic
 
+       o revoke-client-vpn-ingress
+
        o revoke-security-group-egress
 
        o revoke-security-group-ingress
@@ -555,9 +785,21 @@ AVAILABLE COMMANDS
 
        o run-scheduled-instances
 
+       o search-local-gateway-routes
+
+       o search-transit-gateway-multicast-groups
+
+       o search-transit-gateway-routes
+
+       o send-diagnostic-interrupt
+
        o start-instances
 
+       o start-vpc-endpoint-service-private-dns-verification
+
        o stop-instances
+
+       o terminate-client-vpn-connections
 
        o terminate-instances
 
@@ -572,6 +814,8 @@ AVAILABLE COMMANDS
        o update-security-group-rule-descriptions-ingress
 
        o wait
+
+       o withdraw-byoip-cidr
 
 
 

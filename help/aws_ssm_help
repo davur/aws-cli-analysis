@@ -19,8 +19,8 @@ DESCRIPTION
        Guide .
 
        To  get	started, verify prerequisites and configure managed instances.
-       For more information, see Systems Manager Prerequisites in the AWS Sys-
-       tems Manager User Guide .
+       For more information, see Setting Up AWS Systems  Manager  in  the  AWS
+       Systems Manager User Guide .
 
        For  information  about other API actions you can perform on Amazon EC2
        instances, see the Amazon EC2 API Reference . For information about how
@@ -31,6 +31,8 @@ AVAILABLE COMMANDS
 
        o cancel-command
 
+       o cancel-maintenance-window-execution
+
        o create-activation
 
        o create-association
@@ -40,6 +42,8 @@ AVAILABLE COMMANDS
        o create-document
 
        o create-maintenance-window
+
+       o create-ops-item
 
        o create-patch-baseline
 
@@ -111,11 +115,17 @@ AVAILABLE COMMANDS
 
        o describe-maintenance-window-executions
 
+       o describe-maintenance-window-schedule
+
        o describe-maintenance-window-targets
 
        o describe-maintenance-window-tasks
 
        o describe-maintenance-windows
+
+       o describe-maintenance-windows-for-target
+
+       o describe-ops-items
 
        o describe-parameters
 
@@ -125,9 +135,17 @@ AVAILABLE COMMANDS
 
        o describe-patch-groups
 
+       o describe-patch-properties
+
+       o describe-sessions
+
        o get-automation-execution
 
+       o get-calendar-state
+
        o get-command-invocation
+
+       o get-connection-status
 
        o get-default-patch-baseline
 
@@ -149,6 +167,10 @@ AVAILABLE COMMANDS
 
        o get-maintenance-window-task
 
+       o get-ops-item
+
+       o get-ops-summary
+
        o get-parameter
 
        o get-parameter-history
@@ -160,6 +182,8 @@ AVAILABLE COMMANDS
        o get-patch-baseline
 
        o get-patch-baseline-for-patch-group
+
+       o get-service-setting
 
        o help
 
@@ -207,6 +231,10 @@ AVAILABLE COMMANDS
 
        o remove-tags-from-resource
 
+       o reset-service-setting
+
+       o resume-session
+
        o send-automation-signal
 
        o send-command
@@ -215,7 +243,11 @@ AVAILABLE COMMANDS
 
        o start-automation-execution
 
+       o start-session
+
        o stop-automation-execution
+
+       o terminate-session
 
        o update-association
 
@@ -233,7 +265,13 @@ AVAILABLE COMMANDS
 
        o update-managed-instance-role
 
+       o update-ops-item
+
        o update-patch-baseline
+
+       o update-resource-data-sync
+
+       o update-service-setting
 
 
 

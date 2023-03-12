@@ -74,6 +74,8 @@ AVAILABLE COMMANDS
 
        o describe-metric-filters
 
+       o describe-queries
+
        o describe-resource-policies
 
        o describe-subscription-filters
@@ -83,6 +85,12 @@ AVAILABLE COMMANDS
        o filter-log-events
 
        o get-log-events
+
+       o get-log-group-fields
+
+       o get-log-record
+
+       o get-query-results
 
        o help
 
@@ -101,6 +109,10 @@ AVAILABLE COMMANDS
        o put-retention-policy
 
        o put-subscription-filter
+
+       o start-query
+
+       o stop-query
 
        o tag-log-group
 

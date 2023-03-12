@@ -31,6 +31,8 @@ AVAILABLE COMMANDS
 
        o delete-repository-policy
 
+       o describe-image-scan-findings
+
        o describe-images
 
        o describe-repositories
@@ -53,15 +55,29 @@ AVAILABLE COMMANDS
 
        o list-images
 
+       o list-tags-for-resource
+
        o put-image
+
+       o put-image-scanning-configuration
+
+       o put-image-tag-mutability
 
        o put-lifecycle-policy
 
        o set-repository-policy
 
+       o start-image-scan
+
        o start-lifecycle-policy-preview
 
+       o tag-resource
+
+       o untag-resource
+
        o upload-layer-part
+
+       o wait
 
 
 
