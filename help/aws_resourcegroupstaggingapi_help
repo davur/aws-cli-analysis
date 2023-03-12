@@ -107,11 +107,15 @@ DESCRIPTION
 
        o AWS Config
 
+       o AWS Data Exchange
+
        o AWS Data Pipeline
 
        o AWS Database Migration Service
 
        o AWS DataSync
+
+       o AWS Device Farm
 
        o AWS Direct Connect
 
@@ -126,6 +130,8 @@ DESCRIPTION
        o Amazon ECR
 
        o Amazon ECS
+
+       o Amazon EKS
 
        o AWS Elastic Beanstalk
 
@@ -166,6 +172,8 @@ DESCRIPTION
        o AWS IoT Events
 
        o AWS IoT Greengrass
+
+       o AWS IoT 1-Click
 
        o AWS Key Management Service
 
@@ -220,6 +228,8 @@ DESCRIPTION
        o Amazon Simple Notification Service (SNS)
 
        o Amazon Simple Queue Service (SQS)
+
+       o Amazon Simple Workflow Service
 
        o AWS Step Functions
 

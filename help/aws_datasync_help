@@ -21,6 +21,8 @@ AVAILABLE COMMANDS
 
        o create-location-efs
 
+       o create-location-fsx-windows
+
        o create-location-nfs
 
        o create-location-s3
@@ -38,6 +40,8 @@ AVAILABLE COMMANDS
        o describe-agent
 
        o describe-location-efs
+
+       o describe-location-fsx-windows
 
        o describe-location-nfs
 

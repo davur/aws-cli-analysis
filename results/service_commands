@@ -433,6 +433,7 @@ application-insights describe-problem-observations
 application-insights help
 application-insights list-applications
 application-insights list-components
+application-insights list-configuration-history
 application-insights list-log-pattern-sets
 application-insights list-log-patterns
 application-insights list-problems
@@ -656,6 +657,7 @@ backup delete-backup-vault-notifications
 backup delete-recovery-point
 backup describe-backup-job
 backup describe-backup-vault
+backup describe-copy-job
 backup describe-protected-resource
 backup describe-recovery-point
 backup describe-restore-job
@@ -675,6 +677,7 @@ backup list-backup-plan-versions
 backup list-backup-plans
 backup list-backup-selections
 backup list-backup-vaults
+backup list-copy-jobs
 backup list-protected-resources
 backup list-recovery-points-by-backup-vault
 backup list-recovery-points-by-resource
@@ -683,6 +686,7 @@ backup list-tags
 backup put-backup-vault-access-policy
 backup put-backup-vault-notifications
 backup start-backup-job
+backup start-copy-job
 backup start-restore-job
 backup stop-backup-job
 backup tag-resource
@@ -1299,6 +1303,7 @@ codepipeline put-webhook
 codepipeline register-webhook-with-third-party
 codepipeline retry-stage-execution
 codepipeline start-pipeline-execution
+codepipeline stop-pipeline-execution
 codepipeline tag-resource
 codepipeline untag-resource
 codepipeline update-pipeline
@@ -1727,6 +1732,7 @@ datapipeline validate-pipeline-definition
 datasync cancel-task-execution
 datasync create-agent
 datasync create-location-efs
+datasync create-location-fsx-windows
 datasync create-location-nfs
 datasync create-location-s3
 datasync create-location-smb
@@ -1736,6 +1742,7 @@ datasync delete-location
 datasync delete-task
 datasync describe-agent
 datasync describe-location-efs
+datasync describe-location-fsx-windows
 datasync describe-location-nfs
 datasync describe-location-s3
 datasync describe-location-smb
@@ -2390,6 +2397,7 @@ ec2 describe-instance-type-offerings
 ec2 describe-instance-types
 ec2 describe-instances
 ec2 describe-internet-gateways
+ec2 describe-ipv6-pools
 ec2 describe-key-pairs
 ec2 describe-launch-template-versions
 ec2 describe-launch-templates
@@ -2486,6 +2494,7 @@ ec2 export-client-vpn-client-certificate-revocation-list
 ec2 export-client-vpn-client-configuration
 ec2 export-image
 ec2 export-transit-gateway-routes
+ec2 get-associated-ipv6-pool-cidrs
 ec2 get-capacity-reservation-usage
 ec2 get-coip-pool-usage
 ec2 get-console-output
@@ -2615,6 +2624,7 @@ ecr get-download-url-for-layer
 ecr get-lifecycle-policy
 ecr get-lifecycle-policy-preview
 ecr get-login
+ecr get-login-password
 ecr get-repository-policy
 ecr help
 ecr initiate-layer-upload
@@ -2682,20 +2692,26 @@ ecs update-service
 ecs update-service-primary-task-set
 ecs update-task-set
 ecs wait
+efs create-access-point
 efs create-file-system
 efs create-mount-target
-efs create-tags
+efs delete-access-point
 efs delete-file-system
+efs delete-file-system-policy
 efs delete-mount-target
-efs delete-tags
+efs describe-access-points
+efs describe-file-system-policy
 efs describe-file-systems
 efs describe-lifecycle-configuration
 efs describe-mount-target-security-groups
 efs describe-mount-targets
-efs describe-tags
 efs help
+efs list-tags-for-resource
 efs modify-mount-target-security-groups
+efs put-file-system-policy
 efs put-lifecycle-configuration
+efs tag-resource
+efs untag-resource
 efs update-file-system
 eks create-cluster
 eks create-fargate-profile
@@ -4129,6 +4145,7 @@ kafka list-cluster-operations
 kafka list-clusters
 kafka list-configuration-revisions
 kafka list-configurations
+kafka list-kafka-versions
 kafka list-nodes
 kafka list-tags-for-resource
 kafka tag-resource
@@ -4962,6 +4979,8 @@ neptune reset-db-cluster-parameter-group
 neptune reset-db-parameter-group
 neptune restore-db-cluster-from-snapshot
 neptune restore-db-cluster-to-point-in-time
+neptune start-db-cluster
+neptune stop-db-cluster
 neptune wait
 networkmanager associate-customer-gateway
 networkmanager associate-link
@@ -5481,6 +5500,7 @@ rds add-tags-to-resource
 rds apply-pending-maintenance-action
 rds authorize-db-security-group-ingress
 rds backtrack-db-cluster
+rds cancel-export-task
 rds copy-db-cluster-parameter-group
 rds copy-db-cluster-snapshot
 rds copy-db-parameter-group
@@ -5546,6 +5566,7 @@ rds describe-engine-default-parameters
 rds describe-event-categories
 rds describe-event-subscriptions
 rds describe-events
+rds describe-export-tasks
 rds describe-global-clusters
 rds describe-installation-media
 rds describe-option-group-options
@@ -5600,6 +5621,7 @@ rds revoke-db-security-group-ingress
 rds start-activity-stream
 rds start-db-cluster
 rds start-db-instance
+rds start-export-task
 rds stop-activity-stream
 rds stop-db-cluster
 rds stop-db-instance
@@ -5766,6 +5788,7 @@ resourcegroupstaggingapi untag-resources
 robomaker batch-describe-simulation-job
 robomaker cancel-deployment-job
 robomaker cancel-simulation-job
+robomaker cancel-simulation-job-batch
 robomaker create-deployment-job
 robomaker create-fleet
 robomaker create-robot
@@ -5785,16 +5808,19 @@ robomaker describe-robot
 robomaker describe-robot-application
 robomaker describe-simulation-application
 robomaker describe-simulation-job
+robomaker describe-simulation-job-batch
 robomaker help
 robomaker list-deployment-jobs
 robomaker list-fleets
 robomaker list-robot-applications
 robomaker list-robots
 robomaker list-simulation-applications
+robomaker list-simulation-job-batches
 robomaker list-simulation-jobs
 robomaker list-tags-for-resource
 robomaker register-robot
 robomaker restart-simulation-job
+robomaker start-simulation-job-batch
 robomaker sync-deployment-job
 robomaker tag-resource
 robomaker untag-resource
@@ -6090,6 +6116,7 @@ sagemaker describe-transform-job
 sagemaker describe-trial
 sagemaker describe-trial-component
 sagemaker describe-user-profile
+sagemaker describe-workforce
 sagemaker describe-workteam
 sagemaker disassociate-trial-component
 sagemaker get-search-suggestions
@@ -6149,6 +6176,7 @@ sagemaker update-notebook-instance-lifecycle-config
 sagemaker update-trial
 sagemaker update-trial-component
 sagemaker update-user-profile
+sagemaker update-workforce
 sagemaker update-workteam
 sagemaker wait
 sagemaker-a2i-runtime delete-human-loop
@@ -6244,6 +6272,7 @@ securityhub delete-members
 securityhub describe-action-targets
 securityhub describe-hub
 securityhub describe-products
+securityhub describe-standards-controls
 securityhub disable-import-findings-for-product
 securityhub disable-security-hub
 securityhub disassociate-from-master-account
@@ -6268,6 +6297,7 @@ securityhub untag-resource
 securityhub update-action-target
 securityhub update-findings
 securityhub update-insight
+securityhub update-standards-control
 serverlessrepo create-application
 serverlessrepo create-application-version
 serverlessrepo create-cloud-formation-change-set
@@ -7279,6 +7309,7 @@ workmail create-alias
 workmail create-group
 workmail create-resource
 workmail create-user
+workmail delete-access-control-rule
 workmail delete-alias
 workmail delete-group
 workmail delete-mailbox-permissions
@@ -7291,8 +7322,10 @@ workmail describe-resource
 workmail describe-user
 workmail disassociate-delegate-from-resource
 workmail disassociate-member-from-group
+workmail get-access-control-effect
 workmail get-mailbox-details
 workmail help
+workmail list-access-control-rules
 workmail list-aliases
 workmail list-group-members
 workmail list-groups
@@ -7300,10 +7333,14 @@ workmail list-mailbox-permissions
 workmail list-organizations
 workmail list-resource-delegates
 workmail list-resources
+workmail list-tags-for-resource
 workmail list-users
+workmail put-access-control-rule
 workmail put-mailbox-permissions
 workmail register-to-work-mail
 workmail reset-password
+workmail tag-resource
+workmail untag-resource
 workmail update-mailbox-quota
 workmail update-primary-email-address
 workmail update-resource

@@ -16,6 +16,8 @@ AVAILABLE COMMANDS
 
        o cancel-simulation-job
 
+       o cancel-simulation-job-batch
+
        o create-deployment-job
 
        o create-fleet
@@ -54,6 +56,8 @@ AVAILABLE COMMANDS
 
        o describe-simulation-job
 
+       o describe-simulation-job-batch
+
        o help
 
        o list-deployment-jobs
@@ -66,6 +70,8 @@ AVAILABLE COMMANDS
 
        o list-simulation-applications
 
+       o list-simulation-job-batches
+
        o list-simulation-jobs
 
        o list-tags-for-resource
@@ -73,6 +79,8 @@ AVAILABLE COMMANDS
        o register-robot
 
        o restart-simulation-job
+
+       o start-simulation-job-batch
 
        o sync-deployment-job
 

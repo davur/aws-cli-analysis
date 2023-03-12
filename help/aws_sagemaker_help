@@ -153,6 +153,8 @@ AVAILABLE COMMANDS
 
        o describe-user-profile
 
+       o describe-workforce
+
        o describe-workteam
 
        o disassociate-trial-component
@@ -270,6 +272,8 @@ AVAILABLE COMMANDS
        o update-trial-component
 
        o update-user-profile
+
+       o update-workforce
 
        o update-workteam
 

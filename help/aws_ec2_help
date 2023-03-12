@@ -402,6 +402,8 @@ AVAILABLE COMMANDS
 
        o describe-internet-gateways
 
+       o describe-ipv6-pools
+
        o describe-key-pairs
 
        o describe-launch-template-versions
@@ -594,6 +596,8 @@ AVAILABLE COMMANDS
        o export-image
 
        o export-transit-gateway-routes
+
+       o get-associated-ipv6-pool-cidrs
 
        o get-capacity-reservation-usage
 

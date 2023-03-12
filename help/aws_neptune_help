@@ -145,6 +145,10 @@ AVAILABLE COMMANDS
 
        o restore-db-cluster-to-point-in-time
 
+       o start-db-cluster
+
+       o stop-db-cluster
+
        o wait
 
 

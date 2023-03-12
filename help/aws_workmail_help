@@ -49,6 +49,8 @@ AVAILABLE COMMANDS
 
        o create-user
 
+       o delete-access-control-rule
+
        o delete-alias
 
        o delete-group
@@ -73,9 +75,13 @@ AVAILABLE COMMANDS
 
        o disassociate-member-from-group
 
+       o get-access-control-effect
+
        o get-mailbox-details
 
        o help
+
+       o list-access-control-rules
 
        o list-aliases
 
@@ -91,13 +97,21 @@ AVAILABLE COMMANDS
 
        o list-resources
 
+       o list-tags-for-resource
+
        o list-users
+
+       o put-access-control-rule
 
        o put-mailbox-permissions
 
        o register-to-work-mail
 
        o reset-password
+
+       o tag-resource
+
+       o untag-resource
 
        o update-mailbox-quota
 

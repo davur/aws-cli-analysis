@@ -35,6 +35,8 @@ AVAILABLE COMMANDS
 
        o list-configurations
 
+       o list-kafka-versions
+
        o list-nodes
 
        o list-tags-for-resource

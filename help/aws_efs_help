@@ -13,17 +13,23 @@ DESCRIPTION
        need, when they need it. For more information, see the User Guide .
 
 AVAILABLE COMMANDS
+       o create-access-point
+
        o create-file-system
 
        o create-mount-target
 
-       o create-tags
+       o delete-access-point
 
        o delete-file-system
 
+       o delete-file-system-policy
+
        o delete-mount-target
 
-       o delete-tags
+       o describe-access-points
+
+       o describe-file-system-policy
 
        o describe-file-systems
 
@@ -33,13 +39,19 @@ AVAILABLE COMMANDS
 
        o describe-mount-targets
 
-       o describe-tags
-
        o help
+
+       o list-tags-for-resource
 
        o modify-mount-target-security-groups
 
+       o put-file-system-policy
+
        o put-lifecycle-configuration
+
+       o tag-resource
+
+       o untag-resource
 
        o update-file-system
 

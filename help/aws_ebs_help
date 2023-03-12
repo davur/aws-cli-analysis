@@ -12,19 +12,18 @@ DESCRIPTION
        snapshot, compare the block difference between two snapshots,  and  di-
        rectly  access the data in a snapshot. If youre an independent software
        vendor (ISV) who offers backup services for EBS, the  EBS  direct  APIs
-       makes it easier and more cost-effective to track incremental changes on
+       make  it easier and more cost-effective to track incremental changes on
        your EBS volumes via EBS snapshots. This can be done without having  to
-       create  new  volumes  from EBS snapshots, and then use EC2 instances to
-       compare the differences.
+       create new volumes from EBS snapshots.
 
-       This API reference provides detailed  information  about  the  actions,
+       This  API  reference  provides  detailed information about the actions,
        data types, parameters, and errors of the EBS direct APIs. For more in-
-       formation about the elements that make up the EBS direct APIs, and  ex-
+       formation  about the elements that make up the EBS direct APIs, and ex-
        amples of how to use them effectively, see Accessing the Contents of an
-       EBS Snapshot . For more information about how to  use  the  EBS	direct
-       APIs,  see  the EBS direct APIs User Guide . To view the currently sup-
-       ported AWS Regions and endpoints for the EBS direct APIs, see AWS  Ser-
-       vice Endpoints in the AWS General Reference .
+       EBS  Snapshot in the Amazon Elastic Compute Cloud User Guide . For more
+       information about the supported AWS  Regions,  endpoints,  and  service
+       quotas  for  the  EBS  direct APIs, see Amazon Elastic Block Store End-
+       points and Quotas in the AWS General Reference .
 
 AVAILABLE COMMANDS
        o get-snapshot-block

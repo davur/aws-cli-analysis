@@ -34,6 +34,8 @@ AVAILABLE COMMANDS
 
        o describe-backup-vault
 
+       o describe-copy-job
+
        o describe-protected-resource
 
        o describe-recovery-point
@@ -72,6 +74,8 @@ AVAILABLE COMMANDS
 
        o list-backup-vaults
 
+       o list-copy-jobs
+
        o list-protected-resources
 
        o list-recovery-points-by-backup-vault
@@ -87,6 +91,8 @@ AVAILABLE COMMANDS
        o put-backup-vault-notifications
 
        o start-backup-job
+
+       o start-copy-job
 
        o start-restore-job
 

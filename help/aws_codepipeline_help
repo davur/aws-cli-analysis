@@ -49,24 +49,27 @@ DESCRIPTION
        o StartPipelineExecution , which runs the most recent  revision	of  an
 	 artifact through the pipeline.
 
-       o UpdatePipeline  ,  which  updates a pipeline with edits or changes to
+       o StopPipelineExecution	, which stops the specified pipeline execution
+	 from continuing through the pipeline.
+
+       o UpdatePipeline , which updates a pipeline with edits  or  changes  to
 	 the structure of the pipeline.
 
        Pipelines include stages . Each stage contains one or more actions that
-       must  complete before the next stage begins. A stage results in success
-       or failure. If a stage fails, the pipeline stops at that stage and  re-
-       mains  stopped until either a new version of an artifact appears in the
-       source location, or a user takes action to rerun the most recent  arti-
-       fact  through the pipeline. You can call  GetPipelineState , which dis-
-       plays the status of a pipeline, including the status of stages  in  the
-       pipeline,  or   GetPipeline , which returns the entire structure of the
-       pipeline, including the stages of that pipeline. For  more  information
-       about  the  structure of stages and actions, see AWS CodePipeline Pipe-
+       must complete before the next stage begins. A stage results in  success
+       or  failure. If a stage fails, the pipeline stops at that stage and re-
+       mains stopped until either a new version of an artifact appears in  the
+       source  location, or a user takes action to rerun the most recent arti-
+       fact through the pipeline. You can call	GetPipelineState , which  dis-
+       plays  the  status of a pipeline, including the status of stages in the
+       pipeline, or  GetPipeline , which returns the entire structure  of  the
+       pipeline,  including  the stages of that pipeline. For more information
+       about the structure of stages and actions, see AWS  CodePipeline  Pipe-
        line Structure Reference .
 
-       Pipeline stages include actions that are  categorized  into  categories
+       Pipeline  stages  include  actions that are categorized into categories
        such as source or build actions performed in a stage of a pipeline. For
-       example, you can use a source action to import artifacts into  a  pipe-
+       example,  you  can use a source action to import artifacts into a pipe-
        line from a source such as Amazon S3. Like stages, you do not work with
        actions directly in most cases, but you do define and interact with ac-
        tions when working with pipeline operations such as  CreatePipeline and
@@ -84,24 +87,24 @@ DESCRIPTION
 
        o Invoke
 
-       Pipelines also include transitions , which allow the transition of  ar-
-       tifacts	from  one stage to the next in a pipeline after the actions in
+       Pipelines  also include transitions , which allow the transition of ar-
+       tifacts from one stage to the next in a pipeline after the  actions  in
        one stage complete.
 
        You can work with transitions by calling:
 
-       o DisableStageTransition , which prevents artifacts from  transitioning
+       o DisableStageTransition  , which prevents artifacts from transitioning
 	 to the next stage in a pipeline.
 
        o EnableStageTransition , which enables transition of artifacts between
 	 stages in a pipeline.
 	  Using the API to integrate with AWS CodePipeline
 
-       For third-party integrators or developers who want to create their  own
-       integrations  with  AWS CodePipeline, the expected sequence varies from
-       the standard API user. To integrate with AWS  CodePipeline,  developers
+       For  third-party integrators or developers who want to create their own
+       integrations with AWS CodePipeline, the expected sequence  varies  from
+       the  standard  API user. To integrate with AWS CodePipeline, developers
        need to work with the following items:
-	  Jobs	,  which  are instances of an action. For example, a job for a
+	  Jobs , which are instances of an action. For example, a  job	for  a
 	  source action might import a revision of an artifact from a source.
 
        You can work with jobs by calling:
@@ -116,25 +119,25 @@ DESCRIPTION
        o PutJobFailureResult , which provides details of a job failure.
 
        o PutJobSuccessResult , which provides details of a job success.
-	  Third  party	jobs  ,  which are instances of an action created by a
+	  Third party jobs , which are instances of an	action	created  by  a
 	  partner action and integrated into AWS CodePipeline. Partner actions
 	  are created by members of the AWS Partner Network.
 
        You can work with third party jobs by calling:
 
-       o AcknowledgeThirdPartyJob  ,  which  confirms whether a job worker has
+       o AcknowledgeThirdPartyJob , which confirms whether a  job  worker  has
 	 received the specified job.
 
-       o GetThirdPartyJobDetails , which requests the details of a job	for  a
+       o GetThirdPartyJobDetails  ,  which requests the details of a job for a
 	 partner action.
 
-       o PollForThirdPartyJobs	,  which determines whether there are any jobs
+       o PollForThirdPartyJobs , which determines whether there are  any  jobs
 	 to act on.
 
        o PutThirdPartyJobFailureResult , which provides details of a job fail-
 	 ure.
 
-       o PutThirdPartyJobSuccessResult	, which provides details of a job suc-
+       o PutThirdPartyJobSuccessResult , which provides details of a job  suc-
 	 cess.
 
 AVAILABLE COMMANDS
@@ -205,6 +208,8 @@ AVAILABLE COMMANDS
        o retry-stage-execution
 
        o start-pipeline-execution
+
+       o stop-pipeline-execution
 
        o tag-resource
 
