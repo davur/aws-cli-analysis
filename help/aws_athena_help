@@ -20,8 +20,8 @@ DESCRIPTION
        do not support the API.	For  more  information	and  to  download  the
        driver, see Accessing Amazon Athena with JDBC .
 
-       For code samples using the AWS SDK for Java, see Examples and Code Sam-
-       ples in the Amazon Athena User Guide .
+       For  code  samples  using  the  Amazon  Web  Services SDK for Java, see
+       Examples and Code Samples in the Amazon Athena User Guide .
 
 AVAILABLE COMMANDS
        o batch-get-named-query

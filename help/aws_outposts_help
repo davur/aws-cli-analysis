@@ -14,6 +14,8 @@ DESCRIPTION
        lower latency and local data processing needs.
 
 AVAILABLE COMMANDS
+       o create-order
+
        o create-outpost
 
        o delete-outpost

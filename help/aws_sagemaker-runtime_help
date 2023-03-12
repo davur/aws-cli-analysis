@@ -13,6 +13,8 @@ AVAILABLE COMMANDS
 
        o invoke-endpoint
 
+       o invoke-endpoint-async
+
 
 
 							   SAGEMAKER-RUNTIME()

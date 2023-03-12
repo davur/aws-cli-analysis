@@ -104,6 +104,8 @@ AVAILABLE COMMANDS
 
        o update-project
 
+       o update-project-visibility
+
        o update-report-group
 
        o update-webhook

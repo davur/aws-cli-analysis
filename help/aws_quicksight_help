@@ -7,10 +7,10 @@ NAME
 
 DESCRIPTION
        Amazon  QuickSight is a fully managed, serverless business intelligence
-       service for the AWS Cloud that makes it easy to	extend	data  and  in-
-       sights  to every user in your organization. This API reference contains
-       documentation for a programming interface that you can  use  to	manage
-       Amazon QuickSight.
+       service for the Amazon Web Services Cloud that makes it easy to	extend
+       data  and  insights to every user in your organization. This API refer-
+       ence contains documentation for a programming interface	that  you  can
+       use to manage Amazon QuickSight.
 
 AVAILABLE COMMANDS
        o cancel-ingestion
@@ -113,6 +113,8 @@ AVAILABLE COMMANDS
 
        o describe-ingestion
 
+       o describe-ip-restriction
+
        o describe-namespace
 
        o describe-template
@@ -128,6 +130,10 @@ AVAILABLE COMMANDS
        o describe-theme-permissions
 
        o describe-user
+
+       o generate-embed-url-for-anonymous-user
+
+       o generate-embed-url-for-registered-user
 
        o get-dashboard-embed-url
 
@@ -222,6 +228,8 @@ AVAILABLE COMMANDS
        o update-group
 
        o update-iam-policy-assignment
+
+       o update-ip-restriction
 
        o update-template
 

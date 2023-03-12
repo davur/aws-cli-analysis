@@ -6,10 +6,11 @@ NAME
        servicecatalog-appregistry -
 
 DESCRIPTION
-       AWS Service Catalog AppRegistry enables organizations to understand the
-       application context of their  AWS  resources.  AppRegistry  provides  a
-       repository  of  your applications, their resources, and the application
-       metadata that you use within your enterprise.
+       Amazon  Web  Services Service Catalog AppRegistry enables organizations
+       to understand the application context of their Amazon Web Services  re-
+       sources.  AppRegistry provides a repository of your applications, their
+       resources, and the application metadata that you use within your enter-
+       prise.
 
 AVAILABLE COMMANDS
        o associate-attribute-group
@@ -29,6 +30,8 @@ AVAILABLE COMMANDS
        o disassociate-resource
 
        o get-application
+
+       o get-associated-resource
 
        o get-attribute-group
 

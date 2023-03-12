@@ -371,6 +371,10 @@ AVAILABLE COMMANDS
 
        o send-channel-message
 
+       o start-meeting-transcription
+
+       o stop-meeting-transcription
+
        o tag-attendee
 
        o tag-meeting

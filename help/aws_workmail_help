@@ -63,6 +63,8 @@ AVAILABLE COMMANDS
 
        o delete-mailbox-permissions
 
+       o delete-mobile-device-access-override
+
        o delete-mobile-device-access-rule
 
        o delete-organization
@@ -75,7 +77,11 @@ AVAILABLE COMMANDS
 
        o deregister-from-work-mail
 
+       o deregister-mail-domain
+
        o describe-group
+
+       o describe-inbound-dmarc-settings
 
        o describe-mailbox-export-job
 
@@ -93,9 +99,13 @@ AVAILABLE COMMANDS
 
        o get-default-retention-policy
 
+       o get-mail-domain
+
        o get-mailbox-details
 
        o get-mobile-device-access-effect
+
+       o get-mobile-device-access-override
 
        o help
 
@@ -107,9 +117,13 @@ AVAILABLE COMMANDS
 
        o list-groups
 
+       o list-mail-domains
+
        o list-mailbox-export-jobs
 
        o list-mailbox-permissions
+
+       o list-mobile-device-access-overrides
 
        o list-mobile-device-access-rules
 
@@ -125,9 +139,15 @@ AVAILABLE COMMANDS
 
        o put-access-control-rule
 
+       o put-inbound-dmarc-settings
+
        o put-mailbox-permissions
 
+       o put-mobile-device-access-override
+
        o put-retention-policy
+
+       o register-mail-domain
 
        o register-to-work-mail
 
@@ -138,6 +158,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-default-mail-domain
 
        o update-mailbox-quota
 

@@ -16,7 +16,11 @@ AVAILABLE COMMANDS
 
        o batch-get-variable
 
+       o cancel-batch-import-job
+
        o cancel-batch-prediction-job
+
+       o create-batch-import-job
 
        o create-batch-prediction-job
 
@@ -30,6 +34,8 @@ AVAILABLE COMMANDS
 
        o create-variable
 
+       o delete-batch-import-job
+
        o delete-batch-prediction-job
 
        o delete-detector
@@ -41,6 +47,8 @@ AVAILABLE COMMANDS
        o delete-event
 
        o delete-event-type
+
+       o delete-events-by-event-type
 
        o delete-external-model
 
@@ -60,13 +68,19 @@ AVAILABLE COMMANDS
 
        o describe-model-versions
 
+       o get-batch-import-jobs
+
        o get-batch-prediction-jobs
+
+       o get-delete-events-by-event-type-status
 
        o get-detector-version
 
        o get-detectors
 
        o get-entity-types
+
+       o get-event
 
        o get-event-prediction
 
@@ -106,6 +120,8 @@ AVAILABLE COMMANDS
 
        o put-outcome
 
+       o send-event
+
        o tag-resource
 
        o untag-resource
@@ -115,6 +131,8 @@ AVAILABLE COMMANDS
        o update-detector-version-metadata
 
        o update-detector-version-status
+
+       o update-event-label
 
        o update-model
 

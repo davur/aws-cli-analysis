@@ -6,25 +6,25 @@ NAME
        iot -
 
 DESCRIPTION
-       AWS  IoT  provides  secure, bi-directional communication between Inter-
-       net-connected devices (such as sensors, actuators, embedded devices, or
-       smart  appliances)  and	the  AWS  cloud.  You can discover your custom
-       IoT-Data endpoint to communicate with, configure rules  for  data  pro-
-       cessing and integration with other services, organize resources associ-
-       ated with each device (Registry), configure  logging,  and  create  and
+       IoT provides secure, bi-directional communication between Internet-con-
+       nected devices (such as sensors, actuators, embedded devices, or  smart
+       appliances)  and  the  Amazon Web Services cloud. You can discover your
+       custom IoT-Data endpoint to communicate with, configure rules for  data
+       processing  and integration with other services, organize resources as-
+       sociated with each device (Registry), configure logging, and create and
        manage policies and credentials to authenticate devices.
 
-       The  service  endpoints that expose this API are listed in AWS IoT Core
-       Endpoints and Quotas . You must use the endpoint for  the  region  that
-       has the resources you want to access.
+       The  service  endpoints	that  expose this API are listed in Amazon Web
+       Services IoT Core Endpoints and Quotas . You must use the endpoint  for
+       the region that has the resources you want to access.
 
-       The  service  name  used by AWS Signature Version 4 to sign the request
-       is: execute-api .
+       The  service  name  used  by Amazon Web Services Signature Version 4 to
+       sign the request is: execute-api .
 
-       For more information about how AWS IoT works, see the Developer Guide .
+       For more information about how IoT works, see the Developer Guide .
 
-       For information about how to use the credentials provider for AWS  IoT,
-       see Authorizing Direct Calls to AWS Services .
+       For information about how to use the credentials provider for IoT,  see
+       Authorizing Direct Calls to Amazon Web Services Services .
 
 AVAILABLE COMMANDS
        o accept-certificate-transfer
@@ -72,6 +72,8 @@ AVAILABLE COMMANDS
        o create-domain-configuration
 
        o create-dynamic-thing-group
+
+       o create-fleet-metric
 
        o create-job
 
@@ -130,6 +132,8 @@ AVAILABLE COMMANDS
        o delete-domain-configuration
 
        o delete-dynamic-thing-group
+
+       o delete-fleet-metric
 
        o delete-job
 
@@ -205,6 +209,8 @@ AVAILABLE COMMANDS
 
        o describe-event-configurations
 
+       o describe-fleet-metric
+
        o describe-index
 
        o describe-job
@@ -246,6 +252,8 @@ AVAILABLE COMMANDS
        o enable-topic-rule
 
        o get-behavior-model-training-summaries
+
+       o get-buckets-aggregation
 
        o get-cardinality
 
@@ -310,6 +318,8 @@ AVAILABLE COMMANDS
        o list-dimensions
 
        o list-domain-configurations
+
+       o list-fleet-metrics
 
        o list-indices
 
@@ -378,6 +388,8 @@ AVAILABLE COMMANDS
        o list-v2-logging-levels
 
        o list-violation-events
+
+       o put-verification-state-on-violation
 
        o register-ca-certificate
 
@@ -448,6 +460,8 @@ AVAILABLE COMMANDS
        o update-dynamic-thing-group
 
        o update-event-configurations
+
+       o update-fleet-metric
 
        o update-indexing-configuration
 

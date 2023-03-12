@@ -6,21 +6,22 @@ NAME
        ds -
 
 DESCRIPTION
-       AWS  Directory  Service	is a web service that makes it easy for you to
-       setup and run directories in the AWS cloud, or  connect	your  AWS  re-
-       sources	with  an existing on-premises Microsoft Active Directory. This
-       guide provides detailed information about AWS Directory Service	opera-
-       tions,  data  types,  parameters, and errors. For information about AWS
-       Directory Services features, see AWS Directory Service and the AWS  Di-
-       rectory Service Administration Guide .
+       Directory  Service is a web service that makes it easy for you to setup
+       and run directories in the Amazon Web Services cloud, or  connect  your
+       Amazon  Web  Services resources with an existing self-managed Microsoft
+       Active Directory. This guide provides detailed information about Direc-
+       tory Service operations, data types, parameters, and errors. For infor-
+       mation about Directory Services features, see Directory Service and the
+       Directory Service Administration Guide .
 
        NOTE:
-	  AWS provides SDKs that consist of libraries and sample code for var-
-	  ious programming languages and platforms (Java, Ruby, .Net, iOS, An-
-	  droid,  etc.).  The SDKs provide a convenient way to create program-
-	  matic access to AWS Directory Service and other  AWS	services.  For
-	  more	information  about the AWS SDKs, including how to download and
-	  install them, see Tools for Amazon Web Services .
+	  Amazon Web Services provides SDKs that consist of libraries and sam-
+	  ple code for various	programming  languages	and  platforms	(Java,
+	  Ruby,  .Net,	iOS, Android, etc.). The SDKs provide a convenient way
+	  to create programmatic access to Directory Service and other	Amazon
+	  Web  Services  services.  For  more information about the Amazon Web
+	  Services SDKs, including how to download and install them, see Tools
+	  for Amazon Web Services .
 
 AVAILABLE COMMANDS
        o accept-shared-directory
@@ -66,6 +67,8 @@ AVAILABLE COMMANDS
        o deregister-event-topic
 
        o describe-certificate
+
+       o describe-client-authentication-settings
 
        o describe-conditional-forwarders
 
