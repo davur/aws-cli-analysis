@@ -15,6 +15,8 @@ AVAILABLE COMMANDS
 
        o analyze-expense
 
+       o analyze-id
+
        o detect-document-text
 
        o get-document-analysis

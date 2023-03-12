@@ -7,25 +7,26 @@ NAME
 
 DESCRIPTION
        Amazon  GuardDuty is a continuous security monitoring service that ana-
-       lyzes and processes the following data  sources:  VPC  Flow  Logs,  AWS
-       CloudTrail  event logs, and DNS logs. It uses threat intelligence feeds
-       (such as lists of malicious IPs and domains) and  machine  learning  to
-       identify  unexpected,  potentially unauthorized, and malicious activity
-       within your AWS environment. This can include issues  like  escalations
-       of privileges, uses of exposed credentials, or communication with mali-
-       cious IPs, URLs, or domains. For example, GuardDuty can detect  compro-
-       mised EC2 instances that serve malware or mine bitcoin.
+       lyzes and processes the following data sources: VPC Flow  Logs,	Amazon
+       Web Services CloudTrail event logs, and DNS logs. It uses threat intel-
+       ligence feeds (such as lists of malicious IPs and domains) and  machine
+       learning  to  identify  unexpected, potentially unauthorized, and mali-
+       cious activity within your Amazon Web Services  environment.  This  can
+       include	issues like escalations of privileges, uses of exposed creden-
+       tials, or communication with malicious IPs, URLs, or domains. For exam-
+       ple,  GuardDuty can detect compromised EC2 instances that serve malware
+       or mine bitcoin.
 
-       GuardDuty  also	monitors AWS account access behavior for signs of com-
-       promise. Some examples of this are unauthorized infrastructure  deploy-
-       ments  such  as	EC2 instances deployed in a Region that has never been
-       used, or unusual API calls like a  password  policy  change  to	reduce
-       password strength.
+       GuardDuty also monitors Amazon Web Services account access behavior for
+       signs of compromise. Some examples of this are unauthorized infrastruc-
+       ture deployments such as EC2 instances deployed in a  Region  that  has
+       never  been used, or unusual API calls like a password policy change to
+       reduce password strength.
 
-       GuardDuty  informs you of the status of your AWS environment by produc-
-       ing security findings that you can view in  the	GuardDuty  console  or
-       through	Amazon	CloudWatch  events.  For  more	information, see the *
-       Amazon GuardDuty User Guide * .
+       GuardDuty informs you of the status of your Amazon Web  Services  envi-
+       ronment	by producing security findings that you can view in the Guard-
+       Duty console or through Amazon CloudWatch events. For more information,
+       see the * Amazon GuardDuty User Guide * .
 
 AVAILABLE COMMANDS
        o accept-invitation

@@ -34,6 +34,8 @@ AVAILABLE COMMANDS
 
        o describe-model
 
+       o describe-model-packaging-job
+
        o describe-project
 
        o detect-anomalies
@@ -42,6 +44,8 @@ AVAILABLE COMMANDS
 
        o list-dataset-entries
 
+       o list-model-packaging-jobs
+
        o list-models
 
        o list-projects
@@ -49,6 +53,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o start-model
+
+       o start-model-packaging-job
 
        o stop-model
 

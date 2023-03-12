@@ -18,6 +18,8 @@ AVAILABLE COMMANDS
 
        o check-domain-transferability
 
+       o delete-domain
+
        o delete-tags-for-domain
 
        o disable-domain-auto-renew
@@ -41,6 +43,8 @@ AVAILABLE COMMANDS
        o list-domains
 
        o list-operations
+
+       o list-prices
 
        o list-tags-for-domain
 

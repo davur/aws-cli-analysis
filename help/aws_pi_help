@@ -13,11 +13,11 @@ DESCRIPTION
 
        When Performance Insights is enabled, the Amazon  RDS  Performance  In-
        sights  API  provides  visibility  into	the performance of your DB in-
-       stance. Amazon CloudWatch provides the  authoritative  source  for  AWS
-       service-vended  monitoring  metrics.  Performance Insights offers a do-
-       main-specific view of DB load.
+       stance. Amazon CloudWatch provides the authoritative source for	Amazon
+       Web  Services  service-vended  monitoring metrics. Performance Insights
+       offers a domain-specific view of DB load.
 
-       DB load is measured as Average Active  Sessions.  Performance  Insights
+       DB load is measured as average active  sessions.  Performance  Insights
        provides  the  data  to	API consumers as a two-dimensional time-series
        dataset. The time dimension provides DB load data for each  time  point
        in  the	queried time range. Each time point decomposes overall load in
@@ -25,19 +25,28 @@ DESCRIPTION
        amples include SQL, Wait event, User, and Host.
 
        o To  learn  more  about  Performance Insights and Amazon Aurora DB in-
-	 stances, go to the Amazon Aurora User Guide .
+	 stances, go to the * Amazon Aurora User Guide * .
 
        o To learn more about Performance Insights and Amazon RDS DB instances,
-	 go to the Amazon RDS User Guide .
+	 go to the * Amazon RDS User Guide * .
+
+       o To  learn more about Performance Insights and Amazon DocumentDB clus-
+	 ters, go to the * Amazon DocumentDB Developer Guide * .
 
 AVAILABLE COMMANDS
        o describe-dimension-keys
 
        o get-dimension-key-details
 
+       o get-resource-metadata
+
        o get-resource-metrics
 
        o help
+
+       o list-available-resource-dimensions
+
+       o list-available-resource-metrics
 
 
 

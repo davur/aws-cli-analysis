@@ -46,6 +46,12 @@ AVAILABLE COMMANDS
 
        o list-safety-rules
 
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
        o update-control-panel
 
        o update-routing-control

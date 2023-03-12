@@ -26,6 +26,8 @@ AVAILABLE COMMANDS
 
        o create-domain
 
+       o create-integration-workflow
+
        o create-profile
 
        o delete-domain
@@ -40,7 +42,13 @@ AVAILABLE COMMANDS
 
        o delete-profile-object-type
 
+       o delete-workflow
+
+       o get-auto-merging-preview
+
        o get-domain
+
+       o get-identity-resolution-job
 
        o get-integration
 
@@ -50,11 +58,17 @@ AVAILABLE COMMANDS
 
        o get-profile-object-type-template
 
+       o get-workflow
+
+       o get-workflow-steps
+
        o help
 
        o list-account-integrations
 
        o list-domains
+
+       o list-identity-resolution-jobs
 
        o list-integrations
 
@@ -65,6 +79,8 @@ AVAILABLE COMMANDS
        o list-profile-objects
 
        o list-tags-for-resource
+
+       o list-workflows
 
        o merge-profiles
 

@@ -32,11 +32,15 @@ AVAILABLE COMMANDS
 
        o associate-bot
 
+       o associate-default-vocabulary
+
        o associate-instance-storage-config
 
        o associate-lambda-function
 
        o associate-lex-bot
+
+       o associate-phone-number-contact-flow
 
        o associate-queue-quick-connects
 
@@ -44,9 +48,13 @@ AVAILABLE COMMANDS
 
        o associate-security-key
 
+       o claim-phone-number
+
        o create-agent-status
 
        o create-contact-flow
+
+       o create-contact-flow-module
 
        o create-hours-of-operation
 
@@ -68,6 +76,12 @@ AVAILABLE COMMANDS
 
        o create-user-hierarchy-group
 
+       o create-vocabulary
+
+       o delete-contact-flow
+
+       o delete-contact-flow-module
+
        o delete-hours-of-operation
 
        o delete-instance
@@ -84,9 +98,15 @@ AVAILABLE COMMANDS
 
        o delete-user-hierarchy-group
 
+       o delete-vocabulary
+
        o describe-agent-status
 
+       o describe-contact
+
        o describe-contact-flow
+
+       o describe-contact-flow-module
 
        o describe-hours-of-operation
 
@@ -95,6 +115,8 @@ AVAILABLE COMMANDS
        o describe-instance-attribute
 
        o describe-instance-storage-config
+
+       o describe-phone-number
 
        o describe-queue
 
@@ -110,6 +132,8 @@ AVAILABLE COMMANDS
 
        o describe-user-hierarchy-structure
 
+       o describe-vocabulary
+
        o disassociate-approved-origin
 
        o disassociate-bot
@@ -119,6 +143,8 @@ AVAILABLE COMMANDS
        o disassociate-lambda-function
 
        o disassociate-lex-bot
+
+       o disassociate-phone-number-contact-flow
 
        o disassociate-queue-quick-connects
 
@@ -142,7 +168,13 @@ AVAILABLE COMMANDS
 
        o list-bots
 
+       o list-contact-flow-modules
+
        o list-contact-flows
+
+       o list-contact-references
+
+       o list-default-vocabularies
 
        o list-hours-of-operations
 
@@ -159,6 +191,8 @@ AVAILABLE COMMANDS
        o list-lex-bots
 
        o list-phone-numbers
+
+       o list-phone-numbers-v2
 
        o list-prompts
 
@@ -186,7 +220,13 @@ AVAILABLE COMMANDS
 
        o list-users
 
+       o release-phone-number
+
        o resume-contact-recording
+
+       o search-available-phone-numbers
+
+       o search-vocabularies
 
        o start-chat-contact
 
@@ -212,17 +252,29 @@ AVAILABLE COMMANDS
 
        o update-agent-status
 
+       o update-contact
+
        o update-contact-attributes
 
        o update-contact-flow-content
 
+       o update-contact-flow-metadata
+
+       o update-contact-flow-module-content
+
+       o update-contact-flow-module-metadata
+
        o update-contact-flow-name
+
+       o update-contact-schedule
 
        o update-hours-of-operation
 
        o update-instance-attribute
 
        o update-instance-storage-config
+
+       o update-phone-number
 
        o update-queue-hours-of-operation
 

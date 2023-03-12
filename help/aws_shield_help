@@ -45,6 +45,8 @@ AVAILABLE COMMANDS
 
        o describe-subscription
 
+       o disable-application-layer-automatic-response
+
        o disable-proactive-engagement
 
        o disassociate-drt-log-bucket
@@ -52,6 +54,8 @@ AVAILABLE COMMANDS
        o disassociate-drt-role
 
        o disassociate-health-check
+
+       o enable-application-layer-automatic-response
 
        o enable-proactive-engagement
 
@@ -72,6 +76,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-application-layer-automatic-response
 
        o update-emergency-contact-settings
 

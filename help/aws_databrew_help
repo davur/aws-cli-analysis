@@ -25,6 +25,8 @@ AVAILABLE COMMANDS
 
        o create-recipe-job
 
+       o create-ruleset
+
        o create-schedule
 
        o delete-dataset
@@ -34,6 +36,8 @@ AVAILABLE COMMANDS
        o delete-project
 
        o delete-recipe-version
+
+       o delete-ruleset
 
        o delete-schedule
 
@@ -46,6 +50,8 @@ AVAILABLE COMMANDS
        o describe-project
 
        o describe-recipe
+
+       o describe-ruleset
 
        o describe-schedule
 
@@ -62,6 +68,8 @@ AVAILABLE COMMANDS
        o list-recipe-versions
 
        o list-recipes
+
+       o list-rulesets
 
        o list-schedules
 
@@ -90,6 +98,8 @@ AVAILABLE COMMANDS
        o update-recipe
 
        o update-recipe-job
+
+       o update-ruleset
 
        o update-schedule
 

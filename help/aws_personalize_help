@@ -12,6 +12,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-batch-inference-job
 
+       o create-batch-segment-job
+
        o create-campaign
 
        o create-dataset
@@ -25,6 +27,8 @@ AVAILABLE COMMANDS
        o create-event-tracker
 
        o create-filter
+
+       o create-recommender
 
        o create-schema
 
@@ -42,6 +46,8 @@ AVAILABLE COMMANDS
 
        o delete-filter
 
+       o delete-recommender
+
        o delete-schema
 
        o delete-solution
@@ -49,6 +55,8 @@ AVAILABLE COMMANDS
        o describe-algorithm
 
        o describe-batch-inference-job
+
+       o describe-batch-segment-job
 
        o describe-campaign
 
@@ -68,6 +76,8 @@ AVAILABLE COMMANDS
 
        o describe-recipe
 
+       o describe-recommender
+
        o describe-schema
 
        o describe-solution
@@ -79,6 +89,8 @@ AVAILABLE COMMANDS
        o help
 
        o list-batch-inference-jobs
+
+       o list-batch-segment-jobs
 
        o list-campaigns
 
@@ -96,15 +108,29 @@ AVAILABLE COMMANDS
 
        o list-recipes
 
+       o list-recommenders
+
        o list-schemas
 
        o list-solution-versions
 
        o list-solutions
 
+       o list-tags-for-resource
+
+       o start-recommender
+
+       o stop-recommender
+
        o stop-solution-version-creation
 
+       o tag-resource
+
+       o untag-resource
+
        o update-campaign
+
+       o update-recommender
 
 
 
