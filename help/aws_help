@@ -101,6 +101,8 @@ AVAILABLE SERVICES
 
        o appstream
 
+       o appsync
+
        o athena
 
        o autoscaling
@@ -203,9 +205,13 @@ AVAILABLE SERVICES
 
        o greengrass
 
+       o guardduty
+
        o health
 
        o help
+
+       o history
 
        o iam
 
@@ -254,6 +260,8 @@ AVAILABLE SERVICES
        o mgh
 
        o mobile
+
+       o mq
 
        o mturk
 

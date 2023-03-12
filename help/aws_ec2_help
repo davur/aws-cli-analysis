@@ -14,6 +14,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-reserved-instances-exchange-quote
 
+       o accept-vpc-endpoint-connections
+
        o accept-vpc-peering-connection
 
        o allocate-address
@@ -96,6 +98,10 @@ AVAILABLE COMMANDS
 
        o create-key-pair
 
+       o create-launch-template
+
+       o create-launch-template-version
+
        o create-nat-gateway
 
        o create-network-acl
@@ -130,6 +136,10 @@ AVAILABLE COMMANDS
 
        o create-vpc-endpoint
 
+       o create-vpc-endpoint-connection-notification
+
+       o create-vpc-endpoint-service-configuration
+
        o create-vpc-peering-connection
 
        o create-vpn-connection
@@ -151,6 +161,10 @@ AVAILABLE COMMANDS
        o delete-internet-gateway
 
        o delete-key-pair
+
+       o delete-launch-template
+
+       o delete-launch-template-versions
 
        o delete-nat-gateway
 
@@ -181,6 +195,10 @@ AVAILABLE COMMANDS
        o delete-volume
 
        o delete-vpc
+
+       o delete-vpc-endpoint-connection-notifications
+
+       o delete-vpc-endpoint-service-configurations
 
        o delete-vpc-endpoints
 
@@ -251,6 +269,10 @@ AVAILABLE COMMANDS
        o describe-internet-gateways
 
        o describe-key-pairs
+
+       o describe-launch-template-versions
+
+       o describe-launch-templates
 
        o describe-moving-addresses
 
@@ -324,6 +346,14 @@ AVAILABLE COMMANDS
 
        o describe-vpc-classic-link-dns-support
 
+       o describe-vpc-endpoint-connection-notifications
+
+       o describe-vpc-endpoint-connections
+
+       o describe-vpc-endpoint-service-configurations
+
+       o describe-vpc-endpoint-service-permissions
+
        o describe-vpc-endpoint-services
 
        o describe-vpc-endpoints
@@ -376,6 +406,8 @@ AVAILABLE COMMANDS
 
        o get-host-reservation-purchase-preview
 
+       o get-launch-template-data
+
        o get-password-data
 
        o get-reserved-instances-exchange-quote
@@ -402,6 +434,8 @@ AVAILABLE COMMANDS
 
        o modify-instance-placement
 
+       o modify-launch-template
+
        o modify-network-interface-attribute
 
        o modify-reserved-instances
@@ -420,6 +454,12 @@ AVAILABLE COMMANDS
 
        o modify-vpc-endpoint
 
+       o modify-vpc-endpoint-connection-notification
+
+       o modify-vpc-endpoint-service-configuration
+
+       o modify-vpc-endpoint-service-permissions
+
        o modify-vpc-peering-connection-options
 
        o modify-vpc-tenancy
@@ -437,6 +477,8 @@ AVAILABLE COMMANDS
        o reboot-instances
 
        o register-image
+
+       o reject-vpc-endpoint-connections
 
        o reject-vpc-peering-connection
 

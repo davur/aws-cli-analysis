@@ -1,0 +1,91 @@
+GUARDDUTY()							   GUARDDUTY()
+
+
+
+NAME
+       guardduty -
+
+DESCRIPTION
+       Assess,	monitor, manage, and remediate security issues across your AWS
+       infrastructure, applications, and data.
+
+AVAILABLE COMMANDS
+       o accept-invitation
+
+       o archive-findings
+
+       o create-detector
+
+       o create-ip-set
+
+       o create-members
+
+       o create-sample-findings
+
+       o create-threat-intel-set
+
+       o decline-invitations
+
+       o delete-detector
+
+       o delete-invitations
+
+       o delete-ip-set
+
+       o delete-members
+
+       o delete-threat-intel-set
+
+       o disassociate-from-master-account
+
+       o disassociate-members
+
+       o get-detector
+
+       o get-findings
+
+       o get-findings-statistics
+
+       o get-invitations-count
+
+       o get-ip-set
+
+       o get-master-account
+
+       o get-members
+
+       o get-threat-intel-set
+
+       o help
+
+       o invite-members
+
+       o list-detectors
+
+       o list-findings
+
+       o list-invitations
+
+       o list-ip-sets
+
+       o list-members
+
+       o list-threat-intel-sets
+
+       o start-monitoring-members
+
+       o stop-monitoring-members
+
+       o unarchive-findings
+
+       o update-detector
+
+       o update-findings-feedback
+
+       o update-ip-set
+
+       o update-threat-intel-set
+
+
+
+								   GUARDDUTY()
