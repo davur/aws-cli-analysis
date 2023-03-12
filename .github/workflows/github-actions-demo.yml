@@ -1,5 +1,9 @@
 name: Python package
-on: [push]
+
+on:
+  pull_request:
+    branches: [ v1-github-actions ]
+
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -33,3 +37,10 @@ jobs:
         run: |
           git status
           git diff --ignore-all-space
+
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add help/ results/
+          git commit -m "Generated"
+          git push
