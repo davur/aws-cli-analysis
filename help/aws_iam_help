@@ -6,12 +6,13 @@ NAME
        iam -
 
 DESCRIPTION
-       AWS  Identity and Access Management (IAM) is a web service for securely
-       controlling access to AWS services. With IAM, you can centrally	manage
-       users,  security  credentials such as access keys, and permissions that
-       control which AWS resources users and applications can access. For more
-       information about IAM, see AWS Identity and Access Management (IAM) and
-       the AWS Identity and Access Management User Guide .
+       Identity and Access Management (IAM) is a web service for securely con-
+       trolling access to Amazon Web Services services. With IAM, you can cen-
+       trally manage users, security credentials such as access keys, and per-
+       missions that control which Amazon Web Services resources users and ap-
+       plications can access. For more information about IAM, see Identity and
+       Access Management (IAM) and the Identity  and  Access  Management  User
+       Guide .
 
 AVAILABLE COMMANDS
        o add-client-id-to-open-id-connect-provider
@@ -188,17 +189,25 @@ AVAILABLE COMMANDS
 
        o list-groups-for-user
 
+       o list-instance-profile-tags
+
        o list-instance-profiles
 
        o list-instance-profiles-for-role
 
+       o list-mfa-device-tags
+
        o list-mfa-devices
+
+       o list-open-id-connect-provider-tags
 
        o list-open-id-connect-providers
 
        o list-policies
 
        o list-policies-granting-service-access
+
+       o list-policy-tags
 
        o list-policy-versions
 
@@ -208,7 +217,11 @@ AVAILABLE COMMANDS
 
        o list-roles
 
+       o list-saml-provider-tags
+
        o list-saml-providers
+
+       o list-server-certificate-tags
 
        o list-server-certificates
 
@@ -254,11 +267,35 @@ AVAILABLE COMMANDS
 
        o simulate-principal-policy
 
+       o tag-instance-profile
+
+       o tag-mfa-device
+
+       o tag-open-id-connect-provider
+
+       o tag-policy
+
        o tag-role
+
+       o tag-saml-provider
+
+       o tag-server-certificate
 
        o tag-user
 
+       o untag-instance-profile
+
+       o untag-mfa-device
+
+       o untag-open-id-connect-provider
+
+       o untag-policy
+
        o untag-role
+
+       o untag-saml-provider
+
+       o untag-server-certificate
 
        o untag-user
 

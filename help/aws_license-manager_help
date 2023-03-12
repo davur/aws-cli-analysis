@@ -26,6 +26,8 @@ AVAILABLE COMMANDS
 
        o create-license-configuration
 
+       o create-license-manager-report-generator
+
        o create-license-version
 
        o create-token
@@ -35,6 +37,8 @@ AVAILABLE COMMANDS
        o delete-license
 
        o delete-license-configuration
+
+       o delete-license-manager-report-generator
 
        o delete-token
 
@@ -47,6 +51,8 @@ AVAILABLE COMMANDS
        o get-license
 
        o get-license-configuration
+
+       o get-license-manager-report-generator
 
        o get-license-usage
 
@@ -61,6 +67,8 @@ AVAILABLE COMMANDS
        o list-failures-for-license-configuration-operations
 
        o list-license-configurations
+
+       o list-license-manager-report-generators
 
        o list-license-specifications-for-resource
 
@@ -87,6 +95,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-license-configuration
+
+       o update-license-manager-report-generator
 
        o update-license-specifications-for-resource
 

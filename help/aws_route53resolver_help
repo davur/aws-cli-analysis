@@ -9,8 +9,8 @@ DESCRIPTION
        When you create a VPC using Amazon VPC, you automatically get DNS reso-
        lution within the VPC from Route 53 Resolver. By default, Resolver  an-
        swers DNS queries for VPC domain names such as domain names for EC2 in-
-       stances or ELB load  balancers.	Resolver  performs  recursive  lookups
-       against public name servers for all other domain names.
+       stances or Elastic Load Balancing load balancers. Resolver performs re-
+       cursive lookups against public name servers for all other domain names.
 
        You can also configure DNS resolution between your VPC and your network
        over a Direct Connect or VPN connection:
@@ -38,17 +38,25 @@ DESCRIPTION
        Resolver Forwards DNS Queries from Your VPCs to	Your  Network  in  the
        Amazon Route 53 Developer Guide .
 
-       Like  Amazon  VPC,  Resolver is regional. In each region where you have
+       Like  Amazon  VPC,  Resolver is Regional. In each Region where you have
        VPCs, you can choose whether to forward queries from your VPCs to  your
        network	(outbound  queries),  from  your network to your VPCs (inbound
        queries), or both.
 
 AVAILABLE COMMANDS
+       o associate-firewall-rule-group
+
        o associate-resolver-endpoint-ip-address
 
        o associate-resolver-query-log-config
 
        o associate-resolver-rule
+
+       o create-firewall-domain-list
+
+       o create-firewall-rule
+
+       o create-firewall-rule-group
 
        o create-resolver-endpoint
 
@@ -56,17 +64,35 @@ AVAILABLE COMMANDS
 
        o create-resolver-rule
 
+       o delete-firewall-domain-list
+
+       o delete-firewall-rule
+
+       o delete-firewall-rule-group
+
        o delete-resolver-endpoint
 
        o delete-resolver-query-log-config
 
        o delete-resolver-rule
 
+       o disassociate-firewall-rule-group
+
        o disassociate-resolver-endpoint-ip-address
 
        o disassociate-resolver-query-log-config
 
        o disassociate-resolver-rule
+
+       o get-firewall-config
+
+       o get-firewall-domain-list
+
+       o get-firewall-rule-group
+
+       o get-firewall-rule-group-association
+
+       o get-firewall-rule-group-policy
 
        o get-resolver-dnssec-config
 
@@ -86,6 +112,20 @@ AVAILABLE COMMANDS
 
        o help
 
+       o import-firewall-domains
+
+       o list-firewall-configs
+
+       o list-firewall-domain-lists
+
+       o list-firewall-domains
+
+       o list-firewall-rule-group-associations
+
+       o list-firewall-rule-groups
+
+       o list-firewall-rules
+
        o list-resolver-dnssec-configs
 
        o list-resolver-endpoint-ip-addresses
@@ -102,6 +142,8 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
+       o put-firewall-rule-group-policy
+
        o put-resolver-query-log-config-policy
 
        o put-resolver-rule-policy
@@ -109,6 +151,14 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-firewall-config
+
+       o update-firewall-domains
+
+       o update-firewall-rule
+
+       o update-firewall-rule-group-association
 
        o update-resolver-dnssec-config
 

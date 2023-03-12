@@ -77,6 +77,8 @@ AVAILABLE COMMANDS
 
        o list-stream-processors
 
+       o list-tags-for-resource
+
        o recognize-celebrities
 
        o search-faces
@@ -106,6 +108,10 @@ AVAILABLE COMMANDS
        o stop-project-version
 
        o stop-stream-processor
+
+       o tag-resource
+
+       o untag-resource
 
        o wait
 

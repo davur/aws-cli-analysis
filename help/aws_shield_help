@@ -68,6 +68,12 @@ AVAILABLE COMMANDS
 
        o list-resources-in-protection-group
 
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
        o update-emergency-contact-settings
 
        o update-protection-group

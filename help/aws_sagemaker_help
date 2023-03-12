@@ -407,6 +407,10 @@ AVAILABLE COMMANDS
 
        o search
 
+       o send-pipeline-execution-step-failure
+
+       o send-pipeline-execution-step-success
+
        o start-monitoring-schedule
 
        o start-notebook-instance

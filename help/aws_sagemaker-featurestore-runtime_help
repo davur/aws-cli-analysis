@@ -22,6 +22,8 @@ DESCRIPTION
        o ListFeatureGroups
 
 AVAILABLE COMMANDS
+       o batch-get-record
+
        o delete-record
 
        o get-record

@@ -24,6 +24,10 @@ DESCRIPTION
        Greengrass V2 Developer Guide .
 
 AVAILABLE COMMANDS
+       o batch-associate-client-device-with-core-device
+
+       o batch-disassociate-client-device-from-core-device
+
        o cancel-deployment
 
        o create-component-version
@@ -45,6 +49,8 @@ AVAILABLE COMMANDS
        o get-deployment
 
        o help
+
+       o list-client-devices-associated-with-core-device
 
        o list-component-versions
 

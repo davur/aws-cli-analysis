@@ -12,6 +12,8 @@ DESCRIPTION
        see the Amazon CloudFront Developer Guide .
 
 AVAILABLE COMMANDS
+       o associate-alias
+
        o create-cache-policy
 
        o create-cloud-front-origin-access-identity
@@ -23,6 +25,8 @@ AVAILABLE COMMANDS
        o create-field-level-encryption-config
 
        o create-field-level-encryption-profile
+
+       o create-function
 
        o create-invalidation
 
@@ -50,6 +54,8 @@ AVAILABLE COMMANDS
 
        o delete-field-level-encryption-profile
 
+       o delete-function
+
        o delete-key-group
 
        o delete-monitoring-subscription
@@ -61,6 +67,8 @@ AVAILABLE COMMANDS
        o delete-realtime-log-config
 
        o delete-streaming-distribution
+
+       o describe-function
 
        o get-cache-policy
 
@@ -81,6 +89,8 @@ AVAILABLE COMMANDS
        o get-field-level-encryption-profile
 
        o get-field-level-encryption-profile-config
+
+       o get-function
 
        o get-invalidation
 
@@ -110,6 +120,8 @@ AVAILABLE COMMANDS
 
        o list-cloud-front-origin-access-identities
 
+       o list-conflicting-aliases
+
        o list-distributions
 
        o list-distributions-by-cache-policy-id
@@ -126,6 +138,8 @@ AVAILABLE COMMANDS
 
        o list-field-level-encryption-profiles
 
+       o list-functions
+
        o list-invalidations
 
        o list-key-groups
@@ -140,9 +154,13 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
+       o publish-function
+
        o sign
 
        o tag-resource
+
+       o test-function
 
        o untag-resource
 
@@ -155,6 +173,8 @@ AVAILABLE COMMANDS
        o update-field-level-encryption-config
 
        o update-field-level-encryption-profile
+
+       o update-function
 
        o update-key-group
 

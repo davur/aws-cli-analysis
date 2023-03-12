@@ -57,7 +57,11 @@ AVAILABLE COMMANDS
 
        o get-device-profile
 
+       o get-log-levels-by-resource-types
+
        o get-partner-account
+
+       o get-resource-log-level
 
        o get-service-endpoint
 
@@ -97,6 +101,12 @@ AVAILABLE COMMANDS
 
        o list-wireless-gateways
 
+       o put-resource-log-level
+
+       o reset-all-resource-log-levels
+
+       o reset-resource-log-level
+
        o send-data-to-wireless-device
 
        o tag-resource
@@ -106,6 +116,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-destination
+
+       o update-log-levels-by-resource-types
 
        o update-partner-account
 

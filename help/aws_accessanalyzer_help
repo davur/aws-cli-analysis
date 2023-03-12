@@ -11,15 +11,21 @@ DESCRIPTION
        nal  principal.	It does this by using logic-based reasoning to analyze
        resource-based policies in your AWS environment. An external  principal
        can  be another AWS account, a root user, an IAM user or role, a feder-
-       ated user, an AWS service, or an anonymous user. This  guide  describes
-       the  AWS  IAM Access Analyzer operations that you can call programmati-
-       cally. For general information about Access Analyzer, see AWS  IAM  Ac-
-       cess Analyzer in the IAM User Guide .
+       ated user, an AWS service, or an anonymous user. You can also  use  Ac-
+       cess  Analyzer  to preview and validate public and cross-account access
+       to your resources before deploying permissions changes. This guide  de-
+       scribes	the  AWS IAM Access Analyzer operations that you can call pro-
+       grammatically. For general information about Access Analyzer,  see  AWS
+       IAM Access Analyzer in the IAM User Guide .
 
        To start using Access Analyzer, you first need to create an analyzer.
 
 AVAILABLE COMMANDS
        o apply-archive-rule
+
+       o cancel-policy-generation
+
+       o create-access-preview
 
        o create-analyzer
 
@@ -29,6 +35,8 @@ AVAILABLE COMMANDS
 
        o delete-archive-rule
 
+       o get-access-preview
+
        o get-analyzed-resource
 
        o get-analyzer
@@ -37,7 +45,13 @@ AVAILABLE COMMANDS
 
        o get-finding
 
+       o get-generated-policy
+
        o help
+
+       o list-access-preview-findings
+
+       o list-access-previews
 
        o list-analyzed-resources
 
@@ -47,7 +61,11 @@ AVAILABLE COMMANDS
 
        o list-findings
 
+       o list-policy-generations
+
        o list-tags-for-resource
+
+       o start-policy-generation
 
        o start-resource-scan
 
@@ -58,6 +76,8 @@ AVAILABLE COMMANDS
        o update-archive-rule
 
        o update-findings
+
+       o validate-policy
 
 
 

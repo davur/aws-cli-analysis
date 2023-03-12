@@ -159,6 +159,8 @@ AVAILABLE COMMANDS
 
        o re-encrypt
 
+       o replicate-key
+
        o retire-grant
 
        o revoke-grant
@@ -176,6 +178,8 @@ AVAILABLE COMMANDS
        o update-custom-key-store
 
        o update-key-description
+
+       o update-primary-region
 
        o verify
 

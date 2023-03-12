@@ -32,11 +32,15 @@ AVAILABLE COMMANDS
 
        o create-named-query
 
+       o create-prepared-statement
+
        o create-work-group
 
        o delete-data-catalog
 
        o delete-named-query
+
+       o delete-prepared-statement
 
        o delete-work-group
 
@@ -45,6 +49,8 @@ AVAILABLE COMMANDS
        o get-database
 
        o get-named-query
+
+       o get-prepared-statement
 
        o get-query-execution
 
@@ -60,7 +66,11 @@ AVAILABLE COMMANDS
 
        o list-databases
 
+       o list-engine-versions
+
        o list-named-queries
+
+       o list-prepared-statements
 
        o list-query-executions
 
@@ -79,6 +89,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-data-catalog
+
+       o update-prepared-statement
 
        o update-work-group
 

@@ -6,16 +6,16 @@ NAME
        directconnect -
 
 DESCRIPTION
-       AWS Direct Connect links your internal network to an AWS Direct Connect
-       location over a standard Ethernet fiber-optic cable. One end of the ca-
-       ble  is	connected  to  your router, the other to an AWS Direct Connect
-       router. With this connection in place, you can  create  virtual	inter-
-       faces  directly to the AWS cloud (for example, to Amazon EC2 and Amazon
-       S3) and to Amazon VPC, bypassing Internet  service  providers  in  your
-       network	path.  A  connection provides access to all AWS Regions except
-       the China (Beijing) and (China) Ningxia Regions. AWS resources  in  the
-       China  Regions  can  only be accessed through locations associated with
-       those Regions.
+       Direct  Connect	links your internal network to an Direct Connect loca-
+       tion over a standard Ethernet fiber-optic cable. One end of  the  cable
+       is  connected  to  your	router, the other to an Direct Connect router.
+       With this connection in place, you can create  virtual  interfaces  di-
+       rectly  to  the Cloud (for example, to Amazon EC2 and Amazon S3) and to
+       Amazon VPC, bypassing Internet service providers in your network  path.
+       A  connection provides access to all Regions except the China (Beijing)
+       and (China) Ningxia Regions. Amazon Web Services resources in the China
+       Regions	can  only  be accessed through locations associated with those
+       Regions.
 
 AVAILABLE COMMANDS
        o accept-direct-connect-gateway-association-proposal
@@ -31,6 +31,8 @@ AVAILABLE COMMANDS
        o associate-connection-with-lag
 
        o associate-hosted-connection
+
+       o associate-mac-sec-key
 
        o associate-virtual-interface
 
@@ -106,6 +108,8 @@ AVAILABLE COMMANDS
 
        o disassociate-connection-from-lag
 
+       o disassociate-mac-sec-key
+
        o help
 
        o list-virtual-interface-test-history
@@ -117,6 +121,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-connection
 
        o update-direct-connect-gateway-association
 

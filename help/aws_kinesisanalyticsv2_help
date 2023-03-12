@@ -49,15 +49,21 @@ AVAILABLE COMMANDS
 
        o describe-application-snapshot
 
+       o describe-application-version
+
        o discover-input-schema
 
        o help
 
        o list-application-snapshots
 
+       o list-application-versions
+
        o list-applications
 
        o list-tags-for-resource
+
+       o rollback-application
 
        o start-application
 
@@ -68,6 +74,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-application
+
+       o update-application-maintenance-configuration
 
 
 

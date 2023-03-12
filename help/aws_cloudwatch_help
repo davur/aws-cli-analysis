@@ -32,6 +32,8 @@ AVAILABLE COMMANDS
 
        o delete-insight-rules
 
+       o delete-metric-stream
+
        o describe-alarm-history
 
        o describe-alarms
@@ -58,11 +60,15 @@ AVAILABLE COMMANDS
 
        o get-metric-statistics
 
+       o get-metric-stream
+
        o get-metric-widget-image
 
        o help
 
        o list-dashboards
+
+       o list-metric-streams
 
        o list-metrics
 
@@ -80,7 +86,13 @@ AVAILABLE COMMANDS
 
        o put-metric-data
 
+       o put-metric-stream
+
        o set-alarm-state
+
+       o start-metric-streams
+
+       o stop-metric-streams
 
        o tag-resource
 

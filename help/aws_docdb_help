@@ -9,6 +9,8 @@ DESCRIPTION
        Amazon DocumentDB API documentation
 
 AVAILABLE COMMANDS
+       o add-source-identifier-to-subscription
+
        o add-tags-to-resource
 
        o apply-pending-maintenance-action
@@ -27,6 +29,10 @@ AVAILABLE COMMANDS
 
        o create-db-subnet-group
 
+       o create-event-subscription
+
+       o create-global-cluster
+
        o delete-db-cluster
 
        o delete-db-cluster-parameter-group
@@ -36,6 +42,10 @@ AVAILABLE COMMANDS
        o delete-db-instance
 
        o delete-db-subnet-group
+
+       o delete-event-subscription
+
+       o delete-global-cluster
 
        o describe-certificates
 
@@ -59,7 +69,11 @@ AVAILABLE COMMANDS
 
        o describe-event-categories
 
+       o describe-event-subscriptions
+
        o describe-events
+
+       o describe-global-clusters
 
        o describe-orderable-db-instance-options
 
@@ -81,7 +95,15 @@ AVAILABLE COMMANDS
 
        o modify-db-subnet-group
 
+       o modify-event-subscription
+
+       o modify-global-cluster
+
        o reboot-db-instance
+
+       o remove-from-global-cluster
+
+       o remove-source-identifier-from-subscription
 
        o remove-tags-from-resource
 

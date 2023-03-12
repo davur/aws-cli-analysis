@@ -25,6 +25,10 @@ AVAILABLE COMMANDS
 
        o create-data-source
 
+       o create-folder
+
+       o create-folder-membership
+
        o create-group
 
        o create-group-membership
@@ -52,6 +56,10 @@ AVAILABLE COMMANDS
        o delete-data-set
 
        o delete-data-source
+
+       o delete-folder
+
+       o delete-folder-membership
 
        o delete-group
 
@@ -93,6 +101,12 @@ AVAILABLE COMMANDS
 
        o describe-data-source-permissions
 
+       o describe-folder
+
+       o describe-folder-permissions
+
+       o describe-folder-resolved-permissions
+
        o describe-group
 
        o describe-iam-policy-assignment
@@ -130,6 +144,10 @@ AVAILABLE COMMANDS
        o list-data-sets
 
        o list-data-sources
+
+       o list-folder-members
+
+       o list-folders
 
        o list-group-memberships
 
@@ -169,6 +187,8 @@ AVAILABLE COMMANDS
 
        o search-dashboards
 
+       o search-folders
+
        o tag-resource
 
        o untag-resource
@@ -194,6 +214,10 @@ AVAILABLE COMMANDS
        o update-data-source
 
        o update-data-source-permissions
+
+       o update-folder
+
+       o update-folder-permissions
 
        o update-group
 

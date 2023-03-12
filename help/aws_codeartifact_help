@@ -8,10 +8,10 @@ NAME
 DESCRIPTION
        AWS CodeArtifact is a fully managed artifact repository compatible with
        language-native package managers and build tools such  as  npm,	Apache
-       Maven,  NuGet, and pip. You can use CodeArtifact to share packages with
-       development teams and pull packages. Packages can be pulled  from  both
-       public  and  CodeArtifact repositories. You can also create an upstream
-       relationship between a CodeArtifact repository and another  repository,
+       Maven,  and pip. You can use CodeArtifact to share packages with devel-
+       opment teams and pull packages. Packages can be pulled from both public
+       and  CodeArtifact  repositories.  You can also create an upstream rela-
+       tionship between a  CodeArtifact  repository  and  another  repository,
        which  effectively  merges  their  contents from the point of view of a
        package manager client.
 	  AWS CodeArtifact Components
@@ -23,8 +23,8 @@ DESCRIPTION
 	 sions , each of which maps to a set of assets, or files. Repositories
 	 are polyglot, so a single repository can contain packages of any sup-
 	 ported type. Each repository exposes endpoints for fetching and  pub-
-	 lishing  packages using tools like the ** npm ** CLI, the ** NuGet **
-	 CLI, the Maven CLI (** mvn ** ), and ** pip ** .
+	 lishing  packages  using  tools like the ** npm ** CLI, the Maven CLI
+	 (** mvn ** ), and ** pip ** .
 
        o Domain : Repositories are aggregated into a higher-level entity known
 	 as  a	domain . All package assets and metadata are stored in the do-
@@ -43,8 +43,8 @@ DESCRIPTION
 
        o Package : A package is a bundle of software and the metadata required
 	 to resolve dependencies and install the software.  CodeArtifact  sup-
-	 ports	npm  ,	PyPI , Maven , and NuGet package formats. In CodeArti-
-	 fact, a package consists of:
+	 ports	npm  ,	PyPI  ,  and Maven package formats. In CodeArtifact, a
+	 package consists of:
 
 	 o A name (for example, webpack is the name of a popular npm package)
 
@@ -101,8 +101,8 @@ DESCRIPTION
        o DescribeDomain : Returns a DomainDescription object that contains in-
 	 formation about the requested domain.
 
-       o DescribePackageVersion  :  Returns  a `` PackageVersionDescription ``
-	 object that contains details about a package version.
+       o DescribePackageVersion  :  Returns a PackageVersionDescription object
+	 that contains details about a package version.
 
        o DescribeRepository : Returns a RepositoryDescription object that con-
 	 tains detailed information about the requested repository.
@@ -138,8 +138,6 @@ DESCRIPTION
 
 	 o maven
 
-	 o nuget
-
        o GetRepositoryPermissionsPolicy : Returns the resource policy that  is
 	 set on a repository.
 
@@ -163,19 +161,12 @@ DESCRIPTION
        o ListRepositoriesInDomain : Returns a list of the  repositories  in  a
 	 domain.
 
-       o ListTagsForResource  :  Returns  a list of the tags associated with a
-	 resource.
-
        o PutDomainPermissionsPolicy : Attaches a resource policy to a domain.
 
        o PutRepositoryPermissionsPolicy : Sets the resource policy on a repos-
 	 itory that specifies permissions to access it.
 
-       o TagResource : Adds or updates tags for a resource.
-
-       o UntagResource : Removes a tag from a resource.
-
-       o UpdatePackageVersionsStatus  : Updates the status of one or more ver-
+       o UpdatePackageVersionsStatus : Updates the status of one or more  ver-
 	 sions of a package.
 
        o UpdateRepository : Updates the properties of a repository.

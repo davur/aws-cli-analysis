@@ -32,11 +32,15 @@ AVAILABLE COMMANDS
 
        o describe-anomaly
 
+       o describe-feedback
+
        o describe-insight
 
        o describe-resource-collection-health
 
        o describe-service-integration
+
+       o get-cost-estimation
 
        o get-resource-collection
 
@@ -57,6 +61,8 @@ AVAILABLE COMMANDS
        o remove-notification-channel
 
        o search-insights
+
+       o start-cost-estimation
 
        o update-resource-collection
 

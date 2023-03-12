@@ -24,6 +24,8 @@ AVAILABLE COMMANDS
 
        o classify-document
 
+       o contains-pii-entities
+
        o create-document-classifier
 
        o create-endpoint

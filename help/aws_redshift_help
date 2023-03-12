@@ -35,7 +35,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-reserved-node-exchange
 
+       o add-partner
+
        o authorize-cluster-security-group-ingress
+
+       o authorize-endpoint-access
 
        o authorize-snapshot-access
 
@@ -47,6 +51,8 @@ AVAILABLE COMMANDS
 
        o copy-cluster-snapshot
 
+       o create-authentication-profile
+
        o create-cluster
 
        o create-cluster-parameter-group
@@ -56,6 +62,8 @@ AVAILABLE COMMANDS
        o create-cluster-snapshot
 
        o create-cluster-subnet-group
+
+       o create-endpoint-access
 
        o create-event-subscription
 
@@ -73,6 +81,8 @@ AVAILABLE COMMANDS
 
        o create-usage-limit
 
+       o delete-authentication-profile
+
        o delete-cluster
 
        o delete-cluster-parameter-group
@@ -83,11 +93,15 @@ AVAILABLE COMMANDS
 
        o delete-cluster-subnet-group
 
+       o delete-endpoint-access
+
        o delete-event-subscription
 
        o delete-hsm-client-certificate
 
        o delete-hsm-configuration
+
+       o delete-partner
 
        o delete-scheduled-action
 
@@ -100,6 +114,8 @@ AVAILABLE COMMANDS
        o delete-usage-limit
 
        o describe-account-attributes
+
+       o describe-authentication-profiles
 
        o describe-cluster-db-revisions
 
@@ -121,6 +137,10 @@ AVAILABLE COMMANDS
 
        o describe-default-cluster-parameters
 
+       o describe-endpoint-access
+
+       o describe-endpoint-authorization
+
        o describe-event-categories
 
        o describe-event-subscriptions
@@ -136,6 +156,8 @@ AVAILABLE COMMANDS
        o describe-node-configuration-options
 
        o describe-orderable-cluster-options
+
+       o describe-partners
 
        o describe-reserved-node-offerings
 
@@ -171,6 +193,10 @@ AVAILABLE COMMANDS
 
        o help
 
+       o modify-aqua-configuration
+
+       o modify-authentication-profile
+
        o modify-cluster
 
        o modify-cluster-db-revision
@@ -186,6 +212,8 @@ AVAILABLE COMMANDS
        o modify-cluster-snapshot-schedule
 
        o modify-cluster-subnet-group
+
+       o modify-endpoint-access
 
        o modify-event-subscription
 
@@ -215,9 +243,13 @@ AVAILABLE COMMANDS
 
        o revoke-cluster-security-group-ingress
 
+       o revoke-endpoint-access
+
        o revoke-snapshot-access
 
        o rotate-encryption-key
+
+       o update-partner-status
 
        o wait
 

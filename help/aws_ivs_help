@@ -9,15 +9,16 @@ DESCRIPTION
 	  Introduction
 
        The  Amazon Interactive Video Service (IVS) API is REST compatible, us-
-       ing a standard HTTP API and an AWS SNS event stream for responses. JSON
-       is used for both requests and responses, including errors.
+       ing a standard HTTP API and an AWS EventBridge  event  stream  for  re-
+       sponses.  JSON  is  used for both requests and responses, including er-
+       rors.
 
-       The  API  is  an  AWS  regional	service,  currently  in these regions:
+       The API is  an  AWS  regional  service,	currently  in  these  regions:
        us-west-2, us-east-1, and eu-west-1.
 
 	  o All API request parameters and URLs are case sensitive. *
 
-       For a summary of notable documentation changes  in  each  release,  see
+       For  a  summary	of  notable documentation changes in each release, see
        Document History .
 	  Service Endpoints
 
@@ -67,23 +68,28 @@ DESCRIPTION
 	 Inline literal start-string without end-string.
 	  Resources
 
-       The  following resources contain information about your IVS live stream
+       The following resources contain information about your IVS live	stream
        (see Getting Started with Amazon IVS ):
 
-       o Channel  Stores configuration data related to your live  stream.  You
-	 first	create a channel and then use the channels stream key to start
+       o Channel   Stores  configuration data related to your live stream. You
+	 first create a channel and then use the channels stream key to  start
 	 your live stream. See the Channel endpoints for more information.
 
-       o Stream key  An identifier assigned by Amazon IVS when	you  create  a
+       o Stream  key   An  identifier assigned by Amazon IVS when you create a
 	 channel, which is then used to authorize streaming. See the StreamKey
 	 endpoints for more information. * Treat the stream key like a secret,
 	 since it allows anyone to stream to the channel. *
 
-       o Playback  key	pair   Video  playback	may  be restricted using play-
-	 back-authorization tokens, which use public-key encryption.  A  play-
-	 back  key  pair  is  the public-private pair of keys used to sign and
-	 validate the playback-authorization token.  See  the  PlaybackKeyPair
+       o Playback key pair  Video  playback  may  be  restricted  using  play-
+	 back-authorization  tokens,  which use public-key encryption. A play-
+	 back key pair is the public-private pair of keys  used  to  sign  and
+	 validate  the	playback-authorization	token. See the PlaybackKeyPair
 	 endpoints for more information.
+
+       o Recording configuration  Stores configuration related to recording  a
+	 live  stream  and where to store the recorded content. Multiple chan-
+	 nels can reference the same recording configuration. See the  Record-
+	 ing Configuration endpoints for more information.
 	  Tagging
 
        A  tag  is  a  metadata label that you assign to an AWS resource. A tag
@@ -99,21 +105,55 @@ DESCRIPTION
 
        The Amazon IVS API has these tag-related endpoints:  TagResource ,  Un-
        tagResource  ,  and  ListTagsForResource . The following resources sup-
-       port tagging: Channels, Stream Keys, and Playback Key Pairs.
+       port tagging: Channels, Stream Keys, Playback Key Pairs, and  Recording
+       Configurations.
+	  Authentication versus Authorization
+
+       Note the differences between these concepts:
+
+       o Authentication  is about verifying identity. You need to be authenti-
+	 cated to sign Amazon IVS API requests.
+
+       o Authorization is about granting permissions. You need	to  be	autho-
+	 rized	to  view  Amazon  IVS private channels . (Private channels are
+	 channels that are enabled for "playback authorization.")
+	  Authentication
+
+       All Amazon IVS API requests must be authenticated with a signature. The
+       AWS  Command-Line  Interface (CLI) and Amazon IVS Player SDKs take care
+       of signing the underlying API calls for you. However, if your  applica-
+       tion calls the Amazon IVS API directly, its your responsibility to sign
+       the requests.
+
+       You generate a signature using valid AWS credentials that have  permis-
+       sion  to  perform the requested action. For example, you must sign Put-
+       Metadata requests with a signature generated from an IAM  user  account
+       that has the ivs:PutMetadata permission.
+
+       For more information:
+
+       o Authentication and generating signatures  See Authenticating Requests
+	 (AWS Signature Version 4) in the AWS General Reference .
+
+       o Managing Amazon IVS permissions  See Identity and  Access  Management
+	 on the Security page of the Amazon IVS User Guide .
 	  Channel Endpoints
 
-       o CreateChannel	Creates a new channel and an associated stream key  to
+       o CreateChannel	 Creates a new channel and an associated stream key to
 	 start streaming.
 
-       o GetChannel   Gets the channel configuration for the specified channel
+       o GetChannel  Gets the channel configuration for the specified  channel
 	 ARN (Amazon Resource Name).
 
-       o BatchGetChannel  Performs  GetChannel	on  multiple  ARNs  simultane-
+       o BatchGetChannel   Performs   GetChannel  on  multiple ARNs simultane-
 	 ously.
 
        o ListChannels  Gets summary information about all channels in your ac-
-	 count, in the AWS region where the API  request  is  processed.  This
-	 list can be filtered to match a specified string.
+	 count,  in  the  AWS  region where the API request is processed. This
+	 list can be filtered to match a specified name or  recording-configu-
+	 ration  ARN.  Filters	are  mutually exclusive and cannot be used to-
+	 gether. If you try to use both filters, you will get  an  error  (409
+	 Conflict Exception).
 
        o UpdateChannel	 Updates  a channel's configuration. This does not af-
 	 fect an ongoing stream of this channel. You must stop and restart the
@@ -147,27 +187,46 @@ DESCRIPTION
 	 channel. Can be used in conjunction with  DeleteStreamKey to  prevent
 	 further streaming to a channel.
 
-       o PutMetadata   Inserts metadata into an RTMPS stream for the specified
+       o PutMetadata  Inserts metadata into the active stream of the specified
 	 channel. A maximum of 5 requests per second per channel  is  allowed,
-	 each with a maximum 1KB payload.
+	 each  with  a	maximum  1 KB payload. (If 5 TPS is not sufficient for
+	 your needs, we recommend batching your data into a single PutMetadata
+	 call.)
 	  PlaybackKeyPair Endpoints
 
-       o ImportPlaybackKeyPair	 Imports  the public portion of a new key pair
+       For more information, see Setting Up Private Channels in the Amazon IVS
+       User Guide .
+
+       o ImportPlaybackKeyPair	Imports the public portion of a new  key  pair
 	 and returns its arn and fingerprint . The privateKey can then be used
-	 to  generate  viewer authorization tokens, to grant viewers access to
-	 authorized channels.
+	 to generate viewer authorization tokens, to grant viewers  access  to
+	 private channels (channels enabled for playback authorization).
 
-       o GetPlaybackKeyPair  Gets a specified playback authorization key  pair
-	 and  returns  the  arn  and  fingerprint . The privateKey held by the
-	 caller can be used to generate viewer authorization tokens, to  grant
-	 viewers access to authorized channels.
+       o GetPlaybackKeyPair   Gets a specified playback authorization key pair
+	 and returns the arn and fingerprint .	The  privateKey  held  by  the
+	 caller  can be used to generate viewer authorization tokens, to grant
+	 viewers access to private channels.
 
-       o ListPlaybackKeyPairs	Gets  summary  information  about playback key
+       o ListPlaybackKeyPairs  Gets summary  information  about  playback  key
 	 pairs.
 
-       o DeletePlaybackKeyPair	Deletes a specified  authorization  key  pair.
-	 This  invalidates  future viewer tokens generated using the key pairs
+       o DeletePlaybackKeyPair	 Deletes  a  specified authorization key pair.
+	 This invalidates future viewer tokens generated using the  key  pairs
 	 privateKey .
+	  RecordingConfiguration Endpoints
+
+       o CreateRecordingConfiguration	Creates a new recording configuration,
+	 used to enable recording to Amazon S3.
+
+       o GetRecordingConfiguration  Gets the recording-configuration  metadata
+	 for the specified ARN.
+
+       o ListRecordingConfigurations	Gets  summary  information  about  all
+	 recording configurations in your account, in the AWS region where the
+	 API request is processed.
+
+       o DeleteRecordingConfiguration  Deletes the recording configuration for
+	 the specified ARN.
 	  AWS Tags Endpoints
 
        o TagResource  Adds or updates tags for the AWS resource with the spec-
@@ -185,17 +244,23 @@ AVAILABLE COMMANDS
 
        o create-channel
 
+       o create-recording-configuration
+
        o create-stream-key
 
        o delete-channel
 
        o delete-playback-key-pair
 
+       o delete-recording-configuration
+
        o delete-stream-key
 
        o get-channel
 
        o get-playback-key-pair
+
+       o get-recording-configuration
 
        o get-stream
 
@@ -208,6 +273,8 @@ AVAILABLE COMMANDS
        o list-channels
 
        o list-playback-key-pairs
+
+       o list-recording-configurations
 
        o list-stream-keys
 

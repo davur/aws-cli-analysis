@@ -77,6 +77,12 @@ AVAILABLE COMMANDS
 
        o update-agent
 
+       o update-location-nfs
+
+       o update-location-object-storage
+
+       o update-location-smb
+
        o update-task
 
        o update-task-execution

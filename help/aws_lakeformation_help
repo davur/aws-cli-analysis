@@ -9,9 +9,15 @@ DESCRIPTION
        Defines the public endpoint for the AWS Lake Formation service.
 
 AVAILABLE COMMANDS
+       o add-lf-tags-to-resource
+
        o batch-grant-permissions
 
        o batch-revoke-permissions
+
+       o create-lf-tag
+
+       o delete-lf-tag
 
        o deregister-resource
 
@@ -21,9 +27,15 @@ AVAILABLE COMMANDS
 
        o get-effective-permissions-for-path
 
+       o get-lf-tag
+
+       o get-resource-lf-tags
+
        o grant-permissions
 
        o help
+
+       o list-lf-tags
 
        o list-permissions
 
@@ -33,7 +45,15 @@ AVAILABLE COMMANDS
 
        o register-resource
 
+       o remove-lf-tags-from-resource
+
        o revoke-permissions
+
+       o search-databases-by-lf-tags
+
+       o search-tables-by-lf-tags
+
+       o update-lf-tag
 
        o update-resource
 

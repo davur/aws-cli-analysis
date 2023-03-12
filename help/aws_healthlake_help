@@ -25,9 +25,19 @@ AVAILABLE COMMANDS
 
        o list-fhir-datastores
 
+       o list-fhir-export-jobs
+
+       o list-fhir-import-jobs
+
+       o list-tags-for-resource
+
        o start-fhir-export-job
 
        o start-fhir-import-job
+
+       o tag-resource
+
+       o untag-resource
 
 
 

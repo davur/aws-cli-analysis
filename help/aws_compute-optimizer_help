@@ -26,7 +26,11 @@ AVAILABLE COMMANDS
 
        o export-auto-scaling-group-recommendations
 
+       o export-ebs-volume-recommendations
+
        o export-ec2-instance-recommendations
+
+       o export-lambda-function-recommendations
 
        o get-auto-scaling-group-recommendations
 

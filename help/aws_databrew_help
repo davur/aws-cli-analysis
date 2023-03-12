@@ -6,7 +6,7 @@ NAME
        databrew -
 
 DESCRIPTION
-       AWS  Glue  DataBrew  is a visual, cloud-scale data-preparation service.
+       Glue  DataBrew  is  a  visual,  cloud-scale  data-preparation  service.
        DataBrew simplifies data preparation tasks, targeting data issues  that
        are  hard to spot and time-consuming to fix. DataBrew empowers users of
        all technical levels to visualize the data and perform  one-click  data
@@ -40,6 +40,8 @@ AVAILABLE COMMANDS
        o describe-dataset
 
        o describe-job
+
+       o describe-job-run
 
        o describe-project
 

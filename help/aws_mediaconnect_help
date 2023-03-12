@@ -9,6 +9,8 @@ DESCRIPTION
        API for AWS Elemental MediaConnect
 
 AVAILABLE COMMANDS
+       o add-flow-media-streams
+
        o add-flow-outputs
 
        o add-flow-sources
@@ -41,6 +43,8 @@ AVAILABLE COMMANDS
 
        o purchase-offering
 
+       o remove-flow-media-stream
+
        o remove-flow-output
 
        o remove-flow-source
@@ -61,9 +65,13 @@ AVAILABLE COMMANDS
 
        o update-flow-entitlement
 
+       o update-flow-media-stream
+
        o update-flow-output
 
        o update-flow-source
+
+       o wait
 
 
 

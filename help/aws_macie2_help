@@ -53,6 +53,8 @@ AVAILABLE COMMANDS
 
        o disable-organization-admin-account
 
+       o disassociate-from-administrator-account
+
        o disassociate-from-master-account
 
        o disassociate-member
@@ -60,6 +62,8 @@ AVAILABLE COMMANDS
        o enable-macie
 
        o enable-organization-admin-account
+
+       o get-administrator-account
 
        o get-bucket-statistics
 
@@ -72,6 +76,8 @@ AVAILABLE COMMANDS
        o get-findings
 
        o get-findings-filter
+
+       o get-findings-publication-configuration
 
        o get-invitations-count
 
@@ -104,6 +110,10 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o put-classification-export-configuration
+
+       o put-findings-publication-configuration
+
+       o search-resources
 
        o tag-resource
 

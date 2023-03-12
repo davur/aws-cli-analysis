@@ -65,6 +65,10 @@ AVAILABLE COMMANDS
 
        o get-intents
 
+       o get-migration
+
+       o get-migrations
+
        o get-slot-type
 
        o get-slot-type-versions
@@ -86,6 +90,8 @@ AVAILABLE COMMANDS
        o put-slot-type
 
        o start-import
+
+       o start-migration
 
        o tag-resource
 

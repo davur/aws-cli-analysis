@@ -6,11 +6,11 @@ NAME
        imagebuilder -
 
 DESCRIPTION
-       EC2  Image  Builder is a fully managed AWS service that makes it easier
-       to automate the creation, management, and deployment of customized, se-
-       cure,  and up-to-date "golden" server images that are pre-installed and
-       pre-configured with software and settings to  meet  specific  IT  stan-
-       dards.
+       EC2  Image  Builder is a fully managed Amazon Web Services service that
+       makes it easier to automate the creation, management, and deployment of
+       customized,  secure,  and  up-to-date  "golden"	server images that are
+       pre-installed and pre-configured with software  and  settings  to  meet
+       specific IT standards.
 
 AVAILABLE COMMANDS
        o cancel-image-creation
@@ -78,6 +78,8 @@ AVAILABLE COMMANDS
        o list-distribution-configurations
 
        o list-image-build-versions
+
+       o list-image-packages
 
        o list-image-pipeline-images
 
