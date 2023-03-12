@@ -6,14 +6,28 @@ NAME
        ds -
 
 DESCRIPTION
-       This  is  the AWS Directory Service API Reference . This guide provides
-       detailed information  about  AWS  Directory  Service  operations,  data
-       types, parameters, and errors.
+       AWS  Directory  Service	is a web service that makes it easy for you to
+       setup and run directories in the AWS cloud, or  connect	your  AWS  re-
+       sources	with  an existing on-premises Microsoft Active Directory. This
+       guide provides detailed information about AWS Directory Service	opera-
+       tions,  data  types,  parameters, and errors. For information about AWS
+       Directory Services features, see AWS Directory Service and the AWS  Di-
+       rectory Service Administration Guide .
+
+       NOTE:
+	  AWS provides SDKs that consist of libraries and sample code for var-
+	  ious programming languages and platforms (Java, Ruby, .Net, iOS, An-
+	  droid,  etc.).  The SDKs provide a convenient way to create program-
+	  matic access to AWS Directory Service and other  AWS	services.  For
+	  more	information  about the AWS SDKs, including how to download and
+	  install them, see Tools for Amazon Web Services .
 
 AVAILABLE COMMANDS
        o add-ip-routes
 
        o add-tags-to-resource
+
+       o cancel-schema-extension
 
        o connect-directory
 
@@ -45,6 +59,8 @@ AVAILABLE COMMANDS
 
        o describe-directories
 
+       o describe-domain-controllers
+
        o describe-event-topics
 
        o describe-snapshots
@@ -67,6 +83,8 @@ AVAILABLE COMMANDS
 
        o list-ip-routes
 
+       o list-schema-extensions
+
        o list-tags-for-resource
 
        o register-event-topic
@@ -77,7 +95,11 @@ AVAILABLE COMMANDS
 
        o restore-from-snapshot
 
+       o start-schema-extension
+
        o update-conditional-forwarder
+
+       o update-number-of-domain-controllers
 
        o update-radius
 

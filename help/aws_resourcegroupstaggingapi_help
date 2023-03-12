@@ -1,0 +1,66 @@
+RESOURCEGROUPSTAGGINGAPI()			    RESOURCEGROUPSTAGGINGAPI()
+
+
+
+NAME
+       resourcegroupstaggingapi -
+
+DESCRIPTION
+       This  guide  describes  the API operations for the resource groups tag-
+       ging.
+
+       A tag is a label that you assign to an AWS resource. A tag consists  of
+       a  key  and a value, both of which you define. For example, if you have
+       two Amazon EC2 instances, you might assign both a tag key  of  "Stack."
+       But  the  value	of "Stack" might be "Testing" for one and "Production"
+       for the other.
+
+       Tagging can help you organize your resources and enables  you  to  sim-
+       plify  resource	management, access management and cost allocation. For
+       more information about tagging, see Working with Tag Editor and Working
+       with  Resource Groups . For more information about permissions you need
+       to use the resource groups tagging APIs, see Obtaining Permissions  for
+       Resource Groups and Obtaining Permissions for Tagging .
+
+       You  can use the resource groups tagging APIs to complete the following
+       tasks:
+
+       o Tag and untag supported resources located in the specified region for
+	 the AWS account
+
+       o Use  tag-based  filters to search for resources located in the speci-
+	 fied region for the AWS account
+
+       o List all existing tag keys in the specified region for  the  AWS  ac-
+	 count
+
+       o List  all  existing values for the specified key in the specified re-
+	 gion for the AWS account
+
+       Not all resources can have tags. For a lists of resources that you  can
+       tag,  see Supported Resources in the AWS Resource Groups and Tag Editor
+       User Guide .
+
+       To make full use of the resource groups tagging APIs,  you  might  need
+       additional  IAM	permissions,  including  permission  to access the re-
+       sources of individual services as well as permission to view and  apply
+       tags  to  those	resources. For more information, see Obtaining Permis-
+       sions for Tagging in the AWS Resource Groups and Tag Editor User  Guide
+       .
+
+AVAILABLE COMMANDS
+       o get-resources
+
+       o get-tag-keys
+
+       o get-tag-values
+
+       o help
+
+       o tag-resources
+
+       o untag-resources
+
+
+
+						    RESOURCEGROUPSTAGGINGAPI()

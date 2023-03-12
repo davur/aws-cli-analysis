@@ -1,0 +1,134 @@
+PINPOINT()							    PINPOINT()
+
+
+
+NAME
+       pinpoint -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o create-app
+
+       o create-campaign
+
+       o create-import-job
+
+       o create-segment
+
+       o delete-adm-channel
+
+       o delete-apns-channel
+
+       o delete-apns-sandbox-channel
+
+       o delete-apns-voip-channel
+
+       o delete-apns-voip-sandbox-channel
+
+       o delete-app
+
+       o delete-baidu-channel
+
+       o delete-campaign
+
+       o delete-email-channel
+
+       o delete-event-stream
+
+       o delete-gcm-channel
+
+       o delete-segment
+
+       o delete-sms-channel
+
+       o get-adm-channel
+
+       o get-apns-channel
+
+       o get-apns-sandbox-channel
+
+       o get-apns-voip-channel
+
+       o get-apns-voip-sandbox-channel
+
+       o get-app
+
+       o get-application-settings
+
+       o get-apps
+
+       o get-baidu-channel
+
+       o get-campaign
+
+       o get-campaign-activities
+
+       o get-campaign-version
+
+       o get-campaign-versions
+
+       o get-campaigns
+
+       o get-email-channel
+
+       o get-endpoint
+
+       o get-event-stream
+
+       o get-gcm-channel
+
+       o get-import-job
+
+       o get-import-jobs
+
+       o get-segment
+
+       o get-segment-import-jobs
+
+       o get-segment-version
+
+       o get-segment-versions
+
+       o get-segments
+
+       o get-sms-channel
+
+       o help
+
+       o put-event-stream
+
+       o send-messages
+
+       o send-users-messages
+
+       o update-adm-channel
+
+       o update-apns-channel
+
+       o update-apns-sandbox-channel
+
+       o update-apns-voip-channel
+
+       o update-apns-voip-sandbox-channel
+
+       o update-application-settings
+
+       o update-baidu-channel
+
+       o update-campaign
+
+       o update-email-channel
+
+       o update-endpoint
+
+       o update-endpoints-batch
+
+       o update-gcm-channel
+
+       o update-segment
+
+       o update-sms-channel
+
+
+
+								    PINPOINT()

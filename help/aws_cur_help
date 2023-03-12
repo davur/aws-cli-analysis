@@ -1,0 +1,22 @@
+CUR()									 CUR()
+
+
+
+NAME
+       cur -
+
+DESCRIPTION
+       All public APIs for AWS Cost and Usage Report service
+
+AVAILABLE COMMANDS
+       o delete-report-definition
+
+       o describe-report-definitions
+
+       o help
+
+       o put-report-definition
+
+
+
+									 CUR()

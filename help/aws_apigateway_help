@@ -21,9 +21,15 @@ AVAILABLE COMMANDS
 
        o create-deployment
 
+       o create-documentation-part
+
+       o create-documentation-version
+
        o create-domain-name
 
        o create-model
+
+       o create-request-validator
 
        o create-resource
 
@@ -45,7 +51,13 @@ AVAILABLE COMMANDS
 
        o delete-deployment
 
+       o delete-documentation-part
+
+       o delete-documentation-version
+
        o delete-domain-name
+
+       o delete-gateway-response
 
        o delete-integration
 
@@ -56,6 +68,8 @@ AVAILABLE COMMANDS
        o delete-method-response
 
        o delete-model
+
+       o delete-request-validator
 
        o delete-resource
 
@@ -95,11 +109,23 @@ AVAILABLE COMMANDS
 
        o get-deployments
 
+       o get-documentation-part
+
+       o get-documentation-parts
+
+       o get-documentation-version
+
+       o get-documentation-versions
+
        o get-domain-name
 
        o get-domain-names
 
        o get-export
+
+       o get-gateway-response
+
+       o get-gateway-responses
 
        o get-integration
 
@@ -115,6 +141,10 @@ AVAILABLE COMMANDS
 
        o get-models
 
+       o get-request-validator
+
+       o get-request-validators
+
        o get-resource
 
        o get-resources
@@ -124,6 +154,10 @@ AVAILABLE COMMANDS
        o get-rest-apis
 
        o get-sdk
+
+       o get-sdk-type
+
+       o get-sdk-types
 
        o get-stage
 
@@ -143,7 +177,11 @@ AVAILABLE COMMANDS
 
        o import-api-keys
 
+       o import-documentation-parts
+
        o import-rest-api
+
+       o put-gateway-response
 
        o put-integration
 
@@ -171,7 +209,13 @@ AVAILABLE COMMANDS
 
        o update-deployment
 
+       o update-documentation-part
+
+       o update-documentation-version
+
        o update-domain-name
+
+       o update-gateway-response
 
        o update-integration
 
@@ -182,6 +226,8 @@ AVAILABLE COMMANDS
        o update-method-response
 
        o update-model
+
+       o update-request-validator
 
        o update-resource
 

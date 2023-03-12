@@ -17,6 +17,8 @@ AVAILABLE COMMANDS
 
        o create-hosted-zone
 
+       o create-query-logging-config
+
        o create-reusable-delegation-set
 
        o create-traffic-policy
@@ -25,9 +27,13 @@ AVAILABLE COMMANDS
 
        o create-traffic-policy-version
 
+       o create-vpc-association-authorization
+
        o delete-health-check
 
        o delete-hosted-zone
+
+       o delete-query-logging-config
 
        o delete-reusable-delegation-set
 
@@ -35,11 +41,13 @@ AVAILABLE COMMANDS
 
        o delete-traffic-policy-instance
 
+       o delete-vpc-association-authorization
+
        o disassociate-vpc-from-hosted-zone
 
-       o get-change
+       o get-account-limit
 
-       o get-change-details
+       o get-change
 
        o get-checker-ip-ranges
 
@@ -57,7 +65,13 @@ AVAILABLE COMMANDS
 
        o get-hosted-zone-count
 
+       o get-hosted-zone-limit
+
+       o get-query-logging-config
+
        o get-reusable-delegation-set
+
+       o get-reusable-delegation-set-limit
 
        o get-traffic-policy
 
@@ -67,10 +81,6 @@ AVAILABLE COMMANDS
 
        o help
 
-       o list-change-batches-by-hosted-zone
-
-       o list-change-batches-by-rr-set
-
        o list-geo-locations
 
        o list-health-checks
@@ -78,6 +88,8 @@ AVAILABLE COMMANDS
        o list-hosted-zones
 
        o list-hosted-zones-by-name
+
+       o list-query-logging-configs
 
        o list-resource-record-sets
 
@@ -96,6 +108,8 @@ AVAILABLE COMMANDS
        o list-traffic-policy-instances-by-policy
 
        o list-traffic-policy-versions
+
+       o list-vpc-association-authorizations
 
        o test-dns-answer
 

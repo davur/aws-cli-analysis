@@ -25,8 +25,8 @@ DESCRIPTION
 	  cally. For information about the AWS SDKs, including how to download
 	  and install them, see the Tools for Amazon Web Services page .
 
-       See  the  CloudTrail  User Guide for information about the data that is
-       included with each AWS API call listed in the log files.
+       See  the  AWS CloudTrail User Guide for information about the data that
+       is included with each AWS API call listed in the log files.
 
 AVAILABLE COMMANDS
        o add-tags
@@ -39,6 +39,8 @@ AVAILABLE COMMANDS
 
        o describe-trails
 
+       o get-event-selectors
+
        o get-trail-status
 
        o help
@@ -48,6 +50,8 @@ AVAILABLE COMMANDS
        o list-tags
 
        o lookup-events
+
+       o put-event-selectors
 
        o remove-tags
 

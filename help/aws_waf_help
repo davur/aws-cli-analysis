@@ -6,16 +6,27 @@ NAME
        waf -
 
 DESCRIPTION
-       This  is  the  AWS WAF API Reference . This guide is for developers who
-       need detailed information about the AWS WAF API	actions,  data	types,
-       and  errors.  For  detailed  information  about AWS WAF features and an
-       overview of how to use the AWS WAF API, see the AWS WAF Developer Guide
-       .
+       This  is the AWS WAF API Reference for using AWS WAF with Amazon Cloud-
+       Front. The AWS WAF actions and data types listed in the	reference  are
+       available  for  protecting Amazon CloudFront distributions. You can use
+       these actions and data types via the endpoint waf.amazonaws.com .  This
+       guide is for developers who need detailed information about the AWS WAF
+       API actions, data types, and errors. For detailed information about AWS
+       WAF features and an overview of how to use the AWS WAF API, see the AWS
+       WAF Developer Guide .
 
 AVAILABLE COMMANDS
        o create-byte-match-set
 
+       o create-geo-match-set
+
        o create-ip-set
+
+       o create-rate-based-rule
+
+       o create-regex-match-set
+
+       o create-regex-pattern-set
 
        o create-rule
 
@@ -29,7 +40,15 @@ AVAILABLE COMMANDS
 
        o delete-byte-match-set
 
+       o delete-geo-match-set
+
        o delete-ip-set
+
+       o delete-rate-based-rule
+
+       o delete-regex-match-set
+
+       o delete-regex-pattern-set
 
        o delete-rule
 
@@ -47,7 +66,17 @@ AVAILABLE COMMANDS
 
        o get-change-token-status
 
+       o get-geo-match-set
+
        o get-ip-set
+
+       o get-rate-based-rule
+
+       o get-rate-based-rule-managed-keys
+
+       o get-regex-match-set
+
+       o get-regex-pattern-set
 
        o get-rule
 
@@ -65,7 +94,15 @@ AVAILABLE COMMANDS
 
        o list-byte-match-sets
 
+       o list-geo-match-sets
+
        o list-ip-sets
+
+       o list-rate-based-rules
+
+       o list-regex-match-sets
+
+       o list-regex-pattern-sets
 
        o list-rules
 
@@ -79,7 +116,15 @@ AVAILABLE COMMANDS
 
        o update-byte-match-set
 
+       o update-geo-match-set
+
        o update-ip-set
+
+       o update-rate-based-rule
+
+       o update-regex-match-set
+
+       o update-regex-pattern-set
 
        o update-rule
 

@@ -1,0 +1,44 @@
+REKOGNITION()							 REKOGNITION()
+
+
+
+NAME
+       rekognition -
+
+DESCRIPTION
+       This is the Amazon Rekognition API reference.
+
+AVAILABLE COMMANDS
+       o compare-faces
+
+       o create-collection
+
+       o delete-collection
+
+       o delete-faces
+
+       o detect-faces
+
+       o detect-labels
+
+       o detect-moderation-labels
+
+       o get-celebrity-info
+
+       o help
+
+       o index-faces
+
+       o list-collections
+
+       o list-faces
+
+       o recognize-celebrities
+
+       o search-faces
+
+       o search-faces-by-image
+
+
+
+								 REKOGNITION()

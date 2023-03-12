@@ -93,6 +93,10 @@ AVAILABLE COMMANDS
 
        o create-saml-provider
 
+       o create-service-linked-role
+
+       o create-service-specific-credential
+
        o create-user
 
        o create-virtual-mfa-device
@@ -126,6 +130,10 @@ AVAILABLE COMMANDS
        o delete-saml-provider
 
        o delete-server-certificate
+
+       o delete-service-linked-role
+
+       o delete-service-specific-credential
 
        o delete-signing-certificate
 
@@ -183,6 +191,8 @@ AVAILABLE COMMANDS
 
        o get-server-certificate
 
+       o get-service-linked-role-deletion-status
+
        o get-ssh-public-key
 
        o get-user
@@ -229,6 +239,8 @@ AVAILABLE COMMANDS
 
        o list-server-certificates
 
+       o list-service-specific-credentials
+
        o list-signing-certificates
 
        o list-ssh-public-keys
@@ -251,6 +263,8 @@ AVAILABLE COMMANDS
 
        o remove-user-from-group
 
+       o reset-service-specific-credential
+
        o resync-mfa-device
 
        o set-default-policy-version
@@ -271,9 +285,13 @@ AVAILABLE COMMANDS
 
        o update-open-id-connect-provider-thumbprint
 
+       o update-role-description
+
        o update-saml-provider
 
        o update-server-certificate
+
+       o update-service-specific-credential
 
        o update-signing-certificate
 

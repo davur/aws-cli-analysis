@@ -11,20 +11,6 @@ DESCRIPTION
        with Streams, see Capturing Table Activity with DynamoDB Streams in the
        Amazon DynamoDB Developer Guide.
 
-       The following are short descriptions of each low-level DynamoDB Streams
-       action:
-
-       o describe-stream  -  Returns  detailed	information about a particular
-	 stream.
-
-       o get-records - Retrieves the stream records from within a shard.
-
-       o get-shard-iterator - Returns  information  on	how  to  retrieve  the
-	 streams record from a shard with a given shard ID.
-
-       o list-streams  - Returns a list of all the streams associated with the
-	 current AWS account and endpoint.
-
 AVAILABLE COMMANDS
        o describe-stream
 

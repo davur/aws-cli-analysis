@@ -9,9 +9,9 @@ DESCRIPTION
 	  Overview
 
        This  is  the AWS Lambda API Reference . The AWS Lambda Developer Guide
-       provides additional information. For the service overview, go  to  What
-       is  AWS Lambda , and for information about how the service works, go to
-       AWS Lambda: How it Works in the AWS Lambda Developer Guide .
+       provides additional information. For the service overview, see What  is
+       AWS  Lambda  , and for information about how the service works, see AWS
+       Lambda: How it Works in the AWS Lambda Developer Guide .
 
 AVAILABLE COMMANDS
        o add-permission
@@ -27,6 +27,8 @@ AVAILABLE COMMANDS
        o delete-event-source-mapping
 
        o delete-function
+
+       o get-account-settings
 
        o get-alias
 
@@ -50,11 +52,17 @@ AVAILABLE COMMANDS
 
        o list-functions
 
+       o list-tags
+
        o list-versions-by-function
 
        o publish-version
 
        o remove-permission
+
+       o tag-resource
+
+       o untag-resource
 
        o update-alias
 

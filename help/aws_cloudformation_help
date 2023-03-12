@@ -6,26 +6,26 @@ NAME
        cloudformation -
 
 DESCRIPTION
-       AWS  CloudFormation enables you to create and manage AWS infrastructure
-       deployments predictably and repeatedly. AWS  CloudFormation  helps  you
-       leverage  AWS  products	such  as Amazon EC2, EBS, Amazon SNS, ELB, and
-       Auto Scaling to build highly-reliable, highly scalable, cost  effective
-       applications without worrying about creating and configuring the under-
+       AWS  CloudFormation  allows you to create and manage AWS infrastructure
+       deployments predictably and repeatedly. You can use AWS	CloudFormation
+       to  leverage AWS products, such as Amazon Elastic Compute Cloud, Amazon
+       Elastic Block Store, Amazon Simple Notification Service,  Elastic  Load
+       Balancing,  and Auto Scaling to build highly-reliable, highly scalable,
+       cost-effective applications without creating or configuring the	under-
        lying AWS infrastructure.
 
-       With AWS CloudFormation, you declare all of your resources  and	depen-
-       dencies	in  a  template file. The template defines a collection of re-
+       With  AWS  CloudFormation, you declare all of your resources and depen-
+       dencies in a template file. The template defines a  collection  of  re-
        sources as a single unit called a stack. AWS CloudFormation creates and
-       deletes	all member resources of the stack together and manages all de-
+       deletes all member resources of the stack together and manages all  de-
        pendencies between the resources for you.
 
-       For more information about this product, go to the CloudFormation Prod-
-       uct Page .
+       For  more information about AWS CloudFormation, see the AWS CloudForma-
+       tion Product Page .
 
-       Amazon  CloudFormation makes use of other AWS products. If you need ad-
-       ditional technical information about a specific AWS  product,  you  can
-       find	  the	   product's	  technical	 documentation	    at
-       http://docs.aws.amazon.com/ .
+       Amazon CloudFormation makes use of other AWS products. If you need  ad-
+       ditional  technical  information  about a specific AWS product, you can
+       find the product's technical documentation at docs.aws.amazon.com .
 
 AVAILABLE COMMANDS
        o cancel-update-stack
@@ -36,9 +36,19 @@ AVAILABLE COMMANDS
 
        o create-stack
 
+       o create-stack-instances
+
+       o create-stack-set
+
        o delete-change-set
 
        o delete-stack
+
+       o delete-stack-instances
+
+       o delete-stack-set
+
+       o deploy
 
        o describe-account-limits
 
@@ -46,9 +56,15 @@ AVAILABLE COMMANDS
 
        o describe-stack-events
 
+       o describe-stack-instance
+
        o describe-stack-resource
 
        o describe-stack-resources
+
+       o describe-stack-set
+
+       o describe-stack-set-operation
 
        o describe-stacks
 
@@ -66,15 +82,35 @@ AVAILABLE COMMANDS
 
        o list-change-sets
 
+       o list-exports
+
+       o list-imports
+
+       o list-stack-instances
+
        o list-stack-resources
 
+       o list-stack-set-operation-results
+
+       o list-stack-set-operations
+
+       o list-stack-sets
+
        o list-stacks
+
+       o package
 
        o set-stack-policy
 
        o signal-resource
 
+       o stop-stack-set-operation
+
        o update-stack
+
+       o update-stack-set
+
+       o update-termination-protection
 
        o validate-template
 

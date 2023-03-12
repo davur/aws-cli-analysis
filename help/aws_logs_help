@@ -7,40 +7,41 @@ NAME
 
 DESCRIPTION
        You  can  use Amazon CloudWatch Logs to monitor, store, and access your
-       log files from Amazon Elastic Compute  Cloud  (Amazon  EC2)  instances,
-       Amazon  CloudTrail, or other sources. You can then retrieve the associ-
-       ated log data from CloudWatch Logs using the Amazon CloudWatch console,
-       the  CloudWatch	Logs commands in the AWS CLI, the CloudWatch Logs API,
-       or the CloudWatch Logs SDK.
+       log files from Amazon EC2 instances, AWS CloudTrail, or other  sources.
+       You  can then retrieve the associated log data from CloudWatch Logs us-
+       ing the CloudWatch console, CloudWatch Logs commands in	the  AWS  CLI,
+       CloudWatch Logs API, or CloudWatch Logs SDK.
 
        You can use CloudWatch Logs to:
 
-       o Monitor Logs from Amazon EC2 Instances in Real-time  :  You  can  use
-	 CloudWatch  Logs  to monitor applications and systems using log data.
-	 For example, CloudWatch Logs can track the number of errors that  oc-
-	 cur in your application logs and send you a notification whenever the
-	 rate of errors exceeds a threshold you specify. CloudWatch Logs  uses
-	 your  log  data for monitoring; so, no code changes are required. For
-	 example, you can monitor application logs for specific literal  terms
+       o Monitor logs from EC2 instances in real-time : You can use CloudWatch
+	 Logs to monitor applications and systems using log data. For example,
+	 CloudWatch Logs can track the number of errors that occur in your ap-
+	 plication logs and send you a notification whenever the rate  of  er-
+	 rors  exceeds a threshold that you specify. CloudWatch Logs uses your
+	 log data for monitoring; so, no code changes are required. For  exam-
+	 ple,  you  can  monitor  application  logs for specific literal terms
 	 (such as "NullReferenceException") or count the number of occurrences
 	 of a literal term at a particular position in log data (such as "404"
-	 status  codes in an Apache access log). When the term you are search-
-	 ing for is found, CloudWatch Logs reports the data to a Amazon Cloud-
-	 Watch metric that you specify.
+	 status codes in an Apache access log). When the term you are  search-
+	 ing  for  is  found, CloudWatch Logs reports the data to a CloudWatch
+	 metric that you specify.
 
-       o Monitor  Amazon  CloudTrail  Logged Events : You can create alarms in
-	 Amazon CloudWatch and receive notifications of particular API	activ-
-	 ity  as  captured  by	CloudTrail and use the notification to perform
-	 troubleshooting.
+       o Monitor AWS CloudTrail logged events  :  You  can  create  alarms  in
+	 CloudWatch  and  receive  notifications of particular API activity as
+	 captured by CloudTrail and use  the  notification  to	perform  trou-
+	 bleshooting.
 
-       o Archive Log Data : You can use CloudWatch Logs to store your log data
-	 in  highly  durable storage. You can change the log retention setting
-	 so that any log events older  than  this  setting  are  automatically
+       o Archive log data : You can use CloudWatch Logs to store your log data
+	 in highly durable storage. You can change the log  retention  setting
+	 so  that  any	log  events  older than this setting are automatically
 	 deleted. The CloudWatch Logs agent makes it easy to quickly send both
-	 rotated and non-rotated log data off of a host and into the log  ser-
+	 rotated  and non-rotated log data off of a host and into the log ser-
 	 vice. You can then access the raw log data when you need it.
 
 AVAILABLE COMMANDS
+       o associate-kms-key
+
        o cancel-export-task
 
        o create-export-task
@@ -57,6 +58,8 @@ AVAILABLE COMMANDS
 
        o delete-metric-filter
 
+       o delete-resource-policy
+
        o delete-retention-policy
 
        o delete-subscription-filter
@@ -71,13 +74,19 @@ AVAILABLE COMMANDS
 
        o describe-metric-filters
 
+       o describe-resource-policies
+
        o describe-subscription-filters
+
+       o disassociate-kms-key
 
        o filter-log-events
 
        o get-log-events
 
        o help
+
+       o list-tags-log-group
 
        o put-destination
 
@@ -87,11 +96,17 @@ AVAILABLE COMMANDS
 
        o put-metric-filter
 
+       o put-resource-policy
+
        o put-retention-policy
 
        o put-subscription-filter
 
+       o tag-log-group
+
        o test-metric-filter
+
+       o untag-log-group
 
 
 

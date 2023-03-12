@@ -39,6 +39,8 @@ AVAILABLE COMMANDS
 
        o describe-rules-packages
 
+       o get-assessment-report
+
        o get-telemetry-metadata
 
        o help

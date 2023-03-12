@@ -1,0 +1,39 @@
+SHIELD()							      SHIELD()
+
+
+
+NAME
+       shield -
+
+DESCRIPTION
+       This  is  the AWS Shield Advanced API Reference . This guide is for de-
+       velopers who need detailed information about the  AWS  Shield  Advanced
+       API actions, data types, and errors. For detailed information about AWS
+       WAF and AWS Shield Advanced features and an overview of how to use  the
+       AWS  WAF  and  AWS Shield Advanced APIs, see the AWS WAF and AWS Shield
+       Developer Guide .
+
+AVAILABLE COMMANDS
+       o create-protection
+
+       o create-subscription
+
+       o delete-protection
+
+       o delete-subscription
+
+       o describe-attack
+
+       o describe-protection
+
+       o describe-subscription
+
+       o help
+
+       o list-attacks
+
+       o list-protections
+
+
+
+								      SHIELD()

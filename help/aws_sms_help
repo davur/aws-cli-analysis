@@ -1,0 +1,39 @@
+SMS()									 SMS()
+
+
+
+NAME
+       sms -
+
+DESCRIPTION
+       Amazon  Server  Migration  Service  automates  the process of migrating
+       servers to EC2.
+
+AVAILABLE COMMANDS
+       o create-replication-job
+
+       o delete-replication-job
+
+       o delete-server-catalog
+
+       o disassociate-connector
+
+       o get-connectors
+
+       o get-replication-jobs
+
+       o get-replication-runs
+
+       o get-servers
+
+       o help
+
+       o import-server-catalog
+
+       o start-on-demand-replication-run
+
+       o update-replication-job
+
+
+
+									 SMS()

@@ -1,0 +1,150 @@
+WAF-REGIONAL()							WAF-REGIONAL()
+
+
+
+NAME
+       waf-regional -
+
+DESCRIPTION
+       This is the AWS WAF Regional API Reference for using AWS WAF with Elas-
+       tic Load Balancing (ELB) Application Load Balancers. The  AWS  WAF  ac-
+       tions and data types listed in the reference are available for protect-
+       ing Application Load Balancers. You can	use  these  actions  and  data
+       types  by  means of the endpoints listed in AWS Regions and Endpoints .
+       This guide is for developers who need detailed  information  about  the
+       AWS  WAF  API actions, data types, and errors. For detailed information
+       about AWS WAF features and an overview of how to use the AWS  WAF  API,
+       see the AWS WAF Developer Guide .
+
+AVAILABLE COMMANDS
+       o associate-web-acl
+
+       o create-byte-match-set
+
+       o create-geo-match-set
+
+       o create-ip-set
+
+       o create-rate-based-rule
+
+       o create-regex-match-set
+
+       o create-regex-pattern-set
+
+       o create-rule
+
+       o create-size-constraint-set
+
+       o create-sql-injection-match-set
+
+       o create-web-acl
+
+       o create-xss-match-set
+
+       o delete-byte-match-set
+
+       o delete-geo-match-set
+
+       o delete-ip-set
+
+       o delete-rate-based-rule
+
+       o delete-regex-match-set
+
+       o delete-regex-pattern-set
+
+       o delete-rule
+
+       o delete-size-constraint-set
+
+       o delete-sql-injection-match-set
+
+       o delete-web-acl
+
+       o delete-xss-match-set
+
+       o disassociate-web-acl
+
+       o get-byte-match-set
+
+       o get-change-token
+
+       o get-change-token-status
+
+       o get-geo-match-set
+
+       o get-ip-set
+
+       o get-rate-based-rule
+
+       o get-rate-based-rule-managed-keys
+
+       o get-regex-match-set
+
+       o get-regex-pattern-set
+
+       o get-rule
+
+       o get-sampled-requests
+
+       o get-size-constraint-set
+
+       o get-sql-injection-match-set
+
+       o get-web-acl
+
+       o get-web-acl-for-resource
+
+       o get-xss-match-set
+
+       o help
+
+       o list-byte-match-sets
+
+       o list-geo-match-sets
+
+       o list-ip-sets
+
+       o list-rate-based-rules
+
+       o list-regex-match-sets
+
+       o list-regex-pattern-sets
+
+       o list-resources-for-web-acl
+
+       o list-rules
+
+       o list-size-constraint-sets
+
+       o list-sql-injection-match-sets
+
+       o list-web-acls
+
+       o list-xss-match-sets
+
+       o update-byte-match-set
+
+       o update-geo-match-set
+
+       o update-ip-set
+
+       o update-rate-based-rule
+
+       o update-regex-match-set
+
+       o update-regex-pattern-set
+
+       o update-rule
+
+       o update-size-constraint-set
+
+       o update-sql-injection-match-set
+
+       o update-web-acl
+
+       o update-xss-match-set
+
+
+
+								WAF-REGIONAL()
