@@ -18,6 +18,8 @@ AVAILABLE COMMANDS
 
        o associate-drt-role
 
+       o associate-health-check
+
        o create-protection
 
        o create-subscription
@@ -37,6 +39,8 @@ AVAILABLE COMMANDS
        o disassociate-drt-log-bucket
 
        o disassociate-drt-role
+
+       o disassociate-health-check
 
        o get-subscription-state
 

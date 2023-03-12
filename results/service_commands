@@ -6272,6 +6272,7 @@ securityhub delete-members
 securityhub describe-action-targets
 securityhub describe-hub
 securityhub describe-products
+securityhub describe-standards
 securityhub describe-standards-controls
 securityhub disable-import-findings-for-product
 securityhub disable-security-hub
@@ -6557,6 +6558,7 @@ sesv2 untag-resource
 sesv2 update-configuration-set-event-destination
 shield associate-drt-log-bucket
 shield associate-drt-role
+shield associate-health-check
 shield create-protection
 shield create-subscription
 shield delete-protection
@@ -6567,6 +6569,7 @@ shield describe-protection
 shield describe-subscription
 shield disassociate-drt-log-bucket
 shield disassociate-drt-role
+shield disassociate-health-check
 shield get-subscription-state
 shield help
 shield list-attacks

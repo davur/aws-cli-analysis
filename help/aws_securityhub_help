@@ -8,8 +8,8 @@ NAME
 DESCRIPTION
        Security  Hub  provides	you  with a comprehensive view of the security
        state of your AWS environment and resources. It also provides you  with
-       the  compliance status of your environment based on CIS AWS Foundations
-       compliance checks. Security Hub collects security  data	from  AWS  ac-
+       the  compliance	status of your environment based on controls from sup-
+       ported standards. Security Hub collects	security  data	from  AWS  ac-
        counts, services, and integrated third-party products and helps you an-
        alyze security trends in your environment to identify the highest  pri-
        ority security issues. For more information about Security Hub, see the
@@ -22,23 +22,23 @@ DESCRIPTION
        Region. To make the same change in other Regions, execute the same com-
        mand for each Region to apply the change to.
 
-       For  example, if your Region is set to us-west-2 , when you use Create-
-       Members to add a member account to Security Hub, the association of the
-       member account with the master account is created only in the us-west-2
-       Region. Security Hub must be enabled for the member account in the same
-       Region that the invitation was sent from.
+       For example, if your Region is set to us-west-2 , when you use ``  Cre-
+       ateMembers `` to add a member account to Security Hub, the  association
+       of  the	member	account with the master account is created only in the
+       us-west-2 Region. Security Hub must be enabled for the  member  account
+       in the same Region that the invitation was sent from.
 
        The  following throttling limits apply to using Security Hub API opera-
        tions.
 
-       o GetFindings - RateLimit of 3 requests per second. BurstLimit of 6 re-
-	 quests per second.
+       o `` GetFindings `` - RateLimit of 3 requests per second. BurstLimit of
+	 6 requests per second.
 
-       o UpdateFindings  -  RateLimit of 1 request per second. BurstLimit of 5
-	 requests per second.
+       o ``  UpdateFindings `` - RateLimit of 1 request per second. BurstLimit
+	 of 5 requests per second.
 
-       o All other operations - RateLimit of 10 request per second. BurstLimit
-	 of 30 requests per second.
+       o All  other  operations  -  RateLimit  of  10  requests  per   second.
+	 BurstLimit of 30 requests per second.
 
 AVAILABLE COMMANDS
        o accept-invitation
@@ -70,6 +70,8 @@ AVAILABLE COMMANDS
        o describe-hub
 
        o describe-products
+
+       o describe-standards
 
        o describe-standards-controls
 
