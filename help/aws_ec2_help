@@ -62,6 +62,8 @@ AVAILABLE COMMANDS
 
        o associate-iam-instance-profile
 
+       o associate-instance-event-window
+
        o associate-route-table
 
        o associate-subnet-cidr-block
@@ -141,6 +143,8 @@ AVAILABLE COMMANDS
        o create-fpga-image
 
        o create-image
+
+       o create-instance-event-window
 
        o create-instance-export-task
 
@@ -257,6 +261,8 @@ AVAILABLE COMMANDS
        o delete-flow-logs
 
        o delete-fpga-image
+
+       o delete-instance-event-window
 
        o delete-internet-gateway
 
@@ -443,6 +449,8 @@ AVAILABLE COMMANDS
        o describe-instance-credit-specifications
 
        o describe-instance-event-notification-attributes
+
+       o describe-instance-event-windows
 
        o describe-instance-status
 
@@ -641,6 +649,8 @@ AVAILABLE COMMANDS
 
        o disassociate-iam-instance-profile
 
+       o disassociate-instance-event-window
+
        o disassociate-route-table
 
        o disassociate-subnet-cidr-block
@@ -766,6 +776,8 @@ AVAILABLE COMMANDS
        o modify-instance-credit-specification
 
        o modify-instance-event-start-time
+
+       o modify-instance-event-window
 
        o modify-instance-metadata-options
 
