@@ -48,19 +48,27 @@ AVAILABLE COMMANDS
 
        o admin-list-groups-for-user
 
+       o admin-list-user-auth-events
+
        o admin-remove-user-from-group
 
        o admin-reset-user-password
 
        o admin-respond-to-auth-challenge
 
+       o admin-set-user-mfa-preference
+
        o admin-set-user-settings
+
+       o admin-update-auth-event-feedback
 
        o admin-update-device-status
 
        o admin-update-user-attributes
 
        o admin-user-global-sign-out
+
+       o associate-software-token
 
        o change-password
 
@@ -104,6 +112,8 @@ AVAILABLE COMMANDS
 
        o describe-resource-server
 
+       o describe-risk-configuration
+
        o describe-user-import-job
 
        o describe-user-pool
@@ -129,6 +139,8 @@ AVAILABLE COMMANDS
        o get-user
 
        o get-user-attribute-verification-code
+
+       o get-user-pool-mfa-config
 
        o global-sign-out
 
@@ -158,7 +170,13 @@ AVAILABLE COMMANDS
 
        o respond-to-auth-challenge
 
+       o set-risk-configuration
+
        o set-ui-customization
+
+       o set-user-mfa-preference
+
+       o set-user-pool-mfa-config
 
        o set-user-settings
 
@@ -167,6 +185,8 @@ AVAILABLE COMMANDS
        o start-user-import-job
 
        o stop-user-import-job
+
+       o update-auth-event-feedback
 
        o update-device-status
 
@@ -181,6 +201,8 @@ AVAILABLE COMMANDS
        o update-user-pool
 
        o update-user-pool-client
+
+       o verify-software-token
 
        o verify-user-attribute
 

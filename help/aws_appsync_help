@@ -1,0 +1,69 @@
+APPSYNC()							     APPSYNC()
+
+
+
+NAME
+       appsync -
+
+DESCRIPTION
+       AWS AppSync provides API actions for creating and interacting with data
+       sources using GraphQL from your application.
+
+AVAILABLE COMMANDS
+       o create-api-key
+
+       o create-data-source
+
+       o create-graphql-api
+
+       o create-resolver
+
+       o create-type
+
+       o delete-api-key
+
+       o delete-data-source
+
+       o delete-graphql-api
+
+       o delete-resolver
+
+       o delete-type
+
+       o get-data-source
+
+       o get-graphql-api
+
+       o get-introspection-schema
+
+       o get-resolver
+
+       o get-schema-creation-status
+
+       o get-type
+
+       o help
+
+       o list-api-keys
+
+       o list-data-sources
+
+       o list-graphql-apis
+
+       o list-resolvers
+
+       o list-types
+
+       o start-schema-creation
+
+       o update-data-source
+
+       o update-graphql-api
+
+       o update-resolver
+
+       o update-type
+
+
+
+								     APPSYNC()
