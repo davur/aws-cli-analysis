@@ -92,22 +92,25 @@ DESCRIPTION
        o CreateServiceTemplateVersion
 
        o CreateEnvironmentAccountConnection
-	  ``  p  bIdempotent delete APIs/b /p pGiven a request action that has
-	  succeeded:/p pWhen you retry the request with an API from this group
-	  and  the  resource  was deleted, its metadata is returned in the re-
-	  sponse./p pIf you retry and the resource doesn't exist, the response
-	  is empty./p pIn both cases, the retry succeeds./p pIdempotent delete
-	  APIs:/p ul li pDeleteEnvironmentTemplate/p  /li  li  pDeleteEnviron-
-	  mentTemplateVersion/p   /li	li   pDeleteServiceTemplate/p  /li  li
-	  pDeleteServiceTemplateVersion/p /li li pDeleteEnvironmentAccountCon-
-	  nection/p /li /ul p bAsynchronous idempotent delete APIs/b /p pGiven
-	  a request action that has succeeded:/p pIf  you  retry  the  request
-	  with	an  API from this group, if the original request delete opera-
-	  tion status is codeDELETE_IN_PROGRESS/code, the  retry  returns  the
-	  resource  detail data in the response without performing any further
-	  actions./p pIf the original request delete operation is complete,  a
-	  retry  returns  an empty response./p pAsynchronous idempotent delete
-	  APIs:/p ul li pDeleteEnvironment/p /li li pDeleteService/p /li /ul``
+	  <p>  <b>Idempotent  delete  APIs</b>	</p> <p>Given a request action
+	  that has succeeded:</p> <p>When you retry the request  with  an  API
+	  from	this  group  and the resource was deleted, its metadata is re-
+	  turned in the response.</p> <p>If you retry and the resource doesn't
+	  exist,  the  response is empty.</p> <p>In both cases, the retry suc-
+	  ceeds.</p> <p>Idempotent delete APIs:</p> <ul>  <li>	<p>DeleteEnvi-
+	  ronmentTemplate</p>	</li>	<li>  <p>DeleteEnvironmentTemplateVer-
+	  sion</p>  </li>   <li>   <p>DeleteServiceTemplate</p>   </li>   <li>
+	  <p>DeleteServiceTemplateVersion</p>  </li> <li> <p>DeleteEnvironmen-
+	  tAccountConnection</p> </li> </ul>  <p>  <b>Asynchronous  idempotent
+	  delete  APIs</b>  </p>  <p>Given  a  request	action	that  has suc-
+	  ceeded:</p> <p>If you retry the request with an API from this group,
+	  if	the    original    request    delete   operation   status   is
+	  <code>DELETE_IN_PROGRESS</code>, the retry returns the resource  de-
+	  tail	data  in  the  response  without  performing  any  further ac-
+	  tions.</p> <p>If the original request delete operation is  complete,
+	  a  retry  returns  an empty response.</p> <p>Asynchronous idempotent
+	  delete  APIs:</p>  <ul>  <li>  <p>DeleteEnvironment</p>  </li>  <li>
+	  <p>DeleteService</p> </li> </ul>
 
 AVAILABLE COMMANDS
        o accept-environment-account-connection
