@@ -1,0 +1,32 @@
+MEDIASTORE()							  MEDIASTORE()
+
+
+
+NAME
+       mediastore -
+
+DESCRIPTION
+       An AWS Elemental MediaStore container is a namespace that holds folders
+       and objects. You use a container endpoint to create, read,  and	delete
+       objects.
+
+AVAILABLE COMMANDS
+       o create-container
+
+       o delete-container
+
+       o delete-container-policy
+
+       o describe-container
+
+       o get-container-policy
+
+       o help
+
+       o list-containers
+
+       o put-container-policy
+
+
+
+								  MEDIASTORE()

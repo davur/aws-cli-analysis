@@ -1,0 +1,56 @@
+MEDIACONVERT()							MEDIACONVERT()
+
+
+
+NAME
+       mediaconvert -
+
+DESCRIPTION
+       AWS Elemental MediaConvert
+
+AVAILABLE COMMANDS
+       o cancel-job
+
+       o create-job
+
+       o create-job-template
+
+       o create-preset
+
+       o create-queue
+
+       o delete-job-template
+
+       o delete-preset
+
+       o delete-queue
+
+       o describe-endpoints
+
+       o get-job
+
+       o get-job-template
+
+       o get-preset
+
+       o get-queue
+
+       o help
+
+       o list-job-templates
+
+       o list-jobs
+
+       o list-presets
+
+       o list-queues
+
+       o update-job-template
+
+       o update-preset
+
+       o update-queue
+
+
+
+								MEDIACONVERT()
