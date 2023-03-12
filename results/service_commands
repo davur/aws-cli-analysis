@@ -1372,6 +1372,14 @@ chime-sdk-identity untag-resource
 chime-sdk-identity update-app-instance
 chime-sdk-identity update-app-instance-user
 chime-sdk-identity update-app-instance-user-endpoint
+chime-sdk-media-pipelines create-media-capture-pipeline
+chime-sdk-media-pipelines delete-media-capture-pipeline
+chime-sdk-media-pipelines get-media-capture-pipeline
+chime-sdk-media-pipelines help
+chime-sdk-media-pipelines list-media-capture-pipelines
+chime-sdk-media-pipelines list-tags-for-resource
+chime-sdk-media-pipelines tag-resource
+chime-sdk-media-pipelines untag-resource
 chime-sdk-meetings batch-create-attendee
 chime-sdk-meetings create-attendee
 chime-sdk-meetings create-meeting
@@ -2562,6 +2570,7 @@ connect list-tags-for-resource
 connect list-use-cases
 connect list-user-hierarchy-groups
 connect list-users
+connect put-user-status
 connect release-phone-number
 connect resume-contact-recording
 connect search-available-phone-numbers
@@ -3742,6 +3751,7 @@ ec2 get-flow-logs-integration-template
 ec2 get-groups-for-capacity-reservation
 ec2 get-host-reservation-purchase-preview
 ec2 get-instance-types-from-instance-requirements
+ec2 get-instance-uefi-data
 ec2 get-ipam-address-history
 ec2 get-ipam-pool-allocations
 ec2 get-ipam-pool-cidrs
@@ -6094,6 +6104,7 @@ iotsecuretunneling help
 iotsecuretunneling list-tags-for-resource
 iotsecuretunneling list-tunnels
 iotsecuretunneling open-tunnel
+iotsecuretunneling rotate-tunnel-access-token
 iotsecuretunneling tag-resource
 iotsecuretunneling untag-resource
 iotsitewise associate-assets
@@ -6241,6 +6252,7 @@ iotwireless create-destination
 iotwireless create-device-profile
 iotwireless create-fuota-task
 iotwireless create-multicast-group
+iotwireless create-network-analyzer-configuration
 iotwireless create-service-profile
 iotwireless create-wireless-device
 iotwireless create-wireless-gateway
@@ -6250,6 +6262,7 @@ iotwireless delete-destination
 iotwireless delete-device-profile
 iotwireless delete-fuota-task
 iotwireless delete-multicast-group
+iotwireless delete-network-analyzer-configuration
 iotwireless delete-queued-messages
 iotwireless delete-service-profile
 iotwireless delete-wireless-device
@@ -6265,6 +6278,7 @@ iotwireless disassociate-wireless-gateway-from-certificate
 iotwireless disassociate-wireless-gateway-from-thing
 iotwireless get-destination
 iotwireless get-device-profile
+iotwireless get-event-configuration-by-resource-types
 iotwireless get-fuota-task
 iotwireless get-log-levels-by-resource-types
 iotwireless get-multicast-group
@@ -6286,9 +6300,11 @@ iotwireless get-wireless-gateway-task-definition
 iotwireless help
 iotwireless list-destinations
 iotwireless list-device-profiles
+iotwireless list-event-configurations
 iotwireless list-fuota-tasks
 iotwireless list-multicast-groups
 iotwireless list-multicast-groups-by-fuota-task
+iotwireless list-network-analyzer-configurations
 iotwireless list-partner-accounts
 iotwireless list-queued-messages
 iotwireless list-service-profiles
@@ -6309,6 +6325,7 @@ iotwireless tag-resource
 iotwireless test-wireless-device
 iotwireless untag-resource
 iotwireless update-destination
+iotwireless update-event-configuration-by-resource-types
 iotwireless update-fuota-task
 iotwireless update-log-levels-by-resource-types
 iotwireless update-multicast-group
@@ -6346,6 +6363,19 @@ ivs stop-stream
 ivs tag-resource
 ivs untag-resource
 ivs update-channel
+ivschat create-chat-token
+ivschat create-room
+ivschat delete-message
+ivschat delete-room
+ivschat disconnect-user
+ivschat get-room
+ivschat help
+ivschat list-rooms
+ivschat list-tags-for-resource
+ivschat send-event
+ivschat tag-resource
+ivschat untag-resource
+ivschat update-room
 kafka batch-associate-scram-secret
 kafka batch-disassociate-scram-secret
 kafka create-cluster
@@ -6498,6 +6528,7 @@ kinesis wait
 kinesis-video-archived-media get-clip
 kinesis-video-archived-media get-dash-streaming-session-url
 kinesis-video-archived-media get-hls-streaming-session-url
+kinesis-video-archived-media get-images
 kinesis-video-archived-media get-media-for-fragment-list
 kinesis-video-archived-media help
 kinesis-video-archived-media list-fragments
@@ -6563,6 +6594,8 @@ kinesisvideo create-signaling-channel
 kinesisvideo create-stream
 kinesisvideo delete-signaling-channel
 kinesisvideo delete-stream
+kinesisvideo describe-image-generation-configuration
+kinesisvideo describe-notification-configuration
 kinesisvideo describe-signaling-channel
 kinesisvideo describe-stream
 kinesisvideo get-data-endpoint
@@ -6577,6 +6610,8 @@ kinesisvideo tag-stream
 kinesisvideo untag-resource
 kinesisvideo untag-stream
 kinesisvideo update-data-retention
+kinesisvideo update-image-generation-configuration
+kinesisvideo update-notification-configuration
 kinesisvideo update-signaling-channel
 kinesisvideo update-stream
 kms cancel-key-deletion
@@ -7014,6 +7049,7 @@ lightsail get-key-pairs
 lightsail get-load-balancer
 lightsail get-load-balancer-metric-data
 lightsail get-load-balancer-tls-certificates
+lightsail get-load-balancer-tls-policies
 lightsail get-load-balancers
 lightsail get-operation
 lightsail get-operations
@@ -7177,6 +7213,7 @@ lookoutequipment list-datasets
 lookoutequipment list-inference-executions
 lookoutequipment list-inference-schedulers
 lookoutequipment list-models
+lookoutequipment list-sensor-statistics
 lookoutequipment list-tags-for-resource
 lookoutequipment start-data-ingestion-job
 lookoutequipment start-inference-scheduler
@@ -7910,6 +7947,7 @@ network-firewall tag-resource
 network-firewall untag-resource
 network-firewall update-firewall-delete-protection
 network-firewall update-firewall-description
+network-firewall update-firewall-encryption-configuration
 network-firewall update-firewall-policy
 network-firewall update-firewall-policy-change-protection
 network-firewall update-logging-configuration
@@ -8246,6 +8284,7 @@ outposts get-outpost-instance-types
 outposts get-site
 outposts get-site-address
 outposts help
+outposts list-assets
 outposts list-catalog-items
 outposts list-orders
 outposts list-outposts
@@ -9175,6 +9214,7 @@ rekognition stop-stream-processor
 rekognition tag-resource
 rekognition untag-resource
 rekognition update-dataset-entries
+rekognition update-stream-processor
 rekognition wait
 resiliencehub add-draft-app-version-resource-mappings
 resiliencehub create-app
