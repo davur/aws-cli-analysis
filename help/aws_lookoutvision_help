@@ -46,9 +46,15 @@ AVAILABLE COMMANDS
 
        o list-projects
 
+       o list-tags-for-resource
+
        o start-model
 
        o stop-model
+
+       o tag-resource
+
+       o untag-resource
 
        o update-dataset-entries
 

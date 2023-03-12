@@ -5927,8 +5927,11 @@ lookoutvision help
 lookoutvision list-dataset-entries
 lookoutvision list-models
 lookoutvision list-projects
+lookoutvision list-tags-for-resource
 lookoutvision start-model
 lookoutvision stop-model
+lookoutvision tag-resource
+lookoutvision untag-resource
 lookoutvision update-dataset-entries
 machinelearning add-tags
 machinelearning create-batch-prediction
