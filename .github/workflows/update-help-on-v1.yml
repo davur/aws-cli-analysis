@@ -27,9 +27,8 @@ jobs:
       - name: Get help
         run: |
           ./hack/get-help.sh
-          VERSION="$(aws --version)"
           git config user.name get-help-automation
           git config user.email github-actions@github.com
           git add help/ results/
-          git commit -m "$VERSION"
+          git commit -m "Auto-generated commit"
           git push
