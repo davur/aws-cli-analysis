@@ -1,0 +1,34 @@
+KINESISVIDEO()							KINESISVIDEO()
+
+
+
+NAME
+       kinesisvideo -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o create-stream
+
+       o delete-stream
+
+       o describe-stream
+
+       o get-data-endpoint
+
+       o help
+
+       o list-streams
+
+       o list-tags-for-stream
+
+       o tag-stream
+
+       o untag-stream
+
+       o update-data-retention
+
+       o update-stream
+
+
+
+								KINESISVIDEO()

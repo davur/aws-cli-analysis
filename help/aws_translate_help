@@ -1,0 +1,19 @@
+TRANSLATE()							   TRANSLATE()
+
+
+
+NAME
+       translate -
+
+DESCRIPTION
+       Provides  translation  between English and one of six languages, or be-
+       tween one of the six languages and English.
+
+AVAILABLE COMMANDS
+       o help
+
+       o translate-text
+
+
+
+								   TRANSLATE()

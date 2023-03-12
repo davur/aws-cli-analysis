@@ -1,0 +1,74 @@
+SAGEMAKER()							   SAGEMAKER()
+
+
+
+NAME
+       sagemaker -
+
+DESCRIPTION
+       Definition of the public APIs exposed by SageMaker
+
+AVAILABLE COMMANDS
+       o add-tags
+
+       o create-endpoint
+
+       o create-endpoint-config
+
+       o create-model
+
+       o create-notebook-instance
+
+       o create-presigned-notebook-instance-url
+
+       o create-training-job
+
+       o delete-endpoint
+
+       o delete-endpoint-config
+
+       o delete-model
+
+       o delete-notebook-instance
+
+       o delete-tags
+
+       o describe-endpoint
+
+       o describe-endpoint-config
+
+       o describe-model
+
+       o describe-notebook-instance
+
+       o describe-training-job
+
+       o help
+
+       o list-endpoint-configs
+
+       o list-endpoints
+
+       o list-models
+
+       o list-notebook-instances
+
+       o list-tags
+
+       o list-training-jobs
+
+       o start-notebook-instance
+
+       o stop-notebook-instance
+
+       o stop-training-job
+
+       o update-endpoint
+
+       o update-endpoint-weights-and-capacities
+
+       o update-notebook-instance
+
+
+
+								   SAGEMAKER()

@@ -31,11 +31,23 @@ AVAILABLE COMMANDS
 
        o batch-write-item
 
+       o create-backup
+
+       o create-global-table
+
        o create-table
+
+       o delete-backup
 
        o delete-item
 
        o delete-table
+
+       o describe-backup
+
+       o describe-continuous-backups
+
+       o describe-global-table
 
        o describe-limits
 
@@ -47,6 +59,10 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-backups
+
+       o list-global-tables
+
        o list-tables
 
        o list-tags-of-resource
@@ -55,11 +71,15 @@ AVAILABLE COMMANDS
 
        o query
 
+       o restore-table-from-backup
+
        o scan
 
        o tag-resource
 
        o untag-resource
+
+       o update-global-table
 
        o update-item
 

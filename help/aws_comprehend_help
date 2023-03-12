@@ -1,0 +1,41 @@
+COMPREHEND()							  COMPREHEND()
+
+
+
+NAME
+       comprehend -
+
+DESCRIPTION
+       Amazon  Comprehend  is an AWS service for gaining insight into the con-
+       tent of documents. Use these actions to determine the topics  contained
+       in  your  documents, the topics they discuss, the predominant sentiment
+       expressed in them, the predominant language used, and more.
+
+AVAILABLE COMMANDS
+       o batch-detect-dominant-language
+
+       o batch-detect-entities
+
+       o batch-detect-key-phrases
+
+       o batch-detect-sentiment
+
+       o describe-topics-detection-job
+
+       o detect-dominant-language
+
+       o detect-entities
+
+       o detect-key-phrases
+
+       o detect-sentiment
+
+       o help
+
+       o list-topics-detection-jobs
+
+       o start-topics-detection-job
+
+
+
+								  COMPREHEND()
