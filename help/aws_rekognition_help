@@ -13,9 +13,15 @@ AVAILABLE COMMANDS
 
        o create-collection
 
+       o create-stream-processor
+
        o delete-collection
 
        o delete-faces
+
+       o delete-stream-processor
+
+       o describe-stream-processor
 
        o detect-faces
 
@@ -27,6 +33,18 @@ AVAILABLE COMMANDS
 
        o get-celebrity-info
 
+       o get-celebrity-recognition
+
+       o get-content-moderation
+
+       o get-face-detection
+
+       o get-face-search
+
+       o get-label-detection
+
+       o get-person-tracking
+
        o help
 
        o index-faces
@@ -35,11 +53,29 @@ AVAILABLE COMMANDS
 
        o list-faces
 
+       o list-stream-processors
+
        o recognize-celebrities
 
        o search-faces
 
        o search-faces-by-image
+
+       o start-celebrity-recognition
+
+       o start-content-moderation
+
+       o start-face-detection
+
+       o start-face-search
+
+       o start-label-detection
+
+       o start-person-tracking
+
+       o start-stream-processor
+
+       o stop-stream-processor
 
 
 

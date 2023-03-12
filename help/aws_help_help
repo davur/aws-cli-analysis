@@ -145,6 +145,8 @@ AVAILABLE SERVICES
 
        o cognito-sync
 
+       o comprehend
+
        o configservice
 
        o configure
@@ -223,9 +225,17 @@ AVAILABLE SERVICES
 
        o iot-data
 
+       o iot-jobs-data
+
        o kinesis
 
+       o kinesis-video-archived-media
+
+       o kinesis-video-media
+
        o kinesisanalytics
+
+       o kinesisvideo
 
        o kms
 
@@ -289,9 +299,13 @@ AVAILABLE SERVICES
 
        o route53domains
 
+       o runtime.sagemaker
+
        o s3
 
        o s3api
+
+       o sagemaker
 
        o sdb
 
@@ -320,6 +334,8 @@ AVAILABLE SERVICES
        o support
 
        o swf
+
+       o translate
 
        o waf
 

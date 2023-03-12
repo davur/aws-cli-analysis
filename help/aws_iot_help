@@ -19,13 +19,25 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-certificate-transfer
 
-       o attach-principal-policy
+       o add-thing-to-thing-group
+
+       o associate-targets-with-job
+
+       o attach-policy
 
        o attach-thing-principal
 
        o cancel-certificate-transfer
 
+       o cancel-job
+
+       o clear-default-authorizer
+
+       o create-authorizer
+
        o create-certificate-from-csr
+
+       o create-job
 
        o create-keys-and-certificate
 
@@ -33,11 +45,17 @@ AVAILABLE COMMANDS
 
        o create-policy-version
 
+       o create-role-alias
+
        o create-thing
+
+       o create-thing-group
 
        o create-thing-type
 
        o create-topic-rule
+
+       o delete-authorizer
 
        o delete-ca-certificate
 
@@ -49,31 +67,61 @@ AVAILABLE COMMANDS
 
        o delete-registration-code
 
+       o delete-role-alias
+
        o delete-thing
+
+       o delete-thing-group
 
        o delete-thing-type
 
        o delete-topic-rule
 
+       o delete-v2-logging-level
+
        o deprecate-thing-type
+
+       o describe-authorizer
 
        o describe-ca-certificate
 
        o describe-certificate
 
+       o describe-default-authorizer
+
        o describe-endpoint
+
+       o describe-event-configurations
+
+       o describe-index
+
+       o describe-job
+
+       o describe-job-execution
+
+       o describe-role-alias
 
        o describe-thing
 
+       o describe-thing-group
+
+       o describe-thing-registration-task
+
        o describe-thing-type
 
-       o detach-principal-policy
+       o detach-policy
 
        o detach-thing-principal
 
        o disable-topic-rule
 
        o enable-topic-rule
+
+       o get-effective-policies
+
+       o get-indexing-configuration
+
+       o get-job-document
 
        o get-logging-options
 
@@ -85,7 +133,13 @@ AVAILABLE COMMANDS
 
        o get-topic-rule
 
+       o get-v2-logging-options
+
        o help
+
+       o list-attached-policies
+
+       o list-authorizers
 
        o list-ca-certificates
 
@@ -93,45 +147,97 @@ AVAILABLE COMMANDS
 
        o list-certificates-by-ca
 
+       o list-indices
+
+       o list-job-executions-for-job
+
+       o list-job-executions-for-thing
+
+       o list-jobs
+
        o list-outgoing-certificates
 
        o list-policies
 
-       o list-policy-principals
-
        o list-policy-versions
-
-       o list-principal-policies
 
        o list-principal-things
 
+       o list-role-aliases
+
+       o list-targets-for-policy
+
+       o list-thing-groups
+
+       o list-thing-groups-for-thing
+
        o list-thing-principals
+
+       o list-thing-registration-task-reports
+
+       o list-thing-registration-tasks
 
        o list-thing-types
 
        o list-things
 
+       o list-things-in-thing-group
+
        o list-topic-rules
+
+       o list-v2-logging-levels
 
        o register-ca-certificate
 
        o register-certificate
 
+       o register-thing
+
        o reject-certificate-transfer
 
+       o remove-thing-from-thing-group
+
        o replace-topic-rule
+
+       o search-index
+
+       o set-default-authorizer
 
        o set-default-policy-version
 
        o set-logging-options
 
+       o set-v2-logging-level
+
+       o set-v2-logging-options
+
+       o start-thing-registration-task
+
+       o stop-thing-registration-task
+
+       o test-authorization
+
+       o test-invoke-authorizer
+
        o transfer-certificate
+
+       o update-authorizer
 
        o update-ca-certificate
 
        o update-certificate
 
+       o update-event-configurations
+
+       o update-indexing-configuration
+
+       o update-role-alias
+
        o update-thing
+
+       o update-thing-group
+
+       o update-thing-groups-for-thing
 
 
 

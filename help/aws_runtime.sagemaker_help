@@ -1,0 +1,18 @@
+RUNTIME.SAGEMAKER()					   RUNTIME.SAGEMAKER()
+
+
+
+NAME
+       runtime.sagemaker -
+
+DESCRIPTION
+       Amazon SageMaker runtime API.
+
+AVAILABLE COMMANDS
+       o help
+
+       o invoke-endpoint
+
+
+
+							   RUNTIME.SAGEMAKER()
