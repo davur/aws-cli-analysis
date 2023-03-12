@@ -48,7 +48,11 @@ AVAILABLE COMMANDS
 
        o describe-entity-recognizer
 
+       o describe-events-detection-job
+
        o describe-key-phrases-detection-job
+
+       o describe-pii-entities-detection-job
 
        o describe-sentiment-detection-job
 
@@ -59,6 +63,8 @@ AVAILABLE COMMANDS
        o detect-entities
 
        o detect-key-phrases
+
+       o detect-pii-entities
 
        o detect-sentiment
 
@@ -78,7 +84,11 @@ AVAILABLE COMMANDS
 
        o list-entity-recognizers
 
+       o list-events-detection-jobs
+
        o list-key-phrases-detection-jobs
+
+       o list-pii-entities-detection-jobs
 
        o list-sentiment-detection-jobs
 
@@ -92,7 +102,11 @@ AVAILABLE COMMANDS
 
        o start-entities-detection-job
 
+       o start-events-detection-job
+
        o start-key-phrases-detection-job
+
+       o start-pii-entities-detection-job
 
        o start-sentiment-detection-job
 
@@ -102,7 +116,11 @@ AVAILABLE COMMANDS
 
        o stop-entities-detection-job
 
+       o stop-events-detection-job
+
        o stop-key-phrases-detection-job
+
+       o stop-pii-entities-detection-job
 
        o stop-sentiment-detection-job
 

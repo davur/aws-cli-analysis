@@ -52,6 +52,8 @@ AVAILABLE COMMANDS
 
        o list-resource-share-permissions
 
+       o list-resource-types
+
        o list-resources
 
        o promote-resource-share-created-from-policy

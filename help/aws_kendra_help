@@ -19,15 +19,23 @@ AVAILABLE COMMANDS
 
        o create-index
 
+       o create-thesaurus
+
+       o delete-data-source
+
        o delete-faq
 
        o delete-index
+
+       o delete-thesaurus
 
        o describe-data-source
 
        o describe-faq
 
        o describe-index
+
+       o describe-thesaurus
 
        o help
 
@@ -39,6 +47,10 @@ AVAILABLE COMMANDS
 
        o list-indices
 
+       o list-tags-for-resource
+
+       o list-thesauri
+
        o query
 
        o start-data-source-sync-job
@@ -47,9 +59,15 @@ AVAILABLE COMMANDS
 
        o submit-feedback
 
+       o tag-resource
+
+       o untag-resource
+
        o update-data-source
 
        o update-index
+
+       o update-thesaurus
 
 
 

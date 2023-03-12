@@ -6,29 +6,107 @@ NAME
        connect -
 
 DESCRIPTION
-       Amazon  Connect	is a cloud-based contact center solution that makes it
-       easy to set up and manage a customer contact center and	provide  reli-
-       able customer engagement at any scale.
+       Amazon Connect is a cloud-based contact center solution that you use to
+       set up and manage a customer contact center and provide	reliable  cus-
+       tomer engagement at any scale.
 
-       Amazon Connect provides rich metrics and real-time reporting that allow
-       you to optimize contact routing. You can also resolve  customer	issues
-       more efficiently by putting customers in touch with the right agents.
+       Amazon Connect provides metrics and real-time reporting that enable you
+       to optimize contact routing. You can also resolve customer issues  more
+       efficiently by getting customers in touch with the appropriate agents.
 
        There are limits to the number of Amazon Connect resources that you can
-       create and limits to the number of requests that you can make per  sec-
-       ond.  For  more	information,  see Amazon Connect Service Limits in the
-       Amazon Connect Administrator Guide .
+       create. There are also limits to the number of requests	that  you  can
+       make  per second. For more information, see Amazon Connect Service Quo-
+       tas in the Amazon Connect Administrator Guide .
+
+       You can connect programmatically to an AWS service  by  using  an  end-
+       point.  For a list of Amazon Connect endpoints, see Amazon Connect End-
+       points .
+
+       NOTE:
+	  Working with contact flows? Check out the Amazon Connect  Flow  lan-
+	  guage .
 
 AVAILABLE COMMANDS
+       o associate-approved-origin
+
+       o associate-instance-storage-config
+
+       o associate-lambda-function
+
+       o associate-lex-bot
+
+       o associate-queue-quick-connects
+
+       o associate-routing-profile-queues
+
+       o associate-security-key
+
+       o create-contact-flow
+
+       o create-instance
+
+       o create-integration-association
+
+       o create-queue
+
+       o create-quick-connect
+
+       o create-routing-profile
+
+       o create-use-case
+
        o create-user
 
+       o create-user-hierarchy-group
+
+       o delete-instance
+
+       o delete-integration-association
+
+       o delete-quick-connect
+
+       o delete-use-case
+
        o delete-user
+
+       o delete-user-hierarchy-group
+
+       o describe-contact-flow
+
+       o describe-hours-of-operation
+
+       o describe-instance
+
+       o describe-instance-attribute
+
+       o describe-instance-storage-config
+
+       o describe-queue
+
+       o describe-quick-connect
+
+       o describe-routing-profile
 
        o describe-user
 
        o describe-user-hierarchy-group
 
        o describe-user-hierarchy-structure
+
+       o disassociate-approved-origin
+
+       o disassociate-instance-storage-config
+
+       o disassociate-lambda-function
+
+       o disassociate-lex-bot
+
+       o disassociate-queue-quick-connects
+
+       o disassociate-routing-profile-queues
+
+       o disassociate-security-key
 
        o get-contact-attributes
 
@@ -40,29 +118,65 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-approved-origins
+
        o list-contact-flows
 
        o list-hours-of-operations
 
+       o list-instance-attributes
+
+       o list-instance-storage-configs
+
+       o list-instances
+
+       o list-integration-associations
+
+       o list-lambda-functions
+
+       o list-lex-bots
+
        o list-phone-numbers
+
+       o list-prompts
+
+       o list-queue-quick-connects
 
        o list-queues
 
+       o list-quick-connects
+
+       o list-routing-profile-queues
+
        o list-routing-profiles
+
+       o list-security-keys
 
        o list-security-profiles
 
        o list-tags-for-resource
 
+       o list-use-cases
+
        o list-user-hierarchy-groups
 
        o list-users
 
+       o resume-contact-recording
+
        o start-chat-contact
+
+       o start-contact-recording
 
        o start-outbound-voice-contact
 
+       o start-task-contact
+
        o stop-contact
+
+       o stop-contact-recording
+
+       o suspend-contact-recording
 
        o tag-resource
 
@@ -70,7 +184,41 @@ AVAILABLE COMMANDS
 
        o update-contact-attributes
 
+       o update-contact-flow-content
+
+       o update-contact-flow-name
+
+       o update-instance-attribute
+
+       o update-instance-storage-config
+
+       o update-queue-hours-of-operation
+
+       o update-queue-max-contacts
+
+       o update-queue-name
+
+       o update-queue-outbound-caller-config
+
+       o update-queue-status
+
+       o update-quick-connect-config
+
+       o update-quick-connect-name
+
+       o update-routing-profile-concurrency
+
+       o update-routing-profile-default-outbound-queue
+
+       o update-routing-profile-name
+
+       o update-routing-profile-queues
+
        o update-user-hierarchy
+
+       o update-user-hierarchy-group-name
+
+       o update-user-hierarchy-structure
 
        o update-user-identity-info
 

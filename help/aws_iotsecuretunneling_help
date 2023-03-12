@@ -9,8 +9,8 @@ DESCRIPTION
        AWS IoT Secure Tunnling enables you to create remote connections to de-
        vices deployed in the field.
 
-       For more information about how AWS IoT Secure Tunneling works, see  the
-       User Guide .
+       For more information about how AWS IoT Secure Tunneling works, see  AWS
+       IoT Secure Tunneling .
 
 AVAILABLE COMMANDS
        o close-tunnel

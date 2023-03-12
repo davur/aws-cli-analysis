@@ -53,17 +53,29 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-budget
 
+       o create-budget-action
+
        o create-notification
 
        o create-subscriber
 
        o delete-budget
 
+       o delete-budget-action
+
        o delete-notification
 
        o delete-subscriber
 
        o describe-budget
+
+       o describe-budget-action
+
+       o describe-budget-action-histories
+
+       o describe-budget-actions-for-account
+
+       o describe-budget-actions-for-budget
 
        o describe-budget-performance-history
 
@@ -73,9 +85,13 @@ AVAILABLE COMMANDS
 
        o describe-subscribers-for-notification
 
+       o execute-budget-action
+
        o help
 
        o update-budget
+
+       o update-budget-action
 
        o update-notification
 

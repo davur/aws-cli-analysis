@@ -22,6 +22,8 @@ AVAILABLE COMMANDS
 
        o create-event-tracker
 
+       o create-filter
+
        o create-schema
 
        o create-solution
@@ -35,6 +37,8 @@ AVAILABLE COMMANDS
        o delete-dataset-group
 
        o delete-event-tracker
+
+       o delete-filter
 
        o delete-schema
 
@@ -55,6 +59,8 @@ AVAILABLE COMMANDS
        o describe-event-tracker
 
        o describe-feature-transformation
+
+       o describe-filter
 
        o describe-recipe
 
@@ -79,6 +85,8 @@ AVAILABLE COMMANDS
        o list-datasets
 
        o list-event-trackers
+
+       o list-filters
 
        o list-recipes
 

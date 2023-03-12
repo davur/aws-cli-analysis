@@ -6,9 +6,31 @@ NAME
        codeguruprofiler -
 
 DESCRIPTION
-       Example service documentation.
+       This  section  provides	documentation for the Amazon CodeGuru Profiler
+       API operations.
+	  `` pAmazon CodeGuru Profiler collects runtime performance data  from
+	  your	live  applications, and provides recommendations that can help
+	  you fine-tune your application performance. Using  machine  learning
+	  algorithms,  CodeGuru Profiler can help you find your most expensive
+	  lines of code and suggest ways you can improve efficiency and remove
+	  CPU bottlenecks. /p pAmazon CodeGuru Profiler provides different vi-
+	  sualizations of profiling data to help you  identify	what  code  is
+	  running  on the CPU, see how much time is consumed, and suggest ways
+	  to reduce CPU utilization. /p note pAmazon  CodeGuru	Profiler  cur-
+	  rently  supports  applications  written  in all Java virtual machine
+	  (JVM) languages. While CodeGuru Profiler  supports  both  visualiza-
+	  tions  and  recommendations for applications written in Java, it can
+	  also generate visualizations and a subset of recommendations for ap-
+	  plications  written in other JVM languages./p /note pFor more infor-
+	  mation, see a  href=https://docs.aws.amazon.com/codeguru/latest/pro-
+	  filer-ug/what-is-codeguru-profiler.htmlWhat  is Amazon CodeGuru Pro-
+	  filer/ain the iAmazon CodeGuru Profiler User Guide/i. /p``
 
 AVAILABLE COMMANDS
+       o add-notification-channels
+
+       o batch-get-frame-metric-data
+
        o configure-agent
 
        o create-profiling-group
@@ -17,15 +39,39 @@ AVAILABLE COMMANDS
 
        o describe-profiling-group
 
+       o get-findings-report-account-summary
+
+       o get-notification-configuration
+
+       o get-policy
+
        o get-profile
 
+       o get-recommendations
+
        o help
+
+       o list-findings-reports
 
        o list-profile-times
 
        o list-profiling-groups
 
+       o list-tags-for-resource
+
        o post-agent-profile
+
+       o put-permission
+
+       o remove-notification-channel
+
+       o remove-permission
+
+       o submit-feedback
+
+       o tag-resource
+
+       o untag-resource
 
        o update-profiling-group
 

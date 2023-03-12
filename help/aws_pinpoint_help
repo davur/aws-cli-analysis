@@ -23,6 +23,8 @@ AVAILABLE COMMANDS
 
        o create-push-template
 
+       o create-recommender-configuration
+
        o create-segment
 
        o create-sms-template
@@ -58,6 +60,8 @@ AVAILABLE COMMANDS
        o delete-journey
 
        o delete-push-template
+
+       o delete-recommender-configuration
 
        o delete-segment
 
@@ -132,6 +136,10 @@ AVAILABLE COMMANDS
        o get-journey-execution-metrics
 
        o get-push-template
+
+       o get-recommender-configuration
+
+       o get-recommender-configurations
 
        o get-segment
 
@@ -212,6 +220,8 @@ AVAILABLE COMMANDS
        o update-journey-state
 
        o update-push-template
+
+       o update-recommender-configuration
 
        o update-segment
 

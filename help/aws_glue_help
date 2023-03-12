@@ -33,7 +33,11 @@ AVAILABLE COMMANDS
 
        o batch-stop-job-run
 
+       o batch-update-partition
+
        o cancel-ml-task-run
+
+       o check-schema-version-validity
 
        o create-classifier
 
@@ -51,6 +55,12 @@ AVAILABLE COMMANDS
 
        o create-partition
 
+       o create-partition-index
+
+       o create-registry
+
+       o create-schema
+
        o create-script
 
        o create-security-configuration
@@ -64,6 +74,10 @@ AVAILABLE COMMANDS
        o create-workflow
 
        o delete-classifier
+
+       o delete-column-statistics-for-partition
+
+       o delete-column-statistics-for-table
 
        o delete-connection
 
@@ -79,7 +93,15 @@ AVAILABLE COMMANDS
 
        o delete-partition
 
+       o delete-partition-index
+
+       o delete-registry
+
        o delete-resource-policy
+
+       o delete-schema
+
+       o delete-schema-versions
 
        o delete-security-configuration
 
@@ -98,6 +120,10 @@ AVAILABLE COMMANDS
        o get-classifier
 
        o get-classifiers
+
+       o get-column-statistics-for-partition
+
+       o get-column-statistics-for-table
 
        o get-connection
 
@@ -143,11 +169,25 @@ AVAILABLE COMMANDS
 
        o get-partition
 
+       o get-partition-indexes
+
        o get-partitions
 
        o get-plan
 
+       o get-registry
+
+       o get-resource-policies
+
        o get-resource-policy
+
+       o get-schema
+
+       o get-schema-by-definition
+
+       o get-schema-version
+
+       o get-schema-versions-diff
 
        o get-security-configuration
 
@@ -189,6 +229,14 @@ AVAILABLE COMMANDS
 
        o list-jobs
 
+       o list-ml-transforms
+
+       o list-registries
+
+       o list-schema-versions
+
+       o list-schemas
+
        o list-triggers
 
        o list-workflows
@@ -197,9 +245,19 @@ AVAILABLE COMMANDS
 
        o put-resource-policy
 
+       o put-schema-version-metadata
+
        o put-workflow-run-properties
 
+       o query-schema-version-metadata
+
+       o register-schema-version
+
+       o remove-schema-version-metadata
+
        o reset-job-bookmark
+
+       o resume-workflow-run
 
        o search-tables
 
@@ -227,11 +285,17 @@ AVAILABLE COMMANDS
 
        o stop-trigger
 
+       o stop-workflow-run
+
        o tag-resource
 
        o untag-resource
 
        o update-classifier
+
+       o update-column-statistics-for-partition
+
+       o update-column-statistics-for-table
 
        o update-connection
 
@@ -248,6 +312,10 @@ AVAILABLE COMMANDS
        o update-ml-transform
 
        o update-partition
+
+       o update-registry
+
+       o update-schema
 
        o update-table
 

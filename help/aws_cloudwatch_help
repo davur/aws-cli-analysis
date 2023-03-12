@@ -70,6 +70,8 @@ AVAILABLE COMMANDS
 
        o put-anomaly-detector
 
+       o put-composite-alarm
+
        o put-dashboard
 
        o put-insight-rule

@@ -108,6 +108,12 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-virtual-interface-test-history
+
+       o start-bgp-failover-test
+
+       o stop-bgp-failover-test
+
        o tag-resource
 
        o untag-resource

@@ -41,9 +41,13 @@ AVAILABLE COMMANDS
 
        o associate-member-to-group
 
+       o cancel-mailbox-export-job
+
        o create-alias
 
        o create-group
+
+       o create-organization
 
        o create-resource
 
@@ -57,13 +61,19 @@ AVAILABLE COMMANDS
 
        o delete-mailbox-permissions
 
+       o delete-organization
+
        o delete-resource
+
+       o delete-retention-policy
 
        o delete-user
 
        o deregister-from-work-mail
 
        o describe-group
+
+       o describe-mailbox-export-job
 
        o describe-organization
 
@@ -77,6 +87,8 @@ AVAILABLE COMMANDS
 
        o get-access-control-effect
 
+       o get-default-retention-policy
+
        o get-mailbox-details
 
        o help
@@ -88,6 +100,8 @@ AVAILABLE COMMANDS
        o list-group-members
 
        o list-groups
+
+       o list-mailbox-export-jobs
 
        o list-mailbox-permissions
 
@@ -105,9 +119,13 @@ AVAILABLE COMMANDS
 
        o put-mailbox-permissions
 
+       o put-retention-policy
+
        o register-to-work-mail
 
        o reset-password
+
+       o start-mailbox-export-job
 
        o tag-resource
 

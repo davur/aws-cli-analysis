@@ -17,10 +17,10 @@ DESCRIPTION
        platform that you're using. For more information, see AWS SDKs .
 
        NOTE:
-	  Each	ACM  Private CA API action has a throttling limit which deter-
-	  mines the number of times the action can be called per  second.  For
-	  more	information,  see API Rate Limits in ACM Private CA in the ACM
-	  Private CA user guide.
+	  Each	ACM Private CA API action has a quota that determines the num-
+	  ber of times the action can be called per second. For more  informa-
+	  tion,  see  API  Rate Quotas in ACM Private CA in the ACM Private CA
+	  user guide.
 
 AVAILABLE COMMANDS
        o create-certificate-authority
@@ -33,6 +33,8 @@ AVAILABLE COMMANDS
 
        o delete-permission
 
+       o delete-policy
+
        o describe-certificate-authority
 
        o describe-certificate-authority-audit-report
@@ -42,6 +44,8 @@ AVAILABLE COMMANDS
        o get-certificate-authority-certificate
 
        o get-certificate-authority-csr
+
+       o get-policy
 
        o help
 
@@ -54,6 +58,8 @@ AVAILABLE COMMANDS
        o list-permissions
 
        o list-tags
+
+       o put-policy
 
        o restore-certificate-authority
 

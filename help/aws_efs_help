@@ -29,6 +29,8 @@ AVAILABLE COMMANDS
 
        o describe-access-points
 
+       o describe-backup-policy
+
        o describe-file-system-policy
 
        o describe-file-systems
@@ -44,6 +46,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o modify-mount-target-security-groups
+
+       o put-backup-policy
 
        o put-file-system-policy
 

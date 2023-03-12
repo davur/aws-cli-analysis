@@ -45,6 +45,8 @@ AVAILABLE COMMANDS
 
        o get-open-id-token-for-developer-identity
 
+       o get-principal-tag-attribute-map
+
        o help
 
        o list-identities
@@ -58,6 +60,8 @@ AVAILABLE COMMANDS
        o merge-developer-identities
 
        o set-identity-pool-roles
+
+       o set-principal-tag-attribute-map
 
        o tag-resource
 

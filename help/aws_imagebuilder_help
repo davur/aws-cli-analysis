@@ -8,7 +8,7 @@ NAME
 DESCRIPTION
        EC2  Image  Builder is a fully managed AWS service that makes it easier
        to automate the creation, management, and deployment of customized, se-
-       cure,  and  up-to-date  golden server images that are pre-installed and
+       cure,  and up-to-date "golden" server images that are pre-installed and
        pre-configured with software and settings to  meet  specific  IT  stan-
        dards.
 
@@ -16,6 +16,8 @@ AVAILABLE COMMANDS
        o cancel-image-creation
 
        o create-component
+
+       o create-container-recipe
 
        o create-distribution-configuration
 
@@ -28,6 +30,8 @@ AVAILABLE COMMANDS
        o create-infrastructure-configuration
 
        o delete-component
+
+       o delete-container-recipe
 
        o delete-distribution-configuration
 
@@ -42,6 +46,10 @@ AVAILABLE COMMANDS
        o get-component
 
        o get-component-policy
+
+       o get-container-recipe
+
+       o get-container-recipe-policy
 
        o get-distribution-configuration
 
@@ -65,6 +73,8 @@ AVAILABLE COMMANDS
 
        o list-components
 
+       o list-container-recipes
+
        o list-distribution-configurations
 
        o list-image-build-versions
@@ -82,6 +92,8 @@ AVAILABLE COMMANDS
        o list-tags-for-resource
 
        o put-component-policy
+
+       o put-container-recipe-policy
 
        o put-image-policy
 

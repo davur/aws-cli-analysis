@@ -6,26 +6,22 @@ NAME
        detective -
 
 DESCRIPTION
-       WARNING:
-	  Amazon Detective is currently in preview. The Detective API can only
-	  be used by accounts that are admitted into the preview.
-
-       Detective uses machine learning	and  purpose-built  visualizations  to
+       Detective  uses	machine  learning  and purpose-built visualizations to
        help you analyze and investigate security issues across your Amazon Web
-       Services (AWS) workloads. Detective automatically  extracts  time-based
-       events  such as login attempts, API calls, and network traffic from AWS
-       CloudTrail and Amazon Virtual Private Cloud (Amazon VPC) flow logs.  It
+       Services  (AWS)	workloads. Detective automatically extracts time-based
+       events such as login attempts, API calls, and network traffic from  AWS
+       CloudTrail  and Amazon Virtual Private Cloud (Amazon VPC) flow logs. It
        also extracts findings detected by Amazon GuardDuty.
 
        The Detective API primarily supports the creation and management of be-
-       havior graphs. A behavior graph contains the extracted data from a  set
+       havior  graphs. A behavior graph contains the extracted data from a set
        of member accounts, and is created and managed by a master account.
 
-       Every  behavior graph is specific to a Region. You can only use the API
-       to manage graphs that belong to the Region that is associated with  the
+       Every behavior graph is specific to a Region. You can only use the  API
+       to  manage graphs that belong to the Region that is associated with the
        currently selected endpoint.
 
-       A  Detective master account can use the Detective API to do the follow-
+       A Detective master account can use the Detective API to do the  follow-
        ing:
 
        o Enable and disable Detective. Enabling Detective creates a new behav-
@@ -47,7 +43,7 @@ DESCRIPTION
 
        o Remove their account from a behavior graph.
 
-       All  API actions are logged as CloudTrail events. See Logging Detective
+       All API actions are logged as CloudTrail events. See Logging  Detective
        API Calls with CloudTrail .
 
 AVAILABLE COMMANDS
@@ -74,6 +70,8 @@ AVAILABLE COMMANDS
        o list-members
 
        o reject-invitation
+
+       o start-monitoring-member
 
 
 

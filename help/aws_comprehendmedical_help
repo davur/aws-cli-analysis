@@ -13,7 +13,11 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o describe-entities-detection-v2-job
 
+       o describe-icd10-cm-inference-job
+
        o describe-phi-detection-job
+
+       o describe-rx-norm-inference-job
 
        o detect-entities-v2
 
@@ -27,15 +31,27 @@ AVAILABLE COMMANDS
 
        o list-entities-detection-v2-jobs
 
+       o list-icd10-cm-inference-jobs
+
        o list-phi-detection-jobs
+
+       o list-rx-norm-inference-jobs
 
        o start-entities-detection-v2-job
 
+       o start-icd10-cm-inference-job
+
        o start-phi-detection-job
+
+       o start-rx-norm-inference-job
 
        o stop-entities-detection-v2-job
 
+       o stop-icd10-cm-inference-job
+
        o stop-phi-detection-job
+
+       o stop-rx-norm-inference-job
 
 
 

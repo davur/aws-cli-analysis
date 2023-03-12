@@ -52,7 +52,13 @@ AVAILABLE COMMANDS
 
        o list-services
 
+       o list-tags-for-resource
+
        o register-instance
+
+       o tag-resource
+
+       o untag-resource
 
        o update-instance-custom-health-status
 

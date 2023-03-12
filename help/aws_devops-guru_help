@@ -1,0 +1,67 @@
+DEVOPS-GURU()							 DEVOPS-GURU()
+
+
+
+NAME
+       devops-guru -
+
+DESCRIPTION
+       Amazon  DevOps  Guru is a fully managed service that helps you identify
+       anomalous behavior in business critical operational  applications.  You
+       specify	the AWS resources that you want DevOps Guru to cover, then the
+       Amazon CloudWatch metrics and AWS CloudTrail events  related  to  those
+       resources  are  analyzed.  When	anomalous behavior is detected, DevOps
+       Guru creates an insight that includes recommendations, related  events,
+       and related metrics that can help you improve your operational applica-
+       tions. For more information, see What is Amazon DevOps Guru .
+
+       You can specify 1 or 2 Amazon Simple Notification Service topics so you
+       are  notified  every time a new insight is created. You can also enable
+       DevOps Guru to generate an OpsItem in AWS Systems Manager for each  in-
+       sight to help you manage and track your work addressing insights.
+
+       To learn about the DevOps Guru workflow, see How DevOps Guru works . To
+       learn about DevOps Guru concepts, see Concepts in DevOps Guru .
+
+AVAILABLE COMMANDS
+       o add-notification-channel
+
+       o describe-account-health
+
+       o describe-account-overview
+
+       o describe-anomaly
+
+       o describe-insight
+
+       o describe-resource-collection-health
+
+       o describe-service-integration
+
+       o get-resource-collection
+
+       o help
+
+       o list-anomalies-for-insight
+
+       o list-events
+
+       o list-insights
+
+       o list-notification-channels
+
+       o list-recommendations
+
+       o put-feedback
+
+       o remove-notification-channel
+
+       o search-insights
+
+       o update-resource-collection
+
+       o update-service-integration
+
+
+
+								 DEVOPS-GURU()

@@ -13,6 +13,10 @@ DESCRIPTION
        or microservices. Amazon SQS moves data between distributed application
        components and helps you decouple these components.
 
+       For information on the permissions  you	need  to  use  this  API,  see
+       Identity  and  access management in the Amazon Simple Queue Service De-
+       veloper Guide.
+
        You can use AWS SDKs to access Amazon SQS using your favorite  program-
        ming  language.	The SDKs perform tasks such as the following automati-
        cally:

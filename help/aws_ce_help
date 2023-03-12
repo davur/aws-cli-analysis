@@ -22,15 +22,31 @@ DESCRIPTION
        AWS Cost Management Pricing .
 
 AVAILABLE COMMANDS
+       o create-anomaly-monitor
+
+       o create-anomaly-subscription
+
        o create-cost-category-definition
+
+       o delete-anomaly-monitor
+
+       o delete-anomaly-subscription
 
        o delete-cost-category-definition
 
        o describe-cost-category-definition
 
+       o get-anomalies
+
+       o get-anomaly-monitors
+
+       o get-anomaly-subscriptions
+
        o get-cost-and-usage
 
        o get-cost-and-usage-with-resources
+
+       o get-cost-categories
 
        o get-cost-forecast
 
@@ -59,6 +75,12 @@ AVAILABLE COMMANDS
        o help
 
        o list-cost-category-definitions
+
+       o provide-anomaly-feedback
+
+       o update-anomaly-monitor
+
+       o update-anomaly-subscription
 
        o update-cost-category-definition
 

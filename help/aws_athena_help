@@ -28,13 +28,21 @@ AVAILABLE COMMANDS
 
        o batch-get-query-execution
 
+       o create-data-catalog
+
        o create-named-query
 
        o create-work-group
 
+       o delete-data-catalog
+
        o delete-named-query
 
        o delete-work-group
+
+       o get-data-catalog
+
+       o get-database
 
        o get-named-query
 
@@ -42,13 +50,21 @@ AVAILABLE COMMANDS
 
        o get-query-results
 
+       o get-table-metadata
+
        o get-work-group
 
        o help
 
+       o list-data-catalogs
+
+       o list-databases
+
        o list-named-queries
 
        o list-query-executions
+
+       o list-table-metadata
 
        o list-tags-for-resource
 
@@ -61,6 +77,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-data-catalog
 
        o update-work-group
 

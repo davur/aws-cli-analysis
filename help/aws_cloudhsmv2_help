@@ -32,6 +32,10 @@ AVAILABLE COMMANDS
 
        o list-tags
 
+       o modify-backup-attributes
+
+       o modify-cluster
+
        o restore-backup
 
        o tag-resource

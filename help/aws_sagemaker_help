@@ -8,14 +8,28 @@ NAME
 DESCRIPTION
        Provides APIs for creating and managing Amazon SageMaker resources.
 
+       Other Resources:
+
+       o Amazon SageMaker Developer Guide
+
+       o Amazon Augmented AI Runtime API Reference
+
 AVAILABLE COMMANDS
+       o add-association
+
        o add-tags
 
        o associate-trial-component
 
+       o create-action
+
        o create-algorithm
 
        o create-app
+
+       o create-app-image-config
+
+       o create-artifact
 
        o create-auto-ml-job
 
@@ -23,7 +37,15 @@ AVAILABLE COMMANDS
 
        o create-compilation-job
 
+       o create-context
+
+       o create-data-quality-job-definition
+
+       o create-device-fleet
+
        o create-domain
+
+       o create-edge-packaging-job
 
        o create-endpoint
 
@@ -31,17 +53,31 @@ AVAILABLE COMMANDS
 
        o create-experiment
 
+       o create-feature-group
+
        o create-flow-definition
 
        o create-human-task-ui
 
        o create-hyper-parameter-tuning-job
 
+       o create-image
+
+       o create-image-version
+
        o create-labeling-job
 
        o create-model
 
+       o create-model-bias-job-definition
+
+       o create-model-explainability-job-definition
+
        o create-model-package
+
+       o create-model-package-group
+
+       o create-model-quality-job-definition
 
        o create-monitoring-schedule
 
@@ -49,11 +85,15 @@ AVAILABLE COMMANDS
 
        o create-notebook-instance-lifecycle-config
 
+       o create-pipeline
+
        o create-presigned-domain-url
 
        o create-presigned-notebook-instance-url
 
        o create-processing-job
+
+       o create-project
 
        o create-training-job
 
@@ -65,13 +105,29 @@ AVAILABLE COMMANDS
 
        o create-user-profile
 
+       o create-workforce
+
        o create-workteam
+
+       o delete-action
 
        o delete-algorithm
 
        o delete-app
 
+       o delete-app-image-config
+
+       o delete-artifact
+
+       o delete-association
+
        o delete-code-repository
+
+       o delete-context
+
+       o delete-data-quality-job-definition
+
+       o delete-device-fleet
 
        o delete-domain
 
@@ -81,17 +137,39 @@ AVAILABLE COMMANDS
 
        o delete-experiment
 
+       o delete-feature-group
+
        o delete-flow-definition
+
+       o delete-human-task-ui
+
+       o delete-image
+
+       o delete-image-version
 
        o delete-model
 
+       o delete-model-bias-job-definition
+
+       o delete-model-explainability-job-definition
+
        o delete-model-package
+
+       o delete-model-package-group
+
+       o delete-model-package-group-policy
+
+       o delete-model-quality-job-definition
 
        o delete-monitoring-schedule
 
        o delete-notebook-instance
 
        o delete-notebook-instance-lifecycle-config
+
+       o delete-pipeline
+
+       o delete-project
 
        o delete-tags
 
@@ -101,11 +179,21 @@ AVAILABLE COMMANDS
 
        o delete-user-profile
 
+       o delete-workforce
+
        o delete-workteam
+
+       o deregister-devices
+
+       o describe-action
 
        o describe-algorithm
 
        o describe-app
+
+       o describe-app-image-config
+
+       o describe-artifact
 
        o describe-auto-ml-job
 
@@ -113,7 +201,17 @@ AVAILABLE COMMANDS
 
        o describe-compilation-job
 
+       o describe-context
+
+       o describe-data-quality-job-definition
+
+       o describe-device
+
+       o describe-device-fleet
+
        o describe-domain
+
+       o describe-edge-packaging-job
 
        o describe-endpoint
 
@@ -121,17 +219,31 @@ AVAILABLE COMMANDS
 
        o describe-experiment
 
+       o describe-feature-group
+
        o describe-flow-definition
 
        o describe-human-task-ui
 
        o describe-hyper-parameter-tuning-job
 
+       o describe-image
+
+       o describe-image-version
+
        o describe-labeling-job
 
        o describe-model
 
+       o describe-model-bias-job-definition
+
+       o describe-model-explainability-job-definition
+
        o describe-model-package
+
+       o describe-model-package-group
+
+       o describe-model-quality-job-definition
 
        o describe-monitoring-schedule
 
@@ -139,7 +251,15 @@ AVAILABLE COMMANDS
 
        o describe-notebook-instance-lifecycle-config
 
+       o describe-pipeline
+
+       o describe-pipeline-definition-for-execution
+
+       o describe-pipeline-execution
+
        o describe-processing-job
+
+       o describe-project
 
        o describe-subscribed-workteam
 
@@ -157,15 +277,33 @@ AVAILABLE COMMANDS
 
        o describe-workteam
 
+       o disable-sagemaker-servicecatalog-portfolio
+
        o disassociate-trial-component
+
+       o enable-sagemaker-servicecatalog-portfolio
+
+       o get-device-fleet-report
+
+       o get-model-package-group-policy
+
+       o get-sagemaker-servicecatalog-portfolio-status
 
        o get-search-suggestions
 
        o help
 
+       o list-actions
+
        o list-algorithms
 
+       o list-app-image-configs
+
        o list-apps
+
+       o list-artifacts
+
+       o list-associations
 
        o list-auto-ml-jobs
 
@@ -175,7 +313,17 @@ AVAILABLE COMMANDS
 
        o list-compilation-jobs
 
+       o list-contexts
+
+       o list-data-quality-job-definitions
+
+       o list-device-fleets
+
+       o list-devices
+
        o list-domains
+
+       o list-edge-packaging-jobs
 
        o list-endpoint-configs
 
@@ -183,17 +331,31 @@ AVAILABLE COMMANDS
 
        o list-experiments
 
+       o list-feature-groups
+
        o list-flow-definitions
 
        o list-human-task-uis
 
        o list-hyper-parameter-tuning-jobs
 
+       o list-image-versions
+
+       o list-images
+
        o list-labeling-jobs
 
        o list-labeling-jobs-for-workteam
 
+       o list-model-bias-job-definitions
+
+       o list-model-explainability-job-definitions
+
+       o list-model-package-groups
+
        o list-model-packages
+
+       o list-model-quality-job-definitions
 
        o list-models
 
@@ -205,7 +367,17 @@ AVAILABLE COMMANDS
 
        o list-notebook-instances
 
+       o list-pipeline-execution-steps
+
+       o list-pipeline-executions
+
+       o list-pipeline-parameters-for-execution
+
+       o list-pipelines
+
        o list-processing-jobs
+
+       o list-projects
 
        o list-subscribed-workteams
 
@@ -223,7 +395,13 @@ AVAILABLE COMMANDS
 
        o list-user-profiles
 
+       o list-workforces
+
        o list-workteams
+
+       o put-model-package-group-policy
+
+       o register-devices
 
        o render-ui-template
 
@@ -233,9 +411,13 @@ AVAILABLE COMMANDS
 
        o start-notebook-instance
 
+       o start-pipeline-execution
+
        o stop-auto-ml-job
 
        o stop-compilation-job
+
+       o stop-edge-packaging-job
 
        o stop-hyper-parameter-tuning-job
 
@@ -245,13 +427,27 @@ AVAILABLE COMMANDS
 
        o stop-notebook-instance
 
+       o stop-pipeline-execution
+
        o stop-processing-job
 
        o stop-training-job
 
        o stop-transform-job
 
+       o update-action
+
+       o update-app-image-config
+
+       o update-artifact
+
        o update-code-repository
+
+       o update-context
+
+       o update-device-fleet
+
+       o update-devices
 
        o update-domain
 
@@ -261,11 +457,21 @@ AVAILABLE COMMANDS
 
        o update-experiment
 
+       o update-image
+
+       o update-model-package
+
        o update-monitoring-schedule
 
        o update-notebook-instance
 
        o update-notebook-instance-lifecycle-config
+
+       o update-pipeline
+
+       o update-pipeline-execution
+
+       o update-training-job
 
        o update-trial
 

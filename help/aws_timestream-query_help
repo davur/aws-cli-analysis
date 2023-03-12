@@ -1,0 +1,20 @@
+TIMESTREAM-QUERY()					    TIMESTREAM-QUERY()
+
+
+
+NAME
+       timestream-query -
+
+DESCRIPTION
+AVAILABLE COMMANDS
+       o cancel-query
+
+       o describe-endpoints
+
+       o help
+
+       o query
+
+
+
+							    TIMESTREAM-QUERY()

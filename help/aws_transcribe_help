@@ -9,15 +9,31 @@ DESCRIPTION
        Operations and objects for transcribing speech to text.
 
 AVAILABLE COMMANDS
+       o create-language-model
+
+       o create-medical-vocabulary
+
        o create-vocabulary
 
        o create-vocabulary-filter
+
+       o delete-language-model
+
+       o delete-medical-transcription-job
+
+       o delete-medical-vocabulary
 
        o delete-transcription-job
 
        o delete-vocabulary
 
        o delete-vocabulary-filter
+
+       o describe-language-model
+
+       o get-medical-transcription-job
+
+       o get-medical-vocabulary
 
        o get-transcription-job
 
@@ -27,13 +43,23 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-language-models
+
+       o list-medical-transcription-jobs
+
+       o list-medical-vocabularies
+
        o list-transcription-jobs
 
        o list-vocabularies
 
        o list-vocabulary-filters
 
+       o start-medical-transcription-job
+
        o start-transcription-job
+
+       o update-medical-vocabulary
 
        o update-vocabulary
 

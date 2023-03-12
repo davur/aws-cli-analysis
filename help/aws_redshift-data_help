@@ -1,0 +1,36 @@
+REDSHIFT-DATA() 					       REDSHIFT-DATA()
+
+
+
+NAME
+       redshift-data -
+
+DESCRIPTION
+       You  can use the Amazon Redshift Data API to run queries on Amazon Red-
+       shift tables. You can run individual SQL statements, which are  commit-
+       ted if the statement succeeds.
+
+AVAILABLE COMMANDS
+       o cancel-statement
+
+       o describe-statement
+
+       o describe-table
+
+       o execute-statement
+
+       o get-statement-result
+
+       o help
+
+       o list-databases
+
+       o list-schemas
+
+       o list-statements
+
+       o list-tables
+
+
+
+							       REDSHIFT-DATA()

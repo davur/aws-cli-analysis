@@ -10,17 +10,23 @@ DESCRIPTION
        soft Windows and Amazon Linux desktops for your users.
 
 AVAILABLE COMMANDS
+       o associate-connection-alias
+
        o associate-ip-groups
 
        o authorize-ip-rules
 
        o copy-workspace-image
 
+       o create-connection-alias
+
        o create-ip-group
 
        o create-tags
 
        o create-workspaces
+
+       o delete-connection-alias
 
        o delete-ip-group
 
@@ -36,6 +42,10 @@ AVAILABLE COMMANDS
 
        o describe-client-properties
 
+       o describe-connection-alias-permissions
+
+       o describe-connection-aliases
+
        o describe-ip-groups
 
        o describe-tags
@@ -44,6 +54,8 @@ AVAILABLE COMMANDS
 
        o describe-workspace-directories
 
+       o describe-workspace-image-permissions
+
        o describe-workspace-images
 
        o describe-workspace-snapshots
@@ -51,6 +63,8 @@ AVAILABLE COMMANDS
        o describe-workspaces
 
        o describe-workspaces-connection-status
+
+       o disassociate-connection-alias
 
        o disassociate-ip-groups
 
@@ -92,7 +106,11 @@ AVAILABLE COMMANDS
 
        o terminate-workspaces
 
+       o update-connection-alias-permission
+
        o update-rules-of-ip-group
+
+       o update-workspace-image-permission
 
 
 

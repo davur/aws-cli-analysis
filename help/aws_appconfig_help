@@ -39,8 +39,8 @@ DESCRIPTION
        o Feature toggle : Use AppConfig to turn on new features that require a
 	 timely deployment, such as a product launch or announcement.
 
-       o User membership : Use AppConfig to allow premium subscribers  to  ac-
-	 cess paid content.
+       o Allow list : Use AppConfig to allow  premium  subscribers  to	access
+	 paid content.
 
        o Operational  issues : Use AppConfig to reduce stress on your applica-
 	 tion when a dependency or other external factor impacts the system.
@@ -57,6 +57,8 @@ AVAILABLE COMMANDS
 
        o create-environment
 
+       o create-hosted-configuration-version
+
        o delete-application
 
        o delete-configuration-profile
@@ -64,6 +66,8 @@ AVAILABLE COMMANDS
        o delete-deployment-strategy
 
        o delete-environment
+
+       o delete-hosted-configuration-version
 
        o get-application
 
@@ -77,6 +81,8 @@ AVAILABLE COMMANDS
 
        o get-environment
 
+       o get-hosted-configuration-version
+
        o help
 
        o list-applications
@@ -88,6 +94,8 @@ AVAILABLE COMMANDS
        o list-deployments
 
        o list-environments
+
+       o list-hosted-configuration-versions
 
        o list-tags-for-resource
 

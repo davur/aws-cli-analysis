@@ -6,22 +6,13 @@ NAME
        sms -
 
 DESCRIPTION
-       This is the AWS Sever Migration Service API Reference . It provides de-
-       scriptions, syntax, and usage examples for each of the actions and data
-       types for the AWS Sever Migration Service (AWS SMS). The topic for each
-       action shows the Query API request parameters and the XML response. You
-       can also view the XML request elements in the WSDL.
+       AWS  Server  Migration Service (AWS SMS) makes it easier and faster for
+       you to migrate your on-premises workloads to AWS. To learn  more  about
+       AWS SMS, see the following resources:
 
-       Alternatively,  you can use one of the AWS SDKs to access an API that's
-       tailored to the programming language or platform that you're using. For
-       more information, see AWS SDKs .
+       o AWS Server Migration Service product page
 
-       To learn more about the Server Migration Service, see the following re-
-       sources:
-
-       o AWS Sever Migration Service product page
-
-       o AWS Sever Migration Service User Guide
+       o AWS Server Migration Service User Guide
 
 AVAILABLE COMMANDS
        o create-app
@@ -33,6 +24,8 @@ AVAILABLE COMMANDS
        o delete-app-launch-configuration
 
        o delete-app-replication-configuration
+
+       o delete-app-validation-configuration
 
        o delete-replication-job
 
@@ -50,6 +43,10 @@ AVAILABLE COMMANDS
 
        o get-app-replication-configuration
 
+       o get-app-validation-configuration
+
+       o get-app-validation-output
+
        o get-connectors
 
        o get-replication-jobs
@@ -60,17 +57,25 @@ AVAILABLE COMMANDS
 
        o help
 
+       o import-app-catalog
+
        o import-server-catalog
 
        o launch-app
 
        o list-apps
 
+       o notify-app-validation-output
+
        o put-app-launch-configuration
 
        o put-app-replication-configuration
 
+       o put-app-validation-configuration
+
        o start-app-replication
+
+       o start-on-demand-app-replication
 
        o start-on-demand-replication-run
 

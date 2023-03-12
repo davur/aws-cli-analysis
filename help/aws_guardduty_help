@@ -8,20 +8,24 @@ NAME
 DESCRIPTION
        Amazon  GuardDuty is a continuous security monitoring service that ana-
        lyzes and processes the following data  sources:  VPC  Flow  Logs,  AWS
-       CloudTrail event logs, and DNS logs. It uses threat intelligence feeds,
-       such as lists of malicious IPs and domains,  and  machine  learning  to
-       identify unexpected and potentially unauthorized and malicious activity
+       CloudTrail  event logs, and DNS logs. It uses threat intelligence feeds
+       (such as lists of malicious IPs and domains) and  machine  learning  to
+       identify  unexpected,  potentially unauthorized, and malicious activity
        within your AWS environment. This can include issues  like  escalations
        of privileges, uses of exposed credentials, or communication with mali-
        cious IPs, URLs, or domains. For example, GuardDuty can detect  compro-
-       mised EC2 instances serving malware or mining bitcoin. It also monitors
-       AWS account access behavior for signs of compromise, such  as  unautho-
-       rized  infrastructure  deployments, like instances deployed in a region
-       that has never been used, or unusual API calls, like a password	policy
-       change to reduce password strength. GuardDuty informs you of the status
-       of your AWS environment by producing security  findings	that  you  can
-       view  in the GuardDuty console or through Amazon CloudWatch events. For
-       more information, see Amazon GuardDuty User Guide .
+       mised EC2 instances that serve malware or mine bitcoin.
+
+       GuardDuty  also	monitors AWS account access behavior for signs of com-
+       promise. Some examples of this are unauthorized infrastructure  deploy-
+       ments  such  as	EC2 instances deployed in a Region that has never been
+       used, or unusual API calls like a  password  policy  change  to	reduce
+       password strength.
+
+       GuardDuty  informs you of the status of your AWS environment by produc-
+       ing security findings that you can view in  the	GuardDuty  console  or
+       through	Amazon	CloudWatch  events.  For  more	information, see the *
+       Amazon GuardDuty User Guide * .
 
 AVAILABLE COMMANDS
        o accept-invitation
@@ -58,11 +62,17 @@ AVAILABLE COMMANDS
 
        o delete-threat-intel-set
 
+       o describe-organization-configuration
+
        o describe-publishing-destination
+
+       o disable-organization-admin-account
 
        o disassociate-from-master-account
 
        o disassociate-members
+
+       o enable-organization-admin-account
 
        o get-detector
 
@@ -78,9 +88,13 @@ AVAILABLE COMMANDS
 
        o get-master-account
 
+       o get-member-detectors
+
        o get-members
 
        o get-threat-intel-set
+
+       o get-usage-statistics
 
        o help
 
@@ -97,6 +111,8 @@ AVAILABLE COMMANDS
        o list-ip-sets
 
        o list-members
+
+       o list-organization-admin-accounts
 
        o list-publishing-destinations
 
@@ -121,6 +137,10 @@ AVAILABLE COMMANDS
        o update-findings-feedback
 
        o update-ip-set
+
+       o update-member-detectors
+
+       o update-organization-configuration
 
        o update-publishing-destination
 

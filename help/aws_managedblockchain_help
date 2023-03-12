@@ -7,11 +7,22 @@ NAME
 
 DESCRIPTION
        Amazon  Managed	Blockchain is a fully managed service for creating and
-       managing blockchain networks using open source  frameworks.  Blockchain
+       managing blockchain networks using open-source  frameworks.  Blockchain
        allows  you  to	build applications where multiple parties can securely
        and transparently run transactions and share data without the need  for
-       a  trusted,  central  authority. Currently, Managed Blockchain supports
-       the Hyperledger Fabric open source framework.
+       a trusted, central authority.
+
+       Managed	 Blockchain  supports  the  Hyperledger  Fabric  and  Ethereum
+       open-source frameworks. Ethereum on Managed Blockchain  is  in  preview
+       release	and  is  subject to change. Because of fundamental differences
+       between the frameworks, some API actions or data types may  only  apply
+       in the context of one framework and not the other. For example, actions
+       related to Hyperledger Fabric network members such as CreateMember  and
+       DeleteMember do not apply to Ethereum.
+
+       The  description  for each action indicates the framework or frameworks
+       to which it applies. Data types and properties that apply only  in  the
+       context of a particular framework are similarly indicated.
 
 AVAILABLE COMMANDS
        o create-member
@@ -48,7 +59,17 @@ AVAILABLE COMMANDS
 
        o list-proposals
 
+       o list-tags-for-resource
+
        o reject-invitation
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-member
+
+       o update-node
 
        o vote-on-proposal
 

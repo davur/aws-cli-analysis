@@ -123,6 +123,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o batch-delete-builds
 
+       o batch-get-build-batches
+
        o batch-get-builds
 
        o batch-get-projects
@@ -137,6 +139,8 @@ AVAILABLE COMMANDS
 
        o create-webhook
 
+       o delete-build-batch
+
        o delete-project
 
        o delete-report
@@ -149,7 +153,11 @@ AVAILABLE COMMANDS
 
        o delete-webhook
 
+       o describe-code-coverages
+
        o describe-test-cases
+
+       o get-report-group-trend
 
        o get-resource-policy
 
@@ -158,6 +166,10 @@ AVAILABLE COMMANDS
        o import-source-credentials
 
        o invalidate-project-cache
+
+       o list-build-batches
+
+       o list-build-batches-for-project
 
        o list-builds
 
@@ -181,9 +193,17 @@ AVAILABLE COMMANDS
 
        o put-resource-policy
 
+       o retry-build
+
+       o retry-build-batch
+
        o start-build
 
+       o start-build-batch
+
        o stop-build
+
+       o stop-build-batch
 
        o update-project
 

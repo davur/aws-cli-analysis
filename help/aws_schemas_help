@@ -6,7 +6,7 @@ NAME
        schemas -
 
 DESCRIPTION
-       AWS EventBridge Schemas
+       Amazon EventBridge Schema Registry
 
 AVAILABLE COMMANDS
        o create-discoverer
@@ -18,6 +18,8 @@ AVAILABLE COMMANDS
        o delete-discoverer
 
        o delete-registry
+
+       o delete-resource-policy
 
        o delete-schema
 
@@ -31,9 +33,13 @@ AVAILABLE COMMANDS
 
        o describe-schema
 
+       o export-schema
+
        o get-code-binding-source
 
        o get-discovered-schema
+
+       o get-resource-policy
 
        o help
 
@@ -47,9 +53,9 @@ AVAILABLE COMMANDS
 
        o list-tags-for-resource
 
-       o lock-service-linked-role
-
        o put-code-binding
+
+       o put-resource-policy
 
        o search-schemas
 
@@ -58,8 +64,6 @@ AVAILABLE COMMANDS
        o stop-discoverer
 
        o tag-resource
-
-       o unlock-service-linked-role
 
        o untag-resource
 

@@ -27,6 +27,8 @@ AVAILABLE COMMANDS
 
        o add-ip-routes
 
+       o add-region
+
        o add-tags-to-resource
 
        o cancel-schema-extension
@@ -75,17 +77,23 @@ AVAILABLE COMMANDS
 
        o describe-ldaps-settings
 
+       o describe-regions
+
        o describe-shared-directories
 
        o describe-snapshots
 
        o describe-trusts
 
+       o disable-client-authentication
+
        o disable-ldaps
 
        o disable-radius
 
        o disable-sso
+
+       o enable-client-authentication
 
        o enable-ldaps
 
@@ -116,6 +124,8 @@ AVAILABLE COMMANDS
        o reject-shared-directory
 
        o remove-ip-routes
+
+       o remove-region
 
        o remove-tags-from-resource
 

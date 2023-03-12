@@ -10,10 +10,18 @@ DESCRIPTION
        a global network, in which you can monitor  your  AWS  and  on-premises
        networks that are built around transit gateways.
 
+       The  Network  Manager APIs are supported in the US West (Oregon) Region
+       only. You must specify the us-west-2 Region in  all  requests  made  to
+       Network Manager.
+
 AVAILABLE COMMANDS
        o associate-customer-gateway
 
        o associate-link
+
+       o associate-transit-gateway-connect-peer
+
+       o create-connection
 
        o create-device
 
@@ -22,6 +30,8 @@ AVAILABLE COMMANDS
        o create-link
 
        o create-site
+
+       o delete-connection
 
        o delete-device
 
@@ -39,6 +49,10 @@ AVAILABLE COMMANDS
 
        o disassociate-link
 
+       o disassociate-transit-gateway-connect-peer
+
+       o get-connections
+
        o get-customer-gateway-associations
 
        o get-devices
@@ -48,6 +62,8 @@ AVAILABLE COMMANDS
        o get-links
 
        o get-sites
+
+       o get-transit-gateway-connect-peer-associations
 
        o get-transit-gateway-registrations
 
@@ -60,6 +76,8 @@ AVAILABLE COMMANDS
        o tag-resource
 
        o untag-resource
+
+       o update-connection
 
        o update-device
 

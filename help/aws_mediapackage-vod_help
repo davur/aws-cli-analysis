@@ -35,6 +35,14 @@ AVAILABLE COMMANDS
 
        o list-packaging-groups
 
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-packaging-group
+
 
 
 							    MEDIAPACKAGE-VOD()

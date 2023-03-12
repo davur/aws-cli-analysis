@@ -309,6 +309,8 @@ AVAILABLE COMMANDS
 
        o start-db-instance
 
+       o start-db-instance-automated-backups-replication
+
        o start-export-task
 
        o stop-activity-stream
@@ -316,6 +318,8 @@ AVAILABLE COMMANDS
        o stop-db-cluster
 
        o stop-db-instance
+
+       o stop-db-instance-automated-backups-replication
 
        o wait
 

@@ -11,24 +11,21 @@ DESCRIPTION
        determine  a  home  region, as well as to create and work with controls
        that describe the home region.
 
-       You can use these APIs within your home region only. If you call  these
-       APIs from outside your home region, your calls are rejected, except for
-       the ability to register your agents and connectors.
+       o You must make API calls for write actions (create, notify, associate,
+	 disassociate, import, or put) while in your home region, or a HomeRe-
+	 gionNotSetException error is returned.
 
-       You must call GetHomeRegion at least once before you call any other AWS
-       Application Discovery Service and AWS Migration Hub APIs, to obtain the
-       account's Migration Hub home region.
+       o API calls for read actions (list, describe,  stop,  and  delete)  are
+	 permitted outside of your home region.
 
-       The StartDataCollection API call in AWS Application  Discovery  Service
-       allows  your  agents and connectors to begin collecting data that flows
-       directly into the home region, and it will prevent  you	from  enabling
-       data collection information to be sent outside the home region.
+       o If  you  call a write API outside the home region, an InvalidInputEx-
+	 ception is returned.
+
+       o You can call GetHomeRegion action to obtain the  account's  Migration
+	 Hub home region.
 
        For specific API usage, see the sections that follow in this AWS Migra-
        tion Hub Home Region API reference.
-
-       NOTE:
-	  The Migration Hub Home Region APIs do not support AWS Organizations.
 
 AVAILABLE COMMANDS
        o create-home-region-control

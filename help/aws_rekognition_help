@@ -23,6 +23,10 @@ AVAILABLE COMMANDS
 
        o delete-faces
 
+       o delete-project
+
+       o delete-project-version
+
        o delete-stream-processor
 
        o describe-collection
@@ -41,6 +45,8 @@ AVAILABLE COMMANDS
 
        o detect-moderation-labels
 
+       o detect-protective-equipment
+
        o detect-text
 
        o get-celebrity-info
@@ -56,6 +62,10 @@ AVAILABLE COMMANDS
        o get-label-detection
 
        o get-person-tracking
+
+       o get-segment-detection
+
+       o get-text-detection
 
        o help
 
@@ -87,7 +97,11 @@ AVAILABLE COMMANDS
 
        o start-project-version
 
+       o start-segment-detection
+
        o start-stream-processor
+
+       o start-text-detection
 
        o stop-project-version
 

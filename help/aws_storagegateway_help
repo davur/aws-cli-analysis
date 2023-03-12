@@ -10,20 +10,20 @@ DESCRIPTION
        ware appliance with cloud-based storage to provide seamless and	secure
        integration  between  an  organization's on-premises IT environment and
        the AWS storage infrastructure. The service enables you to securely up-
-       load data to the AWS cloud for cost effective backup and rapid disaster
+       load data to the AWS Cloud for cost effective backup and rapid disaster
        recovery.
 
        Use the following links to get started using the  AWS  Storage  Gateway
        Service API Reference :
 
-       o AWS Storage Gateway Required Request Headers : Describes the required
+       o AWS Storage Gateway required request headers : Describes the required
 	 headers that you must send with every POST  request  to  AWS  Storage
 	 Gateway.
 
-       o Signing Requests : AWS Storage Gateway requires that you authenticate
+       o Signing requests : AWS Storage Gateway requires that you authenticate
 	 every request you send; this topic describes how sign such a request.
 
-       o Error Responses : Provides reference information  about  AWS  Storage
+       o Error responses : Provides reference information  about  AWS  Storage
 	 Gateway errors.
 
        o Operations in AWS Storage Gateway : Contains detailed descriptions of
@@ -31,7 +31,7 @@ DESCRIPTION
 	 sponse  elements,  possible  errors, and examples of requests and re-
 	 sponses.
 
-       o AWS Storage Gateway Regions and Endpoints: Provides a	list  of  each
+       o AWS Storage Gateway endpoints and quotas : Provides a	list  of  each
 	 AWS Region and the endpoints available for use with AWS Storage Gate-
 	 way.
 
@@ -50,7 +50,7 @@ DESCRIPTION
 	  December 2016, all new volumes and snapshots will be created with  a
 	  17-character string. Starting in April 2016, you will be able to use
 	  these longer IDs so you can test your systems with the  new  format.
-	  For more information, see Longer EC2 and EBS Resource IDs .
+	  For more information, see Longer EC2 and EBS resource IDs .
 
 	  For  example,  a  volume  Amazon Resource Name (ARN) with the longer
 	  volume ID format looks like the following:
@@ -94,9 +94,13 @@ AVAILABLE COMMANDS
 
        o create-stored-iscsi-volume
 
+       o create-tape-pool
+
        o create-tape-with-barcode
 
        o create-tapes
+
+       o delete-automatic-tape-creation-policy
 
        o delete-bandwidth-rate-limit
 
@@ -112,11 +116,15 @@ AVAILABLE COMMANDS
 
        o delete-tape-archive
 
+       o delete-tape-pool
+
        o delete-volume
 
        o describe-availability-monitor-test
 
        o describe-bandwidth-rate-limit
+
+       o describe-bandwidth-rate-limit-schedule
 
        o describe-cache
 
@@ -158,6 +166,8 @@ AVAILABLE COMMANDS
 
        o join-domain
 
+       o list-automatic-tape-creation-policies
+
        o list-file-shares
 
        o list-gateways
@@ -165,6 +175,8 @@ AVAILABLE COMMANDS
        o list-local-disks
 
        o list-tags-for-resource
+
+       o list-tape-pools
 
        o list-tapes
 
@@ -196,7 +208,11 @@ AVAILABLE COMMANDS
 
        o start-gateway
 
+       o update-automatic-tape-creation-policy
+
        o update-bandwidth-rate-limit
+
+       o update-bandwidth-rate-limit-schedule
 
        o update-chap-credentials
 
@@ -209,6 +225,8 @@ AVAILABLE COMMANDS
        o update-nfs-file-share
 
        o update-smb-file-share
+
+       o update-smb-file-share-visibility
 
        o update-smb-security-strategy
 

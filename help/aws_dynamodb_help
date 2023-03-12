@@ -27,6 +27,8 @@ DESCRIPTION
        providing built-in high availability and data durability.
 
 AVAILABLE COMMANDS
+       o batch-execute-statement
+
        o batch-get-item
 
        o batch-write-item
@@ -51,9 +53,13 @@ AVAILABLE COMMANDS
 
        o describe-endpoints
 
+       o describe-export
+
        o describe-global-table
 
        o describe-global-table-settings
+
+       o describe-kinesis-streaming-destination
 
        o describe-limits
 
@@ -63,6 +69,16 @@ AVAILABLE COMMANDS
 
        o describe-time-to-live
 
+       o disable-kinesis-streaming-destination
+
+       o enable-kinesis-streaming-destination
+
+       o execute-statement
+
+       o execute-transaction
+
+       o export-table-to-point-in-time
+
        o get-item
 
        o help
@@ -70,6 +86,8 @@ AVAILABLE COMMANDS
        o list-backups
 
        o list-contributor-insights
+
+       o list-exports
 
        o list-global-tables
 
