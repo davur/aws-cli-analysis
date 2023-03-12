@@ -95,6 +95,8 @@ OPTIONS
 AVAILABLE SERVICES
        o acm
 
+       o acm-pca
+
        o alexaforbusiness
 
        o apigateway
@@ -207,6 +209,8 @@ AVAILABLE SERVICES
 
        o firehose
 
+       o fms
+
        o gamelift
 
        o glacier
@@ -318,6 +322,8 @@ AVAILABLE SERVICES
        o sagemaker-runtime
 
        o sdb
+
+       o secretsmanager
 
        o serverlessrepo
 
