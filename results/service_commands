@@ -2565,6 +2565,7 @@ connect list-users
 connect release-phone-number
 connect resume-contact-recording
 connect search-available-phone-numbers
+connect search-users
 connect search-vocabularies
 connect start-chat-contact
 connect start-contact-recording
