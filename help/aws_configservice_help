@@ -11,29 +11,107 @@ DESCRIPTION
        Config to get the current and historical configurations of each AWS re-
        source and also to get information about the relationship  between  the
        resources.  An AWS resource can be an Amazon Compute Cloud (Amazon EC2)
-       instance, an Elastic Block Store (EBS) volume, an Elastic  network  In-
+       instance, an Elastic Block Store (EBS) volume, an elastic  network  In-
        terface	(ENI),	or  a security group. For a complete list of resources
        currently supported by AWS Config, see Supported AWS Resources .
 
        You can access and manage AWS Config through the  AWS  Management  Con-
        sole,  the AWS Command Line Interface (AWS CLI), the AWS Config API, or
-       the AWS SDKs for AWS Config
-
-       This reference guide contains documentation for the AWS Config API  and
-       the AWS CLI commands that you can use to manage AWS Config.
-
-       The  AWS  Config  API uses the Signature Version 4 protocol for signing
-       requests. For more information about how to sign a  request  with  this
-       protocol, see Signature Version 4 Signing Process .
-
+       the AWS SDKs for AWS Config. This reference guide  contains  documenta-
+       tion  for  the AWS Config API and the AWS CLI commands that you can use
+       to manage AWS Config. The AWS Config API uses the Signature  Version  4
+       protocol for signing requests. For more information about how to sign a
+       request with this protocol, see Signature Version 4 Signing  Process  .
        For detailed information about AWS Config features and their associated
        actions or commands, as well as how to work with  AWS  Management  Con-
-       sole, see What Is AWS Config? in the AWS Config Developer Guide .
+       sole, see What Is AWS Config in the AWS Config Developer Guide .
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
+
+       o
 
 AVAILABLE COMMANDS
        o batch-get-resource-config
 
+       o delete-aggregation-authorization
+
        o delete-config-rule
+
+       o delete-configuration-aggregator
 
        o delete-configuration-recorder
 
@@ -41,7 +119,13 @@ AVAILABLE COMMANDS
 
        o delete-evaluation-results
 
+       o delete-pending-aggregation-request
+
        o deliver-config-snapshot
+
+       o describe-aggregate-compliance-by-config-rules
+
+       o describe-aggregation-authorizations
 
        o describe-compliance-by-config-rule
 
@@ -51,6 +135,10 @@ AVAILABLE COMMANDS
 
        o describe-config-rules
 
+       o describe-configuration-aggregator-sources-status
+
+       o describe-configuration-aggregators
+
        o describe-configuration-recorder-status
 
        o describe-configuration-recorders
@@ -58,6 +146,12 @@ AVAILABLE COMMANDS
        o describe-delivery-channel-status
 
        o describe-delivery-channels
+
+       o describe-pending-aggregation-requests
+
+       o get-aggregate-compliance-details-by-config-rule
+
+       o get-aggregate-config-rule-compliance-summary
 
        o get-compliance-details-by-config-rule
 
@@ -77,7 +171,11 @@ AVAILABLE COMMANDS
 
        o list-discovered-resources
 
+       o put-aggregation-authorization
+
        o put-config-rule
+
+       o put-configuration-aggregator
 
        o put-configuration-recorder
 

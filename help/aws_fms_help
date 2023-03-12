@@ -1,0 +1,44 @@
+FMS()									 FMS()
+
+
+
+NAME
+       fms -
+
+DESCRIPTION
+       This  is the AWS Firewall Manager API Reference . This guide is for de-
+       velopers who need detailed information about the AWS  Firewall  Manager
+       API actions, data types, and errors. For detailed information about AWS
+       Firewall Manager features, see the AWS Firewall Manager Developer Guide
+       .
+
+AVAILABLE COMMANDS
+       o associate-admin-account
+
+       o delete-notification-channel
+
+       o delete-policy
+
+       o disassociate-admin-account
+
+       o get-admin-account
+
+       o get-compliance-detail
+
+       o get-notification-channel
+
+       o get-policy
+
+       o help
+
+       o list-compliance-status
+
+       o list-policies
+
+       o put-notification-channel
+
+       o put-policy
+
+
+
+									 FMS()

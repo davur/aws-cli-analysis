@@ -9,13 +9,23 @@ DESCRIPTION
        Operations and objects for transcribing speech to text.
 
 AVAILABLE COMMANDS
+       o create-vocabulary
+
+       o delete-vocabulary
+
        o get-transcription-job
+
+       o get-vocabulary
 
        o help
 
        o list-transcription-jobs
 
+       o list-vocabularies
+
        o start-transcription-job
+
+       o update-vocabulary
 
 
 

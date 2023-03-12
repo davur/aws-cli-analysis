@@ -40,6 +40,8 @@ AVAILABLE COMMANDS
 
        o get-dashboard
 
+       o get-metric-data
+
        o get-metric-statistics
 
        o help

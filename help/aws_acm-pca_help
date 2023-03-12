@@ -1,0 +1,79 @@
+ACM-PCA()							     ACM-PCA()
+
+
+
+NAME
+       acm-pca -
+
+DESCRIPTION
+       You  can  use the ACM PCA API to create a private certificate authority
+       (CA). You must first call the   create-certificate-authority  function.
+       If  successful,	the function returns an Amazon Resource Name (ARN) for
+       your private CA. Use this ARN as input to the   get-certificate-author-
+       ity-csr	function to retrieve the certificate signing request (CSR) for
+       your private CA certificate. Sign the CSR using the root or an interme-
+       diate  CA  in your on-premises PKI hierarchy, and call the  import-cer-
+       tificate-authority-certificate to import your signed  private  CA  cer-
+       tificate into ACM PCA.
+
+       Use your private CA to issue and revoke certificates. These are private
+       certificates that identify and secure client computers, servers, appli-
+       cations,  services, devices, and users over SSLS/TLS connections within
+       your organization. Call the  issue-certificate function to issue a cer-
+       tificate.  Call	the   revoke-certificate function to revoke a certifi-
+       cate.
+
+       NOTE:
+	  Certificates issued by your private CA can be  trusted  only	within
+	  your organization, not publicly.
+
+       Your  private  CA  can  optionally create a certificate revocation list
+       (CRL) to track the certificates you revoke. To create a CRL,  you  must
+       specify	a   RevocationConfiguration  object  when  you	call the  cre-
+       ate-certificate-authority function. ACM PCA writes the  CRL  to	an  S3
+       bucket  that  you specify. You must specify a bucket policy that grants
+       ACM PCA write permission.
+
+       You can also  call  the	 create-certificate-authority-audit-report  to
+       create  an  optional  audit report that lists every time the CA private
+       key is used. The private key is used for signing  when  the  issue-cer-
+       tificate or revoke-certificate function is called.
+
+AVAILABLE COMMANDS
+       o create-certificate-authority
+
+       o create-certificate-authority-audit-report
+
+       o delete-certificate-authority
+
+       o describe-certificate-authority
+
+       o describe-certificate-authority-audit-report
+
+       o get-certificate
+
+       o get-certificate-authority-certificate
+
+       o get-certificate-authority-csr
+
+       o help
+
+       o import-certificate-authority-certificate
+
+       o issue-certificate
+
+       o list-certificate-authorities
+
+       o list-tags
+
+       o revoke-certificate
+
+       o tag-certificate-authority
+
+       o untag-certificate-authority
+
+       o update-certificate-authority
+
+
+
+								     ACM-PCA()
