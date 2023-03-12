@@ -7,53 +7,53 @@ NAME
 
 DESCRIPTION
        With  Application Auto Scaling, you can configure automatic scaling for
-       your scalable resources. You can use Application Auto Scaling to accom-
-       plish the following tasks:
+       the following resources:
 
-       o Define scaling policies to automatically scale your AWS or custom re-
-	 sources
+       o Amazon ECS services
 
-       o Scale your resources in response to CloudWatch alarms
+       o Amazon EC2 Spot Fleet requests
 
-       o Schedule one-time or recurring scaling actions
+       o Amazon EMR clusters
 
-       o View the history of your scaling events
+       o Amazon AppStream 2.0 fleets
 
-       Application Auto Scaling can scale the following resources:
+       o Amazon DynamoDB tables and global secondary indexes throughput capac-
+	 ity
 
-       o Amazon ECS services. For more information, see Service  Auto  Scaling
-	 in the Amazon Elastic Container Service Developer Guide .
+       o Amazon Aurora Replicas
 
-       o Amazon  EC2  Spot fleets. For more information, see Automatic Scaling
-	 for Spot Fleet in the Amazon EC2 User Guide .
+       o Amazon SageMaker endpoint variants
 
-       o Amazon EMR clusters. For more information, see Using Automatic  Scal-
-	 ing in Amazon EMR in the Amazon EMR Management Guide .
+       o Custom resources provided by your own applications or services
 
-       o AppStream  2.0  fleets.  For more information, see Fleet Auto Scaling
-	 for Amazon AppStream 2.0 in the Amazon AppStream 2.0 Developer  Guide
-	 .
+       o Amazon Comprehend document classification endpoints
 
-       o Provisioned  read  and  write capacity for Amazon DynamoDB tables and
-	 global secondary indexes. For more information, see Managing Through-
-	 put  Capacity	Automatically with DynamoDB Auto Scaling in the Amazon
-	 DynamoDB Developer Guide .
+       o AWS Lambda function provisioned concurrency
+	  API Summary
 
-       o Amazon Aurora Replicas. For more information, see Using Amazon Aurora
-	 Auto Scaling with Aurora Replicas .
+       The Application Auto Scaling service API includes three key sets of ac-
+       tions:
 
-       o Amazon   SageMaker  endpoint  variants.  For  more  information,  see
-	 Automatically Scaling Amazon SageMaker Models .
+       o Register and manage scalable targets - Register  AWS  or  custom  re-
+	 sources as scalable targets (a resource that Application Auto Scaling
+	 can scale), set minimum and maximum capacity limits, and retrieve in-
+	 formation on existing scalable targets.
 
-       o Custom resources provided by your own applications or services.  More
-	 information is available in our GitHub repository .
+       o Configure  and  manage automatic scaling - Define scaling policies to
+	 dynamically scale your resources in response  to  CloudWatch  alarms,
+	 schedule one-time or recurring scaling actions, and retrieve your re-
+	 cent scaling activity history.
 
-       To  learn more about Application Auto Scaling, see the Application Auto
-       Scaling User Guide .
+       o Suspend and resume scaling - Temporarily suspend and later resume au-
+	 tomatic scaling by calling the  RegisterScalableTarget action for any
+	 Application Auto Scaling scalable target. You can suspend and resume,
+	 individually  or  in combination, scale-out activities triggered by a
+	 scaling policy, scale-in activities triggered by  a  scaling  policy,
+	 and scheduled scaling.
 
-       To configure automatic scaling for multiple resources  across  multiple
-       services, use AWS Auto Scaling to create a scaling plan for your appli-
-       cation. For more information, see the AWS Auto Scaling User Guide .
+       To  learn  more	about  Application Auto Scaling, including information
+       about granting IAM users  required  permissions	for  Application  Auto
+       Scaling actions, see the Application Auto Scaling User Guide .
 
 AVAILABLE COMMANDS
        o delete-scaling-policy

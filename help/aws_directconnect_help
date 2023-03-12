@@ -7,25 +7,26 @@ NAME
 
 DESCRIPTION
        AWS Direct Connect links your internal network to an AWS Direct Connect
-       location over a standard 1 gigabit or 10 gigabit  Ethernet  fiber-optic
-       cable.  One  end of the cable is connected to your router, the other to
-       an AWS Direct Connect router. With this connection in  place,  you  can
-       create  virtual	interfaces  directly to the AWS cloud (for example, to
-       Amazon Elastic Compute Cloud (Amazon EC2)  and  Amazon  Simple  Storage
-       Service	(Amazon S3)) and to Amazon Virtual Private Cloud (Amazon VPC),
-       bypassing Internet service providers in your network path. An  AWS  Di-
-       rect  Connect location provides access to AWS in the region it is asso-
-       ciated with, as well as access to other US regions.  For  example,  you
-       can provision a single connection to any AWS Direct Connect location in
-       the US and use it to access public AWS services in all US  Regions  and
-       AWS GovCloud (US).
+       location over a standard Ethernet fiber-optic cable. One end of the ca-
+       ble  is	connected  to  your router, the other to an AWS Direct Connect
+       router. With this connection in place, you can  create  virtual	inter-
+       faces  directly to the AWS cloud (for example, to Amazon EC2 and Amazon
+       S3) and to Amazon VPC, bypassing Internet  service  providers  in  your
+       network	path.  A  connection provides access to all AWS Regions except
+       the China (Beijing) and (China) Ningxia Regions. AWS resources  in  the
+       China  Regions  can  only be accessed through locations associated with
+       those Regions.
 
 AVAILABLE COMMANDS
+       o accept-direct-connect-gateway-association-proposal
+
        o allocate-hosted-connection
 
        o allocate-private-virtual-interface
 
        o allocate-public-virtual-interface
+
+       o allocate-transit-virtual-interface
 
        o associate-connection-with-lag
 
@@ -39,6 +40,8 @@ AVAILABLE COMMANDS
 
        o confirm-public-virtual-interface
 
+       o confirm-transit-virtual-interface
+
        o create-bgp-peer
 
        o create-connection
@@ -46,6 +49,8 @@ AVAILABLE COMMANDS
        o create-direct-connect-gateway
 
        o create-direct-connect-gateway-association
+
+       o create-direct-connect-gateway-association-proposal
 
        o create-interconnect
 
@@ -55,6 +60,8 @@ AVAILABLE COMMANDS
 
        o create-public-virtual-interface
 
+       o create-transit-virtual-interface
+
        o delete-bgp-peer
 
        o delete-connection
@@ -63,6 +70,8 @@ AVAILABLE COMMANDS
 
        o delete-direct-connect-gateway-association
 
+       o delete-direct-connect-gateway-association-proposal
+
        o delete-interconnect
 
        o delete-lag
@@ -70,6 +79,8 @@ AVAILABLE COMMANDS
        o delete-virtual-interface
 
        o describe-connections
+
+       o describe-direct-connect-gateway-association-proposals
 
        o describe-direct-connect-gateway-associations
 
@@ -101,7 +112,11 @@ AVAILABLE COMMANDS
 
        o untag-resource
 
+       o update-direct-connect-gateway-association
+
        o update-lag
+
+       o update-virtual-interface-attributes
 
 
 

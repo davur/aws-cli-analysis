@@ -97,6 +97,8 @@ AVAILABLE COMMANDS
 
        o list-templates
 
+       o put-configuration-set-delivery-options
+
        o put-identity-policy
 
        o reorder-receipt-rule-set

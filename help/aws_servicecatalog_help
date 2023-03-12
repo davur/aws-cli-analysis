@@ -14,11 +14,19 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-portfolio-share
 
+       o associate-budget-with-resource
+
        o associate-principal-with-portfolio
 
        o associate-product-with-portfolio
 
+       o associate-service-action-with-provisioning-artifact
+
        o associate-tag-option-with-resource
+
+       o batch-associate-service-action-with-provisioning-artifact
+
+       o batch-disassociate-service-action-from-provisioning-artifact
 
        o copy-product
 
@@ -34,6 +42,8 @@ AVAILABLE COMMANDS
 
        o create-provisioning-artifact
 
+       o create-service-action
+
        o create-tag-option
 
        o delete-constraint
@@ -48,6 +58,8 @@ AVAILABLE COMMANDS
 
        o delete-provisioning-artifact
 
+       o delete-service-action
+
        o delete-tag-option
 
        o describe-constraint
@@ -55,6 +67,8 @@ AVAILABLE COMMANDS
        o describe-copy-product-status
 
        o describe-portfolio
+
+       o describe-portfolio-share-status
 
        o describe-product
 
@@ -72,25 +86,45 @@ AVAILABLE COMMANDS
 
        o describe-record
 
+       o describe-service-action
+
+       o describe-service-action-execution-parameters
+
        o describe-tag-option
+
+       o disable-aws-organizations-access
+
+       o disassociate-budget-from-resource
 
        o disassociate-principal-from-portfolio
 
        o disassociate-product-from-portfolio
 
+       o disassociate-service-action-from-provisioning-artifact
+
        o disassociate-tag-option-from-resource
+
+       o enable-aws-organizations-access
 
        o execute-provisioned-product-plan
 
+       o execute-provisioned-product-service-action
+
        o generate
+
+       o get-aws-organizations-access-status
 
        o help
 
        o list-accepted-portfolio-shares
 
+       o list-budgets-for-resource
+
        o list-constraints-for-portfolio
 
        o list-launch-paths
+
+       o list-organization-portfolio-access
 
        o list-portfolio-access
 
@@ -104,9 +138,17 @@ AVAILABLE COMMANDS
 
        o list-provisioning-artifacts
 
+       o list-provisioning-artifacts-for-service-action
+
        o list-record-history
 
        o list-resources-for-tag-option
+
+       o list-service-actions
+
+       o list-service-actions-for-provisioning-artifact
+
+       o list-stack-instances-for-provisioned-product
 
        o list-tag-options
 
@@ -132,7 +174,11 @@ AVAILABLE COMMANDS
 
        o update-provisioned-product
 
+       o update-provisioned-product-properties
+
        o update-provisioning-artifact
+
+       o update-service-action
 
        o update-tag-option
 

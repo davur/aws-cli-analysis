@@ -16,6 +16,8 @@ AVAILABLE COMMANDS
 
        o create-hsm
 
+       o delete-backup
+
        o delete-cluster
 
        o delete-hsm
@@ -29,6 +31,8 @@ AVAILABLE COMMANDS
        o initialize-cluster
 
        o list-tags
+
+       o restore-backup
 
        o tag-resource
 

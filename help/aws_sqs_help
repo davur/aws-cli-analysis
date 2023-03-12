@@ -13,11 +13,6 @@ DESCRIPTION
        or microservices. Amazon SQS moves data between distributed application
        components and helps you decouple these components.
 
-       NOTE:
-	  Standard queues are available in all regions. FIFO queues are avail-
-	  able in the US East (N. Virginia), US East (Ohio), US West (Oregon),
-	  and EU (Ireland) regions.
-
        You can use AWS SDKs to access Amazon SQS using your favorite  program-
        ming  language.	The SDKs perform tasks such as the following automati-
        cally:
@@ -35,9 +30,14 @@ DESCRIPTION
 
 	 o Making API Requests
 
-	 o Using Amazon SQS Message Attributes
+	 o Amazon SQS Message Attributes
 
-	 o Using Amazon SQS Dead-Letter Queues
+	 o Amazon SQS Dead-Letter Queues
+
+       o
+
+	 `Amazon SQS in the *AWS CLI Command Reference* http://docs.aws.amazon.com/cli/latest/reference/sqs/index.html`__
+
 
        o Amazon Web Services General Reference
 
@@ -85,6 +85,11 @@ AVAILABLE COMMANDS
        o tag-queue
 
        o untag-queue
+
+DOCUTILS SYSTEM MESSAGES
+       System Message: ERROR/3 (<string>:)
+	      Anonymous hyperlink mismatch: 1 references but 0	targets.   See
+	      "backrefs" attribute for IDs.
 
 
 

@@ -27,9 +27,15 @@ DESCRIPTION
        tems or worry about scaling your management infrastructure.
 
 AVAILABLE COMMANDS
+       o create-capacity-provider
+
        o create-cluster
 
        o create-service
+
+       o create-task-set
+
+       o delete-account-setting
 
        o delete-attributes
 
@@ -37,9 +43,15 @@ AVAILABLE COMMANDS
 
        o delete-service
 
+       o delete-task-set
+
+       o deploy
+
        o deregister-container-instance
 
        o deregister-task-definition
+
+       o describe-capacity-providers
 
        o describe-clusters
 
@@ -49,11 +61,15 @@ AVAILABLE COMMANDS
 
        o describe-task-definition
 
+       o describe-task-sets
+
        o describe-tasks
 
        o discover-poll-endpoint
 
        o help
+
+       o list-account-settings
 
        o list-attributes
 
@@ -63,13 +79,21 @@ AVAILABLE COMMANDS
 
        o list-services
 
+       o list-tags-for-resource
+
        o list-task-definition-families
 
        o list-task-definitions
 
        o list-tasks
 
+       o put-account-setting
+
+       o put-account-setting-default
+
        o put-attributes
+
+       o put-cluster-capacity-providers
 
        o register-container-instance
 
@@ -81,15 +105,27 @@ AVAILABLE COMMANDS
 
        o stop-task
 
+       o submit-attachment-state-changes
+
        o submit-container-state-change
 
        o submit-task-state-change
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-cluster-settings
 
        o update-container-agent
 
        o update-container-instances-state
 
        o update-service
+
+       o update-service-primary-task-set
+
+       o update-task-set
 
        o wait
 

@@ -27,7 +27,6 @@ DESCRIPTION
        immediately,  on  the  next  instance reboot, or during the maintenance
        window. The reference structure is as follows, and  we  list  following
        some related topics from the user guide.
-	  Amazon Neptune API Reference
 
 AVAILABLE COMMANDS
        o add-role-to-db-cluster

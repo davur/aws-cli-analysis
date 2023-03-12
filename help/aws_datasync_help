@@ -1,0 +1,76 @@
+DATASYNC()							    DATASYNC()
+
+
+
+NAME
+       datasync -
+
+DESCRIPTION
+       AWS  DataSync  is a managed data transfer service that makes it simpler
+       for you to automate moving data between on-premises storage and	Amazon
+       Simple  Storage Service (Amazon S3) or Amazon Elastic File System (Ama-
+       zon EFS).
+
+       This API interface reference for AWS  DataSync  contains  documentation
+       for a programming interface that you can use to manage AWS DataSync.
+
+AVAILABLE COMMANDS
+       o cancel-task-execution
+
+       o create-agent
+
+       o create-location-efs
+
+       o create-location-nfs
+
+       o create-location-s3
+
+       o create-location-smb
+
+       o create-task
+
+       o delete-agent
+
+       o delete-location
+
+       o delete-task
+
+       o describe-agent
+
+       o describe-location-efs
+
+       o describe-location-nfs
+
+       o describe-location-s3
+
+       o describe-location-smb
+
+       o describe-task
+
+       o describe-task-execution
+
+       o help
+
+       o list-agents
+
+       o list-locations
+
+       o list-tags-for-resource
+
+       o list-task-executions
+
+       o list-tasks
+
+       o start-task-execution
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-agent
+
+       o update-task
+
+
+
+								    DATASYNC()

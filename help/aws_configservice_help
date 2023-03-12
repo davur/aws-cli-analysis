@@ -27,6 +27,8 @@ DESCRIPTION
        sole, see What Is AWS Config in the AWS Config Developer Guide .
 
 AVAILABLE COMMANDS
+       o batch-get-aggregate-resource-config
+
        o batch-get-resource-config
 
        o delete-aggregation-authorization
@@ -37,11 +39,23 @@ AVAILABLE COMMANDS
 
        o delete-configuration-recorder
 
+       o delete-conformance-pack
+
        o delete-delivery-channel
 
        o delete-evaluation-results
 
+       o delete-organization-config-rule
+
+       o delete-organization-conformance-pack
+
        o delete-pending-aggregation-request
+
+       o delete-remediation-configuration
+
+       o delete-remediation-exceptions
+
+       o delete-resource-config
 
        o delete-retention-configuration
 
@@ -67,17 +81,41 @@ AVAILABLE COMMANDS
 
        o describe-configuration-recorders
 
+       o describe-conformance-pack-compliance
+
+       o describe-conformance-pack-status
+
+       o describe-conformance-packs
+
        o describe-delivery-channel-status
 
        o describe-delivery-channels
 
+       o describe-organization-config-rule-statuses
+
+       o describe-organization-config-rules
+
+       o describe-organization-conformance-pack-statuses
+
+       o describe-organization-conformance-packs
+
        o describe-pending-aggregation-requests
+
+       o describe-remediation-configurations
+
+       o describe-remediation-exceptions
+
+       o describe-remediation-execution-status
 
        o describe-retention-configurations
 
        o get-aggregate-compliance-details-by-config-rule
 
        o get-aggregate-config-rule-compliance-summary
+
+       o get-aggregate-discovered-resource-counts
+
+       o get-aggregate-resource-config
 
        o get-compliance-details-by-config-rule
 
@@ -87,7 +125,15 @@ AVAILABLE COMMANDS
 
        o get-compliance-summary-by-resource-type
 
+       o get-conformance-pack-compliance-details
+
+       o get-conformance-pack-compliance-summary
+
        o get-discovered-resource-counts
+
+       o get-organization-config-rule-detailed-status
+
+       o get-organization-conformance-pack-detailed-status
 
        o get-resource-config-history
 
@@ -95,7 +141,11 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-aggregate-discovered-resources
+
        o list-discovered-resources
+
+       o list-tags-for-resource
 
        o put-aggregation-authorization
 
@@ -105,19 +155,39 @@ AVAILABLE COMMANDS
 
        o put-configuration-recorder
 
+       o put-conformance-pack
+
        o put-delivery-channel
 
        o put-evaluations
 
+       o put-organization-config-rule
+
+       o put-organization-conformance-pack
+
+       o put-remediation-configurations
+
+       o put-remediation-exceptions
+
+       o put-resource-config
+
        o put-retention-configuration
+
+       o select-resource-config
 
        o start-config-rules-evaluation
 
        o start-configuration-recorder
 
+       o start-remediation-execution
+
        o stop-configuration-recorder
 
        o subscribe
+
+       o tag-resource
+
+       o untag-resource
 
 
 

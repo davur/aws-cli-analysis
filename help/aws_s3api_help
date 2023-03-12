@@ -45,6 +45,8 @@ AVAILABLE COMMANDS
 
        o delete-objects
 
+       o delete-public-access-block
+
        o get-bucket-accelerate-configuration
 
        o get-bucket-acl
@@ -69,6 +71,8 @@ AVAILABLE COMMANDS
 
        o get-bucket-policy
 
+       o get-bucket-policy-status
+
        o get-bucket-replication
 
        o get-bucket-request-payment
@@ -83,9 +87,17 @@ AVAILABLE COMMANDS
 
        o get-object-acl
 
+       o get-object-legal-hold
+
+       o get-object-lock-configuration
+
+       o get-object-retention
+
        o get-object-tagging
 
        o get-object-torrent
+
+       o get-public-access-block
 
        o head-bucket
 
@@ -147,7 +159,15 @@ AVAILABLE COMMANDS
 
        o put-object-acl
 
+       o put-object-legal-hold
+
+       o put-object-lock-configuration
+
+       o put-object-retention
+
        o put-object-tagging
+
+       o put-public-access-block
 
        o restore-object
 

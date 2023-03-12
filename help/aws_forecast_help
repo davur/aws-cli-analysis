@@ -1,0 +1,68 @@
+FORECAST()							    FORECAST()
+
+
+
+NAME
+       forecast -
+
+DESCRIPTION
+       Provides APIs for creating and managing Amazon Forecast resources.
+
+AVAILABLE COMMANDS
+       o create-dataset
+
+       o create-dataset-group
+
+       o create-dataset-import-job
+
+       o create-forecast
+
+       o create-forecast-export-job
+
+       o create-predictor
+
+       o delete-dataset
+
+       o delete-dataset-group
+
+       o delete-dataset-import-job
+
+       o delete-forecast
+
+       o delete-forecast-export-job
+
+       o delete-predictor
+
+       o describe-dataset
+
+       o describe-dataset-group
+
+       o describe-dataset-import-job
+
+       o describe-forecast
+
+       o describe-forecast-export-job
+
+       o describe-predictor
+
+       o get-accuracy-metrics
+
+       o help
+
+       o list-dataset-groups
+
+       o list-dataset-import-jobs
+
+       o list-datasets
+
+       o list-forecast-export-jobs
+
+       o list-forecasts
+
+       o list-predictors
+
+       o update-dataset-group
+
+
+
+								    FORECAST()

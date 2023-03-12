@@ -45,13 +45,19 @@ AVAILABLE COMMANDS
 
        o create-cloud-formation-change-set
 
+       o create-cloud-formation-template
+
        o delete-application
 
        o get-application
 
        o get-application-policy
 
+       o get-cloud-formation-template
+
        o help
+
+       o list-application-dependencies
 
        o list-application-versions
 

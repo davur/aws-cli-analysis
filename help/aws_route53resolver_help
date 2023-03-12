@@ -1,0 +1,89 @@
+ROUTE53RESOLVER()					     ROUTE53RESOLVER()
+
+
+
+NAME
+       route53resolver -
+
+DESCRIPTION
+       Here's  how  you set up to query an Amazon Route 53 private hosted zone
+       from your network:
+
+       o Connect your network to a VPC using AWS Direct Connect or a VPN.
+
+       o Run the following AWS CLI command  to	create	a  Resolver  endpoint:
+	 create-resolver-endpoint  --name  [endpoint_name] --direction INBOUND
+	 --creator-request-id  [unique_string]	 --security-group-ids	[secu-
+	 rity_group_with_inbound_rules]   --ip-addresses  SubnetId=[subnet_id]
+	 SubnetId=[subnet_id_in_different_AZ]	Note the resolver endpoint  ID
+	 that appears in the response. You'll use it in step 3.
+
+       o Get  the  IP addresses for the Resolver endpoints:  get-resolver-end-
+	 point --resolver-endpoint-id [resolver_endpoint_id]
+
+       o In your network configuration, define the IP addresses that  you  got
+	 in  step  3  as DNS servers. You can now query instance names in your
+	 VPCs and the names of records in your private hosted zone.
+
+       You can also perform the following operations using the AWS CLI:
+
+       o list-resolver-endpoints : List all endpoints. The syntax includes op-
+	 tions for pagination and filtering.
+
+       o update-resolver-endpoints : Add IP addresses to an endpoint or remove
+	 IP addresses from an endpoint.
+
+       To delete an endpoint, use the following AWS CLI command:
+	  delete-resolver-endpoint    --resolver-endpoint-id	[resolver_end-
+	  point_id]
+
+AVAILABLE COMMANDS
+       o associate-resolver-endpoint-ip-address
+
+       o associate-resolver-rule
+
+       o create-resolver-endpoint
+
+       o create-resolver-rule
+
+       o delete-resolver-endpoint
+
+       o delete-resolver-rule
+
+       o disassociate-resolver-endpoint-ip-address
+
+       o disassociate-resolver-rule
+
+       o get-resolver-endpoint
+
+       o get-resolver-rule
+
+       o get-resolver-rule-association
+
+       o get-resolver-rule-policy
+
+       o help
+
+       o list-resolver-endpoint-ip-addresses
+
+       o list-resolver-endpoints
+
+       o list-resolver-rule-associations
+
+       o list-resolver-rules
+
+       o list-tags-for-resource
+
+       o put-resolver-rule-policy
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-resolver-endpoint
+
+       o update-resolver-rule
+
+
+
+							     ROUTE53RESOLVER()

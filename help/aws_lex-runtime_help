@@ -20,11 +20,17 @@ DESCRIPTION
        operations, see the build-time API, .
 
 AVAILABLE COMMANDS
+       o delete-session
+
+       o get-session
+
        o help
 
        o post-content
 
        o post-text
+
+       o put-session
 
 
 

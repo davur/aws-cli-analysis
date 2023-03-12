@@ -47,6 +47,10 @@ AVAILABLE COMMANDS
 
        o describe-continuous-backups
 
+       o describe-contributor-insights
+
+       o describe-endpoints
+
        o describe-global-table
 
        o describe-global-table-settings
@@ -55,6 +59,8 @@ AVAILABLE COMMANDS
 
        o describe-table
 
+       o describe-table-replica-auto-scaling
+
        o describe-time-to-live
 
        o get-item
@@ -62,6 +68,8 @@ AVAILABLE COMMANDS
        o help
 
        o list-backups
+
+       o list-contributor-insights
 
        o list-global-tables
 
@@ -81,9 +89,15 @@ AVAILABLE COMMANDS
 
        o tag-resource
 
+       o transact-get-items
+
+       o transact-write-items
+
        o untag-resource
 
        o update-continuous-backups
+
+       o update-contributor-insights
 
        o update-global-table
 
@@ -92,6 +106,8 @@ AVAILABLE COMMANDS
        o update-item
 
        o update-table
+
+       o update-table-replica-auto-scaling
 
        o update-time-to-live
 

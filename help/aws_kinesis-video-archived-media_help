@@ -7,6 +7,8 @@ NAME
 
 DESCRIPTION
 AVAILABLE COMMANDS
+       o get-dash-streaming-session-url
+
        o get-hls-streaming-session-url
 
        o get-media-for-fragment-list

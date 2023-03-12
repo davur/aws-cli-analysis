@@ -1,0 +1,39 @@
+COMPUTE-OPTIMIZER()					   COMPUTE-OPTIMIZER()
+
+
+
+NAME
+       compute-optimizer -
+
+DESCRIPTION
+       AWS  Compute Optimizer is a service that analyzes the configuration and
+       utilization metrics of your AWS resources, such as  EC2	instances  and
+       Auto Scaling groups. It reports whether your resources are optimal, and
+       generates optimization recommendations to reduce the cost  and  improve
+       the  performance of your workloads. Compute Optimizer also provides re-
+       cent utilization metric data, as well as projected  utilization	metric
+       data  for the recommendations, which you can use to evaluate which rec-
+       ommendation provides the best price-performance trade-off. The analysis
+       of  your usage patterns can help you decide when to move or resize your
+       running resources, and still meet your  performance  and  capacity  re-
+       quirements.  For  more information about Compute Optimizer, see the AWS
+       Compute Optimizer User Guide .
+
+AVAILABLE COMMANDS
+       o get-auto-scaling-group-recommendations
+
+       o get-ec2-instance-recommendations
+
+       o get-ec2-recommendation-projected-metrics
+
+       o get-enrollment-status
+
+       o get-recommendation-summaries
+
+       o help
+
+       o update-enrollment-status
+
+
+
+							   COMPUTE-OPTIMIZER()

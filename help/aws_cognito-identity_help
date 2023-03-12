@@ -6,39 +6,23 @@ NAME
        cognito-identity -
 
 DESCRIPTION
-       Amazon  Cognito is a web service that delivers scoped temporary creden-
-       tials to mobile devices and other untrusted environments.  Amazon  Cog-
-       nito  uniquely identifies a device and supplies the user with a consis-
-       tent identity over the lifetime of an application.
+       Amazon  Cognito	Federated  Identities  is  a web service that delivers
+       scoped temporary credentials to mobile devices and other untrusted  en-
+       vironments.  It uniquely identifies a device and supplies the user with
+       a consistent identity over the lifetime of an application.
 
-       Using Amazon Cognito, you can enable authentication with  one  or  more
-       third-party  identity  providers  (Facebook, Google, or Login with Ama-
-       zon), and you can also choose to support  unauthenticated  access  from
-       your  app.  Cognito delivers a unique identifier for each user and acts
-       as an OpenID token provider trusted by AWS Security Token Service (STS)
-       to access temporary, limited-privilege AWS credentials.
+       Using Amazon Cognito Federated Identities, you can  enable  authentica-
+       tion with one or more third-party identity providers (Facebook, Google,
+       or Login with Amazon) or an Amazon Cognito user pool, and you can  also
+       choose  to support unauthenticated access from your app. Cognito deliv-
+       ers a unique identifier for each user  and  acts  as  an  OpenID  token
+       provider  trusted  by AWS Security Token Service (STS) to access tempo-
+       rary, limited-privilege AWS credentials.
 
-       To  provide end-user credentials, first make an unsigned call to  GetId
-       . If the end user is authenticated with one of the  supported  identity
-       providers,  set	the Logins map with the identity provider token. GetId
-       returns a unique identifier for the user.
+       For a description of the authentication flow from  the  Amazon  Cognito
+       Developer Guide see Authentication Flow .
 
-       Next, make an unsigned call to  GetCredentialsForIdentity .  This  call
-       expects	the  same Logins map as the GetId call, as well as the Identi-
-       tyID originally returned by GetId . Assuming  your  identity  pool  has
-       been  configured  via  the   SetIdentityPoolRoles operation, GetCreden-
-       tialsForIdentity will return AWS credentials for your use. If your pool
-       has  not  been configured with SetIdentityPoolRoles , or if you want to
-       follow legacy flow, make an unsigned call to   GetOpenIdToken  ,  which
-       returns the OpenID token necessary to call STS and retrieve AWS creden-
-       tials. This call expects the same Logins map as the GetId call, as well
-       as  the IdentityID originally returned by GetId . The token returned by
-       GetOpenIdToken	 can	be    passed	to    the    STS     operation
-       AssumeRoleWithWebIdentity to retrieve AWS credentials.
-
-       If you want to use Amazon Cognito in an Android, iOS, or Unity applica-
-       tion, you will probably want to make API calls via the AWS Mobile  SDK.
-       To learn more, see the AWS Mobile SDK Developer Guide .
+       For more information see Amazon Cognito Federated Identities .
 
 AVAILABLE COMMANDS
        o create-identity-pool
@@ -67,15 +51,21 @@ AVAILABLE COMMANDS
 
        o list-identity-pools
 
+       o list-tags-for-resource
+
        o lookup-developer-identity
 
        o merge-developer-identities
 
        o set-identity-pool-roles
 
+       o tag-resource
+
        o unlink-developer-identity
 
        o unlink-identity
+
+       o untag-resource
 
        o update-identity-pool
 

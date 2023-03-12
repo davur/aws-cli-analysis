@@ -31,8 +31,6 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o add-tags
 
-       o create-subscription
-
        o create-trail
 
        o delete-trail
@@ -40,6 +38,10 @@ AVAILABLE COMMANDS
        o describe-trails
 
        o get-event-selectors
+
+       o get-insight-selectors
+
+       o get-trail
 
        o get-trail-status
 
@@ -49,17 +51,19 @@ AVAILABLE COMMANDS
 
        o list-tags
 
+       o list-trails
+
        o lookup-events
 
        o put-event-selectors
+
+       o put-insight-selectors
 
        o remove-tags
 
        o start-logging
 
        o stop-logging
-
-       o update-subscription
 
        o update-trail
 

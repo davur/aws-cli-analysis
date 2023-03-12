@@ -29,8 +29,35 @@ DESCRIPTION
        o DescribeEntityAggregates : A count of the number of affected entities
 	 that meet specified criteria.
 
-       The Health API requires a Business or Enterprise support plan from  AWS
-       Support	.  Calling the Health API from an account that does not have a
+       AWS Health integrates with AWS Organizations to provide	a  centralized
+       view of AWS Health events across all accounts in your organization.
+
+       o DescribeEventsForOrganization	:  Summary  information  about	events
+	 across the organization.
+
+       o DescribeAffectedAccountsForOrganization : List of  accounts  in  your
+	 organization impacted by an event.
+
+       o DescribeEventDetailsForOrganization   :  Detailed  information  about
+	 events in your organization.
+
+       o DescribeAffectedEntitiesForOrganization : Information about  AWS  re-
+	 sources in your organization that are affected by events.
+
+       You  can  use  the following operations to enable or disable AWS Health
+       from working with AWS Organizations.
+
+       o EnableHealthServiceAccessForOrganization : Enables AWS Health to work
+	 with AWS Organizations.
+
+       o DisableHealthServiceAccessForOrganization  : Disables AWS Health from
+	 working with AWS Organizations.
+
+       o DescribeHealthServiceStatusForOrganization : Status information about
+	 enabling or disabling AWS Health from working with AWS Organizations.
+
+       The  Health API requires a Business or Enterprise support plan from AWS
+       Support . Calling the Health API from an account that does not  have  a
        Business or Enterprise support plan causes a SubscriptionRequiredExcep-
        tion .
 
@@ -45,7 +72,11 @@ DESCRIPTION
        o https://health.us-east-1.amazonaws.com
 
 AVAILABLE COMMANDS
+       o describe-affected-accounts-for-organization
+
        o describe-affected-entities
+
+       o describe-affected-entities-for-organization
 
        o describe-entity-aggregates
 
@@ -53,9 +84,19 @@ AVAILABLE COMMANDS
 
        o describe-event-details
 
+       o describe-event-details-for-organization
+
        o describe-event-types
 
        o describe-events
+
+       o describe-events-for-organization
+
+       o describe-health-service-status-for-organization
+
+       o disable-health-service-access-for-organization
+
+       o enable-health-service-access-for-organization
 
        o help
 

@@ -1,0 +1,57 @@
+MANAGEDBLOCKCHAIN()					   MANAGEDBLOCKCHAIN()
+
+
+
+NAME
+       managedblockchain -
+
+DESCRIPTION
+       Amazon  Managed	Blockchain is a fully managed service for creating and
+       managing blockchain networks using open source  frameworks.  Blockchain
+       allows  you  to	build applications where multiple parties can securely
+       and transparently run transactions and share data without the need  for
+       a  trusted,  central  authority. Currently, Managed Blockchain supports
+       the Hyperledger Fabric open source framework.
+
+AVAILABLE COMMANDS
+       o create-member
+
+       o create-network
+
+       o create-node
+
+       o create-proposal
+
+       o delete-member
+
+       o delete-node
+
+       o get-member
+
+       o get-network
+
+       o get-node
+
+       o get-proposal
+
+       o help
+
+       o list-invitations
+
+       o list-members
+
+       o list-networks
+
+       o list-nodes
+
+       o list-proposal-votes
+
+       o list-proposals
+
+       o reject-invitation
+
+       o vote-on-proposal
+
+
+
+							   MANAGEDBLOCKCHAIN()

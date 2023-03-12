@@ -1,0 +1,150 @@
+QUICKSIGHT()							  QUICKSIGHT()
+
+
+
+NAME
+       quicksight -
+
+DESCRIPTION
+       Amazon  QuickSight is a fully managed, serverless business intelligence
+       service for the AWS Cloud that makes it easy to	extend	data  and  in-
+       sights  to every user in your organization. This API reference contains
+       documentation for a programming interface that you can  use  to	manage
+       Amazon QuickSight.
+
+AVAILABLE COMMANDS
+       o cancel-ingestion
+
+       o create-dashboard
+
+       o create-data-set
+
+       o create-data-source
+
+       o create-group
+
+       o create-group-membership
+
+       o create-iam-policy-assignment
+
+       o create-ingestion
+
+       o create-template
+
+       o create-template-alias
+
+       o delete-dashboard
+
+       o delete-data-set
+
+       o delete-data-source
+
+       o delete-group
+
+       o delete-group-membership
+
+       o delete-iam-policy-assignment
+
+       o delete-template
+
+       o delete-template-alias
+
+       o delete-user
+
+       o delete-user-by-principal-id
+
+       o describe-dashboard
+
+       o describe-dashboard-permissions
+
+       o describe-data-set
+
+       o describe-data-set-permissions
+
+       o describe-data-source
+
+       o describe-data-source-permissions
+
+       o describe-group
+
+       o describe-iam-policy-assignment
+
+       o describe-ingestion
+
+       o describe-template
+
+       o describe-template-alias
+
+       o describe-template-permissions
+
+       o describe-user
+
+       o get-dashboard-embed-url
+
+       o help
+
+       o list-dashboard-versions
+
+       o list-dashboards
+
+       o list-data-sets
+
+       o list-data-sources
+
+       o list-group-memberships
+
+       o list-groups
+
+       o list-iam-policy-assignments
+
+       o list-iam-policy-assignments-for-user
+
+       o list-ingestions
+
+       o list-tags-for-resource
+
+       o list-template-aliases
+
+       o list-template-versions
+
+       o list-templates
+
+       o list-user-groups
+
+       o list-users
+
+       o register-user
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-dashboard
+
+       o update-dashboard-permissions
+
+       o update-dashboard-published-version
+
+       o update-data-set
+
+       o update-data-set-permissions
+
+       o update-data-source
+
+       o update-data-source-permissions
+
+       o update-group
+
+       o update-iam-policy-assignment
+
+       o update-template
+
+       o update-template-alias
+
+       o update-template-permissions
+
+       o update-user
+
+
+
+								  QUICKSIGHT()

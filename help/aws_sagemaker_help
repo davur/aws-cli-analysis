@@ -6,34 +6,88 @@ NAME
        sagemaker -
 
 DESCRIPTION
-       Definition of the public APIs exposed by SageMaker
+       Provides APIs for creating and managing Amazon SageMaker resources.
 
 AVAILABLE COMMANDS
        o add-tags
+
+       o associate-trial-component
+
+       o create-algorithm
+
+       o create-app
+
+       o create-auto-ml-job
+
+       o create-code-repository
+
+       o create-compilation-job
+
+       o create-domain
 
        o create-endpoint
 
        o create-endpoint-config
 
+       o create-experiment
+
+       o create-flow-definition
+
+       o create-human-task-ui
+
        o create-hyper-parameter-tuning-job
 
+       o create-labeling-job
+
        o create-model
+
+       o create-model-package
+
+       o create-monitoring-schedule
 
        o create-notebook-instance
 
        o create-notebook-instance-lifecycle-config
 
+       o create-presigned-domain-url
+
        o create-presigned-notebook-instance-url
+
+       o create-processing-job
 
        o create-training-job
 
        o create-transform-job
 
+       o create-trial
+
+       o create-trial-component
+
+       o create-user-profile
+
+       o create-workteam
+
+       o delete-algorithm
+
+       o delete-app
+
+       o delete-code-repository
+
+       o delete-domain
+
        o delete-endpoint
 
        o delete-endpoint-config
 
+       o delete-experiment
+
+       o delete-flow-definition
+
        o delete-model
+
+       o delete-model-package
+
+       o delete-monitoring-schedule
 
        o delete-notebook-instance
 
@@ -41,35 +95,117 @@ AVAILABLE COMMANDS
 
        o delete-tags
 
+       o delete-trial
+
+       o delete-trial-component
+
+       o delete-user-profile
+
+       o delete-workteam
+
+       o describe-algorithm
+
+       o describe-app
+
+       o describe-auto-ml-job
+
+       o describe-code-repository
+
+       o describe-compilation-job
+
+       o describe-domain
+
        o describe-endpoint
 
        o describe-endpoint-config
 
+       o describe-experiment
+
+       o describe-flow-definition
+
+       o describe-human-task-ui
+
        o describe-hyper-parameter-tuning-job
 
+       o describe-labeling-job
+
        o describe-model
+
+       o describe-model-package
+
+       o describe-monitoring-schedule
 
        o describe-notebook-instance
 
        o describe-notebook-instance-lifecycle-config
 
+       o describe-processing-job
+
+       o describe-subscribed-workteam
+
        o describe-training-job
 
        o describe-transform-job
 
+       o describe-trial
+
+       o describe-trial-component
+
+       o describe-user-profile
+
+       o describe-workteam
+
+       o disassociate-trial-component
+
+       o get-search-suggestions
+
        o help
+
+       o list-algorithms
+
+       o list-apps
+
+       o list-auto-ml-jobs
+
+       o list-candidates-for-auto-ml-job
+
+       o list-code-repositories
+
+       o list-compilation-jobs
+
+       o list-domains
 
        o list-endpoint-configs
 
        o list-endpoints
 
+       o list-experiments
+
+       o list-flow-definitions
+
+       o list-human-task-uis
+
        o list-hyper-parameter-tuning-jobs
 
+       o list-labeling-jobs
+
+       o list-labeling-jobs-for-workteam
+
+       o list-model-packages
+
        o list-models
+
+       o list-monitoring-executions
+
+       o list-monitoring-schedules
 
        o list-notebook-instance-lifecycle-configs
 
        o list-notebook-instances
+
+       o list-processing-jobs
+
+       o list-subscribed-workteams
 
        o list-tags
 
@@ -79,23 +215,63 @@ AVAILABLE COMMANDS
 
        o list-transform-jobs
 
+       o list-trial-components
+
+       o list-trials
+
+       o list-user-profiles
+
+       o list-workteams
+
+       o render-ui-template
+
+       o search
+
+       o start-monitoring-schedule
+
        o start-notebook-instance
+
+       o stop-auto-ml-job
+
+       o stop-compilation-job
 
        o stop-hyper-parameter-tuning-job
 
+       o stop-labeling-job
+
+       o stop-monitoring-schedule
+
        o stop-notebook-instance
+
+       o stop-processing-job
 
        o stop-training-job
 
        o stop-transform-job
 
+       o update-code-repository
+
+       o update-domain
+
        o update-endpoint
 
        o update-endpoint-weights-and-capacities
 
+       o update-experiment
+
+       o update-monitoring-schedule
+
        o update-notebook-instance
 
        o update-notebook-instance-lifecycle-config
+
+       o update-trial
+
+       o update-trial-component
+
+       o update-user-profile
+
+       o update-workteam
 
        o wait
 

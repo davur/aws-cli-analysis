@@ -93,15 +93,29 @@ OPTIONS
        the socket connect will be blocking and not timeout.
 
 AVAILABLE SERVICES
+       o accessanalyzer
+
        o acm
 
        o acm-pca
 
        o alexaforbusiness
 
+       o amplify
+
        o apigateway
 
+       o apigatewaymanagementapi
+
+       o apigatewayv2
+
+       o appconfig
+
        o application-autoscaling
+
+       o application-insights
+
+       o appmesh
 
        o appstream
 
@@ -113,11 +127,15 @@ AVAILABLE SERVICES
 
        o autoscaling-plans
 
+       o backup
+
        o batch
 
        o budgets
 
        o ce
+
+       o chime
 
        o cloud9
 
@@ -143,9 +161,17 @@ AVAILABLE SERVICES
 
        o codecommit
 
+       o codeguru-reviewer
+
+       o codeguruprofiler
+
        o codepipeline
 
        o codestar
+
+       o codestar-connections
+
+       o codestar-notifications
 
        o cognito-identity
 
@@ -155,19 +181,31 @@ AVAILABLE SERVICES
 
        o comprehend
 
+       o comprehendmedical
+
+       o compute-optimizer
+
        o configservice
 
        o configure
 
        o connect
 
+       o connectparticipant
+
        o cur
 
+       o dataexchange
+
        o datapipeline
+
+       o datasync
 
        o dax
 
        o deploy
+
+       o detective
 
        o devicefarm
 
@@ -179,13 +217,19 @@ AVAILABLE SERVICES
 
        o dms
 
+       o docdb
+
        o ds
 
        o dynamodb
 
        o dynamodbstreams
 
+       o ebs
+
        o ec2
+
+       o ec2-instance-connect
 
        o ecr
 
@@ -194,6 +238,8 @@ AVAILABLE SERVICES
        o efs
 
        o eks
+
+       o elastic-inference
 
        o elasticache
 
@@ -215,13 +261,25 @@ AVAILABLE SERVICES
 
        o fms
 
+       o forecast
+
+       o forecastquery
+
+       o frauddetector
+
+       o fsx
+
        o gamelift
 
        o glacier
 
+       o globalaccelerator
+
        o glue
 
        o greengrass
+
+       o groundstation
 
        o guardduty
 
@@ -232,6 +290,8 @@ AVAILABLE SERVICES
        o history
 
        o iam
+
+       o imagebuilder
 
        o importexport
 
@@ -249,23 +309,43 @@ AVAILABLE SERVICES
 
        o iotanalytics
 
+       o iotevents
+
+       o iotevents-data
+
+       o iotsecuretunneling
+
+       o iotthingsgraph
+
+       o kafka
+
+       o kendra
+
        o kinesis
 
        o kinesis-video-archived-media
 
        o kinesis-video-media
 
+       o kinesis-video-signaling
+
        o kinesisanalytics
+
+       o kinesisanalyticsv2
 
        o kinesisvideo
 
        o kms
+
+       o lakeformation
 
        o lambda
 
        o lex-models
 
        o lex-runtime
+
+       o license-manager
 
        o lightsail
 
@@ -275,15 +355,23 @@ AVAILABLE SERVICES
 
        o macie
 
+       o managedblockchain
+
+       o marketplace-catalog
+
        o marketplace-entitlement
 
        o marketplacecommerceanalytics
+
+       o mediaconnect
 
        o mediaconvert
 
        o medialive
 
        o mediapackage
+
+       o mediapackage-vod
 
        o mediastore
 
@@ -295,6 +383,8 @@ AVAILABLE SERVICES
 
        o mgh
 
+       o migrationhub-config
+
        o mobile
 
        o mq
@@ -303,21 +393,45 @@ AVAILABLE SERVICES
 
        o neptune
 
+       o networkmanager
+
        o opsworks
 
        o opsworks-cm
 
        o organizations
 
+       o outposts
+
+       o personalize
+
+       o personalize-events
+
+       o personalize-runtime
+
        o pi
 
        o pinpoint
+
+       o pinpoint-email
+
+       o pinpoint-sms-voice
 
        o polly
 
        o pricing
 
+       o qldb
+
+       o qldb-session
+
+       o quicksight
+
+       o ram
+
        o rds
+
+       o rds-data
 
        o redshift
 
@@ -327,23 +441,39 @@ AVAILABLE SERVICES
 
        o resourcegroupstaggingapi
 
+       o robomaker
+
        o route53
 
        o route53domains
+
+       o route53resolver
 
        o s3
 
        o s3api
 
+       o s3control
+
        o sagemaker
 
+       o sagemaker-a2i-runtime
+
        o sagemaker-runtime
+
+       o savingsplans
+
+       o schemas
 
        o sdb
 
        o secretsmanager
 
+       o securityhub
+
        o serverlessrepo
+
+       o service-quotas
 
        o servicecatalog
 
@@ -351,7 +481,11 @@ AVAILABLE SERVICES
 
        o ses
 
+       o sesv2
+
        o shield
+
+       o signer
 
        o sms
 
@@ -363,6 +497,10 @@ AVAILABLE SERVICES
 
        o ssm
 
+       o sso
+
+       o sso-oidc
+
        o stepfunctions
 
        o storagegateway
@@ -373,7 +511,11 @@ AVAILABLE SERVICES
 
        o swf
 
+       o textract
+
        o transcribe
+
+       o transfer
 
        o translate
 
@@ -381,9 +523,15 @@ AVAILABLE SERVICES
 
        o waf-regional
 
+       o wafv2
+
        o workdocs
 
+       o worklink
+
        o workmail
+
+       o workmailmessageflow
 
        o workspaces
 

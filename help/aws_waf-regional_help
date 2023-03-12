@@ -49,6 +49,8 @@ AVAILABLE COMMANDS
 
        o delete-ip-set
 
+       o delete-logging-configuration
+
        o delete-permission-policy
 
        o delete-rate-based-rule
@@ -80,6 +82,8 @@ AVAILABLE COMMANDS
        o get-geo-match-set
 
        o get-ip-set
+
+       o get-logging-configuration
 
        o get-permission-policy
 
@@ -117,6 +121,8 @@ AVAILABLE COMMANDS
 
        o list-ip-sets
 
+       o list-logging-configurations
+
        o list-rate-based-rules
 
        o list-regex-match-sets
@@ -135,11 +141,19 @@ AVAILABLE COMMANDS
 
        o list-subscribed-rule-groups
 
+       o list-tags-for-resource
+
        o list-web-acls
 
        o list-xss-match-sets
 
+       o put-logging-configuration
+
        o put-permission-policy
+
+       o tag-resource
+
+       o untag-resource
 
        o update-byte-match-set
 

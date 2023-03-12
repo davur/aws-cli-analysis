@@ -1,0 +1,56 @@
+KENDRA()							      KENDRA()
+
+
+
+NAME
+       kendra -
+
+DESCRIPTION
+       Amazon Kendra is a service for indexing large document sets.
+
+AVAILABLE COMMANDS
+       o batch-delete-document
+
+       o batch-put-document
+
+       o create-data-source
+
+       o create-faq
+
+       o create-index
+
+       o delete-faq
+
+       o delete-index
+
+       o describe-data-source
+
+       o describe-faq
+
+       o describe-index
+
+       o help
+
+       o list-data-source-sync-jobs
+
+       o list-data-sources
+
+       o list-faqs
+
+       o list-indices
+
+       o query
+
+       o start-data-source-sync-job
+
+       o stop-data-source-sync-job
+
+       o submit-feedback
+
+       o update-data-source
+
+       o update-index
+
+
+
+								      KENDRA()

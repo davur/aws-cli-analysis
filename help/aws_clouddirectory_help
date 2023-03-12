@@ -10,9 +10,9 @@ DESCRIPTION
        simplifies the development and management of cloud-scale  web,  mobile,
        and  IoT  applications. This guide describes the Cloud Directory opera-
        tions that you can call programmatically and includes detailed informa-
-       tion on data types and errors. For information about AWS Directory Ser-
-       vices features, see AWS Directory Service and the AWS Directory Service
-       Administration Guide .
+       tion  on  data  types and errors. For information about Cloud Directory
+       features, see AWS Directory Service and the Amazon Cloud Directory  De-
+       veloper Guide .
 
 AVAILABLE COMMANDS
        o add-facet-to-object

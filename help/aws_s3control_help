@@ -1,0 +1,48 @@
+S3CONTROL()							   S3CONTROL()
+
+
+
+NAME
+       s3control -
+
+DESCRIPTION
+       AWS S3 Control provides access to Amazon S3 control plane operations.
+
+AVAILABLE COMMANDS
+       o create-access-point
+
+       o create-job
+
+       o delete-access-point
+
+       o delete-access-point-policy
+
+       o delete-public-access-block
+
+       o describe-job
+
+       o get-access-point
+
+       o get-access-point-policy
+
+       o get-access-point-policy-status
+
+       o get-public-access-block
+
+       o help
+
+       o list-access-points
+
+       o list-jobs
+
+       o put-access-point-policy
+
+       o put-public-access-block
+
+       o update-job-priority
+
+       o update-job-status
+
+
+
+								   S3CONTROL()

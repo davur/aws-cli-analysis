@@ -41,6 +41,8 @@ AVAILABLE COMMANDS
 
        o get-snowball-usage
 
+       o get-software-updates
+
        o help
 
        o list-cluster-jobs

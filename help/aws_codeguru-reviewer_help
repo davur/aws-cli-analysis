@@ -1,0 +1,25 @@
+CODEGURU-REVIEWER()					   CODEGURU-REVIEWER()
+
+
+
+NAME
+       codeguru-reviewer -
+
+DESCRIPTION
+       This  section  provides	documentation for the Amazon CodeGuru Reviewer
+       API operations.
+
+AVAILABLE COMMANDS
+       o associate-repository
+
+       o describe-repository-association
+
+       o disassociate-repository
+
+       o help
+
+       o list-repository-associations
+
+
+
+							   CODEGURU-REVIEWER()

@@ -1,0 +1,69 @@
+RAM()									 RAM()
+
+
+
+NAME
+       ram -
+
+DESCRIPTION
+       Use  AWS Resource Access Manager to share AWS resources between AWS ac-
+       counts. To share a resource, you create a resource share, associate the
+       resource  with  the resource share, and specify the principals that can
+       access the resources associated with the resource share. The  following
+       principals  are supported: AWS accounts, organizational units (OU) from
+       AWS Organizations, and organizations from AWS Organizations.
+
+       For more information, see the AWS Resource Access Manager User Guide .
+
+AVAILABLE COMMANDS
+       o accept-resource-share-invitation
+
+       o associate-resource-share
+
+       o associate-resource-share-permission
+
+       o create-resource-share
+
+       o delete-resource-share
+
+       o disassociate-resource-share
+
+       o disassociate-resource-share-permission
+
+       o enable-sharing-with-aws-organization
+
+       o get-permission
+
+       o get-resource-policies
+
+       o get-resource-share-associations
+
+       o get-resource-share-invitations
+
+       o get-resource-shares
+
+       o help
+
+       o list-pending-invitation-resources
+
+       o list-permissions
+
+       o list-principals
+
+       o list-resource-share-permissions
+
+       o list-resources
+
+       o promote-resource-share-created-from-policy
+
+       o reject-resource-share-invitation
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-resource-share
+
+
+
+									 RAM()

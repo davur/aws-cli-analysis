@@ -57,6 +57,8 @@ AVAILABLE COMMANDS
 
        o list-open-workflow-executions
 
+       o list-tags-for-resource
+
        o list-workflow-types
 
        o poll-for-activity-task
@@ -85,7 +87,17 @@ AVAILABLE COMMANDS
 
        o start-workflow-execution
 
+       o tag-resource
+
        o terminate-workflow-execution
+
+       o undeprecate-activity-type
+
+       o undeprecate-domain
+
+       o undeprecate-workflow-type
+
+       o untag-resource
 
 
 

@@ -6,11 +6,32 @@ NAME
        appstream -
 
 DESCRIPTION
-       You  can use Amazon AppStream 2.0 to stream desktop applications to any
-       device running a web browser, without rewriting them.
+       This  is  the  Amazon  AppStream 2.0 API Reference . This documentation
+       provides descriptions and syntax for each of the actions and data types
+       in  AppStream 2.0. AppStream 2.0 is a fully managed, secure application
+       streaming service that lets you stream desktop  applications  to  users
+       without rewriting applications. AppStream 2.0 manages the AWS resources
+       that are required to host and run your applications,  scales  automati-
+       cally, and provides access to your users on demand.
+
+       NOTE:
+	  You  can call the AppStream 2.0 API operations by using an interface
+	  VPC endpoint (interface endpoint). For more information, see	Access
+	  AppStream  2.0  API Operations and CLI Commands Through an Interface
+	  VPC Endpoint in the Amazon AppStream 2.0 Administration Guide .
+
+       To learn more about AppStream 2.0, see the following resources:
+
+       o Amazon AppStream 2.0 product page
+
+       o Amazon AppStream 2.0 documentation
 
 AVAILABLE COMMANDS
        o associate-fleet
+
+       o batch-associate-user-stack
+
+       o batch-disassociate-user-stack
 
        o copy-image
 
@@ -26,6 +47,10 @@ AVAILABLE COMMANDS
 
        o create-streaming-url
 
+       o create-usage-report-subscription
+
+       o create-user
+
        o delete-directory-config
 
        o delete-fleet
@@ -37,6 +62,10 @@ AVAILABLE COMMANDS
        o delete-image-permissions
 
        o delete-stack
+
+       o delete-usage-report-subscription
+
+       o delete-user
 
        o describe-directory-configs
 
@@ -52,7 +81,17 @@ AVAILABLE COMMANDS
 
        o describe-stacks
 
+       o describe-usage-report-subscriptions
+
+       o describe-user-stack-associations
+
+       o describe-users
+
+       o disable-user
+
        o disassociate-fleet
+
+       o enable-user
 
        o expire-session
 

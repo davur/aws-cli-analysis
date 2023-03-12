@@ -58,6 +58,8 @@ AVAILABLE COMMANDS
 
        o admin-set-user-mfa-preference
 
+       o admin-set-user-password
+
        o admin-set-user-settings
 
        o admin-update-auth-event-feedback
@@ -158,6 +160,8 @@ AVAILABLE COMMANDS
 
        o list-resource-servers
 
+       o list-tags-for-resource
+
        o list-user-import-jobs
 
        o list-user-pool-clients
@@ -188,6 +192,10 @@ AVAILABLE COMMANDS
 
        o stop-user-import-job
 
+       o tag-resource
+
+       o untag-resource
+
        o update-auth-event-feedback
 
        o update-device-status
@@ -203,6 +211,8 @@ AVAILABLE COMMANDS
        o update-user-pool
 
        o update-user-pool-client
+
+       o update-user-pool-domain
 
        o verify-software-token
 

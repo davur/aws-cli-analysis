@@ -107,6 +107,8 @@ AVAILABLE COMMANDS
 
        o get-folder-path
 
+       o get-resources
+
        o help
 
        o initiate-document-version-upload

@@ -50,15 +50,21 @@ AVAILABLE COMMANDS
 
        o deploy
 
+       o deregister-type
+
        o describe-account-limits
 
        o describe-change-set
+
+       o describe-stack-drift-detection-status
 
        o describe-stack-events
 
        o describe-stack-instance
 
        o describe-stack-resource
+
+       o describe-stack-resource-drifts
 
        o describe-stack-resources
 
@@ -67,6 +73,16 @@ AVAILABLE COMMANDS
        o describe-stack-set-operation
 
        o describe-stacks
+
+       o describe-type
+
+       o describe-type-registration
+
+       o detect-stack-drift
+
+       o detect-stack-resource-drift
+
+       o detect-stack-set-drift
 
        o estimate-template-cost
 
@@ -98,9 +114,21 @@ AVAILABLE COMMANDS
 
        o list-stacks
 
+       o list-type-registrations
+
+       o list-type-versions
+
+       o list-types
+
        o package
 
+       o record-handler-progress
+
+       o register-type
+
        o set-stack-policy
+
+       o set-type-default-version
 
        o signal-resource
 

@@ -27,6 +27,8 @@ AVAILABLE COMMANDS
 
        o describe-file-systems
 
+       o describe-lifecycle-configuration
+
        o describe-mount-target-security-groups
 
        o describe-mount-targets
@@ -36,6 +38,8 @@ AVAILABLE COMMANDS
        o help
 
        o modify-mount-target-security-groups
+
+       o put-lifecycle-configuration
 
        o update-file-system
 

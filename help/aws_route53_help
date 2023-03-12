@@ -6,6 +6,9 @@ NAME
        route53 -
 
 DESCRIPTION
+       Amazon  Route  53 is a highly available and scalable Domain Name System
+       (DNS) web service.
+
 AVAILABLE COMMANDS
        o associate-vpc-with-hosted-zone
 

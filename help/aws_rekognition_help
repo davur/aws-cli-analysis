@@ -13,6 +13,10 @@ AVAILABLE COMMANDS
 
        o create-collection
 
+       o create-project
+
+       o create-project-version
+
        o create-stream-processor
 
        o delete-collection
@@ -23,7 +27,13 @@ AVAILABLE COMMANDS
 
        o describe-collection
 
+       o describe-project-versions
+
+       o describe-projects
+
        o describe-stream-processor
+
+       o detect-custom-labels
 
        o detect-faces
 
@@ -75,9 +85,15 @@ AVAILABLE COMMANDS
 
        o start-person-tracking
 
+       o start-project-version
+
        o start-stream-processor
 
+       o stop-project-version
+
        o stop-stream-processor
+
+       o wait
 
 
 

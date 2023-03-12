@@ -1,0 +1,123 @@
+SECURITYHUB()							 SECURITYHUB()
+
+
+
+NAME
+       securityhub -
+
+DESCRIPTION
+       Security  Hub  provides	you  with a comprehensive view of the security
+       state of your AWS environment and resources. It also provides you  with
+       the  compliance status of your environment based on CIS AWS Foundations
+       compliance checks. Security Hub collects security  data	from  AWS  ac-
+       counts, services, and integrated third-party products and helps you an-
+       alyze security trends in your environment to identify the highest  pri-
+       ority security issues. For more information about Security Hub, see the
+       * AWS Security Hub User Guide * .
+
+       When you use operations in the Security Hub API, the requests are  exe-
+       cuted  only  in	the AWS Region that is currently active or in the spe-
+       cific AWS Region that you specify in your request. Any configuration or
+       settings change that results from the operation is applied only to that
+       Region. To make the same change in other Regions, execute the same com-
+       mand  for  each Region to apply the change to. For example, if your Re-
+       gion is set to us-west-2 , when you use CreateMembers to add  a	member
+       account to Security Hub, the association of the member account with the
+       master account is created only in the us-west-2	Region.  Security  Hub
+       must  be enabled for the member account in the same Region that the in-
+       vite was sent from.
+
+       The following throttling limits apply to using Security Hub API	opera-
+       tions:
+
+       o GetFindings - RateLimit of 3 requests per second, and a BurstLimit of
+	 6 requests per second.
+
+       o UpdateFindings - RateLimit of 1 request per second, and a  BurstLimit
+	 of 5 requests per second.
+
+       o All  other  operations  -  RateLimit  of 10 request per second, and a
+	 BurstLimit of 30 requests per second.
+
+AVAILABLE COMMANDS
+       o accept-invitation
+
+       o batch-disable-standards
+
+       o batch-enable-standards
+
+       o batch-import-findings
+
+       o create-action-target
+
+       o create-insight
+
+       o create-members
+
+       o decline-invitations
+
+       o delete-action-target
+
+       o delete-insight
+
+       o delete-invitations
+
+       o delete-members
+
+       o describe-action-targets
+
+       o describe-hub
+
+       o describe-products
+
+       o disable-import-findings-for-product
+
+       o disable-security-hub
+
+       o disassociate-from-master-account
+
+       o disassociate-members
+
+       o enable-import-findings-for-product
+
+       o enable-security-hub
+
+       o get-enabled-standards
+
+       o get-findings
+
+       o get-insight-results
+
+       o get-insights
+
+       o get-invitations-count
+
+       o get-master-account
+
+       o get-members
+
+       o help
+
+       o invite-members
+
+       o list-enabled-products-for-import
+
+       o list-invitations
+
+       o list-members
+
+       o list-tags-for-resource
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-action-target
+
+       o update-findings
+
+       o update-insight
+
+
+
+								 SECURITYHUB()

@@ -27,7 +27,13 @@ AVAILABLE COMMANDS
 
        o list-playback-configurations
 
+       o list-tags-for-resource
+
        o put-playback-configuration
+
+       o tag-resource
+
+       o untag-resource
 
 
 
