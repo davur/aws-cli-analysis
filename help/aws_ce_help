@@ -1,0 +1,34 @@
+CE()									  CE()
+
+
+
+NAME
+       ce -
+
+DESCRIPTION
+       The  Cost  Explorer  API allows you to programmatically query your cost
+       and usage data. You can query for aggregated data such as total monthly
+       costs  or total daily usage. You can also query for granular data, such
+       as the number of daily write operations for DynamoDB database tables in
+       your production environment.
+
+       Service Endpoint
+
+       The Cost Explorer API provides the following endpoint:
+
+       o https://ce.us-east-1.amazonaws.com
+
+AVAILABLE COMMANDS
+       o get-cost-and-usage
+
+       o get-dimension-values
+
+       o get-reservation-utilization
+
+       o get-tags
+
+       o help
+
+
+
+									  CE()

@@ -1,0 +1,66 @@
+BATCH() 							       BATCH()
+
+
+
+NAME
+       batch -
+
+DESCRIPTION
+       AWS  Batch  enables  you  to  run  batch computing workloads on the AWS
+       Cloud. Batch computing is a common way for developers, scientists,  and
+       engineers  to  access large amounts of compute resources, and AWS Batch
+       removes the undifferentiated heavy lifting of configuring and  managing
+       the  required  infrastructure.  AWS  Batch will be familiar to users of
+       traditional batch computing software. This service can efficiently pro-
+       vision  resources  in  response to jobs submitted in order to eliminate
+       capacity  constraints,  reduce  compute	costs,	and  deliver   results
+       quickly.
+
+       As  a  fully managed service, AWS Batch enables developers, scientists,
+       and engineers to run batch computing workloads of any scale. AWS  Batch
+       automatically  provisions  compute resources and optimizes the workload
+       distribution based on the quantity and scale of the workloads. With AWS
+       Batch,  there is no need to install or manage batch computing software,
+       which allows you to focus on analyzing results  and  solving  problems.
+       AWS  Batch  reduces  operational  complexities, saves time, and reduces
+       costs, which makes it easy for developers, scientists, and engineers to
+       run their batch jobs in the AWS Cloud.
+
+AVAILABLE COMMANDS
+       o cancel-job
+
+       o create-compute-environment
+
+       o create-job-queue
+
+       o delete-compute-environment
+
+       o delete-job-queue
+
+       o deregister-job-definition
+
+       o describe-compute-environments
+
+       o describe-job-definitions
+
+       o describe-job-queues
+
+       o describe-jobs
+
+       o help
+
+       o list-jobs
+
+       o register-job-definition
+
+       o submit-job
+
+       o terminate-job
+
+       o update-compute-environment
+
+       o update-job-queue
+
+
+
+								       BATCH()

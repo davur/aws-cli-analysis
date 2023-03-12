@@ -19,7 +19,8 @@ DESCRIPTION
        tracking their progress and maintaining their state.
 
        This  documentation serves as reference only. For a broader overview of
-       the Amazon SWF programming model, see the Amazon SWF Developer Guide .
+       the Amazon SWF programming model, see the * Amazon SWF Developer  Guide
+       * .
 
 AVAILABLE COMMANDS
        o count-closed-workflow-executions

@@ -1,0 +1,29 @@
+XRAY()									XRAY()
+
+
+
+NAME
+       xray -
+
+DESCRIPTION
+       AWS  X-Ray  provides APIs for managing debug traces and retrieving ser-
+       vice maps and other data created by processing those traces.
+
+AVAILABLE COMMANDS
+       o batch-get-traces
+
+       o get-service-graph
+
+       o get-trace-graph
+
+       o get-trace-summaries
+
+       o help
+
+       o put-telemetry-records
+
+       o put-trace-segments
+
+
+
+									XRAY()

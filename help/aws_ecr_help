@@ -6,13 +6,13 @@ NAME
        ecr -
 
 DESCRIPTION
-       Amazon EC2 Container Registry (Amazon ECR) is a managed AWS Docker reg-
-       istry service. Customers can use the familiar Docker CLI to push, pull,
-       and manage images. Amazon ECR provides a secure, scalable, and reliable
+       Amazon EC2 Container Registry (Amazon ECR) is a managed Docker registry
+       service. Customers can use the familiar Docker CLI to push,  pull,  and
+       manage  images.	Amazon	ECR  provides a secure, scalable, and reliable
        registry. Amazon ECR supports  private  Docker  repositories  with  re-
-       source-based permissions using AWS IAM so that specific users or Amazon
-       EC2 instances can access repositories and images.  Developers  can  use
-       the Docker CLI to author and manage images.
+       source-based permissions using IAM so that specific users or Amazon EC2
+       instances can access repositories and images. Developers  can  use  the
+       Docker CLI to author and manage images.
 
 AVAILABLE COMMANDS
        o batch-check-layer-availability
@@ -25,15 +25,23 @@ AVAILABLE COMMANDS
 
        o create-repository
 
+       o delete-lifecycle-policy
+
        o delete-repository
 
        o delete-repository-policy
+
+       o describe-images
 
        o describe-repositories
 
        o get-authorization-token
 
        o get-download-url-for-layer
+
+       o get-lifecycle-policy
+
+       o get-lifecycle-policy-preview
 
        o get-login
 
@@ -47,7 +55,11 @@ AVAILABLE COMMANDS
 
        o put-image
 
+       o put-lifecycle-policy
+
        o set-repository-policy
+
+       o start-lifecycle-policy-preview
 
        o upload-layer-part
 

@@ -20,8 +20,8 @@ DESCRIPTION
        Amazon Glacier is a great storage choice when low storage cost is para-
        mount,  your data is rarely retrieved, and retrieval latency of several
        hours is acceptable. If your application requires fast or frequent  ac-
-       cess  to  your data, consider using Amazon S3. For more information, go
-       to Amazon Simple Storage Service (Amazon S3) .
+       cess  to your data, consider using Amazon S3. For more information, see
+       Amazon Simple Storage Service (Amazon S3) .
 
        You can store any kind of data in any format. There is no maximum limit
        on the total amount of data you can store in Amazon Glacier.
@@ -88,9 +88,13 @@ AVAILABLE COMMANDS
 
        o list-parts
 
+       o list-provisioned-capacity
+
        o list-tags-for-vault
 
        o list-vaults
+
+       o purchase-provisioned-capacity
 
        o remove-tags-from-vault
 
@@ -103,6 +107,8 @@ AVAILABLE COMMANDS
        o upload-archive
 
        o upload-multipart-part
+
+       o wait
 
 
 

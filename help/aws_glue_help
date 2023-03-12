@@ -1,0 +1,166 @@
+GLUE()									GLUE()
+
+
+
+NAME
+       glue -
+
+DESCRIPTION
+       Defines the public endpoint for the AWS Glue service.
+
+AVAILABLE COMMANDS
+       o batch-create-partition
+
+       o batch-delete-connection
+
+       o batch-delete-partition
+
+       o batch-delete-table
+
+       o batch-get-partition
+
+       o batch-stop-job-run
+
+       o create-classifier
+
+       o create-connection
+
+       o create-crawler
+
+       o create-database
+
+       o create-dev-endpoint
+
+       o create-job
+
+       o create-partition
+
+       o create-script
+
+       o create-table
+
+       o create-trigger
+
+       o create-user-defined-function
+
+       o delete-classifier
+
+       o delete-connection
+
+       o delete-crawler
+
+       o delete-database
+
+       o delete-dev-endpoint
+
+       o delete-job
+
+       o delete-partition
+
+       o delete-table
+
+       o delete-trigger
+
+       o delete-user-defined-function
+
+       o get-catalog-import-status
+
+       o get-classifier
+
+       o get-classifiers
+
+       o get-connection
+
+       o get-connections
+
+       o get-crawler
+
+       o get-crawler-metrics
+
+       o get-crawlers
+
+       o get-database
+
+       o get-databases
+
+       o get-dataflow-graph
+
+       o get-dev-endpoint
+
+       o get-dev-endpoints
+
+       o get-job
+
+       o get-job-run
+
+       o get-job-runs
+
+       o get-jobs
+
+       o get-mapping
+
+       o get-partition
+
+       o get-partitions
+
+       o get-plan
+
+       o get-table
+
+       o get-table-versions
+
+       o get-tables
+
+       o get-trigger
+
+       o get-triggers
+
+       o get-user-defined-function
+
+       o get-user-defined-functions
+
+       o help
+
+       o import-catalog-to-glue
+
+       o reset-job-bookmark
+
+       o start-crawler
+
+       o start-crawler-schedule
+
+       o start-job-run
+
+       o start-trigger
+
+       o stop-crawler
+
+       o stop-crawler-schedule
+
+       o stop-trigger
+
+       o update-classifier
+
+       o update-connection
+
+       o update-crawler
+
+       o update-crawler-schedule
+
+       o update-database
+
+       o update-dev-endpoint
+
+       o update-job
+
+       o update-partition
+
+       o update-table
+
+       o update-trigger
+
+       o update-user-defined-function
+
+
+
+									GLUE()

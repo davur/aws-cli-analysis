@@ -1,0 +1,75 @@
+APPSTREAM()							   APPSTREAM()
+
+
+
+NAME
+       appstream -
+
+DESCRIPTION
+       You  can use Amazon AppStream 2.0 to stream desktop applications to any
+       device running a web browser, without rewriting them.
+
+AVAILABLE COMMANDS
+       o associate-fleet
+
+       o create-directory-config
+
+       o create-fleet
+
+       o create-image-builder
+
+       o create-image-builder-streaming-url
+
+       o create-stack
+
+       o create-streaming-url
+
+       o delete-directory-config
+
+       o delete-fleet
+
+       o delete-image
+
+       o delete-image-builder
+
+       o delete-stack
+
+       o describe-directory-configs
+
+       o describe-fleets
+
+       o describe-image-builders
+
+       o describe-images
+
+       o describe-sessions
+
+       o describe-stacks
+
+       o disassociate-fleet
+
+       o expire-session
+
+       o help
+
+       o list-associated-fleets
+
+       o list-associated-stacks
+
+       o start-fleet
+
+       o start-image-builder
+
+       o stop-fleet
+
+       o stop-image-builder
+
+       o update-directory-config
+
+       o update-fleet
+
+       o update-stack
+
+
+
+								   APPSTREAM()

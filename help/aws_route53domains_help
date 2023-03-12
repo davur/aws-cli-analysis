@@ -6,8 +6,13 @@ NAME
        route53domains -
 
 DESCRIPTION
+       Amazon  Route  53 API actions let you register domain names and perform
+       related operations.
+
 AVAILABLE COMMANDS
        o check-domain-availability
+
+       o check-domain-transferability
 
        o delete-tags-for-domain
 

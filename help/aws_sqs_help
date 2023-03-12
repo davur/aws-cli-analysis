@@ -6,42 +6,42 @@ NAME
        sqs -
 
 DESCRIPTION
-       Welcome to the Amazon Simple Queue Service API Reference . This section
-       describes who should read this guide, how the guide is  organized,  and
-       other  resources  related  to  the  Amazon Simple Queue Service (Amazon
-       SQS).
+       Welcome to the Amazon Simple Queue Service API Reference .
 
-       Amazon SQS offers reliable and scalable hosted queues for storing  mes-
-       sages  as  they	travel between computers. By using Amazon SQS, you can
-       move data between distributed components of your applications that per-
-       form  different	tasks without losing messages or requiring each compo-
-       nent to be always available.
+       Amazon Simple Queue Service (Amazon SQS) is a reliable, highly-scalable
+       hosted queue for storing messages as they travel  between  applications
+       or microservices. Amazon SQS moves data between distributed application
+       components and helps you decouple these components.
 
-       Helpful Links:
+       NOTE:
+	  Standard queues are available in all regions. FIFO queues are avail-
+	  able in the US East (N. Virginia), US East (Ohio), US West (Oregon),
+	  and EU (Ireland) regions.
 
-       o Current WSDL (2012-11-05)
+       You can use AWS SDKs to access Amazon SQS using your favorite  program-
+       ming  language.	The SDKs perform tasks such as the following automati-
+       cally:
 
-       o Making API Requests
+       o Cryptographically sign your service requests
 
-       o Amazon SQS product page
+       o Retry requests
 
-       o Using Amazon SQS Message Attributes
+       o Handle error responses
+	  Additional Information
 
-       o Using Amazon SQS Dead Letter Queues
+       o Amazon SQS Product Page
 
-       o Regions and Endpoints
+       o Amazon Simple Queue Service Developer Guide
 
-       We also provide SDKs that enable you to access  Amazon  SQS  from  your
-       preferred programming language. The SDKs contain functionality that au-
-       tomatically takes care of tasks such as:
+	 o Making API Requests
 
-       o Cryptographically signing your service requests
+	 o Using Amazon SQS Message Attributes
 
-       o Retrying requests
+	 o Using Amazon SQS Dead-Letter Queues
 
-       o Handling error responses
+       o Amazon Web Services General Reference
 
-       For a list of available SDKs, go to Tools for Amazon Web Services .
+	 o Regions and Endpoints
 
 AVAILABLE COMMANDS
        o add-permission
@@ -66,6 +66,8 @@ AVAILABLE COMMANDS
 
        o list-dead-letter-source-queues
 
+       o list-queue-tags
+
        o list-queues
 
        o purge-queue
@@ -79,6 +81,10 @@ AVAILABLE COMMANDS
        o send-message-batch
 
        o set-queue-attributes
+
+       o tag-queue
+
+       o untag-queue
 
 
 

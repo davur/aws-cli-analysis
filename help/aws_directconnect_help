@@ -23,9 +23,17 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o allocate-connection-on-interconnect
 
+       o allocate-hosted-connection
+
        o allocate-private-virtual-interface
 
        o allocate-public-virtual-interface
+
+       o associate-connection-with-lag
+
+       o associate-hosted-connection
+
+       o associate-virtual-interface
 
        o confirm-connection
 
@@ -33,17 +41,33 @@ AVAILABLE COMMANDS
 
        o confirm-public-virtual-interface
 
+       o create-bgp-peer
+
        o create-connection
 
+       o create-direct-connect-gateway
+
+       o create-direct-connect-gateway-association
+
        o create-interconnect
+
+       o create-lag
 
        o create-private-virtual-interface
 
        o create-public-virtual-interface
 
+       o delete-bgp-peer
+
        o delete-connection
 
+       o delete-direct-connect-gateway
+
+       o delete-direct-connect-gateway-association
+
        o delete-interconnect
+
+       o delete-lag
 
        o delete-virtual-interface
 
@@ -53,17 +77,39 @@ AVAILABLE COMMANDS
 
        o describe-connections-on-interconnect
 
+       o describe-direct-connect-gateway-associations
+
+       o describe-direct-connect-gateway-attachments
+
+       o describe-direct-connect-gateways
+
+       o describe-hosted-connections
+
        o describe-interconnect-loa
 
        o describe-interconnects
 
+       o describe-lags
+
+       o describe-loa
+
        o describe-locations
+
+       o describe-tags
 
        o describe-virtual-gateways
 
        o describe-virtual-interfaces
 
+       o disassociate-connection-from-lag
+
        o help
+
+       o tag-resource
+
+       o untag-resource
+
+       o update-lag
 
 
 

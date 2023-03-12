@@ -7,7 +7,11 @@ NAME
 
 DESCRIPTION
 AVAILABLE COMMANDS
+       o add-application-cloud-watch-logging-option
+
        o add-application-input
+
+       o add-application-input-processing-configuration
 
        o add-application-output
 
@@ -16,6 +20,10 @@ AVAILABLE COMMANDS
        o create-application
 
        o delete-application
+
+       o delete-application-cloud-watch-logging-option
+
+       o delete-application-input-processing-configuration
 
        o delete-application-output
 

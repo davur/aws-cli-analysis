@@ -26,6 +26,8 @@ AVAILABLE COMMANDS
 
        o create-service
 
+       o delete-attributes
+
        o delete-cluster
 
        o delete-service
@@ -48,6 +50,8 @@ AVAILABLE COMMANDS
 
        o help
 
+       o list-attributes
+
        o list-clusters
 
        o list-container-instances
@@ -59,6 +63,8 @@ AVAILABLE COMMANDS
        o list-task-definitions
 
        o list-tasks
+
+       o put-attributes
 
        o register-container-instance
 
@@ -75,6 +81,8 @@ AVAILABLE COMMANDS
        o submit-task-state-change
 
        o update-container-agent
+
+       o update-container-instances-state
 
        o update-service
 

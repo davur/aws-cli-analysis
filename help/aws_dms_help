@@ -9,15 +9,20 @@ DESCRIPTION
        AWS  Database  Migration Service (AWS DMS) can migrate your data to and
        from the most widely used commercial and open-source databases such  as
        Oracle,	PostgreSQL,  Microsoft	SQL  Server, Amazon Redshift, MariaDB,
-       Amazon Aurora, and MySQL. The service supports  homogeneous  migrations
-       such  as  Oracle to Oracle, as well as heterogeneous migrations between
-       different database platforms, such as Oracle to MySQL or SQL Server  to
-       PostgreSQL.
+       Amazon Aurora, MySQL, and SAP Adaptive  Server  Enterprise  (ASE).  The
+       service	supports  homogeneous  migrations such as Oracle to Oracle, as
+       well as heterogeneous migrations between different database  platforms,
+       such as Oracle to MySQL or SQL Server to PostgreSQL.
+
+       For  more information about AWS DMS, see the AWS DMS user guide at What
+       Is AWS Database Migration Service?
 
 AVAILABLE COMMANDS
        o add-tags-to-resource
 
        o create-endpoint
+
+       o create-event-subscription
 
        o create-replication-instance
 
@@ -28,6 +33,8 @@ AVAILABLE COMMANDS
        o delete-certificate
 
        o delete-endpoint
+
+       o delete-event-subscription
 
        o delete-replication-instance
 
@@ -45,6 +52,12 @@ AVAILABLE COMMANDS
 
        o describe-endpoints
 
+       o describe-event-categories
+
+       o describe-event-subscriptions
+
+       o describe-events
+
        o describe-orderable-replication-instances
 
        o describe-refresh-schemas-status
@@ -52,6 +65,8 @@ AVAILABLE COMMANDS
        o describe-replication-instances
 
        o describe-replication-subnet-groups
+
+       o describe-replication-task-assessment-results
 
        o describe-replication-tasks
 
@@ -67,15 +82,23 @@ AVAILABLE COMMANDS
 
        o modify-endpoint
 
+       o modify-event-subscription
+
        o modify-replication-instance
 
        o modify-replication-subnet-group
 
+       o modify-replication-task
+
        o refresh-schemas
+
+       o reload-tables
 
        o remove-tags-from-resource
 
        o start-replication-task
+
+       o start-replication-task-assessment
 
        o stop-replication-task
 

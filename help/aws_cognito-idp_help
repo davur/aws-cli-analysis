@@ -6,23 +6,29 @@ NAME
        cognito-idp -
 
 DESCRIPTION
-       You  can create a user pool in Amazon Cognito Identity to manage direc-
-       tories and users. You can authenticate a user to obtain tokens  related
-       to user identity and access policies.
+       Using  the Amazon Cognito User Pools API, you can create a user pool to
+       manage directories and users. You can authenticate a user to obtain to-
+       kens related to user identity and access policies.
 
        This API reference provides information about user pools in Amazon Cog-
-       nito Identity.
+       nito User Pools.
 
-       For more information, see Amazon Cognito .
+       For more information, see the Amazon Cognito Documentation.
 
 AVAILABLE COMMANDS
        o add-custom-attributes
 
+       o admin-add-user-to-group
+
        o admin-confirm-sign-up
+
+       o admin-create-user
 
        o admin-delete-user
 
        o admin-delete-user-attributes
+
+       o admin-disable-provider-for-user
 
        o admin-disable-user
 
@@ -36,7 +42,13 @@ AVAILABLE COMMANDS
 
        o admin-initiate-auth
 
+       o admin-link-provider-for-user
+
        o admin-list-devices
+
+       o admin-list-groups-for-user
+
+       o admin-remove-user-from-group
 
        o admin-reset-user-password
 
@@ -58,11 +70,25 @@ AVAILABLE COMMANDS
 
        o confirm-sign-up
 
+       o create-group
+
+       o create-identity-provider
+
+       o create-resource-server
+
        o create-user-import-job
 
        o create-user-pool
 
        o create-user-pool-client
+
+       o create-user-pool-domain
+
+       o delete-group
+
+       o delete-identity-provider
+
+       o delete-resource-server
 
        o delete-user
 
@@ -72,11 +98,19 @@ AVAILABLE COMMANDS
 
        o delete-user-pool-client
 
+       o delete-user-pool-domain
+
+       o describe-identity-provider
+
+       o describe-resource-server
+
        o describe-user-import-job
 
        o describe-user-pool
 
        o describe-user-pool-client
+
+       o describe-user-pool-domain
 
        o forget-device
 
@@ -85,6 +119,12 @@ AVAILABLE COMMANDS
        o get-csv-header
 
        o get-device
+
+       o get-group
+
+       o get-identity-provider-by-identifier
+
+       o get-ui-customization
 
        o get-user
 
@@ -98,6 +138,12 @@ AVAILABLE COMMANDS
 
        o list-devices
 
+       o list-groups
+
+       o list-identity-providers
+
+       o list-resource-servers
+
        o list-user-import-jobs
 
        o list-user-pool-clients
@@ -106,9 +152,13 @@ AVAILABLE COMMANDS
 
        o list-users
 
+       o list-users-in-group
+
        o resend-confirmation-code
 
        o respond-to-auth-challenge
+
+       o set-ui-customization
 
        o set-user-settings
 
@@ -119,6 +169,12 @@ AVAILABLE COMMANDS
        o stop-user-import-job
 
        o update-device-status
+
+       o update-group
+
+       o update-identity-provider
+
+       o update-resource-server
 
        o update-user-attributes
 

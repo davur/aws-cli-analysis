@@ -18,7 +18,11 @@ AVAILABLE COMMANDS
 
        o delete-stream
 
+       o describe-limits
+
        o describe-stream
+
+       o describe-stream-summary
 
        o disable-enhanced-monitoring
 
@@ -45,6 +49,12 @@ AVAILABLE COMMANDS
        o remove-tags-from-stream
 
        o split-shard
+
+       o start-stream-encryption
+
+       o stop-stream-encryption
+
+       o update-shard-count
 
        o wait
 

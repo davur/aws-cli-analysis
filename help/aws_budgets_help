@@ -1,0 +1,42 @@
+BUDGETS()							     BUDGETS()
+
+
+
+NAME
+       budgets -
+
+DESCRIPTION
+       All public APIs for AWS Budgets
+
+AVAILABLE COMMANDS
+       o create-budget
+
+       o create-notification
+
+       o create-subscriber
+
+       o delete-budget
+
+       o delete-notification
+
+       o delete-subscriber
+
+       o describe-budget
+
+       o describe-budgets
+
+       o describe-notifications-for-budget
+
+       o describe-subscribers-for-notification
+
+       o help
+
+       o update-budget
+
+       o update-notification
+
+       o update-subscriber
+
+
+
+								     BUDGETS()

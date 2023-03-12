@@ -12,16 +12,30 @@ DESCRIPTION
 
        NOTE:
 	  For  a  list of Amazon SES endpoints to use in service requests, see
-	  Regions and Amazon SES in the Amazon SES Developer Guide.
+	  Regions and Amazon SES in the Amazon SES Developer Guide .
 
 AVAILABLE COMMANDS
        o clone-receipt-rule-set
+
+       o create-configuration-set
+
+       o create-configuration-set-event-destination
+
+       o create-configuration-set-tracking-options
 
        o create-receipt-filter
 
        o create-receipt-rule
 
        o create-receipt-rule-set
+
+       o create-template
+
+       o delete-configuration-set
+
+       o delete-configuration-set-event-destination
+
+       o delete-configuration-set-tracking-options
 
        o delete-identity
 
@@ -33,11 +47,17 @@ AVAILABLE COMMANDS
 
        o delete-receipt-rule-set
 
+       o delete-template
+
        o describe-active-receipt-rule-set
+
+       o describe-configuration-set
 
        o describe-receipt-rule
 
        o describe-receipt-rule-set
+
+       o get-account-sending-enabled
 
        o get-identity-dkim-attributes
 
@@ -53,7 +73,11 @@ AVAILABLE COMMANDS
 
        o get-send-statistics
 
+       o get-template
+
        o help
+
+       o list-configuration-sets
 
        o list-identities
 
@@ -63,15 +87,21 @@ AVAILABLE COMMANDS
 
        o list-receipt-rule-sets
 
+       o list-templates
+
        o put-identity-policy
 
        o reorder-receipt-rule-set
 
        o send-bounce
 
+       o send-bulk-templated-email
+
        o send-email
 
        o send-raw-email
+
+       o send-templated-email
 
        o set-active-receipt-rule-set
 
@@ -87,7 +117,21 @@ AVAILABLE COMMANDS
 
        o set-receipt-rule-position
 
+       o test-render-template
+
+       o update-account-sending-enabled
+
+       o update-configuration-set-event-destination
+
+       o update-configuration-set-reputation-metrics-enabled
+
+       o update-configuration-set-sending-enabled
+
+       o update-configuration-set-tracking-options
+
        o update-receipt-rule
+
+       o update-template
 
        o verify-domain-dkim
 

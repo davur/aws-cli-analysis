@@ -11,9 +11,8 @@ DESCRIPTION
 	  AWS  Service Catalog allows organizations to create and manage cata-
 	  logs of IT services that are approved for use on AWS. This  documen-
 	  tation  provides  reference material for the AWS Service Catalog end
-	  user API. To get the most out of this documentation, you need to  be
-	  familiar  with the terminology discussed in AWS Service Catalog Con-
-	  cepts .
+	  user API. To get the most out of  this  documentation,  be  familiar
+	  with the terminology discussed in AWS Service Catalog Concepts .
 
 	  Additional Resources
 
@@ -22,29 +21,115 @@ DESCRIPTION
        o AWS Service Catalog User Guide
 
 AVAILABLE COMMANDS
+       o accept-portfolio-share
+
+       o associate-principal-with-portfolio
+
+       o associate-product-with-portfolio
+
+       o associate-tag-option-with-resource
+
+       o copy-product
+
+       o create-constraint
+
+       o create-portfolio
+
+       o create-portfolio-share
+
+       o create-product
+
+       o create-provisioning-artifact
+
+       o create-tag-option
+
+       o delete-constraint
+
+       o delete-portfolio
+
+       o delete-portfolio-share
+
+       o delete-product
+
+       o delete-provisioning-artifact
+
+       o describe-constraint
+
+       o describe-copy-product-status
+
+       o describe-portfolio
+
        o describe-product
 
+       o describe-product-as-admin
+
        o describe-product-view
+
+       o describe-provisioned-product
+
+       o describe-provisioning-artifact
 
        o describe-provisioning-parameters
 
        o describe-record
 
+       o describe-tag-option
+
+       o disassociate-principal-from-portfolio
+
+       o disassociate-product-from-portfolio
+
+       o disassociate-tag-option-from-resource
+
+       o generate
+
        o help
+
+       o list-accepted-portfolio-shares
+
+       o list-constraints-for-portfolio
 
        o list-launch-paths
 
+       o list-portfolio-access
+
+       o list-portfolios
+
+       o list-portfolios-for-product
+
+       o list-principals-for-portfolio
+
+       o list-provisioning-artifacts
+
        o list-record-history
 
+       o list-resources-for-tag-option
+
+       o list-tag-options
+
        o provision-product
+
+       o reject-portfolio-share
 
        o scan-provisioned-products
 
        o search-products
 
+       o search-products-as-admin
+
        o terminate-provisioned-product
 
+       o update-constraint
+
+       o update-portfolio
+
+       o update-product
+
        o update-provisioned-product
+
+       o update-provisioning-artifact
+
+       o update-tag-option
 
 
 

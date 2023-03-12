@@ -19,9 +19,17 @@ AVAILABLE COMMANDS
 
        o delete-bucket
 
+       o delete-bucket-analytics-configuration
+
        o delete-bucket-cors
 
+       o delete-bucket-encryption
+
+       o delete-bucket-inventory-configuration
+
        o delete-bucket-lifecycle
+
+       o delete-bucket-metrics-configuration
 
        o delete-bucket-policy
 
@@ -33,13 +41,21 @@ AVAILABLE COMMANDS
 
        o delete-object
 
+       o delete-object-tagging
+
        o delete-objects
 
        o get-bucket-accelerate-configuration
 
        o get-bucket-acl
 
+       o get-bucket-analytics-configuration
+
        o get-bucket-cors
+
+       o get-bucket-encryption
+
+       o get-bucket-inventory-configuration
 
        o get-bucket-lifecycle
 
@@ -48,6 +64,8 @@ AVAILABLE COMMANDS
        o get-bucket-location
 
        o get-bucket-logging
+
+       o get-bucket-metrics-configuration
 
        o get-bucket-notification
 
@@ -69,6 +87,8 @@ AVAILABLE COMMANDS
 
        o get-object-acl
 
+       o get-object-tagging
+
        o get-object-torrent
 
        o head-bucket
@@ -76,6 +96,12 @@ AVAILABLE COMMANDS
        o head-object
 
        o help
+
+       o list-bucket-analytics-configurations
+
+       o list-bucket-inventory-configurations
+
+       o list-bucket-metrics-configurations
 
        o list-buckets
 
@@ -93,13 +119,21 @@ AVAILABLE COMMANDS
 
        o put-bucket-acl
 
+       o put-bucket-analytics-configuration
+
        o put-bucket-cors
+
+       o put-bucket-encryption
+
+       o put-bucket-inventory-configuration
 
        o put-bucket-lifecycle
 
        o put-bucket-lifecycle-configuration
 
        o put-bucket-logging
+
+       o put-bucket-metrics-configuration
 
        o put-bucket-notification
 
@@ -120,6 +154,8 @@ AVAILABLE COMMANDS
        o put-object
 
        o put-object-acl
+
+       o put-object-tagging
 
        o restore-object
 

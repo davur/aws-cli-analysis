@@ -21,15 +21,23 @@ AVAILABLE COMMANDS
 
        o delete-elasticsearch-domain
 
+       o delete-elasticsearch-service-role
+
        o describe-elasticsearch-domain
 
        o describe-elasticsearch-domain-config
 
        o describe-elasticsearch-domains
 
+       o describe-elasticsearch-instance-type-limits
+
        o help
 
        o list-domain-names
+
+       o list-elasticsearch-instance-types
+
+       o list-elasticsearch-versions
 
        o list-tags
 

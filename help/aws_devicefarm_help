@@ -13,6 +13,8 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o create-device-pool
 
+       o create-network-profile
+
        o create-project
 
        o create-remote-access-session
@@ -20,6 +22,8 @@ AVAILABLE COMMANDS
        o create-upload
 
        o delete-device-pool
+
+       o delete-network-profile
 
        o delete-project
 
@@ -38,6 +42,8 @@ AVAILABLE COMMANDS
        o get-device-pool-compatibility
 
        o get-job
+
+       o get-network-profile
 
        o get-offering-status
 
@@ -64,6 +70,10 @@ AVAILABLE COMMANDS
        o list-devices
 
        o list-jobs
+
+       o list-network-profiles
+
+       o list-offering-promotions
 
        o list-offering-transactions
 
@@ -96,6 +106,8 @@ AVAILABLE COMMANDS
        o stop-run
 
        o update-device-pool
+
+       o update-network-profile
 
        o update-project
 

@@ -99,13 +99,27 @@ AVAILABLE SERVICES
 
        o application-autoscaling
 
+       o appstream
+
+       o athena
+
        o autoscaling
+
+       o batch
+
+       o budgets
+
+       o ce
+
+       o clouddirectory
 
        o cloudformation
 
        o cloudfront
 
        o cloudhsm
+
+       o cloudhsmv2
 
        o cloudsearch
 
@@ -115,9 +129,13 @@ AVAILABLE SERVICES
 
        o cloudwatch
 
+       o codebuild
+
        o codecommit
 
        o codepipeline
+
+       o codestar
 
        o cognito-identity
 
@@ -129,7 +147,11 @@ AVAILABLE SERVICES
 
        o configure
 
+       o cur
+
        o datapipeline
+
+       o dax
 
        o deploy
 
@@ -177,6 +199,12 @@ AVAILABLE SERVICES
 
        o glacier
 
+       o glue
+
+       o greengrass
+
+       o health
+
        o help
 
        o iam
@@ -197,19 +225,47 @@ AVAILABLE SERVICES
 
        o lambda
 
+       o lex-models
+
+       o lex-runtime
+
+       o lightsail
+
        o logs
 
        o machinelearning
+
+       o marketplace-entitlement
 
        o marketplacecommerceanalytics
 
        o meteringmarketplace
 
+       o mgh
+
+       o mobile
+
+       o mturk
+
        o opsworks
+
+       o opsworks-cm
+
+       o organizations
+
+       o pinpoint
+
+       o polly
+
+       o pricing
 
        o rds
 
        o redshift
+
+       o rekognition
+
+       o resourcegroupstaggingapi
 
        o route53
 
@@ -225,6 +281,10 @@ AVAILABLE SERVICES
 
        o ses
 
+       o shield
+
+       o sms
+
        o snowball
 
        o sns
@@ -232,6 +292,8 @@ AVAILABLE SERVICES
        o sqs
 
        o ssm
+
+       o stepfunctions
 
        o storagegateway
 
@@ -243,7 +305,13 @@ AVAILABLE SERVICES
 
        o waf
 
+       o waf-regional
+
+       o workdocs
+
        o workspaces
+
+       o xray
 
 SEE ALSO
        o aws help topics

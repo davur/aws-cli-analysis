@@ -20,13 +20,21 @@ AVAILABLE COMMANDS
 
        o allocate-hosts
 
+       o assign-ipv6-addresses
+
        o assign-private-ip-addresses
 
        o associate-address
 
        o associate-dhcp-options
 
+       o associate-iam-instance-profile
+
        o associate-route-table
+
+       o associate-subnet-cidr-block
+
+       o associate-vpc-cidr-block
 
        o attach-classic-link-vpc
 
@@ -60,15 +68,25 @@ AVAILABLE COMMANDS
 
        o confirm-product-instance
 
+       o copy-fpga-image
+
        o copy-image
 
        o copy-snapshot
 
        o create-customer-gateway
 
+       o create-default-subnet
+
+       o create-default-vpc
+
        o create-dhcp-options
 
+       o create-egress-only-internet-gateway
+
        o create-flow-logs
+
+       o create-fpga-image
 
        o create-image
 
@@ -85,6 +103,8 @@ AVAILABLE COMMANDS
        o create-network-acl-entry
 
        o create-network-interface
+
+       o create-network-interface-permission
 
        o create-placement-group
 
@@ -122,7 +142,11 @@ AVAILABLE COMMANDS
 
        o delete-dhcp-options
 
+       o delete-egress-only-internet-gateway
+
        o delete-flow-logs
+
+       o delete-fpga-image
 
        o delete-internet-gateway
 
@@ -135,6 +159,8 @@ AVAILABLE COMMANDS
        o delete-network-acl-entry
 
        o delete-network-interface
+
+       o delete-network-interface-permission
 
        o delete-placement-group
 
@@ -184,15 +210,25 @@ AVAILABLE COMMANDS
 
        o describe-dhcp-options
 
+       o describe-egress-only-internet-gateways
+
+       o describe-elastic-gpus
+
        o describe-export-tasks
 
        o describe-flow-logs
+
+       o describe-fpga-image-attribute
+
+       o describe-fpga-images
 
        o describe-host-reservation-offerings
 
        o describe-host-reservations
 
        o describe-hosts
+
+       o describe-iam-instance-profile-associations
 
        o describe-id-format
 
@@ -223,6 +259,8 @@ AVAILABLE COMMANDS
        o describe-network-acls
 
        o describe-network-interface-attribute
+
+       o describe-network-interface-permissions
 
        o describe-network-interfaces
 
@@ -278,6 +316,8 @@ AVAILABLE COMMANDS
 
        o describe-volumes
 
+       o describe-volumes-modifications
+
        o describe-vpc-attribute
 
        o describe-vpc-classic-link
@@ -314,7 +354,13 @@ AVAILABLE COMMANDS
 
        o disassociate-address
 
+       o disassociate-iam-instance-profile
+
        o disassociate-route-table
+
+       o disassociate-subnet-cidr-block
+
+       o disassociate-vpc-cidr-block
 
        o enable-vgw-route-propagation
 
@@ -342,6 +388,8 @@ AVAILABLE COMMANDS
 
        o import-snapshot
 
+       o modify-fpga-image-attribute
+
        o modify-hosts
 
        o modify-id-format
@@ -364,6 +412,8 @@ AVAILABLE COMMANDS
 
        o modify-subnet-attribute
 
+       o modify-volume
+
        o modify-volume-attribute
 
        o modify-vpc-attribute
@@ -371,6 +421,8 @@ AVAILABLE COMMANDS
        o modify-vpc-endpoint
 
        o modify-vpc-peering-connection-options
+
+       o modify-vpc-tenancy
 
        o monitor-instances
 
@@ -392,6 +444,8 @@ AVAILABLE COMMANDS
 
        o release-hosts
 
+       o replace-iam-instance-profile-association
+
        o replace-network-acl-association
 
        o replace-network-acl-entry
@@ -405,6 +459,8 @@ AVAILABLE COMMANDS
        o request-spot-fleet
 
        o request-spot-instances
+
+       o reset-fpga-image-attribute
 
        o reset-image-attribute
 
@@ -430,9 +486,15 @@ AVAILABLE COMMANDS
 
        o terminate-instances
 
+       o unassign-ipv6-addresses
+
        o unassign-private-ip-addresses
 
        o unmonitor-instances
+
+       o update-security-group-rule-descriptions-egress
+
+       o update-security-group-rule-descriptions-ingress
 
        o wait
 

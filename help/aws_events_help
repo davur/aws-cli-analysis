@@ -7,11 +7,11 @@ NAME
 
 DESCRIPTION
        Amazon  CloudWatch Events helps you to respond to state changes in your
-       AWS resources. When your resources change state they automatically send
-       events  into  an event stream. You can create rules that match selected
-       events in the stream and route them to targets to take action. You  can
-       also  use  rules to take action on a pre-determined schedule. For exam-
-       ple, you can configure rules to:
+       AWS resources. When your resources  change  state,  they  automatically
+       send  events  into an event stream. You can create rules that match se-
+       lected events in the stream and route them to targets to  take  action.
+       You can also use rules to take action on a pre-determined schedule. For
+       example, you can configure rules to:
 
        o Automatically invoke an AWS Lambda function  to  update  DNS  entries
 	 when  an  event notifies you that Amazon EC2 instance enters the run-
@@ -24,11 +24,13 @@ DESCRIPTION
        o Periodically invoke a built-in target to create a snapshot of an Ama-
 	 zon EBS volume.
 
-       For  more  information about Amazon CloudWatch Events features, see the
-       Amazon CloudWatch Developer Guide .
+       For  more  information  about the features of Amazon CloudWatch Events,
+       see the Amazon CloudWatch Events User Guide .
 
 AVAILABLE COMMANDS
        o delete-rule
+
+       o describe-event-bus
 
        o describe-rule
 
@@ -46,9 +48,13 @@ AVAILABLE COMMANDS
 
        o put-events
 
+       o put-permission
+
        o put-rule
 
        o put-targets
+
+       o remove-permission
 
        o remove-targets
 
