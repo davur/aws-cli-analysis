@@ -10465,6 +10465,7 @@ sagemaker list-human-task-uis
 sagemaker list-hyper-parameter-tuning-jobs
 sagemaker list-image-versions
 sagemaker list-images
+sagemaker list-inference-recommendations-job-steps
 sagemaker list-inference-recommendations-jobs
 sagemaker list-labeling-jobs
 sagemaker list-labeling-jobs-for-workteam
