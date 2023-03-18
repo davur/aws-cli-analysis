@@ -17,7 +17,7 @@ SYNOPSIS
        each command shows its parameters and their usage. Optional  parameters
        are shown in square brackets.
 
-OPTIONS
+GLOBAL OPTIONS
        --debug (boolean)
 
        Turn on debug logging.
@@ -153,6 +153,8 @@ AVAILABLE SERVICES
 
        o backup-gateway
 
+       o backupstorage
+
        o batch
 
        o billingconductor
@@ -233,7 +235,13 @@ AVAILABLE SERVICES
 
        o connect-contact-lens
 
+       o connectcampaigns
+
+       o connectcases
+
        o connectparticipant
+
+       o controltower
 
        o cur
 
@@ -395,6 +403,8 @@ AVAILABLE SERVICES
 
        o iotfleethub
 
+       o iotfleetwise
+
        o iotsecuretunneling
 
        o iotsitewise
@@ -447,6 +457,8 @@ AVAILABLE SERVICES
 
        o license-manager
 
+       o license-manager-user-subscriptions
+
        o lightsail
 
        o location
@@ -458,6 +470,8 @@ AVAILABLE SERVICES
        o lookoutmetrics
 
        o lookoutvision
+
+       o m2
 
        o machinelearning
 
@@ -500,6 +514,8 @@ AVAILABLE SERVICES
        o migration-hub-refactor-spaces
 
        o migrationhub-config
+
+       o migrationhuborchestrator
 
        o migrationhubstrategy
 
@@ -551,6 +567,8 @@ AVAILABLE SERVICES
 
        o pricing
 
+       o privatenetworks
+
        o proton
 
        o qldb
@@ -571,6 +589,8 @@ AVAILABLE SERVICES
 
        o redshift-data
 
+       o redshift-serverless
+
        o rekognition
 
        o resiliencehub
@@ -580,6 +600,8 @@ AVAILABLE SERVICES
        o resourcegroupstaggingapi
 
        o robomaker
+
+       o rolesanywhere
 
        o route53
 
@@ -670,6 +692,8 @@ AVAILABLE SERVICES
        o sts
 
        o support
+
+       o support-app
 
        o swf
 

@@ -21,6 +21,8 @@ AVAILABLE COMMANDS
 
        o batch-get-custom-data-identifiers
 
+       o create-allow-list
+
        o create-classification-job
 
        o create-custom-data-identifier
@@ -34,6 +36,8 @@ AVAILABLE COMMANDS
        o create-sample-findings
 
        o decline-invitations
+
+       o delete-allow-list
 
        o delete-custom-data-identifier
 
@@ -65,6 +69,8 @@ AVAILABLE COMMANDS
 
        o get-administrator-account
 
+       o get-allow-list
+
        o get-bucket-statistics
 
        o get-classification-export-configuration
@@ -87,11 +93,19 @@ AVAILABLE COMMANDS
 
        o get-member
 
+       o get-reveal-configuration
+
+       o get-sensitive-data-occurrences
+
+       o get-sensitive-data-occurrences-availability
+
        o get-usage-statistics
 
        o get-usage-totals
 
        o help
+
+       o list-allow-lists
 
        o list-classification-jobs
 
@@ -123,6 +137,8 @@ AVAILABLE COMMANDS
 
        o untag-resource
 
+       o update-allow-list
+
        o update-classification-job
 
        o update-findings-filter
@@ -132,6 +148,10 @@ AVAILABLE COMMANDS
        o update-member-session
 
        o update-organization-configuration
+
+       o update-reveal-configuration
+
+       o wait
 
 
 
