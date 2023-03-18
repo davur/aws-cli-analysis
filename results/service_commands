@@ -3220,6 +3220,7 @@ docdb restore-db-cluster-to-point-in-time
 docdb start-db-cluster
 docdb stop-db-cluster
 docdb wait
+drs create-extended-source-server
 drs create-replication-configuration-template
 drs delete-job
 drs delete-recovery-instance
@@ -3238,6 +3239,8 @@ drs get-launch-configuration
 drs get-replication-configuration
 drs help
 drs initialize-service
+drs list-extensible-source-servers
+drs list-staging-accounts
 drs list-tags-for-resource
 drs retry-data-replication
 drs start-failback-launch
