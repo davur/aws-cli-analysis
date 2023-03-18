@@ -4380,6 +4380,21 @@ emr-containers start-job-run
 emr-containers tag-resource
 emr-containers untag-resource
 emr-containers update-role-trust-policy
+emr-serverless cancel-job-run
+emr-serverless create-application
+emr-serverless delete-application
+emr-serverless get-application
+emr-serverless get-job-run
+emr-serverless help
+emr-serverless list-applications
+emr-serverless list-job-runs
+emr-serverless list-tags-for-resource
+emr-serverless start-application
+emr-serverless start-job-run
+emr-serverless stop-application
+emr-serverless tag-resource
+emr-serverless untag-resource
+emr-serverless update-application
 es accept-inbound-cross-cluster-search-connection
 es add-tags
 es associate-package
@@ -4616,6 +4631,7 @@ forecast create-explainability
 forecast create-explainability-export
 forecast create-forecast
 forecast create-forecast-export-job
+forecast create-monitor
 forecast create-predictor
 forecast create-predictor-backtest-export-job
 forecast delete-dataset
@@ -4625,6 +4641,7 @@ forecast delete-explainability
 forecast delete-explainability-export
 forecast delete-forecast
 forecast delete-forecast-export-job
+forecast delete-monitor
 forecast delete-predictor
 forecast delete-predictor-backtest-export-job
 forecast delete-resource-tree
@@ -4636,6 +4653,7 @@ forecast describe-explainability
 forecast describe-explainability-export
 forecast describe-forecast
 forecast describe-forecast-export-job
+forecast describe-monitor
 forecast describe-predictor
 forecast describe-predictor-backtest-export-job
 forecast get-accuracy-metrics
@@ -4647,9 +4665,12 @@ forecast list-explainabilities
 forecast list-explainability-exports
 forecast list-forecast-export-jobs
 forecast list-forecasts
+forecast list-monitor-evaluations
+forecast list-monitors
 forecast list-predictor-backtest-export-jobs
 forecast list-predictors
 forecast list-tags-for-resource
+forecast resume-resource
 forecast stop-resource
 forecast tag-resource
 forecast untag-resource
@@ -5280,6 +5301,7 @@ greengrassv2 create-component-version
 greengrassv2 create-deployment
 greengrassv2 delete-component
 greengrassv2 delete-core-device
+greengrassv2 delete-deployment
 greengrassv2 describe-component
 greengrassv2 disassociate-service-role-from-account
 greengrassv2 get-component
@@ -6080,6 +6102,7 @@ iotevents update-alarm-model
 iotevents update-detector-model
 iotevents update-input
 iotevents-data batch-acknowledge-alarm
+iotevents-data batch-delete-detector
 iotevents-data batch-disable-alarm
 iotevents-data batch-enable-alarm
 iotevents-data batch-put-message
@@ -8015,12 +8038,14 @@ networkmanager list-attachments
 networkmanager list-connect-peers
 networkmanager list-core-network-policy-versions
 networkmanager list-core-networks
+networkmanager list-organization-service-access-status
 networkmanager list-tags-for-resource
 networkmanager put-core-network-policy
 networkmanager put-resource-policy
 networkmanager register-transit-gateway
 networkmanager reject-attachment
 networkmanager restore-core-network-policy-version
+networkmanager start-organization-service-access-update
 networkmanager start-route-analysis
 networkmanager tag-resource
 networkmanager untag-resource
@@ -8839,6 +8864,7 @@ quicksight update-folder-permissions
 quicksight update-group
 quicksight update-iam-policy-assignment
 quicksight update-ip-restriction
+quicksight update-public-sharing-settings
 quicksight update-template
 quicksight update-template-alias
 quicksight update-template-permissions
