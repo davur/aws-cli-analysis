@@ -49,6 +49,8 @@ AVAILABLE COMMANDS
 
        o create-workspace-bundle
 
+       o create-workspace-image
+
        o create-workspaces
 
        o delete-client-branding
@@ -116,6 +118,8 @@ AVAILABLE COMMANDS
        o modify-account
 
        o modify-client-properties
+
+       o modify-saml-properties
 
        o modify-selfservice-permissions
 

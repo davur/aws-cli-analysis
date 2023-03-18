@@ -6,19 +6,39 @@ NAME
        sso-admin -
 
 DESCRIPTION
-       Amazon  Web  Services  Single Sign On (SSO) is a cloud SSO service that
-       makes it easy to centrally manage SSO access  to  multiple  Amazon  Web
-       Services accounts and business applications. This guide provides infor-
-       mation on SSO operations which could be used for access	management  of
-       Amazon Web Services accounts. For information about Amazon Web Services
-       SSO features, see the Amazon Web Services Single Sign-On User Guide .
+       AWS IAM Identity Center (successor to AWS Single Sign-On) helps you se-
+       curely create, or connect, your workforce identities and  manage  their
+       access  centrally  across  AWS  accounts and applications. IAM Identity
+       Center is the recommended approach for workforce authentication and au-
+       thorization in AWS, for organizations of any size and type.
 
-       Many operations in the SSO APIs	rely  on  identifiers  for  users  and
-       groups,	known  as  principals.	For more information about how to work
-       with principals and principal IDs in Amazon Web Services SSO,  see  the
-       Amazon Web Services SSO Identity Store API Reference .
+       NOTE:
+	  Although  AWS  Single Sign-On was renamed, the sso and identitystore
+	  API namespaces will continue to retain their original name for back-
+	  ward	compatibility purposes. For more information, see IAM Identity
+	  Center rename .
+
+       This reference guide provides information on single sign-on  operations
+       which could be used for access management of AWS accounts. For informa-
+       tion about IAM Identity Center features, see the  IAM  Identity	Center
+       User Guide .
+
+       Many operations in the IAM Identity Center APIs rely on identifiers for
+       users and groups, known as principals. For more information  about  how
+       to  work  with principals and principal IDs in IAM Identity Center, see
+       the Identity Store API Reference .
+
+       NOTE:
+	  AWS provides SDKs that consist of libraries and sample code for var-
+	  ious programming languages and platforms (Java, Ruby, .Net, iOS, An-
+	  droid, and more). The SDKs provide a convenient way to  create  pro-
+	  grammatic  access to IAM Identity Center and other AWS services. For
+	  more information about the AWS SDKs, including how to  download  and
+	  install them, see Tools for Amazon Web Services .
 
 AVAILABLE COMMANDS
+       o attach-customer-managed-policy-reference-to-permission-set
+
        o attach-managed-policy-to-permission-set
 
        o create-account-assignment
@@ -35,6 +55,8 @@ AVAILABLE COMMANDS
 
        o delete-permission-set
 
+       o delete-permissions-boundary-from-permission-set
+
        o describe-account-assignment-creation-status
 
        o describe-account-assignment-deletion-status
@@ -45,9 +67,13 @@ AVAILABLE COMMANDS
 
        o describe-permission-set-provisioning-status
 
+       o detach-customer-managed-policy-reference-from-permission-set
+
        o detach-managed-policy-from-permission-set
 
        o get-inline-policy-for-permission-set
+
+       o get-permissions-boundary-for-permission-set
 
        o help
 
@@ -58,6 +84,8 @@ AVAILABLE COMMANDS
        o list-account-assignments
 
        o list-accounts-for-provisioned-permission-set
+
+       o list-customer-managed-policy-references-in-permission-set
 
        o list-instances
 
@@ -74,6 +102,8 @@ AVAILABLE COMMANDS
        o provision-permission-set
 
        o put-inline-policy-to-permission-set
+
+       o put-permissions-boundary-to-permission-set
 
        o tag-resource
 

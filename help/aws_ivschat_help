@@ -31,6 +31,25 @@ DESCRIPTION
        o Room  The central Amazon IVS Chat resource through which clients con-
 	 nect to and exchange chat messages. See the Room endpoints  for  more
 	 information.
+	  Tagging
+
+       A  tag  is  a  metadata label that you assign to an AWS resource. A tag
+       comprises a key and a value , both set by you. For example,  you  might
+       set  a  tag  as	topic:nature to label a particular video category. See
+       Tagging AWS Resources for more information, including restrictions that
+       apply to tags and "Tag naming limits and requirements"; Amazon IVS Chat
+       has no service-specific constraints beyond what is documented there.
+
+       Tags can help you identify and organize your AWS resources.  For  exam-
+       ple,  you can use the same tag for different resources to indicate that
+       they are related. You can also use tags to manage  access  (see	Access
+       Tags ).
+
+       The Amazon IVS Chat API has these tag-related endpoints:  TagResource ,
+       UntagResource , and  ListTagsForResource . The following resource  sup-
+       ports tagging: Room.
+
+       At most 50 tags can be applied to a resource.
 	  API Access Security
 
        Your  Amazon  IVS  Chat applications (service applications and clients)
@@ -68,43 +87,49 @@ DESCRIPTION
 
        o Managing  Amazon  IVS permissions  See Identity and Access Management
 	 on the Security page of the Amazon IVS User Guide .
+	  Amazon Resource Names (ARNs)
+
+       ARNs uniquely identify AWS resources. An ARN is required when you  need
+       to  specify  a resource unambiguously across all of AWS, such as in IAM
+       policies and API calls. For more information, see Amazon Resource Names
+       in the AWS General Reference .
 	  Messaging Endpoints
 
-       o DeleteMessage	Sends an  event  to  a	specific  room	which  directs
-	 clients  to delete a specific message; that is, unrender it from view
+       o DeleteMessage	 Sends	an  event  to  a  specific  room which directs
+	 clients to delete a specific message; that is, unrender it from  view
 	 and delete it from the clients chat history. This events EventName is
-	 aws:DELETE_MESSAGE  . This replicates the DeleteMessage WebSocket op-
+	 aws:DELETE_MESSAGE . This replicates the DeleteMessage WebSocket  op-
 	 eration in the Amazon IVS Chat Messaging API.
 
        o DisconnectUser  Disconnects all connections using a specified user ID
-	 from  a  room. This replicates the DisconnectUser WebSocket operation
+	 from a room. This replicates the DisconnectUser  WebSocket  operation
 	 in the Amazon IVS Chat Messaging API.
 
-       o SendEvent  Sends an event to a room. Use this	within	your  applica-
-	 tions	business  logic  to send events to clients of a room; e.g., to
+       o SendEvent   Sends  an	event to a room. Use this within your applica-
+	 tions business logic to send events to clients of a  room;  e.g.,  to
 	 notify clients to change the way the chat UI is rendered.
 	  Chat Token Endpoint
 
        o CreateChatToken  Creates an encrypted token that is used to establish
-	 an  individual WebSocket connection to a room. The token is valid for
-	 one minute, and a connection (session) established with the token  is
+	 an individual WebSocket connection to a room. The token is valid  for
+	 one  minute, and a connection (session) established with the token is
 	 valid for the specified duration.
 	  Room Endpoints
 
-       o CreateRoom   Creates  a  room that allows clients to connect and pass
+       o CreateRoom  Creates a room that allows clients to  connect  and  pass
 	 messages.
 
        o DeleteRoom  Deletes the specified room.
 
        o GetRoom  Gets the specified room.
 
-       o ListRooms  Gets summary information about all your rooms in  the  AWS
+       o ListRooms   Gets  summary information about all your rooms in the AWS
 	 region where the API request is processed.
 
        o UpdateRoom  Updates a rooms configuration.
 	  Tags Endpoints
 
-       o ListTagsForResource   Gets  information about AWS tags for the speci-
+       o ListTagsForResource  Gets information about AWS tags for  the	speci-
 	 fied ARN.
 
        o TagResource  Adds or updates tags for the AWS resource with the spec-
@@ -112,7 +137,7 @@ DESCRIPTION
 
        o UntagResource	Removes tags from the resource with the specified ARN.
 
-       All  the  above	are HTTP operations. There is a separate messaging API
+       All the above are HTTP operations. There is a  separate	messaging  API
        for managing Chat resources; see the Amazon IVS Chat Messaging API Ref-
        erence .
 

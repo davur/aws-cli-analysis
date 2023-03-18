@@ -6,25 +6,29 @@ NAME
        sso -
 
 DESCRIPTION
-       AWS  Single  Sign-On Portal is a web service that makes it easy for you
-       to assign user access to AWS SSO resources such	as  the  user  portal.
-       Users  can  get AWS account applications and roles assigned to them and
-       get federated into the application.
+       AWS  IAM  Identity Center (successor to AWS Single Sign-On) Portal is a
+       web service that makes it easy for you to assign  user  access  to  IAM
+       Identity  Center resources such as the AWS access portal. Users can get
+       AWS account applications and roles assigned to them and	get  federated
+       into the application.
 
-       For general information about AWS SSO, see What is AWS Single  Sign-On?
-       in the AWS SSO User Guide .
+       NOTE:
+	  Although  AWS  Single Sign-On was renamed, the sso and identitystore
+	  API namespaces will continue to retain their original name for back-
+	  ward	compatibility purposes. For more information, see IAM Identity
+	  Center rename .
 
-       This  API  reference guide describes the AWS SSO Portal operations that
-       you can call programatically and includes detailed information on  data
-       types and errors.
+       This reference guide describes the IAM Identity	Center	Portal	opera-
+       tions  that you can call programatically and includes detailed informa-
+       tion on data types and errors.
 
        NOTE:
 	  AWS provides SDKs that consist of libraries and sample code for var-
-	  ious programming languages and platforms, such as Java, Ruby,  .Net,
-	  iOS,	or  Android.  The SDKs provide a convenient way to create pro-
-	  grammatic access to AWS SSO and other AWS services. For more	infor-
-	  mation  about  the  AWS  SDKs, including how to download and install
-	  them, see Tools for Amazon Web Services .
+	  ious	programming languages and platforms, such as Java, Ruby, .Net,
+	  iOS, or Android. The SDKs provide a convenient way  to  create  pro-
+	  grammatic  access to IAM Identity Center and other AWS services. For
+	  more information about the AWS SDKs, including how to  download  and
+	  install them, see Tools for Amazon Web Services .
 
 AVAILABLE COMMANDS
        o get-role-credentials

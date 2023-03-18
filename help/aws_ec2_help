@@ -74,6 +74,8 @@ AVAILABLE COMMANDS
 
        o associate-transit-gateway-multicast-domain
 
+       o associate-transit-gateway-policy-table
+
        o associate-transit-gateway-route-table
 
        o associate-trunk-interface
@@ -134,6 +136,10 @@ AVAILABLE COMMANDS
 
        o create-client-vpn-route
 
+       o create-coip-cidr
+
+       o create-coip-pool
+
        o create-customer-gateway
 
        o create-default-subnet
@@ -171,6 +177,10 @@ AVAILABLE COMMANDS
        o create-launch-template-version
 
        o create-local-gateway-route
+
+       o create-local-gateway-route-table
+
+       o create-local-gateway-route-table-virtual-interface-group-association
 
        o create-local-gateway-route-table-vpc-association
 
@@ -238,11 +248,15 @@ AVAILABLE COMMANDS
 
        o create-transit-gateway-peering-attachment
 
+       o create-transit-gateway-policy-table
+
        o create-transit-gateway-prefix-list-reference
 
        o create-transit-gateway-route
 
        o create-transit-gateway-route-table
+
+       o create-transit-gateway-route-table-announcement
 
        o create-transit-gateway-vpc-attachment
 
@@ -269,6 +283,10 @@ AVAILABLE COMMANDS
        o delete-client-vpn-endpoint
 
        o delete-client-vpn-route
+
+       o delete-coip-cidr
+
+       o delete-coip-pool
 
        o delete-customer-gateway
 
@@ -299,6 +317,10 @@ AVAILABLE COMMANDS
        o delete-launch-template-versions
 
        o delete-local-gateway-route
+
+       o delete-local-gateway-route-table
+
+       o delete-local-gateway-route-table-virtual-interface-group-association
 
        o delete-local-gateway-route-table-vpc-association
 
@@ -362,11 +384,15 @@ AVAILABLE COMMANDS
 
        o delete-transit-gateway-peering-attachment
 
+       o delete-transit-gateway-policy-table
+
        o delete-transit-gateway-prefix-list-reference
 
        o delete-transit-gateway-route
 
        o delete-transit-gateway-route-table
+
+       o delete-transit-gateway-route-table-announcement
 
        o delete-transit-gateway-vpc-attachment
 
@@ -627,6 +653,10 @@ AVAILABLE COMMANDS
 
        o describe-transit-gateway-peering-attachments
 
+       o describe-transit-gateway-policy-tables
+
+       o describe-transit-gateway-route-table-announcements
+
        o describe-transit-gateway-route-tables
 
        o describe-transit-gateway-vpc-attachments
@@ -714,6 +744,8 @@ AVAILABLE COMMANDS
        o disassociate-subnet-cidr-block
 
        o disassociate-transit-gateway-multicast-domain
+
+       o disassociate-transit-gateway-policy-table
 
        o disassociate-transit-gateway-route-table
 
@@ -811,6 +843,10 @@ AVAILABLE COMMANDS
 
        o get-transit-gateway-multicast-domain-associations
 
+       o get-transit-gateway-policy-table-associations
+
+       o get-transit-gateway-policy-table-entries
+
        o get-transit-gateway-prefix-list-references
 
        o get-transit-gateway-route-table-associations
@@ -886,6 +922,8 @@ AVAILABLE COMMANDS
        o modify-ipam-scope
 
        o modify-launch-template
+
+       o modify-local-gateway-route
 
        o modify-managed-prefix-list
 

@@ -33,11 +33,7 @@ DESCRIPTION
        list  ,	update and delete API operations and the service instance list
        and update API operations.
 
-       To learn more about Proton administration, see the Proton Administrator
-       Guide .
-
-       To learn more about deploying serverless and containerized applications
-       on Proton, see the Proton User Guide .
+       To learn more about Proton, see the Proton User Guide .
 	  Ensuring Idempotency
 
        When you make a mutating API request, the request typically  returns  a
@@ -160,11 +156,15 @@ DESCRIPTION
 AVAILABLE COMMANDS
        o accept-environment-account-connection
 
+       o cancel-component-deployment
+
        o cancel-environment-deployment
 
        o cancel-service-instance-deployment
 
        o cancel-service-pipeline-deployment
+
+       o create-component
 
        o create-environment
 
@@ -183,6 +183,8 @@ AVAILABLE COMMANDS
        o create-service-template-version
 
        o create-template-sync-config
+
+       o delete-component
 
        o delete-environment
 
@@ -203,6 +205,8 @@ AVAILABLE COMMANDS
        o delete-template-sync-config
 
        o get-account-settings
+
+       o get-component
 
        o get-environment
 
@@ -229,6 +233,12 @@ AVAILABLE COMMANDS
        o get-template-sync-status
 
        o help
+
+       o list-component-outputs
+
+       o list-component-provisioned-resources
+
+       o list-components
 
        o list-environment-account-connections
 
@@ -273,6 +283,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-account-settings
+
+       o update-component
 
        o update-environment
 

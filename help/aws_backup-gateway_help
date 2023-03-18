@@ -33,6 +33,10 @@ AVAILABLE COMMANDS
 
        o disassociate-gateway-from-server
 
+       o get-gateway
+
+       o get-virtual-machine
+
        o help
 
        o import-hypervisor-configuration
@@ -54,6 +58,8 @@ AVAILABLE COMMANDS
        o untag-resource
 
        o update-gateway-information
+
+       o update-gateway-software-now
 
        o update-hypervisor
 

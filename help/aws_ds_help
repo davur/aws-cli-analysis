@@ -82,11 +82,15 @@ AVAILABLE COMMANDS
 
        o describe-regions
 
+       o describe-settings
+
        o describe-shared-directories
 
        o describe-snapshots
 
        o describe-trusts
+
+       o describe-update-directory
 
        o disable-client-authentication
 
@@ -144,9 +148,13 @@ AVAILABLE COMMANDS
 
        o update-conditional-forwarder
 
+       o update-directory-setup
+
        o update-number-of-domain-controllers
 
        o update-radius
+
+       o update-settings
 
        o update-trust
 
