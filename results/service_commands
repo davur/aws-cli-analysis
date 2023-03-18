@@ -5164,7 +5164,9 @@ glue update-user-defined-function
 glue update-workflow
 grafana associate-license
 grafana create-workspace
+grafana create-workspace-api-key
 grafana delete-workspace
+grafana delete-workspace-api-key
 grafana describe-workspace
 grafana describe-workspace-authentication
 grafana disassociate-license
