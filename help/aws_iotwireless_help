@@ -77,11 +77,15 @@ AVAILABLE COMMANDS
 
        o delete-wireless-device
 
+       o delete-wireless-device-import-task
+
        o delete-wireless-gateway
 
        o delete-wireless-gateway-task
 
        o delete-wireless-gateway-task-definition
+
+       o deregister-wireless-device
 
        o disassociate-aws-account-from-partner-account
 
@@ -115,19 +119,21 @@ AVAILABLE COMMANDS
 
        o get-partner-account
 
-       o get-position
-
-       o get-position-configuration
+       o get-position-estimate
 
        o get-resource-event-configuration
 
        o get-resource-log-level
+
+       o get-resource-position
 
        o get-service-endpoint
 
        o get-service-profile
 
        o get-wireless-device
+
+       o get-wireless-device-import-task
 
        o get-wireless-device-statistics
 
@@ -149,6 +155,8 @@ AVAILABLE COMMANDS
 
        o list-device-profiles
 
+       o list-devices-for-wireless-device-import-task
+
        o list-event-configurations
 
        o list-fuota-tasks
@@ -161,21 +169,19 @@ AVAILABLE COMMANDS
 
        o list-partner-accounts
 
-       o list-position-configurations
-
        o list-queued-messages
 
        o list-service-profiles
 
        o list-tags-for-resource
 
+       o list-wireless-device-import-tasks
+
        o list-wireless-devices
 
        o list-wireless-gateway-task-definitions
 
        o list-wireless-gateways
-
-       o put-position-configuration
 
        o put-resource-log-level
 
@@ -194,6 +200,10 @@ AVAILABLE COMMANDS
        o start-fuota-task
 
        o start-multicast-group-session
+
+       o start-single-wireless-device-import-task
+
+       o start-wireless-device-import-task
 
        o tag-resource
 
@@ -215,11 +225,13 @@ AVAILABLE COMMANDS
 
        o update-partner-account
 
-       o update-position
-
        o update-resource-event-configuration
 
+       o update-resource-position
+
        o update-wireless-device
+
+       o update-wireless-device-import-task
 
        o update-wireless-gateway
 

@@ -34,6 +34,8 @@ AVAILABLE COMMANDS
 
        o delete-bucket-policy
 
+       o delete-bucket-replication
+
        o delete-bucket-tagging
 
        o delete-job-tagging
@@ -70,6 +72,8 @@ AVAILABLE COMMANDS
 
        o get-bucket-policy
 
+       o get-bucket-replication
+
        o get-bucket-tagging
 
        o get-bucket-versioning
@@ -81,6 +85,8 @@ AVAILABLE COMMANDS
        o get-multi-region-access-point-policy
 
        o get-multi-region-access-point-policy-status
+
+       o get-multi-region-access-point-routes
 
        o get-public-access-block
 
@@ -112,6 +118,8 @@ AVAILABLE COMMANDS
 
        o put-bucket-policy
 
+       o put-bucket-replication
+
        o put-bucket-tagging
 
        o put-bucket-versioning
@@ -125,6 +133,8 @@ AVAILABLE COMMANDS
        o put-storage-lens-configuration
 
        o put-storage-lens-configuration-tagging
+
+       o submit-multi-region-access-point-routes
 
        o update-job-priority
 

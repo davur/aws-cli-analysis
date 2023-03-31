@@ -141,6 +141,8 @@ AVAILABLE SERVICES
 
        o appsync
 
+       o arc-zonal-shift
+
        o athena
 
        o auditmanager
@@ -175,6 +177,10 @@ AVAILABLE SERVICES
 
        o chime-sdk-messaging
 
+       o chime-sdk-voice
+
+       o cleanrooms
+
        o cloud9
 
        o cloudcontrol
@@ -195,11 +201,15 @@ AVAILABLE SERVICES
 
        o cloudtrail
 
+       o cloudtrail-data
+
        o cloudwatch
 
        o codeartifact
 
        o codebuild
+
+       o codecatalyst
 
        o codecommit
 
@@ -274,6 +284,8 @@ AVAILABLE SERVICES
        o dms
 
        o docdb
+
+       o docdb-elastic
 
        o drs
 
@@ -383,11 +395,15 @@ AVAILABLE SERVICES
 
        o inspector2
 
+       o internetmonitor
+
        o iot
 
        o iot-data
 
        o iot-jobs-data
+
+       o iot-roborunner
 
        o iot1click-devices
 
@@ -417,6 +433,8 @@ AVAILABLE SERVICES
 
        o ivs
 
+       o ivs-realtime
+
        o ivschat
 
        o kafka
@@ -424,6 +442,8 @@ AVAILABLE SERVICES
        o kafkaconnect
 
        o kendra
+
+       o kendra-ranking
 
        o keyspaces
 
@@ -434,6 +454,8 @@ AVAILABLE SERVICES
        o kinesis-video-media
 
        o kinesis-video-signaling
+
+       o kinesis-video-webrtc-storage
 
        o kinesisanalytics
 
@@ -456,6 +478,8 @@ AVAILABLE SERVICES
        o lexv2-runtime
 
        o license-manager
+
+       o license-manager-linux-subscriptions
 
        o license-manager-user-subscriptions
 
@@ -535,7 +559,13 @@ AVAILABLE SERVICES
 
        o nimble
 
+       o oam
+
+       o omics
+
        o opensearch
+
+       o opensearchserverless
 
        o opsworks
 
@@ -562,6 +592,8 @@ AVAILABLE SERVICES
        o pinpoint-sms-voice
 
        o pinpoint-sms-voice-v2
+
+       o pipes
 
        o polly
 
@@ -594,6 +626,8 @@ AVAILABLE SERVICES
        o rekognition
 
        o resiliencehub
+
+       o resource-explorer-2
 
        o resource-groups
 
@@ -633,9 +667,15 @@ AVAILABLE SERVICES
 
        o sagemaker-featurestore-runtime
 
+       o sagemaker-geospatial
+
+       o sagemaker-metrics
+
        o sagemaker-runtime
 
        o savingsplans
+
+       o scheduler
 
        o schemas
 
@@ -644,6 +684,8 @@ AVAILABLE SERVICES
        o secretsmanager
 
        o securityhub
+
+       o securitylake
 
        o serverlessrepo
 
@@ -663,6 +705,8 @@ AVAILABLE SERVICES
 
        o signer
 
+       o simspaceweaver
+
        o sms
 
        o snow-device-management
@@ -678,6 +722,8 @@ AVAILABLE SERVICES
        o ssm-contacts
 
        o ssm-incidents
+
+       o ssm-sap
 
        o sso
 
@@ -705,6 +751,8 @@ AVAILABLE SERVICES
 
        o timestream-write
 
+       o tnb
+
        o transcribe
 
        o transfer
@@ -712,6 +760,8 @@ AVAILABLE SERVICES
        o translate
 
        o voice-id
+
+       o vpc-lattice
 
        o waf
 

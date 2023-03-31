@@ -15,7 +15,13 @@ AVAILABLE COMMANDS
 
        o delete-stream
 
+       o describe-edge-configuration
+
        o describe-image-generation-configuration
+
+       o describe-mapped-resource-configuration
+
+       o describe-media-storage-configuration
 
        o describe-notification-configuration
 
@@ -37,6 +43,8 @@ AVAILABLE COMMANDS
 
        o list-tags-for-stream
 
+       o start-edge-configuration-update
+
        o tag-resource
 
        o tag-stream
@@ -48,6 +56,8 @@ AVAILABLE COMMANDS
        o update-data-retention
 
        o update-image-generation-configuration
+
+       o update-media-storage-configuration
 
        o update-notification-configuration
 
