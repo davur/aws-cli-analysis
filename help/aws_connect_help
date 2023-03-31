@@ -23,9 +23,6 @@ DESCRIPTION
        using  an  endpoint. For a list of Amazon Connect endpoints, see Amazon
        Connect Endpoints .
 
-       NOTE:
-	  Working with flows? Check out the Amazon Connect Flow language .
-
 AVAILABLE COMMANDS
        o associate-approved-origin
 
@@ -67,6 +64,8 @@ AVAILABLE COMMANDS
 
        o create-routing-profile
 
+       o create-rule
+
        o create-security-profile
 
        o create-task-template
@@ -92,6 +91,8 @@ AVAILABLE COMMANDS
        o delete-integration-association
 
        o delete-quick-connect
+
+       o delete-rule
 
        o delete-security-profile
 
@@ -130,6 +131,8 @@ AVAILABLE COMMANDS
        o describe-quick-connect
 
        o describe-routing-profile
+
+       o describe-rule
 
        o describe-security-profile
 
@@ -172,6 +175,8 @@ AVAILABLE COMMANDS
        o get-federation-token
 
        o get-metric-data
+
+       o get-metric-data-v2
 
        o get-task-template
 
@@ -223,6 +228,8 @@ AVAILABLE COMMANDS
 
        o list-routing-profiles
 
+       o list-rules
+
        o list-security-keys
 
        o list-security-profile-permissions
@@ -240,6 +247,8 @@ AVAILABLE COMMANDS
        o list-user-hierarchy-groups
 
        o list-users
+
+       o monitor-contact
 
        o put-user-status
 
@@ -309,6 +318,8 @@ AVAILABLE COMMANDS
 
        o update-instance-storage-config
 
+       o update-participant-role-config
+
        o update-phone-number
 
        o update-queue-hours-of-operation
@@ -332,6 +343,8 @@ AVAILABLE COMMANDS
        o update-routing-profile-name
 
        o update-routing-profile-queues
+
+       o update-rule
 
        o update-security-profile
 

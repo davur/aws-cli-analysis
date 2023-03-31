@@ -44,6 +44,8 @@ AVAILABLE COMMANDS
 
        o delete-service
 
+       o delete-task-definitions
+
        o delete-task-set
 
        o deploy
@@ -70,6 +72,8 @@ AVAILABLE COMMANDS
 
        o execute-command
 
+       o get-task-protection
+
        o help
 
        o list-account-settings
@@ -81,6 +85,8 @@ AVAILABLE COMMANDS
        o list-container-instances
 
        o list-services
+
+       o list-services-by-namespace
 
        o list-tags-for-resource
 
@@ -131,6 +137,8 @@ AVAILABLE COMMANDS
        o update-service
 
        o update-service-primary-task-set
+
+       o update-task-protection
 
        o update-task-set
 
